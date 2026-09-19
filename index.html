@@ -1,17 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fa" dir="rtl">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#07111f">
-<title>گارد جاویدان | Immortal Guard</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07111f">
+<title>گارد جاویدان — Immortal Guard X</title>
 <style>
-:root{--bg:#07111f;--panel:#101e30;--line:#24364c;--gold:#e7bd68;--text:#f4f6fa;--muted:#9aacc1;--green:#62d6a2}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#172c42 0%,var(--bg) 55%);color:var(--text);font-family:Tahoma,Arial,sans-serif;min-height:100vh}header{padding:22px 5%;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}.brand{font-size:22px;font-weight:bold;color:var(--gold)}.brand small{display:block;font-size:11px;color:var(--muted);margin-top:7px;letter-spacing:1px}.pill{border:1px solid #3d604f;color:var(--green);padding:8px 12px;border-radius:30px;font-size:12px}main{max-width:1100px;margin:auto;padding:30px 18px}.hero{padding:28px 0 24px}h1{font-size:clamp(27px,5vw,43px);line-height:1.5;margin:0 0 10px}h1 span{color:var(--gold)}p{line-height:1.9;color:var(--muted)}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:20px 0 30px}.stat,.panel,.op{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:18px}.stat b{font-size:24px;color:var(--gold);display:block;margin-bottom:8px}.stat span{font-size:12px;color:var(--muted)}.section-title{font-size:20px;margin:28px 0 15px}.controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}input,select,button{font:inherit;border-radius:10px;padding:12px;background:#0a1727;color:var(--text);border:1px solid var(--line)}input{flex:1;min-width:150px}button{cursor:pointer}button.primary{background:var(--gold);color:#17130a;border:0;font-weight:bold}.opportunities{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:13px}.tag{display:inline-block;border:1px solid #3a4b60;color:#c1d0e1;padding:5px 9px;border-radius:20px;font-size:11px;margin:3px}.warning{border:1px solid #6b5530;background:#292317;color:#f0d59d;border-radius:12px;padding:13px;font-size:12px;line-height:1.9;margin:15px 0}.op h3{margin:10px 0;font-size:17px}.op p{font-size:13px}.op .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.op .actions button{font-size:12px;padding:9px}.empty{color:var(--muted);padding:20px}footer{border-top:1px solid var(--line);padding:25px 5%;font-size:12px;color:var(--muted);line-height:2}@media(max-width:600px){.stats{grid-template-columns:1fr}header{padding:18px}}
-</style></head><body>
-<header><div class="brand">𓃭 گارد جاویدان<small>IMMORTAL GUARD · OPPORTUNITY INTELLIGENCE</small></div><span class="pill">● نسخه اولیه · مستقل</span></header>
-<main><section class="hero"><span class="tag">TON · AIRDROP · REWARDS</span><h1>فرصت‌ها رو پیدا کن؛<br><span>هوشمندانه پیگیری کن.</span></h1><p>مرکز رصد فرصت‌های کریپتو، ایردراپ‌ها و پاداش‌ها؛ با تمرکز بر بررسی منبع، مدیریت ریسک و پیگیری شخصی.</p><div class="warning">⚠️ این نسخه هنوز به فید زنده فرصت‌ها وصل نیست. هیچ پاداشی تضمین‌شده نیست. قبل از اتصال کیف پول یا پرداخت، منبع رسمی و شرایط را بررسی کن.</div></section>
-<section class="stats"><div class="stat"><b id="total">۰</b><span>فرصت‌های ثبت‌شده</span></div><div class="stat"><b id="tracked">۰</b><span>فرصت‌های پیگیری‌شده</span></div><div class="stat"><b id="done">۰</b><span>موارد تکمیل‌شده</span></div></section>
-<h2 class="section-title">رادار فرصت‌ها</h2><div class="controls"><input id="search" placeholder="جست‌وجوی نام یا شبکه..."><select id="filter"><option value="all">همه وضعیت‌ها</option><option value="review">نیازمند بررسی</option><option value="tracked">در حال پیگیری</option><option value="done">تکمیل‌شده</option></select><select id="network"><option value="all">همه شبکه‌ها</option><option value="TON">TON</option><option value="Other">سایر</option></select></div><div id="opportunities" class="opportunities"></div>
-<h2 class="section-title">ثبت فرصت جدید</h2><div class="panel"><p>فرصتی که از منبع رسمی پیدا کردی، برای پیگیری شخصی اضافه کن.</p><div class="controls"><input id="newName" placeholder="نام فرصت"><select id="newNetwork"><option value="TON">TON</option><option value="Other">سایر شبکه‌ها</option></select></div><div class="controls"><input id="newUrl" placeholder="لینک منبع رسمی (https://...)"><button class="primary" onclick="addOpportunity()">افزودن فرصت</button></div><small style="color:#9aacc1">اطلاعات در همین مرورگر ذخیره می‌شود؛ هنوز همگام‌سازی ابری فعال نیست.</small></div></main>
-<footer>IMMORTAL GUARD · گارد جاویدان<br>امنیت در اولویت است: عبارت بازیابی (Seed Phrase) یا کلید خصوصی خود را در هیچ فرم یا سایتی وارد نکنید. این نسخه هیچ کیف پولی را به‌صورت خودکار متصل نمی‌کند.</footer>
+:root{--bg:#050b14;--p:#0b1625;--p2:#101f31;--line:#20334a;--gold:#e8bd68;--text:#f6f7fb;--muted:#9cafc4;--ok:#62d6a2;--bad:#ff7b7b;--blue:#70b8ff}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% -10%,#173653 0,#081321 42%,#050b14 75%);color:var(--text);font-family:Tahoma,Arial,sans-serif;min-height:100vh}
+header{position:sticky;top:0;z-index:5;background:#07111fee;backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding:15px 4%;display:flex;justify-content:space-between;align-items:center;gap:15px}.brand{font-size:21px;font-weight:800;color:var(--gold)}.brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:1px;margin-top:5px}.live{padding:7px 11px;border:1px solid #315641;border-radius:30px;color:var(--ok);font-size:11px}
+main{max-width:1180px;margin:auto;padding:28px 16px 50px}.hero{padding:18px 0 10px}.eyebrow{color:var(--gold);font-size:11px;letter-spacing:1.4px}.hero h1{font-size:clamp(29px,6vw,52px);line-height:1.45;margin:9px 0}.hero h1 span{color:var(--gold)}.hero p{max-width:850px;color:var(--muted);line-height:2}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:20px 0}.card{background:linear-gradient(145deg,#102033,#091522);border:1px solid var(--line);border-radius:17px;padding:17px;box-shadow:0 10px 35px #0003}.metric b{font-size:26px;color:var(--gold);display:block}.metric span{font-size:11px;color:var(--muted)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0}.tabs button,.btn{background:#0b1828;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px 13px;cursor:pointer}.tabs button.active,.btn.primary{background:var(--gold);color:#171208;border-color:var(--gold);font-weight:800}
+h2{font-size:20px;margin:28px 0 13px}.notice{border:1px solid #65502c;background:#211b11;color:#ecd59f;padding:13px;border-radius:13px;font-size:12px;line-height:1.9}
+.controls{display:flex;gap:9px;flex-wrap:wrap;margin:12px 0}input,select{background:#081421;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:11px;font:inherit;min-width:145px}input{flex:1}
+.opps{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:12px}.opp h3{margin:9px 0}.opp p{font-size:12px;color:var(--muted);line-height:1.8}.chips{display:flex;gap:5px;flex-wrap:wrap}.chip{font-size:10px;border:1px solid #30455e;color:#b9cbe0;border-radius:20px;padding:4px 8px}.score{font-size:25px;color:var(--ok);font-weight:800}.risk{color:var(--bad)}.opp a{color:var(--gold);font-size:12px}.actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.mission{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center}.mission strong{display:block;margin-bottom:5px}.mission small{color:var(--muted);line-height:1.7}
+.hidden{display:none}.footer{border-top:1px solid var(--line);margin-top:35px;padding-top:22px;color:var(--muted);font-size:11px;line-height:2.1}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.grid{grid-template-columns:1fr 1fr}.mission{grid-template-columns:1fr}.hero h1{font-size:31px}}
+</style></head>
+<body>
+<header><div class="brand">𓃭 گارد جاویدان<small>IMMORTAL GUARD X · LEGAL REWARD INTELLIGENCE</small></div><span class="live">● موتور ایمنی فعال</span></header>
+<main>
+<section class="hero">
+<div class="eyebrow">فراتر از لیست ایردراپ‌ها</div>
+<h1>فرصت را پیدا کن؛<br><span>اول ثابتش کن، بعد دنبالش برو.</span></h1>
+<p>نسخه جدید گارد جاویدان فقط فهرست ایردراپ نیست. یک موتور «اثبات فرصت» است: منبع رسمی، ریسک، شرایط، مسیر اقدام، مهلت و وضعیت Claim را کنار هم می‌گذارد تا کاربر فقط سراغ فرصت‌هایی برود که قابل بررسی‌اند.</p>
+</section>
+
+<div class="grid">
+<div class="card metric"><b id="verified">۳</b><span>فرصت‌های نمونه برای بررسی</span></div>
+<div class="card metric"><b id="tracked">۰</b><span>ماموریت‌های شخصی</span></div>
+<div class="card metric"><b id="safe">۱۰۰٪</b><span>بدون Seed / Private Key</span></div>
+<div class="card metric"><b id="points">۰</b><span>امتیاز اعتبار کاربر</span></div>
+</div>
+
+<div class="notice">⚠️ گارد جاویدان پول یا توکن تضمین نمی‌کند. «امتیاز» این نسخه پول نیست. هیچ Seed Phrase، Private Key یا امضای خودکار دریافت نمی‌شود. برای Claim فقط به منبع رسمی هدایت می‌شوی. هشدارهای امنیتی بر اساس شواهد موجود هستند، نه تضمین.</div>
+
+<div class="tabs">
+<button class="active" onclick="tab('radar',this)">رادار فرصت</button>
+<button onclick="tab('missions',this)">ماموریت‌ها</button>
+<button onclick="tab('engine',this)">موتور ایده</button>
+<button onclick="tab('safety',this)">دروازه امنیت</button>
+</div>
+
+<section id="radar">
+<h2>رادار «Opportunity Genome»</h2>
+<div class="controls"><input id="search" placeholder="نام، شبکه یا نوع پاداش..."><select id="filter"><option value="all">همه</option><option value="high">امتیاز بالا</option><option value="lowrisk">ریسک پایین‌تر</option><option value="ton">TON</option></select></div>
+<div id="opps" class="opps"></div>
+</section>
+
+<section id="missions" class="hidden">
+<h2>ماموریت‌های قابل انجام</h2>
+<div class="card mission"><div><strong>🔎 منبع را دو بار تأیید کن</strong><small>دامنه رسمی و صفحه اعلام فرصت را مستقل بررسی کن.</small></div><button class="btn" onclick="complete(5)">+۵</button></div>
+<br><div class="card mission"><div><strong>🧾 شرایط Claim را ثبت کن</strong><small>شبکه، تاریخ پایان، حداقل شرایط و نوع پاداش را یادداشت کن.</small></div><button class="btn" onclick="complete(7)">+۷</button></div>
+<br><div class="card mission"><div><strong>🛡️ تست امنیت قبل از اتصال</strong><small>اگر سایت Seed Phrase، Private Key یا پرداخت اجباری خواست، متوقف شو.</small></div><button class="btn" onclick="complete(10)">+۱۰</button></div>
+<br><div class="card mission"><div><strong>📚 گزارش فرصت برای جامعه</strong><small>یک گزارش مستند از منبع، ریسک و وضعیت تهیه کن؛ بدون اسپم و Sybil.</small></div><button class="btn" onclick="complete(15)">+۱۵</button></div>
+</section>
+
+<section id="engine" class="hidden">
+<h2>ایده اختصاصی گارد: «Proof-of-Opportunity»</h2>
+<div class="card">
+<p style="color:var(--muted);line-height:2">به‌جای اینکه فقط بگوییم «این ایردراپ را انجام بده»، هر فرصت یک شناسنامه چندلایه می‌گیرد: <b>منبع رسمی → شواهد → شرایط → ریسک → مهلت → مسیر Claim → نتیجه</b>.</p>
+<p style="color:var(--muted);line-height:2">بعد موتور می‌تواند فرصت‌های تکراری را ادغام کند، لینک‌های مشکوک را کنار بگذارد، تغییر شرایط را علامت بزند و برای هر کاربر یک «صف اقدام» بسازد. این طراحی قرار است هسته اصلی گارد باشد، نه صرفاً یک لیست.</p>
+</div>
+<h2>«Reward Graph» — جمع‌آوری قانونی بدون فارمینگ</h2>
+<div class="card">
+<p style="color:var(--muted);line-height:2">هر کاربر به‌جای ساخت صدها هویت، یک مسیر شفاف از فعالیت‌های واقعی دارد: استفاده واقعی از محصول، تست‌نت رسمی، گزارش باگ، مشارکت مستند، برنامه‌های Ambassador/Bounty و کمپین‌های رسمی. گارد فقط فرصت‌های اعلام‌شده و قابل‌ردیابی را نشان می‌دهد و برای دور زدن محدودیت‌ها یا ساخت هویت جعلی ابزار نمی‌دهد.</p>
+</div>
+</section>
+
+<section id="safety" class="hidden">
+<h2>دروازه امنیتی قبل از هر Claim</h2>
+<div class="opps">
+<div class="card"><span class="chip">BLOCK</span><h3>Seed Phrase</h3><p>هر صفحه‌ای که عبارت بازیابی یا Private Key بخواهد، از مسیر Claim حذف می‌شود.</p></div>
+<div class="card"><span class="chip">BLOCK</span><h3>پرداخت برای جایزه</h3><p>درخواست پول برای آزاد کردن جایزه، هشدار قرمز است؛ وعده جایزه و درخواست پرداخت از الگوهای شناخته‌شده کلاهبرداری است.</p></div>
+<div class="card"><span class="chip">CHECK</span><h3>دامنه و قرارداد</h3><p>دامنه رسمی، قرارداد، شبکه، تاریخ و اطلاعیه پروژه باید جداگانه بررسی شوند.</p></div>
+</div>
+</section>
+
+<div class="footer">IMMORTAL GUARD X · این ابزار ردیاب و تحلیل فرصت است، نه صرافی و نه تضمین درآمد. هیچ کلید خصوصی ذخیره نمی‌شود. برای هر فرصت واقعی، فقط اطلاعات منتشرشده توسط پروژه یا منبع رسمی مبنای تصمیم‌گیری است.</div>
+</main>
 <script>
-const initial=[{id:1,name:"بررسی فرصت‌های رسمی TON",network:"TON",url:"https://ton.org",status:"review"},{id:2,name:"بررسی اکوسیستم و اپلیکیشن‌ها",network:"TON",url:"https://www.ton.org",status:"review"},{id:3,name:"بررسی کمپین‌های رسمی کریپتو",network:"Other",url:"https://ethereum.org",status:"review"}];let items;try{items=JSON.parse(localStorage.getItem("ig_opportunities"))||initial}catch(e){items=initial}const faNum=n=>String(n).replace(/\d/g,d=>"۰۱۲۳۴۵۶۷۸۹"[d]);const statusText={review:"نیازمند بررسی",tracked:"در حال پیگیری",done:"تکمیل‌شده"};function save(){localStorage.setItem("ig_opportunities",JSON.stringify(items));render()}function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}function safeUrl(s){try{let u=new URL(s);return u.protocol==="https:"?esc(u.href):"#"}catch(e){return "#"}}function render(){let q=document.getElementById("search").value.toLowerCase(),f=document.getElementById("filter").value,net=document.getElementById("network").value;document.getElementById("total").textContent=faNum(items.length);document.getElementById("tracked").textContent=faNum(items.filter(x=>x.status==="tracked").length);document.getElementById("done").textContent=faNum(items.filter(x=>x.status==="done").length);let filtered=items.filter(x=>(x.name+" "+x.network).toLowerCase().includes(q)&&(f==="all"||x.status===f)&&(net==="all"||x.network===net));let root=document.getElementById("opportunities");if(!filtered.length){root.innerHTML='<div class="empty">موردی پیدا نشد.</div>';return}root.innerHTML=filtered.map(x=>`<article class="op"><span class="tag">${esc(x.network)}</span><span class="tag">${statusText[x.status]}</span><h3>${esc(x.name)}</h3><p>وضعیت منبع: هنوز به‌صورت مستقل تأیید نشده است. شرایط و ریسک را قبل از اقدام بررسی کن.</p><a href="${safeUrl(x.url)}" target="_blank" rel="noopener noreferrer" style="color:#e7bd68;font-size:12px">مشاهده منبع ↗</a><div class="actions"><button onclick="setStatus(${x.id},'tracked')">پیگیری</button><button onclick="setStatus(${x.id},'done')">تکمیل شد</button><button onclick="removeItem(${x.id})">حذف</button></div></article>`).join("")}function setStatus(id,status){items=items.map(x=>x.id===id?{...x,status}:x);save()}function removeItem(id){items=items.filter(x=>x.id!==id);save()}function addOpportunity(){let name=document.getElementById("newName").value.trim(),url=document.getElementById("newUrl").value.trim(),network=document.getElementById("newNetwork").value;if(!name||!url){alert("نام و لینک منبع را وارد کن.");return}try{if(new URL(url).protocol!=="https:")throw 0}catch(e){alert("لطفاً لینک معتبر HTTPS وارد کن.");return}items.unshift({id:Date.now(),name,network,url,status:"review"});document.getElementById("newName").value="";document.getElementById("newUrl").value="";save()}document.getElementById("search").addEventListener("input",render);document.getElementById("filter").addEventListener("change",render);document.getElementById("network").addEventListener("change",render);render();
-</script></body></html>
+const data=[
+{id:1,name:'اکوسیستم TON — فرصت‌های رسمی',net:'TON',score:86,risk:'پایین‌تر',type:'اکوسیستم / برنامه رسمی',url:'https://ton.org'},
+{id:2,name:'Ethereum — برنامه‌های رسمی و اکوسیستم',net:'ETH',score:82,risk:'نیازمند بررسی',type:'اکوسیستم / مشارکت',url:'https://ethereum.org'},
+{id:3,name:'فرصت‌های Bounty و Bug Bounty',net:'Other',score:78,risk:'نیازمند بررسی',type:'Bounty / گزارش باگ',url:'https://hackerone.com'}
+];
+let missions=Number(localStorage.ig_missions||0),points=Number(localStorage.ig_points||0);
+function fa(n){return String(n).replace(/\d/g,x=>'۰۱۲۳۴۵۶۷۸۹'[x])}
+function render(){let q=(document.getElementById('search').value||'').toLowerCase(),f=document.getElementById('filter').value;
+let arr=data.filter(x=>(x.name+' '+x.net+' '+x.type).toLowerCase().includes(q)&&
+(f==='all'||(f==='high'&&x.score>=85)||(f==='lowrisk'&&x.risk==='پایین‌تر')||(f==='ton'&&x.net==='TON')));
+document.getElementById('opps').innerHTML=arr.map(x=>'<article class="card opp"><div class="chips"><span class="chip">'+x.net+'</span><span class="chip">'+x.type+'</span></div><h3>'+x.name+'</h3><div class="score">'+x.score+' / 100</div><p>امتیاز نمونه برای رابط کاربری است و به معنی تضمین درآمد یا امنیت نیست.</p><p class="risk">ریسک: '+x.risk+'</p><a href="'+x.url+'" target="_blank" rel="noopener">منبع رسمی ↗</a><div class="actions"><button class="btn primary" onclick="track()">افزودن به مسیر من</button></div></article>').join('')||'<div class="card">موردی پیدا نشد.</div>';
+document.getElementById('tracked').textContent=fa(missions);document.getElementById('points').textContent=fa(points)}
+function track(){missions++;localStorage.ig_missions=missions;render();alert('به مسیر شخصی اضافه شد؛ قبل از هر اقدام، منبع را بررسی کن.')}
+function complete(n){points+=n;localStorage.ig_points=points;render();alert('ماموریت ثبت شد. امتیاز این نسخه فقط امتیاز داخلی است و ارزش مالی ندارد.')}
+function tab(id,el){document.querySelectorAll('main section[id]').forEach(x=>{if(['radar','missions','engine','safety'].includes(x.id))x.classList.add('hidden')});document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));el.classList.add('active')}
+document.getElementById('search').addEventListener('input',render);document.getElementById('filter').addEventListener('change',render);render();
+</script>
+</body></html>
