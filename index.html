@@ -17,9 +17,14 @@ h2{font-size:20px;margin:28px 0 13px}.notice{border:1px solid #65502c;background
 .mission{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center}.mission strong{display:block;margin-bottom:5px}.mission small{color:var(--muted);line-height:1.7}
 .hidden{display:none}.footer{border-top:1px solid var(--line);margin-top:35px;padding-top:22px;color:var(--muted);font-size:11px;line-height:2.1}
 @media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.grid{grid-template-columns:1fr 1fr}.mission{grid-template-columns:1fr}.hero h1{font-size:31px}}
-</style></head>
+</style><style>
+.wallet-wrap{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.wallet-status{font-size:10px;color:var(--muted);max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#ton-connect button{font-family:Tahoma,Arial,sans-serif}
+</style>
+<script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script></head>
 <body>
-<header><div class="brand">𓃭 گارد جاویدان<small>IMMORTAL GUARD X · LEGAL REWARD INTELLIGENCE</small></div><span class="live">● موتور ایمنی فعال</span></header>
+<header><div class="brand">𓃭 گارد جاویدان<small>IMMORTAL GUARD X · LEGAL REWARD INTELLIGENCE</small></div><div class="wallet-wrap"><span id="wallet-status" class="wallet-status">کیف پول متصل نیست</span><div id="ton-connect"></div><span class="live">● موتور ایمنی فعال</span></div></header>
 <main>
 <section class="hero">
 <div class="eyebrow">فراتر از لیست ایردراپ‌ها</div>
@@ -96,6 +101,28 @@ document.getElementById('tracked').textContent=fa(missions);document.getElementB
 function track(){missions++;localStorage.ig_missions=missions;render();alert('به مسیر شخصی اضافه شد؛ قبل از هر اقدام، منبع را بررسی کن.')}
 function complete(n){points+=n;localStorage.ig_points=points;render();alert('ماموریت ثبت شد. امتیاز این نسخه فقط امتیاز داخلی است و ارزش مالی ندارد.')}
 function tab(id,el){document.querySelectorAll('main section[id]').forEach(x=>{if(['radar','missions','engine','safety'].includes(x.id))x.classList.add('hidden')});document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));el.classList.add('active')}
-document.getElementById('search').addEventListener('input',render);document.getElementById('filter').addEventListener('change',render);render();
+document.getElementById('search').addEventListener('input',render);document.getElementById('filter').addEventListener('change',render);
+render();
+
+const TON_MANIFEST='https://saberbadri24-tech.github.io/immortal-guard/tonconnect-manifest.json';
+let tonUI=null;
+try{
+  tonUI=new TON_CONNECT_UI.TonConnectUI({manifestUrl:TON_MANIFEST,buttonRootId:'ton-connect'});
+  tonUI.onStatusChange(wallet=>{
+    const s=document.getElementById('wallet-status');
+    if(wallet){
+      const a=wallet.account?.address||'';
+      s.textContent='متصل: '+(a.length>16?a.slice(0,8)+'…'+a.slice(-6):a);
+      s.title=a;
+    }else{
+      s.textContent='کیف پول متصل نیست';
+      s.title='';
+    }
+  });
+}catch(e){
+  const s=document.getElementById('wallet-status');
+  s.textContent='اتصال کیف پول آماده نیست';
+  console.error('TON Connect init failed',e);
+}
 </script>
 </body></html>
