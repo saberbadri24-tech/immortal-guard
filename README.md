@@ -18,3 +18,6 @@ Astra = coordinator, Claude = critique/review, Immortal Guard = final security c
 The radar can discover and rank public candidates. It does not automatically claim rewards, sign transactions, move funds, bypass controls, or store wallet secrets.
 
 See SECURITY.md for the non-negotiable safety contract.
+
+
+<!-- engine pipeline refreshed -->
