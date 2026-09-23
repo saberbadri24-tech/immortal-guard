@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-23T17:59:15.664685+00:00",
+  "adapters": [
+    {
+      "id": "ton-official-receipt",
+      "network": "TON",
+      "mode": "RECEIPT_MONITOR",
+      "signing": false,
+      "status": "enabled",
+      "description": "Detect incoming TON payments to the temporary receiving address."
+    },
+    {
+      "id": "owner-web-flow",
+      "network": "MULTI",
+      "mode": "OWNER_WEB_FLOW",
+      "signing": true,
+      "status": "enabled",
+      "description": "Prepare an official claim URL/action for the owner; never signs automatically."
+    },
+    {
+      "id": "owner-signature",
+      "network": "MULTI",
+      "mode": "OWNER_SIGNATURE",
+      "signing": true,
+      "status": "enabled",
+      "description": "Prepare transaction context and stop for explicit owner signature."
+    }
+  ],
+  "rules": {
+    "genericClaimExecution": false,
+    "automaticSigning": false,
+    "privateKeyStorage": false,
+    "bypassControls": false
+  }
+}

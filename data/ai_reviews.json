@@ -1,14 +1,20 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-23T13:14:27.231665+00:00",
-  "live": true,
+  "updatedAt": "2026-09-23T17:59:34.573877+00:00",
+  "live": false,
+  "configured": true,
   "missingProviders": [],
-  "count": 10,
+  "successfulCalls": 0,
+  "providerSuccess": {
+    "astra": 0,
+    "claude": 0
+  },
+  "count": 20,
   "items": [
     {
       "id": "https-blog-ethereum-org-en-2026-08-05-1ts-grant",
       "url": "https://blog.ethereum.org/en/2026/08/05/1ts-grant",
-      "at": "2026-09-23T13:14:07.978108+00:00",
+      "at": "2026-09-23T17:59:15.799521+00:00",
       "models": {
         "astra": {
           "status": "error",
@@ -18,14 +24,14 @@
         "claude": {
           "status": "error",
           "model": "claude-sonnet-4-6",
-          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLRyH6vDdodPQTcgpPvk\"}"
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLoiGqgoGG538HMyrdru\"}"
         }
       }
     },
     {
       "id": "https-blog-ethereum-org-en-2026-02-24-staking",
       "url": "https://blog.ethereum.org/en/2026/02/24/staking",
-      "at": "2026-09-23T13:14:10.207092+00:00",
+      "at": "2026-09-23T17:59:16.544931+00:00",
       "models": {
         "astra": {
           "status": "error",
@@ -35,14 +41,14 @@
         "claude": {
           "status": "error",
           "model": "claude-sonnet-4-6",
-          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLRySK4GYPRxRRWpgoJ4\"}"
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLoiMYTawMr1oANQGYoQ\"}"
         }
       }
     },
     {
       "id": "https-blog-ethereum-org-en-2025-04-22-destino-devconnect",
       "url": "https://blog.ethereum.org/en/2025/04/22/destino-devconnect",
-      "at": "2026-09-23T13:14:12.202664+00:00",
+      "at": "2026-09-23T17:59:17.659678+00:00",
       "models": {
         "astra": {
           "status": "error",
@@ -52,14 +58,14 @@
         "claude": {
           "status": "error",
           "model": "claude-sonnet-4-6",
-          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLRynYyRK2airNRzRM5Q\"}"
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLoiQpuQFQBRzAiprKCA\"}"
         }
       }
     },
     {
       "id": "https-blog-ethereum-org-en-2026-02-27-project-odin",
       "url": "https://blog.ethereum.org/en/2026/02/27/project-odin",
-      "at": "2026-09-23T13:14:16.935979+00:00",
+      "at": "2026-09-23T17:59:18.358823+00:00",
       "models": {
         "astra": {
           "status": "error",
@@ -69,14 +75,14 @@
         "claude": {
           "status": "error",
           "model": "claude-sonnet-4-6",
-          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLRyv1gnkwEpHyQGQE7U\"}"
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLoiTeKVAb8TkFjinVWS\"}"
         }
       }
     },
     {
-      "id": "https-blog-ethereum-org-en-2025-09-15-fusaka-audit-content",
-      "url": "https://blog.ethereum.org/en/2025/09/15/fusaka-audit-content",
-      "at": "2026-09-23T13:14:18.661867+00:00",
+      "id": "fvk9ruv9xrwwxew9wty0tctnnt0lkb1hjclzhvjjmc0jfsgrlauhdmljxmjdmctqxwgdsbu4tamhxbddistk0n25wcznmbef1vgr5bhdkx0vtzux4na-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQ1AyUi1NY2dhdjZ5UFRnZWxRZV9wSTRpSkNoRTNJc3YyUnhyMFp5RmM4RTlrSl9YdllfVk9RUV9xRWwxeW9WTy0tcTNnT0lKb1hjclZHVjJmc0JFSGRLaUhDMlJxMjdmcTQxWGdSbU4tamhxbDdISTk0N25WczNmbEF1VGR5bHdkX0VtZUx4NA?oc=5",
+      "at": "2026-09-23T17:59:19.164774+00:00",
       "models": {
         "astra": {
           "status": "error",
@@ -86,14 +92,14 @@
         "claude": {
           "status": "error",
           "model": "claude-sonnet-4-6",
-          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLRz23aZUeBxVUQUx1Ri\"}"
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLoiXhu9D7HHfaSmkEqQ\"}"
         }
       }
     },
     {
-      "id": "https-blog-ethereum-org-en-2025-09-01-holesky-shutdown-announcement",
-      "url": "https://blog.ethereum.org/en/2025/09/01/holesky-shutdown-announcement",
-      "at": "2026-09-23T13:14:20.110527+00:00",
+      "id": "sckhqyxzgtmexbgrmszvmcy1czxjyethfy29qtnbldzlcvxoymme5ogcwvxpzz2vfuw5kz2xqvexuq1loadk0mfn0cdffchhnukf2mgl2yupct3zyag-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UX216clotRnlmWVRjQ2FBbng0d1ZSLXdCbXBSckhqYXZGTmExbGRmSzVmcy1CZXJYeThFY29qTnBldzlCVXoyMmE5OGcwVXpZZ2VfUW5kZ2xqVExUQ1lOaDk0MFN0cDFfcHhNUkF2MGl2YUpCT3Zyag?oc=5",
+      "at": "2026-09-23T17:59:20.036057+00:00",
       "models": {
         "astra": {
           "status": "error",
@@ -103,14 +109,14 @@
         "claude": {
           "status": "error",
           "model": "claude-sonnet-4-6",
-          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLRzBxtEVCBFgspB4s93\"}"
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLoicYcH2vKTPySrdh4W\"}"
         }
       }
     },
     {
-      "id": "https-blog-ethereum-org-en-2025-09-26-fusaka-testnet-announcement",
-      "url": "https://blog.ethereum.org/en/2025/09/26/fusaka-testnet-announcement",
-      "at": "2026-09-23T13:14:22.346810+00:00",
+      "id": "kfvx3lxte85mmn6rux0b2dfb2ttoufrsdhdzdjjy2xsejzhnnkwvf92cm5wugm1rgmwmvu2rkpbthvvdvhtmzn3cjheouv1vlpybti5te44ogtidxnb-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85MmN6RUx0b2dfb2ttOUFRSDhDZDJJY2xSejZHNnkwVF92cm5WUGM1RGMwMVU2RkpBTHVVdVhTMzN3cjhEOUV1VlpybTI5TE44OGtIdXNB?oc=5",
+      "at": "2026-09-23T17:59:21.104250+00:00",
       "models": {
         "astra": {
           "status": "error",
@@ -120,14 +126,14 @@
         "claude": {
           "status": "error",
           "model": "claude-sonnet-4-6",
-          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLRzHRYWuSwNviKezWVm\"}"
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLoifGZb6vLqeNVKzQCR\"}"
         }
       }
     },
     {
-      "id": "https-blog-ethereum-org-en-2025-03-05-sepolia-pectra-incident",
-      "url": "https://blog.ethereum.org/en/2025/03/05/sepolia-pectra-incident",
-      "at": "2026-09-23T13:14:23.684378+00:00",
+      "id": "nluczt0jomudqz2x1q01ny19un3jwnk1zb2pheg92wehsu19kedm1dwflvdjmuku1rhkwtzv1m21dyjetvnhyvllsv3pkou0tegpkwvplnzvvsxlhyw-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNa1hvNUJLNVByWU1BUmxWTWJFU0ZrQzg4NTUyZ29yZjNtS3lHZHY2Nl96TnFLRTBmMlNQdU5IUUQzYnp0Q1ZpckJkSklycU9VdDVnLUczT0JOMUdQZ2x1Q01NY19UN3JWNk1Zb2pheG92WEhSU19keDM1dWFlVDJMUkU1RHkwTzV1M21DYjEtVnhYVllSV3pkOU0teGpKWVplNzVvSXlHYw?oc=5",
+      "at": "2026-09-23T17:59:21.846638+00:00",
       "models": {
         "astra": {
           "status": "error",
@@ -137,14 +143,14 @@
         "claude": {
           "status": "error",
           "model": "claude-sonnet-4-6",
-          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLRzPCKKyxK7Z8PSPg1P\"}"
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLoiiER1c4v4ttBE3c6b\"}"
         }
       }
     },
     {
-      "id": "https-blog-ethereum-org-en-2025-03-18-hoodi-holesky",
-      "url": "https://blog.ethereum.org/en/2025/03/18/hoodi-holesky",
-      "at": "2026-09-23T13:14:25.000328+00:00",
+      "id": "waeetcxdvundsqudmdwfgr3h2lwfcrkowrhznqmtwuzjbltjmqmdiq3nkbffhqvzmmc1ps3qws2lane9ur3v0reh1b3yznvyyzndteehodvvxbfllzw-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdFpXRzAyYmlnTmNiZmQ3aTlHaXFRTEx6b3NPM1hXM1l2VHJlUkpMRUZyQ2xfa2I5Z1A1X1lEem9STHk4eDRmcnRwaEEtcXdVUndSQUdMdWFGR3h2LWFCRkowRHZNQmtWUzJBLTJmQmdIQ3NKbFFhQVZmMC1pS3QwS2laNE9uR3V0REh1b3YzNVYyZndteEhodVVXbFlLZw?oc=5",
+      "at": "2026-09-23T17:59:22.482538+00:00",
       "models": {
         "astra": {
           "status": "error",
@@ -154,14 +160,14 @@
         "claude": {
           "status": "error",
           "model": "claude-sonnet-4-6",
-          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLRzTQKk4NqmbRtjThP8\"}"
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLoim83eYeFPCApDxbs5\"}"
         }
       }
     },
     {
-      "id": "https-blog-ethereum-org-en-2026-08-17-plataberget-testnet",
-      "url": "https://blog.ethereum.org/en/2026/08/17/plataberget-testnet",
-      "at": "2026-09-23T13:14:25.992386+00:00",
+      "id": "qmuywtnwv1vqn21quw5ns3qyvmwyow1bnxl0cnv3blzur0kyrmfsulcwnzhvwxg1ytq1zk1waw9wmmnrdi16d2jiwc1zmdfes25zsgw1shjfsm85snc-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcG5fQXl5ZzBJNm50SmlhQVk0UUFRdW1ZV0VnRnB1cWc2WjRTWmdoSnUwbFE3QmUyWTNwV1VqN21qUW5nS3QyVmwyOW1BNXl0cnV3blZUR0kyRmFsUlcwNzhVWXg1YTQ1Zk1waW9wMmNRdi16d2JIWC1zMDFES25ZSGw1SHJfSm85Snc?oc=5",
+      "at": "2026-09-23T17:59:23.157871+00:00",
       "models": {
         "astra": {
           "status": "error",
@@ -171,7 +177,177 @@
         "claude": {
           "status": "error",
           "model": "claude-sonnet-4-6",
-          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLRzYfpfgeeW2rYxD3df\"}"
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLoipiqXZcGiPpoRCv9D\"}"
+        }
+      }
+    },
+    {
+      "id": "dffmmgtzy1yagxlrgfjefznrs1tcwjvvv9svmdtbdfhn2r0sndfqkffr05yazrfbvrdb1loqjbdckpwcdfwmtr3dw8yb2rpugzdu3z1v2c3alg4x1n3-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWFBOaDZkei13TWh4azZ0SlBuZ19Vb0xNYzV2VDJxRjgyNElmZF94UjNqci1EdzI2dnBVSkF3ZVAyUGtFMXVtaks3dEdNbnFHXy1UZlVQSmhTQUVBWm12UGNVbUdfWUpDUzRqR21IejJ1NUw3SDFfMmgtZy1yaGxLRGFjeFZNRS1TcWJVVV9sVmdtbDFhN2R0SndfQkFfR05YazRfbVRDb1lOQjBDckpWcDFwMTR3dW8yb2RPUGZDU3Z1V2c3alg4X1N3?oc=5",
+      "at": "2026-09-23T17:59:24.008471+00:00",
+      "models": {
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.4",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLoizYSNtrmNN1Ci3CDK\"}"
+        }
+      }
+    },
+    {
+      "id": "mzrog8tsdzzc3blce12skpommhwytqxwmzldwdvrdrvd3vnei0zykhanertc2zszxnzrwxlthe1qzzuou5iyxzqumv5uvhxsexpyvq3t3zwsk9guhu4-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTm1pOWhFNTNibmNPQW50R0hUbjBWYmZTbEk3bFBWQUMyZXlQRnZGVnFVcFUwNmZROG8tSDZzc3BLcE12SkpOMmhWYTQxWmZLdWdvRDRVd3Vnei0zYkhaNERTc2ZSZXNzRWxLTHE1QzZUOU5iYXZQUmV5UVhxSExPYVQ3T3ZWSk9GUHU4?oc=5",
+      "at": "2026-09-23T17:59:26.298251+00:00",
+      "models": {
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.4",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLoj4WJrCPpZ9sMi4dqz\"}"
+        }
+      }
+    },
+    {
+      "id": "cltheehr6skp3oghjshponkp0mxqtymtivzbws25kvge3nkvfu2tmcfrsre8znexor0ftnwzfuetpzwplrxnnttvmtxl0sfdvuedlajiyv1zism1qdw-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdjRUUWJPVlY0TkNTamhSWGVPdTR2Z0lvcV82WVZNSm1pQ3BINlk3aF9XR2NHTWZWWGpVWWlFdzBBbHE0c0JfNzZjTzZOb3pETGZNNmVLNDVFODVBSDRpS3RCLThEeHR6Skp3OGhJSHpONkp0MXQtYmtiVzBWS25kVGE3NkVFU2tmcFRSRE8zNExOR0FTNWZFUEtPZWpLRXNnTTVMTXl0SFdVUEdLajIyV1ZISm1qdw?oc=5",
+      "at": "2026-09-23T17:59:27.238209+00:00",
+      "models": {
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.4",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLojDFfQLcyqjMkgbKmK\"}"
+        }
+      }
+    },
+    {
+      "id": "ym5lyxl2n0vzrm03zek1uelnbtzuqu1fs0zaberlnuxlyw1lsjzzcuzrmtdnltl5bmxfennxdwnqnepprgvot0dysjgzsdhrcwfpctznuk41af9letg-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPa1Iya3N1eW9KcUFCbHMteGp1a2F4N2FvMnJPa3dxLWlWdXZnakNBcWMtVUlwN2xvSW1KSmowWkpwVi1OMmpoM3ozMzhkclNxck9jbmx4WFhnWGxVaWdyYm5lYXl2N0VzRm03ZEk1UElnbTZuQU1fS0ZabERLNUxlYW1LSjZzcUZrMTdnLTl5bmxfenNxdWNqNEppRGVOT0dySjgzSDhRcWFPcTZNUk41aF9leTg?oc=5",
+      "at": "2026-09-23T17:59:29.240933+00:00",
+      "models": {
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.4",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLojG8ZAtVwRJr2iZAEd\"}"
+        }
+      }
+    },
+    {
+      "id": "dhuum5bd1bksk1rtfvhu2tvymvvdlpnodvpbvrmq2xatvfzz1h0nw5isk5ymk16cvdlq2v1blbfrc1onkppbu5gahhuotnkbws5afpvtnn2rtjjvujj-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZFhoLU1LQ3NaRmZZbGFYS1ZQTGp2Y0JDY0l3RUp4a3RpeWtsb000WlJMaVg1WDRWSmNFa1VKcnZmY0JEQVJFVVR5anpOQW9ZcWExVlBZeDhUUm5Bd1BKSk1rTFVhU2tvYmVVdlpNODVpbVRMQ2xaTVFzZ1h0NW5iSk5yMk16cVdlQ2V1blBFRC1oNkppbU5GaHhUOTNkbWs5aFpVTnN2RTJjVUJj?oc=5",
+      "at": "2026-09-23T17:59:29.949574+00:00",
+      "models": {
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.4",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLojKet9dp9o2MVNy5Kh\"}"
+        }
+      }
+    },
+    {
+      "id": "0s1p4zmdfmzhobkzkwedormw5udfnr0nurxu4qjrgclbonxhpq0nklxj3zgpwmlfboglvs3luywvicu5haw9zqlvmehfrbtluqkflbknka1fls05noa-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQU1dTVDAxVHV6eHk4WDBkN3JiWFRBUEpFa0hrUXRCN1BqWnhPQTBPcHVscFFyZ290SzZGSTRXRjFSbGtKWmtuSGVBNFBQWUdlanl0S1p4ZmdfMzhObkZkWEdoRmw5UDFnR0NURXU4QjRGclBoNXhPQ0NkLXJ3ZGpwMlFBOGlvS3lUYWVIcU5haW9zQlVmeHFRbTluQkFlbkNKa1FlS05nOA?oc=5",
+      "at": "2026-09-23T17:59:30.766837+00:00",
+      "models": {
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.4",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLojNZWbEuREt4pAKbA3\"}"
+        }
+      }
+    },
+    {
+      "id": "d1lavmozcunbnvroyxn4qzjgduvqzmnndeuyetbinfpwullru2xyzjvqb08xzm5sewxzyuf3y1duzkm1djz4mti1d2s0vww3mxnbqnhbogpzywrux2c-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTnFjZk13ZG9yTlRNS3VaaVJ3M1BqcnRXSUQ0VkRaZGFDbTNnVHhGMlVPTlpndDBYYVdKOVY1WGdFc24zbVN4cEdyMHZoVzJ6M3FfS3ZyYXRKd1laVmozcUNBNVRoYXN4QzJGdUVQZmNNdEUyeTBiNFpWUllrU2xYZjVqb08xZm5SeWxZYUF3Y1dUZkM1djZ4MTI1d2s0VWw3MXNBQnhBOGpZYWRuX2c?oc=5",
+      "at": "2026-09-23T17:59:31.450322+00:00",
+      "models": {
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.4",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLojSpVUkxYxKW3uiWQf\"}"
+        }
+      }
+    },
+    {
+      "id": "2wkpxahbpcezkvzdzdkrtwkyynmr0au5brxo5nvfhs1ryren3ewxlz3fxowo5z0hqcnzyzmzlnvbhx01vzwjmvzywsjruajdna0zhm004azi4rglttq-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVl9oTDZYbVdiSDVDblFZajZuSUxUY08tVEw1cVZyN0Jzc3BNY18yZU9xdXFnMUI1Q2g3SU9EdUdCZDhGYmc2WVF2cE9pN3NlVFBkQVhNdEZlX1FSblhwZGFjNTAwRkhrZnJGN2R2QnctV01MWWFZNlBZbWl5amJnVndEYjdlSzhmOEs2NHNuelpCZmJfeHFBQ0VpMzBRbGxiRzI3MEpoMHl0X0dQcWkw0gG3AUFVX3lxTE1RUEkwWFFUVHhQM3JKazRTTm1DMnVudzNtWFJudlVEZFdOZXFwUHFQNHNCZ0NLMW1CcDc0dXItYXM4Tko5OENLR1R5RXRCVWw0WTRMUG4xQ0laT2hDTW1pUW12WkpxaHBPcEZkVzdZdkRTWkYyNmR0aU5BRXo5NVFhS1RYREN3eWxLZ3FXOWo5Z0hqcnZyZmZLNVBhX01VZWJMVzYwSjRUajdna0ZHM004azI4RGlTTQ?oc=5",
+      "at": "2026-09-23T17:59:32.449543+00:00",
+      "models": {
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.4",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLojWCe2vRWsNcCebbRE\"}"
+        }
+      }
+    },
+    {
+      "id": "3mtn2wnnbsnjsr1dlx2ywowu1unh4vwxzy0rhd3niq2hlcgvnr1d4zwk3m0dvq0s3ze1aakxqtw40rvhkc1vruhfysgzeaudputf3str0clvzuffhzw-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMXhZcEY4ZGRQR3JKN1RTbDc2Wkw3UC1jNlVIeGZTdWpIc3lJQlNPOXJ5czV4X2NhaXFZcHlfQklTRU5OZHFHQWdtVEZacFVUYklRR1hBRnJlRUFLaFFGeHRFSWFDMTczcnZKNFg3MTN2WnNBSnJsR1dlX2YwOWU1Unh4VWxZY0RHd3NiQ2hlcGVNR1d4ZWk3M0dVQ0s3ZE1aakxQTW40RVhKc1VrUHFYSGZEaUdpUTF3STR0clVzUFFHZw?oc=5",
+      "at": "2026-09-23T17:59:33.235240+00:00",
+      "models": {
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.4",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLojZCU6w3Eawovh25wU\"}"
+        }
+      }
+    },
+    {
+      "id": "0yysk5xsm16vfmxmxi0su5bbtzksxn0bwltsmdysljkrc01dtzbu1rvaktldxfkwvbxqmrouw56z0nyv3fxumzfwvjubxkzmwv1dev0lu5ryjjid2zb-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVkk0eTdKamhYUjNCX2dESkZnb1V1RFAybEdBczJFTmxqS0FPam1KTkR2WkowR3FPZWVHZ3I0ampkQnRBc1ZIeXp6d0JfTE8tRnJMMU9uU2M0U2tpa0YySk5XSm16VFMxMXI0SU5BbTZkSXN0bWlTSmdYSlJKRC01dTZBU1RVaktLdXFkWVBXQmROUW56Z0NyV3FxUmZFWVJubXkzMWV1dEV0LU5RYjJid2ZB?oc=5",
+      "at": "2026-09-23T17:59:33.926351+00:00",
+      "models": {
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.4",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLojc3NeLvQAi8Qr9k5K\"}"
         }
       }
     }

@@ -1,0 +1,1343 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-23T17:58:58.310247+00:00",
+  "sources": {
+    "geckoterminal_new_pools": "https://api.geckoterminal.com/api/v2/networks/new_pools",
+    "dexscreener_profiles": "https://api.dexscreener.com/token-profiles/latest/v1",
+    "dexscreener_boosts": "https://api.dexscreener.com/token-boosts/latest/v1"
+  },
+  "sourceErrors": {},
+  "sourceRows": 80,
+  "uniqueCandidates": 78,
+  "items": [
+    {
+      "chain": null,
+      "address": "0xd9411324354af68f5aa669bcea5d2d56a6c7b025",
+      "name": "SCRIP / WETH",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 20729.3978,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 10,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "C36h8j4dek2UKBnoRpkYr3ip63X3k4sFfALyXE2e4FeQ",
+      "name": "MAX / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 19599.8973,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 10,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "0xd4f7b332012dc477821db0e0e0407da4e2862e0d",
+      "name": "STANDIN / WETH",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 13595.8037,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 10,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x0A8C39Fa35F6ECaa2CE3391EEc41FB2d59c25Cc6",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x0a8c39fa35f6ecaa2ce3391eec41fb2d59c25cc6",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles",
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 8,
+      "confidence": "multi-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xe34f03f4F36E842C8817Ac635162A2cc67E03C8a",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0xe34f03f4f36e842c8817ac635162a2cc67e03c8a",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles",
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 8,
+      "confidence": "multi-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "0xd59345d214682956a98bf8c2ffd25416e27cf911",
+      "name": "LAUNCH / WETH",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 4954.29991598627,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "0xdfee3ab229f2c21eedd1bc4dc502db0c81c01965",
+      "name": "BLUF / WETH",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 4730.379,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "0x07e928f9cc233778f9621ebd6b5e6f83e4c3e39c",
+      "name": "BLOX / WETH",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 4449.47414040931,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "0x6609dcda0c501817a4f978631ed198d8aa539f97",
+      "name": "BAROBAIT / WETH",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 4380.99638376423,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "0xdbea425a99c4a0e63f0dd6b737e7aa5bc1b03b3b",
+      "name": "Launch / USDG",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 3861.31154058481,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "0x997b3a1212280df39e01b6b510a6f4770f926a62",
+      "name": "POD / USDG",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 3656.3239,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "0xe4c533059dc1ac1c04bdfe5c24c30bbe252affff",
+      "name": "薇姿 / BNB",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 3559.9699,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "0x6e7d4c47dc7eb28d635bc760ae1402b285b2ee57",
+      "name": "LAUNCH / USDG",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 3536.54968661538,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "0x2a37c35069efd7e8ac5a365745745879fb489971",
+      "name": "BULLTROUSERS / USDG",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 3365.12293657011,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "FuaUceJkPCpwLCvKseJ3vw9sXsipKEPSbWxEE9PR5Jk9",
+      "name": "STONKBONK / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 3355.72611909154,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "0x81571cf496c14406405f36061aaa6c8f9013f7ad",
+      "name": "WARDEN / USDG",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 3200.5509,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "BrFHsvkisc8uitGCME6vyZe8jRBbxCDcbhLd51uoumps",
+      "name": "ACAT / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 2540.69015193853,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "9Xi2SjZP1b4xf75eSEuVZDou4r2qDtWbYnYcFujogug7",
+      "name": "ACAT / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 2540.69015193853,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "2wTTvLZuGPkCNCHdKpknJn5SU6ta7gm6JnyDtfoAzKqF",
+      "name": "ACAT / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 2540.69015193853,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "DaMW58jXQ4Hi1xZuAcEa6CVLC7yEuS55BSUf9WLSfJVj",
+      "name": "MAX / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 0.0114,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "BKJDBuWfp1FzwUsnMBh7yin7WR6iLVa5Q5z4k8SuqpEh",
+      "name": "人生好物 / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 8.24797657429046e-06,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": null,
+      "address": "6m9U25hKC1Kj3QokQyK4acKZF4SEfToBgkqoumrGUkNk",
+      "name": "MAX / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "Fx1czzVCr7Ag95uyVLWuXa4wefp2X4cz9jr8zmJcpump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/fx1czzvcr7ag95uyvlwuxa4wefp2x4cz9jr8zmjcpump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xbC531C3eD8e9c75cFc8d865338BcF88fd6d98CE5",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0xbc531c3ed8e9c75cfc8d865338bcf88fd6d98ce5",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "EhSXPdggLvefRHD53qWFMoAGmQc2oW5F691fnKGWkiBS",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/ehsxpdgglvefrhd53qwfmoagmqc2ow5f691fnkgwkibs",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xd25fa3f86d25430ff2e0ab8f6c553fa2ce393982",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0xd25fa3f86d25430ff2e0ab8f6c553fa2ce393982",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "HhXe2PbtXQHzZ5Ch46MBXf7rEbMgnYsCGaEhktyKGZNT",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/hhxe2pbtxqhzz5ch46mbxf7rebmgnyscgaehktykgznt",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "ygxs2Afu2JbxJLUwUySfpeTxkjj46iVU8e64xn2pump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/ygxs2afu2jbxjluwuysfpetxkjj46ivu8e64xn2pump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "9cNFxUmBVciKfd2fqAGvT8JLXH2YvWtvNQa6tN7Ypump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/9cnfxumbvcikfd2fqagvt8jlxh2yvwtvnqa6tn7ypump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x3eccd7717c673152aaf5e9880895144c48ee5678",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x3eccd7717c673152aaf5e9880895144c48ee5678",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "4gtRQmqACmFsBr8TaPMxZfmKeGCzMvpAnSmZArzYpump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/4gtrqmqacmfsbr8tapmxzfmkegczmvpansmzarzypump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xD8e1C74018aFcd4241f1fB4ACcBF0cc1264461f8",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0xd8e1c74018afcd4241f1fb4accbf0cc1264461f8",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "DhZVrg8FzKsed6DYVYpHFZ8fNAhnwsYD7e1GtqWTRpkc",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/dhzvrg8fzksed6dyvyphfz8fnahnwsyd7e1gtqwtrpkc",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "3WQ6QCqR3KykXyjA6aonYZ5GR5g85kNrQ1E1b9mUpump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/3wq6qcqr3kykxyja6aonyz5gr5g85knrq1e1b9mupump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "GrW1bFdSfnDM1vNCMzaRnHbHAgus23hsJ3nJLdLiPzRi",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/grw1bfdsfndm1vncmzarnhbhagus23hsj3njldlipzri",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "3JJU6j1X6gU7aDMo8DX3zDue1wDV2kjvoTRhmcFWSVvA",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/3jju6j1x6gu7admo8dx3zdue1wdv2kjvotrhmcfwsvva",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x544e12cc50428DdADfC1D40E5808f7D2D27d1e18",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x544e12cc50428ddadfc1d40e5808f7d2d27d1e18",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "MadVLQYW7VUzfMdMDHuS3UVgJSNUQGwvobYgYZxpqp6",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/madvlqyw7vuzfmdmdhus3uvgjsnuqgwvobygyzxpqp6",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x1439178353afe17c98a37aa78d11fddec6837e7c",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x1439178353afe17c98a37aa78d11fddec6837e7c",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xb29C596aF277D1928D0D08f8e28f4A81146da5e0",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0xb29c596af277d1928d0d08f8e28f4a81146da5e0",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "EjWGLc7hE3C8jaQe8joNwZb5dq1AKF3ctCVSgXEwpump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/ejwglc7he3c8jaqe8jonwzb5dq1akf3ctcvsgxewpump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "EioN9wGsc9U39XnzFesnd7keSywBcPoJc49NhMpivot",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/eion9wgsc9u39xnzfesnd7kesywbcpojc49nhmpivot",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "DSLkCiyGfqvuqjNXZ4wm9pPmLHNvTQzKrDzKbhgJSTNK",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/dslkciygfqvuqjnxz4wm9ppmlhnvtqzkrdzkbhgjstnk",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "6AMafHbh34pLa39oDREFvihwZcFje9rDNrErEkabsMsv",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/6amafhbh34pla39odrefvihwzcfje9rdnrerekabsmsv",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x6aF2ebe714a40bf60F206bCefeF36CD6BcC4Fcc8",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x6af2ebe714a40bf60f206bcefef36cd6bcc4fcc8",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x2F891C5646159c905b4d76249a852769E891d20D",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x2f891c5646159c905b4d76249a852769e891d20d",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x4bA8ec148e282E0733fB15bdb9b75900Bff8D3e2",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x4ba8ec148e282e0733fb15bdb9b75900bff8d3e2",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "FiRUHpAccfya9TnwuvETBNJ9CWR8byTiViHK1bvbKpay",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/firuhpaccfya9tnwuvetbnj9cwr8bytivihk1bvbkpay",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xd71114fdc9736ce148b765e755b441fc8f747819",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0xd71114fdc9736ce148b765e755b441fc8f747819",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "26Kg27kpPHBN2MHqgrsJh3LzMZboxZyUpbeVonmpZwVm",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/26kg27kpphbn2mhqgrsjh3lzmzboxzyupbevonmpzwvm",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xB5E40b5F16996E9D76ec2B16E7A4Ead3c06a9Fa2",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0xb5e40b5f16996e9d76ec2b16e7a4ead3c06a9fa2",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "GNEgVvybpXN8KuJZnebQyYRZ5sb3Yu7p98eW7xaPpump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/gnegvvybpxn8kujznebqyyrz5sb3yu7p98ew7xappump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x70A64707a7260365Ab8e90dDd565B8c00247a289",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x70a64707a7260365ab8e90ddd565b8c00247a289",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "8HuqgVyrcaBSKb6WNwhcLPqNTuVqYfWQcSPiTVF7pump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/8huqgvyrcabskb6wnwhclpqntuvqyfwqcspitvf7pump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "4WECKfvfgEiojyZJq5Xm12Hvk76rhM4VHQAZGaELpump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/4weckfvfgeiojyzjq5xm12hvk76rhm4vhqazgaelpump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "Am7Q3UKqczvZkv6tt6BLp7Q4NpyathrmXosecczu3Est",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/am7q3ukqczvzkv6tt6blp7q4npyathrmxosecczu3est",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x3458e003F6ED93df0F537b8AcaC6FbE08E41247f",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x3458e003f6ed93df0f537b8acac6fbe08e41247f",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "ELAs4v1Tt9eZmjNLKyWFKMEYdkHSVyPSc4TSYWxjpump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/elas4v1tt9ezmjnlkywfkmeydkhsvypsc4tsywxjpump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "9R8rrjXxcfQPmLTCLhmVpjr2uesjjkcgkinE6Lwdpump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/9r8rrjxxcfqpmltclhmvpjr2uesjjkcgkine6lwdpump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x9d1961e9A601765015DFBb8EF7079732F48D9d9b",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x9d1961e9a601765015dfbb8ef7079732f48d9d9b",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "AYzPaB96giPT8WyzQhjjaVo8zazh3ECQpr3CXADapump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/ayzpab96gipt8wyzqhjjavo8zazh3ecqpr3cxadapump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x8B1cAcf3bFA11e0d438C7756CD5167216CBb46fD",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x8b1cacf3bfa11e0d438c7756cd5167216cbb46fd",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "D7w8owCGnhpUohkaRnq76rnC4RDE9QuVsGVXx5papump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/d7w8owcgnhpuohkarnq76rnc4rde9quvsgvxx5papump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "2aQKC1xiKpEyAWvzSDrULnYLVuybWyx7qrsnpP8hpump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/2aqkc1xikpeyawvzsdrulnylvuybwyx7qrsnpp8hpump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "BorqazWEAnSQDkCkMSQFHw7cbi5o7CCbsDioMySTpump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/borqazweansqdkckmsqfhw7cbi5o7ccbsdiomystpump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "near",
+      "address": "rrr-ggro.nearrr-fun.near",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/near/rrr-ggro.nearrr-fun.near",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x782f5ba6762000d99Ff436EE478C9050F601814F",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x782f5ba6762000d99ff436ee478c9050f601814f",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xc3ba8a6F8D011881CeCA8AD6e2b524232a40AA26",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0xc3ba8a6f8d011881ceca8ad6e2b524232a40aa26",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "7nLukVng5teXze14rum9v57juXLjUp7JJnCveko1pump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/7nlukvng5texze14rum9v57juxljup7jjncveko1pump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "base",
+      "address": "0x9bEec80e62aA257cED8b0edD8692f79EE8783777",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/base/0x9beec80e62aa257ced8b0edd8692f79ee8783777",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "mqRPJv7e2t7HQNvHMBjKHAStYeecdMvSjHJ6toqpump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/mqrpjv7e2t7hqnvhmbjkhastyeecdmvsjhj6toqpump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x2586533e8dA9fc7dA7297F1e19B810d7cE72db2f",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x2586533e8da9fc7da7297f1e19b810d7ce72db2f",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "6tXfZXND9VtrbPUqCrqNM5aUxnofebm3Mp2fhG4ctJXu",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/6txfzxnd9vtrbpuqcrqnm5auxnofebm3mp2fhg4ctjxu",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x6DC1d5Cfe17842b16C49000a698c7A8a7aa4F153",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x6dc1d5cfe17842b16c49000a698c7a8a7aa4f153",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/bsc/0x7ab8d02cbb51ff7223fde700eaaa2a91bf750314",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "CbouD8khLcz1Y1QngvRtQufUimSRKpHkvGn6y1n8pump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/cboud8khlcz1y1qngvrtqufuimsrkphkvgn6y1n8pump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xba356353542ED5564f8b9E48Fc6C8d5e6c14a1A8",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0xba356353542ed5564f8b9e48fc6c8d5e6c14a1a8",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "chain": "solana",
+      "address": "6yPP1vB1t9whewmZvREQ6SAtLy6ts2MYmgdqcBNRpump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/6ypp1vb1t9whewmzvreq6satly6ts2mymgdqcbnrpump",
+      "liquidityUsd": 0.0,
+      "volumeUsd": 0.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "discoveryScore": 0,
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security review required",
+      "action": "RESEARCH_ONLY"
+    }
+  ],
+  "disclaimer": "Discovery ranking only; not investment advice, not a rug-pull audit, and not a guarantee. No wallet connection, signing, trading, claiming, or transfers."
+}
