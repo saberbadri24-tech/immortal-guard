@@ -345,6 +345,31 @@
       "engineCount": 300,
       "topScore": 100,
       "independentSources": 1
+    },
+    {
+      "at": "2026-09-23T19:40:18.375557+00:00",
+      "count": 300,
+      "blocked": 0,
+      "feedErrors": [
+        {
+          "publisher": "HackerOne",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "publisher": "Gitcoin",
+          "error": "HTTP Error 502: Bad Gateway"
+        },
+        {
+          "publisher": "TON Blog",
+          "error": "not well-formed (invalid token): line 8, column 39"
+        }
+      ]
+    },
+    {
+      "at": "2026-09-23T19:40:18.537806+00:00",
+      "engineCount": 300,
+      "topScore": 100,
+      "independentSources": 1
     }
   ]
 }
