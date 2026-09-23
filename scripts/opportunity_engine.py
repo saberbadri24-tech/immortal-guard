@@ -44,6 +44,7 @@ TRUSTED_DOMAINS = {
     "coinbase.com": 24, "kraken.com": 24, "binance.com": 22, "okx.com": 22,
 }
 KNOWN_NEWS = {"news.google.com", "finance.yahoo.com", "coindesk.com", "theblock.co", "decrypt.co", "cointelegraph.com"}
+DISCOVERY_PLATFORMS = {"defillama.com": 20, "galxe.com": 20, "app.galxe.com": 20, "layer3.xyz": 20, "zealy.io": 18, "questn.com": 18, "immunefi.com": 24, "code4rena.com": 24, "sherlock.xyz": 24}
 
 def clean_url(url):
     try:
@@ -62,6 +63,9 @@ def domain_score(host):
             best = max(best, score)
     if host in KNOWN_NEWS:
         best = max(best, 10)
+    for d, score in DISCOVERY_PLATFORMS.items():
+        if host == d or host.endswith("." + d):
+            best = max(best, score)
     return best
 
 def classify(text):
@@ -138,7 +142,8 @@ def analyze(item, radar_index):
     score += trust + min(15, len(set(item.get("evidence", []))) * 3)
     score += min(12, len(specialists) * 3)
     score += min(15, lineage["independentSources"] * 5)
-    score -= min(24, pressure * 8) + min(15, actions * 3)
+    cost_signals = len(re.findall(r"\b(fee|fees|gas|deposit|stake|subscription|purchase)\b", text, re.I))
+    score -= min(24, pressure * 8) + min(15, actions * 3) + min(12, cost_signals * 2)
     if blocked:
         score = 0
     score = max(0, min(100, score))
@@ -171,7 +176,9 @@ def analyze(item, radar_index):
             "confirm dates, geography, eligibility and required actions",
             "treat repeated news copies as one source, not independent confirmation",
             "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-            "owner approval required before any wallet signature or financial action"
+            "owner approval required before any wallet signature or financial action",
+            "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+            "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
         ],
     }
 
