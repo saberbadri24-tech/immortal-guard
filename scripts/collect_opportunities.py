@@ -45,6 +45,11 @@ FEEDS={
     "Google News — ecosystem funding":"https://news.google.com/rss/search?q="+quote("(blockchain ecosystem) (funding OR grant OR builder)")+"&hl=en-US&gl=US&ceid=US:en",
     "Google News — retroactive programs":"https://news.google.com/rss/search?q="+quote("(web3 OR crypto) (retroactive rewards OR points program OR contributor rewards)")+"&hl=en-US&gl=US&ceid=US:en",
     "Google News — global opportunities":"https://news.google.com/rss/search?q="+quote("(web3 OR crypto OR blockchain) (opportunity OR program OR rewards OR grant)")+"&hl=en-US&gl=US&ceid=US:en",
+    "Google News — Immunefi bounties":"https://news.google.com/rss/search?q="+quote("(Immunefi) (bug bounty OR bounty OR security)")+"&hl=en-US&gl=US&ceid=US:en",
+    "Google News — Gitcoin bounties":"https://news.google.com/rss/search?q="+quote("(Gitcoin) (bounty OR grants OR hackathon OR rewards)")+"&hl=en-US&gl=US&ceid=US:en",
+    "Google News — Galxe campaigns":"https://news.google.com/rss/search?q="+quote("(Galxe) (campaign OR quest OR rewards OR airdrop)")+"&hl=en-US&gl=US&ceid=US:en",
+    "Google News — Layer3 campaigns":"https://news.google.com/rss/search?q="+quote("(Layer3) (quest OR campaign OR rewards OR airdrop)")+"&hl=en-US&gl=US:en",
+    "Google News — official airdrop safety":"https://news.google.com/rss/search?q="+quote("(official) (airdrop OR token claim OR rewards) (security OR eligibility) -seed -private-key -pay-to-claim")+"&hl=en-US&gl=US&ceid=US:en",
     "Google News — official announcements":"https://news.google.com/rss/search?q="+quote("(crypto OR blockchain) (official announcement) (grant OR bounty OR hackathon OR testnet)")+"&hl=en-US&gl=US&ceid=US:en",
     "Google News — developer contests":"https://news.google.com/rss/search?q="+quote("(developer) (contest OR challenge OR bounty) (web3 OR blockchain OR crypto)")+"&hl=en-US&gl=US&ceid=US:en",
     "Google News — community rewards":"https://news.google.com/rss/search?q="+quote("(web3 OR blockchain) (community rewards OR contributor rewards OR ambassador)")+"&hl=en-US&gl=US&ceid=US:en"
