@@ -73,7 +73,7 @@ def feed(name,url):
         summary=txt(it,"description","{*}summary","{*}content"); blob=re.sub(r"<[^>]+>"," ",summary)
         blob=f"{title} {blob}"; host=urlparse(link).netloc.lower()
         if not title or not link or not KEYWORDS.search(blob): continue
-        official=any(d in host for d in ("hackerone.com","gitcoin.co","ton.org","ethereum.org")); google_news=("news.google.com" in host); blocked=bool(BLOCKED.search(blob))
+        OFFICIAL_DOMAINS={"hackerone.com","gitcoin.co","ton.org","ethereum.org","immunefi.com","galxe.com","app.galxe.com","layer3.xyz","defillama.com","code4rena.com","sherlock.xyz","zealy.io","questn.com"}; official=any(host == d or host.endswith("." + d) for d in OFFICIAL_DOMAINS); google_news=("news.google.com" in host); blocked=bool(BLOCKED.search(blob))
         score=20+(30 if official else 0)+(15 if google_news else 0)+(20 if re.search(r"airdrop|reward|bounty|grant",blob,re.I) else 0)+(10 if re.search(r"official|announce|program|foundation",blob,re.I) else 0)-(70 if blocked else 0)
         score=max(0,min(100,score))
         out.append({"id":re.sub(r"[^a-z0-9]+","-",link.lower()).strip("-")[-120:],"title":title[:300],"url":link,"publisher":name,"domain":host,"published":txt(it,"pubDate","{*}published","{*}updated"),"status":"blocked" if blocked else ("candidate" if official else "needs-review"),"score":score,"risk":"blocked" if blocked else ("lower" if official and score>=60 else "review"),"evidence":["public-feed","keyword-match"]+["official-domain"]*int(official)+["google-news-discovery"]*int(google_news),"action":"BLOCK" if blocked else "REVIEW","note":"Verify eligibility, dates, region, contract and official instructions. No automatic claim, signature or transfer."})
