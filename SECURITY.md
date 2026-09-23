@@ -15,9 +15,8 @@
 3. Risk/score heuristics
 4. Astra coordinator layer
 5. Claude review layer
-6. Gemini verification layer
-7. Immortal Guard final security gate
-8. Owner-approval queue
-9. Manual owner action only
+6. Immortal Guard final security gate
+7. Owner-approval queue
+8. Manual owner action only
 
-The current repository implements steps 1–3, the safety gate, dashboard feed, history and owner-approval queue. AI model calls are intentionally not faked: Astra/Claude/Gemini are declared as architecture roles until their authenticated APIs are connected.
+The current repository implements steps 1–3, the safety gate, dashboard feed, history and owner-approval queue. AI model calls are intentionally not faked: Astra/Claude are the live AI architecture roles; Immortal Guard remains the deterministic final safety gate.
