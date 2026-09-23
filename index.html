@@ -86,43 +86,16 @@ h2{font-size:20px;margin:28px 0 13px}.notice{border:1px solid #65502c;background
 <div class="footer">IMMORTAL GUARD X · این ابزار ردیاب و تحلیل فرصت است، نه صرافی و نه تضمین درآمد. هیچ کلید خصوصی ذخیره نمی‌شود. برای هر فرصت واقعی، فقط اطلاعات منتشرشده توسط پروژه یا منبع رسمی مبنای تصمیم‌گیری است.</div>
 </main>
 <script>
-const data=[
-{id:1,name:'اکوسیستم TON — فرصت‌های رسمی',net:'TON',score:86,risk:'پایین‌تر',type:'اکوسیستم / برنامه رسمی',url:'https://ton.org'},
-{id:2,name:'Ethereum — برنامه‌های رسمی و اکوسیستم',net:'ETH',score:82,risk:'نیازمند بررسی',type:'اکوسیستم / مشارکت',url:'https://ethereum.org'},
-{id:3,name:'فرصت‌های Bounty و Bug Bounty',net:'Other',score:78,risk:'نیازمند بررسی',type:'Bounty / گزارش باگ',url:'https://hackerone.com'}
-];
-let missions=Number(localStorage.ig_missions||0),points=Number(localStorage.ig_points||0);
+let data=[],missions=Number(localStorage.ig_missions||0),points=Number(localStorage.ig_points||0);
+const pending=JSON.parse(localStorage.ig_pending||"[]");
 function fa(n){return String(n).replace(/\d/g,x=>'۰۱۲۳۴۵۶۷۸۹'[x])}
-function render(){let q=(document.getElementById('search').value||'').toLowerCase(),f=document.getElementById('filter').value;
-let arr=data.filter(x=>(x.name+' '+x.net+' '+x.type).toLowerCase().includes(q)&&
-(f==='all'||(f==='high'&&x.score>=85)||(f==='lowrisk'&&x.risk==='پایین‌تر')||(f==='ton'&&x.net==='TON')));
-document.getElementById('opps').innerHTML=arr.map(x=>'<article class="card opp"><div class="chips"><span class="chip">'+x.net+'</span><span class="chip">'+x.type+'</span></div><h3>'+x.name+'</h3><div class="score">'+x.score+' / 100</div><p>امتیاز نمونه برای رابط کاربری است و به معنی تضمین درآمد یا امنیت نیست.</p><p class="risk">ریسک: '+x.risk+'</p><a href="'+x.url+'" target="_blank" rel="noopener">منبع رسمی ↗</a><div class="actions"><button class="btn primary" onclick="track()">افزودن به مسیر من</button></div></article>').join('')||'<div class="card">موردی پیدا نشد.</div>';
-document.getElementById('tracked').textContent=fa(missions);document.getElementById('points').textContent=fa(points)}
-function track(){missions++;localStorage.ig_missions=missions;render();alert('به مسیر شخصی اضافه شد؛ قبل از هر اقدام، منبع را بررسی کن.')}
-function complete(n){points+=n;localStorage.ig_points=points;render();alert('ماموریت ثبت شد. امتیاز این نسخه فقط امتیاز داخلی است و ارزش مالی ندارد.')}
+function esc(s){return String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+async function loadRadar(){try{let r=await fetch('data/opportunities.json?ts='+Date.now(),{cache:'no-store'});if(!r.ok)throw 0;let j=await r.json();data=j.items||[];document.getElementById('verified').textContent=fa(data.filter(x=>x.status==='candidate').length);render()}catch(e){document.getElementById('verified').textContent='—';document.getElementById('opps').innerHTML='<div class="card">رادار هنوز اولین اجرای خودکار را دریافت نکرده است.</div>'}}
+function render(){let q=(document.getElementById('search').value||'').toLowerCase(),f=document.getElementById('filter').value;let arr=data.filter(x=>(x.title+' '+x.domain+' '+x.publisher).toLowerCase().includes(q)&&(f==='all'||(f==='high'&&x.score>=70)||(f==='lowrisk'&&x.risk==='lower')||(f==='ton'&&/ton\.org/i.test(x.domain))));document.getElementById('opps').innerHTML=arr.map(x=>'<article class="card opp"><div class="chips"><span class="chip">'+esc(x.status)+'</span><span class="chip">'+esc(x.publisher)+'</span></div><h3>'+esc(x.title)+'</h3><div class="score">'+x.score+' / 100</div><p>'+esc(x.note)+'</p><p class="risk">ریسک: '+esc(x.risk)+'</p><a href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer">منبع ↗</a><div class="actions">'+(x.status==='blocked'?'<button class="btn" disabled>مسدود شده</button>':'<button class="btn primary" onclick="queueAction('+JSON.stringify(x.id)+')">صف بررسی مالک</button>')+'</div></article>').join('')||'<div class="card">موردی پیدا نشد.</div>';document.getElementById('tracked').textContent=fa(missions);document.getElementById('points').textContent=fa(points)}
+function queueAction(id){let x=data.find(a=>a.id===id);if(!x)return;if(!pending.some(a=>a.id===id)){pending.push({id:x.id,title:x.title,url:x.url,queuedAt:new Date().toISOString(),state:'OWNER_APPROVAL_REQUIRED'});localStorage.ig_pending=JSON.stringify(pending)}alert('در صف تأیید مالک ثبت شد؛ هیچ Claim، امضا یا انتقال خودکار انجام نمی‌شود.')}
+function track(){missions++;localStorage.ig_missions=missions;render()} function complete(n){points+=n;localStorage.ig_points=points;render();alert('امتیاز داخلی ثبت شد.')}
 function tab(id,el){document.querySelectorAll('main section[id]').forEach(x=>{if(['radar','missions','engine','safety'].includes(x.id))x.classList.add('hidden')});document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));el.classList.add('active')}
-document.getElementById('search').addEventListener('input',render);document.getElementById('filter').addEventListener('change',render);
-render();
-
-const TON_MANIFEST='https://saberbadri24-tech.github.io/immortal-guard/tonconnect-manifest.json';
-let tonUI=null;
-try{
-  tonUI=new TON_CONNECT_UI.TonConnectUI({manifestUrl:TON_MANIFEST,buttonRootId:'ton-connect'});
-  tonUI.onStatusChange(wallet=>{
-    const s=document.getElementById('wallet-status');
-    if(wallet){
-      const a=wallet.account?.address||'';
-      s.textContent='متصل: '+(a.length>16?a.slice(0,8)+'…'+a.slice(-6):a);
-      s.title=a;
-    }else{
-      s.textContent='کیف پول متصل نیست';
-      s.title='';
-    }
-  });
-}catch(e){
-  const s=document.getElementById('wallet-status');
-  s.textContent='اتصال کیف پول آماده نیست';
-  console.error('TON Connect init failed',e);
-}
+document.getElementById('search').addEventListener('input',render);document.getElementById('filter').addEventListener('change',render);loadRadar();
+const TON_MANIFEST='https://saberbadri24-tech.github.io/immortal-guard/tonconnect-manifest.json';let tonUI=null;try{tonUI=new TON_CONNECT_UI.TonConnectUI({manifestUrl:TON_MANIFEST,buttonRootId:'ton-connect'});tonUI.onStatusChange(wallet=>{let s=document.getElementById('wallet-status');if(wallet){let a=wallet.account?.address||'';s.textContent='متصل: '+(a.length>16?a.slice(0,8)+'…'+a.slice(-6):a)}else s.textContent='کیف پول متصل نیست'})}catch(e){document.getElementById('wallet-status').textContent='اتصال کیف پول آماده نیست'}
 </script>
 </body></html>
