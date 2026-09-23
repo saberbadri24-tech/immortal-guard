@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "updatedAt": "2026-09-23T18:02:38.761407+00:00",
+  "version": 4,
+  "updatedAt": "2026-09-23T18:19:00.238793+00:00",
   "sources": {
     "geckoterminal_new_pools": "https://api.geckoterminal.com/api/v2/networks/new_pools?include_gt_community_data=true",
     "geckoterminal_trending_pools": "https://api.geckoterminal.com/api/v2/networks/trending_pools?duration=24h&include_gt_community_data=true",
@@ -13,8 +13,11 @@
   ],
   "sourceErrors": {},
   "sourceRows": 112,
-  "uniqueCandidates": 110,
+  "uniqueCandidates": 111,
   "securityChecksAttempted": 20,
+  "memoryItems": 111,
+  "alertCount": 100,
+  "noveltyLayer": "temporal memory + change detection + convergence-aware research priority",
   "items": [
     {
       "chain": "robinhood",
@@ -22,11 +25,11 @@
       "name": "Agrippa / musebook",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 1264785.8781,
-      "volume24hUsd": 17442649.4082187,
-      "txns24h": 54050.0,
-      "priceChange24hPct": 2640.671,
-      "fdvUsd": 6762361.13487132,
+      "liquidityUsd": 1257502.325,
+      "volume24hUsd": 17483627.5705851,
+      "txns24h": 54160.0,
+      "priceChange24hPct": 2430.986,
+      "fdvUsd": 6160204.21588278,
       "marketCapUsd": 0.0,
       "poolCreatedAt": "2026-09-17T16:01:41Z",
       "communitySusReports": 0.0,
@@ -53,7 +56,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "28b9d4d422ade57869b97284",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 58
     },
     {
       "chain": "solana",
@@ -61,11 +74,11 @@
       "name": "JEANPHIL / SOL",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 334560.9776,
-      "volume24hUsd": 8723861.87635196,
-      "txns24h": 52392.0,
-      "priceChange24hPct": 76.796,
-      "fdvUsd": 6434780.753,
+      "liquidityUsd": 324913.7015,
+      "volume24hUsd": 8707755.00859985,
+      "txns24h": 52288.0,
+      "priceChange24hPct": 84.799,
+      "fdvUsd": 5982798.269,
       "marketCapUsd": 0.0,
       "poolCreatedAt": "2026-09-19T19:06:59Z",
       "communitySusReports": 0.0,
@@ -76,9 +89,9 @@
         "geckoterminal_trending_pools"
       ],
       "sourceCount": 1,
-      "marketSignalScore": 64,
+      "marketSignalScore": 65,
       "securityPenalty": 0,
-      "opportunityScore": 64,
+      "opportunityScore": 65,
       "security": {
         "available": false,
         "hardRiskFlags": [],
@@ -92,44 +105,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0x432733840e61898919abd6850d94e2a708621d82fa84656cea0db33142f610a3",
-      "name": "AGI / WETH 0.3%",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 170535.0529,
-      "volume24hUsd": 1839885.0843662,
-      "txns24h": 7115.0,
-      "priceChange24hPct": 95.431,
-      "fdvUsd": 2283515.264,
-      "marketCapUsd": 2283515.264,
-      "poolCreatedAt": "2026-09-21T08:42:23Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_trending_pools",
-      "signals": [
-        "geckoterminal_trending_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 61,
-      "securityPenalty": 0,
-      "opportunityScore": 61,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "0f97336f54dacdd932983268",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
       },
-      "riskFlags": [],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "researchPriority": 56
     },
     {
       "chain": "robinhood",
@@ -137,12 +123,12 @@
       "name": "musebook / META",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 6781684.3315,
-      "volume24hUsd": 12293317.679211,
-      "txns24h": 40939.0,
-      "priceChange24hPct": -8.853,
-      "fdvUsd": 26674301.2634878,
-      "marketCapUsd": 26675072.66,
+      "liquidityUsd": 6779082.3314,
+      "volume24hUsd": 12370594.4363951,
+      "txns24h": 41027.0,
+      "priceChange24hPct": -10.873,
+      "fdvUsd": 25936930.0475921,
+      "marketCapUsd": 25937680.12,
       "poolCreatedAt": "2026-09-16T05:51:12Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 80.0,
@@ -166,7 +152,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "ca2283b178f1a12cf300b3dd",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 53
     },
     {
       "chain": "robinhood",
@@ -174,12 +170,12 @@
       "name": "PONS / USDG 0.3%",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 7035869.3241,
-      "volume24hUsd": 7864305.79400153,
-      "txns24h": 8782.0,
-      "priceChange24hPct": 1.665,
-      "fdvUsd": 456624770.680547,
-      "marketCapUsd": 456654970.520756,
+      "liquidityUsd": 7015952.7367,
+      "volume24hUsd": 7837335.89726309,
+      "txns24h": 8751.0,
+      "priceChange24hPct": 0.925,
+      "fdvUsd": 454912151.926903,
+      "marketCapUsd": 454943552.891412,
       "poolCreatedAt": "2026-07-18T01:42:13Z",
       "communitySusReports": 2.0,
       "communityPositivePct": 85.71428571428571,
@@ -205,7 +201,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "7bc77ab93bd75b6816f14037",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 53
     },
     {
       "chain": "robinhood",
@@ -213,12 +219,12 @@
       "name": "CASHCAT / WETH 0.3%",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 2470262.2872,
-      "volume24hUsd": 5144481.67342677,
-      "txns24h": 11053.0,
-      "priceChange24hPct": -5.639,
-      "fdvUsd": 159078628.759016,
-      "marketCapUsd": 159078630.698698,
+      "liquidityUsd": 2437889.8682,
+      "volume24hUsd": 5115334.02631421,
+      "txns24h": 10988.0,
+      "priceChange24hPct": -4.76,
+      "fdvUsd": 158292721.449419,
+      "marketCapUsd": 158292724.116345,
       "poolCreatedAt": "2026-07-01T19:38:42Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 100.0,
@@ -242,7 +248,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "37a31629e224fd9dc9b362f0",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 53
     },
     {
       "chain": "robinhood",
@@ -250,12 +266,12 @@
       "name": "DELTA / WETH 1%",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 1601164.142,
-      "volume24hUsd": 2866371.05555877,
-      "txns24h": 3631.0,
-      "priceChange24hPct": 9.622,
-      "fdvUsd": 24499276.4593633,
-      "marketCapUsd": 22160253.204,
+      "liquidityUsd": 1599513.0071,
+      "volume24hUsd": 2857261.86748525,
+      "txns24h": 3595.0,
+      "priceChange24hPct": 8.83,
+      "fdvUsd": 25060616.3871329,
+      "marketCapUsd": 22668000.237,
       "poolCreatedAt": "2026-07-31T22:59:31Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 100.0,
@@ -279,7 +295,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "457760c9d9a9131abfccd697",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 53
     },
     {
       "chain": "robinhood",
@@ -287,12 +313,12 @@
       "name": "SHROOM / USDG 0.9%",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 1325022.0049,
-      "volume24hUsd": 2136797.57751325,
-      "txns24h": 6492.0,
-      "priceChange24hPct": 20.032,
-      "fdvUsd": 17515900.4601687,
-      "marketCapUsd": 17515945.6093404,
+      "liquidityUsd": 1323504.2775,
+      "volume24hUsd": 2121720.55960161,
+      "txns24h": 6444.0,
+      "priceChange24hPct": 20.282,
+      "fdvUsd": 17515466.1003856,
+      "marketCapUsd": 17515511.2484376,
       "poolCreatedAt": "2026-09-03T14:09:24Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 0.0,
@@ -316,7 +342,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "89ed41c909adfa7e89620a71",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 53
     },
     {
       "chain": "robinhood",
@@ -324,12 +360,12 @@
       "name": "PURSER / WETH",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 75067.3663,
-      "volume24hUsd": 1300110.25242342,
-      "txns24h": 10265.0,
-      "priceChange24hPct": 1012.759,
-      "fdvUsd": 648232.3054,
-      "marketCapUsd": 595315.382549892,
+      "liquidityUsd": 74533.5182,
+      "volume24hUsd": 1301895.17771345,
+      "txns24h": 10284.0,
+      "priceChange24hPct": 936.519,
+      "fdvUsd": 603819.2457,
+      "marketCapUsd": 554527.87874105,
       "poolCreatedAt": "2026-09-22T18:56:24Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 100.0,
@@ -355,7 +391,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "fcbb8c17b934414b7d8cbef0",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 52
     },
     {
       "chain": "robinhood",
@@ -363,12 +409,12 @@
       "name": "PONS / WETH 0.3%",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 5890378.7952,
-      "volume24hUsd": 19158050.0375753,
-      "txns24h": 17466.0,
-      "priceChange24hPct": 1.907,
-      "fdvUsd": 456784243.528032,
-      "marketCapUsd": 456814453.915313,
+      "liquidityUsd": 5871942.0727,
+      "volume24hUsd": 18881445.7457918,
+      "txns24h": 17208.0,
+      "priceChange24hPct": 1.31,
+      "fdvUsd": 457420341.433839,
+      "marketCapUsd": 457451915.529731,
       "poolCreatedAt": "2026-07-16T15:39:37Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 66.66666666666666,
@@ -392,7 +438,64 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "2f4b041d240372ccafdf281c",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 52
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x432733840e61898919abd6850d94e2a708621d82fa84656cea0db33142f610a3",
+      "name": "AGI / WETH 0.3%",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 170059.5026,
+      "volume24hUsd": 1786160.9243208,
+      "txns24h": 6959.0,
+      "priceChange24hPct": 45.292,
+      "fdvUsd": 2294559.386,
+      "marketCapUsd": 2294559.386,
+      "poolCreatedAt": "2026-09-21T08:42:23Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_trending_pools",
+      "signals": [
+        "geckoterminal_trending_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 56,
+      "securityPenalty": 0,
+      "opportunityScore": 56,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "47f5839909fd3f78daaab520",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 51
     },
     {
       "chain": "robinhood",
@@ -400,12 +503,12 @@
       "name": "BONER / HIMS",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 2836476.7501,
-      "volume24hUsd": 901271.539476005,
-      "txns24h": 1950.0,
-      "priceChange24hPct": 10.85,
-      "fdvUsd": 45603023.8375653,
-      "marketCapUsd": 45603030.6113,
+      "liquidityUsd": 2835157.2549,
+      "volume24hUsd": 901121.929301596,
+      "txns24h": 1968.0,
+      "priceChange24hPct": 11.921,
+      "fdvUsd": 45570188.7650712,
+      "marketCapUsd": 45570195.5339287,
       "poolCreatedAt": "2026-08-20T20:59:46Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 50.0,
@@ -429,44 +532,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0x5eac4195930d5ff8b7a34a347f2bde951c42eb730d6e26075bea3dd7c66feb40",
-      "name": "ROBIN / USDG",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 165533.387,
-      "volume24hUsd": 979468.320487377,
-      "txns24h": 14622.0,
-      "priceChange24hPct": 32.256,
-      "fdvUsd": 3864971.18013346,
-      "marketCapUsd": 4099283.045,
-      "poolCreatedAt": "2026-09-05T16:54:01Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 100.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_trending_pools",
-      "signals": [
-        "geckoterminal_trending_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 53,
-      "securityPenalty": 0,
-      "opportunityScore": 53,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "a4abbd2d553e764474eadf5b",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
       },
-      "riskFlags": [],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "researchPriority": 50
     },
     {
       "chain": "robinhood",
@@ -474,12 +550,12 @@
       "name": "NET / USDG 0.9%",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 897271.0555,
-      "volume24hUsd": 866134.337661929,
-      "txns24h": 1203.0,
-      "priceChange24hPct": -16.911,
-      "fdvUsd": 70661222.0902279,
-      "marketCapUsd": 3225183.16558536,
+      "liquidityUsd": 893989.033,
+      "volume24hUsd": 841641.875108371,
+      "txns24h": 1182.0,
+      "priceChange24hPct": -18.19,
+      "fdvUsd": 71534642.8103582,
+      "marketCapUsd": 3265011.68192759,
       "poolCreatedAt": "2026-08-25T21:12:20Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 0.0,
@@ -503,7 +579,64 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "fdbafefedbe700cbb6f89885",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 49
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x5eac4195930d5ff8b7a34a347f2bde951c42eb730d6e26075bea3dd7c66feb40",
+      "name": "ROBIN / USDG",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 162098.8928,
+      "volume24hUsd": 976430.927581734,
+      "txns24h": 14762.0,
+      "priceChange24hPct": 29.583,
+      "fdvUsd": 3795324.28865623,
+      "marketCapUsd": 4025413.847,
+      "poolCreatedAt": "2026-09-05T16:54:01Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 100.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_trending_pools",
+      "signals": [
+        "geckoterminal_trending_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 52,
+      "securityPenalty": 0,
+      "opportunityScore": 52,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "34b3f974406b2329e2b4f143",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 49
     },
     {
       "chain": "robinhood",
@@ -511,11 +644,11 @@
       "name": "ROO / WETH",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 29235.9975,
-      "volume24hUsd": 190632.76904923,
-      "txns24h": 1734.0,
-      "priceChange24hPct": 10554.802,
-      "fdvUsd": 156064.6347,
+      "liquidityUsd": 33548.3359,
+      "volume24hUsd": 196336.728674332,
+      "txns24h": 1887.0,
+      "priceChange24hPct": 13655.755,
+      "fdvUsd": 201485.3788,
       "marketCapUsd": 0.0,
       "poolCreatedAt": "2026-09-23T04:00:40Z",
       "communitySusReports": 0.0,
@@ -542,7 +675,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "d1c788ba03db90aee167bb0e",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 49
     },
     {
       "chain": "bsc",
@@ -550,12 +693,12 @@
       "name": "AAPLB / 币安人能飞",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 31248.2399,
-      "volume24hUsd": 896615.738968868,
-      "txns24h": 9128.0,
-      "priceChange24hPct": -1.898,
-      "fdvUsd": 5744799.4831954,
-      "marketCapUsd": 5659504.36729112,
+      "liquidityUsd": 29455.9609,
+      "volume24hUsd": 897927.310309234,
+      "txns24h": 9145.0,
+      "priceChange24hPct": -2.036,
+      "fdvUsd": 5738249.00068402,
+      "marketCapUsd": 5651557.16729049,
       "poolCreatedAt": "2026-09-23T11:51:17Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 100.0,
@@ -581,7 +724,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "d336f038c803b0f134b15e06",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 44
     },
     {
       "chain": "robinhood",
@@ -589,11 +742,11 @@
       "name": "HOODCATS / WETH 0.25%",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 40636.9262,
-      "volume24hUsd": 118424.481622457,
-      "txns24h": 2187.0,
-      "priceChange24hPct": -6.338,
-      "fdvUsd": 152907.866496891,
+      "liquidityUsd": 40075.0273,
+      "volume24hUsd": 119141.83219954,
+      "txns24h": 2199.0,
+      "priceChange24hPct": -6.483,
+      "fdvUsd": 153432.733497336,
       "marketCapUsd": 0.0,
       "poolCreatedAt": "2026-09-19T03:23:52Z",
       "communitySusReports": 0.0,
@@ -618,7 +771,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "ea96e3da4cada77ca9b74522",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 44
     },
     {
       "chain": "robinhood",
@@ -626,15 +789,15 @@
       "name": "AD / WETH 0.25%",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 60304.5458,
-      "volume24hUsd": 570003.71556845,
-      "txns24h": 16850.0,
-      "priceChange24hPct": -27.947,
-      "fdvUsd": 287438.247,
-      "marketCapUsd": 287438.247,
+      "liquidityUsd": 61234.3853,
+      "volume24hUsd": 561926.782804581,
+      "txns24h": 16646.0,
+      "priceChange24hPct": -29.273,
+      "fdvUsd": 298468.8012,
+      "marketCapUsd": 298468.8012,
       "poolCreatedAt": "2026-09-17T17:07:49Z",
       "communitySusReports": 1.0,
-      "communityPositivePct": 60.0,
+      "communityPositivePct": 66.66666666666666,
       "boostAmount": 0.0,
       "source": "geckoterminal_trending_pools",
       "signals": [
@@ -657,7 +820,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "8314f33eba5498c3674cff6a",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 43
     },
     {
       "chain": "solana",
@@ -665,12 +838,12 @@
       "name": "PEPENOM / SOL",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 130108.1436,
-      "volume24hUsd": 58947.5601090713,
-      "txns24h": 5570.0,
-      "priceChange24hPct": 6.184,
-      "fdvUsd": 235492.975580013,
-      "marketCapUsd": 235516.808898841,
+      "liquidityUsd": 130747.7178,
+      "volume24hUsd": 58676.7057414822,
+      "txns24h": 5564.0,
+      "priceChange24hPct": 4.891,
+      "fdvUsd": 235313.640462295,
+      "marketCapUsd": 235337.45563132,
       "poolCreatedAt": "2026-09-11T00:55:05Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 66.66666666666666,
@@ -694,7 +867,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "bd6e510c23b00644540dce95",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 43
     },
     {
       "chain": "robinhood",
@@ -702,11 +885,11 @@
       "name": "FLY / WETH 3.25%",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 27571.7396,
-      "volume24hUsd": 88837.1094779438,
-      "txns24h": 2026.0,
-      "priceChange24hPct": -3.958,
-      "fdvUsd": 39382.8873,
+      "liquidityUsd": 27738.3515,
+      "volume24hUsd": 88888.0844403263,
+      "txns24h": 2029.0,
+      "priceChange24hPct": -3.185,
+      "fdvUsd": 39699.93647,
       "marketCapUsd": 0.0,
       "poolCreatedAt": "2026-09-23T13:59:59Z",
       "communitySusReports": 0.0,
@@ -731,7 +914,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "b875e9aee08cecde5c8cf420",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 41
     },
     {
       "chain": "eth",
@@ -739,10 +932,10 @@
       "name": "ASE / WETH",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 187045.198,
-      "volume24hUsd": 12075.089464996,
-      "txns24h": 84.0,
-      "priceChange24hPct": -7.723,
+      "liquidityUsd": 186975.7459,
+      "volume24hUsd": 12066.4016963005,
+      "txns24h": 81.0,
+      "priceChange24hPct": -7.767,
       "fdvUsd": 1809482.754,
       "marketCapUsd": 751598.648622099,
       "poolCreatedAt": "2026-05-10T20:08:11Z",
@@ -770,166 +963,24 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "e392853402c2e07476eb57cf",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 39
     },
     {
       "chain": "solana",
-      "address": "2vEiLnh5yPyLoqhBuME7ez5s7PKvF7oV42nATM74KwdM",
-      "name": "TICKER / SOL",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 17030.3931,
-      "volume24hUsd": 59713.9042360522,
-      "txns24h": 1617.0,
-      "priceChange24hPct": -4.517,
-      "fdvUsd": 45453.53003,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:43Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 29,
-      "securityPenalty": 0,
-      "opportunityScore": 29,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0xd9d5f05cbc8ccdef1491ca889f9f697270c1ba474b53a0ce15e1270d543dc325",
-      "name": "MAXI / WETH 2.25%",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 18142.98,
-      "volume24hUsd": 7881.5035152689,
-      "txns24h": 89.0,
-      "priceChange24hPct": 184.494,
-      "fdvUsd": 16241.6121,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:49Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 25,
-      "securityPenalty": 0,
-      "opportunityScore": 25,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0xc0360b64ae75c4c0c00a4dd1d1a290348d00398f",
-      "name": "THRED / WETH",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 4440.256,
-      "volume24hUsd": 18595.5203303988,
-      "txns24h": 159.0,
-      "priceChange24hPct": -33.03,
-      "fdvUsd": 4435.151346,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:48Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 18,
-      "securityPenalty": 0,
-      "opportunityScore": 18,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "3c29TEBhsDmMZabEG7gNDNiZc4PCSBjc7UG8jprxUeDe",
-      "name": "MUSESTREAM / SOL",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 2614.2917,
-      "volume24hUsd": 8161.6598153354,
-      "txns24h": 345.0,
-      "priceChange24hPct": -36.812,
-      "fdvUsd": 3298.566169,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:54Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 12,
-      "securityPenalty": 0,
-      "opportunityScore": 12,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0x0A8C39Fa35F6ECaa2CE3391EEc41FB2d59c25Cc6",
+      "address": "2YoxhBGzQCbGWZRyceoEN3VF33mvHq1eP8DoBf31pump",
       "name": null,
       "symbol": null,
-      "url": "https://dexscreener.com/robinhood/0x0a8c39fa35f6ecaa2ce3391eec41fb2d59c25cc6",
+      "url": "https://dexscreener.com/solana/2yoxhbgzqcbgwzryceoen3vf33mvhq1ep8dobf31pump",
       "liquidityUsd": 0.0,
       "volume24hUsd": 0.0,
       "txns24h": 0.0,
@@ -939,7 +990,7 @@
       "poolCreatedAt": null,
       "communitySusReports": 0.0,
       "communityPositivePct": 0.0,
-      "boostAmount": 100.0,
+      "boostAmount": 30.0,
       "source": "dexscreener_profiles",
       "signals": [
         "dexscreener_profiles",
@@ -962,30 +1013,39 @@
       "confidence": "multi-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "be13f66937c987fe9be3540c",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 2,
+        "noveltyScore": 75,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 31
     },
     {
-      "chain": "robinhood",
-      "address": "0xe34f03f4F36E842C8817Ac635162A2cc67E03C8a",
-      "name": null,
+      "chain": "base",
+      "address": "0x2a0a4b9ead91a921747e3038decf88a6712d93d9298ccae1da5336b908d8f4f5",
+      "name": "CHUMP / ETH",
       "symbol": null,
-      "url": "https://dexscreener.com/robinhood/0xe34f03f4f36e842c8817ac635162a2cc67e03c8a",
+      "url": "",
       "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
+      "volume24hUsd": 30604.490002259,
+      "txns24h": 24.0,
+      "priceChange24hPct": 29.734,
+      "fdvUsd": 121697.1973,
       "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
+      "poolCreatedAt": "2026-09-23T18:15:17Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 0.0,
-      "boostAmount": 100.0,
-      "source": "dexscreener_profiles",
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
       "signals": [
-        "dexscreener_profiles",
-        "dexscreener_boosts"
+        "geckoterminal_new_pools"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "marketSignalScore": 12,
       "securityPenalty": 0,
       "opportunityScore": 12,
@@ -999,141 +1059,34 @@
       "riskFlags": [
         "very-low-liquidity"
       ],
-      "confidence": "multi-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "HXVb2f99n52bo1yWeyFFJUKRZJuWBoXAmqf8WiCSoqDu",
-      "name": "JEGO / SOL",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 2596.1317,
-      "volume24hUsd": 4765.1747193307,
-      "txns24h": 73.0,
-      "priceChange24hPct": -39.732,
-      "fdvUsd": 3269.367169,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:53Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 8,
-      "securityPenalty": 0,
-      "opportunityScore": 8,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "db4bd85f8563d052088e60b4",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 27
     },
     {
       "chain": "solana",
-      "address": "9RZUbTxBTKWyZWL8zDvmCCY9xuWqNZHhz32riHiCnkve",
-      "name": "HAS / NVDAx",
+      "address": "6VHVXmC7qhr6HxuxcDu1BnXPTdsJcT5yYSBNrSJ3MiLC",
+      "name": "CMC / SOL",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 3612.401,
-      "volume24hUsd": 1346.5242786145,
-      "txns24h": 31.0,
-      "priceChange24hPct": -15.711,
-      "fdvUsd": 3623.021638,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:59:04Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 8,
-      "securityPenalty": 0,
-      "opportunityScore": 8,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "5UzPZ643oJfrbxcWaTiTcGpvBUqTW21xBeajnCJBxJLM",
-      "name": "retard / SOL",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 94.1443,
-      "volume24hUsd": 689.5641891411,
-      "txns24h": 154.0,
-      "priceChange24hPct": -94.724,
-      "fdvUsd": 340.5006828,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:59:01Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 8,
-      "securityPenalty": 0,
-      "opportunityScore": 8,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0xf09597dccce8fe12feccfd62b7d8971066fe9a56",
-      "name": "EQUT / WETH",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 5237.2643,
-      "volume24hUsd": 481.0966468639,
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 1471.8852320767,
       "txns24h": 7.0,
-      "priceChange24hPct": 5.381,
-      "fdvUsd": 4990.983593,
+      "priceChange24hPct": 64.148,
+      "fdvUsd": 8111.67435,
       "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:55Z",
+      "poolCreatedAt": "2026-09-23T18:15:19Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 0.0,
       "boostAmount": 0.0,
@@ -1142,9 +1095,9 @@
         "geckoterminal_new_pools"
       ],
       "sourceCount": 1,
-      "marketSignalScore": 7,
+      "marketSignalScore": 10,
       "securityPenalty": 0,
-      "opportunityScore": 7,
+      "opportunityScore": 10,
       "security": {
         "available": false,
         "hardRiskFlags": [],
@@ -1152,25 +1105,37 @@
         "securityPenalty": 0,
         "securityGate": "UNKNOWN"
       },
-      "riskFlags": [],
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "81bcd17223af236cd6d92dba",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 26
     },
     {
-      "chain": "arc",
-      "address": "0x8cb5ef1b069d948a5689d6f67f7fbf0f2b0930f4eba8b60ca7c9a00d09c5ee25",
-      "name": "DEFENSECAT / USDC 1%",
+      "chain": "base",
+      "address": "0x3e0c5f324d8cf3041e8566b8c8befbfd8462e722c94a3cd2bb47d0edb2f4377f",
+      "name": "SPIKE / WETH",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 9010.5497,
-      "volume24hUsd": 0.001999686,
-      "txns24h": 1.0,
-      "priceChange24hPct": 0.0,
-      "fdvUsd": 9010.477695,
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 4195.9332192271,
+      "txns24h": 44.0,
+      "priceChange24hPct": 1.246,
+      "fdvUsd": 20516.54423,
       "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:58Z",
+      "poolCreatedAt": "2026-09-23T18:15:15Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 0.0,
       "boostAmount": 0.0,
@@ -1179,9 +1144,9 @@
         "geckoterminal_new_pools"
       ],
       "sourceCount": 1,
-      "marketSignalScore": 7,
+      "marketSignalScore": 8,
       "securityPenalty": 0,
-      "opportunityScore": 7,
+      "opportunityScore": 8,
       "security": {
         "available": false,
         "hardRiskFlags": [],
@@ -1189,25 +1154,37 @@
         "securityPenalty": 0,
         "securityGate": "UNKNOWN"
       },
-      "riskFlags": [],
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "4c1da2f3ee4edd19d841b7b4",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 25
     },
     {
-      "chain": "arc",
-      "address": "0x6cf323106c749193a68d2081f41a2d551938ef2fa27629a9e267281fecc46ddd",
-      "name": "BITGOLD / USDC 1%",
+      "chain": "solana",
+      "address": "59GuPXEBHGwzkeMasS6UZCjaXFKwhV3cZJfYCbjisGi4",
+      "name": "BTRD / SOL",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 9010.5497,
-      "volume24hUsd": 0.001999686,
-      "txns24h": 1.0,
-      "priceChange24hPct": 0.0,
-      "fdvUsd": 9010.477695,
+      "liquidityUsd": 17079.6566426064,
+      "volume24hUsd": 245.384111491,
+      "txns24h": 4.0,
+      "priceChange24hPct": 0.759,
+      "fdvUsd": 46433.60841,
       "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:55Z",
+      "poolCreatedAt": "2026-09-23T18:15:15Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 0.0,
       "boostAmount": 0.0,
@@ -1230,7 +1207,115 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "bb6eb214d091ec2183efef82",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 24
+    },
+    {
+      "chain": "solana",
+      "address": "7sC2B5o56gWFKEbRwKhiMWeuUYjuGRyuSPxutoB38iMa",
+      "name": "COINMARKETCAT / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 3672.20489453858,
+      "volume24hUsd": 1110.2413039358,
+      "txns24h": 5.0,
+      "priceChange24hPct": 0.0,
+      "fdvUsd": 5590.217042,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": "2026-09-23T18:15:18Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 4,
+      "securityPenalty": 0,
+      "opportunityScore": 4,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "8d98558db3f0cc69324fa4de",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xfFe1Be42d92559043CCC012785e024a774d5A0d7",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0xffe1be42d92559043ccc012785e024a774d5a0d7",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 100.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 4,
+      "securityPenalty": 0,
+      "opportunityScore": 4,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "5c9e99eebcad82d89758e9c3",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "robinhood",
@@ -1269,7 +1354,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "82953327a7295d038cc449e6",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "solana",
@@ -1308,7 +1403,115 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "5049bc559923a6c6436c3442",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x0A8C39Fa35F6ECaa2CE3391EEc41FB2d59c25Cc6",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x0a8c39fa35f6ecaa2ce3391eec41fb2d59c25cc6",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 100.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 4,
+      "securityPenalty": 0,
+      "opportunityScore": 4,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "f7688a1cea79d632248c0827",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xe34f03f4F36E842C8817Ac635162A2cc67E03C8a",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0xe34f03f4f36e842c8817ac635162a2cc67e03c8a",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 100.0,
+      "source": "dexscreener_boosts",
+      "signals": [
+        "dexscreener_boosts"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 4,
+      "securityPenalty": 0,
+      "opportunityScore": 4,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "9f8cc2f574001d41c08a66e9",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "robinhood",
@@ -1347,7 +1550,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "8135e5228ec632fbf5582abc",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "solana",
@@ -1386,7 +1599,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "355a08ad756683e7546779da",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "solana",
@@ -1425,7 +1648,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "5b1705d39c2ae31dbda1f236",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "solana",
@@ -1464,7 +1697,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "109a84a56a02c9c613935609",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "robinhood",
@@ -1503,7 +1746,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "0da229e113b584030103df2d",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "solana",
@@ -1542,7 +1795,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "3d1603faa6d59bf648030bcd",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "solana",
@@ -1581,7 +1844,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "f85d756ad9eab7a1803c1c83",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "robinhood",
@@ -1620,7 +1893,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "afe451cf0290e09d147b00ab",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "solana",
@@ -1659,7 +1942,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "bdd620153f25e6a6c5dc1652",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "robinhood",
@@ -1698,7 +1991,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "66f1da33d643d6993a325833",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "solana",
@@ -1737,7 +2040,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "8f011f91f9d8cc72a88e8baa",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "solana",
@@ -1776,7 +2089,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "dd5c44c2e7b00f49e7a3dfca",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "solana",
@@ -1815,7 +2138,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "85795945099fffe1ca7f5178",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "near",
@@ -1854,7 +2187,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "263af7da89e6ef3e6470845e",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "robinhood",
@@ -1893,7 +2236,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "c5a22ffc6b7cd0a4327e2c91",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "robinhood",
@@ -1932,7 +2285,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "7e394716003e6817b9366dd1",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "solana",
@@ -1971,7 +2334,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "31d29b1047662fbed5e30f39",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "base",
@@ -2010,7 +2383,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "6329a43bc53e51e6fbe6a304",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "solana",
@@ -2049,7 +2432,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "1260b849ad9092349366b8a3",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "robinhood",
@@ -2088,7 +2481,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "80a84ccfce8d1eddec38e916",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "solana",
@@ -2127,7 +2530,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "85e45c6cefc328bd956665b9",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "robinhood",
@@ -2166,7 +2579,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "a8a90d80820476c2ff593bac",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "bsc",
@@ -2205,7 +2628,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "00896b82f334dfeff3d6c1a8",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 22
     },
     {
       "chain": "solana",
@@ -2244,138 +2677,31 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0xba356353542ED5564f8b9E48Fc6C8d5e6c14a1A8",
-      "name": null,
-      "symbol": null,
-      "url": "https://dexscreener.com/robinhood/0xba356353542ed5564f8b9e48fc6c8d5e6c14a1a8",
-      "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 30.0,
-      "source": "dexscreener_boosts",
-      "signals": [
-        "dexscreener_boosts"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 4,
-      "securityPenalty": 0,
-      "opportunityScore": 4,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "4febbe013025dc3b20975d8c",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
       },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "6yPP1vB1t9whewmZvREQ6SAtLy6ts2MYmgdqcBNRpump",
-      "name": null,
-      "symbol": null,
-      "url": "https://dexscreener.com/solana/6ypp1vb1t9whewmzvreq6satly6ts2mymgdqcbnrpump",
-      "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 10.0,
-      "source": "dexscreener_boosts",
-      "signals": [
-        "dexscreener_boosts"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 4,
-      "securityPenalty": 0,
-      "opportunityScore": 4,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "D5vPKV4hGU36TQ6UfAiB4LcCvDX4SFkgSKBAnGMPDxZ1",
-      "name": "KACU / SOL",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 1878.85637442393,
-      "volume24hUsd": 22.895338546,
-      "txns24h": 8.0,
-      "priceChange24hPct": 16.761,
-      "fdvUsd": 7489.009296,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:59Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 1,
-      "securityPenalty": 0,
-      "opportunityScore": 1,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "researchPriority": 22
     },
     {
       "chain": "base",
-      "address": "0x8bce6bdf889951f1cabe087af95ad29b10a9894c",
-      "name": "MEOW / WETH",
+      "address": "0xcc04140360081571c0df48f20f83c521fbb3cfc3",
+      "name": "LIQUIDBGT / WETH",
       "symbol": null,
       "url": "",
-      "liquidityUsd": 9412.1681,
-      "volume24hUsd": 1105.4742917927,
-      "txns24h": 15.0,
-      "priceChange24hPct": 48.323,
-      "fdvUsd": 5751.4544528,
+      "liquidityUsd": 7656.1749,
+      "volume24hUsd": 366.1190036494,
+      "txns24h": 9.0,
+      "priceChange24hPct": 20.244,
+      "fdvUsd": 4177.88225344,
       "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:43Z",
+      "poolCreatedAt": "2026-09-23T18:16:07Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 0.0,
       "boostAmount": 0.0,
@@ -2384,7 +2710,271 @@
         "geckoterminal_new_pools"
       ],
       "sourceCount": 1,
-      "marketSignalScore": 15,
+      "marketSignalScore": 9,
+      "securityPenalty": 43,
+      "opportunityScore": 0,
+      "security": {
+        "available": true,
+        "hardRiskFlags": [
+          "mintable"
+        ],
+        "softRiskFlags": [
+          "not-in-dex"
+        ],
+        "securityPenalty": 43,
+        "securityGate": "HIGH_RISK",
+        "rawSelected": {
+          "is_open_source": "1",
+          "is_proxy": "0",
+          "is_honeypot": "0",
+          "is_mintable": "1",
+          "is_blacklisted": "0",
+          "transfer_pausable": "0",
+          "slippage_modifiable": "0",
+          "can_take_back_ownership": "0",
+          "is_in_dex": "0",
+          "holder_count": "1"
+        }
+      },
+      "riskFlags": [
+        "mintable",
+        "not-in-dex"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "115e902bac98b776e6d37be0",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "base",
+      "address": "0x569ebfe57daa6fcee46099702077bbb79265a6fd",
+      "name": "SPCX / WETH",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 7909.703,
+      "volume24hUsd": 353.5992140358,
+      "txns24h": 9.0,
+      "priceChange24hPct": 11.875,
+      "fdvUsd": 4186.11474008,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": "2026-09-23T18:16:05Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 8,
+      "securityPenalty": 43,
+      "opportunityScore": 0,
+      "security": {
+        "available": true,
+        "hardRiskFlags": [
+          "mintable"
+        ],
+        "softRiskFlags": [
+          "not-in-dex"
+        ],
+        "securityPenalty": 43,
+        "securityGate": "HIGH_RISK",
+        "rawSelected": {
+          "is_open_source": "1",
+          "is_proxy": "0",
+          "is_honeypot": "0",
+          "is_mintable": "1",
+          "is_blacklisted": "0",
+          "transfer_pausable": "0",
+          "slippage_modifiable": "0",
+          "can_take_back_ownership": "0",
+          "is_in_dex": "0",
+          "holder_count": "1"
+        }
+      },
+      "riskFlags": [
+        "mintable",
+        "not-in-dex"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "c0214bcde5ed1856301cf29f",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "bsc",
+      "address": "0x9b54d1d9c0faa496d2caa7f5be42bdd318b45cbc",
+      "name": "币安人能飞 / USDT",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 20414.3135,
+      "volume24hUsd": 251.3116973618,
+      "txns24h": 4.0,
+      "priceChange24hPct": 3.955,
+      "fdvUsd": 10459.53334,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": "2026-09-23T18:15:27Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 7,
+      "securityPenalty": 43,
+      "opportunityScore": 0,
+      "security": {
+        "available": true,
+        "hardRiskFlags": [
+          "mintable"
+        ],
+        "softRiskFlags": [
+          "not-in-dex"
+        ],
+        "securityPenalty": 43,
+        "securityGate": "HIGH_RISK",
+        "rawSelected": {
+          "is_open_source": "1",
+          "is_proxy": "0",
+          "is_honeypot": "0",
+          "is_mintable": "1",
+          "is_blacklisted": "0",
+          "transfer_pausable": "0",
+          "slippage_modifiable": "0",
+          "can_take_back_ownership": "0",
+          "is_in_dex": "0",
+          "holder_count": "1"
+        }
+      },
+      "riskFlags": [
+        "mintable",
+        "not-in-dex"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "0c74204219b37e50cec82942",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "base",
+      "address": "0x82043ba69c36c0a5c5e84d4835154f0b11eaa312",
+      "name": "SPIKE / WETH",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 5514.23272845097,
+      "volume24hUsd": 94.0063642255,
+      "txns24h": 2.0,
+      "priceChange24hPct": 3.519,
+      "fdvUsd": 2765.138021,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": "2026-09-23T18:17:37Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 7,
+      "securityPenalty": 43,
+      "opportunityScore": 0,
+      "security": {
+        "available": true,
+        "hardRiskFlags": [
+          "mintable"
+        ],
+        "softRiskFlags": [
+          "not-in-dex"
+        ],
+        "securityPenalty": 43,
+        "securityGate": "HIGH_RISK",
+        "rawSelected": {
+          "is_open_source": "1",
+          "is_proxy": "0",
+          "is_honeypot": "0",
+          "is_mintable": "1",
+          "is_blacklisted": "0",
+          "transfer_pausable": "0",
+          "slippage_modifiable": "0",
+          "can_take_back_ownership": "0",
+          "is_in_dex": "0",
+          "holder_count": "1"
+        }
+      },
+      "riskFlags": [
+        "mintable",
+        "not-in-dex"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "a5282842d601dd3de223514e",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "base",
+      "address": "0x61e960ed29214424d62139f0c033807465b81247",
+      "name": "LAPTOP / WETH",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 7723.5516,
+      "volume24hUsd": 0.2444726831,
+      "txns24h": 2.0,
+      "priceChange24hPct": 0.006,
+      "fdvUsd": 3873.38137256,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": "2026-09-23T18:17:19Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 7,
       "securityPenalty": 16,
       "opportunityScore": 0,
       "security": {
@@ -2409,294 +2999,31 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "e3976c6bddaa29bd4b9018a4",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
-      "address": "4cBjsRMq2vzkZMSENhCKhfQm6PurVmNpPE2erQHXAuLc",
-      "name": "SLIPWAY / METAx",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 3236.537,
-      "volume24hUsd": 539.6303796833,
-      "txns24h": 8.0,
-      "priceChange24hPct": -1.706,
-      "fdvUsd": 3234.915918,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:49Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "3BxjoC4KGka4qRk5kMNh6y6ttR4euBZG9TdMcFYvUk5w",
-      "name": "Bestloss / SOL",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 2578.5851,
-      "volume24hUsd": 373.7146839765,
-      "txns24h": 7.0,
-      "priceChange24hPct": -4.617,
-      "fdvUsd": 3255.374025,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:47Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0x027fc3f839d1d90a40f0996db5ac50bfcb29098d",
-      "name": "VELA / WETH",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 4415.6176,
-      "volume24hUsd": 152.832023814,
-      "txns24h": 4.0,
-      "priceChange24hPct": -4.486,
-      "fdvUsd": 4414.429335,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:40Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "arc",
-      "address": "0x84d3ba8c302ebefa918c8eb6d44282e59afee935b02b99b5e1ac9ffc6dcbc41e",
-      "name": "HYPERCAT / USDC 1%",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 2610.3789,
-      "volume24hUsd": 55.5420795728,
-      "txns24h": 3.0,
-      "priceChange24hPct": 0.334,
-      "fdvUsd": 2563.944105,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:39Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "7eGg8hBAjucSpHngYzKk8MMeAzFWmgqDAC8vGu3NR46X",
-      "name": "ORACLE / SOL",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 2539.3813,
-      "volume24hUsd": 39.815654172,
-      "txns24h": 3.0,
-      "priceChange24hPct": -0.537,
-      "fdvUsd": 3201.813452,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:45Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "5KAZ367v8QryGUJ1vsHsapMDFVwTCAQaMSCGv1seZhek",
-      "name": "tegt / SOL",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 2541.5902,
-      "volume24hUsd": 4.348454555,
-      "txns24h": 1.0,
-      "priceChange24hPct": 0.0,
-      "fdvUsd": 3204.604484,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:42Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "C4keKdmZ4AVASLMHP2D9uvJvHNUq4DHKgtrzaVSTdY4",
-      "name": "MelanAI / SOL",
-      "symbol": null,
-      "url": "",
-      "liquidityUsd": 2542.0423,
-      "volume24hUsd": 3.625228203,
-      "txns24h": 1.0,
-      "priceChange24hPct": 0.0,
-      "fdvUsd": 3204.824071,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:59:07Z",
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "geckoterminal_new_pools",
-      "signals": [
-        "geckoterminal_new_pools"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0x9b9767b94e0212d792bd2abc7fc2b0427c27f85da242bbad9333d718ca53ac29",
-      "name": "TESTGECKO / WETH 1%",
+      "address": "BvEhv3TNp8f1N4JYMrJM57gy45RwK39MdyiWSkVJ9cWb",
+      "name": "COINMARKETCAT / USDC",
       "symbol": null,
       "url": "",
       "liquidityUsd": 0.0,
-      "volume24hUsd": 0.005333306652,
+      "volume24hUsd": 206.8953132857,
       "txns24h": 1.0,
       "priceChange24hPct": 0.0,
-      "fdvUsd": 5557.768044,
+      "fdvUsd": 5317.193906,
       "marketCapUsd": 0.0,
-      "poolCreatedAt": "2026-09-23T17:58:50Z",
+      "poolCreatedAt": "2026-09-23T18:15:18Z",
       "communitySusReports": 0.0,
       "communityPositivePct": 0.0,
       "boostAmount": 0.0,
@@ -2721,7 +3048,1110 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "52b82b734405dc1e4b2961aa",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "solana",
+      "address": "9MYGMrynTGn7McjCJ7YuWCQrDMwwMT4sQUSvK2AN8o1z",
+      "name": "NFW / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 194.0441655062,
+      "txns24h": 1.0,
+      "priceChange24hPct": 0.0,
+      "fdvUsd": 3930.801079,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": "2026-09-23T18:15:18Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "3a8012c8009a673175762274",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "solana",
+      "address": "A9JqoR16JnuqneyszHX6CtdjvshfKrc8bFECW9bE15xB",
+      "name": "BTX / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 172.4825233122,
+      "txns24h": 2.0,
+      "priceChange24hPct": 0.0,
+      "fdvUsd": 3194.321133,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": "2026-09-23T18:15:13Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "c06b56275059822aa2d779a7",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "solana",
+      "address": "49eEgudTPpL2B85JiJcFUDpno8uwk9yUJfGVQm7DrUZJ",
+      "name": "LONG / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 4835.85377669762,
+      "volume24hUsd": 121.7425602097,
+      "txns24h": 2.0,
+      "priceChange24hPct": 0.0,
+      "fdvUsd": 4571.548957,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": "2026-09-23T18:15:15Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "74c54128945f2b00c924007f",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "base",
+      "address": "0x7f6fc021e1ae9ee08d77806b3a177eb470fc591fd21686dfa1e30b54ed19f697",
+      "name": "LOCKIN / wtFGI",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 15.9787,
+      "volume24hUsd": 15.9673375603,
+      "txns24h": 1.0,
+      "priceChange24hPct": 0.0,
+      "fdvUsd": 23191.64855,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": "2026-09-23T18:15:25Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "6b89743f92d520f78f4e1b5c",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "solana",
+      "address": "3Xd1i4LEN8X7rf3j2eh9PBf2yCRpcVK6Fcb23cE1yxX6",
+      "name": "stormie / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 3.5607955998,
+      "txns24h": 4.0,
+      "priceChange24hPct": -34.83,
+      "fdvUsd": 4103.672034,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": "2026-09-23T18:15:14Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "b96916342dec5f59e1b89beb",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "bsc",
+      "address": "0xf171d4afbee9a3ce95a839b7864646973b75ffff",
+      "name": "RBBT / BNB",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 3551.5941924463,
+      "volume24hUsd": 0.001817250835,
+      "txns24h": 1.0,
+      "priceChange24hPct": 0.0,
+      "fdvUsd": 4439.492763,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": "2026-09-23T18:15:25Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 8,
+      "opportunityScore": 0,
+      "security": {
+        "available": true,
+        "hardRiskFlags": [],
+        "softRiskFlags": [
+          "not-in-dex"
+        ],
+        "securityPenalty": 8,
+        "securityGate": "REVIEW",
+        "rawSelected": {
+          "is_open_source": "1",
+          "is_proxy": "0",
+          "is_honeypot": "0",
+          "is_mintable": "0",
+          "is_blacklisted": "0",
+          "transfer_pausable": "0",
+          "slippage_modifiable": "0",
+          "can_take_back_ownership": "0",
+          "is_in_dex": "0",
+          "holder_count": "0"
+        }
+      },
+      "riskFlags": [
+        "not-in-dex",
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "a59d49ab8a6ce50b44159ad0",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "solana",
+      "address": "EUjcYPDp8tT9uJym2p35gt2ftiXKtQJWUgc4wTnzQR14",
+      "name": "ACAT / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0001126538028,
+      "txns24h": 1.0,
+      "priceChange24hPct": 0.0,
+      "fdvUsd": 3194.40878,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": "2026-09-23T18:15:15Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "912a9950fc9cb831849a7bec",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "solana",
+      "address": "E8atN3dLyCygUKC9kunurY2Ri1iSYw8s8jJugAL43bbB",
+      "name": "ACAT / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0001126523073,
+      "txns24h": 1.0,
+      "priceChange24hPct": 0.0,
+      "fdvUsd": 3194.366373,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": "2026-09-23T18:15:14Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "e31ce780920ee4429c77fbb8",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "solana",
+      "address": "DEZn8Z89izrEbWvyJwmj5fn9noXCCWno2gEC7rELh8nf",
+      "name": "ACAT / SOL",
+      "symbol": null,
+      "url": "",
+      "liquidityUsd": 2533.41605862306,
+      "volume24hUsd": 0.0001126285654,
+      "txns24h": 1.0,
+      "priceChange24hPct": 0.0,
+      "fdvUsd": 3193.69315,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": "2026-09-23T18:15:15Z",
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "geckoterminal_new_pools",
+      "signals": [
+        "geckoterminal_new_pools"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "e56927db7f4dc667b2c6105c",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x27C2daf5E74865DbEBC594B035966a209e3E88b5",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x27c2daf5e74865dbebc594b035966a209e3e88b5",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "fd5efbf0b5c88bc433251a0f",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "solana",
+      "address": "6ZCeBciknhZkw8SXGL4PHMcvT5Qtvui56J4PRijcgvBR",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/6zcebciknhzkw8sxgl4phmcvt5qtvui56j4prijcgvbr",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "a4630534a0fb4548b7c1b5dc",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "solana",
+      "address": "6xTAiLG4Qp7Aokm6jX6XC4pyMxNT9cnJaCuvG83tAVsB",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/6xtailg4qp7aokm6jx6xc4pymxnt9cnjacuvg83tavsb",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "d986521d455b8f24d46886e3",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "solana",
+      "address": "Fn9cGz6iLubpjZSJF6wiBD2zbdqANubuQ64UKSDXpump",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/fn9cgz6ilubpjzsjf6wibd2zbdqanubuq64uksdxpump",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "70b97880f2b8a28e9e1a05a0",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "base",
+      "address": "0xf76C32A6dAb837756e327551DFdCd15fc732B750",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/base/0xf76c32a6dab837756e327551dfdcd15fc732b750",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "d341f33d92b77ac1eea835fb",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xfa05f0a4897eb89956ea66e3bc4b5df1bfdaf1ae",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0xfa05f0a4897eb89956ea66e3bc4b5df1bfdaf1ae",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "3b023e75cf4c9feca2283bff",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "solana",
+      "address": "AcFiMcPWei41A7V4tDe3eYB3g2o1Z8PCn2tteeyoaozK",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/acfimcpwei41a7v4tde3eyb3g2o1z8pcn2tteeyoaozk",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "fb5bccac7a3c417aa120708f",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "solana",
+      "address": "4UzCkswH8sCM95N27FNCrdscAqictWv5cUXY9FT7fMkw",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/4uzckswh8scm95n27fncrdscaqictwv5cuxy9ft7fmkw",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "53bac00ce49ea97aa96eb586",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "bsc",
+      "address": "0xD49cF001d05F91890B1289023920b4955223FA63",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/bsc/0xd49cf001d05f91890b1289023920b4955223fa63",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "cc66ce849843615440d3930e",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "solana",
+      "address": "BetN78akgLwS2L29tujPduk9GaGqfPruvL4UiJU8reT5",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/solana/betn78akglws2l29tujpduk9gagqfpruvl4uiju8ret5",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "50855e5e643c590d5f325510",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x6C673ca3d3212DDd1Ba355f50631C03a1887c741",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x6c673ca3d3212ddd1ba355f50631c03a1887c741",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "6bf5cbc85dffeda86284b412",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x2bf095bb7d885f6013de6d51aecebbf64d065991",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x2bf095bb7d885f6013de6d51aecebbf64d065991",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "a5e45a11f8d98f3301b1a8a3",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x62f7557bcaf41a65ed9aaf08987e68ee258deec3",
+      "name": null,
+      "symbol": null,
+      "url": "https://dexscreener.com/robinhood/0x62f7557bcaf41a65ed9aaf08987e68ee258deec3",
+      "liquidityUsd": 0.0,
+      "volume24hUsd": 0.0,
+      "txns24h": 0.0,
+      "priceChange24hPct": 0,
+      "fdvUsd": 0.0,
+      "marketCapUsd": 0.0,
+      "poolCreatedAt": null,
+      "communitySusReports": 0.0,
+      "communityPositivePct": 0.0,
+      "boostAmount": 0.0,
+      "source": "dexscreener_profiles",
+      "signals": [
+        "dexscreener_profiles"
+      ],
+      "sourceCount": 1,
+      "marketSignalScore": 0,
+      "securityPenalty": 0,
+      "opportunityScore": 0,
+      "security": {
+        "available": false,
+        "hardRiskFlags": [],
+        "softRiskFlags": [],
+        "securityPenalty": 0,
+        "securityGate": "UNKNOWN"
+      },
+      "riskFlags": [
+        "very-low-liquidity"
+      ],
+      "confidence": "single-source",
+      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
+      "action": "RESEARCH_ONLY",
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "ae76d320e636385ccce7ebd9",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -2760,7 +4190,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "cf0ab623b5a95c5b03f2eb54",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -2799,7 +4239,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "e6fc0f17666f03116bc3aa53",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "robinhood",
@@ -2838,7 +4288,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "6318e79ef02d79c5cea2e8d7",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -2877,7 +4337,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "88866624720779a9f7a1a459",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "robinhood",
@@ -2916,7 +4386,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "de40e3b077d00f14fce88941",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -2955,7 +4435,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "588cb1858df62ef800477681",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -2994,7 +4484,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "64bd546b6947cdc50d6d20c2",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -3033,7 +4533,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "00d79a71eb9472b7c1351f2b",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "robinhood",
@@ -3072,7 +4582,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "1e29293948458cf8d2785822",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -3111,7 +4631,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "2ada7f6ca88d5b2ca8138de8",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "robinhood",
@@ -3150,7 +4680,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "f756b63ee5e18e22c29f8d6e",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -3189,7 +4729,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "3d441c30a8ab0b8ce19f8b9f",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -3228,7 +4778,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "8f021ec2cd16a9ddb601b5ed",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -3267,7 +4827,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "cbd6b68ca5022774c876380a",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -3306,7 +4876,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "d1bb0f56d7502c3f26870373",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "robinhood",
@@ -3345,475 +4925,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "MadVLQYW7VUzfMdMDHuS3UVgJSNUQGwvobYgYZxpqp6",
-      "name": null,
-      "symbol": null,
-      "url": "https://dexscreener.com/solana/madvlqyw7vuzfmdmdhus3uvgjsnuqgwvobygyzxpqp6",
-      "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "dexscreener_profiles",
-      "signals": [
-        "dexscreener_profiles"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "98fcd25f0a4d1a765cd17390",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
       },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0x1439178353afe17c98a37aa78d11fddec6837e7c",
-      "name": null,
-      "symbol": null,
-      "url": "https://dexscreener.com/robinhood/0x1439178353afe17c98a37aa78d11fddec6837e7c",
-      "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "dexscreener_profiles",
-      "signals": [
-        "dexscreener_profiles"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0xb29C596aF277D1928D0D08f8e28f4A81146da5e0",
-      "name": null,
-      "symbol": null,
-      "url": "https://dexscreener.com/robinhood/0xb29c596af277d1928d0d08f8e28f4a81146da5e0",
-      "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "dexscreener_profiles",
-      "signals": [
-        "dexscreener_profiles"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "EjWGLc7hE3C8jaQe8joNwZb5dq1AKF3ctCVSgXEwpump",
-      "name": null,
-      "symbol": null,
-      "url": "https://dexscreener.com/solana/ejwglc7he3c8jaqe8jonwzb5dq1akf3ctcvsgxewpump",
-      "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "dexscreener_profiles",
-      "signals": [
-        "dexscreener_profiles"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "EioN9wGsc9U39XnzFesnd7keSywBcPoJc49NhMpivot",
-      "name": null,
-      "symbol": null,
-      "url": "https://dexscreener.com/solana/eion9wgsc9u39xnzfesnd7kesywbcpojc49nhmpivot",
-      "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "dexscreener_profiles",
-      "signals": [
-        "dexscreener_profiles"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "DSLkCiyGfqvuqjNXZ4wm9pPmLHNvTQzKrDzKbhgJSTNK",
-      "name": null,
-      "symbol": null,
-      "url": "https://dexscreener.com/solana/dslkciygfqvuqjnxz4wm9ppmlhnvtqzkrdzkbhgjstnk",
-      "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "dexscreener_profiles",
-      "signals": [
-        "dexscreener_profiles"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "6AMafHbh34pLa39oDREFvihwZcFje9rDNrErEkabsMsv",
-      "name": null,
-      "symbol": null,
-      "url": "https://dexscreener.com/solana/6amafhbh34pla39odrefvihwzcfje9rdnrerekabsmsv",
-      "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "dexscreener_profiles",
-      "signals": [
-        "dexscreener_profiles"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0x6aF2ebe714a40bf60F206bCefeF36CD6BcC4Fcc8",
-      "name": null,
-      "symbol": null,
-      "url": "https://dexscreener.com/robinhood/0x6af2ebe714a40bf60f206bcefef36cd6bcc4fcc8",
-      "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "dexscreener_profiles",
-      "signals": [
-        "dexscreener_profiles"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0x2F891C5646159c905b4d76249a852769E891d20D",
-      "name": null,
-      "symbol": null,
-      "url": "https://dexscreener.com/robinhood/0x2f891c5646159c905b4d76249a852769e891d20d",
-      "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "dexscreener_profiles",
-      "signals": [
-        "dexscreener_profiles"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0x4bA8ec148e282E0733fB15bdb9b75900Bff8D3e2",
-      "name": null,
-      "symbol": null,
-      "url": "https://dexscreener.com/robinhood/0x4ba8ec148e282e0733fb15bdb9b75900bff8d3e2",
-      "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "dexscreener_profiles",
-      "signals": [
-        "dexscreener_profiles"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "solana",
-      "address": "FiRUHpAccfya9TnwuvETBNJ9CWR8byTiViHK1bvbKpay",
-      "name": null,
-      "symbol": null,
-      "url": "https://dexscreener.com/solana/firuhpaccfya9tnwuvetbnj9cwr8bytivihk1bvbkpay",
-      "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "dexscreener_profiles",
-      "signals": [
-        "dexscreener_profiles"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
-    },
-    {
-      "chain": "robinhood",
-      "address": "0xd71114fdc9736ce148b765e755b441fc8f747819",
-      "name": null,
-      "symbol": null,
-      "url": "https://dexscreener.com/robinhood/0xd71114fdc9736ce148b765e755b441fc8f747819",
-      "liquidityUsd": 0.0,
-      "volume24hUsd": 0.0,
-      "txns24h": 0.0,
-      "priceChange24hPct": 0,
-      "fdvUsd": 0.0,
-      "marketCapUsd": 0.0,
-      "poolCreatedAt": null,
-      "communitySusReports": 0.0,
-      "communityPositivePct": 0.0,
-      "boostAmount": 0.0,
-      "source": "dexscreener_profiles",
-      "signals": [
-        "dexscreener_profiles"
-      ],
-      "sourceCount": 1,
-      "marketSignalScore": 0,
-      "securityPenalty": 0,
-      "opportunityScore": 0,
-      "security": {
-        "available": false,
-        "hardRiskFlags": [],
-        "softRiskFlags": [],
-        "securityPenalty": 0,
-        "securityGate": "UNKNOWN"
-      },
-      "riskFlags": [
-        "very-low-liquidity"
-      ],
-      "confidence": "single-source",
-      "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
-      "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -3852,7 +4974,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "cddd9a53ce76ad9af1cb9f5f",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "base",
@@ -3891,7 +5023,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "356ee7ae9f0059f8fe90012d",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -3930,7 +5072,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "7c9e61fad72cff5d0ba05165",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -3969,7 +5121,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "cb474933c7e2aef36e30db13",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -4008,7 +5170,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "65e6a914e79650b52d65a1a7",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -4047,7 +5219,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "9c13e6566e5dfd42bbee551b",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -4086,7 +5268,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "e49ef8905d9d32fad602fb7d",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -4125,7 +5317,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "48f96dd00cd771fe36261e3c",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -4164,7 +5366,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "35cf1bdc5992f1fb445e69b6",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "bsc",
@@ -4203,7 +5415,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "f5020ec8abc909ad71032e3f",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -4242,7 +5464,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "1c761d3f99661d2740648c89",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     },
     {
       "chain": "solana",
@@ -4281,7 +5513,17 @@
       "confidence": "single-source",
       "riskStatus": "UNVERIFIED—manual contract/security/ownership/liquidity-lock review required",
       "action": "RESEARCH_ONLY",
-      "decision": "RESEARCH_ONLY"
+      "decision": "RESEARCH_ONLY",
+      "immortalFingerprint": "763f8d1a8a8d776dbe31480d",
+      "temporal": {
+        "firstSeen": "2026-09-23T18:19:00.236210+00:00",
+        "lastSeen": null,
+        "scoreDelta": 0,
+        "sourceCountDelta": 1,
+        "noveltyScore": 65,
+        "changeType": "NEW_DISCOVERY"
+      },
+      "researchPriority": 20
     }
   ],
   "methodology": "Multisensor discovery combines new/trending pools, public DEX profiles, boosts and community takeovers. It separates market-signal strength from security risk. GoPlus security intelligence is used as a risk gate where supported. OpportunityScore is a research-priority score, not a profit probability or safety rating.",
