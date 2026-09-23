@@ -373,7 +373,7 @@ def main():
         'count': len(alerts),
         'alerts': alerts,
         'safetyBoundary': 'Alerts are research signals only; no automated interaction or transaction is performed.'
-    }, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')
+    }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     OUT.write_text(json.dumps({
         'version': 4,
         'updatedAt': datetime.now(timezone.utc).isoformat(),
