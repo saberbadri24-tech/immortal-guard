@@ -12,7 +12,7 @@ Independent legal reward/opportunity intelligence platform.
 - No guaranteed earnings.
 
 ## AI architecture
-Astra = coordinator, Claude = critique/review, Gemini = verification/comparison, Immortal Guard = final security control. The roles are not represented as live AI API calls until credentials/integrations are deliberately connected.
+Astra = coordinator, Claude = critique/review, Immortal Guard = final security control. The roles are not represented as live AI API calls until credentials/integrations are deliberately connected.
 
 ## Automation boundary
 The radar can discover and rank public candidates. It does not automatically claim rewards, sign transactions, move funds, bypass controls, or store wallet secrets.
