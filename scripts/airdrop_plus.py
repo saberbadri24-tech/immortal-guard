@@ -26,7 +26,8 @@ REWARD = re.compile(
     r"testnet reward|mainnet reward)\b", re.I)
 LIVE = re.compile(r"\b(claim now|claim is live|claims? open|live now|"
                   r"distribution is live|token claim|claim window)\b", re.I)
-EXPIRED = re.compile(r"\b(expired|closed|ended|claim window closed|distribution ended|no longer available)\b", re.I)\nUPCOMING = re.compile(r"\b(upcoming|launch|snapshot|eligib|points|"
+EXPIRED = re.compile(r"\b(expired|closed|ended|claim window closed|distribution ended|no longer available)\b", re.I)
+UPCOMING = re.compile(r"\b(upcoming|launch|snapshot|eligib|points|"
                       r"testnet|season|campaign|registration)\b", re.I)
 DANGER = re.compile(r"(seed phrase|private key|recovery phrase|"
                     r"captcha bypass|kyc bypass|sybil|fake account|"
