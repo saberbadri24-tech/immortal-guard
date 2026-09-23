@@ -15,6 +15,8 @@ h2{font-size:20px;margin:28px 0 13px}.notice{border:1px solid #65502c;background
 .controls{display:flex;gap:9px;flex-wrap:wrap;margin:12px 0}input,select{background:#081421;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:11px;font:inherit;min-width:145px}input{flex:1}
 .opps{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:12px}.opp h3{margin:9px 0}.opp p{font-size:12px;color:var(--muted);line-height:1.8}.chips{display:flex;gap:5px;flex-wrap:wrap}.chip{font-size:10px;border:1px solid #30455e;color:#b9cbe0;border-radius:20px;padding:4px 8px}.score{font-size:25px;color:var(--ok);font-weight:800}.risk{color:var(--bad)}.opp a{color:var(--gold);font-size:12px}.actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
 .mission{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center}.mission strong{display:block;margin-bottom:5px}.mission small{color:var(--muted);line-height:1.7}
+.transfer{margin:24px 0}.transfer-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.transfer .label{display:block;color:var(--muted);font-size:11px;margin-bottom:7px}.transfer input{width:100%;min-width:0}.transfer-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.transfer-status{margin-top:10px;color:var(--muted);font-size:11px;line-height:1.8}.transfer .warning{border-color:#65502c;background:#211b11;color:#ecd59f}.transfer .success{border-color:#315641;color:var(--ok);background:#0b1c17}
+@media(max-width:700px){.transfer-grid{grid-template-columns:1fr}}
 .hidden{display:none}.footer{border-top:1px solid var(--line);margin-top:35px;padding-top:22px;color:var(--muted);font-size:11px;line-height:2.1}
 @media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.grid{grid-template-columns:1fr 1fr}.mission{grid-template-columns:1fr}.hero h1{font-size:31px}}
 </style><style>
@@ -62,6 +64,20 @@ h2{font-size:20px;margin:28px 0 13px}.notice{border:1px solid #65502c;background
 <br><div class="card mission"><div><strong>📚 گزارش فرصت برای جامعه</strong><small>یک گزارش مستند از منبع، ریسک و وضعیت تهیه کن؛ بدون اسپم و Sybil.</small></div><button class="btn" onclick="complete(15)">+۱۵</button></div>
 </section>
 
+<section class="card transfer" id="ton-transfer">
+<h2>🛡️ انتقال امن TON به کیف اصلی</h2>
+<div class="notice">کیف موقت فقط دریافت می‌کند. برای انتقال، این صفحه هیچ Seed Phrase یا Private Key نمی‌گیرد. کیف موقت باید با TON Connect متصل باشد؛ سپس خود کیف پول، تراکنش را برای امضای مالک نمایش می‌دهد.</div>
+<div class="transfer-grid">
+<div><span class="label">آدرس کیف اصلی مقصد</span><input id="main-ton-address" inputmode="text" autocomplete="off" placeholder="EQ... یا UQ..."></div>
+<div><span class="label">مقدار انتقال (TON)</span><input id="transfer-amount" inputmode="decimal" type="number" min="0" step="0.000000001" placeholder="مثلاً 1.25"></div>
+</div>
+<div class="transfer-actions">
+<button class="btn" onclick="saveMainTonAddress()">ذخیره مقصد</button>
+<button class="btn primary" id="approve-transfer" onclick="approveTonTransfer()" disabled>اجازه انتقال در کیف پول</button>
+</div>
+<div id="transfer-status" class="transfer-status">ابتدا کیف موقت را با دکمه کیف پول بالای صفحه وصل کن.</div>
+</section>
+
 <section id="engine" class="hidden">
 <h2>ایده اختصاصی گارد: «Proof-of-Opportunity»</h2>
 <div class="card">
@@ -96,6 +112,17 @@ function queueAction(id){let x=data.find(a=>a.id===id);if(!x)return;if(!pending.
 function track(){missions++;localStorage.ig_missions=missions;render()} function complete(n){points+=n;localStorage.ig_points=points;render();alert('امتیاز داخلی ثبت شد.')}
 function tab(id,el){document.querySelectorAll('main section[id]').forEach(x=>{if(['radar','missions','engine','safety'].includes(x.id))x.classList.add('hidden')});document.getElementById(id).classList.remove('hidden');document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));el.classList.add('active')}
 document.getElementById('search').addEventListener('input',render);document.getElementById('filter').addEventListener('change',render);loadRadar();
-const TON_MANIFEST='https://saberbadri24-tech.github.io/immortal-guard/tonconnect-manifest.json';let tonUI=null;try{tonUI=new TON_CONNECT_UI.TonConnectUI({manifestUrl:TON_MANIFEST,buttonRootId:'ton-connect'});tonUI.onStatusChange(wallet=>{let s=document.getElementById('wallet-status');if(wallet){let a=wallet.account?.address||'';s.textContent='متصل: '+(a.length>16?a.slice(0,8)+'…'+a.slice(-6):a)}else s.textContent='کیف پول متصل نیست'})}catch(e){document.getElementById('wallet-status').textContent='اتصال کیف پول آماده نیست'}
+const TON_MANIFEST='https://saberbadri24-tech.github.io/immortal-guard/tonconnect-manifest.json';
+const MAIN_TON_KEY='ig_main_ton_address';
+let tonUI=null,tonWallet=null,tonReceipts=null;
+function setTransferStatus(msg,kind){const el=document.getElementById('transfer-status');if(!el)return;el.className='transfer-status'+(kind?' '+kind:'');el.textContent=msg}
+function saveMainTonAddress(){const v=(document.getElementById('main-ton-address').value||'').trim();if(!/^(EQ|UQ)[A-Za-z0-9_-]{46}$/.test(v)){setTransferStatus('آدرس مقصد TON معتبر به نظر نمی‌رسد. آدرس EQ... یا UQ... را وارد کن.','warning');return}localStorage.setItem(MAIN_TON_KEY,v);setTransferStatus('آدرس کیف اصلی ذخیره شد.','success');updateTransferUI()}
+function loadMainTonAddress(){const v=localStorage.getItem(MAIN_TON_KEY)||'';document.getElementById('main-ton-address').value=v}
+async function loadTonReceipts(){try{const r=await fetch('data/ton_receipts.json?ts='+Date.now(),{cache:'no-store'});if(r.ok)tonReceipts=await r.json()}catch(e){tonReceipts=null}updateTransferUI()}
+function detectedTon(){const rs=tonReceipts?.receipts||[];return rs.reduce((sum,x)=>sum+(Number(x.valueNanoTON||0)/1e9),0)}
+function updateTransferUI(){const btn=document.getElementById('approve-transfer');if(!btn)return;const dest=(document.getElementById('main-ton-address').value||'').trim();btn.disabled=!(tonWallet&&dest);if(tonWallet){const addr=tonWallet.account?.address||'';setTransferStatus('کیف موقت متصل است: '+(addr.length>16?addr.slice(0,8)+'…'+addr.slice(-6):addr)+' | ورودی ثبت‌شده: '+detectedTon().toFixed(9)+' TON')}else setTransferStatus('ابتدا کیف موقت را با دکمه کیف پول بالای صفحه وصل کن.')}
+async function approveTonTransfer(){const dest=(document.getElementById('main-ton-address').value||'').trim();const amount=Number(document.getElementById('transfer-amount').value);if(!tonUI||!tonWallet){setTransferStatus('کیف موقت متصل نیست.','warning');return}if(!/^(EQ|UQ)[A-Za-z0-9_-]{46}$/.test(dest)){setTransferStatus('آدرس کیف اصلی مقصد معتبر نیست.','warning');return}if(!Number.isFinite(amount)||amount<=0){setTransferStatus('مقدار انتقال را وارد کن.','warning');return}if(amount<0.05){setTransferStatus('برای جلوگیری از انتقال ناچیز، حداقل 0.05 TON تعیین شده است.','warning');return}const available=detectedTon();if(available>0&&amount>Math.max(0,available-0.05)){setTransferStatus('مقدار از موجودی ثبت‌شده پس از ذخیره کارمزد بیشتر است. موجودی ثبت‌شده: '+available.toFixed(9)+' TON','warning');return}if(!confirm('انتقال '+amount+' TON به\n'+dest+'\nدر کیف موقت ساخته می‌شود. سپس کیف پول تراکنش را برای تأیید مالک نمایش می‌دهد. ادامه؟'))return;try{setTransferStatus('درخواست به کیف پول ارسال شد؛ جزئیات را داخل کیف پول بررسی و تأیید کن...');const result=await tonUI.sendTransaction({validUntil:Math.floor(Date.now()/1000)+300,network:'-239',messages:[{address:dest,amount:String(Math.floor(amount*1e9))}]});setTransferStatus('تراکنش توسط کیف پول امضا و ارسال شد. BOC دریافت شد؛ وضعیت نهایی شبکه را جداگانه بررسی کن.','success');console.log('TON transfer result',result)}catch(e){setTransferStatus('تراکنش لغو شد یا کیف پول خطا داد: '+(e?.message||'Unknown error'),'warning')}}
+loadMainTonAddress();loadTonReceipts();
+try{tonUI=new TON_CONNECT_UI.TonConnectUI({manifestUrl:TON_MANIFEST,buttonRootId:'ton-connect'});tonUI.onStatusChange(wallet=>{tonWallet=wallet;let s=document.getElementById('wallet-status');if(wallet){let a=wallet.account?.address||'';s.textContent='کیف پول موقت: '+(a.length>16?a.slice(0,8)+'…'+a.slice(-6):a)}else{s.textContent='کیف پول متصل نیست'}updateTransferUI()})}catch(e){document.getElementById('wallet-status').textContent='اتصال کیف پول آماده نیست';setTransferStatus('TON Connect در این مرورگر بارگذاری نشد.','warning')}
 </script>
 </body></html>
