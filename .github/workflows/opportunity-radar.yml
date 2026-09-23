@@ -18,7 +18,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run safe radar
         run: python3 scripts/collect_opportunities.py
-      - name: Run live AI council
+      - name: Run independent specialist engine
+        run: python3 scripts/opportunity_engine.py
+      - name: Run optional live AI council
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -26,10 +28,10 @@ jobs:
           CLAUDE_MODEL: claude-sonnet-4-6
         run: python3 scripts/ai_council.py
       - name: Validate data
-        run: python3 -c "import json; json.load(open('data/opportunities.json')); json.load(open('data/history.json')); print('JSON OK')"
+        run: python3 -c "import json; json.load(open('data/opportunities.json')); json.load(open('data/history.json')); json.load(open('data/engine_reviews.json')); json.load(open('data/ai_reviews.json')); print('JSON OK')"
       - name: Commit refreshed radar
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/opportunities.json data/history.json data/ai_reviews.json
+          git add data/opportunities.json data/history.json data/engine_reviews.json data/ai_reviews.json
           if git diff --cached --quiet; then echo 'No changes'; else git commit -m 'chore: refresh immortal guard radar'; git push; fi
