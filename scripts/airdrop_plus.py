@@ -53,6 +53,8 @@ def official_score(host):
 
 def phase(title, url, publisher):
     text = f"{title} {url} {publisher}"
+    if EXPIRED.search(text):
+        return "EXPIRED"
     if LIVE.search(text):
         return "CLAIM_LIVE"
     if UPCOMING.search(text):
@@ -84,6 +86,8 @@ def main():
         score -= 20 if not official_score(host) else 0
         score = max(0, min(100, score))
         p = phase(title,url,x.get("publisher",""))
+        if p == "EXPIRED":
+            continue
         needs_owner = bool(WALLET.search(text)) or p == "CLAIM_LIVE"
         rows.append({
             "id": x.get("id"),
@@ -98,6 +102,8 @@ def main():
             "qualification": "official-domain" if official_score(host) else "discovery-only",
             "engineScore": review.get("score",0),
             "action": "OWNER_REVIEW",
+            "riskGate": "official-domain-required-before-claim",
+            "feeReviewRequired": bool(re.search(r"\b(fee|fees|gas|deposit|stake|subscription|purchase)\b", text, re.I)),
             "destination": "TEMP_TON_WALLET",
             "collectionMode": "PROTOCOL_ADAPTER_ONLY",
             "ownerApprovalRequired": True,
