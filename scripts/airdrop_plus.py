@@ -95,6 +95,7 @@ def main():
             "officialDomain": bool(official_score(host)),
             "specialists": ["airdrop","rewards","eligibility","risk","claim-phase"],
             "sourceEvidence": x.get("evidence",[]),
+            "qualification": "official-domain" if official_score(host) else "discovery-only",
             "engineScore": review.get("score",0),
             "action": "OWNER_REVIEW",
             "destination": "TEMP_TON_WALLET",
@@ -138,7 +139,8 @@ def main():
         "updatedAt": now,
         "count": len(rows),
         "liveClaimCandidates": sum(x["phase"]=="CLAIM_LIVE" for x in rows),
-        "highConfidence": sum(x["score"]>=75 for x in rows),
+        "highConfidence": sum(x["score"]>=75 and x["officialDomain"] for x in rows),
+        "verifiedOfficialCandidates": sum(x["officialDomain"] and x["score"]>=60 for x in rows),
         "items": rows,
         "architecture": {
             "discovery":"multi-source radar",
