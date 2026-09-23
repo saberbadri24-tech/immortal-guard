@@ -160,6 +160,12 @@ def analyze(item, radar_index):
         "actionComplexity": actions, "pressureSignals": pressure,
         "evidenceLineage": lineage, "score": score, "verdict": verdict,
         "risk": risk, "nextAction": action,
+        "freshnessSignals": {
+            "published": item.get("published",""),
+            "hasDeadline": bool(re.search(r"\\b(deadline|ends?|until|expires?|closing|closes)\\b", text, re.I)),
+            "hasEligibility": bool(re.search(r"\\b(eligible|eligibility|requirements?|qualify|qualification)\\b", text, re.I)),
+            "hasCostSignal": bool(re.search(r"\\b(fee|fees|gas|deposit|stake|cost)\\b", text, re.I)),
+        },
         "checks": [
             "confirm the opportunity on the project's official domain",
             "confirm dates, geography, eligibility and required actions",
@@ -185,10 +191,23 @@ def main():
     reviews = [analyze(x, radar_index) for x in raw]
     reviews.sort(key=lambda x: (x["score"], x["evidenceLineage"]["convergence"], x["trustScore"], -x["actionComplexity"]), reverse=True)
     counts = Counter(r["verdict"] for r in reviews)
-    # Count only strong, trusted, concrete opportunity candidates; cap the daily hunt at 10.
-    opportunity_signal = re.compile(r"\b(bounty|bug bounty|grant|funding|hackathon|contest|challenge|testnet|devnet|airdrop|reward|rewards|points|retroactive|incentive|ambassador|builder|developer program)\b", re.I)
-    qualified = [r for r in reviews if r.get("verdict") == "high-confidence-candidate" and r.get("trustScore", 0) >= 24 and opportunity_signal.search(str(r.get("title","")) + " " + str(r.get("url","")) + " " + str(r.get("id","")))]
-    qualified = qualified[:10]
+    # Daily hunt = genuinely new or materially changed opportunities, not the same item repeated every 5 minutes.
+    opportunity_signal = re.compile(r"\\b(bounty|bug bounty|grant|funding|hackathon|contest|challenge|testnet|devnet|airdrop|reward|rewards|points|retroactive|incentive|ambassador|builder|developer program)\\b", re.I)
+    qualified_all = [r for r in reviews if r.get("verdict") == "high-confidence-candidate" and r.get("trustScore", 0) >= 24 and opportunity_signal.search(str(r.get("title","")) + " " + str(r.get("url","")) + " " + str(r.get("id","")))]
+    specialist_counts = Counter(s for r in reviews for s in r["specialists"])
+    now = datetime.now(timezone.utc).isoformat()
+    h = json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else {"runs":[]}
+    prior = {}
+    for run in h.get("runs", [])[-100:]:
+        for rid in run.get("qualifiedIds", []):
+            prior[rid] = run
+    new_or_changed = []
+    for r in qualified_all:
+        old = prior.get(r.get("id"))
+        changed = old is None or old.get("score") != r.get("score")
+        if changed:
+            new_or_changed.append(r)
+    qualified = new_or_changed[:10]
     specialist_counts = Counter(s for r in reviews for s in r["specialists"])
     now = datetime.now(timezone.utc).isoformat()
     payload = {
@@ -210,8 +229,12 @@ def main():
         "convergenceModel": "independent source domains > repeated copies; on-chain/security signals are separate evidence types",
         "items": reviews[:300],
         "qualifiedDailyLimit": 10,
+        "allQualifiedCount": len(qualified_all),
         "qualifiedDailyCount": len(qualified),
         "qualifiedDailyIds": [r.get("id") for r in qualified],
+        "newOrChangedCount": len(new_or_changed),
+        "incomeQualifiedCount": sum(r.get("countsTowardMonthlyTarget") for r in qualified_all),
+        "newIncomeQualifiedCount": sum(r.get("countsTowardMonthlyTarget") for r in qualified),
         "safety": {"autoClaim": False, "autoSigning": False, "autoTransfer": False, "secretStorage": False},
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -221,13 +244,17 @@ def main():
         "huntDateUtc": now[:10],
         "dailyLimit": 10,
         "count": len(qualified),
+        "allQualifiedCount": len(qualified_all),
+        "newOrChangedCount": len(new_or_changed),
+        "incomeQualifiedCount": sum(r.get("countsTowardMonthlyTarget") for r in qualified_all),
+        "newIncomeQualifiedCount": sum(r.get("countsTowardMonthlyTarget") for r in qualified),
         "opportunityIds": [r.get("id") for r in qualified],
         "opportunities": qualified,
-        "rule": "Count only high-confidence candidates from trusted domains; no blocked/weak/news-only items. Maximum 10 per daily hunt.",
+        "rule": "Count only high-confidence candidates from trusted domains; daily hunt means new or materially changed opportunities. Maximum 10 displayed.",
         "incomeRule": "Opportunity count is not income. Only owner-confirmed received funds count as collected revenue."
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     h = json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else {"runs":[]}
-    h["runs"] = (h.get("runs", []) + [{"at": now, "engineCount": len(reviews), "topScore": reviews[0]["score"] if reviews else 0, "independentSources": payload["independentSourceCoverage"], "qualifiedDailyCount": len(qualified)}])[-500:]
+    h["runs"] = (h.get("runs", []) + [{"at": now, "engineCount": len(reviews), "topScore": reviews[0]["score"] if reviews else 0, "independentSources": payload["independentSourceCoverage"], "qualifiedDailyCount": len(qualified), "qualifiedIds": [r.get("id") for r in qualified_all], "scoreMap": {r.get("id"): r.get("score") for r in qualified_all}}])[-500:]
     HISTORY.write_text(json.dumps(h, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Independent engine v3: {len(reviews)} analyzed; independent_sources={payload['independentSourceCoverage']}; top={payload['items'][0]['score'] if reviews else 0}")
 
