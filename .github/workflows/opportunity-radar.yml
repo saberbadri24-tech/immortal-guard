@@ -22,10 +22,8 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ASTRA_MODEL: gpt-5.4
           CLAUDE_MODEL: claude-sonnet-4-6
-          GEMINI_MODEL: gemini-3.8-flash
         run: python3 scripts/ai_council.py
       - name: Validate data
         run: python3 -c "import json; json.load(open('data/opportunities.json')); json.load(open('data/history.json')); print('JSON OK')"
