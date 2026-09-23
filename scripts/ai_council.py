@@ -3,7 +3,6 @@
 
 Astra = OpenAI coordinator
 Claude = Anthropic reviewer
-Gemini = Google verifier
 Immortal Guard remains the final deterministic safety gate.
 
 Secrets are read only from process environment. Nothing is written back to source,
@@ -69,29 +68,12 @@ def claude_review(api_key, model, item):
               "content-type": "application/json"}, body)
     return "".join(x.get("text","") for x in r.get("content",[]) if x.get("type")=="text")
 
-def gemini_review(api_key, model, item):
-    body = {
-        "systemInstruction": {"parts":[{"text":(
-            "You are Gemini, the verification layer for Immortal Guard. Compare the "
-            "opportunity against its supplied evidence. Flag missing proof, suspicious "
-            "domains, forced payments and identity-control bypass language. Never provide "
-            "instructions to bypass security or handle wallet secrets. Return concise JSON "
-            "with verdict, risks, evidence_to_check, next_safe_step."
-        )}]},
-        "contents": [{"parts":[{"text":json.dumps(item, ensure_ascii=False)}]}],
-        "generationConfig": {"temperature":0.1, "maxOutputTokens":700}
-    }
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-    r = post(url, {"x-goog-api-key": api_key, "Content-Type":"application/json"}, body)
-    return "".join(p.get("text","") for p in r.get("candidates",[{}])[0].get("content",{}).get("parts",[]))
-
 def main():
     data = json.loads(DATA.read_text(encoding="utf-8"))
     items = [x for x in data.get("items",[]) if x.get("status") != "blocked"][:20]
     cfg = {
         "astra": (os.getenv("OPENAI_API_KEY"), os.getenv("ASTRA_MODEL","gpt-5.6-luna")),
         "claude": (os.getenv("ANTHROPIC_API_KEY"), os.getenv("CLAUDE_MODEL","claude-sonnet-5")),
-        "gemini": (os.getenv("GEMINI_API_KEY"), os.getenv("GEMINI_MODEL","gemini-3.6-flash")),
     }
     missing = [name for name,(key,_) in cfg.items() if not key]
     reviews=[]
@@ -100,7 +82,6 @@ def main():
         for name, fn, pair in [
             ("astra",openai_review,cfg["astra"]),
             ("claude",claude_review,cfg["claude"]),
-            ("gemini",gemini_review,cfg["gemini"]),
         ]:
             key,model=pair
             if not key:
@@ -120,7 +101,7 @@ def main():
     if missing:
         print("AI council not fully configured; missing: "+", ".join(missing))
     else:
-        print(f"AI council live: {len(reviews)} opportunities reviewed by Astra/Claude/Gemini")
+        print(f"AI council live: {len(reviews)} opportunities reviewed by Astra/Claude")
 
 if __name__=="__main__":
     main()
