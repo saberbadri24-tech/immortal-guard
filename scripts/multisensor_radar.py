@@ -382,7 +382,10 @@ def main():
         'sourceErrors': errors,
         'sourceRows': len(collected),
         'uniqueCandidates': len(results),
-        'securityChecksAttempted': security_checked,\n        'memoryItems': len(memory),\n        'alertCount': len(alerts),\n        'noveltyLayer': 'temporal memory + change detection + convergence-aware research priority',
+        'securityChecksAttempted': security_checked,
+        'memoryItems': len(memory),
+        'alertCount': len(alerts),
+        'noveltyLayer': 'temporal memory + change detection + convergence-aware research priority',
         'items': results[:500],
         'methodology': (
             'Multisensor discovery combines new/trending pools, public DEX profiles, boosts and '
