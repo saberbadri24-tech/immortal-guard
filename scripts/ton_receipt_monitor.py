@@ -17,6 +17,10 @@ STATE = Path("data/ton_receipt_state.json")
 API = os.getenv("TONCENTER_API_URL", "https://toncenter.com/api/v2")
 API_KEY = os.getenv("TONCENTER_API_KEY", "")
 ADDRESS = os.getenv("TEMP_TON_ADDRESS", "").strip()
+# Optional TON Connect address fallback for deployments that already expose the
+# connected wallet address as a public repository variable. Never use secrets.
+if not ADDRESS:
+    ADDRESS = os.getenv("TON_CONNECT_ADDRESS", "").strip()
 
 def get(path, params):
     q = urllib.parse.urlencode(params)
