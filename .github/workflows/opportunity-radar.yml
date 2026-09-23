@@ -16,6 +16,8 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
+      - name: Compile-check Guard scripts
+        run: python3 -m py_compile scripts/*.py
       - name: Run multisensor token discovery radar
         run: python3 scripts/multisensor_radar.py
       - name: Run safe radar
@@ -44,7 +46,7 @@ jobs:
           CLAUDE_MODEL: claude-sonnet-4-6
         run: python3 scripts/ai_council.py
       - name: Validate data
-        run: python3 -c "import json; files=['data/radar_intel.json','data/radar_memory.json','data/radar_alerts.json','data/opportunities.json','data/history.json','data/engine_reviews.json','data/evidence_graph.json','data/airdrop_plus.json','data/owner_actions.json','data/collection_queue.json','data/temp_wallet.json','data/claim_adapters.json','data/ton_receipts.json','data/ton_receipt_state.json','data/ai_reviews.json','data/daily_hunt.json']; [((print('VALID',p)),json.load(open(p))) for p in files]; print('JSON OK')"
+        run: python3 -c "import json; files=['data/radar_intel.json','data/radar_memory.json','data/radar_alerts.json','data/opportunities.json','data/history.json','data/engine_reviews.json','data/evidence_graph.json','data/airdrop_plus.json','data/owner_actions.json','data/collection_queue.json','data/temp_wallet.json','data/claim_adapters.json','data/ton_receipts.json','data/ton_receipt_state.json','data/ai_reviews.json','data/daily_hunt.json','data/owner_approval_ledger.json']; [((print('VALID',p)),json.load(open(p))) for p in files]; print('JSON OK')"
       - name: Commit refreshed radar
         run: |
           git config user.name 'github-actions[bot]'
