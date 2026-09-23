@@ -366,7 +366,7 @@ def main():
         'version': 1,
         'updatedAt': now_iso,
         'items': memory
-    }, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')
+    }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     ALERTS_OUT.write_text(json.dumps({
         'version': 1,
         'updatedAt': now_iso,
