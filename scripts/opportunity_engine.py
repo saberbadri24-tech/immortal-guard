@@ -217,7 +217,7 @@ def main():
     reviews.sort(key=lambda x: (x["score"], x["evidenceLineage"]["convergence"], x["trustScore"], -x["actionComplexity"]), reverse=True)
     counts = Counter(r["verdict"] for r in reviews)
     # Daily hunt = genuinely new or materially changed opportunities, not the same item repeated every 5 minutes.
-    opportunity_signal = re.compile(r"\\b(bounty|bug bounty|grant|funding|hackathon|contest|challenge|testnet|devnet|airdrop|reward|rewards|points|retroactive|incentive|ambassador|builder|developer program)\\b", re.I)
+    opportunity_signal = re.compile(r"\b(bounty|bug bounty|grant|funding|hackathon|contest|challenge|testnet|devnet|airdrop|reward|rewards|points|retroactive|incentive|ambassador|builder|developer program)\b", re.I)
     qualified_all = [r for r in reviews if r.get("verdict") == "high-confidence-candidate" and r.get("trustScore", 0) >= 24 and opportunity_signal.search(str(r.get("title","")) + " " + str(r.get("url","")) + " " + str(r.get("id","")))]
     specialist_counts = Counter(s for r in reviews for s in r["specialists"])
     now = datetime.now(timezone.utc).isoformat()
