@@ -151,7 +151,7 @@ def analyze(item, radar_index):
     else:
         verdict, risk, action = "weak-candidate", "review", "VERIFY"
     return {
-        "id": item.get("id"), "url": url, "domain": host,
+        "id": item.get("id"), "title": title[:300], "url": url, "domain": host,
         "earningType": earningType, "explicitUsdAmounts": explicitMoney,
         "countsTowardMonthlyTarget": bool(explicitMoney) and earningType == "direct_or_application_based",
         "monthlyTargetUsd": 10000,
@@ -187,7 +187,7 @@ def main():
     counts = Counter(r["verdict"] for r in reviews)
     # Count only strong, trusted, concrete opportunity candidates; cap the daily hunt at 10.
     opportunity_signal = re.compile(r"\b(bounty|bug bounty|grant|funding|hackathon|contest|challenge|testnet|devnet|airdrop|reward|rewards|points|retroactive|incentive|ambassador|builder|developer program)\b", re.I)
-    qualified = [r for r in reviews if r.get("verdict") == "high-confidence-candidate" and r.get("trustScore", 0) >= 24 and opportunity_signal.search(str(r.get("url","")) + " " + str(r.get("id","")))]
+    qualified = [r for r in reviews if r.get("verdict") == "high-confidence-candidate" and r.get("trustScore", 0) >= 24 and opportunity_signal.search(str(r.get("title","")) + " " + str(r.get("url","")) + " " + str(r.get("id","")))]
     qualified = qualified[:10]
     specialist_counts = Counter(s for r in reviews for s in r["specialists"])
     now = datetime.now(timezone.utc).isoformat()
