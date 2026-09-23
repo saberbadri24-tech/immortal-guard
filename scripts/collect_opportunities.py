@@ -3,8 +3,18 @@
 import json,re,urllib.request,xml.etree.ElementTree as ET
 from datetime import datetime,timezone
 from pathlib import Path
-from urllib.parse import urlparse
-FEEDS={"HackerOne":"https://www.hackerone.com/blog/rss.xml","Gitcoin":"https://gitcoin.co/blog/feed/","TON Blog":"https://blog.ton.org/rss.xml","Ethereum Foundation":"https://blog.ethereum.org/feed.xml"}
+from urllib.parse import urlparse,quote
+FEEDS={
+    "HackerOne":"https://www.hackerone.com/blog/rss.xml",
+    "Gitcoin":"https://gitcoin.co/blog/feed/",
+    "TON Blog":"https://blog.ton.org/rss.xml",
+    "Ethereum Foundation":"https://blog.ethereum.org/feed.xml",
+    "Google News — opportunities":"https://news.google.com/rss/search?q="+quote("(airdrop OR bounty OR grant OR hackathon OR testnet OR rewards OR points) -seed -private-key -recovery")+"&hl=en-US&gl=US&ceid=US:en",
+    "Google News — crypto programs":"https://news.google.com/rss/search?q="+quote("(crypto OR web3 OR blockchain) (bounty OR grant OR hackathon OR testnet OR rewards OR ambassador)")+"&hl=en-US&gl=US&ceid=US:en",
+    "Google News — TON":"https://news.google.com/rss/search?q="+quote("(TON OR Toncoin) (airdrop OR bounty OR grant OR testnet OR rewards)")+"&hl=en-US&gl=US&ceid=US:en",
+    "Google News — Ethereum":"https://news.google.com/rss/search?q="+quote("(Ethereum OR ETH) (grant OR bounty OR testnet OR hackathon OR rewards)")+"&hl=en-US&gl=US&ceid=US:en",
+    "Google News — developer":"https://news.google.com/rss/search?q="+quote("(developer OR builders) (bounty OR grant OR hackathon OR testnet OR contest)")+"&hl=en-US&gl=US&ceid=US:en"
+}
 KEYWORDS=re.compile(r"\b(airdrop|bounty|bug bounty|rewards?|grant|hackathon|contest|incentiv|testnet|ambassador|retroactive|points)\b",re.I)
 BLOCKED=re.compile(r"(seed phrase|private key|recovery phrase|pay to claim|captcha bypass|kyc bypass|sybil|fake account|multiple accounts|farm wallets)",re.I)
 OUT=Path("data/opportunities.json"); HISTORY=Path("data/history.json")
@@ -24,10 +34,10 @@ def feed(name,url):
         summary=txt(it,"description","{*}summary","{*}content"); blob=re.sub(r"<[^>]+>"," ",summary)
         blob=f"{title} {blob}"; host=urlparse(link).netloc.lower()
         if not title or not link or not KEYWORDS.search(blob): continue
-        official=any(d in host for d in ("hackerone.com","gitcoin.co","ton.org","ethereum.org")); blocked=bool(BLOCKED.search(blob))
-        score=20+(30 if official else 0)+(20 if re.search(r"airdrop|reward|bounty|grant",blob,re.I) else 0)+(10 if re.search(r"official|announce|program|foundation",blob,re.I) else 0)-(70 if blocked else 0)
+        official=any(d in host for d in ("hackerone.com","gitcoin.co","ton.org","ethereum.org")); google_news=("news.google.com" in host); blocked=bool(BLOCKED.search(blob))
+        score=20+(30 if official else 0)+(15 if google_news else 0)+(20 if re.search(r"airdrop|reward|bounty|grant",blob,re.I) else 0)+(10 if re.search(r"official|announce|program|foundation",blob,re.I) else 0)-(70 if blocked else 0)
         score=max(0,min(100,score))
-        out.append({"id":re.sub(r"[^a-z0-9]+","-",link.lower()).strip("-")[-120:],"title":title[:300],"url":link,"publisher":name,"domain":host,"published":txt(it,"pubDate","{*}published","{*}updated"),"status":"blocked" if blocked else ("candidate" if official else "needs-review"),"score":score,"risk":"blocked" if blocked else ("lower" if official and score>=60 else "review"),"evidence":["public-feed","keyword-match"]+(["official-domain"] if official else []),"action":"BLOCK" if blocked else "REVIEW","note":"Verify eligibility, dates, region, contract and official instructions. No automatic claim, signature or transfer."})
+        out.append({"id":re.sub(r"[^a-z0-9]+","-",link.lower()).strip("-")[-120:],"title":title[:300],"url":link,"publisher":name,"domain":host,"published":txt(it,"pubDate","{*}published","{*}updated"),"status":"blocked" if blocked else ("candidate" if official else "needs-review"),"score":score,"risk":"blocked" if blocked else ("lower" if official and score>=60 else "review"),"evidence=["public-feed","keyword-match"]+(["official-domain"] if official else [])+(["google-news-discovery"] if google_news else []),"action":"BLOCK" if blocked else "REVIEW","note":"Verify eligibility, dates, region, contract and official instructions. No automatic claim, signature or transfer."})
     return out
 def load(p,d):
     try:return json.loads(p.read_text(encoding="utf-8"))
@@ -43,7 +53,7 @@ def main():
         if x["url"] in om and om[x["url"]].get("score")!=x["score"]: x["scoreChanged"]={"from":om[x["url"]].get("score"),"to":x["score"]}
     h=load(HISTORY,{"runs":[]}); h["runs"]=(h.get("runs",[])+[{"at":now,"count":len(items),"blocked":sum(x["status"]=="blocked" for x in items),"feedErrors":errors}])[-500:]
     OUT.parent.mkdir(parents=True,exist_ok=True)
-    OUT.write_text(json.dumps({"version":2,"updatedAt":now,"count":len(items),"items":items,"sourceErrors":errors,"engine":{"coordinator":"Astra","reviewer":"Claude","verifier":"Gemini","finalGuard":"Immortal Guard","scanIntervalMinutes":5,"learning":"score/history deltas","autoClaim":False,"autoTransfer":False,"autoSigning":False,"secretStorage":False}},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    OUT.write_text(json.dumps({"version":2,"updatedAt":now,"count":len(items),"items":items,"sourceErrors":errors,"engine":{"coordinator":"Astra","reviewer":"Claude","discovery":"Google News + official feeds","finalGuard":"Immortal Guard","scanIntervalMinutes":5,"learning":"score/history deltas","autoClaim":False,"autoTransfer":False,"autoSigning":False,"secretStorage":False}},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     HISTORY.write_text(json.dumps({"version":1,"runs":h["runs"]},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"Radar: {len(items)} items; blocked={sum(x['status']=='blocked' for x in items)}; errors={len(errors)}")
 if __name__=="__main__":main()
