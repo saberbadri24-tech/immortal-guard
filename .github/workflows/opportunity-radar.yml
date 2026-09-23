@@ -21,6 +21,7 @@ jobs:
       - name: Run independent specialist engine
         run: python3 scripts/opportunity_engine.py
       - name: Run optional live AI council
+        continue-on-error: true
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
