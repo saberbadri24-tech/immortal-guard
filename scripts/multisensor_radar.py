@@ -5,6 +5,104 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 OUT = Path('data/radar_intel.json')
+HISTORY_OUT = Path('data/radar_memory.json')
+ALERTS_OUT = Path('data/radar_alerts.json')
+
+def load_memory():
+    try:
+        if HISTORY_OUT.exists():
+            data = json.loads(HISTORY_OUT.read_text(encoding='utf-8'))
+            return data if isinstance(data, dict) else {}
+    except Exception:
+        pass
+    return {}
+
+def opportunity_fingerprint(item):
+    basis = '|'.join(str(item.get(k) or '').lower() for k in (
+        'chain','address','symbol','name','url'
+    ))
+    import hashlib
+    return hashlib.sha256(basis.encode('utf-8')).hexdigest()[:24]
+
+def temporal_intelligence(item, memory, now_iso):
+    fp = opportunity_fingerprint(item)
+    previous = memory.get(fp) or {}
+    first_seen = previous.get('firstSeen') or now_iso
+    last_seen = previous.get('lastSeen')
+    old_score = float(previous.get('opportunityScore') or 0)
+    new_score = float(item.get('opportunityScore') or 0)
+    delta = round(new_score - old_score, 2) if last_seen else 0
+    source_gain = int(item.get('sourceCount') or 0) - int(previous.get('sourceCount') or 0)
+    novelty = 0
+    if not last_seen:
+        novelty += 55
+    if source_gain > 0:
+        novelty += min(20, source_gain * 10)
+    if delta >= 20:
+        novelty += 20
+    elif delta >= 10:
+        novelty += 10
+    if item.get('security', {}).get('securityGate') == 'BLOCK':
+        novelty = min(novelty, 25)
+    item['immortalFingerprint'] = fp
+    item['temporal'] = {
+        'firstSeen': first_seen,
+        'lastSeen': last_seen,
+        'scoreDelta': delta,
+        'sourceCountDelta': source_gain,
+        'noveltyScore': min(100, novelty),
+        'changeType': (
+            'NEW_DISCOVERY' if not last_seen else
+            'SIGNAL_STRENGTHENED' if delta >= 10 or source_gain > 0 else
+            'SIGNAL_WEAKENED' if delta <= -10 else 'STABLE'
+        )
+    }
+    item['researchPriority'] = min(100, round(
+        item.get('opportunityScore', 0) * 0.55 +
+        item['temporal']['noveltyScore'] * 0.30 +
+        min(20, item.get('sourceCount', 1) * 5) * 0.15
+    ))
+    return fp
+
+def update_memory(results, memory, now_iso):
+    next_memory = {}
+    for item in results:
+        fp = item['immortalFingerprint']
+        next_memory[fp] = {
+            'firstSeen': item['temporal']['firstSeen'],
+            'lastSeen': now_iso,
+            'opportunityScore': item.get('opportunityScore', 0),
+            'sourceCount': item.get('sourceCount', 0),
+            'securityGate': item.get('security', {}).get('securityGate', 'UNKNOWN'),
+            'name': item.get('name'),
+            'symbol': item.get('symbol'),
+            'chain': item.get('chain'),
+            'address': item.get('address')
+        }
+    # Keep bounded persistent memory; newest observations are retained first.
+    items = sorted(next_memory.items(), key=lambda kv: kv[1].get('lastSeen',''), reverse=True)[:5000]
+    return dict(items)
+
+def build_alerts(results):
+    alerts = []
+    for item in results:
+        t = item.get('temporal') or {}
+        if t.get('changeType') == 'NEW_DISCOVERY' or t.get('scoreDelta', 0) >= 15 or t.get('sourceCountDelta', 0) > 0:
+            alerts.append({
+                'fingerprint': item.get('immortalFingerprint'),
+                'priority': item.get('researchPriority', 0),
+                'type': t.get('changeType'),
+                'chain': item.get('chain'),
+                'symbol': item.get('symbol'),
+                'name': item.get('name'),
+                'address': item.get('address'),
+                'opportunityScore': item.get('opportunityScore', 0),
+                'securityGate': (item.get('security') or {}).get('securityGate', 'UNKNOWN'),
+                'action': 'RESEARCH_ONLY'
+            })
+    alerts.sort(key=lambda x: x['priority'], reverse=True)
+    return alerts[:100]
+
 HEADERS = {'User-Agent': 'ImmortalGuard-MultisensorRadar/2.0', 'Accept': 'application/json'}
 SOURCES = {
     'geckoterminal_new_pools': 'https://api.geckoterminal.com/api/v2/networks/new_pools?include_gt_community_data=true',
@@ -247,8 +345,15 @@ def main():
         m['decision'] = 'DO_NOT_INTERACT' if security['securityGate'] == 'BLOCK' else 'RESEARCH_ONLY'
         results.append(m)
 
+    now_iso = datetime.now(timezone.utc).isoformat()
+    memory = load_memory()
+    for item in results:
+        temporal_intelligence(item, memory, now_iso)
+    alerts = build_alerts(results)
+    memory = update_memory(results, memory, now_iso)
     results.sort(
         key=lambda x: (
+            x.get('researchPriority', 0),
             x['opportunityScore'],
             x['marketSignalScore'],
             x.get('volume24hUsd', 0),
@@ -257,15 +362,27 @@ def main():
         reverse=True
     )
     OUT.parent.mkdir(parents=True, exist_ok=True)
+    HISTORY_OUT.write_text(json.dumps({
+        'version': 1,
+        'updatedAt': now_iso,
+        'items': memory
+    }, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')
+    ALERTS_OUT.write_text(json.dumps({
+        'version': 1,
+        'updatedAt': now_iso,
+        'count': len(alerts),
+        'alerts': alerts,
+        'safetyBoundary': 'Alerts are research signals only; no automated interaction or transaction is performed.'
+    }, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')
     OUT.write_text(json.dumps({
-        'version': 3,
+        'version': 4,
         'updatedAt': datetime.now(timezone.utc).isoformat(),
         'sources': SOURCES,
         'securitySources': ['GoPlus Token Security API (best effort; unknown != safe)'],
         'sourceErrors': errors,
         'sourceRows': len(collected),
         'uniqueCandidates': len(results),
-        'securityChecksAttempted': security_checked,
+        'securityChecksAttempted': security_checked,\n        'memoryItems': len(memory),\n        'alertCount': len(alerts),\n        'noveltyLayer': 'temporal memory + change detection + convergence-aware research priority',
         'items': results[:500],
         'methodology': (
             'Multisensor discovery combines new/trending pools, public DEX profiles, boosts and '
@@ -283,7 +400,7 @@ def main():
         )
     }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(
-        f'Multisensor radar v3: raw={len(collected)} unique={len(results)} '
+        f'Multisensor radar v4: raw={len(collected)} unique={len(results)} '
         f'security_checks={security_checked} source_errors={len(errors)}'
     )
 
