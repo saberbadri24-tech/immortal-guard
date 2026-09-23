@@ -110,7 +110,9 @@ def analyze(item):
     }
 
 def main():
-    if not IN.exists():\n        raise SystemExit("Missing radar input: data/opportunities.json")\n    data = json.loads(IN.read_text(encoding="utf-8"))
+    if not IN.exists():
+        raise SystemExit("Missing radar input: data/opportunities.json")
+    data = json.loads(IN.read_text(encoding="utf-8"))
     raw = data.get("items", [])
     reviews = [analyze(x) for x in raw]
     reviews.sort(key=lambda x: (x["score"], x["trustScore"], -x["actionComplexity"]), reverse=True)
