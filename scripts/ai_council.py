@@ -77,6 +77,8 @@ def main():
     }
     missing = [name for name,(key,_) in cfg.items() if not key]
     reviews=[]
+    success_count = 0
+    provider_success = {"astra": 0, "claude": 0}
     for item in items:
         row={"id":item.get("id"),"url":item.get("url"),"at":datetime.now(timezone.utc).isoformat(),"models":{}}
         for name, fn, pair in [
@@ -88,13 +90,13 @@ def main():
                 row["models"][name]={"status":"not-configured"}
                 continue
             try:
-                row["models"][name]={"status":"live","model":model,"review":fn(key,model,item)[:6000]}
+                row["models"][name]={"status":"live","model":model,"review":fn(key,model,item)[:6000]}\n                success_count += 1\n                provider_success[name] += 1
             except Exception as e:
                 row["models"][name]={"status":"error","model":model,"error":str(e)[:500]}
         reviews.append(row)
     OUT.write_text(json.dumps({
         "version":1,"updatedAt":datetime.now(timezone.utc).isoformat(),
-        "live": not missing,"missingProviders":missing,"count":len(reviews),
+        "live": success_count > 0,"configured": not missing,"missingProviders":missing,"successfulCalls":success_count,"providerSuccess":provider_success,"count":len(reviews),
         "items":reviews,
         "safety":{"autoClaim":False,"autoSigning":False,"autoTransfer":False,"secretStorage":False}
     },ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
