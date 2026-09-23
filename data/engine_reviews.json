@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updatedAt": "2026-09-23T19:40:18.537806+00:00",
+  "updatedAt": "2026-09-23T19:41:35.354421+00:00",
   "engine": "Immortal Guard Independent Specialist Council + Evidence Lineage",
   "independent": true,
   "apiRequired": false,
@@ -22,18 +22,18 @@
     "candidate": 293
   },
   "specialistCounts": {
-    "grant": 118,
+    "grant": 123,
     "general": 1,
     "hackathon": 5,
     "testnet": 4,
     "developer": 25,
-    "ecosystem": 41,
-    "bounty": 91,
-    "rewards": 106,
+    "ecosystem": 43,
+    "bounty": 88,
+    "rewards": 104,
     "ambassador": 2
   },
   "monthlyTargetUsd": 10000,
-  "qualifiedEarningPotentialUsd": 127416019.0,
+  "qualifiedEarningPotentialUsd": 129216019.0,
   "actualCollectedUsd": 0,
   "actualCollectedRule": "Only owner-confirmed received funds count; opportunity estimates never count as income.",
   "convergenceModel": "independent source domains > repeated copies; on-chain/security signals are separate evidence types",
@@ -1052,8 +1052,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "bd0cfc3c4527f75b",
-        "claim": "Open Source Programs Office receives grant to establish Research Software Support Network - Johns Hopkins University",
+        "claimId": "fc1e2f58d64703f0",
+        "claim": "Open Source Programs Office receives grant to establish Research Software Support Network - hub.jhu.edu",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -1337,8 +1337,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "c785b808f8c12d4d",
-        "claim": "Python Foundation rejects US government grant earmarked for security improvements - helpnetsecurity.com",
+        "claimId": "7f8474120cd2f97e",
+        "claim": "Python Foundation rejects US government grant earmarked for security improvements - Help Net Security",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -1831,8 +1831,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "acd4d78f659b3490",
-        "claim": "Maelstrom Unveils $250K Bitcoin Grant Program for Bitcoin Developers - cryptotimes.io",
+        "claimId": "e03be7dc272aa4d9",
+        "claim": "Maelstrom Unveils $250K Bitcoin Grant Program for Bitcoin Developers - The Crypto Times",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -2131,6 +2131,76 @@
           {
             "type": "publisher",
             "id": "Google News — official announcements",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 84,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action"
+      ]
+    },
+    {
+      "id": "uvfmdnvkeuktz05rnzzyavp5nuf4q0puu191cdfjzjb5cmxrehdfwdhoc1nkz1b5unjps2m4vdfxzudhbgpzuevvnenzdglinv9hzv9tedgxedhmtky-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNb1FVcW1zVE9BcE5JSW16TUZmVUl4T3NUT3Z3QkFyNW5QQnBJSWxaNjVIMWZ2WjRCOUMzWTh2WG4yR3RlYlkyMGw1YUFsM1BiUnRjNHJ5X3VpZE1sV1RMZks0SnNWV2Q0MW1BUVFmdnVKeUktZ05rNzZyaVp5NUF4Q0pUU191cDFjZjB5cmxreHdFWDhOc1NKZ1B5UnJpS2M4VDFxZUdhbGpzUEVvNENzdGliNV9hZV9TeDgxeDhMTkY",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant",
+        "ecosystem"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "7da4033594427abc",
+        "claim": "North Central Michigan Community Foundation announces grant deadline - crawfordcountyavalanche.com",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Avalanche programs",
             "domain": "news.google.com",
             "independent": false
           },
@@ -2945,6 +3015,78 @@
       ]
     },
     {
+      "id": "l94m24zugvmczc3oelhd2c4wde1rhv6mvfjrwpldngtujv3aja3cdmtemhvdzv3ni0ywlz4nfzusk5ya2d2rjl6sdlyq3jxwfbpm1fnb3bsagrnuuhr-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQmlqRXJDM2owSm1WQk9ScEd3bzRaMUZrQmwtZmJjYmpYalFRT1hpdWo2eC1DOWlnX2hQeFI3VW9SNkRYSWREQUlSdWFYaGdtYXFYM0ZnRDQxNzk0Nl94M24zUGVmczc3OElhd2c4WDE1RHV6MVFJRWpldngtUjV3ajA3cDMtemhVdzV3Ni0yWlZ4NFZuSk5Ya2d2Rjl6SDlyQ3JXWFBpM1FNb3BSaGRnUUhR",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        1800000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant",
+        "ecosystem"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "fb244cfe75d7df86",
+        "claim": "Uniswap Diamond Gets Largest Portion of Foundation’s First $1.8M Grant - 247wallst.com",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Uniswap programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 84,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action"
+      ]
+    },
+    {
       "id": "vdwh4wve2uehkskq4q2g2cuf4rlo1mnjrcwzjv3dldflqn0zsdlfxnvbvcglyrktwwkdkylhxtk1nwvdfeustadkxsvnkbfi4ufixrfn2sefma0dguw-oc-5",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLWhfWl8ySk9rRHZsSlRtZFgxYVN1aEJqV2Y2dG13MktEU0pOcUM0OW5pWlJzbGVxVkRROFBBSGlqZ3Nta1BNbmJTVWNDSDlSSHM0UUh6NHZhNjZ0OFlDemVrb3dqSllVdWh4WVE2UEhKSkQ4Q2g2cUF4Rlo1MnJRcWZjV3dldFlqN0ZSdlFxNVBvcGlyRktwWkdkYlhXTk1NWVdfeUstaDkxSVNkbFI4UFIxRFN2SEFma0dGUw",
       "domain": "news.google.com",
@@ -2963,8 +3105,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "42c18a562ea7a80f",
-        "claim": "Ronin offers $10M grant program for Web3 developer growth - TradingView",
+        "claimId": "440d3d4811d6893d",
+        "claim": "Ronin offers $10M grant program for Web3 developer growth - tradingview.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -3453,8 +3595,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "d2ebdbe33ccfd704",
-        "claim": "Google Revamps Bug Bounty Programs: Android Rewards Rise, Chrome Payouts Drop in the Age of AI - securityaffairs.com",
+        "claimId": "95d68bf4bd4530e6",
+        "claim": "Google Revamps Bug Bounty Programs: Android Rewards Rise, Chrome Payouts Drop in the Age of AI - Security Affairs",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -3807,8 +3949,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "0dfbb61f5cb8f617",
-        "claim": "Bybit and SOLV Protocol announce Explosive bbSOL Maxi Rewards, a new staking campaign - finbold.com",
+        "claimId": "0fde4a803da32a0f",
+        "claim": "Bybit and SOLV Protocol announce Explosive bbSOL Maxi Rewards, a new staking campaign - Finbold",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -4587,8 +4729,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "ef5a8c24206542a5",
-        "claim": "OKX Joins Okcoin Developer Grant Program, Announces Co-Sponsorship Award to Bitcoin Developer Dusty Daemon - FF News",
+        "claimId": "2cdf65e82d95af3f",
+        "claim": "OKX Joins Okcoin Developer Grant Program, Announces Co-Sponsorship Award to Bitcoin Developer Dusty Daemon - ffnews.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -4657,8 +4799,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "2d885e507d883261",
-        "claim": "Foundation behind restaking protocol EigenLayer plans bigger rewards for active users - CoinDesk",
+        "claimId": "d16842ab1bb18524",
+        "claim": "Foundation behind restaking protocol EigenLayer plans bigger rewards for active users - coindesk.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -5081,8 +5223,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "09b8732b1e5791a8",
-        "claim": "Introducing the OpenAI Safety Bug Bounty program - OpenAI",
+        "claimId": "9f51f5dd7511e898",
+        "claim": "Introducing the OpenAI Safety Bug Bounty program - openai.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -5221,8 +5363,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "118ce9fdc6d81c80",
-        "claim": "Kansas commerce secretary laments taxpayer cost of repeat audits of economic grant program - Kansas Reflector",
+        "claimId": "1a085ce089b353e8",
+        "claim": "Kansas commerce secretary laments taxpayer cost of repeat audits of economic grant program - kansasreflector.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -5428,8 +5570,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "1b8bc6d35ef7a509",
-        "claim": "Dr. Albert Pol awarded with a Human Frontier Science Program research grant - clinicbarcelona.org",
+        "claimId": "e719453fed193eca",
+        "claim": "Dr. Albert Pol awarded with a Human Frontier Science Program research grant - Hospital Clínic Barcelona",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -5859,7 +6001,76 @@
         "lineage": [
           {
             "type": "publisher",
-            "id": "Google News — retroactive programs",
+            "id": "Google News — ambassador",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 81,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action"
+      ]
+    },
+    {
+      "id": "zvvddhh4cllfz2xxwk9mtgdrx1fwsv9mugy3m0xstdntnmpnz0jntxptq1pmzuu1eu1otvlwegdic2xjr3hasthub2xzb0xjcetyuw9fqufcuwjvutk-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BbUh4ODZxXzRjc2xjcmRYZ0w3ZVVDdHh4cllfZ2xxWk9mTGdrX1FWSV9MUGY3M0xSTDNtNmpNZ0JNTXptQ1pmZUU1eU1OTVlWeGdic2xJR3haSThub2xZb0xjcEtyUW9FQUFCUWJvUTk",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "bounty"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "78a981ec79bbe9b4",
+        "claim": "GitHub Celebrates a Decade of Bug Bounty Program with Major Milestones - blockchain.news",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Celestia programs",
             "domain": "news.google.com",
             "independent": false
           },
@@ -6120,8 +6331,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "aa0dfa53a263a502",
-        "claim": "Hyatt Launches Public Bug Bounty Program on HackerOne - BleepingComputer",
+        "claimId": "f5a7b990070ca754",
+        "claim": "Hyatt Launches Public Bug Bounty Program on HackerOne - bleepingcomputer.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -6138,75 +6349,6 @@
           {
             "type": "publisher",
             "id": "Google News — bug bounty platforms",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 81,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action"
-      ]
-    },
-    {
-      "id": "xvxrjoxhaqjfnyvllcwy5d09ommtjrwdrc29orfo5q0fmsu1euwo5am1nstrhalawou9uckroatjfq2hqdkfdtf9ybtjfbllumzdvnxbzbs0yuzd2ug-oc-5",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTjNqM2tVd25xeVc4NTJ2cmJuVnhUeG9FWDFOLXkzcy1HM1dKRVVyUjBJSkc0NXpCMkZmeEZJQWc3M0JHOXNUS3NYQWxJU01DZC01czJEN1I5VWxGTHdOcVlKUDg2TENxVXRjOXhaQjFnYVllcWY5d09OMmtjRWdRc29ORFo5Q0FMSU1EUWo5am1NSTRhalAwOU9UckROaTJFQ2hqdkFDTF9ybTJfbllUMzdVNXBZbS0yUzd2Ug",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "grant"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "1c717935e82b368a",
-        "claim": "Grant County Sheriff’s race close in unofficial primary results Tuesday - Columbia Basin Herald",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — NEAR programs",
             "domain": "news.google.com",
             "independent": false
           },
@@ -6398,8 +6540,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "88c0f6d0ee270e71",
-        "claim": "Google launches open-source software bug bounty program - BleepingComputer",
+        "claimId": "84b93012a7f9d7df",
+        "claim": "Google launches open-source software bug bounty program - bleepingcomputer.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -6485,75 +6627,6 @@
           {
             "type": "publisher",
             "id": "Google News — community rewards",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 81,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action"
-      ]
-    },
-    {
-      "id": "n054cujssfyty09orglcvgfnzu9xvdi3ehl4wna4wjbvzffilvhowlm1zwdvbzfpr0hbt1hkego4rkqzzed5swn3qjdxde9lwkl2wfq2rluyru9usve-oc-5",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX25naExJS285ZE1teW5VbnhielJVV21vRlRUcUJYZThpWmUzSEtUQkRGLS1mamhBcDhsZzVRdlo2QTkxaHF0dmhfZTFxNFI4X1AxZUtjSlU3N054cUJSSFYtY09oRGlCVGFnZU9XVDI3eHl4WnA4WjBVZFFILVhOWlM1ZWdvbzFPR0hBT1hKeGo4RkQzZEd5SWN3QjdXdE9LWkl2WFQ2RlUyRU9USVE",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "bounty"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "b51446640ef48f32",
-        "claim": "Hacker Drops Steam Zero Day After Being Banned From Valve Bug Bounty Program - vice.com",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — bug bounty platforms",
             "domain": "news.google.com",
             "independent": false
           },
@@ -7232,8 +7305,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "6989b5ba3584ecf7",
-        "claim": "Solana launches Frontier, a rewards program for pro traders across 16 venues with VIP perks. - pluang.com",
+        "claimId": "ea018c9e166c5f0b",
+        "claim": "Solana launches Frontier, a rewards program for pro traders across 16 venues with VIP perks. - Pluang",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -7493,6 +7566,75 @@
       ]
     },
     {
+      "id": "zzdu3nu9ydmpvm3rss1itmtjoq19kwg9sundywwjfetrkdfuwmlrtcgftq1jpbgrxt0uzsnatrwv4n0zgd2hdteyxrggtrkdmcwfynty2alvruhz5qq-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBMSXJZTGs0MWUtRUhBTmZnMjBhTVEyTGNhV0JzMVRZZDU3NU9YdmpvM3RsS1ItMTJOQ19KWG9SUndyWWJFeTRkdFUwMlRTcGFTQ1JpbGRxT0UzSnAtRWV4N0ZGd2hDTEYxRGgtRkdmcWFYNTY2alVrUHZ5QQ",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "84f8c201f31599a4",
+        "claim": "TON Introduces Grant Program for Mini App Migration - eGamers.io",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — TON programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 81,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action"
+      ]
+    },
+    {
       "id": "ztkfyauy5dgtqohfmbvzzes0ymg5fc2zolwljmnf3oe92wnntmmrubdm3u3npaknxznphbmrmv1fosmtjn0fzzvjmakdnd0rxue96qk9smldqzjzzqq-oc-5",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdmpzWUdXNEJPcmo3ZFlyR0JxRFFKSTlGeHN6Slh1REZKRWxPM3JQdnVXd2paVHZNOFZZTkFyaUY5dGtqOHFMbVZzeS0yMG5Fc2ZoLWljMnF3OE92WnNTMmRubDM3U3NPakNXZnphbmRmV1FOSmtjN0FzZVJmakdNd0RxUE96Qk9sMldQZjZZQQ",
       "domain": "news.google.com",
@@ -7577,8 +7719,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "22f19d4e2ad98f9f",
-        "claim": "AT&T Launches Public Bug Bounty Program on HackerOne - BleepingComputer",
+        "claimId": "93195ac76daa8529",
+        "claim": "AT&T Launches Public Bug Bounty Program on HackerOne - bleepingcomputer.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -7648,8 +7790,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "001dcd6056285bb1",
-        "claim": "Google Updates Android Bug Bounty Program With $1.5 Million Offer - Forbes",
+        "claimId": "e6b71edadd154e3a",
+        "claim": "Google Updates Android Bug Bounty Program With $1.5 Million Offer - forbes.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -8131,8 +8273,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "cca4bfdda54b28fb",
-        "claim": "Curl ending bug bounty program after flood of AI slop reports - BleepingComputer",
+        "claimId": "85f27ba8cc73d142",
+        "claim": "Curl ending bug bounty program after flood of AI slop reports - bleepingcomputer.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -8338,8 +8480,77 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "459cfdbda7580dc5",
-        "claim": "Zoomd Technologies Announces Grant of Options and RSUs - prnewswire.com",
+        "claimId": "52160cf5bce3ff06",
+        "claim": "Zoomd Technologies Announces Grant of Options and RSUs - PR Newswire",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Base programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 81,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action"
+      ]
+    },
+    {
+      "id": "2nwbuthvy1ouhvjsc1aunjhaufdtvnjm3zurzrxafbxvkzymm1nuzzznm5luwpjnuh2dhq2t2hodgtqcjrhnnvqsg5mmtdnsvnulwrnmhfocghlvc1f-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcTVYSDI5NGZnbWZYTVFNZlN5R3M4TzNTTEQwMjBCTjY3UE5UUW1ieWhZYUNLTm80UWRjekFucjkwV0xTX04wbzVaSlBuMkhfLTUzWi1YVTN2ZHpSTHlGS3pFTFZwV2NwbUtHVy1OUHVJSC1aUnJHaUFDTVNJM3ZURzRxaFBxVkZYMm1NUzZZNm5lUWpJNUh2dHQ2T2hodGtQcjRHNnVQSG5MMTdnSVNULWRNMHFOcGhLVC1F",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "5589762d2471dfac",
+        "claim": "A Sample Grant Proposal on “Community-Based Malnutrition Prevention Programs” - fundsforNGOs",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -9170,8 +9381,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "bec1edbd1b69b53e",
-        "claim": "Anthropic puts the “myth” in Mythos with its HackerOne bug bounty program - The New Stack",
+        "claimId": "2bab1a28f9b4da9c",
+        "claim": "Anthropic puts the “myth” in Mythos with its HackerOne bug bounty program - thenewstack.io",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -9642,75 +9853,6 @@
       ]
     },
     {
-      "id": "nzfot2pzdujmytbiql9wqmjyy1dxrdbzewxmwvppwjzxr01aeutpnhvfzliwmwq1dzgyv2sznkzqs2e0wgy1c3myr0nyzzdvswxly1bkttzfuevvrgm-oc-5",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNVQtT2xRSmRwVExPMXlibXZYSGNrdG12NTlIai1Za1JBSTNsRFRXMHRoYW1wb2FiVUx5TWFDT2M5Um9Sc2RiMVRYTGRsQ1AtU0VRVi1wRDc4Ym55aHVnb01jVS1Ibmwyc3F0SjhsRC1TSkF0Z1RtOE5ZNzFOT2pZdUJmYTBiQl9WQmJyY1dXRDBZeWxMWVppWjZXR01aeUtpNHVfZlIwMWQ1dzgyV2szNkZQS2E0WGY1c3MyR0NYZzdvSWxLY1BKTTZfUEVVRGM",
-      "domain": "news.google.com",
-      "earningType": "speculative_or_token_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "rewards"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "7dcc6f7f9f6d1de7",
-        "claim": "Io.Net: the DePin project announces a crypto airdrop campaign dedicated to graphics card holders - The Cryptonomist",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — rewards",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 81,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action"
-      ]
-    },
-    {
       "id": "ehiyzec0lxnrotvlylfsqmrrcerenjdanfbvn3izq3nvmjhod2zpowfwc3zrsw5pbhmzx3blmxpgyllyejlueu5dy25tr0lnse1hm1jnbhbrsjfru3c-oc-5",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LcU0xaklQaXBrXy1Uem9HbmVSdjBZOF9pbklBVm4yazJkZHFrZXMwNVRyV2dNVFNodFcyVTVwVkcybjkwZzczRjF1VWZad01ENVRrZ2lOZWllak9VY1Jfb3ZrcGttSkl2cDJBbmtvWE4wcmfSAXhBVV95cUxNV1VJT1JJVDlhSjdiaFpoN2VKZ1BOemItUHVWeHIyZEc0LXNrOTVlYlFSQmRRcERENjdaNFBvN3IzQ3NVMjhod2ZpOWFwc3ZrSW5pbHMzX3BLMXpGYllYejlueU5DY25TR0lNSE1HM1JnbHBrSjFRU3c",
       "domain": "news.google.com",
@@ -9744,75 +9886,6 @@
           {
             "type": "publisher",
             "id": "Google News — bug bounty platforms",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 81,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action"
-      ]
-    },
-    {
-      "id": "afvymgr2tkfibzlfbdnonmfbudlgc3bjbhntsmxcrlaxvv9tm3zdy1vrv3q5zgpgsznkz0hrnkrhrknxrs1sadi4zepgclncvkqtcuxyy05ybuh2vmc-oc-5",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVXltMVB2VkJkcm9DMkdPb1g1MXJSdjQzWU9LbVdPZ2RaenFnc3FDSFZlM2N6NnNmNW5hV2d6Z09qS0xiVlpKYkkyXzZ5QkQ4OVZNcTZZdzB0enJPYjhzbkllaTZYZzduVXVrWGpWTUJUaFVYMGR2TkFibzlfbDNoNmFBUDlGc3BJbHNTSmxCRlAxVV9TM3ZDY1VRV3Q5ZGpGSzNkZ0hrNkRhRkNxRS1saDI4ZEpGclNCVkQtcUxyY05ybUh2Vmc",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "bounty"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "6b8329f9c514102c",
-        "claim": "OpenAI launches bug bounty program to bolster security - Escudo Digital",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — security bounties",
             "domain": "news.google.com",
             "independent": false
           },
@@ -9933,8 +10006,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "6709fb9604a19929",
-        "claim": "Web3 DAO Game7 Unveils $100M Grant Program - CoinDesk",
+        "claimId": "598d93b8c684bb19",
+        "claim": "Web3 DAO Game7 Unveils $100M Grant Program - coindesk.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -10677,6 +10750,75 @@
       ]
     },
     {
+      "id": "gj4zuhwq1vptjfirfq0d3dtmmv1ykv5eetlqku3ejjvz2fushnzdjnju2vqr0xymgtny0zlmthmqnvxmk1ickz4mddwodm5ely1wfjfsuzjalvftunn-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMEM1NUxsU1JQdHlkeXk1c1VJVWtXUkdyTk5abTNwalBkLUl5S0FoWGhhd0xKOWIxMEVvVkZtZ18yQWhfZXgyaTFkZE5uMXdXLVBMYm02a0lqMlBscFhfZDE4dzdiSzd6MGJ4ZUhWQ1VPTjFIRFQ0d3dtMmV1YkV5eEtLQkU3ejJVZ2FUSHNzdjNjU2VQR0xYMGtnY0ZlMThmQnVXMk1ickZ4MDdwODM5elY1WFJFSUZJalVfTUNn",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "fe072caff46f6705",
+        "claim": "Texas grant program settles conservative group's race bias lawsuit - Reuters",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Base programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 81,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action"
+      ]
+    },
+    {
       "id": "efnts1ncrmhga1rgs0novjdpbk9zvzvcaureeefazl9iedljm0vqzdz1ywfmrhrnvjrza1o4tm1ou3bmt3h0udvuajvyytg1zzfolxv0cfpvvvphque-oc-5",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ0FTOEVMeG9LQkl6eXV4UUhucC14ZzdsczZsb3hBa3dNb2lGTHRlaDU0NlNxX0N6WWRtSm90WVEwd1VqNEdXeTEtaEtJeFNTS1NCRmhGa1RGS0NOVjdpbk9zVzVCaUREeEFaZl9IeDlJM0VQZDZ1YWFmRHRnVjRZa1o4Tm1OU3BmT3h0UDVuajVyYTg1ZzFOLXV0cFpVVVphQUE",
       "domain": "news.google.com",
@@ -11298,6 +11440,75 @@
       ]
     },
     {
+      "id": "atfavnu4os1tthlkt1dmuwzjtzu3zum0shbctgkwvy1xrnfkmgnka2jznujqcdg4ofbknxb3zke3qmc3otbhtljfvfv0r2jzovzvm0rank9krel5rfq-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ0ltbko4VGd1dGt0RFVGUmpYRnN4VnFkZDNyWFUwMmFudXJEd3MxNDdDUDlPTGZTWGMwaTFaVnU4OS1TTHlKT1dmUWZJTzU3ZUM0SHBCTGkwVy1XRnFkMGNKa2JzNUJqcDg4OFBkNXB3ZkE3Qmc3OTBhTlJfVFV0R2JZOVZvM0RaNk9kREl5RFQ",
+      "domain": "news.google.com",
+      "earningType": "speculative_or_token_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "rewards"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "b1fd5082b1c84a7e",
+        "claim": "Introducing GoPlus Security (GPS) on Binance HODLer Airdrops! Earn GPS With Retroactive BNB Simple Earn Subscriptions | Binance Announcements - Binance",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — retroactive programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 81,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action"
+      ]
+    },
+    {
       "id": "tq21ynhvkeuv1ug1nexfkng9avni0ejbpbzjzshc4nke0ndvmm2j0z1nnc0xrmdiwv0lecs1xtzixzzc4swz5yk5fdegzq2r3emdtd0lmnuvsykhmtw-oc-5",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYnFBR0s5VnMyM2tYUzF2SE1DX0Z4ZHVPeFpObnJSMVZPOXBRbjQwNTJCd21oTXJwYzdMY01sd3ZkV0NxWnpVQ3BMM2FRWnpCMmk0RXRlTlEtb3VtQ21YNHVKeUV1UG1NeXFkNG9aVnI0ejBpbzJzSHc4NkE0NDVMM2J0Z1NNc0xrMDIwV0lEcS1xTzIxZzc4SWZ5Yk5FdEgzQ2R3emdTd0lmNUVSYkhMTw",
       "domain": "news.google.com",
@@ -11609,75 +11820,6 @@
           {
             "type": "publisher",
             "id": "Google News — security bounties",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 81,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action"
-      ]
-    },
-    {
-      "id": "dhlui1uddbnuu1lts12zlz0whrmv1zqn1gwyu1ebmv1rklhtm9sqnrzulncwvbcehpbagxfcxlpaufobxixy09wbetsa0d0mddkmgrpr1jzvno2m19r-oc-5",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPOFRKWTFqYmtuQ1VvSmNfTThXSW01MVF0WjZKaElZTXRoRmtNWHg2UjhtQmtDQ0l1dGJvT0g2UE9OUFVxQ1Q0bzctNEwxZjhqTzRUWlRNLXBqMHVhclJCSVQ1Y1VxSTVNbm5DbjhSWUk1YmpFYnpYcVk0cUJEMk1IWV9hUDJ3X2tPa2FCUXlUWFBiYnAzV0RFcG9pU01EZXFKXzJlODhLUi1UdDBnUU1lTS12ZlZ0WHRmV1ZQN1gwYU1EbmV1RklHTm9SQnRzUlNCWVBCeHpBaGxFcXlPaUFobXIxY09wbEtsa0d0MDdkMGRPR1JZVno2M19R",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "grant"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "189786862b02d320",
-        "claim": "OP-ED: The missing details of Sen. Schumer’s announcement of $72 Million USDOT grant for Penn Station improvements - Mass Transit",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — Optimism programs",
             "domain": "news.google.com",
             "independent": false
           },
@@ -12094,75 +12236,6 @@
           {
             "type": "publisher",
             "id": "Google News — Arbitrum programs",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 81,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action"
-      ]
-    },
-    {
-      "id": "m5mvlpey1ezb2dvelboz0y0medpeuiyahroaw5mci1kwg5kv3jiqvoyqkpkegvhewx6umvrourtytzvx254ufpcvtjobwjzv3lgvgzudni5z3g4di1n-oc-5",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPekhKZXNSZGJnSnRPUk5UODFHY0Q4N0pmZHFyWEZNZ2RuVkd6NU5kaU95TkFXelExWDZLbWtyN2FNdHU5Rm82ODNXTmRqYTJmY0tEUW1QbV9yQ0xCVm5mVlpEY1Ezb2dvelBOZ0Y0MEdPeUIyaHRoaW5Mci1KWG5KV3JIQVoyQkpKeGVHeWx6UmVROURTYTZVX254UFpCVTJobWJzV3lGVGZudnI5Z3g4di1n",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "bounty"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "3c7610f27a2f2f1e",
-        "claim": "Microsoft improves its bug bounty program with \"In Scope by Default\" - Techzine Global",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — open source rewards",
             "domain": "news.google.com",
             "independent": false
           },
@@ -12777,7 +12850,7 @@
       "pressureSignals": 0,
       "evidenceLineage": {
         "claimId": "8fbc7f17c54534a5",
-        "claim": "$10M Bitcoin Bounty? Grant Cardone Offers 10 BTC to Sell $80M Jet After Massive Call - ccn.com",
+        "claim": "$10M Bitcoin Bounty? Grant Cardone Offers 10 BTC to Sell $80M Jet After Massive Call - CCN.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -13062,8 +13135,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "8b260d62d50ce9ab",
-        "claim": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier - thehackernews.com",
+        "claimId": "fa578d6a893f3972",
+        "claim": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier - The Hacker News",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -13274,8 +13347,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "1a25c8c245466022",
-        "claim": "NEAR Protocol Achieves Historic Milestone: Price Surges 7.6% Amid Massive Airdrop - TradingView",
+        "claimId": "3751faa58b19d008",
+        "claim": "NEAR Protocol Achieves Historic Milestone: Price Surges 7.6% Amid Massive Airdrop - tradingview.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -13560,8 +13633,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "b5dea8c1f1910c26",
-        "claim": "OpenAI raises Bio Bounty reward to $50,000 for frontier model jailbreaks - edtechinnovationhub.com",
+        "claimId": "66d349c0cf8b9a12",
+        "claim": "OpenAI raises Bio Bounty reward to $50,000 for frontier model jailbreaks - EdTech Innovation Hub",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -13771,8 +13844,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "967553d32b49f85a",
-        "claim": "Transportation Researchers Receive $1.5 Million NSF Grant to Improve Automated Vehicles and Intelligent Transportation Systems - UCLA Samueli School of Engineering",
+        "claimId": "e013d5def575ecf4",
+        "claim": "Transportation Researchers Receive $1.5 Million NSF Grant to Improve Automated Vehicles and Intelligent Transportation Systems - samueli.ucla.edu",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -13978,8 +14051,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "44c5126cdb94a2a8",
-        "claim": "Trump Media Token Airdrop Confirmed for Shareholders With New Truth Social Utility - cryptonews.com",
+        "claimId": "bc70ff0f31b05420",
+        "claim": "Trump Media Token Airdrop Confirmed for Shareholders With New Truth Social Utility - Cryptonews",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -14047,8 +14120,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "250d8e008dffb256",
-        "claim": "Trump Media plans digital token rewards for shareholders in 2026 - TradingView",
+        "claimId": "9f99af7b8443c8d5",
+        "claim": "Trump Media plans digital token rewards for shareholders in 2026 - tradingview.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -14392,8 +14465,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "ecb2b156715f32ed",
-        "claim": "Open-source security group pulls out of U.S. grant, citing DEI restrictions - cyberscoop.com",
+        "claimId": "0d90d69b4a45d804",
+        "claim": "Open-source security group pulls out of U.S. grant, citing DEI restrictions - CyberScoop",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -14530,8 +14603,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "4dc0e20b0d3496d9",
-        "claim": "Morgan Stanley Launches Cheapest ETH and SOL ETFs With Staking Rewards - TradingView",
+        "claimId": "e7637bc5baa90e55",
+        "claim": "Morgan Stanley Launches Cheapest ETH and SOL ETFs With Staking Rewards - tradingview.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -14668,8 +14741,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "cb60bbdfeed5834e",
-        "claim": "Grant beneficiaries under review to be paid on 7 August - sanews.gov.za",
+        "claimId": "61ab9a80a934331e",
+        "claim": "Grant beneficiaries under review to be paid on 7 August - South African Government News Agency",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -14808,8 +14881,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "c5cb2f77d223e4a9",
-        "claim": "Ledger Marks Golden Week With Up to $80 in Bitcoin Rewards - Coinpaper",
+        "claimId": "06215d2a778d8419",
+        "claim": "Ledger Marks Golden Week With Up to $80 in Bitcoin Rewards - coinpaper.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -15069,75 +15142,6 @@
       ]
     },
     {
-      "id": "skfqq25orvzkvuo3ytnnmuk0nvnhouu0u0frz1bhx05dsjhir01rwuzaekd2rmrzrdg2rg5pujrece5zemdhv1uteurwz0nnn05crxdry0fpb1o5n3m-oc-5",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yMk9fY19tZlhuSFVSem40MGpwSmR3SkFQQ25oRVZkVUo3YTNnMUk0NVNHOUU0U0FRZ1BhX05DSjhiR01rWUZaekd2RmRzRDg2RG5pUjREcE5zemdhV1UteURWZ0NNN05CRXdRY0FPb1o5N3M",
-      "domain": "news.google.com",
-      "earningType": "speculative_or_token_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "rewards"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "e783a900e5740c88",
-        "claim": "PARAM Airdrop? Crypto Points Campaign Confirmed - BitPinas",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — rewards",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 71,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action"
-      ]
-    },
-    {
       "id": "zmmx2bdy4awvxtu1gsjrragjvnkhwymhcrdlqbwpvv2j1v2pbbmtlt2f2tudsngjqdks0adhntzyyzkvwctrnys1yvmizrxbkumrxdvzgqljwdfa3uq-oc-5",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSU1fVDN6a2RMNk9Na3BOT1ZncEpERFRpT0luOWxmUmJGcDdiQXdfc3M2Q1piWEs1OHIwc2dvOE9xOEtzM0FkVnNLdE9aazBqUi1HaXdYMHp1ZzlBZlJhaWNKSTIxXzlwVm1ZMmx2bDY4aWVxTU1GSjRRaGJVNkhWYmhCRDlQbWpVV2J1V2pBbmtlT2F2TUdSNGJQdks0aDhnTzYyZkVwcTRNYS1yVmIzRXBkUmRxdVZGQlJwdFA3UQ",
       "domain": "news.google.com",
@@ -15278,6 +15282,75 @@
       ]
     },
     {
+      "id": "eg9onlferw1xzm9ptvjuztvbz25vnvqwcg9hq2jsthbyd3ftdmk3nve3mzgwrep1wgvvrv9zakc3czf1zmdom1y5lw0tnxjzd1ktzujmwjdvmdzleje-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ZaHpOaWlueThIdjBvRFBRTnp4bnhob0xFWHR6Wjd1eG9ONlFERW1xZm9PTVJuZTVBZ25vNVQwcG9hQ2JsTHByd3Ftdmk3NVE3MzgwREp1WGVvRV9Zakc3czF1ZmdOM1Y5LW0tNXJzd1ktZUJMWjdvMDZlejE",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "d50aa64046dab3b4",
+        "claim": "Where Does Grant Funding Come From? - GrantWatch",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — open source rewards",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 71,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action"
+      ]
+    },
+    {
       "id": "gfja1l1lwjpvevaadvveguxqvdvzme2ui1gslfot1dtsxdny010cdlbahe1bupvc3mzctrfv2ncthu1n3qta3pqmmnneeq1ofjozgdqetfhzmw4ejdv-oc-5",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZEZCdnphOUEtXzMxV3VQSlV6d09La19EVFhsN1J3dmVMOGxNZFZrLVExbHozUnZ2M20zQWZRa2syWGFJa1l1LWJPVEVaaDVveGUxQVdVZmE2Ui1GSlFoT1dtSXdNY010cDlBaHE1bUpVc3MzcTRfV2NCTHU1N3Qta3pqMmNneEQ1OFJOZGdqeTFHZmw4ejdv",
       "domain": "news.google.com",
@@ -15293,8 +15366,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "5cfa8b8956ebe70a",
-        "claim": "Solana's Alpenglow upgrade passes bug bounty wi... - pluang.com",
+        "claimId": "9d5b5558c291a6c8",
+        "claim": "Solana's Alpenglow upgrade passes bug bounty wi... - Pluang",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -15916,8 +15989,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "04b5e226e76b3954",
-        "claim": "Grant provides AAV with AED equipment - Crawford County Avalanche",
+        "claimId": "efbc4e1c30429eb9",
+        "claim": "Grant provides AAV with AED equipment - crawfordcountyavalanche.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -16332,8 +16405,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "cbc4a9fa6d8495c7",
-        "claim": "Grayscale Solana Trust Amendment Would Add Quarterly Staking Reward Payouts - TradingView",
+        "claimId": "9f84a8b4cf0290ec",
+        "claim": "Grayscale Solana Trust Amendment Would Add Quarterly Staking Reward Payouts - tradingview.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -16404,7 +16477,7 @@
       "pressureSignals": 0,
       "evidenceLineage": {
         "claimId": "7048aced528f3a65",
-        "claim": "OP business owner wins $20k grant for gift boxes tailored to those with cancer - fox4kc.com",
+        "claim": "OP business owner wins $20k grant for gift boxes tailored to those with cancer - FOX4KC.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -16475,7 +16548,7 @@
       "pressureSignals": 0,
       "evidenceLineage": {
         "claimId": "8c1c568f9847de69",
-        "claim": "OP business owner wins $20k grant for gift boxes tailored to those with cancer - fox4kc.com",
+        "claim": "OP business owner wins $20k grant for gift boxes tailored to those with cancer - FOX4KC.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -16543,8 +16616,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "a0b77460ec56945e",
-        "claim": "Bybit Launches Bybit Card Welcome Campaign Offering Up to 120 USDT in Rewards for New Users and First-Time Cardholders - TradingView",
+        "claimId": "8e828442df967989",
+        "claim": "Bybit Launches Bybit Card Welcome Campaign Offering Up to 120 USDT in Rewards for New Users and First-Time Cardholders - tradingview.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -17291,75 +17364,6 @@
       ]
     },
     {
-      "id": "x3lxtfb0outkejmyblhhbhb3vmm2wjrqdgxxwm9ybkh3nvdmlws2wm5nni1cdmk0ujdaeljjdmc2amu3yzn2t3rqlw5ps1fpd2hndffkb2jiu1bqyna-oc-5",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0OUtkejMyblhHbHB3VmM2WjRQdGxXWm9Ybkh3NVdMLWs2Wm5NNi1Cdmk0UjdaelJjdmc2amU3YzN2T3RqLW5pS1Fpd2hndFFkb2JiU1BqYnA",
-      "domain": "news.google.com",
-      "earningType": "speculative_or_token_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "rewards"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "ecce817496b86929",
-        "claim": "Missed OP, ARB? And these 10 popular airdrop projects - Binance",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — zkSync programs",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 71,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action"
-      ]
-    },
-    {
       "id": "tdbhm3znqlqxbmdhrtdwbezbt2xir0f5amvwauzkothhcnvbmk9xz0xkanpqqnc1rwj3tuhwmlzvsufcd3z6de5ybvduathvx2d2m3hqtgnfofzvofc-oc-5",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMUV2RXBjY0c0UUxXdThlWXh6dFdWMWE1a3AxcUZkNjdkemVhOGROTDgtZE4ydFNPWUpwYUFBYmRTMjMzSEpmbHV4XzVwRzlUSzJJako1QS1VWkZtSVZvbEtlb2RHRy1mT3JtNHZxS2R6c1pVYlBiY2lKOXhDNUM2aXUyMVFDM3BNTEVjX0E3TDBHM3ZNQlQxbmdHRTdwbEZBT2xiR0F5amVWaUZKOThhcnVBMk9XZ0xkanpQQnc1RWJ3TUhwMlZVSUFCd3Z6dE5ybVduaThVX2d2M3hQTGNFOFZVOFc",
       "domain": "news.google.com",
@@ -17569,23 +17573,23 @@
       ]
     },
     {
-      "id": "wm1nuvbwn3jfetrccjv3zerqshh4bupgswt5ymzxzhvxuklgqvvpvkvpm3v5bg1it1vxzm56r1dudwjsvhdsd081yvzkvkhsnhjfnxbleeozcxa0lue-oc-5",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUWm1nUVBwN3JFeTRCcjV3ZERQSHh4bUpGSWt5YmZxZHVxUklGQVVPVkVPM3V5bG1IT1VxZm56R1dUdWJSVHdSd081YVZKVkhSNHJfNXBLeEozcXA0LUE",
+      "id": "sthtudrzcti0sgfrcfl3bhhwq2tqdxvkzddsvmg5xzr5bja5ahpjvjbaberda19vnxnjls1jzvlbawwwr2hudwh6zkpqvkfzohi5wmpbx2k2t25kqke-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YSThTUDRzcTI0SGFRcFl3bHhwQ2tqdXVkZDdSVmg5XzR5bjA5aHpjVjBabERDa19vNXNjLS1JZVlBaWwwR2hudWh6ZkpQVkFzOHI5WmpBX2k2T25kQkE",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
       "monthlyTargetUsd": 10000,
       "specialists": [
-        "bounty"
+        "grant"
       ],
       "trustScore": 10,
       "evidenceCount": 3,
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "d24e99a1da3544f7",
-        "claim": "LayerZero, Immunefi Offer Bug Bounty With $15M Max Payout - Blockworks",
+        "claimId": "ff05ee6b13f8c523",
+        "claim": "Herman Ray Grant Obituary - Lubbock Avalanche-Journal",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -17601,7 +17605,7 @@
         "lineage": [
           {
             "type": "publisher",
-            "id": "Google News — bug bounty platforms",
+            "id": "Google News — Avalanche programs",
             "domain": "news.google.com",
             "independent": false
           },
@@ -17638,8 +17642,8 @@
       ]
     },
     {
-      "id": "1ttrxz0k4x085wtztcktbv2l0ddvazwe2zvz0oetha3vxsjlwytv4vgezvg44dkpzv0jivtbwludjr0phaglctln5vexyu2jhzwdhwdv3zhznejdfzw-oc-5",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMm9lTTV3VDROV1VGbkRXZ3JydUFSVHAtN3cyOEhHZ05fTTF1U1VUUXp3WlBpWml0MzM5S3pxYmFOS1lVYjNDcDZFUnZ4RUV5ZjR1amRiSlF0cWxDZC1DWUg1TTRXZ0k4X085WTZtcktBV2l0dDVaZWE2ZVZ0OEtha3VxSjlwYTV4VGEzVG44dkpZV0JiVTBwLUdJR0pHaGlCTlN5VExYU2JhZWdhWDV3ZHZNejdfZw",
+      "id": "wm1nuvbwn3jfetrccjv3zerqshh4bupgswt5ymzxzhvxuklgqvvpvkvpm3v5bg1it1vxzm56r1dudwjsvhdsd081yvzkvkhsnhjfnxbleeozcxa0lue-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUWm1nUVBwN3JFeTRCcjV3ZERQSHh4bUpGSWt5YmZxZHVxUklGQVVPVkVPM3V5bG1IT1VxZm56R1dUdWJSVHdSd081YVZKVkhSNHJfNXBLeEozcXA0LUE",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
@@ -17653,8 +17657,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "53bb9a2460213ee7",
-        "claim": "LayerZero Labs Launches $15M Bug Bounty; Largest in the World - prnewswire.com",
+        "claimId": "d24e99a1da3544f7",
+        "claim": "LayerZero, Immunefi Offer Bug Bounty With $15M Max Payout - Blockworks",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -17811,6 +17815,75 @@
           {
             "type": "publisher",
             "id": "Google News — zkSync programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 71,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action"
+      ]
+    },
+    {
+      "id": "19znexsau9bvv95cuxnsjfoctj5t0lrvthxuhvqrkllr2oxnezwx0w2t1decfrrnvp6tnduetnuz3harzjqnkc1nxz4dlfzetbpzndsm2lhb0dfczrf-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KMWhxMnlPSWtVOFdQdWpGSWVHajE0RnBfTDZPV0RwVGs1WnpOd1R5M1RneFpHMmo2RzU1dnh2UXN5MGlmd2wzaWFvR19zNEXSAU9BVV95cUxNSjFocTJ5T0lrVThXUHVqRkllR2oxNEZwX0w2T1dEcFRrNVp6TndUeTNUZ3haRzJqNkc1NXZ4dlFzeTBpZndsM2lhb0dfczRF",
+      "domain": "news.google.com",
+      "earningType": "speculative_or_token_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "rewards"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "b2fb17c8e74ee03d",
+        "claim": "What Is Aster? Project, Token, Airdrop, Roadmap Explained - Ventureburn",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — airdrop",
             "domain": "news.google.com",
             "independent": false
           },
@@ -18416,8 +18489,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "ca4c2f4f02c73973",
-        "claim": "Largest Solana treasury stock lost $1B while earning 6.7% staking rewards - Protos | Informed crypto news",
+        "claimId": "19e364f60bbe0939",
+        "claim": "Largest Solana treasury stock lost $1B while earning 6.7% staking rewards - protos.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -18625,8 +18698,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "1532824dfe56c7fa",
-        "claim": "Kansas resolves dispute over $1.5 million grant to rejuvenate Peabody's downtown buildings - Kansas Reflector",
+        "claimId": "d2947b08676577b5",
+        "claim": "Kansas resolves dispute over $1.5 million grant to rejuvenate Peabody's downtown buildings - kansasreflector.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -18834,8 +18907,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "5624fd0f0c68c465",
-        "claim": "One Year After Green Bank’s Demise, Court Mulls Future of Grant-Based Climate Policy - insideclimatenews.org",
+        "claimId": "d31e0410fce3c74e",
+        "claim": "One Year After Green Bank’s Demise, Court Mulls Future of Grant-Based Climate Policy - Inside Climate News",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -19720,6 +19793,75 @@
       ]
     },
     {
+      "id": "ae9lmxqzwug2t1j0uwewrud6exvhchfmylduykxzyujuyxzreg5mdevcrhbnaglgtvrsnkviajvmmglznxpnrex5vkqtv3oyvvrmcwxbvw5zn2livk8-oc-5",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNY2hwV3VyRHpXcngxOUxnZmFyUktha0g2aTZGMGRiRXpsQS1VTEozR2UwVVI3QmhJZnZ4ZjIyYU5KVGl6QjhXWkNZeVhGNXJPdWNfQWJPZ2dtSEZ3T2xxSC00Rzk2Vzd1UFZ1dFVNS3RwTHdjQy1NZHZtWks5X0xZb1hnaE9lMXQzWUg2T1J0UWEwRUd6eXVhcHFMYlduYkxzYUJUYXZReG5mdEVCRHBnaGlGTVRSNkVIajVMMGlzNXpnREx5VkQtV3oyVVRmcWxBVW5ZN2liVk8",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "b4d8cbb93404e6d1",
+        "claim": "Safe Routes grant to fund new sidewalks near Plain's Glenwood school - Canton Repository",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — NEAR programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 71,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action"
+      ]
+    },
+    {
       "id": "de9zadnqa2zunlhjqv9dlw9aalz3x00xy2zqvefda3fumlrkr0llwdrsbtzuvfdclut6ymlnzudmcwrtwfvqumvetmrisvpxufj6dhjiejrwcf9idgs-oc-5",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZjQxMnJVU2RGT3ZYMHJ3UzFCQmRBdVpLVFVvSkNIQWx5WTJxbVRUVXdsRWRFZUtnbngxcUxDWVlidFBzMUtMdjlpdE9zaDNQa2ZuNlhjQV9DLW9aalZ3X00xY2ZqVEFDa3FuMlRkR0lLWDRsbTZUVFdCLUt6YmlNZUdmcWRTWFVQUmVETmRiSVpxUFJ6dHJIejRWcF9IdGs",
       "domain": "news.google.com",
@@ -20358,8 +20500,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "4962b7aed47b3a8c",
-        "claim": "Aerodrome adds AERO rewards to tokenized short-term Treasury ETF, boosting DeFi yields on safe assets. - pluang.com",
+        "claimId": "c792818f768f5163",
+        "claim": "Aerodrome adds AERO rewards to tokenized short-term Treasury ETF, boosting DeFi yields on safe assets. - Pluang",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -20723,144 +20865,6 @@
           {
             "type": "publisher",
             "id": "Google News — airdrop",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 68,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action"
-      ]
-    },
-    {
-      "id": "jz25rmdzrznriywnov3rjawhjqjvdvum0udnvvgd1n0divkcxu3pqt0i0slvxnuswn2rbndzmwmdkmy1syurlwkftvxdyodnir0jumeppegvsyxvhzw-oc-5",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY3VmV1NfSTg5aWdBQndUaHVhQVVRQjRtTmlWWWZDMGZyT01NbmJ2cC01MnA4Z1Mwd3cyOU5jZ25RMDZrZnRIYWNOV3RJaWhJQjVDVUM0UDNVVGd1N0dIVkcxU3pqT0I0SlVXNUswN2RBNDZMWmdKMy1sYURLWkFTVXdyODNIR0JUMEpPeGVSYXVhZw",
-      "domain": "news.google.com",
-      "earningType": "speculative_or_token_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "rewards"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 3,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "39c407e779f6afe5",
-        "claim": "Linea Listing on September 10, 2025: Complete Guide to Linea Airdrop Claim, TGE - Bitget",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — Linea programs",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 68,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action"
-      ]
-    },
-    {
-      "id": "nfin2pjnxlwajfpm2xjr1itrzfunzdqrkfnd1axrjvxvm5abkncn1dandfdcgdadwi5n2hjsmhjulpyakfjmi1cbwjpcdrhse5lze11tflebzvktuz3-oc-5",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQN0tFZTFRdGZjUEJ4Z3lXOXZic19uVVRJX0NDblFlSWwzX2FNTEl1NzQybVpzc19tODg5WURscVZRZC1XUVJwWWtKdWRxUlY2dHRSakkyckNWZFhIRDZqbUNkbDNScWVkRnQ5T2VfU09CVVZhRHNyV2gyOWE0UmZKd2Q2WVROWjdQcVNqLURrTTBIR2tqTmhuTlVwME5jSURDUVJrNi1kZnJxRnFiN2pjNXlWajFpM2xJR1ItRzFuNzdQRkFNd1AxRjVXVm5abkNCN1daNDFDcGdadWI5N2hjSmhJUlpYakFJMi1CbWJPcDRHSE5LZE11TFlEbzVKTUZ3",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "grant"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 3,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "42f450841b3587aa",
-        "claim": "Level 2 (Get Set) Evacuations issued for wildfire burning in Grant County near Quincy - KREM",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — NEAR programs",
             "domain": "news.google.com",
             "independent": false
           },

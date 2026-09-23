@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-23T19:39:57.220696+00:00",
+  "updatedAt": "2026-09-23T19:41:12.334519+00:00",
   "count": 100,
   "alerts": [
     {
@@ -35,6 +35,18 @@
       "symbol": null,
       "name": "PONS / USDG 0.3%",
       "address": "0x4be9657ec9002e528f4f17a5c43edc525a07f888f7b180c2afbf75e096c4f38a",
+      "opportunityScore": 59,
+      "securityGate": "UNKNOWN",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "fingerprint": "34b3f974406b2329e2b4f143",
+      "priority": 53,
+      "type": "NEW_DISCOVERY",
+      "chain": "robinhood",
+      "symbol": null,
+      "name": "ROBIN / USDG",
+      "address": "0x5eac4195930d5ff8b7a34a347f2bde951c42eb730d6e26075bea3dd7c66feb40",
       "opportunityScore": 59,
       "securityGate": "UNKNOWN",
       "action": "RESEARCH_ONLY"
@@ -96,18 +108,6 @@
       "name": "BNKR / WETH 1%",
       "address": "0xaec085e5a5ce8d96a7bdd3eb3a62445d4f6ce703",
       "opportunityScore": 59,
-      "securityGate": "UNKNOWN",
-      "action": "RESEARCH_ONLY"
-    },
-    {
-      "fingerprint": "34b3f974406b2329e2b4f143",
-      "priority": 52,
-      "type": "NEW_DISCOVERY",
-      "chain": "robinhood",
-      "symbol": null,
-      "name": "ROBIN / USDG",
-      "address": "0x5eac4195930d5ff8b7a34a347f2bde951c42eb730d6e26075bea3dd7c66feb40",
-      "opportunityScore": 58,
       "securityGate": "UNKNOWN",
       "action": "RESEARCH_ONLY"
     },
@@ -221,13 +221,13 @@
     },
     {
       "fingerprint": "d173a17c58c31a727ef9df1b",
-      "priority": 41,
+      "priority": 42,
       "type": "NEW_DISCOVERY",
       "chain": "solana",
       "symbol": null,
       "name": "Robux / SOL",
       "address": "FqaGFYgGBFJJjwFAVRvKeQiu1N8xxK1VeqBewiNDpn4S",
-      "opportunityScore": 37,
+      "opportunityScore": 40,
       "securityGate": "UNKNOWN",
       "action": "RESEARCH_ONLY"
     },
@@ -244,18 +244,6 @@
       "action": "RESEARCH_ONLY"
     },
     {
-      "fingerprint": "48bc2a93ed84fc2e69fbc602",
-      "priority": 40,
-      "type": "NEW_DISCOVERY",
-      "chain": "solana",
-      "symbol": null,
-      "name": "Packet / SOL",
-      "address": "CrUxwKCZRuJHZUf6pk9LouhGP6QT7YXkXS7ecAXbxbB",
-      "opportunityScore": 35,
-      "securityGate": "UNKNOWN",
-      "action": "RESEARCH_ONLY"
-    },
-    {
       "fingerprint": "e392853402c2e07476eb57cf",
       "priority": 39,
       "type": "NEW_DISCOVERY",
@@ -264,6 +252,42 @@
       "name": "ASE / WETH",
       "address": "0xcf14dfcf39de6849af062d611c2f4395a5558b63",
       "opportunityScore": 34,
+      "securityGate": "UNKNOWN",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "fingerprint": "272ca6754be9c1f3a4f76ee5",
+      "priority": 38,
+      "type": "NEW_DISCOVERY",
+      "chain": "solana",
+      "symbol": null,
+      "name": "TIME / SOL",
+      "address": "B4FQXWPoXSFDQUPVXCm5ama7ignGEBdF3dsxbsxPhHn6",
+      "opportunityScore": 32,
+      "securityGate": "UNKNOWN",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "fingerprint": "9d442cfa6c929fbf79e578a6",
+      "priority": 38,
+      "type": "NEW_DISCOVERY",
+      "chain": "solana",
+      "symbol": null,
+      "name": "pog / SOL",
+      "address": "Cfs2n3d1WQ4Kku5SasHCVmC2qvrFCakCyszyCxduz3nm",
+      "opportunityScore": 33,
+      "securityGate": "UNKNOWN",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "fingerprint": "cab3e349a86f86193410a175",
+      "priority": 32,
+      "type": "NEW_DISCOVERY",
+      "chain": "solana",
+      "symbol": null,
+      "name": "up / SOL",
+      "address": "H5o4VxeLnbGM9nVPsVCaAf35cUU4N5oSZ1jQ8XFPSKYn",
+      "opportunityScore": 21,
       "securityGate": "UNKNOWN",
       "action": "RESEARCH_ONLY"
     },
@@ -292,6 +316,18 @@
       "action": "RESEARCH_ONLY"
     },
     {
+      "fingerprint": "02623e9b074b007d3a027870",
+      "priority": 31,
+      "type": "NEW_DISCOVERY",
+      "chain": "solana",
+      "symbol": null,
+      "name": null,
+      "address": "7u2FGForr1hUD8EFQtKcYpNV34pCTEAm78a97zDVpump",
+      "opportunityScore": 12,
+      "securityGate": "UNKNOWN",
+      "action": "RESEARCH_ONLY"
+    },
+    {
       "fingerprint": "356ee7ae9f0059f8fe90012d",
       "priority": 31,
       "type": "NEW_DISCOVERY",
@@ -300,18 +336,6 @@
       "name": null,
       "address": "0x80210081479359b512F464058B2699CEBE998579",
       "opportunityScore": 12,
-      "securityGate": "UNKNOWN",
-      "action": "RESEARCH_ONLY"
-    },
-    {
-      "fingerprint": "fa998b02456749c3c59c4f2f",
-      "priority": 30,
-      "type": "NEW_DISCOVERY",
-      "chain": "solana",
-      "symbol": null,
-      "name": "pog / SOL",
-      "address": "J27xPHa5YB1apQqrTjNCGGk7TpZwEPnNCznoRaWAZckz",
-      "opportunityScore": 18,
       "securityGate": "UNKNOWN",
       "action": "RESEARCH_ONLY"
     },
@@ -328,50 +352,50 @@
       "action": "RESEARCH_ONLY"
     },
     {
-      "fingerprint": "6a86ef225bdf9d616dec6edf",
+      "fingerprint": "2d6fa883afa183151c3d803d",
       "priority": 27,
       "type": "NEW_DISCOVERY",
       "chain": "solana",
       "symbol": null,
       "name": "PIXEL / SOL",
-      "address": "36BFzvjR6UV4tVFXKfbLm4aLPQGZm9bSDK2DFMXPmiQd",
+      "address": "4GLdY2GnPSj8Q4k3Lj8gLiyEAs7jU2Y6k3bKamY52XJt",
       "opportunityScore": 12,
       "securityGate": "UNKNOWN",
       "action": "RESEARCH_ONLY"
     },
     {
-      "fingerprint": "cb3d3fa24d2b2fe1d069d662",
+      "fingerprint": "02c9935c7a295474c03814dc",
       "priority": 27,
       "type": "NEW_DISCOVERY",
       "chain": "solana",
       "symbol": null,
-      "name": "THINK / SOL",
-      "address": "UUexhDwpCf9ZUzZVW6XrufuvhPxYG3wRaAeADVhB5TU",
+      "name": "GPS / SOL",
+      "address": "DshyaDeFSYzsqRbPt7VKmx5Qu96RVuot844M9yZzzcjN",
       "opportunityScore": 12,
       "securityGate": "UNKNOWN",
       "action": "RESEARCH_ONLY"
     },
     {
       "fingerprint": "d2de53d27fdb1c094ded8735",
-      "priority": 24,
+      "priority": 26,
       "type": "NEW_DISCOVERY",
       "chain": "solana",
       "symbol": null,
       "name": "Robux / SOL",
       "address": "D7RFeuzJM3zeR6bVAUuDY6tZiUPsuLhdynGtSpLnaYTB",
-      "opportunityScore": 7,
+      "opportunityScore": 10,
       "securityGate": "UNKNOWN",
       "action": "RESEARCH_ONLY"
     },
     {
-      "fingerprint": "52ab14897d625ccab35c8ef0",
-      "priority": 22,
+      "fingerprint": "1db59348a0a2ea367517eb4d",
+      "priority": 23,
       "type": "NEW_DISCOVERY",
       "chain": "solana",
       "symbol": null,
-      "name": "CUTECAT / SOL",
-      "address": "8GpnUzVLkkEvXv3VNS4gNacR7pdzvjYrxfTM2Pz3J8xZ",
-      "opportunityScore": 4,
+      "name": "DICE / SOL",
+      "address": "DrU8gyrrhjuar8LWhdXASwvpELup5BBYjnoZdrm5WTiA",
+      "opportunityScore": 5,
       "securityGate": "UNKNOWN",
       "action": "RESEARCH_ONLY"
     },
@@ -688,14 +712,50 @@
       "action": "RESEARCH_ONLY"
     },
     {
-      "fingerprint": "dd5c44c2e7b00f49e7a3dfca",
-      "priority": 22,
+      "fingerprint": "256545479f89566c8213ef44",
+      "priority": 20,
+      "type": "NEW_DISCOVERY",
+      "chain": "hyperliquid",
+      "symbol": null,
+      "name": "NAV / USDC",
+      "address": "0x0d1235d68ff9c1c5621d4ff93be41c5e",
+      "opportunityScore": 0,
+      "securityGate": "UNKNOWN",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "fingerprint": "659bf1ca618fd64c859c27da",
+      "priority": 20,
       "type": "NEW_DISCOVERY",
       "chain": "solana",
       "symbol": null,
-      "name": null,
-      "address": "2aQKC1xiKpEyAWvzSDrULnYLVuybWyx7qrsnpP8hpump",
-      "opportunityScore": 4,
+      "name": "TRIPLET / SOL",
+      "address": "J1GsgqU2Abi6qnc8SWjx9L4ZtERgffE598cKCMhim3j2",
+      "opportunityScore": 0,
+      "securityGate": "UNKNOWN",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "fingerprint": "5b4f4f7e0547097d876ff1fd",
+      "priority": 20,
+      "type": "NEW_DISCOVERY",
+      "chain": "solana",
+      "symbol": null,
+      "name": "SMUG / SOL",
+      "address": "G4GiEhVQxJ86Pp31qUhZFr9ModCLrxrKMWn8pYhthcQC",
+      "opportunityScore": 0,
+      "securityGate": "UNKNOWN",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "fingerprint": "df100188c3e06a126bb7645a",
+      "priority": 20,
+      "type": "NEW_DISCOVERY",
+      "chain": "solana",
+      "symbol": null,
+      "name": "Packet / SOL",
+      "address": "7tn2Wo726QYN5uVTncHtEjgLCGa864b67173eAntjn6r",
+      "opportunityScore": 0,
       "securityGate": "UNKNOWN",
       "action": "RESEARCH_ONLY"
     },
@@ -736,6 +796,18 @@
       "action": "RESEARCH_ONLY"
     },
     {
+      "fingerprint": "c45110ddfc11b29388f4a5f1",
+      "priority": 20,
+      "type": "NEW_DISCOVERY",
+      "chain": "arc",
+      "symbol": null,
+      "name": "Packet / USDC 1%",
+      "address": "0x0ab02293cb5b53e2dfe9132ee3910fb651152d1b",
+      "opportunityScore": 0,
+      "securityGate": "UNKNOWN",
+      "action": "RESEARCH_ONLY"
+    },
+    {
       "fingerprint": "7008325ee4381516184fdb77",
       "priority": 20,
       "type": "NEW_DISCOVERY",
@@ -767,78 +839,6 @@
       "symbol": null,
       "name": "SHREK / SOL",
       "address": "3if8FAR9NqLdFQ1GA17FQUcF2ALLXwafaXfHYA3xU8u1",
-      "opportunityScore": 0,
-      "securityGate": "UNKNOWN",
-      "action": "RESEARCH_ONLY"
-    },
-    {
-      "fingerprint": "1d89fd78fa47fe89ce573181",
-      "priority": 20,
-      "type": "NEW_DISCOVERY",
-      "chain": "solana",
-      "symbol": null,
-      "name": "BHR / SOL",
-      "address": "FMEQ3Sugusqzqc6NvcQMLi1QZ8zYXkd3EqTzxJ4Mfap",
-      "opportunityScore": 0,
-      "securityGate": "UNKNOWN",
-      "action": "RESEARCH_ONLY"
-    },
-    {
-      "fingerprint": "422b22d7cd71d46f501df2eb",
-      "priority": 20,
-      "type": "NEW_DISCOVERY",
-      "chain": "solana",
-      "symbol": null,
-      "name": "TRIAL / SOL",
-      "address": "F1NspJnMk5sJzujz3CPEc5F52Dnoo5YhTUEdqTiyEB9W",
-      "opportunityScore": 0,
-      "securityGate": "UNKNOWN",
-      "action": "RESEARCH_ONLY"
-    },
-    {
-      "fingerprint": "166d86ae98da5d315cef6dff",
-      "priority": 20,
-      "type": "NEW_DISCOVERY",
-      "chain": "solana",
-      "symbol": null,
-      "name": "pi / SOL",
-      "address": "2z3g8S2PvqDEPMurrGd6rDgVEUDiT8fQ2FUPBGsHkTgu",
-      "opportunityScore": 0,
-      "securityGate": "UNKNOWN",
-      "action": "RESEARCH_ONLY"
-    },
-    {
-      "fingerprint": "113e3c59d3b063052301cc9f",
-      "priority": 20,
-      "type": "NEW_DISCOVERY",
-      "chain": "solana",
-      "symbol": null,
-      "name": "SOL Girl / SOL",
-      "address": "9wmbKMStcfA1qEFJDv5VxjcwNX4151gniqKooHTSL3vB",
-      "opportunityScore": 0,
-      "securityGate": "UNKNOWN",
-      "action": "RESEARCH_ONLY"
-    },
-    {
-      "fingerprint": "a196123da93834ae54a3753b",
-      "priority": 20,
-      "type": "NEW_DISCOVERY",
-      "chain": "solana",
-      "symbol": null,
-      "name": "PUSSY / SOL",
-      "address": "6aLf5iy7PCkva5f8DS3QPnxysChygtkjFq9h7TJKBArb",
-      "opportunityScore": 0,
-      "securityGate": "UNKNOWN",
-      "action": "RESEARCH_ONLY"
-    },
-    {
-      "fingerprint": "78d17d684b5d3bdca8f8ffc8",
-      "priority": 20,
-      "type": "NEW_DISCOVERY",
-      "chain": "solana",
-      "symbol": null,
-      "name": "ALJAM / SOL",
-      "address": "5QGgiQgHfaFBp58S9oCZt3ZDkQvzVejhex9LzPMfjAu4",
       "opportunityScore": 0,
       "securityGate": "UNKNOWN",
       "action": "RESEARCH_ONLY"
@@ -1168,18 +1168,6 @@
       "action": "RESEARCH_ONLY"
     },
     {
-      "fingerprint": "02623e9b074b007d3a027870",
-      "priority": 20,
-      "type": "NEW_DISCOVERY",
-      "chain": "solana",
-      "symbol": null,
-      "name": null,
-      "address": "7u2FGForr1hUD8EFQtKcYpNV34pCTEAm78a97zDVpump",
-      "opportunityScore": 0,
-      "securityGate": "UNKNOWN",
-      "action": "RESEARCH_ONLY"
-    },
-    {
       "fingerprint": "cddd9a53ce76ad9af1cb9f5f",
       "priority": 20,
       "type": "NEW_DISCOVERY",
@@ -1199,6 +1187,18 @@
       "symbol": null,
       "name": null,
       "address": "2jcvq8QcJ8TzEYJKYMCjR61kXVSzib4mEkz89tQxpump",
+      "opportunityScore": 0,
+      "securityGate": "UNKNOWN",
+      "action": "RESEARCH_ONLY"
+    },
+    {
+      "fingerprint": "cb474933c7e2aef36e30db13",
+      "priority": 20,
+      "type": "NEW_DISCOVERY",
+      "chain": "solana",
+      "symbol": null,
+      "name": null,
+      "address": "FFaArmXLDhPxr6HboqLz1MxH9G47XKmc664RkHv9jjTZ",
       "opportunityScore": 0,
       "securityGate": "UNKNOWN",
       "action": "RESEARCH_ONLY"
