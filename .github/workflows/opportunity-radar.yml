@@ -1,0 +1,34 @@
+name: Immortal Guard Opportunity Radar
+
+on:
+  schedule:
+    - cron: '15 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: opportunity-radar
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Collect candidate opportunities from publisher feeds
+        run: python3 scripts/collect_opportunities.py
+      - name: Commit refreshed feed data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/opportunities.json
+          if git diff --cached --quiet; then
+            echo 'No feed changes to commit.'
+          else
+            git commit -m 'chore: refresh opportunity radar feed'
+            git push
+          fi
