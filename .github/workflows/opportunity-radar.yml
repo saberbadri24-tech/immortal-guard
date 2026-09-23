@@ -24,6 +24,13 @@ jobs:
         run: python3 scripts/airdrop_plus.py
       - name: Build guarded collection queue
         run: python3 scripts/collection_router.py
+      - name: Build claim adapter registry
+        run: python3 scripts/claim_adapter_registry.py
+      - name: Monitor temporary TON wallet receipts
+        env:
+          TEMP_TON_ADDRESS: ${{ vars.TEMP_TON_ADDRESS }}
+          TONCENTER_API_KEY: ${{ secrets.TONCENTER_API_KEY }}
+        run: python3 scripts/ton_receipt_monitor.py
       - name: Run optional live AI council
         continue-on-error: true
         env:
@@ -33,10 +40,10 @@ jobs:
           CLAUDE_MODEL: claude-sonnet-4-6
         run: python3 scripts/ai_council.py
       - name: Validate data
-        run: python3 -c "import json; [json.load(open(p)) for p in ['data/opportunities.json','data/history.json','data/engine_reviews.json','data/airdrop_plus.json','data/owner_actions.json','data/collection_queue.json','data/temp_wallet.json','data/ai_reviews.json']]; print('JSON OK')"
+        run: python3 -c "import json; [json.load(open(p)) for p in ['data/opportunities.json','data/history.json','data/engine_reviews.json','data/airdrop_plus.json','data/owner_actions.json','data/collection_queue.json','data/temp_wallet.json','data/claim_adapters.json','data/ton_receipts.json','data/ton_receipt_state.json','data/ai_reviews.json']]; print('JSON OK')"
       - name: Commit refreshed radar
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/opportunities.json data/history.json data/engine_reviews.json data/airdrop_plus.json data/owner_actions.json data/collection_queue.json data/temp_wallet.json data/ai_reviews.json
+          git add data/opportunities.json data/history.json data/engine_reviews.json data/airdrop_plus.json data/owner_actions.json data/collection_queue.json data/temp_wallet.json data/claim_adapters.json data/ton_receipts.json data/ton_receipt_state.json data/ai_reviews.json
           if git diff --cached --quiet; then echo 'No changes'; else git commit -m 'chore: refresh immortal guard radar'; git push; fi
