@@ -395,6 +395,48 @@
       "engineCount": 300,
       "topScore": 100,
       "independentSources": 1
+    },
+    {
+      "at": "2026-09-23T19:55:20.082205+00:00",
+      "count": 300,
+      "blocked": 0,
+      "feedErrors": [
+        {
+          "publisher": "HackerOne",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "publisher": "Gitcoin",
+          "error": "HTTP Error 502: Bad Gateway"
+        },
+        {
+          "publisher": "TON Blog",
+          "error": "not well-formed (invalid token): line 8, column 39"
+        }
+      ]
+    },
+    {
+      "at": "2026-09-23T19:55:20.271594+00:00",
+      "engineCount": 300,
+      "topScore": 100,
+      "independentSources": 1,
+      "qualifiedDailyCount": 6,
+      "qualifiedIds": [
+        "https-blog-ethereum-org-en-2026-08-05-1ts-grant",
+        "https-blog-ethereum-org-en-2025-04-22-destino-devconnect",
+        "https-blog-ethereum-org-en-2026-02-27-project-odin",
+        "https-blog-ethereum-org-en-2025-09-15-fusaka-audit-content",
+        "https-blog-ethereum-org-en-2025-09-01-holesky-shutdown-announcement",
+        "https-blog-ethereum-org-en-2025-09-26-fusaka-testnet-announcement"
+      ],
+      "scoreMap": {
+        "https-blog-ethereum-org-en-2026-08-05-1ts-grant": 100,
+        "https-blog-ethereum-org-en-2025-04-22-destino-devconnect": 100,
+        "https-blog-ethereum-org-en-2026-02-27-project-odin": 100,
+        "https-blog-ethereum-org-en-2025-09-15-fusaka-audit-content": 100,
+        "https-blog-ethereum-org-en-2025-09-01-holesky-shutdown-announcement": 100,
+        "https-blog-ethereum-org-en-2025-09-26-fusaka-testnet-announcement": 100
+      }
     }
   ]
 }

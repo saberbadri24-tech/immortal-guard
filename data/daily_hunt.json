@@ -1,0 +1,579 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-23T19:55:20.271594+00:00",
+  "huntDateUtc": "2026-09-23",
+  "dailyLimit": 10,
+  "count": 6,
+  "allQualifiedCount": 6,
+  "newOrChangedCount": 6,
+  "incomeQualifiedCount": 0,
+  "newIncomeQualifiedCount": 0,
+  "opportunityIds": [
+    "https-blog-ethereum-org-en-2026-08-05-1ts-grant",
+    "https-blog-ethereum-org-en-2025-04-22-destino-devconnect",
+    "https-blog-ethereum-org-en-2026-02-27-project-odin",
+    "https-blog-ethereum-org-en-2025-09-15-fusaka-audit-content",
+    "https-blog-ethereum-org-en-2025-09-01-holesky-shutdown-announcement",
+    "https-blog-ethereum-org-en-2025-09-26-fusaka-testnet-announcement"
+  ],
+  "opportunities": [
+    {
+      "id": "https-blog-ethereum-org-en-2026-08-05-1ts-grant",
+      "title": "Announcing a Trillion Dollar Security grant for WEBCAT",
+      "url": "https://blog.ethereum.org/en/2026/08/05/1ts-grant",
+      "domain": "blog.ethereum.org",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 30,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "7f3c9e50f14da4f6",
+        "claim": "Announcing a Trillion Dollar Security grant for WEBCAT",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 1,
+        "domains": [
+          "blog.ethereum.org"
+        ],
+        "independentDomains": [
+          "blog.ethereum.org"
+        ],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 25,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Ethereum Foundation",
+            "domain": "blog.ethereum.org",
+            "independent": true
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "official-domain",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          }
+        ]
+      },
+      "score": 100,
+      "verdict": "high-confidence-candidate",
+      "risk": "lower",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 05 Aug 2026 00:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2025-04-22-destino-devconnect",
+      "title": "Destino Devconnect - A local grant round to bring Argentina onchain",
+      "url": "https://blog.ethereum.org/en/2025/04/22/destino-devconnect",
+      "domain": "blog.ethereum.org",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 30,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "55933e08da2495d2",
+        "claim": "Destino Devconnect - A local grant round to bring Argentina onchain",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 1,
+        "domains": [
+          "blog.ethereum.org"
+        ],
+        "independentDomains": [
+          "blog.ethereum.org"
+        ],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 25,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Ethereum Foundation",
+            "domain": "blog.ethereum.org",
+            "independent": true
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "official-domain",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          }
+        ]
+      },
+      "score": 100,
+      "verdict": "high-confidence-candidate",
+      "risk": "lower",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Tue, 22 Apr 2025 00:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2026-02-27-project-odin",
+      "title": "This Is Fine (Until the Grant Runs Out)",
+      "url": "https://blog.ethereum.org/en/2026/02/27/project-odin",
+      "domain": "blog.ethereum.org",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 30,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "3c701329089a95fa",
+        "claim": "This Is Fine (Until the Grant Runs Out)",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 1,
+        "domains": [
+          "blog.ethereum.org"
+        ],
+        "independentDomains": [
+          "blog.ethereum.org"
+        ],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 25,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Ethereum Foundation",
+            "domain": "blog.ethereum.org",
+            "independent": true
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "official-domain",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          }
+        ]
+      },
+      "score": 100,
+      "verdict": "high-confidence-candidate",
+      "risk": "lower",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Fri, 27 Feb 2026 00:00:00 GMT",
+        "hasDeadline": true,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2025-09-15-fusaka-audit-content",
+      "title": "Fusaka $2,000,000 Audit Contest!",
+      "url": "https://blog.ethereum.org/en/2025/09/15/fusaka-audit-content",
+      "domain": "blog.ethereum.org",
+      "earningType": "unknown",
+      "explicitUsdAmounts": [
+        2000000.0
+      ],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "hackathon"
+      ],
+      "trustScore": 30,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "d0ec3d11b9bb2cdd",
+        "claim": "Fusaka $2,000,000 Audit Contest!",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 1,
+        "domains": [
+          "blog.ethereum.org"
+        ],
+        "independentDomains": [
+          "blog.ethereum.org"
+        ],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 25,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Ethereum Foundation",
+            "domain": "blog.ethereum.org",
+            "independent": true
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "official-domain",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          }
+        ]
+      },
+      "score": 100,
+      "verdict": "high-confidence-candidate",
+      "risk": "lower",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Mon, 15 Sep 2025 00:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          2000000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2025-09-01-holesky-shutdown-announcement",
+      "title": "Holešky Testnet Shutdown Announcement",
+      "url": "https://blog.ethereum.org/en/2025/09/01/holesky-shutdown-announcement",
+      "domain": "blog.ethereum.org",
+      "earningType": "unknown",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "testnet"
+      ],
+      "trustScore": 30,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "4a4bb5ae90c2e1a0",
+        "claim": "Holešky Testnet Shutdown Announcement",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 1,
+        "domains": [
+          "blog.ethereum.org"
+        ],
+        "independentDomains": [
+          "blog.ethereum.org"
+        ],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 25,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Ethereum Foundation",
+            "domain": "blog.ethereum.org",
+            "independent": true
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "official-domain",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          }
+        ]
+      },
+      "score": 100,
+      "verdict": "high-confidence-candidate",
+      "risk": "lower",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Mon, 01 Sep 2025 00:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2025-09-26-fusaka-testnet-announcement",
+      "title": "Fusaka Testnet Announcement",
+      "url": "https://blog.ethereum.org/en/2025/09/26/fusaka-testnet-announcement",
+      "domain": "blog.ethereum.org",
+      "earningType": "unknown",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "testnet"
+      ],
+      "trustScore": 30,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "8275497ad58baeac",
+        "claim": "Fusaka Testnet Announcement",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 1,
+        "domains": [
+          "blog.ethereum.org"
+        ],
+        "independentDomains": [
+          "blog.ethereum.org"
+        ],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 25,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Ethereum Foundation",
+            "domain": "blog.ethereum.org",
+            "independent": true
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "official-domain",
+            "domain": "blog.ethereum.org",
+            "independent": false
+          }
+        ]
+      },
+      "score": 100,
+      "verdict": "high-confidence-candidate",
+      "risk": "lower",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Fri, 26 Sep 2025 00:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    }
+  ],
+  "rule": "Count only high-confidence candidates from trusted domains; daily hunt means new or materially changed opportunities. Maximum 10 displayed.",
+  "incomeRule": "Opportunity count is not income. Only owner-confirmed received funds count as collected revenue."
+}
