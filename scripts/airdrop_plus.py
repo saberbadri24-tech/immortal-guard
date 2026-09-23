@@ -18,6 +18,7 @@ IN = Path("data/opportunities.json")
 REVIEWS = Path("data/engine_reviews.json")
 OUT = Path("data/airdrop_plus.json")
 ACTIONS = Path("data/owner_actions.json")
+LEDGER = Path("data/owner_approval_ledger.json")
 
 REWARD = re.compile(
     r"\b(airdrop|token distribution|token claim|claim|rewards?|points|"
@@ -95,10 +96,10 @@ def main():
             "specialists": ["airdrop","rewards","eligibility","risk","claim-phase"],
             "sourceEvidence": x.get("evidence",[]),
             "engineScore": review.get("score",0),
-            "action": "OWNER_REVIEW" if needs_owner else "MONITOR",
+            "action": "OWNER_REVIEW",
             "destination": "TEMP_TON_WALLET",
             "collectionMode": "PROTOCOL_ADAPTER_ONLY",
-            "ownerApprovalRequired": needs_owner,
+            "ownerApprovalRequired": True,
             "checks": [
                 "verify the current opportunity on its official domain",
                 "check eligibility, geography, snapshot/claim dates and terms",
@@ -107,8 +108,30 @@ def main():
             ]
         })
     rows.sort(key=lambda z:(z["score"], z["phase"]=="CLAIM_LIVE"), reverse=True)
-    rows = rows[:500]
     now = datetime.now(timezone.utc).isoformat()
+    ledger = {"version": 1, "updatedAt": now, "items": []}
+    if LEDGER.exists():
+        try:
+            ledger = json.loads(LEDGER.read_text(encoding="utf-8"))
+        except Exception:
+            ledger = {"version": 1, "updatedAt": now, "items": []}
+    existing = {x.get("id"): x for x in ledger.get("items", []) if x.get("id")}
+    for x in rows:
+        old = existing.get(x["id"], {})
+        existing[x["id"]] = {
+            **old,
+            "id": x["id"], "title": x["title"], "url": x["url"],
+            "domain": x["domain"],
+            "firstSeenAt": old.get("firstSeenAt", now),
+            "lastSeenAt": now,
+            "phase": x["phase"], "score": x["score"],
+            "status": old.get("status", "WAITING_OWNER_APPROVAL"),
+            "ownerApprovalRequired": True,
+            "lastReason": "Discovered and retained until owner decision."
+        }
+    ledger["items"] = sorted(existing.values(), key=lambda z: z.get("lastSeenAt",""), reverse=True)
+    ledger["updatedAt"] = now
+    LEDGER.write_text(json.dumps(ledger, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
     payload = {
         "version": 1,
         "name": "Immortal Guard Airdrop Plus",
@@ -138,10 +161,10 @@ def main():
     OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     actions = [{
         "id": x["id"], "title": x["title"], "url": x["url"],
-        "status": "WAITING_OWNER" if x["ownerApprovalRequired"] else "MONITOR",
-        "reason": "Wallet/claim action must remain owner-controlled." if x["ownerApprovalRequired"] else "No owner action currently detected; keep monitoring.",
+        "status": "WAITING_OWNER_APPROVAL",
+        "reason": "Discovered and retained. No claim, connection, signature, or transfer occurs until owner approval.",
         "destination": "TEMP_TON_WALLET"
-    } for x in rows if x["ownerApprovalRequired"]][:200]
+    } for x in rows]
     ACTIONS.write_text(json.dumps({"version":1,"updatedAt":now,"count":len(actions),"items":actions},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"Airdrop Plus: {len(rows)} candidates; live={payload['liveClaimCandidates']}; high={payload['highConfidence']}")
 
