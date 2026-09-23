@@ -36,21 +36,17 @@ def main():
             continue
         url = r.get("url", "")
         h = host(url)
-        if not h or not any(h == d or h.endswith("." + d) for d in ALLOWED):
-            mode = "OWNER_REVIEW"
-        elif OWNER_ACTION.search(str(r)):
-            mode = "OWNER_REVIEW"
-        else:
-            # No generic claim API is assumed. A future protocol adapter may
-            # explicitly promote an item after proving a no-signature payout.
-            mode = "VERIFY_OFFICIAL_CLAIM"
+        # Every discovered/reviewed opportunity is owner-gated. A future
+        # protocol adapter may classify a payout as no-signature, but it still
+        # cannot start until the owner approves the opportunity.
+        mode = "OWNER_REVIEW"
         q.append({
             "id": r.get("id"), "url": url, "domain": h,
             "mode": mode, "status": "pending",
             "destination": "TEMP_TON_WALLET",
             "createdAt": now,
-            "ownerApprovalRequired": mode != "VERIFY_OFFICIAL_CLAIM",
-            "note": "No seed/private key. No automatic signing or transfer. Verify official claim path before collection."
+            "ownerApprovalRequired": True,
+            "note": "No seed/private key. Owner approval is required before any claim/collection. No automatic signing or transfer."
         })
     payload = {
         "version": 1, "updatedAt": now, "temporaryWallet": "USER_TON_ADDRESS",
