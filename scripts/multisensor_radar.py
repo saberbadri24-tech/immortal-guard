@@ -62,6 +62,99 @@ def norm(item, source):
         'communityPositivePct': community_pos, 'boostAmount': boosted, 'source': source
     }
 
+def security_chain_id(chain):
+    mapping = {
+        'ethereum': '1', 'eth': '1',
+        'bsc': '56', 'binance-smart-chain': '56',
+        'polygon': '137', 'polygon_pos': '137', 'matic': '137',
+        'arbitrum': '42161', 'arbitrum-one': '42161',
+        'optimism': '10',
+        'base': '8453',
+        'avalanche': '43114', 'avax': '43114',
+    }
+    return mapping.get(str(chain or '').lower())
+
+
+def goplus_security(chain, address):
+    """Best-effort security intelligence. Empty/unknown is never treated as safe."""
+    chain_id = security_chain_id(chain)
+    if not chain_id or not address or not str(address).startswith('0x'):
+        return None
+    url = f'https://api.gopluslabs.io/api/v1/token_security/{chain_id}?contract_addresses={address}'
+    req = urllib.request.Request(url, headers=HEADERS)
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            payload = json.loads(r.read().decode('utf-8'))
+        result = (payload.get('result') or {}).get(str(address).lower()) or {}
+        if not result:
+            result = (payload.get('result') or {}).get(address) or {}
+        return result or None
+    except Exception:
+        return None
+
+
+def security_summary(sec):
+    if not sec:
+        return {
+            'available': False,
+            'hardRiskFlags': [],
+            'softRiskFlags': [],
+            'securityPenalty': 0,
+            'securityGate': 'UNKNOWN'
+        }
+
+    def yes(key):
+        return str(sec.get(key, '')).lower() in ('1', 'true', 'yes')
+
+    hard = []
+    soft = []
+    checks = {
+        'honeypot': 'is_honeypot',
+        'fake-token': 'fake_token',
+        'airdrop-scam': 'is_airdrop_scam',
+        'malicious-token': 'is_malicious',
+        'blacklist': 'is_blacklisted',
+        'trading-suspended': 'transfer_pausable',
+        'mintable': 'is_mintable',
+        'proxy': 'is_proxy',
+        'modifiable-tax': 'slippage_modifiable',
+        'owner-control': 'can_take_back_ownership',
+    }
+    for label, key in checks.items():
+        if yes(key):
+            hard.append(label)
+
+    if str(sec.get('is_open_source', '')) == '0':
+        soft.append('unverified-source')
+    if yes('is_in_dex') is False and 'is_in_dex' in sec:
+        soft.append('not-in-dex')
+    if yes('is_honeypot') or yes('is_malicious') or yes('is_airdrop_scam'):
+        gate = 'BLOCK'
+    elif hard:
+        gate = 'HIGH_RISK'
+    elif soft:
+        gate = 'REVIEW'
+    else:
+        gate = 'NO_FLAG_REPORTED'
+
+    penalty = min(70, 35 * len(set(hard)) + 8 * len(set(soft)))
+    return {
+        'available': True,
+        'hardRiskFlags': sorted(set(hard)),
+        'softRiskFlags': sorted(set(soft)),
+        'securityPenalty': penalty,
+        'securityGate': gate,
+        'rawSelected': {
+            k: sec.get(k) for k in (
+                'is_open_source', 'is_proxy', 'is_honeypot', 'is_mintable',
+                'is_blacklisted', 'transfer_pausable', 'slippage_modifiable',
+                'can_take_back_ownership', 'is_in_dex', 'holder_count',
+                'is_airdrop_scam', 'is_malicious', 'trust_list'
+            ) if k in sec
+        }
+    }
+
+
 def main():
     collected, errors = [], {}
     for source, url in SOURCES.items():
@@ -78,21 +171,26 @@ def main():
     merged = {}
     for r in collected:
         key = (str(r.get('chain') or '').lower(), str(r.get('address') or r.get('url') or '').lower())
-        if key == ('', ''): continue
+        if key == ('', ''):
+            continue
         if key not in merged:
             merged[key] = dict(r, signals=[], sourceCount=0)
         m = merged[key]
         m['signals'].append(r['source'])
-        for k in ('name','symbol','url','poolCreatedAt'):
-            if not m.get(k) and r.get(k): m[k] = r[k]
-        for k in ('liquidityUsd','volume24hUsd','txns24h','boostAmount','communitySusReports','communityPositivePct','priceChange24hPct','fdvUsd','marketCapUsd'):
+        for k in ('name', 'symbol', 'url', 'poolCreatedAt'):
+            if not m.get(k) and r.get(k):
+                m[k] = r[k]
+        for k in ('liquidityUsd', 'volume24hUsd', 'txns24h', 'boostAmount',
+                  'communitySusReports', 'communityPositivePct', 'priceChange24hPct',
+                  'fdvUsd', 'marketCapUsd'):
             m[k] = max(m.get(k, 0), r.get(k, 0))
         m['sourceCount'] = len(set(m['signals']))
 
     results = []
+    # Security API is deliberately capped to avoid rate-limit pressure.
+    # Unknown security data never receives a positive safety assumption.
+    security_checked = 0
     for m in merged.values():
-        # Discovery score = market activity + cross-source confirmation + momentum.
-        # It is NOT a probability of profit and NOT a safety audit.
         score = min(25, 8 * max(0, m['sourceCount'] - 1))
         liq, vol, tx = m['liquidityUsd'], m['volume24hUsd'], m['txns24h']
         if liq >= 250000: score += 25
@@ -106,39 +204,89 @@ def main():
         if tx >= 500: score += 12
         elif tx >= 100: score += 8
         elif tx >= 25: score += 4
-        if m['priceChange24hPct'] > 10: score += min(10, int(m['priceChange24hPct'] / 10))
-        if m['boostAmount'] > 0: score += 4
-        if m['communityPositivePct'] >= 70: score += 2
-        m['discoveryScore'] = min(100, score)
+        if m['priceChange24hPct'] > 10:
+            score += min(10, int(m['priceChange24hPct'] / 10))
+        if m['boostAmount'] > 0:
+            score += 4
+        if m['communityPositivePct'] >= 70:
+            score += 2
 
         flags = []
         if liq < 5000: flags.append('very-low-liquidity')
         if liq and vol / liq > 20: flags.append('extreme-volume-to-liquidity')
         if abs(m['priceChange24hPct']) > 200: flags.append('extreme-24h-move')
         if m['communitySusReports'] > 0: flags.append('community-suspicion-reports')
-        if m['sourceCount'] > 1:
-            confidence = 'multi-source'
-        else:
-            confidence = 'single-source'
-        m['confidence'] = confidence
-        m['riskFlags'] = flags
-        m['riskStatus'] = 'UNVERIFIED—manual contract/security/ownership/liquidity-lock review required'
+
+        # Pull security intelligence for a small, high-signal subset first.
+        sec = None
+        if security_checked < 20 and m.get('address'):
+            sec = goplus_security(m.get('chain'), m.get('address'))
+            security_checked += 1
+            if sec is None:
+                time.sleep(0.05)
+        security = security_summary(sec)
+        flags.extend(security['hardRiskFlags'])
+        flags.extend(security['softRiskFlags'])
+
+        raw_score = min(100, score)
+        opportunity_score = max(0, min(100, raw_score - security['securityPenalty']))
+        if security['securityGate'] == 'BLOCK':
+            opportunity_score = min(opportunity_score, 10)
+
+        m['marketSignalScore'] = raw_score
+        m['securityPenalty'] = security['securityPenalty']
+        m['opportunityScore'] = opportunity_score
+        m['security'] = security
+        m['riskFlags'] = sorted(set(flags))
+        m['confidence'] = 'multi-source' if m['sourceCount'] > 1 else 'single-source'
+        m['riskStatus'] = (
+            'BLOCKED_BY_SECURITY_SIGNAL' if security['securityGate'] == 'BLOCK'
+            else 'UNVERIFIED—manual contract/security/ownership/liquidity-lock review required'
+        )
         m['action'] = 'RESEARCH_ONLY'
+        m['decision'] = 'DO_NOT_INTERACT' if security['securityGate'] == 'BLOCK' else 'RESEARCH_ONLY'
         results.append(m)
 
-    results.sort(key=lambda x: (x['discoveryScore'], x.get('volume24hUsd',0), x.get('liquidityUsd',0)), reverse=True)
+    results.sort(
+        key=lambda x: (
+            x['opportunityScore'],
+            x['marketSignalScore'],
+            x.get('volume24hUsd', 0),
+            x.get('liquidityUsd', 0)
+        ),
+        reverse=True
+    )
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({
-        'version': 2,
+        'version': 3,
         'updatedAt': datetime.now(timezone.utc).isoformat(),
         'sources': SOURCES,
+        'securitySources': ['GoPlus Token Security API (best effort; unknown != safe)'],
         'sourceErrors': errors,
         'sourceRows': len(collected),
         'uniqueCandidates': len(results),
+        'securityChecksAttempted': security_checked,
         'items': results[:500],
-        'methodology': 'Cross-source discovery using new/trending pools, public DEX profiles, boosts and community takeovers. Ranking favors liquidity, volume, transaction activity and independent source confirmation.',
-        'disclaimer': 'Discovery ranking only; not investment advice, not a rug-pull audit, not a prediction and not a guarantee of profit. No wallet connection, signing, trading, claiming, or transfers.'
+        'methodology': (
+            'Multisensor discovery combines new/trending pools, public DEX profiles, boosts and '
+            'community takeovers. It separates market-signal strength from security risk. '
+            'GoPlus security intelligence is used as a risk gate where supported. '
+            'OpportunityScore is a research-priority score, not a profit probability or safety rating.'
+        ),
+        'safetyBoundary': (
+            'No wallet signing, private keys, seed phrases, claims, trades, approvals, transfers, '
+            'or irreversible on-chain actions are performed by this radar.'
+        ),
+        'disclaimer': (
+            'Discovery and risk-screening only; not investment advice, not a complete smart-contract '
+            'audit, not a prediction and not a guarantee of profit. Security APIs can be incomplete or stale.'
+        )
     }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f'Multisensor radar v2: raw={len(collected)} unique={len(results)} source_errors={len(errors)}')
+    print(
+        f'Multisensor radar v3: raw={len(collected)} unique={len(results)} '
+        f'security_checks={security_checked} source_errors={len(errors)}'
+    )
 
-if __name__ == '__main__': main()
+
+if __name__ == '__main__':
+    main()
