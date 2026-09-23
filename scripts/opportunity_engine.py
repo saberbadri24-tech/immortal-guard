@@ -12,6 +12,7 @@ from urllib.parse import urlparse, urlunparse
 
 IN = Path("data/opportunities.json")
 OUT = Path("data/engine_reviews.json")
+HUNT = Path("data/daily_hunt.json")
 HISTORY = Path("data/history.json")
 RADAR = Path("data/radar_intel.json")
 
@@ -184,6 +185,10 @@ def main():
     reviews = [analyze(x, radar_index) for x in raw]
     reviews.sort(key=lambda x: (x["score"], x["evidenceLineage"]["convergence"], x["trustScore"], -x["actionComplexity"]), reverse=True)
     counts = Counter(r["verdict"] for r in reviews)
+    # Count only strong, trusted, concrete opportunity candidates; cap the daily hunt at 10.
+    opportunity_signal = re.compile(r"\b(bounty|bug bounty|grant|funding|hackathon|contest|challenge|testnet|devnet|airdrop|reward|rewards|points|retroactive|incentive|ambassador|builder|developer program)\b", re.I)
+    qualified = [r for r in reviews if r.get("verdict") == "high-confidence-candidate" and r.get("trustScore", 0) >= 24 and opportunity_signal.search(str(r.get("url","")) + " " + str(r.get("id","")))]
+    qualified = qualified[:10]
     specialist_counts = Counter(s for r in reviews for s in r["specialists"])
     now = datetime.now(timezone.utc).isoformat()
     payload = {
@@ -204,11 +209,25 @@ def main():
         "actualCollectedRule": "Only owner-confirmed received funds count; opportunity estimates never count as income.",
         "convergenceModel": "independent source domains > repeated copies; on-chain/security signals are separate evidence types",
         "items": reviews[:300],
+        "qualifiedDailyLimit": 10,
+        "qualifiedDailyCount": len(qualified),
+        "qualifiedDailyIds": [r.get("id") for r in qualified],
         "safety": {"autoClaim": False, "autoSigning": False, "autoTransfer": False, "secretStorage": False},
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    HUNT.write_text(json.dumps({
+        "version": 1,
+        "updatedAt": now,
+        "huntDateUtc": now[:10],
+        "dailyLimit": 10,
+        "count": len(qualified),
+        "opportunityIds": [r.get("id") for r in qualified],
+        "opportunities": qualified,
+        "rule": "Count only high-confidence candidates from trusted domains; no blocked/weak/news-only items. Maximum 10 per daily hunt.",
+        "incomeRule": "Opportunity count is not income. Only owner-confirmed received funds count as collected revenue."
+    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     h = json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else {"runs":[]}
-    h["runs"] = (h.get("runs", []) + [{"at": now, "engineCount": len(reviews), "topScore": reviews[0]["score"] if reviews else 0, "independentSources": payload["independentSourceCoverage"]}])[-500:]
+    h["runs"] = (h.get("runs", []) + [{"at": now, "engineCount": len(reviews), "topScore": reviews[0]["score"] if reviews else 0, "independentSources": payload["independentSourceCoverage"], "qualifiedDailyCount": len(qualified)}])[-500:]
     HISTORY.write_text(json.dumps(h, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Independent engine v3: {len(reviews)} analyzed; independent_sources={payload['independentSourceCoverage']}; top={payload['items'][0]['score'] if reviews else 0}")
 
