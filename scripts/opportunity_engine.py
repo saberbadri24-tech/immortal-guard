@@ -45,6 +45,7 @@ TRUSTED_DOMAINS = {
 }
 KNOWN_NEWS = {"news.google.com", "finance.yahoo.com", "coindesk.com", "theblock.co", "decrypt.co", "cointelegraph.com"}
 DISCOVERY_PLATFORMS = {"defillama.com": 20, "galxe.com": 20, "app.galxe.com": 20, "layer3.xyz": 20, "zealy.io": 18, "questn.com": 18, "immunefi.com": 24, "code4rena.com": 24, "sherlock.xyz": 24}
+RISKY_TLDS = {".zip", ".mov", ".click", ".top", ".xyz", ".tk", ".gq", ".work"}
 
 def clean_url(url):
     try:
@@ -143,7 +144,12 @@ def analyze(item, radar_index):
     score += min(12, len(specialists) * 3)
     score += min(15, lineage["independentSources"] * 5)
     cost_signals = len(re.findall(r"\b(fee|fees|gas|deposit|stake|subscription|purchase)\b", text, re.I))
+    eligibility_signals = len(re.findall(r"\b(eligible|eligibility|requirements?|qualify|qualification|region|country|geographic|residen|kyc|passport|identity|age)\b", text, re.I))
+    deadline_signals = len(re.findall(r"\b(deadline|ends?|until|expires?|closing|closes|snapshot)\b", text, re.I))
+    suspicious_host = any(host.endswith(tld) for tld in RISKY_TLDS) or "xn--" in host
     score -= min(24, pressure * 8) + min(15, actions * 3) + min(12, cost_signals * 2)
+    if suspicious_host and trust < 24:
+        score -= 12
     if blocked:
         score = 0
     score = max(0, min(100, score))
@@ -167,9 +173,21 @@ def analyze(item, radar_index):
         "risk": risk, "nextAction": action,
         "freshnessSignals": {
             "published": item.get("published",""),
-            "hasDeadline": bool(re.search(r"\\b(deadline|ends?|until|expires?|closing|closes)\\b", text, re.I)),
-            "hasEligibility": bool(re.search(r"\\b(eligible|eligibility|requirements?|qualify|qualification)\\b", text, re.I)),
-            "hasCostSignal": bool(re.search(r"\\b(fee|fees|gas|deposit|stake|cost)\\b", text, re.I)),
+            "hasDeadline": deadline_signals > 0,
+            "hasEligibility": eligibility_signals > 0,
+            "hasCostSignal": cost_signals > 0,
+        },
+        "eligibility": {
+            "signals": eligibility_signals,
+            "requiresManualCheck": eligibility_signals > 0,
+            "possibleKyc": bool(re.search(r"\b(kyc|know your customer|identity|passport)\b", text, re.I)),
+            "possibleGeographicRestriction": bool(re.search(r"\b(region|country|geographic|residen|jurisdiction)\b", text, re.I)),
+            "possibleAgeRestriction": bool(re.search(r"\bage \d+|18\+|21\+|minimum age\b", text, re.I))
+        },
+        "economics": {
+            "costSignals": cost_signals,
+            "explicitRewardUsd": explicitMoney,
+            "netRewardNeedsCostCheck": bool(cost_signals and explicitMoney)
         },
         "checks": [
             "confirm the opportunity on the project's official domain",
