@@ -98,10 +98,33 @@ def evidence_lineage(item, radar_index):
         "lineage": sources,
     }
 
+def extract_money(text):
+    """Extract explicit monetary amounts; never treat token prices/TVL as earnings."""
+    vals=[]
+    for m in re.finditer(r"(?:\$|USD\s*)([0-9][0-9,]*(?:\.[0-9]+)?)\s*(k|K|m|M)?", text):
+        try:
+            v=float(m.group(1).replace(",","")); mult=m.group(2)
+            if mult and mult.lower()=="k": v*=1000
+            if mult and mult.lower()=="m": v*=1000000
+            vals.append(v)
+        except ValueError: pass
+    return sorted(set(v for v in vals if 50 <= v <= 10000000), reverse=True)[:5]
+
+def earning_class(text, specialists):
+    """Classify only explicit earning mechanisms; airdrops/points stay speculative."""
+    t=text.lower()
+    if re.search(r"bug bounty|bounty|cash prize|prize pool|grant|funding|award|paid|payment", t):
+        return "direct_or_application_based"
+    if re.search(r"airdrop|points|retroactive|incentive|rewards?", t):
+        return "speculative_or_token_based"
+    return "unknown"
+
 def analyze(item, radar_index):
     title = item.get("title", "")
     note = item.get("note", "")
     text = f"{title} {note} {item.get('url','')}"
+    explicitMoney = extract_money(text)
+    earningType = earning_class(text, [])
     url = clean_url(item.get("url", ""))
     host = urlparse(url).netloc.lower().removeprefix("www.")
     blocked = bool(BLOCK.search(text)) or item.get("status") == "blocked"
@@ -128,6 +151,9 @@ def analyze(item, radar_index):
         verdict, risk, action = "weak-candidate", "review", "VERIFY"
     return {
         "id": item.get("id"), "url": url, "domain": host,
+        "earningType": earningType, "explicitUsdAmounts": explicitMoney,
+        "countsTowardMonthlyTarget": bool(explicitMoney) and earningType == "direct_or_application_based",
+        "monthlyTargetUsd": 10000,
         "specialists": specialists, "trustScore": trust,
         "evidenceCount": len(set(item.get("evidence", []))),
         "actionComplexity": actions, "pressureSignals": pressure,
@@ -172,6 +198,10 @@ def main():
         "count": len(reviews),
         "verdicts": dict(counts),
         "specialistCounts": dict(specialist_counts),
+        "monthlyTargetUsd": 10000,
+        "qualifiedEarningPotentialUsd": sum(max(r.get("explicitUsdAmounts",[]) or [0]) for r in reviews if r.get("countsTowardMonthlyTarget")),
+        "actualCollectedUsd": 0,
+        "actualCollectedRule": "Only owner-confirmed received funds count; opportunity estimates never count as income.",
         "convergenceModel": "independent source domains > repeated copies; on-chain/security signals are separate evidence types",
         "items": reviews[:300],
         "safety": {"autoClaim": False, "autoSigning": False, "autoTransfer": False, "secretStorage": False},
