@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T09:33:28.384391+00:00",
+  "updatedAt": "2026-09-24T10:10:47.459074+00:00",
   "monthlyTargetUsd": 10000.0,
   "valueCutoffUsd": 2000.0,
   "staleDays": 60,
@@ -10,7 +10,6 @@
   "directEarningCount": 24,
   "highValueCandidates": [
     "vdwh4wve2uehkskq4q2g2cuf4rlo1mnjrcwzjv3dldflqn0zsdlfxnvbvcglyrktwwkdkylhxtk1nwvdfeustadkxsvnkbfi4ufixrfn2sefma0dguw-oc-5",
-    "wsvy4ylvnnfi2wgt5edvvrc1ly2rizmo0ytfltdq2em5ormt3vmfgwe9pmwtxbdzxtvvdn1f2cmc4zg9zuegxlulbzvnqm3zimu51vejqakrjaelmuq-oc-5",
     "uhewuzxstq5nmjyz2fesg9quv85axh6exjotnrxn2txszhdnxb6ek04zvbsrjy0mkroqmfzrmlneehwqllwt3p0rnzpcnh3eexzzzctmxjidvl0oglb-oc-5",
     "c1roohzpodbpogzjvwvtawvicdu4cw9qy3p1zlitbxpxem0znnvgd1rwq29xvdrvotmtnnrlukhva1ppehlomdr3wxblevrfuwvitgtxwlp0ejncyla-oc-5",
     "ku5txzhemdoovvrujnnqkfquhvnyvg5alvkovyzcwlzehjov3p4s0llrui0yutwbxl5yzj3bmv2a0zawllvym5jwjhoeexjdxhmt003stvhdzlyczzr-oc-5",
@@ -33,7 +32,8 @@
     "uldu0ldrug1t1jkdjrmmkzqchuxsjfnwg5nu0zxctdbswnuynfioxpfm0hflv92lxjnuen1ejczshvqttbvz0t1nhrqvmc2zwjitwpsmljinm9lzvpj-oc-5",
     "ytuvlykn1v05lslpkzkflei1yck9vy1nkn0tlruh4vvzgbdv2avpkmgffvtvnbvpprhrna0ttd0j0bmflvw1sdnvxeeplu3vunznsstv4sfrvrmj1qq-oc-5",
     "twmhwagu2emw0emlyruvitwexq1y0sje5vulwenuztg00utlhatraqnpjwfows0plc1hqvtv1y0l0thrsvgpaute2shetx2lsmeramlu4ejhxouq5mq-oc-5",
-    "nzet0jpbennmvpqnernrxncsfppvfngthflujfwtfhpdglwstbvx2lhc05zu3dkmex1yjf6vtbwnxi0rklvu2nibkhvzmrutwn1ttvhyuxksu90cdhx-oc-5"
+    "nzet0jpbennmvpqnernrxncsfppvfngthflujfwtfhpdglwstbvx2lhc05zu3dkmex1yjf6vtbwnxi0rklvu2nibkhvzmrutwn1ttvhyuxksu90cdhx-oc-5",
+    "qmuywtnwv1vqn21quw5ns3qyvmwyow1bnxl0cnv3blzur0kyrmfsulcwnzhvwxg1ytq1zk1waw9wmmnrdi16d2jiwc1zmdfes25zsgw1shjfsm85snc-oc-5"
   ],
   "items": [
     {
@@ -103,110 +103,6 @@
       "nextAction": "OWNER_REVIEW",
       "freshnessSignals": {
         "published": "Thu, 16 Jan 2025 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [
-          10000000.0
-        ],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ],
-      "valueScore": 100,
-      "maxExplicitRewardUsd": 10000000.0,
-      "freshnessDays": null,
-      "highValueSignal": true,
-      "incomeMode": "direct_or_application_based",
-      "priorityBand": "HIGH_VALUE",
-      "targetContributionMode": "evidence_only_until_paid",
-      "requiredNextStep": "OWNER_REVIEW",
-      "doNotCountAsIncome": false
-    },
-    {
-      "id": "wsvy4ylvnnfi2wgt5edvvrc1ly2rizmo0ytfltdq2em5ormt3vmfgwe9pmwtxbdzxtvvdn1f2cmc4zg9zuegxlulbzvnqm3zimu51vejqakrjaelmuq-oc-5",
-      "title": "Mira Network Reaches 1 Million Users Amidst Successful $10M Grant Program - blockchain.news",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb1d5Wm1pb25BX25oYS1oZXBTcWUtRko4eXhsdGdxYUhyYWJJRHRmcWVOUGxLWFcwQkdUWUl3Zk1TZEJxWll0ZEl0M0Fwa1V1SDhBdElWSVY4YlVNNFI2WGt5eDVVRC1LY2RiZmo0YTFLTDQ2em5ORmt3VmFGWE9PMWtxbDZxTVVDN1F2cmc4ZG9zUEgxLUlBZVNQM3ZIMU51VEJqakRJaElMUQ",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [
-        10000000.0
-      ],
-      "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
-      "specialists": [
-        "grant",
-        "ecosystem"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "ba0766d4625f83f7",
-        "claim": "Mira Network Reaches 1 Million Users Amidst Successful $10M Grant Program - blockchain.news",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — official announcements",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 84,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Fri, 28 Feb 2025 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -1178,7 +1074,7 @@
     },
     {
       "id": "2pjd3k0tgrydg9tt1dqnm1ymnnjs3lfcho4mxnsb1etblhkb1hnbw5umy1lq2lflvbmchnsqkjtael6nkhvs0xkejg3wldxslftuu1fcwnlcu13vno0-oc-5",
-      "title": "ZKSync recovers funds stolen in $5M exploit after hacker claims bounty - Crypto News",
+      "title": "ZKSync recovers funds stolen in $5M exploit after hacker claims bounty - crypto.news",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPek93VGlVUUtWd0ZkQk01bVo5THZJUUtsZ3hJWFVkVEFTRzRIbGl1YmI2Mnd0NzI1VmdLWEwwT2pjd3k0TGRYdG9TT1dQNm1yMnNjS3lFcHo4MXNSb1EtblhKb1hnbW5uMy1lQ2lFLVBmcHNSQkJtaEl6NkhVS0xKejg3WldxSlFtUU1FcWNlcU13Vno0",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -1195,8 +1091,8 @@
       "actionComplexity": 3,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "f172a90ff5b0994d",
-        "claim": "ZKSync recovers funds stolen in $5M exploit after hacker claims bounty - Crypto News",
+        "claimId": "bb378c558b9e72f9",
+        "claim": "ZKSync recovers funds stolen in $5M exploit after hacker claims bounty - crypto.news",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -1281,7 +1177,7 @@
     },
     {
       "id": "d0s5nmhyxzzedflst093stnstlnbzhjvbxjkskwzrxnyawhzntdpru1otwrksmpjnwtycmnkd0tnr05gmg12adviy29oy29vzfnnmc11ee5lugp0wlg-oc-5",
-      "title": "Bitcoin DeFi Tool Alex Lab Loses $4.3M in Hack, Offers 10% Bounty for Stolen Funds - coindesk.com",
+      "title": "Bitcoin DeFi Tool Alex Lab Loses $4.3M in Hack, Offers 10% Bounty for Stolen Funds - CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRFBOeXlPRXlldDMwcWVidE9BSW9jRGZEQXFZYl9teEdQMm1XZU43OFFUOEwzVkp3ZzRGZ1lRb0ZOX1pxUUZ1bE4yMUlaUEtDejFqeEFEc1lFUjVZR3Z5aGlEdWs1S0dtSnJid0s5NmhYXzZEdFlsT093STNSTlNBZHJVbXJkSkwzRXNYaWhzNTdPRU1oTWRkSmpJNWtycmNKd0tnR05GMG12aDVIY29OY29VZFNNMC11eE5LUGp0Wlg",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -1299,8 +1195,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "dd3291ac2d5e3f24",
-        "claim": "Bitcoin DeFi Tool Alex Lab Loses $4.3M in Hack, Offers 10% Bounty for Stolen Funds - coindesk.com",
+        "claimId": "44fba9799522eb67",
+        "claim": "Bitcoin DeFi Tool Alex Lab Loses $4.3M in Hack, Offers 10% Bounty for Stolen Funds - CoinDesk",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -1385,7 +1281,7 @@
     },
     {
       "id": "ymmg1stladkhhyno5emnft3jnbedma0tvc0xyz0ruwdh2vzk1mxpttxnqevyyndztcup2dtbhq2pwd1rksujsamjyymdnotnhakdmaek2dghulvjoqq-oc-5",
-      "title": "Meta Paid Out $4 Million via Bug Bounty Program in 2025 - securityweek.com",
+      "title": "Meta Paid Out $4 Million via Bug Bounty Program in 2025 - SecurityWeek",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONk5ramd0NDhBZUtLQlBRazV5X0d1WXF0V0JHYVR2b2xEZF96MWU0amczNDJsY2Rpc3dsWWljb3M2QkdNdVpvSko1R05wMnNRaUJVX2ZaaEQ1Qld3cTlzTHhoNFA1a0RiRjBCUzVIWENFY2pBVEJ6WFA4c09feFpxTUloVTlYTER5NTBVRtIBkgFBVV95cUxQQVJzR3lvRmpXVGJhY0ViVHhjU1hCTnhfYW1ZTEdpWG9aWmZzYndZZjE4UmJFdzFJYjA0SGZyMmg1STladkhHYno5emNfT3JnbEdMa0tvc0xYZ0RuWDh2Vzk1MXpTTXNQeVYyNDZTcUp2dTBhQ2pWd1RKSUJsamJYYmdNOTNhakdmaEk2dGhULVJoQQ",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -1402,8 +1298,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "ba799c3af1256bda",
-        "claim": "Meta Paid Out $4 Million via Bug Bounty Program in 2025 - securityweek.com",
+        "claimId": "379497c23087f7e1",
+        "claim": "Meta Paid Out $4 Million via Bug Bounty Program in 2025 - SecurityWeek",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -2589,6 +2485,109 @@
       "nextAction": "OWNER_REVIEW",
       "freshnessSignals": {
         "published": "Mon, 23 Sep 2024 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          1000000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 1000000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
+    },
+    {
+      "id": "qmuywtnwv1vqn21quw5ns3qyvmwyow1bnxl0cnv3blzur0kyrmfsulcwnzhvwxg1ytq1zk1waw9wmmnrdi16d2jiwc1zmdfes25zsgw1shjfsm85snc-oc-5",
+      "title": "Ultra Launches $1M Grant Program to Boost Web3 Game Development - eGamers.io",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcG5fQXl5ZzBJNm50SmlhQVk0UUFRdW1ZV0VnRnB1cWc2WjRTWmdoSnUwbFE3QmUyWTNwV1VqN21qUW5nS3QyVmwyOW1BNXl0cnV3blZUR0kyRmFsUlcwNzhVWXg1YTQ1Zk1waW9wMmNRdi16d2JIWC1zMDFES25ZSGw1SHJfSm85Snc",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        1000000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000.0,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "15f9537462312320",
+        "claim": "Ultra Launches $1M Grant Program to Boost Web3 Game Development - eGamers.io",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — developer",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 81,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 23 Jul 2025 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
