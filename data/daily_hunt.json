@@ -1,366 +1,95 @@
 {
-  "version": 1,
-  "updatedAt": "2026-09-24T08:52:35.363489+00:00",
+  "version": 2,
+  "updatedAt": "2026-09-24T09:33:28.384391+00:00",
   "huntDateUtc": "2026-09-24",
   "dailyLimit": 10,
-  "count": 6,
-  "allQualifiedCount": 6,
-  "newOrChangedCount": 6,
-  "incomeQualifiedCount": 0,
-  "newIncomeQualifiedCount": 0,
+  "count": 10,
+  "allQualifiedCount": 300,
+  "highValueCount": 25,
+  "directEarningCount": 24,
+  "monthlyTargetUsd": 10000.0,
+  "actualCollectedUsd": 0,
+  "targetGapUsd": 10000.0,
   "opportunityIds": [
-    "https-blog-ethereum-org-en-2026-08-05-1ts-grant",
-    "https-blog-ethereum-org-en-2025-04-22-destino-devconnect",
-    "https-blog-ethereum-org-en-2026-02-27-project-odin",
-    "https-blog-ethereum-org-en-2025-09-15-fusaka-audit-content",
-    "https-blog-ethereum-org-en-2025-09-01-holesky-shutdown-announcement",
-    "https-blog-ethereum-org-en-2025-09-26-fusaka-testnet-announcement"
+    "vdwh4wve2uehkskq4q2g2cuf4rlo1mnjrcwzjv3dldflqn0zsdlfxnvbvcglyrktwwkdkylhxtk1nwvdfeustadkxsvnkbfi4ufixrfn2sefma0dguw-oc-5",
+    "wsvy4ylvnnfi2wgt5edvvrc1ly2rizmo0ytfltdq2em5ormt3vmfgwe9pmwtxbdzxtvvdn1f2cmc4zg9zuegxlulbzvnqm3zimu51vejqakrjaelmuq-oc-5",
+    "uhewuzxstq5nmjyz2fesg9quv85axh6exjotnrxn2txszhdnxb6ek04zvbsrjy0mkroqmfzrmlneehwqllwt3p0rnzpcnh3eexzzzctmxjidvl0oglb-oc-5",
+    "c1roohzpodbpogzjvwvtawvicdu4cw9qy3p1zlitbxpxem0znnvgd1rwq29xvdrvotmtnnrlukhva1ppehlomdr3wxblevrfuwvitgtxwlp0ejncyla-oc-5",
+    "ku5txzhemdoovvrujnnqkfquhvnyvg5alvkovyzcwlzehjov3p4s0llrui0yutwbxl5yzj3bmv2a0zawllvym5jwjhoeexjdxhmt003stvhdzlyczzr-oc-5",
+    "oczfdutkzzepyse9revbyzm5tuvpkdtj0verxdkh5atvptxnivzvjekvrlwtgq1pasg90cdjcawvbwhhzsgvrret0swfxrvbslvzazmladuyya3l5zw-oc-5",
+    "ni10wxezb0lsaegxee9nvujlx28zewg0akfvrfqyenvhdg0yuur4enzpq1nuywo5ujvjtfzpvtfhzgczym1icjnruuhzm2vld1dfu29unjlou1rfz1e-oc-5",
+    "iugywtktiyzdirzjkdtu3rhhzz2zcyna0vegxvmhvazzlvxytbwwyzut1bxbuekvlbzbhcuxjylhoympqvgndy0tlnmlwzjjnmwpxqlvfd3pla2kzzw-oc-5",
+    "uce41y0nmqkntchc5m01atnywbwpsvuc2cfdmnk5klxbkvzzzzkvttw9dy0pmqkzazevtogq1n2zkqwlkagjkekl3qkjab0vocwm1rgxtegk1sgrtbq-oc-5",
+    "z3lfsenjugfazupfrk1fugf2rhlfvllnymq2mgjxrkl0mjlvyuvpzhditzg2mno3d2xyqxzpcm5nnvfsaklfdky5ympzrk5srevuyxrxq1nbwwppt2c-oc-5"
   ],
   "opportunities": [
     {
-      "id": "https-blog-ethereum-org-en-2026-08-05-1ts-grant",
-      "title": "Announcing a Trillion Dollar Security grant for WEBCAT",
-      "url": "https://blog.ethereum.org/en/2026/08/05/1ts-grant",
-      "domain": "blog.ethereum.org",
+      "id": "vdwh4wve2uehkskq4q2g2cuf4rlo1mnjrcwzjv3dldflqn0zsdlfxnvbvcglyrktwwkdkylhxtk1nwvdfeustadkxsvnkbfi4ufixrfn2sefma0dguw-oc-5",
+      "title": "Ronin offers $10M grant program for Web3 developer growth - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLWhfWl8ySk9rRHZsSlRtZFgxYVN1aEJqV2Y2dG13MktEU0pOcUM0OW5pWlJzbGVxVkRROFBBSGlqZ3Nta1BNbmJTVWNDSDlSSHM0UUh6NHZhNjZ0OFlDemVrb3dqSllVdWh4WVE2UEhKSkQ4Q2g2cUF4Rlo1MnJRcWZjV3dldFlqN0ZSdlFxNVBvcGlyRktwWkdkYlhXTk1NWVdfeUstaDkxSVNkbFI4UFIxRFN2SEFma0dGUw",
+      "domain": "news.google.com",
       "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "grant"
-      ],
-      "trustScore": 30,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "7f3c9e50f14da4f6",
-        "claim": "Announcing a Trillion Dollar Security grant for WEBCAT",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 1,
-        "domains": [
-          "blog.ethereum.org"
-        ],
-        "independentDomains": [
-          "blog.ethereum.org"
-        ],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 25,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Ethereum Foundation",
-            "domain": "blog.ethereum.org",
-            "independent": true
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "blog.ethereum.org",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "blog.ethereum.org",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "official-domain",
-            "domain": "blog.ethereum.org",
-            "independent": false
-          }
-        ]
-      },
-      "score": 100,
-      "verdict": "high-confidence-candidate",
-      "risk": "lower",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Wed, 05 Aug 2026 00:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
-      "id": "https-blog-ethereum-org-en-2025-04-22-destino-devconnect",
-      "title": "Destino Devconnect - A local grant round to bring Argentina onchain",
-      "url": "https://blog.ethereum.org/en/2025/04/22/destino-devconnect",
-      "domain": "blog.ethereum.org",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "grant"
-      ],
-      "trustScore": 30,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "55933e08da2495d2",
-        "claim": "Destino Devconnect - A local grant round to bring Argentina onchain",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 1,
-        "domains": [
-          "blog.ethereum.org"
-        ],
-        "independentDomains": [
-          "blog.ethereum.org"
-        ],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 25,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Ethereum Foundation",
-            "domain": "blog.ethereum.org",
-            "independent": true
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "blog.ethereum.org",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "blog.ethereum.org",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "official-domain",
-            "domain": "blog.ethereum.org",
-            "independent": false
-          }
-        ]
-      },
-      "score": 100,
-      "verdict": "high-confidence-candidate",
-      "risk": "lower",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Tue, 22 Apr 2025 00:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
-      "id": "https-blog-ethereum-org-en-2026-02-27-project-odin",
-      "title": "This Is Fine (Until the Grant Runs Out)",
-      "url": "https://blog.ethereum.org/en/2026/02/27/project-odin",
-      "domain": "blog.ethereum.org",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "grant"
-      ],
-      "trustScore": 30,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "3c701329089a95fa",
-        "claim": "This Is Fine (Until the Grant Runs Out)",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 1,
-        "domains": [
-          "blog.ethereum.org"
-        ],
-        "independentDomains": [
-          "blog.ethereum.org"
-        ],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 25,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Ethereum Foundation",
-            "domain": "blog.ethereum.org",
-            "independent": true
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "blog.ethereum.org",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "blog.ethereum.org",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "official-domain",
-            "domain": "blog.ethereum.org",
-            "independent": false
-          }
-        ]
-      },
-      "score": 100,
-      "verdict": "high-confidence-candidate",
-      "risk": "lower",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Fri, 27 Feb 2026 00:00:00 GMT",
-        "hasDeadline": true,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
-      "id": "https-blog-ethereum-org-en-2025-09-15-fusaka-audit-content",
-      "title": "Fusaka $2,000,000 Audit Contest!",
-      "url": "https://blog.ethereum.org/en/2025/09/15/fusaka-audit-content",
-      "domain": "blog.ethereum.org",
-      "earningType": "unknown",
       "explicitUsdAmounts": [
-        2000000.0
+        10000000.0
       ],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000.0,
       "specialists": [
-        "hackathon"
+        "grant",
+        "developer"
       ],
-      "trustScore": 30,
+      "trustScore": 10,
       "evidenceCount": 3,
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "d0ec3d11b9bb2cdd",
-        "claim": "Fusaka $2,000,000 Audit Contest!",
+        "claimId": "42c18a562ea7a80f",
+        "claim": "Ronin offers $10M grant program for Web3 developer growth - TradingView",
         "sourceCount": 4,
         "uniqueDomains": 1,
-        "independentSources": 1,
+        "independentSources": 0,
         "domains": [
-          "blog.ethereum.org"
+          "news.google.com"
         ],
-        "independentDomains": [
-          "blog.ethereum.org"
-        ],
+        "independentDomains": [],
         "sourceTypes": [
           "feed_signal",
           "publisher"
         ],
-        "convergence": 25,
+        "convergence": 5,
         "lineage": [
           {
             "type": "publisher",
-            "id": "Ethereum Foundation",
-            "domain": "blog.ethereum.org",
-            "independent": true
+            "id": "Google News — official announcements",
+            "domain": "news.google.com",
+            "independent": false
           },
           {
             "type": "feed_signal",
             "id": "public-feed",
-            "domain": "blog.ethereum.org",
+            "domain": "news.google.com",
             "independent": false
           },
           {
             "type": "feed_signal",
             "id": "keyword-match",
-            "domain": "blog.ethereum.org",
+            "domain": "news.google.com",
             "independent": false
           },
           {
             "type": "feed_signal",
-            "id": "official-domain",
-            "domain": "blog.ethereum.org",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
             "independent": false
           }
         ]
       },
-      "score": 100,
-      "verdict": "high-confidence-candidate",
-      "risk": "lower",
+      "score": 84,
+      "verdict": "candidate",
+      "risk": "review",
       "nextAction": "OWNER_REVIEW",
       "freshnessSignals": {
-        "published": "Mon, 15 Sep 2025 00:00:00 GMT",
+        "published": "Thu, 16 Jan 2025 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -375,7 +104,7 @@
       "economics": {
         "costSignals": 0,
         "explicitRewardUsd": [
-          2000000.0
+          10000000.0
         ],
         "netRewardNeedsCostCheck": false
       },
@@ -387,74 +116,84 @@
         "owner approval required before any wallet signature or financial action",
         "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
         "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 10000000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
     },
     {
-      "id": "https-blog-ethereum-org-en-2025-09-01-holesky-shutdown-announcement",
-      "title": "Holešky Testnet Shutdown Announcement",
-      "url": "https://blog.ethereum.org/en/2025/09/01/holesky-shutdown-announcement",
-      "domain": "blog.ethereum.org",
-      "earningType": "unknown",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "testnet"
+      "id": "wsvy4ylvnnfi2wgt5edvvrc1ly2rizmo0ytfltdq2em5ormt3vmfgwe9pmwtxbdzxtvvdn1f2cmc4zg9zuegxlulbzvnqm3zimu51vejqakrjaelmuq-oc-5",
+      "title": "Mira Network Reaches 1 Million Users Amidst Successful $10M Grant Program - blockchain.news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb1d5Wm1pb25BX25oYS1oZXBTcWUtRko4eXhsdGdxYUhyYWJJRHRmcWVOUGxLWFcwQkdUWUl3Zk1TZEJxWll0ZEl0M0Fwa1V1SDhBdElWSVY4YlVNNFI2WGt5eDVVRC1LY2RiZmo0YTFLTDQ2em5ORmt3VmFGWE9PMWtxbDZxTVVDN1F2cmc4ZG9zUEgxLUlBZVNQM3ZIMU51VEJqakRJaElMUQ",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        10000000.0
       ],
-      "trustScore": 30,
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000.0,
+      "specialists": [
+        "grant",
+        "ecosystem"
+      ],
+      "trustScore": 10,
       "evidenceCount": 3,
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "4a4bb5ae90c2e1a0",
-        "claim": "Holešky Testnet Shutdown Announcement",
+        "claimId": "ba0766d4625f83f7",
+        "claim": "Mira Network Reaches 1 Million Users Amidst Successful $10M Grant Program - blockchain.news",
         "sourceCount": 4,
         "uniqueDomains": 1,
-        "independentSources": 1,
+        "independentSources": 0,
         "domains": [
-          "blog.ethereum.org"
+          "news.google.com"
         ],
-        "independentDomains": [
-          "blog.ethereum.org"
-        ],
+        "independentDomains": [],
         "sourceTypes": [
           "feed_signal",
           "publisher"
         ],
-        "convergence": 25,
+        "convergence": 5,
         "lineage": [
           {
             "type": "publisher",
-            "id": "Ethereum Foundation",
-            "domain": "blog.ethereum.org",
-            "independent": true
+            "id": "Google News — official announcements",
+            "domain": "news.google.com",
+            "independent": false
           },
           {
             "type": "feed_signal",
             "id": "public-feed",
-            "domain": "blog.ethereum.org",
+            "domain": "news.google.com",
             "independent": false
           },
           {
             "type": "feed_signal",
             "id": "keyword-match",
-            "domain": "blog.ethereum.org",
+            "domain": "news.google.com",
             "independent": false
           },
           {
             "type": "feed_signal",
-            "id": "official-domain",
-            "domain": "blog.ethereum.org",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
             "independent": false
           }
         ]
       },
-      "score": 100,
-      "verdict": "high-confidence-candidate",
-      "risk": "lower",
+      "score": 84,
+      "verdict": "candidate",
+      "risk": "review",
       "nextAction": "OWNER_REVIEW",
       "freshnessSignals": {
-        "published": "Mon, 01 Sep 2025 00:00:00 GMT",
+        "published": "Fri, 28 Feb 2025 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -468,7 +207,9 @@
       },
       "economics": {
         "costSignals": 0,
-        "explicitRewardUsd": [],
+        "explicitRewardUsd": [
+          10000000.0
+        ],
         "netRewardNeedsCostCheck": false
       },
       "checks": [
@@ -479,74 +220,83 @@
         "owner approval required before any wallet signature or financial action",
         "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
         "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 10000000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
     },
     {
-      "id": "https-blog-ethereum-org-en-2025-09-26-fusaka-testnet-announcement",
-      "title": "Fusaka Testnet Announcement",
-      "url": "https://blog.ethereum.org/en/2025/09/26/fusaka-testnet-announcement",
-      "domain": "blog.ethereum.org",
-      "earningType": "unknown",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "testnet"
+      "id": "uhewuzxstq5nmjyz2fesg9quv85axh6exjotnrxn2txszhdnxb6ek04zvbsrjy0mkroqmfzrmlneehwqllwt3p0rnzpcnh3eexzzzctmxjidvl0oglb-oc-5",
+      "title": "Fuse launches $10m grant program for Web3 payment startups - Dabafinance",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMERCLVJYZXZuTlZWeHdBOVRRb3Ixc21DZkpkZjY4czRUTmhkd1Q0YlJJN0dlT3pPVUhEWUZXSTQ5NmJyZ2FESG9qUV85aXh6eXJoTnRxN2txSzhDNXB6ek04ZVBSRjY0MkROQmFZRmlNeEhwQllWT3p0RnZpcnh3eExzZzctMXJIdVl0OGlB",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        10000000.0
       ],
-      "trustScore": 30,
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000.0,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
       "evidenceCount": 3,
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "8275497ad58baeac",
-        "claim": "Fusaka Testnet Announcement",
+        "claimId": "069aaa42f160d09a",
+        "claim": "Fuse launches $10m grant program for Web3 payment startups - Dabafinance",
         "sourceCount": 4,
         "uniqueDomains": 1,
-        "independentSources": 1,
+        "independentSources": 0,
         "domains": [
-          "blog.ethereum.org"
+          "news.google.com"
         ],
-        "independentDomains": [
-          "blog.ethereum.org"
-        ],
+        "independentDomains": [],
         "sourceTypes": [
           "feed_signal",
           "publisher"
         ],
-        "convergence": 25,
+        "convergence": 5,
         "lineage": [
           {
             "type": "publisher",
-            "id": "Ethereum Foundation",
-            "domain": "blog.ethereum.org",
-            "independent": true
+            "id": "Google News — grants",
+            "domain": "news.google.com",
+            "independent": false
           },
           {
             "type": "feed_signal",
             "id": "public-feed",
-            "domain": "blog.ethereum.org",
+            "domain": "news.google.com",
             "independent": false
           },
           {
             "type": "feed_signal",
             "id": "keyword-match",
-            "domain": "blog.ethereum.org",
+            "domain": "news.google.com",
             "independent": false
           },
           {
             "type": "feed_signal",
-            "id": "official-domain",
-            "domain": "blog.ethereum.org",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
             "independent": false
           }
         ]
       },
-      "score": 100,
-      "verdict": "high-confidence-candidate",
-      "risk": "lower",
+      "score": 81,
+      "verdict": "candidate",
+      "risk": "review",
       "nextAction": "OWNER_REVIEW",
       "freshnessSignals": {
-        "published": "Fri, 26 Sep 2025 00:00:00 GMT",
+        "published": "Sat, 09 Dec 2023 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -560,7 +310,9 @@
       },
       "economics": {
         "costSignals": 0,
-        "explicitRewardUsd": [],
+        "explicitRewardUsd": [
+          10000000.0
+        ],
         "netRewardNeedsCostCheck": false
       },
       "checks": [
@@ -571,9 +323,743 @@
         "owner approval required before any wallet signature or financial action",
         "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
         "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 10000000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
+    },
+    {
+      "id": "c1roohzpodbpogzjvwvtawvicdu4cw9qy3p1zlitbxpxem0znnvgd1rwq29xvdrvotmtnnrlukhva1ppehlomdr3wxblevrfuwvitgtxwlp0ejncyla-oc-5",
+      "title": "Wormhole announces $10 million bug bounty payout - The Block",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNC1wZmlTakdZMlFodWhpMnFkb0FYSlVMb2otS0N1QXF0c3ZQZ2NseTdoeFV1dEtSeWRjYy1VUXA1aDJQRmRnSkpsUEktVEVDdTRhc1RoOHZPODBPOGZjVWVtaWVicDU4cW9qY3p1ZlItbXpXem0zNnVGd1RWQ29XVDRvOTMtNnRlUkhva1pPeHlOMDR3WXBleVRfUWViTGtxWlp0ejNCYlA",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        10000000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000.0,
+      "specialists": [
+        "bounty"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "d2658d1063f01886",
+        "claim": "Wormhole announces $10 million bug bounty payout - The Block",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Immunefi bounties",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 81,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Fri, 20 May 2022 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          10000000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 10000000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
+    },
+    {
+      "id": "ku5txzhemdoovvrujnnqkfquhvnyvg5alvkovyzcwlzehjov3p4s0llrui0yutwbxl5yzj3bmv2a0zawllvym5jwjhoeexjdxhmt003stvhdzlyczzr-oc-5",
+      "title": "$10M Bitcoin Bounty? Grant Cardone Offers 10 BTC to Sell $80M Jet After Massive Call - CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeWtRSElnWk5mNGNJWUNXVlpCeWJBd3FNM2VsUHFsbExOU09TWllSV1EyLTAxQ245MkU5TXZhemdOOVVRUjNnQkFQUHVNYVg5alVKOVYzcWlzeHJOV3p4S0llRUI0YUtwbXl5YzJ3bmV2a0ZaWllVYm5jWjhoeExjdXhmT003STVHdzlYczZR",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        10000000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000.0,
+      "specialists": [
+        "bounty",
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "8fbc7f17c54534a5",
+        "claim": "$10M Bitcoin Bounty? Grant Cardone Offers 10 BTC to Sell $80M Jet After Massive Call - CCN.com",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — NEAR programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 74,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 23 Sep 2026 11:52:40 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          10000000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 10000000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
+    },
+    {
+      "id": "oczfdutkzzepyse9revbyzm5tuvpkdtj0verxdkh5atvptxnivzvjekvrlwtgq1pasg90cdjcawvbwhhzsgvrret0swfxrvbslvzazmladuyya3l5zw-oc-5",
+      "title": "$10M Bitcoin Bounty? Grant Cardone Offers 10 BTC to Sell $80M Jet After Massive Call - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWi1SSmJBUGVTSkVhUnVWa3oxY2ZVZTBMNm5LbkliZUx6ZVI0Q0pOVlBPT29ONnNVekRYY2p2azJvWG1UQzdwNm1oczFDUTkzZEpYSE9ReVBYZm5tUVpKdTJ0VERXdkh5aTVpTXNiVzVJekVrLWtGQ1paSG90cDJCaWVBWHhzSGVrREt0SWFxRVBsLVZaZmladUYya3l5Zw",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        10000000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000.0,
+      "specialists": [
+        "bounty",
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "90433632597e05ba",
+        "claim": "$10M Bitcoin Bounty? Grant Cardone Offers 10 BTC to Sell $80M Jet After Massive Call - Yahoo Finance",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — global opportunities",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 74,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 23 Sep 2026 11:49:45 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          10000000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 10000000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
+    },
+    {
+      "id": "ni10wxezb0lsaegxee9nvujlx28zewg0akfvrfqyenvhdg0yuur4enzpq1nuywo5ujvjtfzpvtfhzgczym1icjnruuhzm2vld1dfu29unjlou1rfz1e-oc-5",
+      "title": "Avalanche lands $10M state grant to build fusion energy R&D site in Washington - GeekWire",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMFY3UzZXOHdTX0gyWC1RajRWRVVEVVlJNDZ0RnIwLVEtM0lTYWc3RjVZejVpeDJOTXBzZGY0dGdqMFhfLXRHbWxIRjhheWlhSk43OHF0Ni10WXEzb0lsaEgxeE9nVUJLX28zeWg0akFvRFQyenVHdG0yUUR4enZpQ1NuYWo5UjVJTFZPVTFhZGczYm1IcjNrUUhZM2Vld1dFU29UNjlOU1RFZ1E",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        10000000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000.0,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "2c15f43a98dac81e",
+        "claim": "Avalanche lands $10M state grant to build fusion energy R&D site in Washington - GeekWire",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Avalanche programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 71,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 23 Jul 2025 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          10000000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 10000000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
+    },
+    {
+      "id": "iugywtktiyzdirzjkdtu3rhhzz2zcyna0vegxvmhvazzlvxytbwwyzut1bxbuekvlbzbhcuxjylhoympqvgndy0tlnmlwzjjnmwpxqlvfd3pla2kzzw-oc-5",
+      "title": "GMX to receive $9.6 million under Arbitrum grant program - ForkLog",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTd4XzlSZFFucjl3dDI4elVuN0VJUVllUXZuSTJvbWNzMGJxeEw2bUhIUGYwTktIYzdiRzJkdTU3RHhZZ2ZCYnA0VEgxVmhVazZlVXYtbWwyZUt1bXBuekVLbzBhcUxjYlhoYmpQVGNDY0tlNmlWZjJnMWpXQlVFd3pla2kzZw",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        9600000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000.0,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "50436837cb7daeae",
+        "claim": "GMX to receive $9.6 million under Arbitrum grant program - ForkLog",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Arbitrum programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 81,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Fri, 13 Oct 2023 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          9600000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 9600000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
+    },
+    {
+      "id": "uce41y0nmqkntchc5m01atnywbwpsvuc2cfdmnk5klxbkvzzzzkvttw9dy0pmqkzazevtogq1n2zkqwlkagjkekl3qkjab0vocwm1rgxtegk1sgrtbq-oc-5",
+      "title": "Revolutionary Uniswap Foundation Grant: $9M Boost for Brevis and Uniswap v4 - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xMjVCZ1ZJTjdMWEdaRHhHd3J0elc0VXAycUhucE41Y0NMQkNTcHc5M01aTnYwbWpSVUc2cFdmNk5kLXBKVzZZZkVTTW9DY0pmQkZaZEVtOGQ1N2ZkQWlkaGJkekl3QkJab0VocWM1RGxteGk1SGRtbQ",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        9000000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000.0,
+      "specialists": [
+        "grant",
+        "ecosystem"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "a9fffc5723a14205",
+        "claim": "Revolutionary Uniswap Foundation Grant: $9M Boost for Brevis and Uniswap v4 - CryptoRank",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Uniswap programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 84,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Fri, 24 Oct 2025 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          9000000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 9000000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
+    },
+    {
+      "id": "z3lfsenjugfazupfrk1fugf2rhlfvllnymq2mgjxrkl0mjlvyuvpzhditzg2mno3d2xyqxzpcm5nnvfsaklfdky5ympzrk5srevuyxrxq1nbwwppt2c-oc-5",
+      "title": "Polymarket Opens $5M Bug Bounty to Stress-Test Betting Market - Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUThhTVBIdEE5SFBDc2t0bm04S29LX09OWklOSHRiRU1lemhEZ1RiSUppMnJ1Z3lfSENJUGFaZUpFRk1FUGF2RHlFVllnYmQ2MGJXRkl0MjlVYUVpZHdiTzg2Mno3d2xyQXZPcm5NNVFsaklFdkY5YmpzRk5SREVUYXRXQ1NBWWpPT2c",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        5000000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000.0,
+      "specialists": [
+        "bounty",
+        "ecosystem"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "b615e46f49cf52be",
+        "claim": "Polymarket Opens $5M Bug Bounty to Stress-Test Betting Market - Bitcoin Foundation",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — security bounties",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 84,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Tue, 14 Apr 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          5000000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 5000000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
     }
   ],
-  "rule": "Count only high-confidence candidates from trusted domains; daily hunt means new or materially changed opportunities. Maximum 10 displayed.",
-  "incomeRule": "Opportunity count is not income. Only owner-confirmed received funds count as collected revenue."
+  "rule": "Fresh value-first hunt. High-value/direct opportunities are prioritized; stale announcements are excluded.",
+  "incomeRule": "Only owner-confirmed received funds count as collected income."
 }
