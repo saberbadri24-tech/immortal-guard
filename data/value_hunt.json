@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T19:05:04.889885+00:00",
+  "updatedAt": "2026-09-24T22:18:38.117956+00:00",
   "monthlyTargetUsd": 10000.0,
   "valueCutoffUsd": 2000.0,
   "staleDays": 60,
@@ -10,7 +10,6 @@
   "directEarningCount": 24,
   "highValueCandidates": [
     "vdwh4wve2uehkskq4q2g2cuf4rlo1mnjrcwzjv3dldflqn0zsdlfxnvbvcglyrktwwkdkylhxtk1nwvdfeustadkxsvnkbfi4ufixrfn2sefma0dguw-oc-5",
-    "wsvy4ylvnnfi2wgt5edvvrc1ly2rizmo0ytfltdq2em5ormt3vmfgwe9pmwtxbdzxtvvdn1f2cmc4zg9zuegxlulbzvnqm3zimu51vejqakrjaelmuq-oc-5",
     "uhewuzxstq5nmjyz2fesg9quv85axh6exjotnrxn2txszhdnxb6ek04zvbsrjy0mkroqmfzrmlneehwqllwt3p0rnzpcnh3eexzzzctmxjidvl0oglb-oc-5",
     "c1roohzpodbpogzjvwvtawvicdu4cw9qy3p1zlitbxpxem0znnvgd1rwq29xvdrvotmtnnrlukhva1ppehlomdr3wxblevrfuwvitgtxwlp0ejncyla-oc-5",
     "ku5txzhemdoovvrujnnqkfquhvnyvg5alvkovyzcwlzehjov3p4s0llrui0yutwbxl5yzj3bmv2a0zawllvym5jwjhoeexjdxhmt003stvhdzlyczzr-oc-5",
@@ -28,6 +27,7 @@
     "1athsee9rdxy1uhnvdm9lvldnlxjnexzkwllxn05namtqwu1qog83nzjzvtbzs1nzbm41bdrhekzks1loctfqoho3v3dlv3nzmg9aovpwuv9kdtbrrg-oc-5",
     "rgjori00tm5jegitmjzrbwvruhpvduv1meixweltvjfdsuvmsgnfwxruu1jzzf9pdg5sa2rmuhj2cfmtvxpvcmpebdzkaljiy1e1mhlqwdnnyvlzqui-oc-5",
     "tq21ynhvkeuv1ug1nexfkng9avni0ejbpbzjzshc4nke0ndvmm2j0z1nnc0xrmdiwv0lecs1xtzixzzc4swz5yk5fdegzq2r3emdtd0lmnuvsykhmtw-oc-5",
+    "l94m24zugvmczc3oelhd2c4wde1rhv6mvfjrwpldngtujv3aja3cdmtemhvdzv3ni0ywlz4nfzusk5ya2d2rjl6sdlyq3jxwfbpm1fnb3bsagrnuuhr-oc-5",
     "utxczrnzgpnc2jwac1abwetrljuagwxulhfqlp2cl9wsekxujfiwvrkellfslg0a19owndtqup3efnvuxnzadnpdvc5rjlzexnycullnultm1dmve5n-oc-5",
     "uwtzpmnutrvvtmlrhevvjbzfpv0q5tfjnlvfvewxumgw5vzbzznnymgrelu05lwnlqkrjmetfb3bmc2qywhfosgpdtnf4me9odfncu1lwbnfztmvvzw-oc-5",
     "uldu0ldrug1t1jkdjrmmkzqchuxsjfnwg5nu0zxctdbswnuynfioxpfm0hflv92lxjnuen1ejczshvqttbvz0t1nhrqvmc2zwjitwpsmljinm9lzvpj-oc-5",
@@ -103,110 +103,6 @@
       "nextAction": "OWNER_REVIEW",
       "freshnessSignals": {
         "published": "Thu, 16 Jan 2025 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [
-          10000000.0
-        ],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ],
-      "valueScore": 100,
-      "maxExplicitRewardUsd": 10000000.0,
-      "freshnessDays": null,
-      "highValueSignal": true,
-      "incomeMode": "direct_or_application_based",
-      "priorityBand": "HIGH_VALUE",
-      "targetContributionMode": "evidence_only_until_paid",
-      "requiredNextStep": "OWNER_REVIEW",
-      "doNotCountAsIncome": false
-    },
-    {
-      "id": "wsvy4ylvnnfi2wgt5edvvrc1ly2rizmo0ytfltdq2em5ormt3vmfgwe9pmwtxbdzxtvvdn1f2cmc4zg9zuegxlulbzvnqm3zimu51vejqakrjaelmuq-oc-5",
-      "title": "Mira Network Reaches 1 Million Users Amidst Successful $10M Grant Program - blockchain.news",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb1d5Wm1pb25BX25oYS1oZXBTcWUtRko4eXhsdGdxYUhyYWJJRHRmcWVOUGxLWFcwQkdUWUl3Zk1TZEJxWll0ZEl0M0Fwa1V1SDhBdElWSVY4YlVNNFI2WGt5eDVVRC1LY2RiZmo0YTFLTDQ2em5ORmt3VmFGWE9PMWtxbDZxTVVDN1F2cmc4ZG9zUEgxLUlBZVNQM3ZIMU51VEJqakRJaElMUQ",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [
-        10000000.0
-      ],
-      "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
-      "specialists": [
-        "grant",
-        "ecosystem"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "ba0766d4625f83f7",
-        "claim": "Mira Network Reaches 1 Million Users Amidst Successful $10M Grant Program - blockchain.news",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — official announcements",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 84,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Fri, 28 Feb 2025 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -1281,7 +1177,7 @@
     },
     {
       "id": "d0s5nmhyxzzedflst093stnstlnbzhjvbxjkskwzrxnyawhzntdpru1otwrksmpjnwtycmnkd0tnr05gmg12adviy29oy29vzfnnmc11ee5lugp0wlg-oc-5",
-      "title": "Bitcoin DeFi Tool Alex Lab Loses $4.3M in Hack, Offers 10% Bounty for Stolen Funds - coindesk.com",
+      "title": "Bitcoin DeFi Tool Alex Lab Loses $4.3M in Hack, Offers 10% Bounty for Stolen Funds - CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRFBOeXlPRXlldDMwcWVidE9BSW9jRGZEQXFZYl9teEdQMm1XZU43OFFUOEwzVkp3ZzRGZ1lRb0ZOX1pxUUZ1bE4yMUlaUEtDejFqeEFEc1lFUjVZR3Z5aGlEdWs1S0dtSnJid0s5NmhYXzZEdFlsT093STNSTlNBZHJVbXJkSkwzRXNYaWhzNTdPRU1oTWRkSmpJNWtycmNKd0tnR05GMG12aDVIY29OY29VZFNNMC11eE5LUGp0Wlg",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -1299,8 +1195,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "dd3291ac2d5e3f24",
-        "claim": "Bitcoin DeFi Tool Alex Lab Loses $4.3M in Hack, Offers 10% Bounty for Stolen Funds - coindesk.com",
+        "claimId": "44fba9799522eb67",
+        "claim": "Bitcoin DeFi Tool Alex Lab Loses $4.3M in Hack, Offers 10% Bounty for Stolen Funds - CoinDesk",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -2007,6 +1903,110 @@
       "doNotCountAsIncome": false
     },
     {
+      "id": "l94m24zugvmczc3oelhd2c4wde1rhv6mvfjrwpldngtujv3aja3cdmtemhvdzv3ni0ywlz4nfzusk5ya2d2rjl6sdlyq3jxwfbpm1fnb3bsagrnuuhr-oc-5",
+      "title": "Uniswap Diamond Gets Largest Portion of Foundation’s First $1.8M Grant - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQmlqRXJDM2owSm1WQk9ScEd3bzRaMUZrQmwtZmJjYmpYalFRT1hpdWo2eC1DOWlnX2hQeFI3VW9SNkRYSWREQUlSdWFYaGdtYXFYM0ZnRDQxNzk0Nl94M24zUGVmczc3OElhd2c4WDE1RHV6MVFJRWpldngtUjV3ajA3cDMtemhVdzV3Ni0yWlZ4NFZuSk5Ya2d2Rjl6SDlyQ3JXWFBpM1FNb3BSaGRnUUhR",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        1800000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000.0,
+      "specialists": [
+        "grant",
+        "ecosystem"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "f0ce0e6b03326ed6",
+        "claim": "Uniswap Diamond Gets Largest Portion of Foundation’s First $1.8M Grant - 24/7 Wall St.",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Uniswap programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 84,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Thu, 22 Sep 2022 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          1800000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 1800000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
+    },
+    {
       "id": "utxczrnzgpnc2jwac1abwetrljuagwxulhfqlp2cl9wsekxujfiwvrkellfslg0a19owndtqup3efnvuxnzadnpdvc5rjlzexnycullnultm1dmve5n-oc-5",
       "title": "Google Updates Android Bug Bounty Program With $1.5 Million Offer - Forbes",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQzQ4TGNHRjhWSXJ1YzBtbU1HQ1Jva2dEYkpBQTZfQVczOXFNdHVuaXZoUVc3cUJaUG5CNVVQM0ZkMUVkeV9ST2piRzNqWm5uY1daSUxmTGZUbUtxczRnZGpNc2JWaC1abWEtRlJuaGwxUlhfQlp2cl9WSEkxUjFiWVRKellFSlg0a19oWndtQUp3eFNvUXNzaDNpdVc5RjlZeXNYcUlLNUltM1dMVE5N",
@@ -2420,7 +2420,7 @@
     },
     {
       "id": "twmhwagu2emw0emlyruvitwexq1y0sje5vulwenuztg00utlhatraqnpjwfows0plc1hqvtv1y0l0thrsvgpaute2shetx2lsmeramlu4ejhxouq5mq-oc-5",
-      "title": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ictworks.org",
+      "title": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ICTworks",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFByYk9JNXpaQ1ZhR1RxeThTWmhWaGU2emw0emlyRUViTWExQ1Y0SjE5VUlwenUzTG00UTlHaTRaQnpJWFowS0pLc1hQVTV1Y0l0THRsVGpaUTE2SHEtX2lSMERaMlU4ejhXOUQ5MQ",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -2438,8 +2438,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "54422c4b3e27fe4c",
-        "claim": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ictworks.org",
+        "claimId": "775c1e2fc88b3949",
+        "claim": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ICTworks",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,

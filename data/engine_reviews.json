@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updatedAt": "2026-09-24T19:05:04.643683+00:00",
+  "updatedAt": "2026-09-24T22:18:37.820829+00:00",
   "engine": "Immortal Guard Independent Specialist Council + Evidence Lineage",
   "independent": true,
   "apiRequired": false,
@@ -22,18 +22,18 @@
     "candidate": 293
   },
   "specialistCounts": {
-    "grant": 104,
+    "grant": 106,
     "general": 1,
     "hackathon": 6,
     "testnet": 3,
-    "developer": 24,
+    "developer": 25,
     "ecosystem": 42,
     "bounty": 95,
-    "rewards": 116,
+    "rewards": 114,
     "ambassador": 2
   },
   "monthlyTargetUsd": 10000,
-  "qualifiedEarningPotentialUsd": 133411219.0,
+  "qualifiedEarningPotentialUsd": 125930219.0,
   "actualCollectedUsd": 0,
   "actualCollectedRule": "Only owner-confirmed received funds count; opportunity estimates never count as income.",
   "convergenceModel": "independent source domains > repeated copies; on-chain/security signals are separate evidence types",
@@ -844,6 +844,98 @@
       "nextAction": "OWNER_REVIEW",
       "freshnessSignals": {
         "published": "Wed, 17 Apr 2024 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
+      "id": "kb2o0mf9yu2jyqujhvehqyxuxumrktkfwa0y1yna2ec1zttvrymyzqm5hudrrvhfly3nzq3diauqtzfbuswheqvjwuu1pq2vhs1otyzvktfzlwkjpcg-oc-5",
+      "title": "Sui Foundation Revamps RfP Grant Program to Empower Developers - blockchain.news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvMUg1UkRBcU41SW5wWW9KN3N3ajdmZEI5VG9Kb2o0MF9YU2JYQUJHVEhQYXUxUmRKTkFWa0Y1YnA2eC1zTTVRYmYzQm5hUDRrVHFlY3NZQ3diaUQtZFBUSWhEQVJwUU1pQ2VHS1otYzVKTFZlWkJpcg",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant",
+        "developer",
+        "ecosystem"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "bd116749bea2b646",
+        "claim": "Sui Foundation Revamps RfP Grant Program to Empower Developers - blockchain.news",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Sui programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 87,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 16 Oct 2024 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -1888,7 +1980,7 @@
     },
     {
       "id": "3mtn2wnnbsnjsr1dlx2ywowu1unh4vwxzy0rhd3niq2hlcgvnr1d4zwk3m0dvq0s3ze1aakxqtw40rvhkc1vruhfysgzeaudputf3str0clvzuffhzw-oc-5",
-      "title": "LayerZero and Immunefi launch largest crypto bug bounty program with up to $15M in rewards - TechCrunch",
+      "title": "LayerZero and Immunefi launch largest crypto bug bounty program with up to $15M in rewards - techcrunch.com",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMXhZcEY4ZGRQR3JKN1RTbDc2Wkw3UC1jNlVIeGZTdWpIc3lJQlNPOXJ5czV4X2NhaXFZcHlfQklTRU5OZHFHQWdtVEZacFVUYklRR1hBRnJlRUFLaFFGeHRFSWFDMTczcnZKNFg3MTN2WnNBSnJsR1dlX2YwOWU1Unh4VWxZY0RHd3NiQ2hlcGVNR1d4ZWk3M0dVQ0s3ZE1aakxQTW40RVhKc1VrUHFYSGZEaUdpUTF3STR0clVzUFFHZw",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -1904,8 +1996,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "5c960128fec1913c",
-        "claim": "LayerZero and Immunefi launch largest crypto bug bounty program with up to $15M in rewards - TechCrunch",
+        "claimId": "e82b69b610aa9faa",
+        "claim": "LayerZero and Immunefi launch largest crypto bug bounty program with up to $15M in rewards - techcrunch.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -2714,6 +2806,101 @@
       ]
     },
     {
+      "id": "snhwn2pzr1pkafrpm2pnlvpumlryvf80mgozanvcsxljz0o2djlfcm5mzwnvavbllthmm1hwtvzxq0fxmf9qslo3c0lqujnvnhc3m0rit3a3vjvradg-oc-5",
+      "title": "Open Source Program Office Secures $719K Grant - Syracuse University Today",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT2d3QzBBM3RNT3paM3JXckllcUpaTTY2aDBPa01FRnVPeXQ2Y3BkSnhwN2pZR1pKaFRPM2pNLVpUMlRYVF80MGozanVCSXlJZ0o2djlfcm5MZWNvaVBLLThMM1hWTVZxQ0FxMF9QSlo3c0lQUjNvNHc3M0RiT3A3VjVraDg",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        719000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant",
+        "developer"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "0a2f8a1ef576b862",
+        "claim": "Open Source Program Office Secures $719K Grant - Syracuse University Today",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — open source rewards",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 84,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 03 Dec 2025 08:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          719000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
       "id": "txpueknpem9ewvbqvgi3zdncz1nuajjfnkhosexndlbwqu02veetctjbuuw5sufrbvpkagzrz3bubzvfa0zxzhdidetzdwrwbkpbczdzyvo2a1hqqmk-oc-5",
       "title": "Ethereum Foundation backs spinoff Argot with 4,938 stETH grant - Dealroom",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNmIxM0VZbkpGTGp4UHlaOU1qVGdJYm4yeXJaRzU1ZnM0WXN0b2NjeXBwcDBWby15X3ZWMGltYk1mcXRjVk5UTXpUekNPem9EWVBqVGI3ZDNCZ1NUajJfNkhoSExNdlBWQU02VEEtcTJBUUw5SUFrbVpKaGZrZ3BubzVFa0ZxZHdIdEtZdWRWbkpBczdzYVo2a1hqQmk",
@@ -2778,97 +2965,6 @@
       "nextAction": "OWNER_REVIEW",
       "freshnessSignals": {
         "published": "Tue, 30 Jun 2026 17:40:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
-      "id": "txzuqm9lqmdwr3pfoxm0wmzyy25xu2twy0cyee5zemrsvw14vk5wqmz5s1jvqkvtymxuq1riutvqm3m2x21lwtjknletcgdvy1hjcdlun0jedvi0nnc-oc-5",
-      "title": "Python Foundation declines substantial grant - Techzine Global",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHNiSktTOTZET0V4SEl1eWllMHdRTWtCQ2tFckJYSVdWb19GdEw2TjJlWE1oX0ppbXRxUDl5WUJXb0VDcjIxSHN0U1EwTXZUQm9lQmdwR3pfOXM0WmZYY25XU2tWY0cyeE5zemRsVW14Vk5WQmZ5S1JvQkVtYmxUQ1RIUTVQM3M2X21lWTJkNlEtcGdvY1hjcDluN0JEdVI0Nnc",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "grant",
-        "ecosystem"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "63987cb2c9841df3",
-        "claim": "Python Foundation declines substantial grant - Techzine Global",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — open source rewards",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 84,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Tue, 28 Oct 2025 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -3913,6 +4009,101 @@
       ]
     },
     {
+      "id": "l94m24zugvmczc3oelhd2c4wde1rhv6mvfjrwpldngtujv3aja3cdmtemhvdzv3ni0ywlz4nfzusk5ya2d2rjl6sdlyq3jxwfbpm1fnb3bsagrnuuhr-oc-5",
+      "title": "Uniswap Diamond Gets Largest Portion of Foundation’s First $1.8M Grant - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQmlqRXJDM2owSm1WQk9ScEd3bzRaMUZrQmwtZmJjYmpYalFRT1hpdWo2eC1DOWlnX2hQeFI3VW9SNkRYSWREQUlSdWFYaGdtYXFYM0ZnRDQxNzk0Nl94M24zUGVmczc3OElhd2c4WDE1RHV6MVFJRWpldngtUjV3ajA3cDMtemhVdzV3Ni0yWlZ4NFZuSk5Ya2d2Rjl6SDlyQ3JXWFBpM1FNb3BSaGRnUUhR",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        1800000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant",
+        "ecosystem"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "f0ce0e6b03326ed6",
+        "claim": "Uniswap Diamond Gets Largest Portion of Foundation’s First $1.8M Grant - 24/7 Wall St.",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Uniswap programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 84,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Thu, 22 Sep 2022 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          1800000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
       "id": "vdwh4wve2uehkskq4q2g2cuf4rlo1mnjrcwzjv3dldflqn0zsdlfxnvbvcglyrktwwkdkylhxtk1nwvdfeustadkxsvnkbfi4ufixrfn2sefma0dguw-oc-5",
       "title": "Ronin offers $10M grant program for Web3 developer growth - TradingView",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLWhfWl8ySk9rRHZsSlRtZFgxYVN1aEJqV2Y2dG13MktEU0pOcUM0OW5pWlJzbGVxVkRROFBBSGlqZ3Nta1BNbmJTVWNDSDlSSHM0UUh6NHZhNjZ0OFlDemVrb3dqSllVdWh4WVE2UEhKSkQ4Q2g2cUF4Rlo1MnJRcWZjV3dldFlqN0ZSdlFxNVBvcGlyRktwWkdkYlhXTk1NWVdfeUstaDkxSVNkbFI4UFIxRFN2SEFma0dGUw",
@@ -4099,97 +4290,6 @@
       ]
     },
     {
-      "id": "nql82bks1uvznwjlsbkfebvi0tv8wuvzkam9nv3petjrxyvftzc16zuromw5xexfuq0howhdislbubhptvc01v1hgseznqu53sldcu1rwrc1gmmpnqq-oc-5",
-      "title": "Maelstrom Announces Its Fourth Bitcoin Developer Grant Recipient - bitcoinmagazine.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTUlWOE1aV1RsaWF6OHlOUG55WnUxWXBxLW0wcWtjQVdSRU1uX0hoWmpPSmZWV0g4OWYwc1h2Yy11UFpKUzdpSzZnQl82bks1UVZNWjlsbkFEbVI0TV8wUVZKam9NV3pETjRXYVFTZC16ZUROMW5xeXFuQ0hOWHdISlBUbHptVC01V1hGSEZnQU53SldCU1RwRC1GMmpNQQ",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "grant",
-        "developer"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "aa26f3a0b6851f19",
-        "claim": "Maelstrom Announces Its Fourth Bitcoin Developer Grant Recipient - bitcoinmagazine.com",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — developer",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 84,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Thu, 12 Jun 2025 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
       "id": "1y1ptueutuhnex0x2cgncrujwv19nmul3de16wv8ynnjcrdlqzjvrndhuskvrzgzwskxfdzlgn0v6x21syjdhlwhpm0zhcwrrofvvrellndlccupuma-oc-5",
       "title": "We're Investing in Bitcoin’s Long-Term Security Through Grant to 2140 Foundation - OKX",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpX1RwS281Y1pTUEUtUHNEX0x2cGNCRUJwV19nMUl3dE16WV8yNnJCRDlqZjVrNDhUSkVRZGZwSkxfdzlGN0V6X21SYjdhLWhPM0ZhcWRrOFVvRElLNDlCcUpUMA",
@@ -4282,7 +4382,7 @@
     },
     {
       "id": "lc3prsjjcumc0lwjycwzlzmxdv3zaa3exwg5lzvlmnjz6ywlprxfic1d2ujuzchzrzktdcnqyxzfkzjfvanlgtfviedfbawc3dvoxn3hms2zsuzhona-oc-5",
-      "title": "Kavli Foundation Grant Will Support TON Email Mini-Courses - theopennotebook.com",
+      "title": "Kavli Foundation Grant Will Support TON Email Mini-Courses - The Open Notebook",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN1VDT3d4aldNQWNmRjJaZFczb2NTcGF2Ri1YaG9KV2p0b0s4TE02VDdMc3pBSmxPV1R2eWlFSUFFUmNZcWRqMDgzdEg4MTdlc3prSjJCUmc0LWJycWZLZmxDV3Zaa3ExWG5LZVlMNjZ6YWlpRXFic1d2UjUzcHZRZktDcnQyXzFkZjFvanlGTFVIeDFBaWc3dVoxN3hmS2ZsUzhONA",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -4298,8 +4398,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "f817b613b40f4e2c",
-        "claim": "Kavli Foundation Grant Will Support TON Email Mini-Courses - theopennotebook.com",
+        "claimId": "be40d66e03586213",
+        "claim": "Kavli Foundation Grant Will Support TON Email Mini-Courses - The Open Notebook",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -4927,7 +5027,7 @@
     },
     {
       "id": "vx3lxte9ia3zhstlvrgy3t1zqckpwzlfkrnczwwduz1jjbm1obunzzdfpbjdlbvdvd2rqbzl0c1fmd1devzrsn1bpluvxmf92mejdeklhutbregdlbw-oc-5",
-      "title": "Bybit and SOLV Protocol announce Explosive bbSOL Maxi Rewards, a new staking campaign - cryptonews.net",
+      "title": "Bybit and SOLV Protocol announce Explosive bbSOL Maxi Rewards, a new staking campaign - Cryptonews.net",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Ia3ZhSTlVRGY3T1ZqckpWZlFKRnczWWdUZ1JJbm1ObUNZZDFPbjdLbVdvd2Rqbzl0c1Fmd1dEVzRsN1BpLUVXMF92MEJDeklHUTBreGdLbw",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
@@ -4944,7 +5044,7 @@
       "pressureSignals": 0,
       "evidenceLineage": {
         "claimId": "0fb85db9f1a84d43",
-        "claim": "Bybit and SOLV Protocol announce Explosive bbSOL Maxi Rewards, a new staking campaign - cryptonews.net",
+        "claim": "Bybit and SOLV Protocol announce Explosive bbSOL Maxi Rewards, a new staking campaign - Cryptonews.net",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -5109,7 +5209,7 @@
     },
     {
       "id": "twmhwagu2emw0emlyruvitwexq1y0sje5vulwenuztg00utlhatraqnpjwfows0plc1hqvtv1y0l0thrsvgpaute2shetx2lsmeramlu4ejhxouq5mq-oc-5",
-      "title": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ictworks.org",
+      "title": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ICTworks",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFByYk9JNXpaQ1ZhR1RxeThTWmhWaGU2emw0emlyRUViTWExQ1Y0SjE5VUlwenUzTG00UTlHaTRaQnpJWFowS0pLc1hQVTV1Y0l0THRsVGpaUTE2SHEtX2lSMERaMlU4ejhXOUQ5MQ",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -5127,8 +5227,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "54422c4b3e27fe4c",
-        "claim": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ictworks.org",
+        "claimId": "775c1e2fc88b3949",
+        "claim": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ICTworks",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -5295,7 +5395,7 @@
     },
     {
       "id": "2bkxorfjwznuxzkotajb0ty1mt0n6wdlsrjvvcxetuxrdzzljqk9tvlpwymq3tddkskmybjqtuvdkr0zdvkdhzfprazi5uwr5ekpxotatnkk5nmpmzw-oc-5",
-      "title": "MARA Launches Bitcoin-Focused Foundation, Opens $100,000 Community Grant Vote - bitcoinmagazine.com",
+      "title": "MARA Launches Bitcoin-Focused Foundation, Opens $100,000 Community Grant Vote - Bitcoin Magazine",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fajR5SXBFRFQxc1VwcFVudVFWZHZXMEUwOWFlQU5sbXd2bkxORFJwZnUxZkotajB0Ty1mT0N6WDlSRjVvcXEtUXRDZzlJQk9tVlpwYmQ3TDdKSkMybjQtUVdKR0ZDVkdHZFpRazI5UWR5ekpxOTAtNkk5NmpmZw",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -5313,8 +5413,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "13c6b8ef8dbe8225",
-        "claim": "MARA Launches Bitcoin-Focused Foundation, Opens $100,000 Community Grant Vote - bitcoinmagazine.com",
+        "claimId": "80e1384510c8e1e3",
+        "claim": "MARA Launches Bitcoin-Focused Foundation, Opens $100,000 Community Grant Vote - Bitcoin Magazine",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -5666,101 +5766,6 @@
       ]
     },
     {
-      "id": "wsvy4ylvnnfi2wgt5edvvrc1ly2rizmo0ytfltdq2em5ormt3vmfgwe9pmwtxbdzxtvvdn1f2cmc4zg9zuegxlulbzvnqm3zimu51vejqakrjaelmuq-oc-5",
-      "title": "Mira Network Reaches 1 Million Users Amidst Successful $10M Grant Program - blockchain.news",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb1d5Wm1pb25BX25oYS1oZXBTcWUtRko4eXhsdGdxYUhyYWJJRHRmcWVOUGxLWFcwQkdUWUl3Zk1TZEJxWll0ZEl0M0Fwa1V1SDhBdElWSVY4YlVNNFI2WGt5eDVVRC1LY2RiZmo0YTFLTDQ2em5ORmt3VmFGWE9PMWtxbDZxTVVDN1F2cmc4ZG9zUEgxLUlBZVNQM3ZIMU51VEJqakRJaElMUQ",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [
-        10000000.0
-      ],
-      "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "grant",
-        "ecosystem"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "ba0766d4625f83f7",
-        "claim": "Mira Network Reaches 1 Million Users Amidst Successful $10M Grant Program - blockchain.news",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — official announcements",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 84,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Fri, 28 Feb 2025 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [
-          10000000.0
-        ],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
       "id": "uce41y0nmqkntchc5m01atnywbwpsvuc2cfdmnk5klxbkvzzzzkvttw9dy0pmqkzazevtogq1n2zkqwlkagjkekl3qkjab0vocwm1rgxtegk1sgrtbq-oc-5",
       "title": "Revolutionary Uniswap Foundation Grant: $9M Boost for Brevis and Uniswap v4 - CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xMjVCZ1ZJTjdMWEdaRHhHd3J0elc0VXAycUhucE41Y0NMQkNTcHc5M01aTnYwbWpSVUc2cFdmNk5kLXBKVzZZZkVTTW9DY0pmQkZaZEVtOGQ1N2ZkQWlkaGJkekl3QkJab0VocWM1RGxteGk1SGRtbQ",
@@ -6039,7 +6044,7 @@
     },
     {
       "id": "v96ahnucenkqmdjzgfzdgjvrmjoeuyyovf0nu5vd1b6vgdkvxnuruh0wgvkbedjcnrjtetqmnhncnfudgxwqk4tzdvra3rnuw1tsnniquhjutzjahhb-oc-5",
-      "title": "Foundation behind restaking protocol EigenLayer plans bigger rewards for active users - coindesk.com",
+      "title": "Foundation behind restaking protocol EigenLayer plans bigger rewards for active users - CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTllqYjhjRVViLTVnZW1kd05RMThzZjBqVlI5enZWSTQ4MEExbnU4REVUNjJ6dkVYS3ppT1FKWkUwbUFwSHotcEJQNnEycXROMFFkb0tOeFhKandIdkZWVjNWcV94MU9UN3p5WTBwYkV6QW5UaV96aHNUcENkQmdJZGFzdGJVRmJoeUYyOVF0NU5vd1B6VGdKVXNuRUh0WGVKbEdJcnRjTEtqMnhncnFudGxwQk4tZDVRa3RNUW1tSnNiQUhJUTZjaHhB",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
@@ -6055,8 +6060,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "d16842ab1bb18524",
-        "claim": "Foundation behind restaking protocol EigenLayer plans bigger rewards for active users - coindesk.com",
+        "claimId": "2d885e507d883261",
+        "claim": "Foundation behind restaking protocol EigenLayer plans bigger rewards for active users - CoinDesk",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -6411,7 +6416,7 @@
     },
     {
       "id": "wjdyctfkmjblx0hfy2vadei5rxrobfhxowrutlvbsfy0rkjadevfyndqnhrfbutpukpqahzzruras0nxu1kwdnfomkx6umvumu84zgdorde5bl83eke-oc-5",
-      "title": "KuCoin Ventures Announces Partnership with TON Foundation, Provides Grant to Support TON Ecosystem - Business Wire",
+      "title": "KuCoin Ventures Announces Partnership with TON Foundation, Provides Grant to Support TON Ecosystem - businesswire.com",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTV9nQnhiOFBGT2tqM21Ub1lYLXpaOEI3ckdQSHBjZW1RTHpGM1dqcWdIbEpXeHYwbW5jVTU5RHhlYlY4WUJyU19DX3pHV2p3eUpJLW5iUXBUZ3ViTWlhNFpoQmV3TVBZUVdxajZJajVNRDM1TWdudDEyS3huOV80dWJnNTJ4cndwZDdoaExYX3Q0Q1pCWjdycTFKMjBlX0hfY2VadEI5RXRobFhxOWRuTlVBSFY0RkJadEVfYndQNHRfbUtPUkpQaHZZRURaS0NXU1kwdnFOMkx6UmVuMU84ZGdoRDE5bl83ekE",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -6427,8 +6432,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "13158156e6a9b8e0",
-        "claim": "KuCoin Ventures Announces Partnership with TON Foundation, Provides Grant to Support TON Ecosystem - Business Wire",
+        "claimId": "60368920fe91b496",
+        "claim": "KuCoin Ventures Announces Partnership with TON Foundation, Provides Grant to Support TON Ecosystem - businesswire.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -6687,7 +6692,7 @@
     },
     {
       "id": "g1indnivk9fvjzsa2hhm3hvx0w4wdlybkhwzhl3ovjlrvm2vklevxf1rhu5afutbhjfbfhhvgnusfk5emh1rhytnlpnykzoou9ywmnqqjjonkfjww13-oc-5",
-      "title": "Fold Secures $150 million Credit Facility to Scale Bitcoin Rewards Credit Card Program - manilatimes.net",
+      "title": "Fold Secures $150 million Credit Facility to Scale Bitcoin Rewards Credit Card Program - The Manila Times",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOemthRC00VkppUTlkQnd4WE1aWGRDMXNRVUhKVUZmZnJZODFIUWgxajFRbmFFYUxiM3Q2WlpJYUZSQnRQUlB5cHpYZE5wS1IyVzBaSjN4LUx4M3o0ZTlyQU9sZ2tSa2I1NzZTOEFPakJPRmszV1F5c3c3QUd5ampXNHVxRmN1MVFSa3BrSXlURWdkUDVCQngtcWQzaVBVaWZPa0ZxMWU5T1Q2aUxmM3VlN2dQbkNoQU5NV1dkSHpYQkI4UEgzNTRzck44eVhNMk9lVTRBNW5nTG80WlN3bEhTMjZHODYzblBMd2tETU1hYWHSAfYBQVVfeXFMTTNvUV9RNmRHWWNSa1hPWXlXZ2dXRExNYUhWQ2RMeXpCbmFpMEhGUTViWGU5amtLVDYzMVhLeG83OVl3TlExM3BXUEI0N0RUa0RwSjRIdm1PODQ2ZEpHdnZmLTFqTzFESE5FeXZycVRYemFYbGo4QzlPU0hkajJaT2VfTy14VmdGNmZ5NzJNUzJNRU5EdE9TUVZKREptcXBvTG1iNDNIVk9fVjZSa2hHM3hVX0w4WDlybkhWZHl3OVJLRVM2VklEVXF1RHU5aFUtbHJFbFhHVGNUSFk5emh1RHYtNlpnYkZOOU9YWmNQQjJoNkFjWW13",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
@@ -6702,8 +6707,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "fddd90a6dea18ee6",
-        "claim": "Fold Secures $150 million Credit Facility to Scale Bitcoin Rewards Credit Card Program - manilatimes.net",
+        "claimId": "f25a1bdb5f31231c",
+        "claim": "Fold Secures $150 million Credit Facility to Scale Bitcoin Rewards Credit Card Program - The Manila Times",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -8949,7 +8954,7 @@
     },
     {
       "id": "mvyy2rrm2lomwi1nxpmvhn6bwq1v1dyohzhz0szsepmvtkxvzrjovdys1jrsmoyogrvbtlwz0zqddbqy25hqktpx0r4rtzfz01flvzkv2tnvkf6dm1r-oc-5",
-      "title": "Broke Billionaire (BROQ) Announces $10 Million in Token Rewards Across Two Launch Campaigns on QIE Blockchain - Cryptopolitan",
+      "title": "Broke Billionaire (BROQ) Announces $10 Million in Token Rewards Across Two Launch Campaigns on QIE Blockchain - cryptopolitan.com",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWENOWE9wVVdnTm9zMGJwc2FiNUl3dUlnTTRYc1F2R3hwc04zcXd4eVZYYTZhcmNrWkxkZS13SlFZQkwxQ2toSjlTS1BLcWdZV05COEllbGZyU2IwTHRIM1NfQjVGM3k0VlN3Y0FkUDMtcWpoa0hIUWxnc1J0NmVyY2RrM2lOMWI1NXpMVHN6bWQ1V1dYOHZHZ0szSEpmVTkxVzRjOVdyS1JrSmoyOGRvbTlWZ0ZQdDBQY25HQktPX0R4RTZFZ01FLVZkV2tNVkF6dm1r",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
@@ -8966,8 +8971,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "edfbf9456b93e920",
-        "claim": "Broke Billionaire (BROQ) Announces $10 Million in Token Rewards Across Two Launch Campaigns on QIE Blockchain - Cryptopolitan",
+        "claimId": "70a8fa05649442a8",
+        "claim": "Broke Billionaire (BROQ) Announces $10 Million in Token Rewards Across Two Launch Campaigns on QIE Blockchain - cryptopolitan.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -9043,7 +9048,7 @@
     },
     {
       "id": "wuz6nwxwrfjwdgllujlyudlzdwdgngfkotuxr1jvq3d2swjamkhrb1bhd1jsdg5jsgjywvlwcevltfnybuzldflbbthvqknzagktedctrhzbatnev1u-oc-5",
-      "title": "President Preckwinkle Announces $25 Million in Grant Awards for Community-Based Programming to Address Gun Violence - Cook County (.gov)",
+      "title": "President Preckwinkle Announces $25 Million in Grant Awards for Community-Based Programming to Address Gun Violence - cookcountyil.gov",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOU1dXaGY4LXpWSDVHMmEyLVdwYWc0b2hnTG5nM1NhVHMyNUR1SENTUTY1UjJ0Y1hnSkhhNTRxdjFXWWxReFJJdU1fcnFreHB4aE1aWi1Rc2JLeW5jM3A3SlhobTgyaHJ4LXhoZFFKWUZ6NWxWRFJWdGlLUjlYUDlZdWdGNGFKOTUxR1JvQ3d2SWJaMkhrb1Bhd1JSdG5jSGJyWVlWcEVLTFNYbUZldFlBbThVQkNZaGkteDctRHZBaTNEV1U",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -9058,8 +9063,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "ccfa64e1f0254851",
-        "claim": "President Preckwinkle Announces $25 Million in Grant Awards for Community-Based Programming to Address Gun Violence - Cook County (.gov)",
+        "claimId": "67e43df2fbabade3",
+        "claim": "President Preckwinkle Announces $25 Million in Grant Awards for Community-Based Programming to Address Gun Violence - cookcountyil.gov",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -9591,7 +9596,7 @@
     },
     {
       "id": "xbwlrauxtbgvvmwhfb1uxn1vwbzbizlq1z1lycmphngx3rux3exhschrdb0p1oulha3jhdu9iwvfbq2f6nwnfy1ntngnnqldibhnpawyywjblz3pnuq-oc-5",
-      "title": "Solana launches Frontier, a rewards program for pro traders across 16 venues with VIP perks. - pluang.com",
+      "title": "Solana launches Frontier, a rewards program for pro traders across 16 venues with VIP perks. - Pluang",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObGdPRkd6ME81RnBfUEo2YUZmejJPNnlTWl9lNEdaa2tGLWFybW1XNDFLRFNRQ0tLZEFJN1ZUX2REbGVEd1BoMGMxbWlRaUxTbGVVMWhFb1UxN1VwbzBIZlQ1Z1lycmpHNGx3RUx3eXhScHRDb0p1OUlha3JhdU9iWVFBQ2F6NWNFY1NTNGNNQldIbHNpaWYyWjBLZ3pNUQ",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
@@ -9606,8 +9611,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "6989b5ba3584ecf7",
-        "claim": "Solana launches Frontier, a rewards program for pro traders across 16 venues with VIP perks. - pluang.com",
+        "claimId": "ea018c9e166c5f0b",
+        "claim": "Solana launches Frontier, a rewards program for pro traders across 16 venues with VIP perks. - Pluang",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -9771,7 +9776,7 @@
     },
     {
       "id": "y0htzu0ydwvovnmyegdlzlr6tgdrbdrpwu5vy3v6bgx2mmvmwmjdvvq3ruvkukjbuwffsum1mjdxrg1famlan3vislnfq01hlvctcvfhn2tdy1honle-oc-5",
-      "title": "Kubernetes security gets an assist with bug bounty program - techtarget.com",
+      "title": "Kubernetes security gets an assist with bug bounty program - TechTarget",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOREdHMmQ2WkhIS0k0MG50NHlSdFZkeDhDUUNmdjhLVzQweXNzSUFhUWljRjI4WlNnY3dLMy1PY1JzcFAySktwakhqRDI2T3ZGZmNFRTdxUVc1andDcklPMkRTRWR2Y0htZU0ydWVOVnMyeGdLZlR6TGdRbDRpWU5VY3V6bGx2MmVmWmJDVVQ3RUVkUkJBUWFfSUM1MjdXRG1famlaN3VISlNFQ01hLVctcVFHN2tDY1hONlE",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -9786,8 +9791,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "9bb903536bf7d9d7",
-        "claim": "Kubernetes security gets an assist with bug bounty program - techtarget.com",
+        "claimId": "c5fc970bbc333f6b",
+        "claim": "Kubernetes security gets an assist with bug bounty program - TechTarget",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -11485,7 +11490,7 @@
     },
     {
       "id": "0f6znnrnwc1vhm0a3rlne1mu3hgwk1zuvhgn012ytatzuhpwg12ohjnd1haoxn3bwdpteyyyvlwr1jtslfoc3psmxzrq0rubm9lz3d3mfvvzfhtb0xt-oc-5",
-      "title": "Bitcoin Philanthropic Arm of Paystand Celebrates First Anniversary with the Opening of 2025 Grant Program - Business Wire",
+      "title": "Bitcoin Philanthropic Arm of Paystand Celebrates First Anniversary with the Opening of 2025 Grant Program - businesswire.com",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPMElwTTRQLTFja1B6bkdxNW5xMVlKRHZ2aVJ4U21FUVpIMWFsdW1ueWxUVkJZMUdicDZlRVJkaU91YVo1MnlPR2NjU3N2T2dZbk9jNjlBOHlMejdCSmNCYTVVS3NDSnFhZll2YmF3LXBlcGl2TzZNY0YyUnd3ZWRzd3pJeE1RdlZsZUVOY2VwSGF0dVFQRENVQW5aSVVEa0F6ZnNrNWc1VHM0a3RLNE1MU3hGWk1ZUVhGN012YTAtZUhPWG12OHJNd1haOXN3bWdpTEYyYVlWR1JTSlFOc3psMXZRQ0RUbm9LZ3d3MFVVZFhTb0xt",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -11500,8 +11505,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "8b12114653408722",
-        "claim": "Bitcoin Philanthropic Arm of Paystand Celebrates First Anniversary with the Opening of 2025 Grant Program - Business Wire",
+        "claimId": "4fd6e847f9d65ccf",
+        "claim": "Bitcoin Philanthropic Arm of Paystand Celebrates First Anniversary with the Opening of 2025 Grant Program - businesswire.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -11575,7 +11580,7 @@
     },
     {
       "id": "xte4zu0ixdjrdoghwqmoyedvwuzbuwxpvelrxrnuwmzexa1dlcjdqzzfidmdyvhzpzlpwnlllethjcurcmznlrmfftg80qmjpc0p1vznxsmzyqxd0qq-oc-5",
-      "title": "State Grant Programs Now Open for Applications: Sept. 10 Update - Pennsylvania House Democratic Caucus",
+      "title": "State Grant Programs Now Open for Applications: Sept. 10 Update - pahouse.com",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zU0IxdjRDOGhwQmoyeDVWUzBUWXpvelRXRnUwMzExa1dLcjdQZzFIdmdyVHZPZlpwNllleThjcURCMzNlRmFfTG80QmJPc0p1VzNxSmZYQXd0QQ",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -11590,8 +11595,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "8f787633ed8d37bb",
-        "claim": "State Grant Programs Now Open for Applications: Sept. 10 Update - Pennsylvania House Democratic Caucus",
+        "claimId": "cc082100802f345d",
+        "claim": "State Grant Programs Now Open for Applications: Sept. 10 Update - pahouse.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -13301,7 +13306,7 @@
     },
     {
       "id": "afvymgr2tkfibzlfbdnonmfbudlgc3bjbhntsmxcrlaxvv9tm3zdy1vrv3q5zgpgsznkz0hrnkrhrknxrs1sadi4zepgclncvkqtcuxyy05ybuh2vmc-oc-5",
-      "title": "OpenAI launches bug bounty program to bolster security - escudodigital.com",
+      "title": "OpenAI launches bug bounty program to bolster security - Escudo Digital",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVXltMVB2VkJkcm9DMkdPb1g1MXJSdjQzWU9LbVdPZ2RaenFnc3FDSFZlM2N6NnNmNW5hV2d6Z09qS0xiVlpKYkkyXzZ5QkQ4OVZNcTZZdzB0enJPYjhzbkllaTZYZzduVXVrWGpWTUJUaFVYMGR2TkFibzlfbDNoNmFBUDlGc3BJbHNTSmxCRlAxVV9TM3ZDY1VRV3Q5ZGpGSzNkZ0hrNkRhRkNxRS1saDI4ZEpGclNCVkQtcUxyY05ybUh2Vmc",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -13316,8 +13321,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "9c7afb8dcd971d60",
-        "claim": "OpenAI launches bug bounty program to bolster security - escudodigital.com",
+        "claimId": "6b8329f9c514102c",
+        "claim": "OpenAI launches bug bounty program to bolster security - Escudo Digital",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -13481,7 +13486,7 @@
     },
     {
       "id": "1luvrc0lgulnxx1zntnk2dk1krxj3s2dswxzpew84ngptb2rhteuyoviztmrfmjj1nghwcvf2mndimdrlmwu0y3rreevjwfjmq19hsjd5r1dtothyna-oc-5",
-      "title": "Web3 DAO Game7 Unveils $100M Grant Program - coindesk.com",
+      "title": "Web3 DAO Game7 Unveils $100M Grant Program - CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMnEzMGJxbnZWNWVvODBWbmRHUWdZejJRQ3F2MmFhck5IQjVuOGZ6bDZ3cW1hUEdNazl1LUVrc0lGUlNxX1ZNTnk2dk1KRXJ3S2dSWXZpeW84NGptb2RhTEUyOVIzTmRFMjJ1NGhWcVF2MndIMDRlMWU0Y3RReEVJWFJMQ19hSjd5R1dtOThyNA",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -13496,8 +13501,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "598d93b8c684bb19",
-        "claim": "Web3 DAO Game7 Unveils $100M Grant Program - coindesk.com",
+        "claimId": "6709fb9604a19929",
+        "claim": "Web3 DAO Game7 Unveils $100M Grant Program - CoinDesk",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -14201,7 +14206,7 @@
     },
     {
       "id": "x25hmhhyywn3nkjkznrxzzh3yzyxdge3bghpxzk4swkxevzwtevfq3foc1vub2hfukf6cvhzrzc2zy03cmzmymnxvw9lszbjrvnjbdf0djbpvlbortg-oc-5",
-      "title": "10 Essential Bug Bounty Programs of 2020 - Tripwire",
+      "title": "10 Essential Bug Bounty Programs of 2020 - tripwire.com",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jMHZxYkdmT3J3RTdtZmE0OGZDS2x1WGN3bE45ellPX25hMHhYYWN3NkJkZnRXZzh3YzYxdGE3bGhPXzk4SWkxeVZWTEVFQ3FOc1VUb2hFUkF6cVhzRzc2Zy03cmZmYmNxVW9LSzBJRVNjbDF0djBPVlBORTg",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -14216,8 +14221,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "20227a0d6fbc9195",
-        "claim": "10 Essential Bug Bounty Programs of 2020 - Tripwire",
+        "claimId": "a2fb9e44df458f44",
+        "claim": "10 Essential Bug Bounty Programs of 2020 - tripwire.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -14561,7 +14566,7 @@
     },
     {
       "id": "efnts1ncrmhga1rgs0novjdpbk9zvzvcaureeefazl9iedljm0vqzdz1ywfmrhrnvjrza1o4tm1ou3bmt3h0udvuajvyytg1zzfolxv0cfpvvvphque-oc-5",
-      "title": "Adobe expands bug bounty program to incentivize AI security research - blog.adobe.com",
+      "title": "Adobe expands bug bounty program to incentivize AI security research - Adobe",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ0FTOEVMeG9LQkl6eXV4UUhucC14ZzdsczZsb3hBa3dNb2lGTHRlaDU0NlNxX0N6WWRtSm90WVEwd1VqNEdXeTEtaEtJeFNTS1NCRmhGa1RGS0NOVjdpbk9zVzVCaUREeEFaZl9IeDlJM0VQZDZ1YWFmRHRnVjRZa1o4Tm1OU3BmT3h0UDVuajVyYTg1ZzFOLXV0cFpVVVphQUE",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -14576,8 +14581,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "7133107c60f71ed9",
-        "claim": "Adobe expands bug bounty program to incentivize AI security research - blog.adobe.com",
+        "claimId": "2faf6acaef217f38",
+        "claim": "Adobe expands bug bounty program to incentivize AI security research - Adobe",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -16553,7 +16558,7 @@
     },
     {
       "id": "vlflnke1rdzknktoqtj3turdr0dxqtbtu094suj4zfhzt0o0a3jttjvsruzrx25jrfrtdudsmknznu02ymprd3rsdeffodc2lwnrtw83wdvjzhd1c0e-oc-5",
-      "title": "Reddit Launches New ETH-Based Community Points Rewards Program - Crypto News Australia",
+      "title": "Reddit Launches New ETH-Based Community Points Rewards Program - cryptonews.com.au",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVFgySEo0dTZLUk9RLWdyVGpKdDZqbThTN1I4dzVZMnZlb2NVdjlvclV2RVFZdC1GTmN1SU4zOVUyMVprSlAwRzdnY3hYVlFLNkE1RDZKNktoQTJ3TURDR0dxQTBtU094SUJ4ZFhzT0o0a3JTTjVSRUZRX25jRFRtdUdSMkNZNU02YmpRd3RsdEFfODc2LWNRTW83WDVjZHd1c0E",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
@@ -16568,8 +16573,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "a7d4461d149a3058",
-        "claim": "Reddit Launches New ETH-Based Community Points Rewards Program - Crypto News Australia",
+        "claimId": "1f1ae205613ff969",
+        "claim": "Reddit Launches New ETH-Based Community Points Rewards Program - cryptonews.com.au",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -18309,7 +18314,7 @@
     },
     {
       "id": "d0s5nmhyxzzedflst093stnstlnbzhjvbxjkskwzrxnyawhzntdpru1otwrksmpjnwtycmnkd0tnr05gmg12adviy29oy29vzfnnmc11ee5lugp0wlg-oc-5",
-      "title": "Bitcoin DeFi Tool Alex Lab Loses $4.3M in Hack, Offers 10% Bounty for Stolen Funds - coindesk.com",
+      "title": "Bitcoin DeFi Tool Alex Lab Loses $4.3M in Hack, Offers 10% Bounty for Stolen Funds - CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRFBOeXlPRXlldDMwcWVidE9BSW9jRGZEQXFZYl9teEdQMm1XZU43OFFUOEwzVkp3ZzRGZ1lRb0ZOX1pxUUZ1bE4yMUlaUEtDejFqeEFEc1lFUjVZR3Z5aGlEdWs1S0dtSnJid0s5NmhYXzZEdFlsT093STNSTlNBZHJVbXJkSkwzRXNYaWhzNTdPRU1oTWRkSmpJNWtycmNKd0tnR05GMG12aDVIY29OY29VZFNNMC11eE5LUGp0Wlg",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -18327,8 +18332,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "dd3291ac2d5e3f24",
-        "claim": "Bitcoin DeFi Tool Alex Lab Loses $4.3M in Hack, Offers 10% Bounty for Stolen Funds - coindesk.com",
+        "claimId": "44fba9799522eb67",
+        "claim": "Bitcoin DeFi Tool Alex Lab Loses $4.3M in Hack, Offers 10% Bounty for Stolen Funds - CoinDesk",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -19673,7 +19678,7 @@
     },
     {
       "id": "zv3v6yldounzfbi02bdngs1z5re54sw95mukza1qwuffyrvzybmlisuhjzxpcueoxejy4wjbnsv9ibhfrwertwu5ttexlskzwqm1qmjbmy3vddtqydw-oc-5",
-      "title": "INSTITUTIONAL | World’s Largest Wealth Management Firm to Offer All Ether, Solana Staking Rewards Directly to Investors - bitcoinke.io",
+      "title": "INSTITUTIONAL | World’s Largest Wealth Management Firm to Offer All Ether, Solana Staking Rewards Directly to Investors - BitKE",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02cUNtMWRCcEtFcXVPRDBoNkVYVEs0RDhYOW1lXzNZV3V6YldOUnZFbi02bDNGS1Z5RE54SW95MUkza1QwUFFyRVZybmliSUhJZXpCUEoxejY4WjBnSV9ibHFrWERTWU5TTExlSkZwQm1QMjBMY3VDdTQydw",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
@@ -19688,8 +19693,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "e1c8a4626a0e7101",
-        "claim": "INSTITUTIONAL | World’s Largest Wealth Management Firm to Offer All Ether, Solana Staking Rewards Directly to Investors - bitcoinke.io",
+        "claimId": "74a4b5caf3fea571",
+        "claim": "INSTITUTIONAL | World’s Largest Wealth Management Firm to Offer All Ether, Solana Staking Rewards Directly to Investors - BitKE",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -19763,7 +19768,7 @@
     },
     {
       "id": "zq2r5ofnommzsrs1nqnfjmy1hqk9js1pjvlfir3pmsxhxrecwnuczz3rra2nyx0hbahdqvugzcljremrpu1rfbetacw14bghjtkw0ufvlneljtvnquq-oc-5",
-      "title": "Grant beneficiaries under review to be paid on 7 August - sanews.gov.za",
+      "title": "Grant beneficiaries under review to be paid on 7 August - South African Government News Agency",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeGpHRFlveGdKS3RYTjZxMXRwWEZDblBHRW5qQkhybGtVTHQ1djNIV1g1ZGp3RHhrVlpJSW1zQ2R5OFNoMmZsRS1nQnFjMy1HQk9jS1pJVlFIR3pMSXhxREcwNUczZ3Rra2NyX0hBaHdqVUgzclJRemRpU1RfbEtacW14bGhJTkw0UFVLNElJTVNqUQ",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -19778,8 +19783,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "cb60bbdfeed5834e",
-        "claim": "Grant beneficiaries under review to be paid on 7 August - sanews.gov.za",
+        "claimId": "61ab9a80a934331e",
+        "claim": "Grant beneficiaries under review to be paid on 7 August - South African Government News Agency",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -19943,7 +19948,7 @@
     },
     {
       "id": "eln5me5iqmttmdvun1bvrjbiuklfyjfzqwqtdllywenndjqzwffhtklswxnuwtredkpfy1n6btrzd0nfq1v5uhhkdvjhee1wsu81u0pjv1vidlzvyuq-oc-5",
-      "title": "Call for Applications:Access Bank Womenpreneur Pitch-a-ton( up to 5million Naira Grant) - MSME Africa",
+      "title": "Call for Applications:Access Bank Womenpreneur Pitch-a-ton( up to 5million Naira Grant) - msmeafricaonline.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTGJKQXFKRkoyVm5jTTVHTDA3cWZ6UHgtcmwtY3dEVkpUOXcxM3VCdy1wOXRLVndGMEpjV3E2eU9iWUU1YUkwb294RVllcXdiaW9ybXpobFRycDdyNmNpelN5ME5IQmttMDVUN1BvRjBIUklfYjFZQWQtdllyWENndjQzWFFhTklsWXNuWTREdkpFY1N6bTRzd0NFQ1V5UHhkdVJheE1wSU81U0pJV1VIdlZVYUQ",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -19958,8 +19963,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "a900aff87a04a5d0",
-        "claim": "Call for Applications:Access Bank Womenpreneur Pitch-a-ton( up to 5million Naira Grant) - MSME Africa",
+        "claimId": "486311aaa4eb8a29",
+        "claim": "Call for Applications:Access Bank Womenpreneur Pitch-a-ton( up to 5million Naira Grant) - msmeafricaonline.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -20123,7 +20128,7 @@
     },
     {
       "id": "poxdjds1addlnbxjvzwhumkprx29xbetynlf2vjnzwvfqthremfdst25nogpwx2rmztfrc2zszkhnzi02cdzsefnmdk5nqkt2beqtanfvamzynzftdw-oc-5",
-      "title": "The Dish: A government grant was more headache than help for these small businesses - thebanner.com",
+      "title": "The Dish: A government grant was more headache than help for these small businesses - The Baltimore Banner",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU085OEVhVVhkX0NWUDNrMnBqOUJUZWo5TkxqTkphSVJ6MVZqbFRLUEZIZUhoQ2NTdUtxdlZXUmJIa0JMNFZJTERoNXJWQVQxYVBMM20yLU9tS3VLRjJMWVV5ZFlZWnl4dEdtcDlpOXdJdS1adDlnbXJvZWhUMkprX29xbEtyNlF2VjNzWVFQTHREMFdST25nOGpWX2RMZTFrc2ZsZkhnZi02cDZSeFNmdk5NQkt2bEQtanFVamZyNzFTdw",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -20138,8 +20143,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "a99c41f07dd03d6a",
-        "claim": "The Dish: A government grant was more headache than help for these small businesses - thebanner.com",
+        "claimId": "fbb8a1e6141f540d",
+        "claim": "The Dish: A government grant was more headache than help for these small businesses - The Baltimore Banner",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -20483,7 +20488,7 @@
     },
     {
       "id": "x3lxte9ewdutt0vqaup4wudtdfjpowlgt3hqvjjjbwy4vdjttennnwhmdzngmffnbzfusxhyz1lazutlwna1y2g0ckhkmnhanhloexe5wglya0lxwfg-oc-5",
-      "title": "Fold secures $150M credit facility to expand Bitcoin rewards credit card business - cryptonews.net",
+      "title": "Fold secures $150M credit facility to expand Bitcoin rewards credit card business - Cryptonews.net",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EWDUtT0VqaUp4WUdTdFJpOWlGT3hQVjJjbWY4VDJtTENNNWhmdzNGMFFNbzFUSXhYZ1laZUtLWnA1Y2g0ckhKMnhaNHloeXE5WGlya0lxWFg",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
@@ -20499,7 +20504,7 @@
       "pressureSignals": 0,
       "evidenceLineage": {
         "claimId": "82a676614aaa1823",
-        "claim": "Fold secures $150M credit facility to expand Bitcoin rewards credit card business - cryptonews.net",
+        "claim": "Fold secures $150M credit facility to expand Bitcoin rewards credit card business - Cryptonews.net",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -20573,7 +20578,7 @@
     },
     {
       "id": "skfqq25orvzkvuo3ytnnmuk0nvnhouu0u0frz1bhx05dsjhir01rwuzaekd2rmrzrdg2rg5pujrece5zemdhv1uteurwz0nnn05crxdry0fpb1o5n3m-oc-5",
-      "title": "PARAM Airdrop? Crypto Points Campaign Confirmed - bitpinas.com",
+      "title": "PARAM Airdrop? Crypto Points Campaign Confirmed - BitPinas",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yMk9fY19tZlhuSFVSem40MGpwSmR3SkFQQ25oRVZkVUo3YTNnMUk0NVNHOUU0U0FRZ1BhX05DSjhiR01rWUZaekd2RmRzRDg2RG5pUjREcE5zemdhV1UteURWZ0NNN05CRXdRY0FPb1o5N3M",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
@@ -20588,8 +20593,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "8d022b5a4fbec674",
-        "claim": "PARAM Airdrop? Crypto Points Campaign Confirmed - bitpinas.com",
+        "claimId": "e783a900e5740c88",
+        "claim": "PARAM Airdrop? Crypto Points Campaign Confirmed - BitPinas",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -20847,7 +20852,7 @@
     },
     {
       "id": "oexdrv1n5zfyzs3jhq2lmvjhib3risfpamwrhc1dhv2kzy2nselpyug1jcmf2ynjtwgozq3bhcjhszdviu1lkvtb6mvdkrez6nlftts1wztdrt3paqq-oc-5",
-      "title": "Hacked crypto exchange Bybit offers $140M bounty to trace stolen funds - TechCrunch",
+      "title": "Hacked crypto exchange Bybit offers $140M bounty to trace stolen funds - techcrunch.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaEZLd2lJcWx3YzNEQllfUklfc1JVMUctSkJUUEVMUnpaNndVYmY4UGRSVmpQYlpkMW8zVDBYWTZFSnowdko2TFpISTVleDA1NUdpRkNRN0htVTROeXdRV1N5ZFYzS3JHQ2lmVjhib3RISFpaMWRhc1dHV2kzY2NSelpYUG1jcmF2YnJtWGozQ3BHcjhsZDViU1lkVTB6MVdKREZ6NlFtTS1wZTdRT3paQQ",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -20862,8 +20867,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "9e8c54b38490e9e8",
-        "claim": "Hacked crypto exchange Bybit offers $140M bounty to trace stolen funds - TechCrunch",
+        "claimId": "f3c34d1b132e8762",
+        "claim": "Hacked crypto exchange Bybit offers $140M bounty to trace stolen funds - techcrunch.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -21027,7 +21032,7 @@
     },
     {
       "id": "mpzlvddaw1fsextdkjkym9zzestmmliuwdadkzssxp6lwe1nnppb1p6zll1mnvstzu5c3dxnv81uxb6ylvpum4tzklmmvn4rdjhytvmreczshfqazrr-oc-5",
-      "title": "Video shows 'bounty hunters’ firing into RV near Sandel Park amid safety, drug concerns - komonews.com",
+      "title": "Video shows 'bounty hunters’ firing into RV near Sandel Park amid safety, drug concerns - KOMO",
       "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQVEtxTzBWREYwTnpodXBFcDQxOVlDbGhzc3h5VndkWkxqVnZCcDBYWWZGRm1BYWJpSUZmb2l2Y2tnZ2xnOFZHUEdwb183bTQzRy1aeXdUUTFPRUhjTFc4VlZZOUt6ck5uV1IxQmx1Z2FXT0JlQkRDTzZ5enV2bXRhemF1R2tic2Nfa0hCQ0NpZUNpaG83b0t5LXcyS0RVbnBaOWo2RXpkeTBRMzlBQmMzcEp1c2RGUXZXcXZ6VmU1cUpTekItRGFiQmpZLVdDaW1FSExtdkJkYm9zZEstMmliUWdadkZsSXp6LWE1NnpPb1p6Zll1MnVsTzU5c3dxNV81UXB6YlVPUm4tZklmMVN4RDJHYTVmREczSHFqazRR",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -21042,8 +21047,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "068017630a659882",
-        "claim": "Video shows 'bounty hunters’ firing into RV near Sandel Park amid safety, drug concerns - komonews.com",
+        "claimId": "607b965061cc30c5",
+        "claim": "Video shows 'bounty hunters’ firing into RV near Sandel Park amid safety, drug concerns - KOMO",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -21117,7 +21122,7 @@
     },
     {
       "id": "256chdoy1gxqkdva0licufhalv2t1rodtldmllrqjrvvzhvlxrlsxhqzgf1azrmtgo5ze1stvvzcg5ownjwdw1wbkxhskfxmwpuwmplwvbgqnjrazjh-oc-5",
-      "title": "Washoe County receives grant to fund Perimetermap - kolotv.com",
+      "title": "Washoe County receives grant to fund Perimetermap - KOLO | 8 News Now",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWVB4enBmX0hEZXZiTjRaNktxU3ZjdXhUNXFFREZRTjVLN0tHNTdVbzBlY256cHdOY1gxQkdva0licUFhalV2T1ROdTlDMllRQjRvVzhVLXRLSXhqZGF1azRmTGo5ZE1sTVVzcG5oWnJwdW1wbkxHSkFXMWpUWmplWVBGQnJRazJh",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -21132,8 +21137,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "8a7b99f76584acb3",
-        "claim": "Washoe County receives grant to fund Perimetermap - kolotv.com",
+        "claimId": "f7b87594528fe7d8",
+        "claim": "Washoe County receives grant to fund Perimetermap - KOLO | 8 News Now",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -21481,7 +21486,7 @@
     },
     {
       "id": "vevmbmrocgdjbxhctwlowxv6r0y5wezwqxvfahv2bexjcmm1tgxqsnlmyzm5zwyztxpprlfhcjzccc1unf9mane0uxpobwd2ahb3b0swnwvpnjflmxc-oc-5",
-      "title": "Marshall Grant McCall, Jr. - alpineavalanche.com",
+      "title": "Marshall Grant McCall, Jr. - Alpine Avalanche",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iZzdPeFhZRzRLQTFZeUFNYWw4SVBmVUtyVEVmbmRocGdjbXhCTWloWXV6R0Y5WEZwQXVFaHV2bExJcmM1TGxQSnlMYzM5ZWYzTXppRlFhcjZCcC1UNF9manE0UXpObWd2aHB3b0swNWVpNjFlMXc",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -21496,8 +21501,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "bdbe7972de1b9bc5",
-        "claim": "Marshall Grant McCall, Jr. - alpineavalanche.com",
+        "claimId": "7cd2e5d4ab1e705c",
+        "claim": "Marshall Grant McCall, Jr. - Alpine Avalanche",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -21661,7 +21666,7 @@
     },
     {
       "id": "zlu1unmtkd3d1dvndawnpndjqsg1kevy1qncyrer5ngxfbunfnjjxb1nnqjdlavdum3bdlvm3rljwb3fbr2xrthvrrxlxaujrawnsadfowxnwzf9qzg-oc-5",
-      "title": "Magic Eden’s Dazzling Rewards: Unveiling the Diamonds Airdrop and Future Earning Potentials - nftculture.com",
+      "title": "Magic Eden’s Dazzling Rewards: Unveiling the Diamonds Airdrop and Future Earning Potentials - nft culture",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUmpaZzUxbWt6dE82eEpRbWd1dFowa0hMcV9jZThEZk9rOGVqTXlnTnIxZ21lODhVek9yTVI1NmI5Y3VDTF90cFBVTkF5NTl1SWZNeDgweTc2VWlCTE9RWWN6QjVBOG1WZVRjOF9QZmRTZ0FPZF9zSFVmajRQRVFpcnJSM2IxdEF5ck5rSmxpRWprY2ZnNlNUZnZCWmdkdkNUYWJyU0ZuckhFLTBsWU5kYkt5RnNpdkhUZGhsZGpLci1zZHJj0gHMAUFVX3lxTFBiYWR1aDdqSncwamZTYy1yV1lJNUdJZ1U3dkh3NFNqQ2FMSVpkYjhEN3JxZ1NpQWZfeHhrYWNGWUhTUnRlRkZ0ZFZmcXZkb2FYWTloZzB1RW93RVBrTFZwX0pRY3ZzN1l6QW1iRTBYRjJkSG42SFUzLU1UNmtkd3d1dVNDaWNpNDJQSG1keVY1QncyRER5NGxFbUNFNjJxb1NNQjdLaVduM3BDLVM3RlJWb3FBR2xrTHVrRXlxaUJRaWNSaDFoWXNWZF9qZg",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
@@ -21676,8 +21681,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "6741017c66138ece",
-        "claim": "Magic Eden’s Dazzling Rewards: Unveiling the Diamonds Airdrop and Future Earning Potentials - nftculture.com",
+        "claimId": "2b41f202eb145573",
+        "claim": "Magic Eden’s Dazzling Rewards: Unveiling the Diamonds Airdrop and Future Earning Potentials - nft culture",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -21751,7 +21756,7 @@
     },
     {
       "id": "exsq1etmejkt3lhwvnuwddkmdbyztlxmkvuqk8zrvuzoe5idw1em0o1m2nfovj5c0vuuvv1r0dsbtzvwvlzvxbqovbldv9itk5vuv9kb3vpunlfmnz0-oc-5",
-      "title": "Washington State Patrol Issues Alert For Missing Indigenous Teenager In Grant County - kpq.com",
+      "title": "Washington State Patrol Issues Alert For Missing Indigenous Teenager In Grant County - NewsRadio 560 KPQ",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZNVJ5eF9jbHpSTExSQ1EtMEJKT3lhWVNuWDdKMDBYZTlxMkVUQk8zRVUzOE5IdW1EM0o1M2NFOVJ5c0VuUVV1R0dsbTZvWVlZVXBqOVBldV9iTk5VUV9kb3VPUnlfMnZ0",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -21766,8 +21771,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "4767702fe82def5e",
-        "claim": "Washington State Patrol Issues Alert For Missing Indigenous Teenager In Grant County - kpq.com",
+        "claimId": "a7f950824c438c9f",
+        "claim": "Washington State Patrol Issues Alert For Missing Indigenous Teenager In Grant County - NewsRadio 560 KPQ",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -22201,7 +22206,7 @@
     },
     {
       "id": "kfvx3lxtfbwzxrprdi4dlloqzzkv3zzugtqvzy5d04xakveywpnc1zbnlntcmh1s3dfvlj3qvp2cfc5nm9bzeywn0i1sju3d0jjtxdxmg9keu1vbjrb-oc-5",
-      "title": "Coinbase CEO Brian Armstrong Challenges Banks as Stablecoin Rewards Fight Grows - cryptonews.net",
+      "title": "Coinbase CEO Brian Armstrong Challenges Banks as Stablecoin Rewards Fight Grows - Cryptonews.net",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWZXRPRDI4dlloQzZkV3ZzUGtQVzY5d04xakVEYWpnc1ZBNlNtcmh1S3dFVlJ3QVp2cFc5Nm9BZEYwN0I1SjU3d0JjTXdXMG9keU1VbjRB",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
@@ -22217,7 +22222,7 @@
       "pressureSignals": 0,
       "evidenceLineage": {
         "claimId": "33048798dcf9e8b5",
-        "claim": "Coinbase CEO Brian Armstrong Challenges Banks as Stablecoin Rewards Fight Grows - cryptonews.net",
+        "claim": "Coinbase CEO Brian Armstrong Challenges Banks as Stablecoin Rewards Fight Grows - Cryptonews.net",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -22385,7 +22390,7 @@
     },
     {
       "id": "lttr3wgjmytmwbnzadkformdintzpvvc4m1jhaxvhefj2rndfu0hvy3k3ednjaujusjhtcuvrrwtbvf8wu2rwejfvzl9da1ras1c5cxvnmjfraknxma-oc-5",
-      "title": "Coinbase's Bitcoin-Focused Amex Card With Up to 4% BTC Rewards: What You Need to Know - coindesk.com",
+      "title": "Coinbase's Bitcoin-Focused Amex Card With Up to 4% BTC Rewards: What You Need to Know - CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNDJNcUQ2ZDZkNzhyS3NXX3d0eENTMkJaX3NRSG5yQ3daSkd5NXdNT29TeDF0QUFUdnctV25NblhnNHJTeEx1TkVlOEJ2bzk4dExDQlkySmZLOEhWOWg5NjZYODZZSDFBY2xLTTR3WGJMYTMwbnZadkFoRmdiNTZpVVc4M1JHaXVHeFJ2RndFU0hVY3k3eDNJaUJuSjhtcUVRRWtBVF8wU2RWejFvZl9Da1RaS1c5cXVNMjFrakNxMA",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
@@ -22400,8 +22405,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "2c0ac970ccd5845f",
-        "claim": "Coinbase's Bitcoin-Focused Amex Card With Up to 4% BTC Rewards: What You Need to Know - coindesk.com",
+        "claimId": "5c0f73cbcfa9e393",
+        "claim": "Coinbase's Bitcoin-Focused Amex Card With Up to 4% BTC Rewards: What You Need to Know - CoinDesk",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -23930,96 +23935,6 @@
       ]
     },
     {
-      "id": "rtfjhb2yzzkrxr0vuwwzysnlastrmtmpxnjlxajjhz1jadli2mjvdrvfpdhfya0c0m2hkderywwptazj0bk10umzmszk3qnneofjltgizlw03ogzyea-oc-5",
-      "title": "Yellow Card rewards \"A whole in Your Wallet\" winner with 1 bitcoin - Technext24.com",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE00eUcxUDVpMUx2aUd5Z1RBWWV6NEUzTGtFNE1rTFJhb2YzZkRXR0VUWWZySnlaSTRmTmpxNjlXajJHZ1JadlI2MjVDRVFpdHFYa0c0M2hKdERyWWpTazJ0bk10UmZMSzk3QnNEOFJlTGIzLW03OGZyeA",
-      "domain": "news.google.com",
-      "earningType": "speculative_or_token_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "rewards"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "ee14a472785da854",
-        "claim": "Yellow Card rewards \"A whole in Your Wallet\" winner with 1 bitcoin - Technext24.com",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — rewards",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 71,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Wed, 19 Apr 2023 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
       "id": "x3lxtfb0outkejmyblhhbhb3vmm2wjrqdgxxwm9ybkh3nvdmlws2wm5nni1cdmk0ujdaeljjdmc2amu3yzn2t3rqlw5ps1fpd2hndffkb2jiu1bqyna-oc-5",
       "title": "Missed OP, ARB? And these 10 popular airdrop projects - Binance",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0OUtkejMyblhHbHB3VmM2WjRQdGxXWm9Ybkh3NVdMLWs2Wm5NNi1Cdmk0UjdaelJjdmc2amU3YzN2T3RqLW5pS1Fpd2hndFFkb2JiU1BqYnA",
@@ -24807,96 +24722,6 @@
       "nextAction": "OWNER_REVIEW",
       "freshnessSignals": {
         "published": "Wed, 17 Jun 2026 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
-      "id": "sulfqwvrwrmtzvuc5szrhthllc0fzotbwawtqahridwlsm3bpcv9odudqeetaowo3zzn3t21hc0pid0havtgxqvrpb281wjqyamvkqthzz2f3dfrsqq-oc-5",
-      "title": "Learn about the social project UXLINK and its airdrop rules in one article - Binance",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE55emZfNkJsUlFQWVRWRmtzVUc5SzRhTHlLc0FZOTBWaWtQaHRidWlsM3BPcV9OdUdqeEtaOWo3ZzN3T21Hc0pId0haVTgxQVRPb281WjQyamVKQThzZ2F3dFRsQQ",
-      "domain": "news.google.com",
-      "earningType": "speculative_or_token_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "rewards"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "37ad2bb2af48176e",
-        "claim": "Learn about the social project UXLINK and its airdrop rules in one article - Binance",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — Layer3 campaigns",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 71,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Wed, 17 Jul 2024 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -25743,7 +25568,7 @@
     },
     {
       "id": "bbzy1uvd4thotdexivvr3rtq4qjrczmxnmjy0mtfyeu5fqzbpour3zuvvrmq4tzrzvzhfulo4t01veep0vnpstlrpxy1jvgxurk1wv0luaxk2agk4oa-oc-5",
-      "title": "Banks, crypto clash over stablecoin rewards in key Senate bill - thehill.com",
+      "title": "Banks, crypto clash over stablecoin rewards in key Senate bill - The Hill",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQjE0akllSlJlcVp0RThwQmVyM0wzRF9qUzRkdkp6Z0VOY0Njdkt2dC1WMl9WQjdlN1RSN3p0bHVITFdsZnlTLV9Tb1R2TlJHRy12OVFXMXFfalpQcExhMEtXUEotNFZZM1hwMGlybW45bGNkWHdmWHpLUzZjeEpyOFNR0gGHAUFVX3lxTE5UbXBBdnBQeURvUFNORDdZUUFSQWdORWF0MjVaNFBxTVVNT0VPaGZoX2RBbzY1UVd4THotdExiVVR3RTQ4QjRCZmxNMjY0MTFyeU5FQzBPOUR3ZUVVRmQ4TzRZVzhFUlo4T01veEp0VnpsTlRPXy1JVGxuRk1wV0lUaXk2aGk4OA",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
@@ -25758,8 +25583,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "59c3acf47f7054df",
-        "claim": "Banks, crypto clash over stablecoin rewards in key Senate bill - thehill.com",
+        "claimId": "370fda811c0046f8",
+        "claim": "Banks, crypto clash over stablecoin rewards in key Senate bill - The Hill",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -25923,7 +25748,7 @@
     },
     {
       "id": "c1yybfpirtrnrfdbsnbfsezkwjr3anrurl9unks0q29pm003qxn0vwnoddk5anjsv2fhoen0mhk5sm1ydnhkrefnsfbxwtezewm3ahpkd2htzjndsve-oc-5",
-      "title": "Largest Solana treasury stock lost $1B while earning 6.7% staking rewards - protos.com",
+      "title": "Largest Solana treasury stock lost $1B while earning 6.7% staking rewards - Protos | Informed crypto news",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR002cURkanl2eGxIdHpuOVVkeVVWYmJVaGFhLWJqVEdaV2ZTb3U0ZXZoVTFzTEtYTlhXckd1ZXNBc1YybFpIRTRNRFdBSnBFSEZkWjR3anRURl9UNks0Q29PM003QXN0VWNOdDk5anJsV2FhOEN0MHk5Sm1ydnhkREFnSFBxWTEzeWM3aHpkd2hTZjNDSVE",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
@@ -25938,8 +25763,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "19e364f60bbe0939",
-        "claim": "Largest Solana treasury stock lost $1B while earning 6.7% staking rewards - protos.com",
+        "claimId": "ca4c2f4f02c73973",
+        "claim": "Largest Solana treasury stock lost $1B while earning 6.7% staking rewards - Protos | Informed crypto news",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -26376,96 +26201,6 @@
       ]
     },
     {
-      "id": "2uxvxwnz4awlooup1akrptu1yzdk0b3zluwyxswjlqmtizhnqq0d1avh6vmdzdkj5melfrelxowe1cnjculliegxmvmlmqjhxyvhfsm5bwvn2rzvcdw-oc-5",
-      "title": "Layer3 raises $15 million Series A ahead of token launch and airdrop - The Block",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaG5ObGRxdkJWWWFRM1NRXzAzc09za0hTOE1qZmpUX3J4ZHFBSm9uMVBqRDFaQm5tNmVEd1Y2UXVxWnZ4aWloOUp1akRPTU1YZDk0b3ZlUWYxSWJlQmtIZHNQQ0d1aVh6VmdZdkJ5MElfRElxOWE1cnJCUllieGxmVmlmQjhXYVhFSm5BWVN2RzVCdw",
-      "domain": "news.google.com",
-      "earningType": "speculative_or_token_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "rewards"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "ddb9e89adbd5ac6f",
-        "claim": "Layer3 raises $15 million Series A ahead of token launch and airdrop - The Block",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — Layer3 campaigns",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 71,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Wed, 12 Jun 2024 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
       "id": "nc1y3r3vfhmtkt4nzy4r1dfc0ixdfbmtwhprwt0rg5vvhhpvhvsnlzin1m2ss1mawuxd1p3b0jjahnobhlcnll5shnlqjdrcl9vc2dswnz3ohhvszra-oc-5",
       "title": "Binance HODLer Airdrop Unveils Midnight (NIGHT) in Strategic 61st Token Distribution - CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UaUtVd3hHVDdUNE5lQWIzLWdzVzhORnc1Y3R3VFhmTkt4NzY4R1dfc0IxdFBmTWhpRWt0RG5vVHhpVHVSNlZiN1M2SS1maWUxd1p3b0JJaHNobHlCNll5SHNlQjdRcl9Vc2dSWnZ3OHhvSzRa",
@@ -26529,6 +26264,276 @@
       "nextAction": "OWNER_REVIEW",
       "freshnessSignals": {
         "published": "Wed, 11 Mar 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
+      "id": "duxrdnzgdnjnbjrlcvh6u1j2tlvjltnpsxpvevuzdgxhwu96t3atzw1eyzdwmdbhrljqrdjwzndta21mnkz3n3b3n29mauroety4b0x4cgjjm3c5dnc-oc-5",
+      "title": "One Year After Green Bank’s Demise, Court Mulls Future of Grant-Based Climate Policy - Inside Climate News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVVlJYzVDUmZXS1FGTnNaUHNnMjE2R1dPeUdwaTdDQ2IxeG1MQVVuLXh3OGwwUHFrSGFDRE0tdUxrdnZGdnJNbjRLcVh6U1J2TlVJLTNPSXpVeVUzdGxHWU96T3AtZW1EYzdWMDBhRlJQRDJwZndTa21mNkZ3N3B3N29MaURoeTY4b0x4cGJJM3c5dnc",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "d31e0410fce3c74e",
+        "claim": "One Year After Green Bank’s Demise, Court Mulls Future of Grant-Based Climate Policy - Inside Climate News",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Base programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 71,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 11 Mar 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
+      "id": "c04tltyyehkywmewcndtexrqujaxbknus1lfy2pkzuxhclvuytrstu1zmdrzbmhybdroukdyzzffumxavlkwv3bktdg2bnq2bjfqsjfen0y4ejhjx1c-oc-5",
+      "title": "A Beginner’s Roadmap to Earning Small Crypto Rewards Without Investment (2026 Guide) - Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oNlk2bWtZc04tLTYyeHkyWmEwcndTeXRqUjAxbkNuS1lFY2pKZUxHclVUYTRsTU1zMDRZbmhybDRoUkdyZzFfUmxaVlkwV3BKTDg2bnQ2bjFqSjFEN0Y4ejhJX1c",
+      "domain": "news.google.com",
+      "earningType": "speculative_or_token_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "rewards"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "af5b154ef7a375e6",
+        "claim": "A Beginner’s Roadmap to Earning Small Crypto Rewards Without Investment (2026 Guide) - Binance",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — community rewards",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 71,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 11 Mar 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
+      "id": "whobzhtuvbnew5xuvy0c0jzz3gxwlpsvwvbt3jtsznmz043uej6zxdms2tnswx6wepzy0pfm2ewrtfhovrkx3nfcjzbtkxfeergmvdctus5du9twurr-oc-5",
+      "title": "‘Quasi-spiritual moment’: Argentina's base camp in Kansas City brings joy for Grant Wahl's brother, friends - kshb.com",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUlJIWVpDZkhHb2REcktpTVZGRTRseUZjWF9iLUtod293MmNoZ0NXMmNYMEJ2QjByUHRsQ3RDRjZycTNia2hEWTFRajJGellpSTdBM0hPbWJ2MVliUzdDMGVTRzhfd29jcEZodGpfQmVBemQ3MlFaRUZYTEFSdmtZLWhobzhtUVBNeW5XUVY0c0JZZ3gxWlpsVWVBT3JtSzNMZ043UEJ6ZXdmS2tNSWx6WEpzY0pfM2EwRTFhOVRKX3NfcjZBTkxFeERGMVdCTUs5dU9tWURR",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 10000,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "2e32edf4505a3b56",
+        "claim": "‘Quasi-spiritual moment’: Argentina's base camp in Kansas City brings joy for Grant Wahl's brother, friends - kshb.com",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Base programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 71,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 11 Feb 2026 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
