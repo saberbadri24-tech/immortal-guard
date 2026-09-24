@@ -125,4 +125,5 @@ async function approveTonTransfer(){const dest=(document.getElementById('main-to
 loadMainTonAddress();loadTonReceipts();
 try{tonUI=new TON_CONNECT_UI.TonConnectUI({manifestUrl:TON_MANIFEST,buttonRootId:'ton-connect'});tonUI.onStatusChange(wallet=>{tonWallet=wallet;let s=document.getElementById('wallet-status');if(wallet){let a=wallet.account?.address||'';s.textContent='کیف پول موقت: '+(a.length>16?a.slice(0,8)+'…'+a.slice(-6):a)}else{s.textContent='کیف پول متصل نیست'}updateTransferUI()})}catch(e){document.getElementById('wallet-status').textContent='اتصال کیف پول آماده نیست';setTransferStatus('TON Connect در این مرورگر بارگذاری نشد.','warning')}
 </script>
+<script src="live-monitor.js"></script>
 </body></html>
