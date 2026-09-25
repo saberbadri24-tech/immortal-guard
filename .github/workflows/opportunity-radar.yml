@@ -8,7 +8,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: opportunity-radar
+  group: opportunity-radar-v2
   cancel-in-progress: true
 jobs:
   collect:
