@@ -26,7 +26,7 @@ def claude_review(key,model,item):
     return ''.join(x.get('text','') for x in r.get('content',[]) if x.get('type')=='text')
 def main():
     data=json.loads(DATA.read_text(encoding='utf-8')); items=[x for x in data.get('items',[]) if x.get('status')!='blocked'][:20]
-    cfg={'astra':(os.getenv('OPENAI_API_KEY'),os.getenv('ASTRA_MODEL','gpt-5.4')),'claude':(os.getenv('ANTHROPIC_API_KEY'),os.getenv('CLAUDE_MODEL','claude-sonnet-4-6'))}
+    cfg={'astra':(os.getenv('OPENAI_API_KEY'),os.getenv('ASTRA_MODEL','gpt-5.6-luna')),'claude':(os.getenv('ANTHROPIC_API_KEY'),os.getenv('CLAUDE_MODEL','claude-sonnet-4-6'))}
     missing=[n for n,(k,_) in cfg.items() if not k]; reviews=[]; successes=0; provider={n:0 for n in cfg}
     for item in items:
         row={'id':item.get('id'),'url':item.get('url'),'at':datetime.now(timezone.utc).isoformat(),'models':{}}
