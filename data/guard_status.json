@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T18:40:59.830110+00:00",
+  "updatedAt": "2026-09-25T18:47:06.492884+00:00",
   "automation": {
     "discovery": true,
     "deduplication": true,
@@ -14,7 +14,11 @@
     "privateKeyStorage": false,
     "kycBypass": false,
     "captchaBypass": false,
-    "sybilBypass": false
+    "sybilBypass": false,
+    "aiCouncil": true,
+    "liveExternalAstra": false,
+    "liveExternalClaude": false,
+    "localReviewFallback": true
   },
   "counts": {
     "opportunities": 300,
@@ -27,7 +31,7 @@
     "addressSource": "OWNER_CONFIG"
   },
   "blockers": [
-    "TEMP_TON_ADDRESS is not configured",
-    "Claims requiring signature/KYC/CAPTCHA remain owner-approved actions"
-  ]
+    "TEMP_TON_ADDRESS is not configured"
+  ],
+  "ownerApprovalBoundary": "Claims/signatures/KYC/CAPTCHA remain explicit owner actions"
 }
