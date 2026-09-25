@@ -10,6 +10,8 @@ connects a wallet, signs, claims, transfers, or bypasses controls.
 import json
 import re
 import socket
+import ipaddress
+import time
 import urllib.request
 import urllib.parse
 from datetime import datetime, timezone
@@ -47,12 +49,32 @@ def safe_url(url):
     p = urllib.parse.urlparse(url)
     return p.scheme.lower() == "https" and bool(p.netloc) and not p.username and not p.password
 
+def resolve_public(hostname):
+    try:
+        infos = socket.getaddrinfo(hostname, 443, type=socket.SOCK_STREAM)
+        ips = sorted({info[4][0] for info in infos})
+        for raw in ips:
+            ip = ipaddress.ip_address(raw)
+            if ip.is_private or ip.is_loopback or ip.is_link_local or ip.is_reserved or ip.is_multicast or ip.is_unspecified:
+                return False, ips
+        return bool(ips), ips
+    except Exception:
+        return False, []
+
 def fetch(url):
-    req = urllib.request.Request(url, headers=HEADERS, method="GET")
-    with urllib.request.urlopen(req, timeout=12) as r:
-        body = r.read(180000)
-        final_url = r.geturl()
-        return r.status, final_url, r.headers.get("content-type", ""), body
+    last = None
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS, method="GET")
+            with urllib.request.urlopen(req, timeout=12) as r:
+                body = r.read(180000)
+                final_url = r.geturl()
+                return r.status, final_url, r.headers.get("content-type", ""), body
+        except Exception as exc:
+            last = exc
+            if attempt < 2:
+                time.sleep(1 + attempt)
+    raise last
 
 def verify(item):
     url = str(item.get("url") or "").strip()
@@ -69,6 +91,10 @@ def verify(item):
         "finalDomain": None,
         "domainAligned": False,
         "contentType": None,
+        "publicHost": False,
+        "resolvedIps": [],
+        "rewardSignal": False,
+        "eligibilitySignal": False,
         "expiredSignal": bool(EXPIRY.search(blob)),
         "deadlineSignal": bool(DEADLINE.search(blob)),
         "blockedSignal": bool(BLOCK.search(blob)),
@@ -81,6 +107,14 @@ def verify(item):
         return result
     result["https"] = True
     try:
+        initial_host = host(url)
+        public, ips = resolve_public(initial_host)
+        result["publicHost"] = public
+        result["resolvedIps"] = ips[:10]
+        if not public:
+            result["reasons"].append("host-did-not-resolve-to-public-address")
+            result["verification"] = "REJECT"
+            return result
         status, final_url, ctype, body = fetch(url)
         final_host = host(final_url)
         text = re.sub(r"<[^>]+>", " ", body.decode("utf-8", "replace"))
@@ -92,18 +126,23 @@ def verify(item):
         result["contentType"] = ctype
         result["redirected"] = final_url.rstrip("/") != url.rstrip("/")
         result["domainAligned"] = root_domain(host(url)) == root_domain(final_host)
+        result["finalHttps"] = urllib.parse.urlparse(final_url).scheme.lower() == "https"
         result["expiredSignal"] = result["expiredSignal"] or bool(EXPIRY.search(text))
         result["deadlineSignal"] = result["deadlineSignal"] or bool(DEADLINE.search(text))
+        result["rewardSignal"] = bool(re.search(r"(\$\s?[0-9][0-9,.]*|USD|reward|rewards|bounty|grant|prize|airdrop|points)", text, re.I))
+        result["eligibilitySignal"] = bool(re.search(r"(eligible|eligibility|requirements?|qualify|qualification|region|country|resident|KYC|identity)", text, re.I))
         result["blockedSignal"] = result["blockedSignal"] or bool(BLOCK.search(text))
         if not result["reachable"]:
             result["reasons"].append(f"http-status-{status}")
+        if not result["finalHttps"]:
+            result["reasons"].append("final-url-not-HTTPS")
         if not result["domainAligned"]:
             result["reasons"].append("cross-domain-redirect")
         if result["blockedSignal"]:
             result["reasons"].append("unsafe-instructions-detected")
         if result["expiredSignal"]:
             result["reasons"].append("expired-or-closed-signal")
-        if result["reachable"] and result["domainAligned"] and not result["blockedSignal"] and not result["expiredSignal"]:
+        if result["reachable"] and result["finalHttps"] and result["domainAligned"] and not result["blockedSignal"] and not result["expiredSignal"]:
             result["verification"] = "REACHABLE_DOMAIN_ALIGNED"
         elif result["reachable"] and not result["blockedSignal"]:
             result["verification"] = "REVIEW"
