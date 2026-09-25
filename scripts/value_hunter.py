@@ -100,10 +100,10 @@ def main():
             "doNotCountAsIncome":not direct,
         })
     candidates.sort(key=lambda x:(x["valueScore"],x["maxExplicitRewardUsd"],x.get("trustScore",0),x.get("freshnessDays") is None),reverse=True)
-    top=candidates[:25]
+    top=candidates
     direct=[x for x in top if x["incomeMode"]=="direct_or_application_based"]
-    high=[x for x in top if x["maxExplicitRewardUsd"]>=VALUE_CUTOFF]
-    hunt=top[:10]
+    high=[x for x in candidates if x["maxExplicitRewardUsd"]>=VALUE_CUTOFF]
+    hunt=top
     out={
         "version":1,"updatedAt":now.isoformat(),"monthlyTargetUsd":TARGET,
         "valueCutoffUsd":VALUE_CUTOFF,"staleDays":STALE_DAYS,
@@ -115,13 +115,13 @@ def main():
             "primary":"prioritize fresh, evidence-backed opportunities with explicit high-value rewards or direct earning mechanisms",
             "secondary":"bounties/grants/contests/developer programs outrank low-value points-only campaigns",
             "antiNoise":"stale announcements and repeated low-value campaigns are not promoted into the daily hunt",
-            "incomeRule":"only owner-confirmed received funds count toward the $10,000 monthly target"
+            "incomeRule":"only owner-confirmed received funds count toward the $2,000 monthly target"
         }
     }
     OUT.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     h={
         "version":2,"updatedAt":now.isoformat(),"huntDateUtc":now.date().isoformat(),
-        "dailyLimit":10,"count":len(hunt),"allQualifiedCount":len(candidates),
+        "dailyLimit":len(hunt),"count":len(hunt),"allQualifiedCount":len(candidates),
         "highValueCount":len(high),"directEarningCount":len(direct),
         "monthlyTargetUsd":TARGET,"actualCollectedUsd":0,
         "targetGapUsd":TARGET,"opportunityIds":[x["id"] for x in hunt],
