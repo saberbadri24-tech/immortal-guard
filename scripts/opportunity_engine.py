@@ -165,7 +165,7 @@ def analyze(item, radar_index):
         "id": item.get("id"), "title": title[:300], "url": url, "domain": host,
         "earningType": earningType, "explicitUsdAmounts": explicitMoney,
         "countsTowardMonthlyTarget": bool(explicitMoney) and earningType == "direct_or_application_based",
-        "monthlyTargetUsd": 10000,
+        "monthlyTargetUsd": 2000,
         "specialists": specialists, "trustScore": trust,
         "evidenceCount": len(set(item.get("evidence", []))),
         "actionComplexity": actions, "pressureSignals": pressure,
