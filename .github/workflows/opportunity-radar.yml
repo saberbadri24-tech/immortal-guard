@@ -13,7 +13,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - name: Compile-check Guard scripts
@@ -56,4 +56,17 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/radar_intel.json data/radar_memory.json data/radar_alerts.json data/opportunities.json data/history.json data/engine_reviews.json data/evidence_graph.json data/airdrop_plus.json data/value_hunt.json data/owner_actions.json data/collection_queue.json data/temp_wallet.json data/claim_adapters.json data/ton_receipts.json data/ton_receipt_state.json data/ai_reviews.json data/daily_hunt.json data/owner_approval_ledger.json data/guard_status.json
-          if git diff --cached --quiet; then echo 'No changes'; else git commit -m 'chore: refresh immortal guard radar'; git push; fi
+          if git diff --cached --quiet; then echo 'No changes'; else
+            git commit -m 'chore: refresh immortal guard radar'
+            for attempt in 1 2 3; do
+              git fetch origin main
+              if git rebase origin/main && git push origin HEAD:main; then
+                echo "Push succeeded on attempt $attempt"
+                exit 0
+              fi
+              git rebase --abort || true
+              sleep $((attempt * 5))
+            done
+            echo 'Push failed after 3 retries' >&2
+            exit 1
+          fi
