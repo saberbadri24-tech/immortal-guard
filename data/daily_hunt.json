@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-24T22:18:38.117956+00:00",
-  "huntDateUtc": "2026-09-24",
+  "updatedAt": "2026-09-25T00:36:39.072498+00:00",
+  "huntDateUtc": "2026-09-25",
   "dailyLimit": 10,
   "count": 10,
   "allQualifiedCount": 300,
@@ -12,15 +12,15 @@
   "targetGapUsd": 10000.0,
   "opportunityIds": [
     "vdwh4wve2uehkskq4q2g2cuf4rlo1mnjrcwzjv3dldflqn0zsdlfxnvbvcglyrktwwkdkylhxtk1nwvdfeustadkxsvnkbfi4ufixrfn2sefma0dguw-oc-5",
+    "wsvy4ylvnnfi2wgt5edvvrc1ly2rizmo0ytfltdq2em5ormt3vmfgwe9pmwtxbdzxtvvdn1f2cmc4zg9zuegxlulbzvnqm3zimu51vejqakrjaelmuq-oc-5",
+    "y02zwzkn2xnaflyd0y0wezlx2rbwdflreo0whdezxvqvlzwadfbuul3rdfksmgzbdzsb0hxyuz3vtlcegxkwxjqqnbeb3riy2jlvw5mb0texzc4reli-oc-5",
     "uhewuzxstq5nmjyz2fesg9quv85axh6exjotnrxn2txszhdnxb6ek04zvbsrjy0mkroqmfzrmlneehwqllwt3p0rnzpcnh3eexzzzctmxjidvl0oglb-oc-5",
     "c1roohzpodbpogzjvwvtawvicdu4cw9qy3p1zlitbxpxem0znnvgd1rwq29xvdrvotmtnnrlukhva1ppehlomdr3wxblevrfuwvitgtxwlp0ejncyla-oc-5",
     "ku5txzhemdoovvrujnnqkfquhvnyvg5alvkovyzcwlzehjov3p4s0llrui0yutwbxl5yzj3bmv2a0zawllvym5jwjhoeexjdxhmt003stvhdzlyczzr-oc-5",
     "oczfdutkzzepyse9revbyzm5tuvpkdtj0verxdkh5atvptxnivzvjekvrlwtgq1pasg90cdjcawvbwhhzsgvrret0swfxrvbslvzazmladuyya3l5zw-oc-5",
     "ni10wxezb0lsaegxee9nvujlx28zewg0akfvrfqyenvhdg0yuur4enzpq1nuywo5ujvjtfzpvtfhzgczym1icjnruuhzm2vld1dfu29unjlou1rfz1e-oc-5",
     "iugywtktiyzdirzjkdtu3rhhzz2zcyna0vegxvmhvazzlvxytbwwyzut1bxbuekvlbzbhcuxjylhoympqvgndy0tlnmlwzjjnmwpxqlvfd3pla2kzzw-oc-5",
-    "uce41y0nmqkntchc5m01atnywbwpsvuc2cfdmnk5klxbkvzzzzkvttw9dy0pmqkzazevtogq1n2zkqwlkagjkekl3qkjab0vocwm1rgxtegk1sgrtbq-oc-5",
-    "z3lfsenjugfazupfrk1fugf2rhlfvllnymq2mgjxrkl0mjlvyuvpzhditzg2mno3d2xyqxzpcm5nnvfsaklfdky5ympzrk5srevuyxrxq1nbwwppt2c-oc-5",
-    "cwp5bk4trwr6yl9ar2o4vjhyvlcwa09hag9kngndohe1bnpfbjfdwfjlmjg0mklnttu4zfzurvlzwelrrunfntn1tlnnnv91zfbmsnr0znbwnfa4mue-oc-5"
+    "uce41y0nmqkntchc5m01atnywbwpsvuc2cfdmnk5klxbkvzzzzkvttw9dy0pmqkzazevtogq1n2zkqwlkagjkekl3qkjab0vocwm1rgxtegk1sgrtbq-oc-5"
   ],
   "opportunities": [
     {
@@ -90,6 +90,213 @@
       "nextAction": "OWNER_REVIEW",
       "freshnessSignals": {
         "published": "Thu, 16 Jan 2025 08:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          10000000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 10000000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
+    },
+    {
+      "id": "wsvy4ylvnnfi2wgt5edvvrc1ly2rizmo0ytfltdq2em5ormt3vmfgwe9pmwtxbdzxtvvdn1f2cmc4zg9zuegxlulbzvnqm3zimu51vejqakrjaelmuq-oc-5",
+      "title": "Mira Network Reaches 1 Million Users Amidst Successful $10M Grant Program - blockchain.news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb1d5Wm1pb25BX25oYS1oZXBTcWUtRko4eXhsdGdxYUhyYWJJRHRmcWVOUGxLWFcwQkdUWUl3Zk1TZEJxWll0ZEl0M0Fwa1V1SDhBdElWSVY4YlVNNFI2WGt5eDVVRC1LY2RiZmo0YTFLTDQ2em5ORmt3VmFGWE9PMWtxbDZxTVVDN1F2cmc4ZG9zUEgxLUlBZVNQM3ZIMU51VEJqakRJaElMUQ",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        10000000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000.0,
+      "specialists": [
+        "grant",
+        "ecosystem"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "ba0766d4625f83f7",
+        "claim": "Mira Network Reaches 1 Million Users Amidst Successful $10M Grant Program - blockchain.news",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — official announcements",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 84,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Fri, 28 Feb 2025 08:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          10000000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 10000000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
+    },
+    {
+      "id": "y02zwzkn2xnaflyd0y0wezlx2rbwdflreo0whdezxvqvlzwadfbuul3rdfksmgzbdzsb0hxyuz3vtlcegxkwxjqqnbeb3riy2jlvw5mb0texzc4reli-oc-5",
+      "title": "Ethernity Chain Unveils $10 Million Grant Program to Empower Founders - CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa0trdlRCelNhUWFuOHpJbGIwR1M3SHJHLXdTUFZOYjFFbUJJNFlQbExWRm1QYnhGUWJTQm0wVUtIWW5vbHMyRVBPUl9rS3VhSEVJTjFfYy02ZWZkN2xnaFlyd0Y0WEZLX2RBWDFlREo0WHdEZXVqVlZwaDFBUUl3RDFKSmgzbDZSb0hxYUZ3VTlCeGxKWXJqQnBEb3RiY2JlVW5Mb0tEXzc4REli",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        10000000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 10000.0,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "2038df86aa548a2e",
+        "claim": "Ethernity Chain Unveils $10 Million Grant Program to Empower Founders - CryptoSlate",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — grants",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 81,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Tue, 10 Sep 2024 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -646,7 +853,7 @@
     },
     {
       "id": "iugywtktiyzdirzjkdtu3rhhzz2zcyna0vegxvmhvazzlvxytbwwyzut1bxbuekvlbzbhcuxjylhoympqvgndy0tlnmlwzjjnmwpxqlvfd3pla2kzzw-oc-5",
-      "title": "GMX to receive $9.6 million under Arbitrum grant program - ForkLog",
+      "title": "GMX to receive $9.6 million under Arbitrum grant program - forklog.com",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTd4XzlSZFFucjl3dDI4elVuN0VJUVllUXZuSTJvbWNzMGJxeEw2bUhIUGYwTktIYzdiRzJkdTU3RHhZZ2ZCYnA0VEgxVmhVazZlVXYtbWwyZUt1bXBuekVLbzBhcUxjYlhoYmpQVGNDY0tlNmlWZjJnMWpXQlVFd3pla2kzZw",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -663,8 +870,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "50436837cb7daeae",
-        "claim": "GMX to receive $9.6 million under Arbitrum grant program - ForkLog",
+        "claimId": "5ca11340702bbac1",
+        "claim": "GMX to receive $9.6 million under Arbitrum grant program - forklog.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -843,214 +1050,6 @@
       ],
       "valueScore": 100,
       "maxExplicitRewardUsd": 9000000.0,
-      "freshnessDays": null,
-      "highValueSignal": true,
-      "incomeMode": "direct_or_application_based",
-      "priorityBand": "HIGH_VALUE",
-      "targetContributionMode": "evidence_only_until_paid",
-      "requiredNextStep": "OWNER_REVIEW",
-      "doNotCountAsIncome": false
-    },
-    {
-      "id": "z3lfsenjugfazupfrk1fugf2rhlfvllnymq2mgjxrkl0mjlvyuvpzhditzg2mno3d2xyqxzpcm5nnvfsaklfdky5ympzrk5srevuyxrxq1nbwwppt2c-oc-5",
-      "title": "Polymarket Opens $5M Bug Bounty to Stress-Test Betting Market - Bitcoin Foundation",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUThhTVBIdEE5SFBDc2t0bm04S29LX09OWklOSHRiRU1lemhEZ1RiSUppMnJ1Z3lfSENJUGFaZUpFRk1FUGF2RHlFVllnYmQ2MGJXRkl0MjlVYUVpZHdiTzg2Mno3d2xyQXZPcm5NNVFsaklFdkY5YmpzRk5SREVUYXRXQ1NBWWpPT2c",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [
-        5000000.0
-      ],
-      "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
-      "specialists": [
-        "bounty",
-        "ecosystem"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "b615e46f49cf52be",
-        "claim": "Polymarket Opens $5M Bug Bounty to Stress-Test Betting Market - Bitcoin Foundation",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — security bounties",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 84,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Tue, 14 Apr 2026 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [
-          5000000.0
-        ],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ],
-      "valueScore": 100,
-      "maxExplicitRewardUsd": 5000000.0,
-      "freshnessDays": null,
-      "highValueSignal": true,
-      "incomeMode": "direct_or_application_based",
-      "priorityBand": "HIGH_VALUE",
-      "targetContributionMode": "evidence_only_until_paid",
-      "requiredNextStep": "OWNER_REVIEW",
-      "doNotCountAsIncome": false
-    },
-    {
-      "id": "cwp5bk4trwr6yl9ar2o4vjhyvlcwa09hag9kngndohe1bnpfbjfdwfjlmjg0mklnttu4zfzurvlzwelrrunfntn1tlnnnv91zfbmsnr0znbwnfa4mue-oc-5",
-      "title": "Hacker Accepts 10% Bounty and Returns Nearly $5M Stolen from ZKsync Airdrop Exploit - CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOczJmdTRJNFlfQjBJYnN4NXJIN25XLWVDVUpWSkRVdi16dEZ3dW9OVFVPeWpZai1Bc3FvYjVfdjlLaWZFSlJTdXpzRmNXN1JWQllqcVN2bC1LMnJJVGZ5NlY5NGVwWktCd00tODZSTnMyV0tNWi03V3Y0UkwzcWp5bk4tRWR6Yl9aR2o4VjhyVlcwa09haG9kNGNDOHE1bnpFbjFDWFJLMjg0MklnTTU4ZFZuRVlZWElrRUNfNTN1TlNnNV91ZFBmSnR0ZnBwNFA4MUE",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [
-        5000000.0
-      ],
-      "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
-      "specialists": [
-        "bounty",
-        "rewards"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "1160f487dfa62f84",
-        "claim": "Hacker Accepts 10% Bounty and Returns Nearly $5M Stolen from ZKsync Airdrop Exploit - CoinMarketCap",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — zkSync programs",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 74,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Wed, 23 Apr 2025 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [
-          5000000.0
-        ],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ],
-      "valueScore": 100,
-      "maxExplicitRewardUsd": 5000000.0,
       "freshnessDays": null,
       "highValueSignal": true,
       "incomeMode": "direct_or_application_based",
