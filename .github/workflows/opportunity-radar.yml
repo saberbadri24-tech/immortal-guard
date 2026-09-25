@@ -44,7 +44,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ASTRA_MODEL: gpt-5.4
+          ASTRA_MODEL: gpt-5.6-luna
           CLAUDE_MODEL: claude-sonnet-4-6
         run: python3 scripts/ai_council.py
       - name: Build Guard health snapshot
