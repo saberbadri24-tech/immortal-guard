@@ -232,7 +232,7 @@ def main():
         changed = old is None or old.get("score") != r.get("score")
         if changed:
             new_or_changed.append(r)
-    qualified = new_or_changed[:10]
+    qualified = new_or_changed
     specialist_counts = Counter(s for r in reviews for s in r["specialists"])
     now = datetime.now(timezone.utc).isoformat()
     payload = {
@@ -247,13 +247,13 @@ def main():
         "count": len(reviews),
         "verdicts": dict(counts),
         "specialistCounts": dict(specialist_counts),
-        "monthlyTargetUsd": 10000,
+        "monthlyTargetUsd": 2000,
         "qualifiedEarningPotentialUsd": sum(max(r.get("explicitUsdAmounts",[]) or [0]) for r in reviews if r.get("countsTowardMonthlyTarget")),
         "actualCollectedUsd": 0,
         "actualCollectedRule": "Only owner-confirmed received funds count; opportunity estimates never count as income.",
         "convergenceModel": "independent source domains > repeated copies; on-chain/security signals are separate evidence types",
-        "items": reviews[:300],
-        "qualifiedDailyLimit": 10,
+        "items": reviews,
+        "qualifiedDailyLimit": len(new_or_changed),
         "allQualifiedCount": len(qualified_all),
         "qualifiedDailyCount": len(qualified),
         "qualifiedDailyIds": [r.get("id") for r in qualified],
@@ -267,7 +267,7 @@ def main():
         "version": 1,
         "updatedAt": now,
         "huntDateUtc": now[:10],
-        "dailyLimit": 10,
+        "dailyLimit": len(qualified),
         "count": len(qualified),
         "allQualifiedCount": len(qualified_all),
         "newOrChangedCount": len(new_or_changed),
@@ -275,7 +275,7 @@ def main():
         "newIncomeQualifiedCount": sum(r.get("countsTowardMonthlyTarget") for r in qualified),
         "opportunityIds": [r.get("id") for r in qualified],
         "opportunities": qualified,
-        "rule": "Count only high-confidence candidates from trusted domains; daily hunt means new or materially changed opportunities. Maximum 10 displayed.",
+        "rule": "Count only high-confidence candidates from trusted domains; daily hunt includes every new or materially changed qualifying opportunity.",
         "incomeRule": "Opportunity count is not income. Only owner-confirmed received funds count as collected revenue."
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     h = json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else {"runs":[]}
