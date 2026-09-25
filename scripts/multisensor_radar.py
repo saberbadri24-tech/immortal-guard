@@ -386,7 +386,7 @@ def main():
         'memoryItems': len(memory),
         'alertCount': len(alerts),
         'noveltyLayer': 'temporal memory + change detection + convergence-aware research priority',
-        'items': results[:500],
+        'items': results[:5000],
         'methodology': (
             'Multisensor discovery combines new/trending pools, public DEX profiles, boosts and '
             'community takeovers. It separates market-signal strength from security risk. '
