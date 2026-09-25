@@ -66,7 +66,7 @@ def feed(name,url):
     q=urllib.request.Request(url,headers={"User-Agent":"ImmortalGuardOpportunityRadar/2.0"})
     with urllib.request.urlopen(q,timeout=20) as r: raw=r.read(2500000)
     root=ET.fromstring(raw); entries=root.findall(".//item") or root.findall(".//{*}entry"); out=[]
-    for it in entries[:100]:
+    for it in entries[:200]:
         title=txt(it,"title","{*}title"); link=txt(it,"link","{*}link")
         if not link:
             e=it.find("{*}link"); link=e.attrib.get("href","") if e is not None else ""
@@ -86,13 +86,30 @@ def main():
     for n,u in FEEDS.items():
         try:items+=feed(n,u)
         except Exception as e:errors.append({"publisher":n,"error":str(e)[:300]})
-    items=list({x["url"].rstrip("/"):x for x in items}.values()); items=sorted(items,key=lambda x:(x["score"],x.get("published","")),reverse=True)[:300]
+    merged={}
+    for x in items:
+        key=x["url"].rstrip("/")
+        if key not in merged:
+            merged[key]=x
+            merged[key]["publishers"]=[x.get("publisher")]
+            merged[key]["sourceCount"]=1
+        else:
+            m=merged[key]
+            m["publishers"]=sorted(set((m.get("publishers") or [])+[x.get("publisher")]))
+            m["sourceCount"]=len(m["publishers"])
+            m["evidence"]=sorted(set((m.get("evidence") or [])+(x.get("evidence") or [])+["multi-publisher-convergence"]))
+            m["score"]=max(m.get("score",0),x.get("score",0))+min(10,m["sourceCount"]*2)
+            m["score"]=min(100,m["score"])
+            if x.get("published") and x.get("published")>m.get("published",""):
+                m["published"]=x["published"]
+    items=sorted(merged.values(),key=lambda x:(x["score"],x.get("sourceCount",1),x.get("published","")),reverse=True)
     now=datetime.now(timezone.utc).isoformat(); old=load(OUT,{"items":[]}); om={x.get("url"):x for x in old.get("items",[])}
     for x in items:
         if x["url"] in om and om[x["url"]].get("score")!=x["score"]: x["scoreChanged"]={"from":om[x["url"]].get("score"),"to":x["score"]}
     h=load(HISTORY,{"runs":[]}); h["runs"]=(h.get("runs",[])+[{"at":now,"count":len(items),"blocked":sum(x["status"]=="blocked" for x in items),"feedErrors":errors}])[-500:]
     OUT.parent.mkdir(parents=True,exist_ok=True)
-    OUT.write_text(json.dumps({"version":2,"updatedAt":now,"count":len(items),"items":items,"sourceErrors":errors,"engine":{"coordinator":"Astra","reviewer":"Claude","discovery":"Google News + official feeds","finalGuard":"Immortal Guard","scanIntervalMinutes":5,"learning":"score/history deltas","autoClaim":False,"autoTransfer":False,"autoSigning":False,"secretStorage":False}},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    OUT.write_text(json.dumps({"version":2,"updatedAt":now,"count":len(items),"items":items,"sourceErrors":errors,"engine":{"coordinator":"Astra","reviewer":"Claude","discovery":"Google News + official feeds","finalGuard":"Immortal Guard","scanIntervalMinutes":5,
+        "deduplication": "URL-level merge with multi-publisher convergence; no global candidate cap","learning":"score/history deltas","autoClaim":False,"autoTransfer":False,"autoSigning":False,"secretStorage":False}},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     HISTORY.write_text(json.dumps({"version":1,"runs":h["runs"]},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"Radar: {len(items)} items; blocked={sum(x['status']=='blocked' for x in items)}; errors={len(errors)}")
 if __name__=="__main__":main()
