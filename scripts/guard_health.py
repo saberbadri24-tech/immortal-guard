@@ -28,6 +28,7 @@ def main():
     opps = load("opportunities.json")
     adapters = load("claim_adapters.json")
     temp = load("temp_wallet.json")
+    ai = load("ai_reviews.json")
     health = {
         "version": 1,
         "updatedAt": now,
@@ -44,7 +45,11 @@ def main():
             "privateKeyStorage": False,
             "kycBypass": False,
             "captchaBypass": False,
-            "sybilBypass": False
+            "sybilBypass": False,
+            "aiCouncil": True,
+            "liveExternalAstra": bool(ai.get("providerSuccess", {}).get("astra", 0)),
+            "liveExternalClaude": bool(ai.get("providerSuccess", {}).get("claude", 0)),
+            "localReviewFallback": bool(ai.get("count", 0))
         },
         "counts": {
             "opportunities": len(opps.get("items", [])),
@@ -60,7 +65,7 @@ def main():
     }
     if not receipts.get("configured"):
         health["blockers"].append("TEMP_TON_ADDRESS is not configured")
-    health["blockers"].append("Claims requiring signature/KYC/CAPTCHA remain owner-approved actions")
+    health["ownerApprovalBoundary"] = "Claims/signatures/KYC/CAPTCHA remain explicit owner actions"
     Path("data/guard_status.json").write_text(
         json.dumps(health, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
