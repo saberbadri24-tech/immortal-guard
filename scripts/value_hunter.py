@@ -13,7 +13,7 @@ from urllib.parse import urlparse
 IN=Path("data/engine_reviews.json")
 OUT=Path("data/value_hunt.json")
 HUNT=Path("data/daily_hunt.json")
-TARGET=10000.0
+TARGET=2000.0
 STALE_DAYS=60
 VALUE_CUTOFF=2000.0
 
