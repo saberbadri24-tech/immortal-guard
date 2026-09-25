@@ -15,6 +15,7 @@ OUT = Path("data/engine_reviews.json")
 HUNT = Path("data/daily_hunt.json")
 HISTORY = Path("data/history.json")
 RADAR = Path("data/radar_intel.json")
+VERIFICATION = Path("data/verification_gate.json")
 
 SPECIALISTS = {
     "bounty": re.compile(r"\b(bug bounty|bounty|security research|vulnerability|hackerone)\b", re.I),
@@ -125,7 +126,7 @@ def earning_class(text, specialists):
         return "speculative_or_token_based"
     return "unknown"
 
-def analyze(item, radar_index):
+def analyze(item, radar_index, verification_index):
     title = item.get("title", "")
     note = item.get("note", "")
     text = f"{title} {note} {item.get('url','')}"
@@ -134,6 +135,7 @@ def analyze(item, radar_index):
     url = clean_url(item.get("url", ""))
     host = urlparse(url).netloc.lower().removeprefix("www.")
     blocked = bool(BLOCK.search(text)) or item.get("status") == "blocked"
+    verification = verification_index.get(str(item.get("id"))) or {}
     pressure = len(PRESSURE.findall(text))
     actions = len(ACTION.findall(text))
     specialists = classify(text)
@@ -143,6 +145,16 @@ def analyze(item, radar_index):
     score += trust + min(15, len(set(item.get("evidence", []))) * 3)
     score += min(12, len(specialists) * 3)
     score += min(15, lineage["independentSources"] * 5)
+    if verification.get("verification") == "REACHABLE_DOMAIN_ALIGNED":
+        score += 10
+    elif verification.get("verification") == "REJECT":
+        score -= 40
+    elif verification.get("verification") == "REVIEW":
+        score += 2
+    if verification.get("expiredSignal"):
+        score -= 35
+    if verification.get("blockedSignal"):
+        blocked = True
     cost_signals = len(re.findall(r"\b(fee|fees|gas|deposit|stake|subscription|purchase)\b", text, re.I))
     eligibility_signals = len(re.findall(r"\b(eligible|eligibility|requirements?|qualify|qualification|region|country|geographic|residen|kyc|passport|identity|age)\b", text, re.I))
     deadline_signals = len(re.findall(r"\b(deadline|ends?|until|expires?|closing|closes|snapshot)\b", text, re.I))
@@ -150,6 +162,8 @@ def analyze(item, radar_index):
     score -= min(24, pressure * 8) + min(15, actions * 3) + min(12, cost_signals * 2)
     if suspicious_host and trust < 24:
         score -= 12
+    if not verification:
+        score -= 8
     if blocked:
         score = 0
     score = max(0, min(100, score))
@@ -169,7 +183,9 @@ def analyze(item, radar_index):
         "specialists": specialists, "trustScore": trust,
         "evidenceCount": len(set(item.get("evidence", []))),
         "actionComplexity": actions, "pressureSignals": pressure,
-        "evidenceLineage": lineage, "score": score, "verdict": verdict,
+        "evidenceLineage": lineage,
+        "verification": verification,
+        "score": score, "verdict": verdict,
         "risk": risk, "nextAction": action,
         "freshnessSignals": {
             "published": item.get("published",""),
@@ -206,6 +222,12 @@ def main():
     data = json.loads(IN.read_text(encoding="utf-8"))
     raw = data.get("items", [])
     radar_index = {}
+    verification_index = {}
+    if VERIFICATION.exists():
+        try:
+            verification_index = {str(x.get("id")): x for x in json.loads(VERIFICATION.read_text(encoding="utf-8")).get("items", []) if x.get("id")}
+        except Exception:
+            verification_index = {}
     if RADAR.exists():
         try:
             for x in json.loads(RADAR.read_text(encoding="utf-8")).get("items", []):
@@ -213,7 +235,7 @@ def main():
                     radar_index[str(x["address"]).lower()] = x
         except Exception:
             radar_index = {}
-    reviews = [analyze(x, radar_index) for x in raw]
+    reviews = [analyze(x, radar_index, verification_index) for x in raw]
     reviews.sort(key=lambda x: (x["score"], x["evidenceLineage"]["convergence"], x["trustScore"], -x["actionComplexity"]), reverse=True)
     counts = Counter(r["verdict"] for r in reviews)
     # Daily hunt = genuinely new or materially changed opportunities, not the same item repeated every 5 minutes.
@@ -241,6 +263,7 @@ def main():
         "engine": "Immortal Guard Independent Specialist Council + Evidence Lineage",
         "independent": True,
         "apiRequired": False,
+        "verificationGate": "live HTTPS reachability + redirect/domain alignment + stale/unsafe signal screening",
         "specialists": sorted(SPECIALISTS),
         "sourceCoverage": len(set(r["domain"] for r in reviews)),
         "independentSourceCoverage": len(set(d for r in reviews for d in r["evidenceLineage"]["independentDomains"])),
