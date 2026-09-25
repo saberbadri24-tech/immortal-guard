@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-25T10:12:15.471627+00:00",
+  "automation": {
+    "discovery": true,
+    "deduplication": true,
+    "evidenceReview": true,
+    "airdropPlus": true,
+    "valueHunter": true,
+    "ownerQueue": true,
+    "receiptMonitoring": false,
+    "automaticSigning": false,
+    "automaticTransfer": false,
+    "privateKeyStorage": false,
+    "kycBypass": false,
+    "captchaBypass": false,
+    "sybilBypass": false
+  },
+  "counts": {
+    "opportunities": 300,
+    "queue": 0,
+    "receipts": 0,
+    "adapters": 3
+  },
+  "wallet": {
+    "temporaryAddressConfigured": false,
+    "addressSource": "OWNER_CONFIG"
+  },
+  "blockers": [
+    "TEMP_TON_ADDRESS is not configured",
+    "Claims requiring signature/KYC/CAPTCHA remain owner-approved actions"
+  ]
+}
