@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -47,11 +47,13 @@ jobs:
           ASTRA_MODEL: gpt-5.4
           CLAUDE_MODEL: claude-sonnet-4-6
         run: python3 scripts/ai_council.py
+      - name: Build Guard health snapshot
+        run: python3 scripts/guard_health.py
       - name: Validate data
-        run: python3 -c "import json; files=['data/radar_intel.json','data/radar_memory.json','data/radar_alerts.json','data/opportunities.json','data/history.json','data/engine_reviews.json','data/evidence_graph.json','data/airdrop_plus.json','data/owner_actions.json','data/collection_queue.json','data/temp_wallet.json','data/claim_adapters.json','data/ton_receipts.json','data/ton_receipt_state.json','data/ai_reviews.json','data/daily_hunt.json','data/owner_approval_ledger.json']; [((print('VALID',p)),json.load(open(p))) for p in files]; print('JSON OK')"
+        run: python3 -c "import json; files=['data/radar_intel.json','data/radar_memory.json','data/radar_alerts.json','data/opportunities.json','data/history.json','data/engine_reviews.json','data/evidence_graph.json','data/airdrop_plus.json','data/owner_actions.json','data/collection_queue.json','data/temp_wallet.json','data/claim_adapters.json','data/ton_receipts.json','data/ton_receipt_state.json','data/ai_reviews.json','data/daily_hunt.json','data/owner_approval_ledger.json','data/guard_status.json']; [((print('VALID',p)),json.load(open(p))) for p in files]; print('JSON OK')"
       - name: Commit refreshed radar
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/radar_intel.json data/radar_memory.json data/radar_alerts.json data/opportunities.json data/history.json data/engine_reviews.json data/evidence_graph.json data/airdrop_plus.json data/value_hunt.json data/owner_actions.json data/collection_queue.json data/temp_wallet.json data/claim_adapters.json data/ton_receipts.json data/ton_receipt_state.json data/ai_reviews.json data/daily_hunt.json data/owner_approval_ledger.json
+          git add data/radar_intel.json data/radar_memory.json data/radar_alerts.json data/opportunities.json data/history.json data/engine_reviews.json data/evidence_graph.json data/airdrop_plus.json data/value_hunt.json data/owner_actions.json data/collection_queue.json data/temp_wallet.json data/claim_adapters.json data/ton_receipts.json data/ton_receipt_state.json data/ai_reviews.json data/daily_hunt.json data/owner_approval_ledger.json data/guard_status.json
           if git diff --cached --quiet; then echo 'No changes'; else git commit -m 'chore: refresh immortal guard radar'; git push; fi
