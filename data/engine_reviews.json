@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updatedAt": "2026-09-25T15:41:07.545817+00:00",
+  "updatedAt": "2026-09-25T18:40:40.816532+00:00",
   "engine": "Immortal Guard Independent Specialist Council + Evidence Lineage",
   "independent": true,
   "apiRequired": false,
@@ -22,18 +22,18 @@
     "candidate": 293
   },
   "specialistCounts": {
-    "grant": 101,
+    "grant": 102,
     "general": 1,
     "hackathon": 5,
     "testnet": 3,
-    "developer": 25,
-    "ecosystem": 42,
-    "bounty": 95,
+    "developer": 24,
+    "ecosystem": 44,
     "rewards": 118,
-    "ambassador": 2
+    "ambassador": 2,
+    "bounty": 93
   },
   "monthlyTargetUsd": 10000,
-  "qualifiedEarningPotentialUsd": 108880219.0,
+  "qualifiedEarningPotentialUsd": 120385019.0,
   "actualCollectedUsd": 0,
   "actualCollectedRule": "Only owner-confirmed received funds count; opportunity estimates never count as income.",
   "convergenceModel": "independent source domains > repeated copies; on-chain/security signals are separate evidence types",
@@ -46,7 +46,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -138,7 +138,7 @@
       "earningType": "unknown",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "general"
       ],
@@ -230,7 +230,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -322,7 +322,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -416,7 +416,7 @@
         2000000.0
       ],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "hackathon"
       ],
@@ -510,7 +510,7 @@
       "earningType": "unknown",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "testnet"
       ],
@@ -602,7 +602,7 @@
       "earningType": "unknown",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "testnet"
       ],
@@ -694,7 +694,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer",
@@ -786,7 +786,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer",
@@ -871,98 +871,6 @@
       ]
     },
     {
-      "id": "mnfrai1rtwpybgflu01it3ncblnicw16alfwrfjrsxfqcxdirmyyvee3n09pugxjnzdsrwx6bvfvees4retpwxvcym43muxyc0hiwni0egziwhc2alk-oc-5",
-      "title": "Google announces new Vulnerability Reward Program specifically for open source software - Neowin",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPenc1NDN0aHpOaHVFLWFuUGZwOG41YUNFeHVfZUJRanYzVXp1QTdSM0x4SHZrWXRfLUtUc3VLS0YtUlQ0aXZHOE1XcUtFSVlzMkNsQmRsQ1FxRVlISFBYOV9XMnFRai1RTWpybGFlU01iT3NCblNIcW16alFWRFJRSXFqcXdiRmYyVEE3N09pUGxjNzdSRWx6bVFveEs4REtPWXVCYm43MUxYc0hiWnI0eGZIWHc2alk",
-      "domain": "news.google.com",
-      "earningType": "speculative_or_token_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "bounty",
-        "rewards",
-        "developer"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "d2a53586dea32579",
-        "claim": "Google announces new Vulnerability Reward Program specifically for open source software - Neowin",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — open source rewards",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 87,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Tue, 30 Aug 2022 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
       "id": "2rnyjjiwwn1avbrutfxelvrx0xiqzdsamthx2dncmxvt2rdcumycndkn1oywuyzmxnvmwjnsknsq3a4cklyedrwatrhbnjzbkhyuhhrdmpovgdkvc1v-oc-5",
       "title": "Linux Foundation Announces $12.5 Million in Grant Funding from Leading Organizations to Advance Open Source Security - Linux Foundation",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNN0dWMEtnSXkyYktnRVdRS1IydTZVb2F1R0xYeTFROHpiU1pYRUU0QXRwdE5RV2NDZlhhLThEaTMzYnRVZHViWDNBMk9ISno0VVlzWEo1NjlCUmZnNFpqcXRha0ZJamhpZW5PdXNPY0FwOTA2SFdfQVE5ajNsc1QzX1VHaWZSRkFwQXhpaDJQWDFuRkI0bzl6aHUwblMzSVhzQVB6YS10RkFQeFlPZkJBcjg1RVQ4U1k5UzR1VFNPZnkweTFETFFncFhoaVdraU83VG1tWTVlNVZYQ1huSHNINFNzUFJ5bVJp0gH4AUFVX3lxTFBFQ19heWtyOEoyMG1rZkpMU2JXa0dHdDdSNWNNV01BY21vakMyVlE4WmgyNWFBMTNNNkFCejNvYkVGM3h4V2l5U1pzMzhCVXkyNGZqMjJMeW1wR2RRS1ZGN2h3alJ4OWc3dTZIekdYS2RoR2NlbGI3VkJ4bW5KQTBFLWJfaXJGZlZsa2d3OGhuZEg0LW91bkJ6SUtNdXZYOEpSS2RnYjJIWWN1aVBRUTFXelVRX0xIQzdsamthX2dNcmxvT2RDcUMycndkN1oyWUYzMXNvMWJNSkNsQ3A4cklYeDRwaTRhbnJzbkhyUHhRdmpoVGdKVC1v",
@@ -970,7 +878,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer",
@@ -1062,7 +970,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer",
@@ -1154,7 +1062,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer",
@@ -1248,7 +1156,7 @@
         100000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer",
@@ -1342,7 +1250,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer",
@@ -1434,7 +1342,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer",
@@ -1526,7 +1434,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -1619,7 +1527,7 @@
         100000.0
       ],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards",
         "ambassador"
@@ -1712,7 +1620,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "developer"
@@ -1803,7 +1711,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -1894,7 +1802,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -1978,6 +1886,97 @@
       ]
     },
     {
+      "id": "vtug3d25fudqwrxbwbgpoufm3nunod2o2txfodwjfzmhhztvhynf0zvk3aw9qzhbnrwjtemhnrufht0xam19uq0uyq2lmvthutfbjeggwznrlzhhrzw-oc-5",
+      "title": "BitMEX’s Hayes announces grant program to support Bitcoin developers - Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTlFua2YyS3BMSmNxbVRqbWhtUlJnWVZ1VlVSd1U1RS1oemlwNmNTSzdnNnNoSGsyTFdLZjFvTUg3d25FUDQwRXBWbGpoUFM3NUNod2o2TXFodWJfZmhHZTVhYnF0ZVk3aW9QZHBnRWJTemhnRUFhT0xaM19UQ0UyQ2lmVThUTFBJeGgwZnRLZHhrZw",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 2000,
+      "specialists": [
+        "grant",
+        "developer"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "98ecf5e8927a8880",
+        "claim": "BitMEX’s Hayes announces grant program to support Bitcoin developers - Crypto News",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — grants",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 84,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 17 Jul 2024 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
       "id": "0yysk5xsm16vfmxmxi0su5bbtzksxn0bwltsmdysljkrc01dtzbu1rvaktldxfkwvbxqmrouw56z0nyv3fxumzfwvjubxkzmwv1dev0lu5ryjjid2zb-oc-5",
       "title": "Arthur Hayes' Maelstrom launches bitcoin developer grant program - The Block",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVkk0eTdKamhYUjNCX2dESkZnb1V1RFAybEdBczJFTmxqS0FPam1KTkR2WkowR3FPZWVHZ3I0ampkQnRBc1ZIeXp6d0JfTE8tRnJMMU9uU2M0U2tpa0YySk5XSm16VFMxMXI0SU5BbTZkSXN0bWlTSmdYSlJKRC01dTZBU1RVaktLdXFkWVBXQmROUW56Z0NyV3FxUmZFWVJubXkzMWV1dEV0LU5RYjJid2ZB",
@@ -1985,7 +1984,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer"
@@ -2069,97 +2068,6 @@
       ]
     },
     {
-      "id": "vtug3d25fudqwrxbwbgpoufm3nunod2o2txfodwjfzmhhztvhynf0zvk3aw9qzhbnrwjtemhnrufht0xam19uq0uyq2lmvthutfbjeggwznrlzhhrzw-oc-5",
-      "title": "BitMEX’s Hayes announces grant program to support Bitcoin developers - crypto.news",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTlFua2YyS3BMSmNxbVRqbWhtUlJnWVZ1VlVSd1U1RS1oemlwNmNTSzdnNnNoSGsyTFdLZjFvTUg3d25FUDQwRXBWbGpoUFM3NUNod2o2TXFodWJfZmhHZTVhYnF0ZVk3aW9QZHBnRWJTemhnRUFhT0xaM19UQ0UyQ2lmVThUTFBJeGgwZnRLZHhrZw",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "grant",
-        "developer"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "76fdc6cafc150376",
-        "claim": "BitMEX’s Hayes announces grant program to support Bitcoin developers - crypto.news",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — grants",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 84,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Wed, 17 Jul 2024 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
       "id": "rvczcgs2mvdjeuy3yndsuu54nxjaemjgwjfyzvpisno2eknfwfq0ttfyb3vtuejrcuh4d0nmqw9gz3kxwmk2yw9mdtzpuxz3uxzxm056bhfnrgvksle-oc-5",
       "title": "Maelstrom Unveils $250K Bitcoin Grant Program for Bitcoin Developers - The Crypto Times",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLW94aFVCTnZHU2QxNDI2TF9fd2xPdFFUS2xfZGJabDZTTFVQLTZtaExScW9ObWhPN2N3SWRfYlZqdWpaM0p0M3M3RVczcGs2MVdjeUY3YndSUU54NXJaemJGWjFYZVpISno2ekNfWFQ0TTFYb3VtUEJRcUh4d0NMQW9GZ3kxWmk2YW9MdTZPUXZ3UXZxM056bHFNRGVkSlE",
@@ -2169,7 +2077,7 @@
         250000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer"
@@ -2262,7 +2170,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -2347,7 +2255,7 @@
     },
     {
       "id": "t01jdfm3wk9jsi05rknouudgug9irflvtletavpoelhqtjhtagr6djdxahzhc3a3lwpmzg9mswzsajdibfvduk9aewu5ykzum19wrmvtmwjjumxkwty-oc-5",
-      "title": "HackerOne’s Largest Bug Bounty Program Boasts 300 Hackers, $2M In Rewards - cybersecurityventures.com",
+      "title": "HackerOne’s Largest Bug Bounty Program Boasts 300 Hackers, $2M In Rewards - Cybercrime Magazine",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT3RMVHV2a2JKek55Wkt6VjRTdTBYT19uVFIwMWxHSEtHTGpQUlhrelU0SlBDcDRBT0dvalBvUXN2M0hnd3RHOG9QVzUzUE9mZXp2T01jdFM3Wk9JSi05RkNOUUdGUG9IRFlvTlEtaVpOelhQTjhTaGR6djdxaHZHc3A3LWpMZG9MSWZsajdibFVDUk9aeWU5YkZUM19WRmVtMWJJUmxkWTY",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -2355,7 +2263,7 @@
         2000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -2365,8 +2273,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "32025a1306ac0e14",
-        "claim": "HackerOne’s Largest Bug Bounty Program Boasts 300 Hackers, $2M In Rewards - cybersecurityventures.com",
+        "claimId": "8868dd7a22ca4fc0",
+        "claim": "HackerOne’s Largest Bug Bounty Program Boasts 300 Hackers, $2M In Rewards - Cybercrime Magazine",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -2442,13 +2350,13 @@
     },
     {
       "id": "fplnfzrove2rgvjwgfvu1bys25qcm5ur1nybetcvghdckjzdlprsudtqkm5zxjkmhhiq0twmkvkoxpmsmqzn0p3sxc3z1fbvjvxzxl1rxi5txjmrddr-oc-5",
-      "title": "Ethereum Foundation swaps 5,000 ETH into stablecoins for operational and grant funding - The Block",
+      "title": "Ethereum Foundation swaps 5,000 ETH into stablecoins for operational and grant funding - theblock.co",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPb0p5WjA1MGw0ZWdoQXV3NjY3a1dNNDB0Vko3Vmo5ZExYVDVERDdQTTVxdTZQS1lEX2FQZ2dWU25oNjZnSXNqWF83Nlo1YWJTemNhd2RXTHJ4YmlQT2NZamhPSExnVUNrdTNfd3dPQ3h3eTZVcFpLNFZrOVE2RGVJWGFvU1ByS25Qcm5uR1NybEtCVGhDckJZdlprSUdtQkM5ZXJkMHhIQ0tWMkVKOXpMSmQzN0p3SXc3Z1FBVjVxZXl1RXI5TXJMRDdR",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -2458,8 +2366,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "62c65a4a5ddfba48",
-        "claim": "Ethereum Foundation swaps 5,000 ETH into stablecoins for operational and grant funding - The Block",
+        "claimId": "56f371ffe07c285a",
+        "claim": "Ethereum Foundation swaps 5,000 ETH into stablecoins for operational and grant funding - theblock.co",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -2539,7 +2447,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -2624,13 +2532,13 @@
     },
     {
       "id": "uvfmdnvkeuktz05rnzzyavp5nuf4q0puu191cdfjzjb5cmxrehdfwdhoc1nkz1b5unjps2m4vdfxzudhbgpzuevvnenzdglinv9hzv9tedgxedhmtky-oc-5",
-      "title": "North Central Michigan Community Foundation announces grant deadline - Crawford County Avalanche",
+      "title": "North Central Michigan Community Foundation announces grant deadline - crawfordcountyavalanche.com",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNb1FVcW1zVE9BcE5JSW16TUZmVUl4T3NUT3Z3QkFyNW5QQnBJSWxaNjVIMWZ2WjRCOUMzWTh2WG4yR3RlYlkyMGw1YUFsM1BiUnRjNHJ5X3VpZE1sV1RMZks0SnNWV2Q0MW1BUVFmdnVKeUktZ05rNzZyaVp5NUF4Q0pUU191cDFjZjB5cmxreHdFWDhOc1NKZ1B5UnJpS2M4VDFxZUdhbGpzUEVvNENzdGliNV9hZV9TeDgxeDhMTkY",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -2640,8 +2548,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "bedee4bd7b6a1dd3",
-        "claim": "North Central Michigan Community Foundation announces grant deadline - Crawford County Avalanche",
+        "claimId": "7da4033594427abc",
+        "claim": "North Central Michigan Community Foundation announces grant deadline - crawfordcountyavalanche.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -2715,7 +2623,7 @@
     },
     {
       "id": "snhwn2pzr1pkafrpm2pnlvpumlryvf80mgozanvcsxljz0o2djlfcm5mzwnvavbllthmm1hwtvzxq0fxmf9qslo3c0lqujnvnhc3m0rit3a3vjvradg-oc-5",
-      "title": "Open Source Program Office Secures $719K Grant - Syracuse University Today",
+      "title": "Open Source Program Office Secures $719K Grant - news.syr.edu",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT2d3QzBBM3RNT3paM3JXckllcUpaTTY2aDBPa01FRnVPeXQ2Y3BkSnhwN2pZR1pKaFRPM2pNLVpUMlRYVF80MGozanVCSXlJZ0o2djlfcm5MZWNvaVBLLThMM1hWTVZxQ0FxMF9QSlo3c0lQUjNvNHc3M0RiT3A3VjVraDg",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -2723,7 +2631,7 @@
         719000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer"
@@ -2733,8 +2641,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "0a2f8a1ef576b862",
-        "claim": "Open Source Program Office Secures $719K Grant - Syracuse University Today",
+        "claimId": "a4407c0308b6914e",
+        "claim": "Open Source Program Office Secures $719K Grant - news.syr.edu",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -2816,7 +2724,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -2907,7 +2815,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -3000,7 +2908,7 @@
         6000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -3095,7 +3003,7 @@
         2000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer"
@@ -3188,7 +3096,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards",
         "ecosystem"
@@ -3215,7 +3123,7 @@
         "lineage": [
           {
             "type": "publisher",
-            "id": "Google News — retroactive programs",
+            "id": "Google News — DeFi opportunities",
             "domain": "news.google.com",
             "independent": false
           },
@@ -3281,7 +3189,7 @@
         5000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "ecosystem"
@@ -3374,7 +3282,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -3465,7 +3373,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "ecosystem"
@@ -3556,7 +3464,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards",
         "developer"
@@ -3649,7 +3557,7 @@
         300000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -3742,7 +3650,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -3833,7 +3741,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -3918,13 +3826,13 @@
     },
     {
       "id": "wmelwntjismszdtv4wtlnre5evjmwcvh5qwtjwmvfblzhz1b5tuhsczjwa3btyjhzquy5d2s5s3vndnlmy2z4slrxwui2rxk3r0u2ukfdwtnscufhuq-oc-5",
-      "title": "microsoft-bounty-program-updates-faster-bounty-review-faster-payments-and-higher-rewards - microsoft.com",
+      "title": "microsoft-bounty-program-updates-faster-bounty-review-faster-payments-and-higher-rewards - Microsoft",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQM2JGYnZSeFFQNXJRSzZkX0E4SWdJcnJxU3JNbGxrb0lweVI3MlUyTXhkTnRiUlJzZ2lsSGdkUjl1eWZoMklLeENkLWpzWFdyMjU4MjJjQUZQcWdRTFQxcUJFb21Sb2x0Q3psQnpUeXRDdmF0bnBDNl9MLWw3M21wMElWNTJiSmszdTV4WTlnRE5EVjMwcVh5QWtJWmVfblZhZ1B5TUhSczJWa3BTYjhzQUY5d2s5S3VNdnlmY2Z4SlRXWUI2RXk3R0U2UkFDWTNscUFhUQ",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -3934,8 +3842,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "3567091c6715ceff",
-        "claim": "microsoft-bounty-program-updates-faster-bounty-review-faster-payments-and-higher-rewards - microsoft.com",
+        "claimId": "d41170db832096b5",
+        "claim": "microsoft-bounty-program-updates-faster-bounty-review-faster-payments-and-higher-rewards - Microsoft",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -4017,7 +3925,7 @@
         10000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer"
@@ -4110,7 +4018,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -4201,7 +4109,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer"
@@ -4228,7 +4136,7 @@
         "lineage": [
           {
             "type": "publisher",
-            "id": "Google News — grants",
+            "id": "Google News — developer",
             "domain": "news.google.com",
             "independent": false
           },
@@ -4292,7 +4200,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -4383,7 +4291,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -4474,7 +4382,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "grant"
@@ -4565,7 +4473,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer"
@@ -4650,13 +4558,13 @@
     },
     {
       "id": "ehhyq0pzzvoyb1rrdnjjmzrktwzqbfvan19hz0ldn0dyuu9jmhzimmhrnf9nuujuogrrtnfuu0twrgteyzg3bhzqanatu3lrqzdly25lluppuxb2z2q-oc-5",
-      "title": "Google Revamps Bug Bounty Programs: Android Rewards Rise, Chrome Payouts Drop in the Age of AI - Security Affairs",
+      "title": "Google Revamps Bug Bounty Programs: Android Rewards Rise, Chrome Payouts Drop in the Age of AI - securityaffairs.com",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUHR1TGplRDhmb0VwdmxwN3haamZnSjVrT2xFNmV1aGdocExvWTJqdG5yNC1pVDJsSTBrMU9RQ3BOeHUyYWUxa1ozTkpjbFJEVjNGandZbFE4cncySzByT2lRN0llb2pJVW55ZHduVi0yeHY2Q1FJRjh5ekFfWWwyYmh1eHhyQ0pzZVoyb1RrdnJJMzRKTWZqbFVaN19hZ0lDN0dyUU9jMHZIMmhrNF9NUUJuOGRrTnFuU0tWRGtEYzg3bHZqanAtU3lRQzdlY25LLUpPUXB2Z2Q",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -4666,8 +4574,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "95d68bf4bd4530e6",
-        "claim": "Google Revamps Bug Bounty Programs: Android Rewards Rise, Chrome Payouts Drop in the Age of AI - Security Affairs",
+        "claimId": "d2ebdbe33ccfd704",
+        "claim": "Google Revamps Bug Bounty Programs: Android Rewards Rise, Chrome Payouts Drop in the Age of AI - securityaffairs.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -4747,7 +4655,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "hackathon"
@@ -4840,7 +4748,7 @@
         100000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -4927,7 +4835,7 @@
     },
     {
       "id": "ys3bvq2vsrgx5muiyrdzmmzngvmlqrlcznnprbkp6rhlau3ktwe1oz3d1zlhungjnujizsm9bzu1imhjitu90tkxnn0k2qkpeby1aetzbotfodnzquq-oc-5",
-      "title": "Intel suspends bug bounty program that paid up to $100,000 per flaw — new Intigriti disclosure program offers no rewards - tomshardware.com",
+      "title": "Intel suspends bug bounty program that paid up to $100,000 per flaw — new Intigriti disclosure program offers no rewards - Tom's Hardware",
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPSnd2bjFPTXc2QnZQNmluUUNJMlpMYzFPQmxkREJoa182QlJjLWRQZTA5b0J3N3N6UEk1WFozTnJvLVVfY2UzRUVuR0NhRGc5TEc1X3hERjQ4SHczRDFEaWRoOWswYk16S1lob0VVb1RzNmFWYUpKYTNvZ09Gb2UtZXRpRzVoTVEzbHNzUW56N0c4Nl9lNW9KMlJjYkVWX1BvOUtkMEpabURWYlJhYXFhNzRkelRyS3BvQ2VSRGx5MUIyRDZmMzNGVmlqRlczNnprbkp6RHlaU3ktWE1oZ3d1ZlhuNGJnUjIzSm9BZU1iMHJiTU90TkxNN0k2QkpEby1aeTZBOTFOdnZQUQ",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -4935,7 +4843,7 @@
         100000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -4945,8 +4853,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "040d1a2fb3b25da7",
-        "claim": "Intel suspends bug bounty program that paid up to $100,000 per flaw — new Intigriti disclosure program offers no rewards - tomshardware.com",
+        "claimId": "02314f3f4b9172c7",
+        "claim": "Intel suspends bug bounty program that paid up to $100,000 per flaw — new Intigriti disclosure program offers no rewards - Tom's Hardware",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -5028,7 +4936,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards",
         "ecosystem"
@@ -5119,7 +5027,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards",
         "ecosystem"
@@ -5204,7 +5112,7 @@
     },
     {
       "id": "twmhwagu2emw0emlyruvitwexq1y0sje5vulwenuztg00utlhatraqnpjwfows0plc1hqvtv1y0l0thrsvgpaute2shetx2lsmeramlu4ejhxouq5mq-oc-5",
-      "title": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ICTworks",
+      "title": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ictworks.org",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFByYk9JNXpaQ1ZhR1RxeThTWmhWaGU2emw0emlyRUViTWExQ1Y0SjE5VUlwenUzTG00UTlHaTRaQnpJWFowS0pLc1hQVTV1Y0l0THRsVGpaUTE2SHEtX2lSMERaMlU4ejhXOUQ5MQ",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -5212,7 +5120,7 @@
         1000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer"
@@ -5222,8 +5130,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "775c1e2fc88b3949",
-        "claim": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ICTworks",
+        "claimId": "54422c4b3e27fe4c",
+        "claim": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ictworks.org",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -5305,7 +5213,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards",
         "ecosystem"
@@ -5389,6 +5297,101 @@
       ]
     },
     {
+      "id": "muwjestrqsxeyetz6evnyelnythpzdthuykrxxzqxt0ljlwtia1l5xzjudkhot0jid2t6ylb4ytkwqvlovli0odfxwf82m2lmsdzmvw1swjzjt29wtq-oc-5",
+      "title": "Python Foundation rejects $1.5M grant with no-DEI strings - The Register",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSndOV1pET3dQSkEwcFZOeURYNVRQWXZfZEhBZlc1WDFEalktQm45cUo0QzdqZHc2ODRiVjNkWFZjWWxWbFg4RTdYYngzNE9JQmx2cklJT2RpZjhMUWJESTRQSXEyeTZ6eVNYelNYTHpzdThuYkRXXzQxT0ljLWtIa1l5XzJudkhoT0JId2t6YlB4YTkwQVlOVlI0ODFXWF82M2lMSDZMVW1SWjZJT29WTQ",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        1500000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 2000,
+      "specialists": [
+        "grant",
+        "ecosystem"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "217a3392b6f3728e",
+        "claim": "Python Foundation rejects $1.5M grant with no-DEI strings - The Register",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — open source rewards",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 84,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Mon, 27 Oct 2025 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          1500000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
       "id": "2bkxorfjwznuxzkotajb0ty1mt0n6wdlsrjvvcxetuxrdzzljqk9tvlpwymq3tddkskmybjqtuvdkr0zdvkdhzfprazi5uwr5ekpxotatnkk5nmpmzw-oc-5",
       "title": "MARA Launches Bitcoin-Focused Foundation, Opens $100,000 Community Grant Vote - Bitcoin Magazine",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fajR5SXBFRFQxc1VwcFVudVFWZHZXMEUwOWFlQU5sbXd2bkxORFJwZnUxZkotajB0Ty1mT0N6WDlSRjVvcXEtUXRDZzlJQk9tVlpwYmQ3TDdKSkMybjQtUVdKR0ZDVkdHZFpRazI5UWR5ekpxOTAtNkk5NmpmZw",
@@ -5398,7 +5401,7 @@
         100000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -5491,7 +5494,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards",
         "ambassador"
@@ -5584,7 +5587,7 @@
         1000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer"
@@ -5671,13 +5674,13 @@
     },
     {
       "id": "jzlmvjccjk2svrbaxl3wnvsbvpdtlfczgrvwk5lzv8wmxr5zdc0ywhsverpctffr3atvfoyae4tamsysdyxn3hyctltbhffag5utfdmdjlwdthhtjln-oc-5",
-      "title": "Intel Ends Paid Bug Bounty Program, Replaces It With a No-Reward Vulnerability Program - eTeknix",
+      "title": "Intel Ends Paid Bug Bounty Program, Replaces It With a No-Reward Vulnerability Program - eteknix.com",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaFd3NEVTdl9Ld0s3SkE5ZU00b1V6eXhDeGNPUU5mRGZuVEZlREgzNUtrbnZYVHNvdGo5ZDR2QURvWlZZQmpkSF9BUm95aGh2S0gzMW93YUl4djZlMVJCcjk2SVRBaXl3WnVsbVpDTlFCZGRvWk5LZV8wMXR5ZDc0YWhSVERpcTFfR3AtVFoyaE4tamsySDYxN3hycTlTbHFFaG5UTFdmdjlwdThHTjlN",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -5687,8 +5690,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "89a90c7f9b46e839",
-        "claim": "Intel Ends Paid Bug Bounty Program, Replaces It With a No-Reward Vulnerability Program - eTeknix",
+        "claimId": "aa59ba1cdb8c001b",
+        "claim": "Intel Ends Paid Bug Bounty Program, Replaces It With a No-Reward Vulnerability Program - eteknix.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -5770,7 +5773,7 @@
         50000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -5865,7 +5868,7 @@
         9000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -5958,7 +5961,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer"
@@ -6049,7 +6052,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer"
@@ -6140,7 +6143,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards",
         "ecosystem"
@@ -6231,7 +6234,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -6324,7 +6327,7 @@
         2000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -6419,7 +6422,7 @@
         10000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -6512,7 +6515,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "ecosystem"
@@ -6603,7 +6606,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards",
         "ecosystem"
@@ -6694,7 +6697,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -6786,7 +6789,7 @@
         410000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -6878,7 +6881,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -6962,13 +6965,13 @@
     },
     {
       "id": "kfvx3lxte85mmn6rux0b2dfb2ttoufrsdhdzdjjy2xsejzhnnkwvf92cm5wugm1rgmwmvu2rkpbthvvdvhtmzn3cjheouv1vlpybti5te44ogtidxnb-oc-5",
-      "title": "Introducing the OpenAI Safety Bug Bounty program - openai.com",
+      "title": "Introducing the OpenAI Safety Bug Bounty program - OpenAI",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85MmN6RUx0b2dfb2ttOUFRSDhDZDJJY2xSejZHNnkwVF92cm5WUGM1RGMwMVU2RkpBTHVVdVhTMzN3cjhEOUV1VlpybTI5TE44OGtIdXNB",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -6977,8 +6980,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "9f51f5dd7511e898",
-        "claim": "Introducing the OpenAI Safety Bug Bounty program - openai.com",
+        "claimId": "09b8732b1e5791a8",
+        "claim": "Introducing the OpenAI Safety Bug Bounty program - OpenAI",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -7058,7 +7061,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -7148,7 +7151,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -7238,7 +7241,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -7328,7 +7331,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -7418,7 +7421,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -7502,13 +7505,13 @@
     },
     {
       "id": "mwe5s3prum5rodbkug9lt2z0cdvurvpznfdux09hquj3sfrnefbzotvqvudeuthvtddwtgx2y1dhou5augfyn3dtte5loelhx1fisdfqtzhurlfmmwc-oc-5",
-      "title": "Crypto.com Unveils Revamped Referral Program With Bigger Rewards - 99Bitcoins",
+      "title": "Crypto.com Unveils Revamped Referral Program With Bigger Rewards - 99bitcoins.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMHFaeVY5a0plMWpYbnVVQWEyXzAyMlpqNWtJdjlFcTk1dk9WRGFYMFkwTklnUDY4ckdjTXlMdDRlX090a01tR2JBNVlOX0d0TUJ2cHk1MkZxMWE5S3pRUm5RODBkUG9LT2Z0cDVURVpZNFduX09hQUJ3SFRNeFBZOTVQVUdEUThVTDdWTGx2Y1dHOU5aUGFYN3dTTE5lOElhX1FiSDFqTzhURlFMMWc",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -7517,8 +7520,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "97164c7439e6476e",
-        "claim": "Crypto.com Unveils Revamped Referral Program With Bigger Rewards - 99Bitcoins",
+        "claimId": "941f68ed2c48c088",
+        "claim": "Crypto.com Unveils Revamped Referral Program With Bigger Rewards - 99bitcoins.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -7598,7 +7601,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -7688,7 +7691,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -7778,7 +7781,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -7868,7 +7871,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -7960,7 +7963,7 @@
         589000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -8052,7 +8055,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -8142,7 +8145,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -8232,7 +8235,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -8322,7 +8325,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -8412,7 +8415,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -8496,7 +8499,7 @@
     },
     {
       "id": "tbwctjjdg5euxnszxfjcxzoogi3ltzydln0u1puyllorjfjq3fjcwvsbdrrcedbujnftny3mdvvzdvlajn5t0juyzrsrl9rnzvboddlztlpawfhbjjr-oc-5",
-      "title": "Base launches Creator Grant Program with up to $4,000 for creators - crypto.news",
+      "title": "Base launches Creator Grant Program with up to $4,000 for creators - Crypto News",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU0hYVDlvTFE0VTVEWDdBSG5jSjNIbmdyUWV3OS1aeE96Y0xWaFYtWkZmYk1SUC1hYTBWcTJjdG5EUXNsZXFjcXZOOGI3LTZYdlN0U1puYlloRjFjQ3FJcWVsbDRRcEdBUjNfTnY3MDVVZDVLajN5T0JuYzRsRl9RNzVBODdLZTlPaWFHbjJR",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -8504,7 +8507,7 @@
         4000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -8513,8 +8516,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "34b6f65d114d3ffc",
-        "claim": "Base launches Creator Grant Program with up to $4,000 for creators - crypto.news",
+        "claimId": "7fae32f1b1f32914",
+        "claim": "Base launches Creator Grant Program with up to $4,000 for creators - Crypto News",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -8596,7 +8599,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -8686,7 +8689,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -8776,7 +8779,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -8860,13 +8863,13 @@
     },
     {
       "id": "n054cujssfyty09orglcvgfnzu9xvdi3ehl4wna4wjbvzffilvhowlm1zwdvbzfpr0hbt1hkego4rkqzzed5swn3qjdxde9lwkl2wfq2rluyru9usve-oc-5",
-      "title": "Hacker Drops Steam Zero Day After Being Banned From Valve Bug Bounty Program - vice.com",
+      "title": "Hacker Drops Steam Zero Day After Being Banned From Valve Bug Bounty Program - VICE",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX25naExJS285ZE1teW5VbnhielJVV21vRlRUcUJYZThpWmUzSEtUQkRGLS1mamhBcDhsZzVRdlo2QTkxaHF0dmhfZTFxNFI4X1AxZUtjSlU3N054cUJSSFYtY09oRGlCVGFnZU9XVDI3eHl4WnA4WjBVZFFILVhOWlM1ZWdvbzFPR0hBT1hKeGo4RkQzZEd5SWN3QjdXdE9LWkl2WFQ2RlUyRU9USVE",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -8875,8 +8878,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "b51446640ef48f32",
-        "claim": "Hacker Drops Steam Zero Day After Being Banned From Valve Bug Bounty Program - vice.com",
+        "claimId": "8f1cb312804b97f5",
+        "claim": "Hacker Drops Steam Zero Day After Being Banned From Valve Bug Bounty Program - VICE",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -8950,13 +8953,13 @@
     },
     {
       "id": "0zmzqx1yyv2nlsvhnyktqqxhlykdfrflvdi1kzc04re1ws0o1zedun052zhjrt0iyz2tosm1qx3b1dez0euj4u0dvsvfscvzlanhhd3fbumhfmum5sq-oc-5",
-      "title": "6 of the Best Crypto Bug Bounty Programs - Hackread",
+      "title": "6 of the Best Crypto Bug Bounty Programs - hackread.com",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpc1Jmbkd0ZmZQX1YyV2NlSVhnYktqQXhlYkdFRFlVdi1kZC04RE1WS0o1ZEdUN052ZHJRT0IyZ2tOSm1QX3B1dEZ0eUJ4U0dvSVFscVZLanhhd3FBUmhFMUM5SQ",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -8965,8 +8968,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "4b971a35f89c6d74",
-        "claim": "6 of the Best Crypto Bug Bounty Programs - Hackread",
+        "claimId": "b64c09637eadb105",
+        "claim": "6 of the Best Crypto Bug Bounty Programs - hackread.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -9046,7 +9049,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -9138,7 +9141,7 @@
         10000000.0
       ],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -9230,7 +9233,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -9320,7 +9323,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -9412,7 +9415,7 @@
         700000.0
       ],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -9504,7 +9507,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -9588,13 +9591,13 @@
     },
     {
       "id": "nshjtekfcvk9ktlfrzlbbm1ctc2tcdvc1mf82wlpsnwl3vth3awu4sffpslm4b2qtwfvtqw9pvnlpddz6cnk4dhhqbkrhtdbqd2lhm1nfwnbnzdd1aq-oc-5",
-      "title": "TikTok announces bug bounty partnership with HackerOne - Newsroom | TikTok",
+      "title": "TikTok announces bug bounty partnership with HackerOne - newsroom.tiktok.com",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcmZIdkRCZW1aMmdFTkV4NUN3RGlYWUVKcnRvSURHMU5wZDNnSHJtekFCVk9kTlFrZlBBM1ctc2tCdVc1MF82WlpSNWl3VTh3aWU4SFFpSlM4b2QtWFVTQW9pVnlpdDZ6cnk4dHhQbkRhTDBQd2lhM1NfWnBnZDd1aQ",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -9603,8 +9606,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "cfe5da7ae65f591e",
-        "claim": "TikTok announces bug bounty partnership with HackerOne - Newsroom | TikTok",
+        "claimId": "9180ccb805ff4e49",
+        "claim": "TikTok announces bug bounty partnership with HackerOne - newsroom.tiktok.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -9684,7 +9687,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -9776,7 +9779,7 @@
         4000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -9868,7 +9871,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -9958,7 +9961,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -10041,96 +10044,6 @@
       ]
     },
     {
-      "id": "y0htzu0ydwvovnmyegdlzlr6tgdrbdrpwu5vy3v6bgx2mmvmwmjdvvq3ruvkukjbuwffsum1mjdxrg1famlan3vislnfq01hlvctcvfhn2tdy1honle-oc-5",
-      "title": "Kubernetes security gets an assist with bug bounty program - TechTarget",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOREdHMmQ2WkhIS0k0MG50NHlSdFZkeDhDUUNmdjhLVzQweXNzSUFhUWljRjI4WlNnY3dLMy1PY1JzcFAySktwakhqRDI2T3ZGZmNFRTdxUVc1andDcklPMkRTRWR2Y0htZU0ydWVOVnMyeGdLZlR6TGdRbDRpWU5VY3V6bGx2MmVmWmJDVVQ3RUVkUkJBUWFfSUM1MjdXRG1famlaN3VISlNFQ01hLVctcVFHN2tDY1hONlE",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "bounty"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "c5fc970bbc333f6b",
-        "claim": "Kubernetes security gets an assist with bug bounty program - TechTarget",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — open source rewards",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 81,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Tue, 14 Jan 2020 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
       "id": "fd6euppcnc5mxhpzs13dmrkx2s4zutvmvptcljlwvhrcdbnzujhvfpmmtlvrhjdc083dunweknqy2czee1yctvjszbkanvltlftvwn6n2lkd25tnvjn-oc-5",
       "title": "Binance Announces Crucial UTK Rebranding to XMN: Complete Guide to Token Swap and Airdrop - CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0teVJYNEdtNFB2Z3V4Ri1VXzJqZ1VFSXVCQnp1NFd6eUpPcnc5MXhPZS13dmRKX2s4ZUtvMVptclJLWVhrcDBNZUJhVFpMMTlVRHJDc083dUNWekNqY2czeE1YcTVJSzBKanVlTlFtVWN6N2lKd25TNVJn",
@@ -10138,7 +10051,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -10228,7 +10141,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -10311,6 +10224,100 @@
       ]
     },
     {
+      "id": "y02zwzkn2xnaflyd0y0wezlx2rbwdflreo0whdezxvqvlzwadfbuul3rdfksmgzbdzsb0hxyuz3vtlcegxkwxjqqnbeb3riy2jlvw5mb0texzc4reli-oc-5",
+      "title": "Ethernity Chain Unveils $10 Million Grant Program to Empower Founders - CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa0trdlRCelNhUWFuOHpJbGIwR1M3SHJHLXdTUFZOYjFFbUJJNFlQbExWRm1QYnhGUWJTQm0wVUtIWW5vbHMyRVBPUl9rS3VhSEVJTjFfYy02ZWZkN2xnaFlyd0Y0WEZLX2RBWDFlREo0WHdEZXVqVlZwaDFBUUl3RDFKSmgzbDZSb0hxYUZ3VTlCeGxKWXJqQnBEb3RiY2JlVW5Mb0tEXzc4REli",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        10000000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 2000,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "2038df86aa548a2e",
+        "claim": "Ethernity Chain Unveils $10 Million Grant Program to Empower Founders - CryptoSlate",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — grants",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 81,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Tue, 10 Sep 2024 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          10000000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
       "id": "ztkfyauy5dgtqohfmbvzzes0ymg5fc2zolwljmnf3oe92wnntmmrubdm3u3npaknxznphbmrmv1fosmtjn0fzzvjmakdnd0rxue96qk9smldqzjzzqq-oc-5",
       "title": "The 'Internet Bug Bounty Program' has stopped accepting new submissions due to the increased number of bugs discovered by AI. - GIGAZINE",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdmpzWUdXNEJPcmo3ZFlyR0JxRFFKSTlGeHN6Slh1REZKRWxPM3JQdnVXd2paVHZNOFZZTkFyaUY5dGtqOHFMbVZzeS0yMG5Fc2ZoLWljMnF3OE92WnNTMmRubDM3U3NPakNXZnphbmRmV1FOSmtjN0FzZVJmakdNd0RxUE96Qk9sMldQZjZZQQ",
@@ -10318,7 +10325,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -10408,7 +10415,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -10492,7 +10499,7 @@
     },
     {
       "id": "utxczrnzgpnc2jwac1abwetrljuagwxulhfqlp2cl9wsekxujfiwvrkellfslg0a19owndtqup3efnvuxnzadnpdvc5rjlzexnycullnultm1dmve5n-oc-5",
-      "title": "Google Updates Android Bug Bounty Program With $1.5 Million Offer - Forbes",
+      "title": "Google Updates Android Bug Bounty Program With $1.5 Million Offer - forbes.com",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQzQ4TGNHRjhWSXJ1YzBtbU1HQ1Jva2dEYkpBQTZfQVczOXFNdHVuaXZoUVc3cUJaUG5CNVVQM0ZkMUVkeV9ST2piRzNqWm5uY1daSUxmTGZUbUtxczRnZGpNc2JWaC1abWEtRlJuaGwxUlhfQlp2cl9WSEkxUjFiWVRKellFSlg0a19oWndtQUp3eFNvUXNzaDNpdVc5RjlZeXNYcUlLNUltM1dMVE5N",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -10500,7 +10507,7 @@
         1500000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -10509,8 +10516,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "001dcd6056285bb1",
-        "claim": "Google Updates Android Bug Bounty Program With $1.5 Million Offer - Forbes",
+        "claimId": "e6b71edadd154e3a",
+        "claim": "Google Updates Android Bug Bounty Program With $1.5 Million Offer - forbes.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -10592,7 +10599,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -10682,7 +10689,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "hackathon"
       ],
@@ -10772,7 +10779,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -10862,7 +10869,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -10952,7 +10959,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -11042,7 +11049,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -11132,7 +11139,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -11222,7 +11229,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -11312,7 +11319,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -11402,7 +11409,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -11492,7 +11499,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -11575,96 +11582,6 @@
       ]
     },
     {
-      "id": "ptvj5dhvmuljbd0dlufm1b25ynw5icvrgajvvmwfnb1rmzentoef6lth3dgvwsev6rlbynfnfzfpjswrlmertrvk0q3dcnec3b1pyvupmu2pgt1lmag-oc-5",
-      "title": "Bitcoin City? Tennessee officials tease new crypto-focused workforce development grant - The Tennessean",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSkV2MXlXQlhMc1M5S05lSXZfVkFSSXlrbXB0QWZhUk10U2xycHQtRTJDZzUyZTRzSDJDbERZZ2Q4TUgtdHMwbUpTY1o0S0paRldIYmdGOEVXcEFFZF9kVUdtRXVabXVUMjVFem9xRDdON0hNZ0tjV2FOa3RmVWZpTVJ5dHVMUlJBd0dLUFM1b25yNW5IcVRGajVVMWFnb1RMZENTOEF6LTh3dGVwSEV6RlBYNFNFZFpJSWRlMERTRVk0Q3dCNEc3b1pYVUpmU2pGT1lMag",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "grant"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "fc7d629f19f86aff",
-        "claim": "Bitcoin City? Tennessee officials tease new crypto-focused workforce development grant - The Tennessean",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — grants",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 81,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Thu, 15 Aug 2024 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
       "id": "0f6znnrnwc1vhm0a3rlne1mu3hgwk1zuvhgn012ytatzuhpwg12ohjnd1haoxn3bwdpteyyyvlwr1jtslfoc3psmxzrq0rubm9lz3d3mfvvzfhtb0xt-oc-5",
       "title": "Bitcoin Philanthropic Arm of Paystand Celebrates First Anniversary with the Opening of 2025 Grant Program - Business Wire",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPMElwTTRQLTFja1B6bkdxNW5xMVlKRHZ2aVJ4U21FUVpIMWFsdW1ueWxUVkJZMUdicDZlRVJkaU91YVo1MnlPR2NjU3N2T2dZbk9jNjlBOHlMejdCSmNCYTVVS3NDSnFhZll2YmF3LXBlcGl2TzZNY0YyUnd3ZWRzd3pJeE1RdlZsZUVOY2VwSGF0dVFQRENVQW5aSVVEa0F6ZnNrNWc1VHM0a3RLNE1MU3hGWk1ZUVhGN012YTAtZUhPWG12OHJNd1haOXN3bWdpTEYyYVlWR1JTSlFOc3psMXZRQ0RUbm9LZ3d3MFVVZFhTb0xt",
@@ -11672,7 +11589,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -11762,7 +11679,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -11852,7 +11769,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -11942,7 +11859,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -12032,7 +11949,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -12122,7 +12039,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -12212,7 +12129,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -12304,7 +12221,7 @@
         250000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -12396,7 +12313,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -12486,7 +12403,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -12578,7 +12495,7 @@
         100000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -12670,7 +12587,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -12760,7 +12677,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -12786,7 +12703,7 @@
         "lineage": [
           {
             "type": "publisher",
-            "id": "Google News — developer contests",
+            "id": "Google News — Immunefi bounties",
             "domain": "news.google.com",
             "independent": false
           },
@@ -12843,96 +12760,6 @@
       ]
     },
     {
-      "id": "x3lxte81sjd0mndscglrqzk5ohhcdu1nmnhya2hibm41tm1rvkjmz19swfbtr0g3djk0yu4zotfgnjdhu2j5rv9vsehksnzoedblnwrxexbwme5eq3c-oc-5",
-      "title": "Crypto airdrop: Scroll introduces “Sessions” loyalty program ahead of launch of its own token - The Cryptonomist",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81Sjd0MndscGlrQzk5OHhCdU1NMnhYa2hIbm41Tm1rVkJMZ19sWFBTR0g3djk0YU4zOTFGNjdHU2J5RV9vSEhKSnZoeDBLNWRXeXBWME5EQ3c",
-      "domain": "news.google.com",
-      "earningType": "speculative_or_token_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "rewards"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "741d54eec62b58c7",
-        "claim": "Crypto airdrop: Scroll introduces “Sessions” loyalty program ahead of launch of its own token - The Cryptonomist",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — rewards",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 81,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Sat, 18 May 2024 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
       "id": "iczdvnzz1c2pcmdzgodbuqmnxwejmvs14dnfjvwdrluhrn1jttxfpq1bqywddzunqmjdtwnjtsxdrrhroowjtog54mwfpctaxu2s2xy1lvy03uth1dw-oc-5",
       "title": "OpenAI Bio Bounty Program: $50K for GPT-5.6 Jailbreaks - StartupHub.ai",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZkxyUVR1eW01RGhZZFZVcjdvSXA2Zm1wQUhMSThyYVJhaVA3VUNDVDM1bFZRc21pd3R5WDh2R2NtMXF2M0NiczdvNzZ1c2pCMDZGODBuQmNxWEJMVS14dnFjVWdrLUhrN1JTTXFpQ1BQYWdDZUNqMjdTWnJTSXdrRHRoOWJtOG54MWFPcTAxU2s2Xy1LVy03UTh1dw",
@@ -12942,7 +12769,7 @@
         50000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -13034,7 +12861,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -13126,7 +12953,7 @@
         10000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -13218,7 +13045,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -13308,7 +13135,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -13398,7 +13225,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -13488,7 +13315,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -13578,7 +13405,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -13668,7 +13495,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -13758,7 +13585,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -13842,13 +13669,13 @@
     },
     {
       "id": "bmtnrlbyr0jicfzjodcymetlvuzfzggzzdromi1qqwhxofdzakk3wdvzcwu3sgc2u1d0zkmxazjvmzjbeuzsujjhyknmcmjoltflzm5uvv9kq2hvrja-oc-5",
-      "title": "Court Declares Unlawful Federal Grant Terminations Based on Changes to “Program Goals or Agency Priorities” - Dorsey & Whitney",
+      "title": "Court Declares Unlawful Federal Grant Terminations Based on Changes to “Program Goals or Agency Priorities” - dorsey.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZWg1b1daZnFHS1pDZ2V2SUdoUm5mMk56TVgtYnlxVkZoUEJDcDgtNUh0dkdzRXh1RGE1MU8xYzJMc2VNdm1XN2toaHQwUDNrb1pUT3FGMmZQdkR0Q1phbmtNRlByR0JicFZJODcyMEtlVUZFZGgzZDROMi1qQWhxOFdzakk3WDVZcWU3SGc2U1d0ZkMxazJvMzJBeUZSUjJhYkNMcmJoLTFlZm5uVV9KQ2hvRjA",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -13857,8 +13684,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "b7aa3e456eca9368",
-        "claim": "Court Declares Unlawful Federal Grant Terminations Based on Changes to “Program Goals or Agency Priorities” - Dorsey & Whitney",
+        "claimId": "c4228a2b300da830",
+        "claim": "Court Declares Unlawful Federal Grant Terminations Based on Changes to “Program Goals or Agency Priorities” - dorsey.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -13932,13 +13759,13 @@
     },
     {
       "id": "mdimgo3dwlzrm5xetyzu01tz1bpyu1bq0dvaenazmlmdxlnnl91uexltgt4tmmynfu1ngldy2rhmuhst2xqrwc4nzvnul94nhznumy3yvhuytizdm9b-oc-5",
-      "title": "Agoda opens public bug bounty programme on HackerOne - Tech Edition",
+      "title": "Agoda opens public bug bounty programme on HackerOne - techedt.com",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOGVBVkczLXNiZF8xTUlwaEV3UVU0MXdaNlpaMTFrc0tMVWRFSmdiMGo3dWlZRm5XeTYzU01tZ1BpYU1BQ0dVaENaZmlmdXlnNl91UExLTGt4TmMyNFU1NGlDY2RHMUhST2xqRWc4NzVnUl94NHZnUmY3YVhuYTIzdm9B",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -13947,8 +13774,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "8c1aa01a7c03ae4a",
-        "claim": "Agoda opens public bug bounty programme on HackerOne - Tech Edition",
+        "claimId": "ec8ea09bea412e37",
+        "claim": "Agoda opens public bug bounty programme on HackerOne - techedt.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -14028,7 +13855,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -14118,7 +13945,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -14208,7 +14035,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -14298,7 +14125,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -14382,13 +14209,13 @@
     },
     {
       "id": "x25hmhhyywn3nkjkznrxzzh3yzyxdge3bghpxzk4swkxevzwtevfq3foc1vub2hfukf6cvhzrzc2zy03cmzmymnxvw9lszbjrvnjbdf0djbpvlbortg-oc-5",
-      "title": "10 Essential Bug Bounty Programs of 2020 - Tripwire",
+      "title": "10 Essential Bug Bounty Programs of 2020 - tripwire.com",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jMHZxYkdmT3J3RTdtZmE0OGZDS2x1WGN3bE45ellPX25hMHhYYWN3NkJkZnRXZzh3YzYxdGE3bGhPXzk4SWkxeVZWTEVFQ3FOc1VUb2hFUkF6cVhzRzc2Zy03cmZmYmNxVW9LSzBJRVNjbDF0djBPVlBORTg",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -14397,8 +14224,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "20227a0d6fbc9195",
-        "claim": "10 Essential Bug Bounty Programs of 2020 - Tripwire",
+        "claimId": "a2fb9e44df458f44",
+        "claim": "10 Essential Bug Bounty Programs of 2020 - tripwire.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -14478,7 +14305,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -14568,7 +14395,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -14658,7 +14485,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -14748,7 +14575,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -14838,7 +14665,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -14928,7 +14755,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -15018,7 +14845,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -15108,7 +14935,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -15198,7 +15025,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -15288,7 +15115,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -15378,7 +15205,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -15470,7 +15297,7 @@
         2000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -15562,7 +15389,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -15652,7 +15479,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -15742,7 +15569,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -15832,7 +15659,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -15922,7 +15749,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -16014,7 +15841,7 @@
         10000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -16106,7 +15933,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -16196,7 +16023,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -16286,7 +16113,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -16376,7 +16203,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -16468,7 +16295,7 @@
         9600000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -16560,7 +16387,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -16650,7 +16477,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -16734,13 +16561,13 @@
     },
     {
       "id": "vlflnke1rdzknktoqtj3turdr0dxqtbtu094suj4zfhzt0o0a3jttjvsruzrx25jrfrtdudsmknznu02ymprd3rsdeffodc2lwnrtw83wdvjzhd1c0e-oc-5",
-      "title": "Reddit Launches New ETH-Based Community Points Rewards Program - cryptonews.com.au",
+      "title": "Reddit Launches New ETH-Based Community Points Rewards Program - Crypto News Australia",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVFgySEo0dTZLUk9RLWdyVGpKdDZqbThTN1I4dzVZMnZlb2NVdjlvclV2RVFZdC1GTmN1SU4zOVUyMVprSlAwRzdnY3hYVlFLNkE1RDZKNktoQTJ3TURDR0dxQTBtU094SUJ4ZFhzT0o0a3JTTjVSRUZRX25jRFRtdUdSMkNZNU02YmpRd3RsdEFfODc2LWNRTW83WDVjZHd1c0E",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -16749,8 +16576,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "1f1ae205613ff969",
-        "claim": "Reddit Launches New ETH-Based Community Points Rewards Program - cryptonews.com.au",
+        "claimId": "a7d4461d149a3058",
+        "claim": "Reddit Launches New ETH-Based Community Points Rewards Program - Crypto News Australia",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -16830,7 +16657,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -16920,7 +16747,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -17010,7 +16837,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -17100,7 +16927,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "testnet",
         "rewards",
@@ -17194,7 +17021,7 @@
         1000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "hackathon",
@@ -17290,7 +17117,7 @@
         200000.0
       ],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "hackathon",
         "rewards",
@@ -17384,7 +17211,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards",
@@ -17476,7 +17303,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "developer"
@@ -17569,7 +17396,7 @@
         10000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "grant"
@@ -17664,7 +17491,7 @@
         5000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -17757,7 +17584,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -17850,7 +17677,7 @@
         50000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant",
         "developer"
@@ -17943,7 +17770,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards",
         "ecosystem"
@@ -18034,7 +17861,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards",
         "ecosystem"
@@ -18125,7 +17952,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards",
         "ecosystem"
@@ -18209,6 +18036,97 @@
       ]
     },
     {
+      "id": "qcnddnmrwdtjtcknnnvvrmjkyz0z0qwjib3z4z1boq2xplulyqvhdwtfnofhuqudfcvv1rf90nm9os00xcndtztkzbwrvrvjnq2txodnzavffvljtcq-oc-5",
+      "title": "The Protocol: Monad Airdrop Portal Opens as Token Launch Nears - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa0lrU3Q4OGlKaGw3SjNpdFk2VXlKX2FtZ3Q0Nk5NeEU2Y0lGTWJFTlBHTHNQS2sweWhVak9tUVFyQlVwNlJ5S0tfM2twR29QcndDNmRWdTJtckNNNVVRMjkyZ0Z0QWJib3Z4Z1BOQ2xPLUlYQVhDWTFNOFhuQUdFcVV1RF90Nm9OS00xcndtZTkzbWRvRVJnQ2txODNZaVFFVlJtcQ",
+      "domain": "news.google.com",
+      "earningType": "speculative_or_token_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 2000,
+      "specialists": [
+        "rewards",
+        "ecosystem"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "ad16b18b67bc0c09",
+        "claim": "The Protocol: Monad Airdrop Portal Opens as Token Launch Nears - CoinDesk",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — airdrop",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 74,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
       "id": "kliadlpqvnnqxrla3varejytldqvjzgue1mwu9tblvizehft3jkmgfielnjyv95ddhkcexoz25bzhndowzfzlpxyzhoznfredvtegdiwljoetzjemju-oc-5",
       "title": "Chainlink VRF vulnerability thwarted by white hat hackers with $300K reward - CryptoSlate",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRjRFLVpRMkNBSFhIZlJHbzJxcW9Bb20xUjZYMGxSSl9ZRFhxMVJYQ3pFRDE2dnVfQ1U2UHhPbXNITXlvbHRhSzhxUkliaDlPQVNNQXRLa3VaREJYTldqVjZGUE1mWU9TblViZEhfT3JKMGFIelNJYV95dDhkcExoZ25BZHNDOWZFZlpxYzhOZnFreDVteGdIWlJOeTZJemJU",
@@ -18218,7 +18136,7 @@
         300000.0
       ],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -18313,7 +18231,7 @@
         50000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty",
         "rewards"
@@ -18406,7 +18324,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -18498,7 +18416,7 @@
         1500000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -18590,7 +18508,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -18674,13 +18592,13 @@
     },
     {
       "id": "hcu5hqnhjunlhmnjptejgwezcqmzhrnbfdwdzcjytngp1eje3zvfjqtjtzzeywm1xdndvy1ndu2xqyjz0qnntsvbmv0zfr2o2nmpadk5jamt3aew3uq-oc-5",
-      "title": "Trump Media to distribute new rewards token to DJT shareholders with Crypto.com - The Block",
+      "title": "Trump Media to distribute new rewards token to DJT shareholders with Crypto.com - theblock.co",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWmNwVTE1dUlCM3RfWVRjaVNUQ2R6MWZRX21qRlE1T0xJMTRVTGtoYzFSSE5jdjJadk9qSzdrRE1YVjJyQllrV3haWDJPLWZOeG1BRWliNlZXM05VXzVmWFVxUWhwRllHcU5hQnhJUnlHMnJpTEJGWEZCQmZHRnBfdWdzcjYtNGp1ejE3ZVFJQTJTZzEyWm1XdndvY1NDU2xqYjZ0QnNtSVBMV0ZFR2o2Nmpadk5jamt3aEw3UQ",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -18689,8 +18607,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "f8cf830f815cc672",
-        "claim": "Trump Media to distribute new rewards token to DJT shareholders with Crypto.com - The Block",
+        "claimId": "f2c1ff04384d6ac8",
+        "claim": "Trump Media to distribute new rewards token to DJT shareholders with Crypto.com - theblock.co",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -18770,7 +18688,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -18854,13 +18772,13 @@
     },
     {
       "id": "evas04wotfmmvhrm2hps0nieeq2venvmuvdzljtzdjhz2jsclplcmt4tevva3jtzlbdcmh3q2vnqtbhzjvvdwzurephdjfrmkhsqxfxoepib3nmoxnn-oc-5",
-      "title": "Trump Media Token Airdrop Confirmed for Shareholders With New Truth Social Utility - Cryptonews",
+      "title": "Trump Media Token Airdrop Confirmed for Shareholders With New Truth Social Utility - cryptonews.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObngyWEplTHAxeDVzUU1UVk1WeFBNNE1acnB3d1dUNXYwaTZkMkJyUmtnT0xnSFVEcjZhZFA4azV5T2lOVEVaS04wOTFmMVhRM2hpS0NIeEQ2VENVMUVDZlJTZDJHZ2JSclplcmt4TEVva3JtZlBDcmh3Q2VnQTBhZjVVdWZUREphdjFrMkhSQXFxOEpIb3NmOXNn",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -18869,8 +18787,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "bc70ff0f31b05420",
-        "claim": "Trump Media Token Airdrop Confirmed for Shareholders With New Truth Social Utility - Cryptonews",
+        "claimId": "44c5126cdb94a2a8",
+        "claim": "Trump Media Token Airdrop Confirmed for Shareholders With New Truth Social Utility - cryptonews.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -18950,7 +18868,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -19040,7 +18958,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -19130,7 +19048,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -19220,7 +19138,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -19310,7 +19228,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -19400,7 +19318,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -19490,7 +19408,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -19580,7 +19498,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -19670,7 +19588,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -19760,7 +19678,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -19850,7 +19768,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -19933,96 +19851,6 @@
       ]
     },
     {
-      "id": "poxdjds1addlnbxjvzwhumkprx29xbetynlf2vjnzwvfqthremfdst25nogpwx2rmztfrc2zszkhnzi02cdzsefnmdk5nqkt2beqtanfvamzynzftdw-oc-5",
-      "title": "The Dish: A government grant was more headache than help for these small businesses - The Baltimore Banner",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU085OEVhVVhkX0NWUDNrMnBqOUJUZWo5TkxqTkphSVJ6MVZqbFRLUEZIZUhoQ2NTdUtxdlZXUmJIa0JMNFZJTERoNXJWQVQxYVBMM20yLU9tS3VLRjJMWVV5ZFlZWnl4dEdtcDlpOXdJdS1adDlnbXJvZWhUMkprX29xbEtyNlF2VjNzWVFQTHREMFdST25nOGpWX2RMZTFrc2ZsZkhnZi02cDZSeFNmdk5NQkt2bEQtanFVamZyNzFTdw",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "grant"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "fbb8a1e6141f540d",
-        "claim": "The Dish: A government grant was more headache than help for these small businesses - The Baltimore Banner",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — Base programs",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 71,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Wed, 27 Sep 2023 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
       "id": "mbfviquw3v1jkuktmaxzzqkf3s1n3c3frbuw4vmnystrscujzrvn0thi0v0lubxhlawzsztv1ou1xmkdfcfzwwkxqz0n5tfldcxbfa3vfzdllcfjjuw-oc-5",
       "title": "News Explorer — Fold Debuts Bitcoin Rewards Credit Card After Securing $150M Credit Facility - Decrypt",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTTZmRUxFQVYtaHJ6QWhqLXNBS09vS1VGY3N0d051bS1fbnRtLWdZSnZFZW45UWVqSUh3N3ZLMTU4QnNyTkhITjh0SWlkX3ZsNmN6blFjVldDZFR4SnRjdHoxSEpubEFjUHZNajg5XzNPb05MbFViQUw3V1JkUktmaXZZQkF3S1N3c3FRbUw4VmNYSTRScUJZRVN0THI0V0lubXhLaWZSZTV1OU1xMkdFcFZwWkxqZ0N5TFlDcXBfa3VfZDllcFJjUw",
@@ -20030,7 +19858,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -20120,7 +19948,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -20204,13 +20032,13 @@
     },
     {
       "id": "mz2jintdcewnfyk0ta2fkmwq5cxgzvkgxvgcwszvvv0tzuvfnadd5rko0uvjszwplrhu1z1jbbdhdvhfudeflrzbpwg9pc1vmntvxc2zwbtc1owzgdw-oc-5",
-      "title": "Fold starts rolling out Bitcoin credit card with 4% rewards offer - crypto.news",
+      "title": "Fold starts rolling out Bitcoin credit card with 4% rewards offer - Crypto News",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uZUxEemk0WDl6S1NyemFBVjctNG5MZ2JiNTdCeWNFYk0ta2FKMWQ5cXgzVkgxVGcwSzVvV0tzUVFNaDd5Rko0UVJSZWpLRHU1Z1JBbDhDVHFUdEFlRzBPWG9pc1VmNTVxc2ZwbTc1OWZGdw",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -20219,8 +20047,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "c210c32e4e6a6b6a",
-        "claim": "Fold starts rolling out Bitcoin credit card with 4% rewards offer - crypto.news",
+        "claimId": "89dad536fee5653d",
+        "claim": "Fold starts rolling out Bitcoin credit card with 4% rewards offer - Crypto News",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -20294,13 +20122,13 @@
     },
     {
       "id": "skfqq25orvzkvuo3ytnnmuk0nvnhouu0u0frz1bhx05dsjhir01rwuzaekd2rmrzrdg2rg5pujrece5zemdhv1uteurwz0nnn05crxdry0fpb1o5n3m-oc-5",
-      "title": "PARAM Airdrop? Crypto Points Campaign Confirmed - BitPinas",
+      "title": "PARAM Airdrop? Crypto Points Campaign Confirmed - bitpinas.com",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yMk9fY19tZlhuSFVSem40MGpwSmR3SkFQQ25oRVZkVUo3YTNnMUk0NVNHOUU0U0FRZ1BhX05DSjhiR01rWUZaekd2RmRzRDg2RG5pUjREcE5zemdhV1UteURWZ0NNN05CRXdRY0FPb1o5N3M",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -20309,8 +20137,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "e783a900e5740c88",
-        "claim": "PARAM Airdrop? Crypto Points Campaign Confirmed - BitPinas",
+        "claimId": "8d022b5a4fbec674",
+        "claim": "PARAM Airdrop? Crypto Points Campaign Confirmed - bitpinas.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -20384,13 +20212,13 @@
     },
     {
       "id": "zmmx2bdy4awvxtu1gsjrragjvnkhwymhcrdlqbwpvv2j1v2pbbmtlt2f2tudsngjqdks0adhntzyyzkvwctrnys1yvmizrxbkumrxdvzgqljwdfa3uq-oc-5",
-      "title": "Planned Parenthood-Lubbock receives Title X grant - lubbockonline.com",
+      "title": "Planned Parenthood-Lubbock receives Title X grant - Lubbock Avalanche-Journal",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSU1fVDN6a2RMNk9Na3BOT1ZncEpERFRpT0luOWxmUmJGcDdiQXdfc3M2Q1piWEs1OHIwc2dvOE9xOEtzM0FkVnNLdE9aazBqUi1HaXdYMHp1ZzlBZlJhaWNKSTIxXzlwVm1ZMmx2bDY4aWVxTU1GSjRRaGJVNkhWYmhCRDlQbWpVV2J1V2pBbmtlT2F2TUdSNGJQdks0aDhnTzYyZkVwcTRNYS1yVmIzRXBkUmRxdVZGQlJwdFA3UQ",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -20399,8 +20227,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "63d6276b1fb34a58",
-        "claim": "Planned Parenthood-Lubbock receives Title X grant - lubbockonline.com",
+        "claimId": "54a1bd0b06eaacec",
+        "claim": "Planned Parenthood-Lubbock receives Title X grant - Lubbock Avalanche-Journal",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -20482,7 +20310,7 @@
         1000000.0
       ],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -20574,7 +20402,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -20658,13 +20486,13 @@
     },
     {
       "id": "nghkzfpytvjnngzitmr2nvlnemjssufrtm9oz1dfz3m4mw44a05vnejttudhv1b4ali1wkrvsvv6vgrxvgjgqvp4muctoexpni04b2wwqmxfdzltus0-oc-5",
-      "title": "Opinion: B.C.'s education savings grant offered families support where it matters most - Vancouver Sun",
+      "title": "Opinion: B.C.'s education savings grant offered families support where it matters most - vancouversun.com",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRFNrRE9ZaVBvSUZCYVVRbTZIbWp2NENvNjI5R1hXSXRCODB1b25zT1ZrbHUtYVRVbm1ILVdOaExCUWRuQV92MjRTeDBrT2RRTWd5TXdXRl90WXlHVDFYZ0lzSWtINmxRMzJRNGhkZFpYTVJNNGZiTmR2NVlNemJsSUFrTm9OZ1dfZ3M4MW44a05VNEJTTUdhV1B4alI1WkRVSVV6VGRxVGJGQVp4MUctOExPNi04b2wwQmxFdzltUS0",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -20673,8 +20501,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "9345878a2ba3afc8",
-        "claim": "Opinion: B.C.'s education savings grant offered families support where it matters most - Vancouver Sun",
+        "claimId": "08035d7a363d0f9a",
+        "claim": "Opinion: B.C.'s education savings grant offered families support where it matters most - vancouversun.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -20748,13 +20576,13 @@
     },
     {
       "id": "mpzlvddaw1fsextdkjkym9zzestmmliuwdadkzssxp6lwe1nnppb1p6zll1mnvstzu5c3dxnv81uxb6ylvpum4tzklmmvn4rdjhytvmreczshfqazrr-oc-5",
-      "title": "Video shows 'bounty hunters’ firing into RV near Sandel Park amid safety, drug concerns - KOMO",
+      "title": "Video shows 'bounty hunters’ firing into RV near Sandel Park amid safety, drug concerns - komonews.com",
       "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQVEtxTzBWREYwTnpodXBFcDQxOVlDbGhzc3h5VndkWkxqVnZCcDBYWWZGRm1BYWJpSUZmb2l2Y2tnZ2xnOFZHUEdwb183bTQzRy1aeXdUUTFPRUhjTFc4VlZZOUt6ck5uV1IxQmx1Z2FXT0JlQkRDTzZ5enV2bXRhemF1R2tic2Nfa0hCQ0NpZUNpaG83b0t5LXcyS0RVbnBaOWo2RXpkeTBRMzlBQmMzcEp1c2RGUXZXcXZ6VmU1cUpTekItRGFiQmpZLVdDaW1FSExtdkJkYm9zZEstMmliUWdadkZsSXp6LWE1NnpPb1p6Zll1MnVsTzU5c3dxNV81UXB6YlVPUm4tZklmMVN4RDJHYTVmREczSHFqazRR",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -20763,8 +20591,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "607b965061cc30c5",
-        "claim": "Video shows 'bounty hunters’ firing into RV near Sandel Park amid safety, drug concerns - KOMO",
+        "claimId": "068017630a659882",
+        "claim": "Video shows 'bounty hunters’ firing into RV near Sandel Park amid safety, drug concerns - komonews.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -20844,7 +20672,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -20936,7 +20764,7 @@
         1100000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -21028,7 +20856,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -21112,13 +20940,13 @@
     },
     {
       "id": "vevmbmrocgdjbxhctwlowxv6r0y5wezwqxvfahv2bexjcmm1tgxqsnlmyzm5zwyztxpprlfhcjzccc1unf9mane0uxpobwd2ahb3b0swnwvpnjflmxc-oc-5",
-      "title": "Marshall Grant McCall, Jr. - alpineavalanche.com",
+      "title": "Marshall Grant McCall, Jr. - Alpine Avalanche",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iZzdPeFhZRzRLQTFZeUFNYWw4SVBmVUtyVEVmbmRocGdjbXhCTWloWXV6R0Y5WEZwQXVFaHV2bExJcmM1TGxQSnlMYzM5ZWYzTXppRlFhcjZCcC1UNF9manE0UXpObWd2aHB3b0swNWVpNjFlMXc",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -21127,8 +20955,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "bdbe7972de1b9bc5",
-        "claim": "Marshall Grant McCall, Jr. - alpineavalanche.com",
+        "claimId": "7cd2e5d4ab1e705c",
+        "claim": "Marshall Grant McCall, Jr. - Alpine Avalanche",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -21208,7 +21036,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -21298,7 +21126,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -21382,13 +21210,13 @@
     },
     {
       "id": "0qlbregtxvkxkajy3rkngrwmxn05ndlb0dmp4ohj0nlnrvepjykjvudmxb0hvbtb0cufxmthwmvjnt0s5oui4vzdvatjts3lnm3a3djrletgtmnm4qq-oc-5",
-      "title": "Tax Court Upholds Income Tax on Cryptocurrency Rewards - Legis1",
+      "title": "Tax Court Upholds Income Tax on Cryptocurrency Rewards - legis1.com",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBXY014MkdJQmZpaWNMOWtQTWJxdkFNVWxlMWt4NUtTNS10QlBReGtxVkxKajY3RkNGRWMxN05NdlB0dmp4OHJ0NlNRVEpJYkJVUDMxb0hvbTB0cUFxMThwMVJnT0s5OUI4VzdVaTJtS3lNM3A3djRleTgtMnM4QQ",
       "domain": "news.google.com",
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -21397,8 +21225,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "1a48120ffec7e226",
-        "claim": "Tax Court Upholds Income Tax on Cryptocurrency Rewards - Legis1",
+        "claimId": "f2d846989ac2b012",
+        "claim": "Tax Court Upholds Income Tax on Cryptocurrency Rewards - legis1.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -21478,7 +21306,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -21568,7 +21396,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -21658,7 +21486,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -21750,7 +21578,7 @@
         10000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -21842,7 +21670,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -21932,7 +21760,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -22022,7 +21850,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -22114,7 +21942,7 @@
         20000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -22208,7 +22036,7 @@
         20000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -22300,7 +22128,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -22390,7 +22218,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -22480,7 +22308,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -22570,7 +22398,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -22660,7 +22488,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -22752,7 +22580,7 @@
         800000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -22844,7 +22672,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -22934,7 +22762,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -23026,7 +22854,7 @@
         13219.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -23118,7 +22946,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -23208,7 +23036,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -23298,7 +23126,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -23388,7 +23216,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -23478,7 +23306,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -23568,7 +23396,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -23660,7 +23488,7 @@
         589000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -23752,7 +23580,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -23842,7 +23670,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -23926,13 +23754,13 @@
     },
     {
       "id": "sthtudrzcti0sgfrcfl3bhhwq2tqdxvkzddsvmg5xzr5bja5ahpjvjbaberda19vnxnjls1jzvlbawwwr2hudwh6zkpqvkfzohi5wmpbx2k2t25kqke-oc-5",
-      "title": "Herman Ray Grant Obituary - lubbockonline.com",
+      "title": "Herman Ray Grant Obituary - Lubbock Avalanche-Journal",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YSThTUDRzcTI0SGFRcFl3bHhwQ2tqdXVkZDdSVmg5XzR5bjA5aHpjVjBabERDa19vNXNjLS1JZVlBaWwwR2hudWh6ZkpQVkFzOHI5WmpBX2k2T25kQkE",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -23941,8 +23769,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "8fbfb9f5f018ce99",
-        "claim": "Herman Ray Grant Obituary - lubbockonline.com",
+        "claimId": "ff05ee6b13f8c523",
+        "claim": "Herman Ray Grant Obituary - Lubbock Avalanche-Journal",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -24022,7 +23850,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -24112,7 +23940,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -24202,7 +24030,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -24292,7 +24120,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -24384,7 +24212,7 @@
         1800000.0
       ],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -24476,7 +24304,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -24566,7 +24394,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -24656,7 +24484,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -24746,7 +24574,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -24801,7 +24629,7 @@
       "risk": "review",
       "nextAction": "OWNER_REVIEW",
       "freshnessSignals": {
-        "published": "Wed, 16 Sep 2026 07:47:00 GMT",
+        "published": "Wed, 16 Sep 2026 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -24836,7 +24664,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -24926,7 +24754,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -25018,7 +24846,7 @@
         800000.0
       ],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -25044,7 +24872,7 @@
         "lineage": [
           {
             "type": "publisher",
-            "id": "Google News — rewards",
+            "id": "Google News — airdrop",
             "domain": "news.google.com",
             "independent": false
           },
@@ -25110,7 +24938,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -25200,7 +25028,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -25290,7 +25118,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -25380,7 +25208,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -25470,7 +25298,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -25560,7 +25388,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -25650,7 +25478,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -25740,7 +25568,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -25832,7 +25660,7 @@
         1500000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -25924,7 +25752,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -26014,7 +25842,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -26098,13 +25926,13 @@
     },
     {
       "id": "duxrdnzgdnjnbjrlcvh6u1j2tlvjltnpsxpvevuzdgxhwu96t3atzw1eyzdwmdbhrljqrdjwzndta21mnkz3n3b3n29mauroety4b0x4cgjjm3c5dnc-oc-5",
-      "title": "One Year After Green Bank’s Demise, Court Mulls Future of Grant-Based Climate Policy - insideclimatenews.org",
+      "title": "One Year After Green Bank’s Demise, Court Mulls Future of Grant-Based Climate Policy - Inside Climate News",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVVlJYzVDUmZXS1FGTnNaUHNnMjE2R1dPeUdwaTdDQ2IxeG1MQVVuLXh3OGwwUHFrSGFDRE0tdUxrdnZGdnJNbjRLcVh6U1J2TlVJLTNPSXpVeVUzdGxHWU96T3AtZW1EYzdWMDBhRlJQRDJwZndTa21mNkZ3N3B3N29MaURoeTY4b0x4cGJJM3c5dnc",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -26113,8 +25941,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "5624fd0f0c68c465",
-        "claim": "One Year After Green Bank’s Demise, Court Mulls Future of Grant-Based Climate Policy - insideclimatenews.org",
+        "claimId": "d31e0410fce3c74e",
+        "claim": "One Year After Green Bank’s Demise, Court Mulls Future of Grant-Based Climate Policy - Inside Climate News",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -26194,7 +26022,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],
@@ -26284,7 +26112,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -26367,6 +26195,190 @@
       ]
     },
     {
+      "id": "z2xwuxpavjrkttzuztetbgrdszuxnectzu5et2pstnq2oepbq3h2z1pfykhtsnvfnxbzdwtzogoxdjl0cmnlmlbsblbzse8wwg9tndh2nnvoufgws3c-oc-5",
+      "title": "LINEA Airdrop Launches for Historical BNB Holders - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPa3NIWnJTRnNlYjZPRjRGQVl6TWpyWWFIdDY4MDlFNzNTS09FYTUzSjZmWFZzQzZ1UHUyZ0kxd0lnZ2xwUXpaVjRkTTZuZTEtbGRDSzUxNEctZU5ET2pSTnQ2OEpBQ3h2Z1pFYkhTSnVFNXBzdWtZOGoxdjl0cmNLMlBSblBzSE8wWG9TNDh2NnVOUFgwS3c",
+      "domain": "news.google.com",
+      "earningType": "speculative_or_token_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 2000,
+      "specialists": [
+        "rewards"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "06fcc2b5b2cddde8",
+        "claim": "LINEA Airdrop Launches for Historical BNB Holders - CoinMarketCap",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — retroactive programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 71,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 10 Sep 2025 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
+      "id": "tbdjorufkwglqwhzfsmj3c3ftb2c3v2vlvuhovnm1um1usfjotknpauv3nhczqvbaeeljy3zhylczb2jxvgjkau5vyue0c3fwmwznuvr0axlavghuzw-oc-5",
+      "title": "LCRA, Hamilton County Electric Co-op award $4,800 grant for exterior repairs to Lometa community library - LCRA - Lower Colorado River Authority",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNkFUcU5WQUxKZjRPcUpzNmw3ZDhaTEYtalBfdDh2Z1NDM2FqbVZOb2dkUlBSbzdmY1JOX2FxNF9mTVNBN3JVUUhQWVhjam5Vbm9MaVZ0SVFzT1JGa21VT1VaN3l3U0xSMGI1aWlQeXNwR3hWZnM0WWx0bVB4UjBIUlRYT1UtbDJoRUFkWGlQWHZfSmJ3c3Ftb2c3V2VLVUhoVnM1Um1USFJoTkNPaUV3NHczQVBaeElJY3ZHYlczb2JxVGJkaU5VYUE0c3FwMWZnUVR0aXlaVGhUZw",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        4800.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 2000,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "1ab3617c89b58db9",
+        "claim": "LCRA, Hamilton County Electric Co-op award $4,800 grant for exterior repairs to Lometa community library - LCRA - Lower Colorado River Authority",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — Optimism programs",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 71,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 10 Jun 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          4800.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
       "id": "u5hadjytzk0vwd5anlvoxnnagfjsjmtrvvhcw9zdupemjlptjjhukuzr0rodmg2mdhiyujlcmpic1lfmthoww4zd3vmsthruxg3ovdmbezzlxpxumy1-oc-5",
       "title": "KITE Ai Airdrop💎Checker Live, Claim Token Fast! - paragraph.com",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQmk4R1dpeXJlVDdoR2VHMVRzUHloWjhKd3pMSzhkQXlZOV83VmJRLVdPNU5HaDJyTzk0VWd5anlvOXNNaGFJSjMtRVVHcW9ZdUpEMjlPTjJHUkUzR0ROdmg2MDhIYUJlcmpic1lFMThoWW4zd3VmSThRUXg3OVdMbEZZLXpxUmY1",
@@ -26374,7 +26386,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -26464,7 +26476,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -26554,7 +26566,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -26638,7 +26650,7 @@
     },
     {
       "id": "2pjd3k0tgrydg9tt1dqnm1ymnnjs3lfcho4mxnsb1etblhkb1hnbw5umy1lq2lflvbmchnsqkjtael6nkhvs0xkejg3wldxslftuu1fcwnlcu13vno0-oc-5",
-      "title": "ZKSync recovers funds stolen in $5M exploit after hacker claims bounty - crypto.news",
+      "title": "ZKSync recovers funds stolen in $5M exploit after hacker claims bounty - Crypto News",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPek93VGlVUUtWd0ZkQk01bVo5THZJUUtsZ3hJWFVkVEFTRzRIbGl1YmI2Mnd0NzI1VmdLWEwwT2pjd3k0TGRYdG9TT1dQNm1yMnNjS3lFcHo4MXNSb1EtblhKb1hnbW5uMy1lQ2lFLVBmcHNSQkJtaEl6NkhVS0xKejg3WldxSlFtUU1FcWNlcU13Vno0",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -26646,7 +26658,7 @@
         5000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "bounty"
       ],
@@ -26655,8 +26667,8 @@
       "actionComplexity": 3,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "bb378c558b9e72f9",
-        "claim": "ZKSync recovers funds stolen in $5M exploit after hacker claims bounty - crypto.news",
+        "claimId": "f172a90ff5b0994d",
+        "claim": "ZKSync recovers funds stolen in $5M exploit after hacker claims bounty - Crypto News",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -26738,7 +26750,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -26828,7 +26840,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -26918,7 +26930,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -27001,96 +27013,6 @@
       ]
     },
     {
-      "id": "qzzuafvbtkpfqlnbyjnymgpmsvcxtnvfs0nrmnmyzuo4anryt1ltwxl0d2hpn04yzgnies1trdvqmnl5suxhx0jzyvnrddndnw4yv2tbm2g3mw02mee-oc-5",
-      "title": "Single Entity Claims Over 60% of aPriori Airdrop Through 14,000 Connected Wallets, Analysis Shows - Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNamxwUmVud1ZLeWtidmlmSW9vTDhocENzWTZ6ZzVjVWFIWG1TNmFhc3hDcGpRZUFZMy1ONlB3aU1NY2l0LXJWUVJyYXUyV0pFZlVUaHA4WDljVV9EaktHU0NISlBEQklES0RkcHo0Njg2ZzVXZ0lBZjBMbzNDbHZfcGg4aHpXUzJ0YllZeGxnbVZLRnFMQzZuaFVBTkpfQlNBYjNYMGpmSVcxTnVFS0NrMnMyZUo4anRyT1lTWXl0d2hpN04yZGNieS1TRDVQMnl5SUxhX0JzYVNRdDNDNW4yV2tBM2g3MW02MEE",
-      "domain": "news.google.com",
-      "earningType": "speculative_or_token_based",
-      "explicitUsdAmounts": [],
-      "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
-      "specialists": [
-        "rewards"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 3,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "ccd3c7f2405cc0eb",
-        "claim": "Single Entity Claims Over 60% of aPriori Airdrop Through 14,000 Connected Wallets, Analysis Shows - Yellow.com",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — airdrop",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 68,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Wed, 12 Nov 2025 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ]
-    },
-    {
       "id": "cy1hrshzaak9fvwk5thntcgjvd2nwyjr4twnvqtnlylrpu2djdve0lvlxuldrvkc3ek15rmfpmfvumvpurhzqb1i2bzjwsuxjs3e5y1nhzgrun05mtq-oc-5",
       "title": "How to Claim the YesCoin Airdrop: A Step-by-Step Guide - Binance",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXS08xSFlCY1hRSHZaak9fVWk5THNtcGJVd2NWYjR4TWNvQTNlYlRpU2dJdVE0LVlxUldRVkc3ek15RmFpMFVuMVpuRHZQb1I2bzJwSUxJS3E5Y1NHZGRuN05mTQ",
@@ -27098,7 +27020,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -27181,6 +27103,96 @@
       ]
     },
     {
+      "id": "jz25rmdzrznriywnov3rjawhjqjvdvum0udnvvgd1n0divkcxu3pqt0i0slvxnuswn2rbndzmwmdkmy1syurlwkftvxdyodnir0jumeppegvsyxvhzw-oc-5",
+      "title": "Linea Listing on September 10, 2025: Complete Guide to Linea Airdrop Claim, TGE - Bitget",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY3VmV1NfSTg5aWdBQndUaHVhQVVRQjRtTmlWWWZDMGZyT01NbmJ2cC01MnA4Z1Mwd3cyOU5jZ25RMDZrZnRIYWNOV3RJaWhJQjVDVUM0UDNVVGd1N0dIVkcxU3pqT0I0SlVXNUswN2RBNDZMWmdKMy1sYURLWkFTVXdyODNIR0JUMEpPeGVSYXVhZw",
+      "domain": "news.google.com",
+      "earningType": "speculative_or_token_based",
+      "explicitUsdAmounts": [],
+      "countsTowardMonthlyTarget": false,
+      "monthlyTargetUsd": 2000,
+      "specialists": [
+        "rewards"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 3,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "39c407e779f6afe5",
+        "claim": "Linea Listing on September 10, 2025: Complete Guide to Linea Airdrop Claim, TGE - Bitget",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — official airdrop safety",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 68,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Wed, 10 Sep 2025 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ]
+    },
+    {
       "id": "xnvanaznky4x2xza1frnwzuwhfkze9lmf8wcwxlt05iys1cazduofbns2rtbgpucg5yclduztvxqmr2tzd0rznvyuhdbe5prujabnzfqwxlmujnstdf-oc-5",
       "title": "ETH Gas Airdrop Eligibility Checker Live: $GWEI Listing and Claim Info - Coin Gabbar",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNnNPZUhTOEdWMkVvV2NyZFFyb2RWaVUzNXVfSU9aM1gxT1pmYWx5T19uTFJKbFlxd1VSSkJ6RU94QVd5M1d4WXEwZ2hMczRrMHZ3LURYY2RKZXNvanAzNkY4X2xza1FRNWZUWHFKZE9LMF8wcWxlT05iYS1CazduOFBNS2RtbGpucG5YclduZTVXQmR2Tzd0RzNvYUhDbE5PRUJabnZFQWxlMUJnSTdF",
@@ -27188,7 +27200,7 @@
       "earningType": "speculative_or_token_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "rewards"
       ],
@@ -27278,7 +27290,7 @@
       "earningType": "direct_or_application_based",
       "explicitUsdAmounts": [],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000,
+      "monthlyTargetUsd": 2000,
       "specialists": [
         "grant"
       ],

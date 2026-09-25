@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T15:41:07.854672+00:00",
-  "monthlyTargetUsd": 10000.0,
+  "updatedAt": "2026-09-25T18:40:41.125779+00:00",
+  "monthlyTargetUsd": 2000.0,
   "valueCutoffUsd": 2000.0,
   "staleDays": 60,
   "candidateCount": 300,
@@ -10,6 +10,7 @@
   "directEarningCount": 24,
   "highValueCandidates": [
     "vdwh4wve2uehkskq4q2g2cuf4rlo1mnjrcwzjv3dldflqn0zsdlfxnvbvcglyrktwwkdkylhxtk1nwvdfeustadkxsvnkbfi4ufixrfn2sefma0dguw-oc-5",
+    "y02zwzkn2xnaflyd0y0wezlx2rbwdflreo0whdezxvqvlzwadfbuul3rdfksmgzbdzsb0hxyuz3vtlcegxkwxjqqnbeb3riy2jlvw5mb0texzc4reli-oc-5",
     "uhewuzxstq5nmjyz2fesg9quv85axh6exjotnrxn2txszhdnxb6ek04zvbsrjy0mkroqmfzrmlneehwqllwt3p0rnzpcnh3eexzzzctmxjidvl0oglb-oc-5",
     "c1roohzpodbpogzjvwvtawvicdu4cw9qy3p1zlitbxpxem0znnvgd1rwq29xvdrvotmtnnrlukhva1ppehlomdr3wxblevrfuwvitgtxwlp0ejncyla-oc-5",
     "oczfdutkzzepyse9revbyzm5tuvpkdtj0verxdkh5atvptxnivzvjekvrlwtgq1pasg90cdjcawvbwhhzsgvrret0swfxrvbslvzazmladuyya3l5zw-oc-5",
@@ -25,15 +26,14 @@
     "1athsee9rdxy1uhnvdm9lvldnlxjnexzkwllxn05namtqwu1qog83nzjzvtbzs1nzbm41bdrhekzks1loctfqoho3v3dlv3nzmg9aovpwuv9kdtbrrg-oc-5",
     "rgjori00tm5jegitmjzrbwvruhpvduv1meixweltvjfdsuvmsgnfwxruu1jzzf9pdg5sa2rmuhj2cfmtvxpvcmpebdzkaljiy1e1mhlqwdnnyvlzqui-oc-5",
     "tq21ynhvkeuv1ug1nexfkng9avni0ejbpbzjzshc4nke0ndvmm2j0z1nnc0xrmdiwv0lecs1xtzixzzc4swz5yk5fdegzq2r3emdtd0lmnuvsykhmtw-oc-5",
+    "muwjestrqsxeyetz6evnyelnythpzdthuykrxxzqxt0ljlwtia1l5xzjudkhot0jid2t6ylb4ytkwqvlovli0odfxwf82m2lmsdzmvw1swjzjt29wtq-oc-5",
     "utxczrnzgpnc2jwac1abwetrljuagwxulhfqlp2cl9wsekxujfiwvrkellfslg0a19owndtqup3efnvuxnzadnpdvc5rjlzexnycullnultm1dmve5n-oc-5",
     "uwtzpmnutrvvtmlrhevvjbzfpv0q5tfjnlvfvewxumgw5vzbzznnymgrelu05lwnlqkrjmetfb3bmc2qywhfosgpdtnf4me9odfncu1lwbnfztmvvzw-oc-5",
     "uldu0ldrug1t1jkdjrmmkzqchuxsjfnwg5nu0zxctdbswnuynfioxpfm0hflv92lxjnuen1ejczshvqttbvz0t1nhrqvmc2zwjitwpsmljinm9lzvpj-oc-5",
     "ytuvlykn1v05lslpkzkflei1yck9vy1nkn0tlruh4vvzgbdv2avpkmgffvtvnbvpprhrna0ttd0j0bmflvw1sdnvxeeplu3vunznsstv4sfrvrmj1qq-oc-5",
     "twmhwagu2emw0emlyruvitwexq1y0sje5vulwenuztg00utlhatraqnpjwfows0plc1hqvtv1y0l0thrsvgpaute2shetx2lsmeramlu4ejhxouq5mq-oc-5",
     "nzet0jpbennmvpqnernrxncsfppvfngthflujfwtfhpdglwstbvx2lhc05zu3dkmex1yjf6vtbwnxi0rklvu2nibkhvzmrutwn1ttvhyuxksu90cdhx-oc-5",
-    "mfhycjdlvxjedlqtamjobfqzekhmuej2whb4tzhrvkfub3vtqmy1tu4xuulhqtrpt1hkvjjkzkjcb2thqkxvsnzmu2dvzzczwdfps0ndctjlq2rnvmc-oc-5",
-    "vogz1swvktlljugljoejonfbccfpmwdvqyjh3bezpu0ywqlbhymmxtdnicvlcctfwrdjuvs1ybg9fagvrsnpwmthiavhxuwt3lwzpnfy0mvyweljusa-oc-5",
-    "snhwn2pzr1pkafrpm2pnlvpumlryvf80mgozanvcsxljz0o2djlfcm5mzwnvavbllthmm1hwtvzxq0fxmf9qslo3c0lqujnvnhc3m0rit3a3vjvradg-oc-5"
+    "mfhycjdlvxjedlqtamjobfqzekhmuej2whb4tzhrvkfub3vtqmy1tu4xuulhqtrpt1hkvjjkzkjcb2thqkxvsnzmu2dvzzczwdfps0ndctjlq2rnvmc-oc-5"
   ],
   "items": [
     {
@@ -46,7 +46,7 @@
         10000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "grant",
         "developer"
@@ -141,6 +141,109 @@
       "doNotCountAsIncome": false
     },
     {
+      "id": "y02zwzkn2xnaflyd0y0wezlx2rbwdflreo0whdezxvqvlzwadfbuul3rdfksmgzbdzsb0hxyuz3vtlcegxkwxjqqnbeb3riy2jlvw5mb0texzc4reli-oc-5",
+      "title": "Ethernity Chain Unveils $10 Million Grant Program to Empower Founders - CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa0trdlRCelNhUWFuOHpJbGIwR1M3SHJHLXdTUFZOYjFFbUJJNFlQbExWRm1QYnhGUWJTQm0wVUtIWW5vbHMyRVBPUl9rS3VhSEVJTjFfYy02ZWZkN2xnaFlyd0Y0WEZLX2RBWDFlREo0WHdEZXVqVlZwaDFBUUl3RDFKSmgzbDZSb0hxYUZ3VTlCeGxKWXJqQnBEb3RiY2JlVW5Mb0tEXzc4REli",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        10000000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 2000.0,
+      "specialists": [
+        "grant"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "2038df86aa548a2e",
+        "claim": "Ethernity Chain Unveils $10 Million Grant Program to Empower Founders - CryptoSlate",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — grants",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 81,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Tue, 10 Sep 2024 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          10000000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 10000000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
+    },
+    {
       "id": "uhewuzxstq5nmjyz2fesg9quv85axh6exjotnrxn2txszhdnxb6ek04zvbsrjy0mkroqmfzrmlneehwqllwt3p0rnzpcnh3eexzzzctmxjidvl0oglb-oc-5",
       "title": "Fuse launches $10m grant program for Web3 payment startups - Dabafinance",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMERCLVJYZXZuTlZWeHdBOVRRb3Ixc21DZkpkZjY4czRUTmhkd1Q0YlJJN0dlT3pPVUhEWUZXSTQ5NmJyZ2FESG9qUV85aXh6eXJoTnRxN2txSzhDNXB6ek04ZVBSRjY0MkROQmFZRmlNeEhwQllWT3p0RnZpcnh3eExzZzctMXJIdVl0OGlB",
@@ -150,7 +253,7 @@
         10000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "grant"
       ],
@@ -253,7 +356,7 @@
         10000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "bounty"
       ],
@@ -356,7 +459,7 @@
         10000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "bounty",
         "grant"
@@ -460,7 +563,7 @@
         10000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "grant"
       ],
@@ -563,7 +666,7 @@
         9600000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "grant"
       ],
@@ -666,7 +769,7 @@
         9000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "grant",
         "ecosystem"
@@ -770,7 +873,7 @@
         5000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "bounty",
         "ecosystem"
@@ -874,7 +977,7 @@
         5000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "bounty",
         "rewards"
@@ -970,7 +1073,7 @@
     },
     {
       "id": "2pjd3k0tgrydg9tt1dqnm1ymnnjs3lfcho4mxnsb1etblhkb1hnbw5umy1lq2lflvbmchnsqkjtael6nkhvs0xkejg3wldxslftuu1fcwnlcu13vno0-oc-5",
-      "title": "ZKSync recovers funds stolen in $5M exploit after hacker claims bounty - crypto.news",
+      "title": "ZKSync recovers funds stolen in $5M exploit after hacker claims bounty - Crypto News",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPek93VGlVUUtWd0ZkQk01bVo5THZJUUtsZ3hJWFVkVEFTRzRIbGl1YmI2Mnd0NzI1VmdLWEwwT2pjd3k0TGRYdG9TT1dQNm1yMnNjS3lFcHo4MXNSb1EtblhKb1hnbW5uMy1lQ2lFLVBmcHNSQkJtaEl6NkhVS0xKejg3WldxSlFtUU1FcWNlcU13Vno0",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -978,7 +1081,7 @@
         5000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "bounty"
       ],
@@ -987,8 +1090,8 @@
       "actionComplexity": 3,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "bb378c558b9e72f9",
-        "claim": "ZKSync recovers funds stolen in $5M exploit after hacker claims bounty - crypto.news",
+        "claimId": "f172a90ff5b0994d",
+        "claim": "ZKSync recovers funds stolen in $5M exploit after hacker claims bounty - Crypto News",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -1081,7 +1184,7 @@
         4000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "bounty"
       ],
@@ -1184,7 +1287,7 @@
         2000000.0
       ],
       "countsTowardMonthlyTarget": false,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "hackathon"
       ],
@@ -1281,7 +1384,7 @@
     },
     {
       "id": "t01jdfm3wk9jsi05rknouudgug9irflvtletavpoelhqtjhtagr6djdxahzhc3a3lwpmzg9mswzsajdibfvduk9aewu5ykzum19wrmvtmwjjumxkwty-oc-5",
-      "title": "HackerOne’s Largest Bug Bounty Program Boasts 300 Hackers, $2M In Rewards - cybersecurityventures.com",
+      "title": "HackerOne’s Largest Bug Bounty Program Boasts 300 Hackers, $2M In Rewards - Cybercrime Magazine",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT3RMVHV2a2JKek55Wkt6VjRTdTBYT19uVFIwMWxHSEtHTGpQUlhrelU0SlBDcDRBT0dvalBvUXN2M0hnd3RHOG9QVzUzUE9mZXp2T01jdFM3Wk9JSi05RkNOUUdGUG9IRFlvTlEtaVpOelhQTjhTaGR6djdxaHZHc3A3LWpMZG9MSWZsajdibFVDUk9aeWU5YkZUM19WRmVtMWJJUmxkWTY",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -1289,7 +1392,7 @@
         2000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "bounty",
         "rewards"
@@ -1299,8 +1402,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "32025a1306ac0e14",
-        "claim": "HackerOne’s Largest Bug Bounty Program Boasts 300 Hackers, $2M In Rewards - cybersecurityventures.com",
+        "claimId": "8868dd7a22ca4fc0",
+        "claim": "HackerOne’s Largest Bug Bounty Program Boasts 300 Hackers, $2M In Rewards - Cybercrime Magazine",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -1393,7 +1496,7 @@
         2000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "grant",
         "developer"
@@ -1497,7 +1600,7 @@
         2000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "bounty",
         "rewards"
@@ -1601,7 +1704,7 @@
         2000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "bounty"
       ],
@@ -1695,8 +1798,112 @@
       "doNotCountAsIncome": false
     },
     {
+      "id": "muwjestrqsxeyetz6evnyelnythpzdthuykrxxzqxt0ljlwtia1l5xzjudkhot0jid2t6ylb4ytkwqvlovli0odfxwf82m2lmsdzmvw1swjzjt29wtq-oc-5",
+      "title": "Python Foundation rejects $1.5M grant with no-DEI strings - The Register",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSndOV1pET3dQSkEwcFZOeURYNVRQWXZfZEhBZlc1WDFEalktQm45cUo0QzdqZHc2ODRiVjNkWFZjWWxWbFg4RTdYYngzNE9JQmx2cklJT2RpZjhMUWJESTRQSXEyeTZ6eVNYelNYTHpzdThuYkRXXzQxT0ljLWtIa1l5XzJudkhoT0JId2t6YlB4YTkwQVlOVlI0ODFXWF82M2lMSDZMVW1SWjZJT29WTQ",
+      "domain": "news.google.com",
+      "earningType": "direct_or_application_based",
+      "explicitUsdAmounts": [
+        1500000.0
+      ],
+      "countsTowardMonthlyTarget": true,
+      "monthlyTargetUsd": 2000.0,
+      "specialists": [
+        "grant",
+        "ecosystem"
+      ],
+      "trustScore": 10,
+      "evidenceCount": 3,
+      "actionComplexity": 2,
+      "pressureSignals": 0,
+      "evidenceLineage": {
+        "claimId": "217a3392b6f3728e",
+        "claim": "Python Foundation rejects $1.5M grant with no-DEI strings - The Register",
+        "sourceCount": 4,
+        "uniqueDomains": 1,
+        "independentSources": 0,
+        "domains": [
+          "news.google.com"
+        ],
+        "independentDomains": [],
+        "sourceTypes": [
+          "feed_signal",
+          "publisher"
+        ],
+        "convergence": 5,
+        "lineage": [
+          {
+            "type": "publisher",
+            "id": "Google News — open source rewards",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "public-feed",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "keyword-match",
+            "domain": "news.google.com",
+            "independent": false
+          },
+          {
+            "type": "feed_signal",
+            "id": "google-news-discovery",
+            "domain": "news.google.com",
+            "independent": false
+          }
+        ]
+      },
+      "score": 84,
+      "verdict": "candidate",
+      "risk": "review",
+      "nextAction": "OWNER_REVIEW",
+      "freshnessSignals": {
+        "published": "Mon, 27 Oct 2025 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "economics": {
+        "costSignals": 0,
+        "explicitRewardUsd": [
+          1500000.0
+        ],
+        "netRewardNeedsCostCheck": false
+      },
+      "checks": [
+        "confirm the opportunity on the project's official domain",
+        "confirm dates, geography, eligibility and required actions",
+        "treat repeated news copies as one source, not independent confirmation",
+        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
+        "owner approval required before any wallet signature or financial action",
+        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
+        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
+      ],
+      "valueScore": 100,
+      "maxExplicitRewardUsd": 1500000.0,
+      "freshnessDays": null,
+      "highValueSignal": true,
+      "incomeMode": "direct_or_application_based",
+      "priorityBand": "HIGH_VALUE",
+      "targetContributionMode": "evidence_only_until_paid",
+      "requiredNextStep": "OWNER_REVIEW",
+      "doNotCountAsIncome": false
+    },
+    {
       "id": "utxczrnzgpnc2jwac1abwetrljuagwxulhfqlp2cl9wsekxujfiwvrkellfslg0a19owndtqup3efnvuxnzadnpdvc5rjlzexnycullnultm1dmve5n-oc-5",
-      "title": "Google Updates Android Bug Bounty Program With $1.5 Million Offer - Forbes",
+      "title": "Google Updates Android Bug Bounty Program With $1.5 Million Offer - forbes.com",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQzQ4TGNHRjhWSXJ1YzBtbU1HQ1Jva2dEYkpBQTZfQVczOXFNdHVuaXZoUVc3cUJaUG5CNVVQM0ZkMUVkeV9ST2piRzNqWm5uY1daSUxmTGZUbUtxczRnZGpNc2JWaC1abWEtRlJuaGwxUlhfQlp2cl9WSEkxUjFiWVRKellFSlg0a19oWndtQUp3eFNvUXNzaDNpdVc5RjlZeXNYcUlLNUltM1dMVE5N",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -1704,7 +1911,7 @@
         1500000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "bounty"
       ],
@@ -1713,8 +1920,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "001dcd6056285bb1",
-        "claim": "Google Updates Android Bug Bounty Program With $1.5 Million Offer - Forbes",
+        "claimId": "e6b71edadd154e3a",
+        "claim": "Google Updates Android Bug Bounty Program With $1.5 Million Offer - forbes.com",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -1807,7 +2014,7 @@
         1500000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "grant"
       ],
@@ -1910,7 +2117,7 @@
         1500000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "grant"
       ],
@@ -2013,7 +2220,7 @@
         1100000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "grant"
       ],
@@ -2108,7 +2315,7 @@
     },
     {
       "id": "twmhwagu2emw0emlyruvitwexq1y0sje5vulwenuztg00utlhatraqnpjwfows0plc1hqvtv1y0l0thrsvgpaute2shetx2lsmeramlu4ejhxouq5mq-oc-5",
-      "title": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ICTworks",
+      "title": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ictworks.org",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFByYk9JNXpaQ1ZhR1RxeThTWmhWaGU2emw0emlyRUViTWExQ1Y0SjE5VUlwenUzTG00UTlHaTRaQnpJWFowS0pLc1hQVTV1Y0l0THRsVGpaUTE2SHEtX2lSMERaMlU4ejhXOUQ5MQ",
       "domain": "news.google.com",
       "earningType": "direct_or_application_based",
@@ -2116,7 +2323,7 @@
         1000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "grant",
         "developer"
@@ -2126,8 +2333,8 @@
       "actionComplexity": 2,
       "pressureSignals": 0,
       "evidenceLineage": {
-        "claimId": "775c1e2fc88b3949",
-        "claim": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ICTworks",
+        "claimId": "54422c4b3e27fe4c",
+        "claim": "Apply Now: $1 Million in Grant Funding for Free and Open Source Software Programs - ictworks.org",
         "sourceCount": 4,
         "uniqueDomains": 1,
         "independentSources": 0,
@@ -2220,7 +2427,7 @@
         1000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "grant",
         "developer"
@@ -2324,7 +2531,7 @@
         1000000.0
       ],
       "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
+      "monthlyTargetUsd": 2000.0,
       "specialists": [
         "bounty",
         "hackathon",
@@ -2411,213 +2618,6 @@
       ],
       "valueScore": 100,
       "maxExplicitRewardUsd": 1000000.0,
-      "freshnessDays": null,
-      "highValueSignal": true,
-      "incomeMode": "direct_or_application_based",
-      "priorityBand": "HIGH_VALUE",
-      "targetContributionMode": "evidence_only_until_paid",
-      "requiredNextStep": "OWNER_REVIEW",
-      "doNotCountAsIncome": false
-    },
-    {
-      "id": "vogz1swvktlljugljoejonfbccfpmwdvqyjh3bezpu0ywqlbhymmxtdnicvlcctfwrdjuvs1ybg9fagvrsnpwmthiavhxuwt3lwzpnfy0mvyweljusa-oc-5",
-      "title": "Marshall Mountain receives $800k matching grant for base area upgrades - KPAX News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOVQ4Qjg4Ulk0dWpGT0RINVY2WVVBVW1fNENIOXBqTlpzdHNuOHlrS21POGNaOFFsMlJpekRZcGVDLVp4QWIwcHE2LUdmMDBxMXM1NlUwYkNQTXRvOGZ1SWVKTllJUGlJOEJoNFBCcFpmWDVQYjh3bEZPU0YwQlBHYmMxTDNIcVlCcTFwRDJuVS1ybG9faGVrSnpWMThIaVhXUWt3LWZpNFY0MVYwelJuSA",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [
-        800000.0
-      ],
-      "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
-      "specialists": [
-        "grant"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "1ef94633875b4880",
-        "claim": "Marshall Mountain receives $800k matching grant for base area upgrades - KPAX News",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — Base programs",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 71,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Wed, 20 May 2026 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [
-          800000.0
-        ],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ],
-      "valueScore": 100,
-      "maxExplicitRewardUsd": 800000.0,
-      "freshnessDays": null,
-      "highValueSignal": true,
-      "incomeMode": "direct_or_application_based",
-      "priorityBand": "HIGH_VALUE",
-      "targetContributionMode": "evidence_only_until_paid",
-      "requiredNextStep": "OWNER_REVIEW",
-      "doNotCountAsIncome": false
-    },
-    {
-      "id": "snhwn2pzr1pkafrpm2pnlvpumlryvf80mgozanvcsxljz0o2djlfcm5mzwnvavbllthmm1hwtvzxq0fxmf9qslo3c0lqujnvnhc3m0rit3a3vjvradg-oc-5",
-      "title": "Open Source Program Office Secures $719K Grant - Syracuse University Today",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT2d3QzBBM3RNT3paM3JXckllcUpaTTY2aDBPa01FRnVPeXQ2Y3BkSnhwN2pZR1pKaFRPM2pNLVpUMlRYVF80MGozanVCSXlJZ0o2djlfcm5MZWNvaVBLLThMM1hWTVZxQ0FxMF9QSlo3c0lQUjNvNHc3M0RiT3A3VjVraDg",
-      "domain": "news.google.com",
-      "earningType": "direct_or_application_based",
-      "explicitUsdAmounts": [
-        719000.0
-      ],
-      "countsTowardMonthlyTarget": true,
-      "monthlyTargetUsd": 10000.0,
-      "specialists": [
-        "grant",
-        "developer"
-      ],
-      "trustScore": 10,
-      "evidenceCount": 3,
-      "actionComplexity": 2,
-      "pressureSignals": 0,
-      "evidenceLineage": {
-        "claimId": "0a2f8a1ef576b862",
-        "claim": "Open Source Program Office Secures $719K Grant - Syracuse University Today",
-        "sourceCount": 4,
-        "uniqueDomains": 1,
-        "independentSources": 0,
-        "domains": [
-          "news.google.com"
-        ],
-        "independentDomains": [],
-        "sourceTypes": [
-          "feed_signal",
-          "publisher"
-        ],
-        "convergence": 5,
-        "lineage": [
-          {
-            "type": "publisher",
-            "id": "Google News — open source rewards",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "public-feed",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "keyword-match",
-            "domain": "news.google.com",
-            "independent": false
-          },
-          {
-            "type": "feed_signal",
-            "id": "google-news-discovery",
-            "domain": "news.google.com",
-            "independent": false
-          }
-        ]
-      },
-      "score": 84,
-      "verdict": "candidate",
-      "risk": "review",
-      "nextAction": "OWNER_REVIEW",
-      "freshnessSignals": {
-        "published": "Wed, 03 Dec 2025 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "economics": {
-        "costSignals": 0,
-        "explicitRewardUsd": [
-          719000.0
-        ],
-        "netRewardNeedsCostCheck": false
-      },
-      "checks": [
-        "confirm the opportunity on the project's official domain",
-        "confirm dates, geography, eligibility and required actions",
-        "treat repeated news copies as one source, not independent confirmation",
-        "never provide seed/private keys or bypass CAPTCHA/KYC/Sybil controls",
-        "owner approval required before any wallet signature or financial action",
-        "verify destination URL against the project domain; discovery platforms are not proof of official ownership",
-        "record fees/gas/deposits separately from expected reward; never treat gross reward as guaranteed income"
-      ],
-      "valueScore": 100,
-      "maxExplicitRewardUsd": 719000.0,
       "freshnessDays": null,
       "highValueSignal": true,
       "incomeMode": "direct_or_application_based",
