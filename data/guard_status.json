@@ -1,10 +1,11 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T19:34:51.587209+00:00",
+  "updatedAt": "2026-09-25T20:00:50.861110+00:00",
   "automation": {
     "discovery": true,
     "deduplication": true,
     "evidenceReview": true,
+    "verificationGate": true,
     "airdropPlus": true,
     "valueHunter": true,
     "ownerQueue": true,
@@ -21,10 +22,12 @@
     "localReviewFallback": true
   },
   "counts": {
-    "opportunities": 300,
+    "opportunities": 1277,
     "queue": 0,
     "receipts": 0,
-    "adapters": 3
+    "adapters": 3,
+    "verificationChecked": 1277,
+    "verificationReachableAligned": 1275
   },
   "wallet": {
     "temporaryAddressConfigured": false,
