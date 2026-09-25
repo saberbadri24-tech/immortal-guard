@@ -14,6 +14,7 @@ import ipaddress
 import time
 import urllib.request
 import urllib.parse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -63,17 +64,17 @@ def resolve_public(hostname):
 
 def fetch(url):
     last = None
-    for attempt in range(3):
+    for attempt in range(2):
         try:
             req = urllib.request.Request(url, headers=HEADERS, method="GET")
-            with urllib.request.urlopen(req, timeout=12) as r:
+            with urllib.request.urlopen(req, timeout=6) as r:
                 body = r.read(180000)
                 final_url = r.geturl()
                 return r.status, final_url, r.headers.get("content-type", ""), body
         except Exception as exc:
             last = exc
-            if attempt < 2:
-                time.sleep(1 + attempt)
+            if attempt < 1:
+                time.sleep(0.5)
     raise last
 
 def verify(item):
@@ -158,11 +159,17 @@ def main():
     rows = data.get("items", [])
     checks = []
     by_id = {}
-    for item in rows:
-        r = verify(item)
-        checks.append(r)
-        if r.get("id"):
-            by_id[str(r["id"])] = r
+    # Verify many independent public sources concurrently so a large discovery
+    # set cannot serialize into a multi-hour workflow. Each request remains
+    # bounded by the per-request timeout and safety gate above.
+    with ThreadPoolExecutor(max_workers=20) as pool:
+        futures = {pool.submit(verify, item): item for item in rows}
+        for future in as_completed(futures):
+            r = future.result()
+            checks.append(r)
+            if r.get("id"):
+                by_id[str(r["id"])] = r
+    checks.sort(key=lambda x: str(x.get("id") or ""))
     verified = sum(x["verification"] == "REACHABLE_DOMAIN_ALIGNED" for x in checks)
     rejected = sum(x["verification"] == "REJECT" for x in checks)
     payload = {
