@@ -1735,6 +1735,58 @@
         "https-blog-ethereum-org-en-2025-03-18-hoodi-holesky": 100,
         "https-blog-ethereum-org-en-2026-08-17-plataberget-testnet": 100
       }
+    },
+    {
+      "at": "2026-09-26T17:25:31.601269+00:00",
+      "count": 1275,
+      "blocked": 0,
+      "feedErrors": [
+        {
+          "publisher": "HackerOne",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "publisher": "Gitcoin",
+          "error": "HTTP Error 502: Bad Gateway"
+        },
+        {
+          "publisher": "TON Blog",
+          "error": "not well-formed (invalid token): line 8, column 39"
+        }
+      ]
+    },
+    {
+      "at": "2026-09-26T17:25:53.384250+00:00",
+      "engineCount": 1275,
+      "topScore": 100,
+      "independentSources": 1,
+      "qualifiedDailyCount": 11,
+      "qualifiedIds": [
+        "https-blog-ethereum-org-en-2026-08-05-1ts-grant",
+        "https-blog-ethereum-org-en-2022-12-15-kzg-ceremony-grants-round",
+        "https-blog-ethereum-org-en-2025-04-22-destino-devconnect",
+        "https-blog-ethereum-org-en-2026-02-27-project-odin",
+        "https-blog-ethereum-org-en-2024-11-07-introducing-mekong-testnet",
+        "https-blog-ethereum-org-en-2025-09-15-fusaka-audit-content",
+        "https-blog-ethereum-org-en-2025-09-01-holesky-shutdown-announcement",
+        "https-blog-ethereum-org-en-2025-09-26-fusaka-testnet-announcement",
+        "https-blog-ethereum-org-en-2025-02-14-pectra-testnet-announcement",
+        "https-blog-ethereum-org-en-2025-03-18-hoodi-holesky",
+        "https-blog-ethereum-org-en-2026-08-17-plataberget-testnet"
+      ],
+      "scoreMap": {
+        "https-blog-ethereum-org-en-2026-08-05-1ts-grant": 100,
+        "https-blog-ethereum-org-en-2022-12-15-kzg-ceremony-grants-round": 100,
+        "https-blog-ethereum-org-en-2025-04-22-destino-devconnect": 100,
+        "https-blog-ethereum-org-en-2026-02-27-project-odin": 100,
+        "https-blog-ethereum-org-en-2024-11-07-introducing-mekong-testnet": 100,
+        "https-blog-ethereum-org-en-2025-09-15-fusaka-audit-content": 100,
+        "https-blog-ethereum-org-en-2025-09-01-holesky-shutdown-announcement": 100,
+        "https-blog-ethereum-org-en-2025-09-26-fusaka-testnet-announcement": 100,
+        "https-blog-ethereum-org-en-2025-02-14-pectra-testnet-announcement": 100,
+        "https-blog-ethereum-org-en-2025-03-18-hoodi-holesky": 100,
+        "https-blog-ethereum-org-en-2026-08-17-plataberget-testnet": 100
+      }
     }
   ]
 }
