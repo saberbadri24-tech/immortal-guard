@@ -21,7 +21,7 @@ ALLOWED = {
     "ethereum.org", "blog.ethereum.org", "immunefi.com",
     "code4rena.com", "sherlock.xyz"
 }
-BLOCK = re.compile(r"(seed phrase|private key|recovery phrase|secret key|captcha bypass|kyc bypass|sybil|fake account|multiple accounts|farm wallets)", re.I)
+BLOCK = re.compile(r"(seed phrase|private key|recovery phrase|secret key|captcha bypass|kyc bypass|sybil|fake account|multiple accounts|farm wallets|drain wallet|pay to claim|deposit first)", re.I)
 OWNER_ACTION = re.compile(r"(connect wallet|sign|signature|login|captcha|kyc|verify identity|claim)", re.I)
 
 def host(url):
@@ -36,22 +36,22 @@ def main():
             continue
         url = r.get("url", "")
         h = host(url)
-        # Every discovered/reviewed opportunity is owner-gated. A future
-        # protocol adapter may classify a payout as no-signature, but it still
-        # cannot start until the owner approves the opportunity.
-        mode = "OWNER_REVIEW"
+        reward=max([float(x) for x in (r.get("explicitUsdAmounts") or []) if isinstance(x,(int,float)) and 10 <= float(x) <= 10000000] or [0])
+        auto=bool(r.get("autoReceiveEligible")) and reward >= 10
+        mode = "AUTO_RECEIVE" if auto else "OWNER_REVIEW"
         q.append({
             "id": r.get("id"), "url": url, "domain": h,
-            "mode": mode, "status": "pending",
-            "destination": "TEMP_TON_WALLET",
-            "createdAt": now,
-            "ownerApprovalRequired": True,
-            "note": "No seed/private key. Owner approval is required before any claim/collection. No automatic signing or transfer."
+            "mode": mode, "status": "ready" if auto else "pending",
+            "destination": "TEMP_TON_WALLET", "rewardUsd": reward,
+            "createdAt": now, "ownerApprovalRequired": not auto,
+            "autoReceiveEligible": auto,
+            "note": ("Direct verified payout >= $10: automatically monitor the configured temporary destination; no signing, spending, KYC/CAPTCHA bypass or transfer."
+                     if auto else "Owner approval required for interactive claim, signature, login, KYC/CAPTCHA, or financial action.")
         })
     payload = {
-        "version": 1, "updatedAt": now, "temporaryWallet": "USER_TON_ADDRESS",
+        "version": 1, "updatedAt": now, "temporaryWallet": "CONFIGURED_TEMP_TON_ADDRESS",
         "permanentWalletTransfer": "OWNER_APPROVAL_ONLY",
-        "count": len(q), "items": q,
+        "count": len(q), "autoReceiveCount": sum(1 for x in q if x.get("autoReceiveEligible")), "items": q,
         "safety": {"autoSigning": False, "autoTransfer": False, "secretStorage": False,
                    "kycBypass": False, "captchaBypass": False, "sybilBypass": False}
     }
