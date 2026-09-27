@@ -75,7 +75,9 @@ jobs:
           const fs=require('fs'),vm=require('vm');
           for (const file of ['index.html','admin.html']) {
             const html=fs.readFileSync(file,'utf8');
-            const scripts=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)].map(m=>m[1]).filter(Boolean);
+            const scripts=[...html.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/gi)]
+              .filter(m=>!(/application\/ld\+json/i.test(m[1]||'')))
+              .map(m=>m[2]).filter(Boolean);
             for (const [i,src] of scripts.entries()) vm.createScript(src,{filename:file+':script-'+i});
             console.log('JS OK',file);
           }
