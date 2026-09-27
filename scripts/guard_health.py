@@ -56,6 +56,7 @@ def main():
         "counts": {
             "opportunities": len(opps.get("items", [])),
             "queue": len(q.get("items", [])),
+            "autoReceiveQueue": sum(1 for x in q.get("items", []) if x.get("autoReceiveEligible")),
             "receipts": len(receipts.get("receipts", [])),
             "adapters": len(adapters.get("adapters", [])),
             "verificationChecked": len(verification.get("items", [])),
