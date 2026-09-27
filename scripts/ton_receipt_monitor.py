@@ -48,6 +48,9 @@ def main():
         return
     data = get("getTransactions", {"address":ADDRESS,"limit":100})
     txs = data.get("result", []) if data.get("ok", True) else []
+    balance_data = get("getAddressBalance", {"address":ADDRESS})
+    balance_raw = balance_data.get("result") if balance_data.get("ok", True) else None
+    balance_nano = int(balance_raw) if str(balance_raw or "").isdigit() else None
     old = load(STATE, {"seen":[]})
     seen = set(old.get("seen", []))
     receipts = load(OUT, {"receipts":[]}).get("receipts", [])
@@ -74,6 +77,9 @@ def main():
     OUT.write_text(json.dumps({
         "version":1,"updatedAt":now,"configured":True,"address":ADDRESS,
         "count":len(receipts),"receipts":receipts,
+        "balanceNanoTON":str(balance_nano) if balance_nano is not None else None,
+        "balanceTON":(balance_nano/1e9) if balance_nano is not None else None,
+        "balanceVerifiedAt":now if balance_nano is not None else None,
         "status":"MONITORING",
         "note":"Incoming activity only. No automatic claim, signing or transfer.",
         "safety":{"signing":False,"transfer":False,"secretStorage":False}
