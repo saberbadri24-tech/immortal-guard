@@ -6,7 +6,7 @@
 - Never sign blockchain transactions automatically.
 - Never claim rewards automatically.
 - Never transfer funds automatically.
-- A wallet connection is for address visibility/receivable workflows only; authorization remains with the owner.
+- A wallet connection is for address visibility/receivable workflows and owner-approved transfer requests; authorization remains with the owner.
 - Suspicious reward instructions are blocked or sent to review.
 
 ## Decision pipeline
@@ -17,6 +17,6 @@
 5. Claude review layer
 6. Immortal Guard final security gate
 7. Owner-approval queue
-8. Manual owner action only
+8. Manual owner action only (including final wallet approval for any transfer)
 
 The current repository implements steps 1–3, the safety gate, dashboard feed, history and owner-approval queue. AI model calls are intentionally not faked: Astra/Claude are the live AI architecture roles; Immortal Guard remains the deterministic final safety gate.
