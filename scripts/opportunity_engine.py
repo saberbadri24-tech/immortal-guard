@@ -115,7 +115,7 @@ def extract_money(text):
             if mult and mult.lower()=="m": v*=1000000
             vals.append(v)
         except ValueError: pass
-    return sorted(set(v for v in vals if 50 <= v <= 10000000), reverse=True)[:5]
+    return sorted(set(v for v in vals if 10 <= v <= 10000000), reverse=True)[:5]
 
 def earning_class(text, specialists):
     """Classify only explicit earning mechanisms; airdrops/points stay speculative."""
@@ -187,6 +187,7 @@ def analyze(item, radar_index, verification_index):
         "verification": verification,
         "score": score, "verdict": verdict,
         "risk": risk, "nextAction": action,
+        "autoReceiveEligible": bool(earningType == "direct_or_application_based" and explicitMoney and max(explicitMoney) >= 10 and not blocked and verification.get("verification") == "REACHABLE_DOMAIN_ALIGNED" and trust >= 24 and actions == 0 and cost_signals == 0 and eligibility_signals == 0 and risk == "lower"),
         "freshnessSignals": {
             "published": item.get("published",""),
             "hasDeadline": deadline_signals > 0,
@@ -273,7 +274,7 @@ def main():
         "monthlyTargetUsd": 2000,
         "qualifiedEarningPotentialUsd": sum(max(r.get("explicitUsdAmounts",[]) or [0]) for r in reviews if r.get("countsTowardMonthlyTarget")),
         "actualCollectedUsd": 0,
-        "actualCollectedRule": "Only owner-confirmed received funds count; opportunity estimates never count as income.",
+        "actualCollectedRule": "Only funds actually observed at the configured temporary receiving destination count as received income; opportunity estimates never count as income.",
         "convergenceModel": "independent source domains > repeated copies; on-chain/security signals are separate evidence types",
         "items": reviews,
         "qualifiedDailyLimit": len(new_or_changed),
