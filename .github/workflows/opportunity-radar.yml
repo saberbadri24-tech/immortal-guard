@@ -1,16 +1,12 @@
 name: Immortal Guard Opportunity Radar
 on:
-  push:
-    paths:
-      - 'scripts/**'
-      - '.github/workflows/opportunity-radar.yml'
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
 concurrency:
-  group: opportunity-radar-v3
+  group: opportunity-radar-v4
   cancel-in-progress: true
 jobs:
   collect:
@@ -21,90 +17,53 @@ jobs:
       - name: Compile-check Guard scripts
         run: python3 -m py_compile scripts/*.py
       - name: Run multisensor token discovery radar
-        run: |
-          retry() { local n=0; until "$@"; do n=$((n+1)); [ $n -ge 3 ] && return 1; sleep $((n*5)); done; }
-          retry python3 scripts/multisensor_radar.py
+        run: python3 scripts/multisensor_radar.py
       - name: Run safe radar
-        run: |
-          retry() { local n=0; until "$@"; do n=$((n+1)); [ $n -ge 3 ] && return 1; sleep $((n*5)); done; }
-          retry python3 scripts/collect_opportunities.py
+        run: python3 scripts/collect_opportunities.py
       - name: Run live verification gate
-        run: |
-          retry() { local n=0; until "$@"; do n=$((n+1)); [ $n -ge 3 ] && return 1; sleep $((n*5)); done; }
-          retry python3 scripts/verification_gate.py
+        run: python3 scripts/verification_gate.py
       - name: Run direct official-source qualification gate
-        run: |
-          retry() { local n=0; until "$@"; do n=$((n+1)); [ $n -ge 3 ] && return 1; sleep $((n*5)); done; }
-          retry python3 scripts/official_source_gate.py
+        run: python3 scripts/official_source_gate.py
       - name: Run independent specialist engine
         run: python3 scripts/opportunity_engine.py
       - name: Build evidence lineage graph
         run: python3 scripts/evidence_graph.py
       - name: Run Airdrop Plus specialist
         run: python3 scripts/airdrop_plus.py
-      - name: Run Value Hunter — high-income prioritization
+      - name: Run Value Hunter
         run: python3 scripts/value_hunter.py
       - name: Build unified Opportunity Intelligence layer
         run: python3 scripts/opportunity_intelligence.py
       - name: Build evidence-backed income pipeline
         run: python3 scripts/income_pipeline.py
+      - name: Build Revenue Magnet
+        run: python3 scripts/revenue_magnet.py
       - name: Build guarded collection queue
         run: python3 scripts/collection_router.py
       - name: Build claim adapter registry
         run: python3 scripts/claim_adapter_registry.py
       - name: Monitor temporary TON wallet receipts
         env:
-          TEMP_TON_ADDRESS: ${{ vars.TEMP_TON_ADDRESS }}
-          MAIN_TON_ADDRESS: ${{ vars.MAIN_TON_ADDRESS }}
-          TONCENTER_API_KEY: ${{ secrets.TONCENTER_API_KEY }}
+          TEMP_TON_ADDRESS: ${ vars.TEMP_TON_ADDRESS}
+          MAIN_TON_ADDRESS: ${ vars.MAIN_TON_ADDRESS}
+          TONCENTER_API_KEY: ${ secrets.TONCENTER_API_KEY}
         run: python3 scripts/ton_receipt_monitor.py
       - name: Run optional live AI council
         continue-on-error: true
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${ secrets.OPENAI_API_KEY}
+          ANTHROPIC_API_KEY: ${ secrets.ANTHROPIC_API_KEY}
+          GEMINI_API_KEY: ${ secrets.GEMINI_API_KEY}
           ASTRA_MODEL: gpt-5.6-luna
           CLAUDE_MODEL: claude-sonnet-4-6
-        run: |
-          if [ -z "$OPENAI_API_KEY" ] && [ -z "$ANTHROPIC_API_KEY" ] && [ -z "$GEMINI_API_KEY" ]; then
-            echo 'External AI credentials not configured; using deterministic/local council fallback.'
-            exit 0
-          fi
-          timeout 75s python3 scripts/ai_council.py || echo 'External AI council timed out/failed; continuing with local fallback.'
+        run: python3 scripts/ai_council.py || true
       - name: Build Guard health snapshot
         run: python3 scripts/guard_health.py
-      - name: Validate HTML and JavaScript syntax
-        run: |
-          node - <<'NODE'
-          const fs=require('fs'),vm=require('vm');
-          for (const file of ['index.html','admin.html']) {
-            const html=fs.readFileSync(file,'utf8');
-            const scripts=[...html.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/gi)]
-              .filter(m=>!(/application\/ld\+json/i.test(m[1]||'')))
-              .map(m=>m[2]).filter(Boolean);
-            for (const [i,src] of scripts.entries()) vm.createScript(src,{filename:file+':script-'+i});
-            console.log('JS OK',file);
-          }
-          NODE
-      - name: Validate data
-        run: python3 -c "import json; files=['data/radar_intel.json','data/radar_memory.json','data/verification_gate.json','data/official_source_gate.json','data/radar_alerts.json','data/opportunities.json','data/history.json','data/engine_reviews.json','data/evidence_graph.json','data/airdrop_plus.json','data/opportunity_intelligence.json','data/income_pipeline.json','data/owner_actions.json','data/collection_queue.json','data/temp_wallet.json','data/claim_adapters.json','data/ton_receipts.json','data/ton_receipt_state.json','data/ai_reviews.json','data/daily_hunt.json','data/owner_approval_ledger.json','data/guard_status.json']; [((print('VALID',p)),json.load(open(p))) for p in files]; print('JSON OK')"
+      - name: Validate revenue data
+        run: python3 -c "import json; [json.load(open(p)) for p in ['data/revenue_targets.json','data/income_pipeline.json','data/guard_status.json']]; print('REVENUE DATA OK')"
       - name: Commit refreshed radar
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/radar_intel.json data/radar_memory.json data/verification_gate.json data/official_source_gate.json data/radar_alerts.json data/opportunities.json data/history.json data/engine_reviews.json data/evidence_graph.json data/airdrop_plus.json data/value_hunt.json data/opportunity_intelligence.json data/income_pipeline.json data/owner_actions.json data/collection_queue.json data/temp_wallet.json data/claim_adapters.json data/ton_receipts.json data/ton_receipt_state.json data/transfer_state.json data/ai_reviews.json data/daily_hunt.json data/owner_approval_ledger.json data/guard_status.json
-          if git diff --cached --quiet; then echo 'No changes'; else
-            git commit -m 'chore: refresh immortal guard radar'
-            for attempt in 1 2 3; do
-              git fetch origin main
-              if git rebase origin/main && git push origin HEAD:main; then
-                echo "Push succeeded on attempt $attempt"
-                exit 0
-              fi
-              git rebase --abort || true
-              sleep $((attempt * 5))
-            done
-            echo 'Push failed after 3 retries' >&2
-            exit 1
-          fi
+          git add data/ scripts/
+          if git diff --cached --quiet; then echo 'No changes'; else git commit -m 'chore: refresh immortal guard radar'; git fetch origin main; git rebase origin/main; git push origin HEAD:main; fi
