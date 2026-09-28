@@ -1,0 +1,41 @@
+name: Guard Revenue Regression
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'data/engine_reviews.json'
+      - 'data/verified_settlements.json'
+      - '.github/workflows/guard-revenue-regression.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile Python
+        run: python3 -m py_compile scripts/*.py
+      - name: Execute revenue engines
+        run: |
+          python3 scripts/revenue_ledger.py
+          python3 scripts/income_pipeline.py
+          python3 scripts/revenue_magnet.py
+          python3 scripts/value_hunter.py
+      - name: Validate revenue outputs
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          files=['data/revenue_ledger.json','data/income_pipeline.json','data/revenue_targets.json','data/value_hunt.json','data/daily_hunt.json']
+          for p in files:
+              d=json.loads(Path(p).read_text(encoding='utf-8'))
+              assert isinstance(d,dict), p
+              print('VALID',p)
+          ledger=json.loads(Path('data/revenue_ledger.json').read_text())
+          assert ledger.get('accountingRule') == 'PAID + VERIFIED + EVIDENCE = EARNED'
+          assert float(ledger.get('actualCollectedUsd',0)) >= 0
+          print('REVENUE ACCOUNTING RULE: PASS')
+          PY
