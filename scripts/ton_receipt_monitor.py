@@ -42,10 +42,17 @@ def main():
     if not ADDRESS:
         OUT.parent.mkdir(parents=True, exist_ok=True)
         OUT.write_text(json.dumps({
-            "version":1,"updatedAt":now,"configured":False,"address":None,
-            "count":0,"receipts":[],
+            "version":2,"updatedAt":now,"configured":False,"address":None,
+            "count":0,"receipts":[],"balanceNanoTON":None,"balanceTON":None,
             "status":"WAITING_FOR_TEMP_TON_ADDRESS",
+            "transferStatus":"WAITING_FOR_TEMP_TON_ADDRESS",
             "safety":{"signing":False,"transfer":False,"secretStorage":False}
+        },ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+        TRANSFER.write_text(json.dumps({
+            "version":2,"updatedAt":now,"status":"WAITING_FOR_TEMP_TON_ADDRESS",
+            "temporaryAddress":None,"permanentAddress":MAIN_ADDRESS or None,
+            "observed":[],
+            "rule":"Only an outgoing on-chain transaction from the configured temporary address to the configured permanent address is a verified transfer."
         },ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
         print("TON receipt monitor: TEMP_TON_ADDRESS not configured")
         return
