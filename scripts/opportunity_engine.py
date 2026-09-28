@@ -180,6 +180,7 @@ def analyze(item, radar_index, verification_index):
         "earningType": earningType, "explicitUsdAmounts": explicitMoney,
         "countsTowardMonthlyTarget": bool(explicitMoney) and earningType == "direct_or_application_based",
         "monthlyTargetUsd": 2000,
+        "revenueScale": {"micro": "0-100", "small": "100-1000", "mid": "1000-10000", "large": "10000-100000", "mega": "100000-10000000"},
         "specialists": specialists, "trustScore": trust,
         "evidenceCount": len(set(item.get("evidence", []))),
         "actionComplexity": actions, "pressureSignals": pressure,
