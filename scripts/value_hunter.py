@@ -45,6 +45,20 @@ def category_bonus(spec):
     if "ambassador" in s: return 8
     return 4
 
+def earning_class(r):
+    blob=" ".join(str(r.get(k) or "") for k in ("title","url","domain","earningType","nextAction"))
+    if re.search(r"bug bounty|bounty|vulnerability reward|security reward",blob,re.I):
+        return "CASH_BOUNTY"
+    if re.search(r"grant|funding|builder fund|fellowship",blob,re.I):
+        return "CASH_GRANT"
+    if re.search(r"hackathon|contest|competition|challenge|prize",blob,re.I):
+        return "CASH_CONTEST"
+    if re.search(r"affiliate|referral|commission|ambassador",blob,re.I):
+        return "COMMISSION"
+    if re.search(r"airdrop|points|retroactive|token reward|testnet",blob,re.I):
+        return "TOKEN_SPECULATIVE"
+    return "OTHER"
+
 def value_score(r,now):
     amounts=explicit_amounts(r)
     max_reward=amounts[0] if amounts else 0
@@ -83,9 +97,12 @@ def main():
             continue
         score,reward,age=value_score(r,now)
         specialists=r.get("specialists",[])
+        earning=earning_class(r)
         high_value=reward>=VALUE_CUTOFF
-        direct=r.get("earningType")=="direct_or_application_based"
-        speculative=r.get("earningType")=="speculative_or_token_based"
+        direct=r.get("earningType")=="direct_or_application_based" or earning.startswith("CASH_")
+        speculative=r.get("earningType")=="speculative_or_token_based" or earning=="TOKEN_SPECULATIVE"
+        text_blob=" ".join(str(r.get(k) or "") for k in ("title","url","domain","nextAction"))
+        kyc_signal=bool(re.search(r"\bkyc\b|identity verification|passport",text_blob,re.I))
         candidates.append({
             **r,
             "valueScore":score,
@@ -93,10 +110,13 @@ def main():
             "freshnessDays":round(age,1) if age is not None else None,
             "highValueSignal":high_value,
             "incomeMode":"direct_or_application_based" if direct else ("speculative_or_token_based" if speculative else "unknown"),
+            "earningClass":earning,
+            "cashPath":earning in {"CASH_BOUNTY","CASH_GRANT","CASH_CONTEST","COMMISSION"},
+            "kycSignal":kyc_signal,
             "priorityBand":"HIGH_VALUE" if score>=75 or reward>=VALUE_CUTOFF else ("STRONG" if score>=60 else "WATCH"),
             "monthlyTargetUsd":TARGET,
             "targetContributionMode":"evidence_only_until_paid",
-            "requiredNextStep":"OWNER_REVIEW",
+            "requiredNextStep":"OWNER_REVIEW_AND_SUBMISSION" if direct else "OWNER_REVIEW",
             "doNotCountAsIncome":not direct,
         })
     candidates.sort(key=lambda x:(x["valueScore"],x["maxExplicitRewardUsd"],x.get("trustScore",0),x.get("freshnessDays") is None),reverse=True)
@@ -112,7 +132,8 @@ def main():
         "highValueCandidates":[x["id"] for x in high],
         "items":top,
         "strategy":{
-            "primary":"prioritize fresh, evidence-backed opportunities with explicit high-value rewards or direct earning mechanisms",
+            "primary":"prioritize fresh, evidence-backed cash bounties, grants, contests and commissions before speculative token programs",
+            "cashFirst":"cash-path opportunities outrank points-only/token-only opportunities when evidence and freshness are comparable",
             "secondary":"bounties/grants/contests/developer programs outrank low-value points-only campaigns",
             "antiNoise":"stale announcements and repeated low-value campaigns are not promoted into the daily hunt",
             "incomeRule":"only owner-confirmed received funds count toward the $2,000 monthly target"
