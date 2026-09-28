@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T05:33:47.910835+00:00",
+  "updatedAt": "2026-09-28T13:56:38.571602+00:00",
   "automation": {
     "discovery": true,
     "deduplication": true,
@@ -19,23 +19,28 @@
     "aiCouncil": true,
     "liveExternalAstra": false,
     "liveExternalClaude": false,
-    "localReviewFallback": true
+    "localReviewFallback": true,
+    "incomePipeline": true,
+    "onchainTransferVerification": false
   },
   "counts": {
-    "opportunities": 1273,
+    "opportunities": 1272,
     "queue": 0,
     "autoReceiveQueue": 0,
     "receipts": 0,
     "adapters": 3,
-    "verificationChecked": 1273,
-    "verificationReachableAligned": 1272
+    "verificationChecked": 1272,
+    "verificationReachableAligned": 1271,
+    "incomePriority": 100,
+    "verifiedTransfers": 0
   },
   "wallet": {
     "temporaryAddressConfigured": false,
     "addressSource": "OWNER_CONFIG"
   },
   "blockers": [
-    "TEMP_TON_ADDRESS is not configured"
+    "TEMP_TON_ADDRESS is not configured",
+    "MAIN_TON_ADDRESS is not configured for on-chain transfer verification"
   ],
   "ownerApprovalBoundary": "Claims/signatures/KYC/CAPTCHA remain explicit owner actions"
 }

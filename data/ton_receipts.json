@@ -1,11 +1,14 @@
 {
-  "version": 1,
-  "updatedAt": "2026-09-28T05:33:27.219902+00:00",
+  "version": 2,
+  "updatedAt": "2026-09-28T13:56:17.198969+00:00",
   "configured": false,
   "address": null,
   "count": 0,
   "receipts": [],
+  "balanceNanoTON": null,
+  "balanceTON": null,
   "status": "WAITING_FOR_TEMP_TON_ADDRESS",
+  "transferStatus": "WAITING_FOR_TEMP_TON_ADDRESS",
   "safety": {
     "signing": false,
     "transfer": false,
