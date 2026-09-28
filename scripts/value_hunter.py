@@ -14,6 +14,7 @@ IN=Path("data/engine_reviews.json")
 OUT=Path("data/value_hunt.json")
 HUNT=Path("data/daily_hunt.json")
 TARGET=2000.0
+LEDGER=Path("data/revenue_ledger.json")
 STALE_DAYS=60
 VALUE_CUTOFF=2000.0
 
@@ -144,12 +145,20 @@ def main():
         "version":2,"updatedAt":now.isoformat(),"huntDateUtc":now.date().isoformat(),
         "dailyLimit":len(hunt),"count":len(hunt),"allQualifiedCount":len(candidates),
         "highValueCount":len(high),"directEarningCount":len(direct),
-        "monthlyTargetUsd":TARGET,"actualCollectedUsd":0,
+        "monthlyTargetUsd":TARGET,"actualCollectedUsd":0,"verifiedSettlementCount":0,
         "targetGapUsd":TARGET,"opportunityIds":[x["id"] for x in hunt],
         "opportunities":hunt,
         "rule":"Fresh value-first hunt. High-value/direct opportunities are prioritized; stale announcements are excluded.",
         "incomeRule":"Only owner-confirmed received funds count as collected income."
     }
+    if LEDGER.exists():
+        try:
+            ledger=json.loads(LEDGER.read_text(encoding="utf-8"))
+            h["actualCollectedUsd"]=float(ledger.get("actualCollectedUsd") or 0)
+            h["verifiedSettlementCount"]=int(ledger.get("verifiedSettlementCount") or 0)
+            h["targetGapUsd"]=round(max(0,TARGET-h["actualCollectedUsd"]),2)
+        except Exception:
+            pass
     HUNT.write_text(json.dumps(h,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"Value Hunter: candidates={len(candidates)} high_value={len(high)} direct={len(direct)} top={(hunt[0]['valueScore'] if hunt else 0)}")
 if __name__=="__main__": main()
