@@ -255,7 +255,7 @@ def main():
         changed = old is None or old.get("score") != r.get("score")
         if changed:
             new_or_changed.append(r)
-    qualified = new_or_changed
+    qualified = qualified_all
     specialist_counts = Counter(s for r in reviews for s in r["specialists"])
     now = datetime.now(timezone.utc).isoformat()
     payload = {
