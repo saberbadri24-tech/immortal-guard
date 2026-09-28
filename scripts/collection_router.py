@@ -6,7 +6,7 @@ signs transactions, bypasses KYC/CAPTCHA/Sybil controls, or transfers funds.
 Only explicitly declared, allowlisted no-signature payout APIs can be marked
 auto-collectable; everything else is routed to owner review.
 """
-import json, re
+import json, re, os
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -48,8 +48,9 @@ def main():
             "note": ("Direct verified payout >= $10: automatically monitor the configured temporary destination; no signing, spending, KYC/CAPTCHA bypass or transfer."
                      if auto else "Owner approval required for interactive claim, signature, login, KYC/CAPTCHA, or financial action.")
         })
+    temp_address = os.getenv("TEMP_TON_ADDRESS", "").strip()
     payload = {
-        "version": 1, "updatedAt": now, "temporaryWallet": "CONFIGURED_TEMP_TON_ADDRESS",
+        "version": 1, "updatedAt": now, "temporaryWallet": temp_address or "CONFIGURED_TEMP_TON_ADDRESS",
         "permanentWalletTransfer": "OWNER_APPROVAL_ONLY",
         "count": len(q), "autoReceiveCount": sum(1 for x in q if x.get("autoReceiveEligible")), "items": q,
         "safety": {"autoSigning": False, "autoTransfer": False, "secretStorage": False,
@@ -57,7 +58,7 @@ def main():
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     TEMP.write_text(json.dumps({
-        "type": "temporary-receiving-destination", "addressSource": "OWNER_CONFIG",
+        "type": "temporary-receiving-destination", "address": temp_address or None, "configured": bool(temp_address), "addressSource": "OWNER_CONFIG",
         "storesSecrets": False, "note": "This is a destination record, not a private-key wallet."
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Collection router: {len(q)} queued; owner-review={sum(x['ownerApprovalRequired'] for x in q)}")
