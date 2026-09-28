@@ -39,7 +39,7 @@ def main():
         friction=1.0+min(4.0,cost)+min(4.0,eligibility)
         magnet_score=round((expected+score*2+trust+evidence*8)/friction,2)
         targets.append({"id":r.get("id"),"title":r.get("title"),"url":r.get("url"),"domain":host(r.get("url") or r.get("domain")),"earningClass":"CASH_PATH" if cash else "SPECULATIVE_OPTION","headlineRewardUsd":amount,
-        "revenueScale": ("micro" if amount < 100 else "small" if amount < 1000 else "mid" if amount < 10000 else "large" if amount < 100000 else "mega" if amount else "unknown"),"estimatedPayoutProbability":round(p,3),"expectedRealizedUsd":expected,"frictionIndex":round(friction,2),"magnetScore":magnet_score,"why":"cash-first + evidence + executable path; high-value opportunities are retained rather than capped" if cash else "speculative only; never counted as income","nextAction":"OWNER_REVIEW_AND_SUBMIT" if cash else "MONITOR_ONLY","revenueState":"OPPORTUNITY_ONLY"})
+        "revenueScale": ("unknown" if not amount else "micro" if amount < 100 else "small" if amount < 1000 else "mid" if amount < 10000 else "large" if amount < 100000 else "mega"),"estimatedPayoutProbability":round(p,3),"expectedRealizedUsd":expected,"frictionIndex":round(friction,2),"magnetScore":magnet_score,"why":"cash-first + evidence + executable path; high-value opportunities are retained rather than capped" if cash else "speculative only; never counted as income","nextAction":"OWNER_REVIEW_AND_SUBMIT" if cash else "MONITOR_ONLY","revenueState":"OPPORTUNITY_ONLY"})
     targets.sort(key=lambda x:(x["earningClass"]=="CASH_PATH",x["magnetScore"],x["expectedRealizedUsd"]),reverse=True)
     old={}
     if LEDGER.exists():
