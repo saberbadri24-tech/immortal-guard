@@ -56,8 +56,8 @@ def main():
     payload={
       "version":1,"updatedAt":now,"engine":"Income Pipeline v1",
       "count":len(rows),"counts":counts,
-      "priority":[x for x in rows if x["stage"] in ("HIGH_VALUE_REVIEW","EARN_REVIEW")][:100],
-      "speculative":[x for x in rows if x["stage"]=="OPTIONAL_SPECULATIVE"][:100],
+      "priority":[x for x in rows if x["stage"] in ("HIGH_VALUE_REVIEW","EARN_REVIEW")],
+      "speculative":[x for x in rows if x["stage"]=="OPTIONAL_SPECULATIVE"],
       "actualCollectedUsd":0,
       "verifiedSettlementCount":0,
       "actualIncomeRule":"No estimate, token price, TVL, reward ceiling or opportunity score is income. Income requires a verified receipt/settlement.",
