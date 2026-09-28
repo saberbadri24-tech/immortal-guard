@@ -11,6 +11,7 @@ from pathlib import Path
 
 IN=Path("data/engine_reviews.json")
 OUT=Path("data/income_pipeline.json")
+LEDGER=Path("data/revenue_ledger.json")
 
 DIRECT=re.compile(r"bug bounty|bounty|cash prize|prize|grant|funding|award|paid|payment",re.I)
 SPEC=re.compile(r"airdrop|points|retroactive|token reward|testnet",re.I)
@@ -58,9 +59,17 @@ def main():
       "priority":[x for x in rows if x["stage"] in ("HIGH_VALUE_REVIEW","EARN_REVIEW")][:100],
       "speculative":[x for x in rows if x["stage"]=="OPTIONAL_SPECULATIVE"][:100],
       "actualCollectedUsd":0,
+      "verifiedSettlementCount":0,
       "actualIncomeRule":"No estimate, token price, TVL, reward ceiling or opportunity score is income. Income requires a verified receipt/settlement.",
       "safety":{"autoClaim":False,"autoSigning":False,"autoTransfer":False,"secretStorage":False,"kycBypass":False,"captchaBypass":False,"sybilBypass":False}
     }
+    if LEDGER.exists():
+        try:
+            ledger=json.loads(LEDGER.read_text(encoding="utf-8"))
+            payload["actualCollectedUsd"]=float(ledger.get("actualCollectedUsd") or 0)
+            payload["verifiedSettlementCount"]=int(ledger.get("verifiedSettlementCount") or 0)
+        except Exception:
+            pass
     OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"Income pipeline: {len(rows)} classified; high_value={counts.get('HIGH_VALUE_REVIEW',0)} earn_review={counts.get('EARN_REVIEW',0)}")
 if __name__=="__main__": main()
