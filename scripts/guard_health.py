@@ -13,7 +13,7 @@ FILES = [
     "history.json","engine_reviews.json","evidence_graph.json","airdrop_plus.json",
     "value_hunt.json","owner_actions.json","collection_queue.json","temp_wallet.json",
     "claim_adapters.json","ton_receipts.json","ton_receipt_state.json",
-    "ai_reviews.json","daily_hunt.json","owner_approval_ledger.json"
+    "ai_reviews.json","daily_hunt.json","income_pipeline.json","transfer_state.json","owner_approval_ledger.json"
 ]
 def load(name):
     try:
@@ -29,6 +29,8 @@ def main():
     adapters = load("claim_adapters.json")
     temp = load("temp_wallet.json")
     ai = load("ai_reviews.json")
+    income = load("income_pipeline.json")
+    transfer = load("transfer_state.json")
     verification = load("verification_gate.json")
     health = {
         "version": 1,
@@ -51,7 +53,9 @@ def main():
             "aiCouncil": True,
             "liveExternalAstra": bool(ai.get("providerSuccess", {}).get("astra", 0)),
             "liveExternalClaude": bool(ai.get("providerSuccess", {}).get("claude", 0)),
-            "localReviewFallback": not bool(ai.get("successfulCalls", 0))
+            "localReviewFallback": not bool(ai.get("successfulCalls", 0)),
+            "incomePipeline": bool(income.get("count", 0)),
+            "onchainTransferVerification": transfer.get("status") == "VERIFIED_ONCHAIN"
         },
         "counts": {
             "opportunities": len(opps.get("items", [])),
@@ -60,7 +64,9 @@ def main():
             "receipts": len(receipts.get("receipts", [])),
             "adapters": len(adapters.get("adapters", [])),
             "verificationChecked": len(verification.get("items", [])),
-            "verificationReachableAligned": int(verification.get("verifiedReachable", 0))
+            "verificationReachableAligned": int(verification.get("verifiedReachable", 0)),
+            "incomePriority": len(income.get("priority", [])),
+            "verifiedTransfers": len(transfer.get("observed", []))
         },
         "wallet": {
             "temporaryAddressConfigured": bool(receipts.get("configured")),
@@ -70,6 +76,8 @@ def main():
     }
     if not receipts.get("configured"):
         health["blockers"].append("TEMP_TON_ADDRESS is not configured")
+    if not transfer.get("permanentAddress"):
+        health["blockers"].append("MAIN_TON_ADDRESS is not configured for on-chain transfer verification")
     if not verification.get("count"):
         health["blockers"].append("verification gate produced no checks")
     health["ownerApprovalBoundary"] = "Claims/signatures/KYC/CAPTCHA remain explicit owner actions"
