@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-28T19:00:53.670378+00:00",
+  "accountingRule": "PAID + VERIFIED + EVIDENCE = EARNED",
+  "monthlyTargetUsd": 2000.0,
+  "actualCollectedUsd": 0.0,
+  "targetGapUsd": 2000.0,
+  "verifiedSettlementCount": 0,
+  "settlements": [],
+  "rejected": [],
+  "idempotent": true,
+  "safety": {
+    "estimatedRewardsExcluded": true,
+    "tokenValuationsExcluded": true,
+    "unverifiedExcluded": true
+  }
+}
