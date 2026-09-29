@@ -29,6 +29,24 @@ def claude_review(key,model,item):
     body={'model':model,'max_tokens':900,'system':'You are Claude, critical reviewer. Check scams, unverifiable claims and unsafe instructions. Do not suggest bypasses or financial actions. Return concise JSON: verdict, risks, evidence_to_check, next_safe_step.','messages':[{'role':'user','content':json.dumps(item,ensure_ascii=False)}]}
     r=post('https://api.anthropic.com/v1/messages',{'x-api-key':key,'anthropic-version':'2023-06-01','content-type':'application/json'},body)
     return ''.join(x.get('text','') for x in r.get('content',[]) if x.get('type')=='text')
+def review_one(item,cfg):
+    row={'id':item.get('id'),'url':item.get('url'),'at':datetime.now(timezone.utc).isoformat(),'models':{}}
+    jobs=[('astra',openai_review),('claude',claude_review),('gemini',gemini_review)]
+    def run(job):
+        name,fn=job; key,model=cfg[name]
+        if not key:
+            return name,{'status':'not-configured','model':model}
+        try:
+            return name,{'status':'live','model':model,'review':fn(key,model,item)[:6000]}
+        except Exception as e:
+            return name,{'status':'error','model':model,'error':str(e)[:500]}
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        futures=[pool.submit(run,j) for j in jobs]
+        for f in as_completed(futures):
+            name,result=f.result()
+            row['models'][name]=result
+    return row
+
 def main():
     data=json.loads(DATA.read_text(encoding='utf-8')) if DATA.exists() else {'items':[]}
     gate=json.loads(GATE.read_text(encoding='utf-8')) if GATE.exists() else {'qualifiedIds':[]}
