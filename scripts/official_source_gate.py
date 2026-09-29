@@ -34,7 +34,7 @@ def main():
         clean=not v.get("expiredSignal") and not v.get("blockedSignal")
         reward=bool(v.get("rewardSignal")) or bool(REWARD.search(str(x.get("title",""))+" "+str(x.get("note",""))))
         eligible=bool(v.get("eligibilitySignal"))
-        ok=direct and live and clean and reward
+        ok=direct and live and clean and reward and eligible
         reason=[]
         if not direct: reason.append("not-direct-official-domain")
         if not live: reason.append("live-verification-not-aligned")
