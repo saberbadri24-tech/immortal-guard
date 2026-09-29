@@ -1,0 +1,28 @@
+name: Immortal Guard — Final Contract Gate
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "23/15 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile every Guard module
+        run: python3 -m py_compile scripts/*.py
+      - name: Run revenue contract
+        run: |
+          python3 scripts/revenue_ledger.py
+          python3 scripts/income_pipeline.py
+          python3 scripts/revenue_magnet.py
+          python3 scripts/value_hunter.py
+      - name: Enforce Guard safety and accounting contract
+        run: python3 scripts/guard_final_contract.py
