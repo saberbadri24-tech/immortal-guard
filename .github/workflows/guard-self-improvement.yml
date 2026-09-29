@@ -1,0 +1,106 @@
+name: Immortal Guard Self Improvement Radar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 * * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: immortal-guard-self-improvement
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    if: ${{ secrets.OPENAI_API_KEY != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 1
+
+      - name: Check for existing improvement PR
+        id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh pr list --state open --search "head:anil/guard-self-improve-" --json number --jq 'length')
+          echo "count=$n" >> "$GITHUB_OUTPUT"
+
+      - name: Ask Astra for one bounded Guard improvement
+        if: steps.gate.outputs.count == '0'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json,os,urllib.request,re
+          files=[]
+          for root in ("scripts","data"):
+            if os.path.isdir(root):
+              for dp,_,ns in os.walk(root):
+                for n in ns:
+                  p=os.path.join(dp,n)
+                  if os.path.getsize(p)<=120000: files.append(p)
+          prompt={"task":"Find exactly ONE safe concrete improvement for Immortal Guard: discovery quality, verification, evidence, valuation, threat detection, reliability, tests, observability, or reporting.","allowed_roots":["scripts/","data/"],"forbidden":["secrets","credentials","seed phrases","private keys","wallet signing","fund transfer","claim execution","KYC bypass","CAPTCHA bypass","spam","weakening safety"],"files":files[:300]}
+          body=json.dumps({"model":"gpt-5-mini","messages":[{"role":"system","content":"You are Astra, Immortal Guard's safety-first engineering auditor. Return JSON only {path,goal,reason}. Choose one existing safe file or null. Never claim tests passed."},{"role":"user","content":json.dumps(prompt)}],"temperature":0.1}).encode()
+          req=urllib.request.Request("https://api.openai.com/v1/chat/completions",data=body,headers={"Authorization":"Bearer "+os.environ["OPENAI_API_KEY"],"Content-Type":"application/json"})
+          d=json.load(urllib.request.urlopen(req,timeout=60)); t=d["choices"][0]["message"]["content"]
+          try:x=json.loads(t)
+          except:x=json.loads(re.search(r"\{.*\}",t,re.S).group(0))
+          open("/tmp/plan.json","w").write(json.dumps(x)); print(json.dumps(x))
+          PY
+
+      - name: Generate bounded Guard patch
+        if: steps.gate.outputs.count == '0'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json,os,urllib.request,re
+          p=json.load(open("/tmp/plan.json")); path=p.get("path")
+          if not path or not path.startswith(("scripts/","data/")) or ".." in path: open("/tmp/skip","w").write("1"); raise SystemExit
+          low=path.lower()
+          if any(x in low for x in (".env","secret","credential","private-key","seed")): raise SystemExit("blocked path")
+          cur=open(path,encoding="utf-8").read()
+          q={"path":path,"goal":p.get("goal"),"reason":p.get("reason"),"current":cur[:190000],"requirements":"Return JSON {content,message}. Complete replacement. Minimal scoped change. Preserve all safety gates. Never add secrets, credentials, signing, transfer, claim execution, or bypasses."}
+          body=json.dumps({"model":"gpt-5-mini","messages":[{"role":"system","content":"You are Astra. Make one bounded safety-preserving Guard improvement. JSON only. Never claim tests passed."},{"role":"user","content":json.dumps(q)}],"temperature":0.1}).encode()
+          req=urllib.request.Request("https://api.openai.com/v1/chat/completions",data=body,headers={"Authorization":"Bearer "+os.environ["OPENAI_API_KEY"],"Content-Type":"application/json"})
+          d=json.load(urllib.request.urlopen(req,timeout=120)); t=d["choices"][0]["message"]["content"]
+          try:x=json.loads(t)
+          except:x=json.loads(re.search(r"\{.*\}",t,re.S).group(0))
+          c=x.get("content","")
+          if not c or len(c)>200000: raise SystemExit("invalid content")
+          if re.search(r"BEGIN (RSA|OPENSSH|EC|PRIVATE) KEY|seed phrase|recovery phrase|private key\s*[:=]",c,re.I): raise SystemExit("sensitive content rejected")
+          open(path,"w",encoding="utf-8").write(c)
+          open("/tmp/change.json","w").write(json.dumps({"path":path,"message":x.get("message","Immortal Guard self-improvement")}))
+          PY
+
+      - name: Guard regression and security gates
+        if: steps.gate.outputs.count == '0' && !failure() && hashFiles('/tmp/skip') == ''
+        run: |
+          python -m compileall -q scripts
+          python scripts/guard_final_contract.py
+          python scripts/guard_final_preflight.py
+          python scripts/guard_workflow_security.py
+          python scripts/guard_agent_contract.py
+
+      - name: Open review PR
+        if: steps.gate.outputs.count == '0' && !failure() && hashFiles('/tmp/skip') == ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PATHV=$(python -c 'import json;print(json.load(open("/tmp/change.json"))["path"])')
+          MSG=$(python -c 'import json;print(json.load(open("/tmp/change.json"))["message"])')
+          branch="anil/guard-self-improve-$(date +%s)"
+          git checkout -b "$branch"
+          git add -- "$PATHV"
+          git diff --cached --quiet && exit 0
+          git config user.name "ANIL X Self Improvement"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "$MSG"
+          git push -u origin "$branch"
+          gh pr create --base main --head "$branch" --title "Guard self-improvement: $MSG" --body "Bounded safety-preserving improvement proposal. Automated Guard gates passed. Owner review is required before merge."
