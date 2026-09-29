@@ -30,7 +30,7 @@ def claude_review(key,model,item):
     r=post('https://api.anthropic.com/v1/messages',{'x-api-key':key,'anthropic-version':'2023-06-01','content-type':'application/json'},body)
     return ''.join(x.get('text','') for x in r.get('content',[]) if x.get('type')=='text')
 def main():
-    data=json.loads(DATA.read_text(encoding='utf-8')); items=sorted([x for x in data.get('items',[]) if x.get('status')!='blocked'], key=lambda x: float(x.get('score',0) or 0), reverse=True)[:25]
+    data=json.loads(DATA.read_text(encoding='utf-8')); items=sorted([x for x in data.get('items',[]) if x.get('status')!='blocked'], key=lambda x: float(x.get('score',0) or 0), reverse=True)
     cfg={'astra':(os.getenv('OPENAI_API_KEY'),os.getenv('ASTRA_MODEL','gpt-5.6-luna')),'claude':(os.getenv('ANTHROPIC_API_KEY'),os.getenv('CLAUDE_MODEL','claude-sonnet-4-6')),'gemini':(os.getenv('GEMINI_API_KEY'),os.getenv('GEMINI_MODEL','gemini-3.8-flash'))}
     missing=[n for n,(k,_) in cfg.items() if not k]; reviews=[]; successes=0; provider={n:0 for n in cfg}
     for item in items:
