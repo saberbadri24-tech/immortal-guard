@@ -5,9 +5,10 @@ Astra = OpenAI coordinator; Claude = Anthropic reviewer; Gemini = Google reviewe
 Secrets are read only from environment. No claims, signing, transfers or key handling.
 """
 import json, os, urllib.request, urllib.error, urllib.parse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
-DATA=Path('data/opportunities.json'); OUT=Path('data/ai_reviews.json')
+DATA=Path('data/opportunities.json'); GATE=Path('data/official_source_gate.json'); OUT=Path('data/ai_reviews.json')
 def post(url,headers,body,timeout=45):
     req=urllib.request.Request(url,data=json.dumps(body).encode(),headers=headers,method='POST')
     try:
