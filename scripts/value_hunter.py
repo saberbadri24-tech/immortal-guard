@@ -42,10 +42,13 @@ def earning_class(r):
 def main():
  if not IN.exists():raise SystemExit("missing engine_reviews.json")
  payload=json.loads(IN.read_text(encoding="utf-8")); now=datetime.now(timezone.utc)
- candidates=[]; rejected=[]
+ candidates=[]; rejected=[]; seen_ids=set()
  for r in payload.get("items",[]):
   if r.get("verdict")=="blocked" or r.get("risk")=="critical":continue
   if not r.get("domain"):continue
+  rid=str(r.get("id") or "")
+  if rid and rid in seen_ids: continue
+  if rid: seen_ids.add(rid)
   age=age_days(r.get("freshnessSignals",{}).get("published"),now)
   if age is not None and age>STALE_DAYS and not r.get("freshnessSignals",{}).get("hasDeadline"):
    rejected.append({"id":r.get("id"),"reason":"stale-publication","ageDays":round(age,1)});continue
