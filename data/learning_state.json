@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-08T20:07:06.384644+00:00",
+  "observationCount": 0,
+  "calibratedCount": 0,
+  "neutralUntilMinimumObservations": 3,
+  "adjustments": {},
+  "method": "empirical owner-confirmed outcome calibration only; maximum adjustment +/-10",
+  "incomeRule": "verified settlement evidence only",
+  "safety": {
+    "autoClaim": false,
+    "autoSigning": false,
+    "autoTransfer": false,
+    "secretStorage": false,
+    "bypassControls": false
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-08T20:07:06.431322+00:00",
+  "score": 100.0,
+  "earnedWeight": 115,
+  "totalWeight": 115,
+  "thresholds": {
+    "elite": 90,
+    "frontier": 95,
+    "ceiling": 100
+  },
+  "capabilities": [
+    {
+      "name": "multi_sensor_discovery",
+      "weight": 10,
+      "pass": true,
+      "evidence": "radar has multiple independent public discovery endpoints"
+    },
+    {
+      "name": "temporal_change_detection",
+      "weight": 8,
+      "pass": true,
+      "evidence": "radar memory computes change and novelty"
+    },
+    {
+      "name": "parallel_verification",
+      "weight": 8,
+      "pass": true,
+      "evidence": "verification checks reachability, redirect/domain alignment and public DNS concurrently"
+    },
+    {
+      "name": "evidence_lineage",
+      "weight": 8,
+      "pass": true,
+      "evidence": "dedicated evidence graph module present"
+    },
+    {
+      "name": "specialist_reasoning",
+      "weight": 8,
+      "pass": true,
+      "evidence": "independent specialist engine combines domain, evidence and economics signals"
+    },
+    {
+      "name": "economic_prioritization",
+      "weight": 10,
+      "pass": true,
+      "evidence": "value hunter plus intelligence layer scores reward, friction, competition and evidence"
+    },
+    {
+      "name": "security_screening",
+      "weight": 10,
+      "pass": true,
+      "evidence": "security intelligence is a separate risk gate and unknown is not treated as safe"
+    },
+    {
+      "name": "freshness_and_expiry",
+      "weight": 7,
+      "pass": true,
+      "evidence": "expiry/deadline signals feed verification and prioritization"
+    },
+    {
+      "name": "adaptive_memory",
+      "weight": 7,
+      "pass": true,
+      "evidence": "persistent temporal memory exists and is bounded"
+    },
+    {
+      "name": "ai_council",
+      "weight": 6,
+      "pass": true,
+      "evidence": "three-provider council with deterministic fallback path"
+    },
+    {
+      "name": "settlement_truth",
+      "weight": 8,
+      "pass": true,
+      "evidence": "income is separated from estimates and requires verified settlement evidence"
+    },
+    {
+      "name": "safety_boundary",
+      "weight": 7,
+      "pass": true,
+      "evidence": "financial and identity-control actions remain owner-gated"
+    },
+    {
+      "name": "continuous_automation",
+      "weight": 5,
+      "pass": true,
+      "evidence": "five-minute radar plus bounded self-improvement review"
+    },
+    {
+      "name": "regression_contract",
+      "weight": 8,
+      "pass": true,
+      "evidence": "compile/data/contract gates are enforced"
+    },
+    {
+      "name": "observability",
+      "weight": 5,
+      "pass": true,
+      "evidence": "machine-readable health snapshot with blockers and automation state"
+    }
+  ],
+  "interpretation": "Repository engineering capability score only; not a profit forecast and not proof of private competitor superiority.",
+  "hardStop": false,
+  "nextGaps": []
+}
