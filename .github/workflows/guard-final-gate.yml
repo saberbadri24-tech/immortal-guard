@@ -26,3 +26,9 @@ jobs:
           python3 scripts/value_hunter.py
       - name: Enforce Guard safety and accounting contract
         run: python3 scripts/guard_final_contract.py
+      - name: Run engineering ceiling benchmark
+        run: python3 scripts/guard_engineering_benchmark.py
+      - name: Run evidence-gated learning layer
+        run: python3 scripts/guard_learning.py
+      - name: Validate learning output
+        run: python3 -c "import json; json.load(open('data/learning_state.json'))"
