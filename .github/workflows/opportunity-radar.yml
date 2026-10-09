@@ -1,5 +1,10 @@
 name: Immortal Guard Opportunity Radar
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/opportunity-radar.yml'
+      - 'scripts/**'
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
