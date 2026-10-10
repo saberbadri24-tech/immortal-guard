@@ -62,12 +62,30 @@ def resolve_public(hostname):
     except Exception:
         return False, []
 
+def validate_redirect_target(url):
+    """Reject redirect targets that are non-HTTPS or do not resolve publicly."""
+    if not safe_url(url):
+        raise ValueError("unsafe-redirect-target")
+    public, _ = resolve_public(host(url))
+    if not public:
+        raise ValueError("redirect-target-not-public")
+    return url
+
+
+class SafeRedirectHandler(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        target = urllib.parse.urljoin(req.full_url, newurl)
+        validate_redirect_target(target)
+        return super().redirect_request(req, fp, code, msg, headers, target)
+
+
 def fetch(url):
     last = None
+    opener = urllib.request.build_opener(SafeRedirectHandler())
     for attempt in range(2):
         try:
             req = urllib.request.Request(url, headers=HEADERS, method="GET")
-            with urllib.request.urlopen(req, timeout=6) as r:
+            with opener.open(req, timeout=6) as r:
                 body = r.read(180000)
                 final_url = r.geturl()
                 return r.status, final_url, r.headers.get("content-type", ""), body
