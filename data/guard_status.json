@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T22:20:30.474Z",
+  "updatedAt": "2026-10-10T22:37:27.879596+00:00",
   "automation": {
     "discovery": true,
     "deduplication": true,
@@ -16,22 +16,22 @@
     "kycBypass": false,
     "captchaBypass": false,
     "sybilBypass": false,
-    "localReviewFallback": true,
-    "incomePipeline": true,
-    "onchainTransferVerification": false,
     "independentEngineActive": true,
     "externalModelsEnabled": false,
-    "localReviewActive": true
+    "localReviewActive": true,
+    "localReviewFallback": true,
+    "incomePipeline": true,
+    "onchainTransferVerification": false
   },
   "counts": {
-    "opportunities": 1276,
+    "opportunities": 1278,
     "queue": 0,
     "autoReceiveQueue": 0,
     "receipts": 0,
     "adapters": 3,
-    "verificationChecked": 1276,
-    "verificationReachableAligned": 1274,
-    "incomePriority": 590,
+    "verificationChecked": 1278,
+    "verificationReachableAligned": 1276,
+    "incomePriority": 591,
     "verifiedTransfers": 0
   },
   "wallet": {
