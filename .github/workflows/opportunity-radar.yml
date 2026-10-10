@@ -81,7 +81,6 @@ jobs:
       - name: Monitor temporary TON wallet receipts
         env:
           TEMP_TON_ADDRESS: ${{ vars.TEMP_TON_ADDRESS }}
-          MAIN_TON_ADDRESS: ${{ vars.MAIN_TON_ADDRESS }}
           TONCENTER_API_KEY: ${{ secrets.TONCENTER_API_KEY }}
         run: python3 scripts/ton_receipt_monitor.py
       - name: Run optional live AI council
