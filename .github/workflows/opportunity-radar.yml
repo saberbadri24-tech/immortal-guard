@@ -89,16 +89,16 @@ jobs:
         run: |
           python3 - <<'PY' >> "$GITHUB_ENV"
           import json, os, re
-          address = (os.getenv('TEMP_TON_ADDRESS') or os.getenv('TON_CONNECT_ADDRESS') or '').strip()
-          if not address:
-              try:
-                  cfg = json.load(open('data/temp_wallet.json', encoding='utf-8'))
-                  if cfg.get('configured') is True:
-                      address = str(cfg.get('address') or '').strip()
-              except Exception:
-                  pass
-          valid = bool(re.fullmatch(r'(?:EQ|UQ)[A-Za-z0-9_-]{46}|-?[01]:[0-9a-fA-F]{64}', address))
-          if valid:
+          pattern = r'(?:EQ|UQ)[A-Za-z0-9_-]{46}|-?[01]:[0-9a-fA-F]{64}'
+          candidates = [os.getenv('TEMP_TON_ADDRESS', ''), os.getenv('TON_CONNECT_ADDRESS', '')]
+          try:
+              cfg = json.load(open('data/temp_wallet.json', encoding='utf-8'))
+              if cfg.get('configured') is True:
+                  candidates.append(str(cfg.get('address') or ''))
+          except Exception:
+              pass
+          address = next((x.strip() for x in candidates if re.fullmatch(pattern, x.strip())), '')
+          if address:
               print('TEMP_TON_ADDRESS=' + address)
               print('Temporary TON receiving address loaded from owner configuration.')
           else:
