@@ -87,7 +87,7 @@ jobs:
           TEMP_TON_ADDRESS: ${{ vars.TEMP_TON_ADDRESS }}
           TON_CONNECT_ADDRESS: ${{ vars.TON_CONNECT_ADDRESS }}
         run: |
-          python3 - <<'PY' >> "$GITHUB_ENV"
+          address="$(python3 - <<'PY'
           import json, os, re
           pattern = r'(?:EQ|UQ)[A-Za-z0-9_-]{46}|-?[01]:[0-9a-fA-F]{64}'
           candidates = [os.getenv('TEMP_TON_ADDRESS', ''), os.getenv('TON_CONNECT_ADDRESS', '')]
@@ -98,12 +98,15 @@ jobs:
           except Exception:
               pass
           address = next((x.strip() for x in candidates if re.fullmatch(pattern, x.strip())), '')
-          if address:
-              print('TEMP_TON_ADDRESS=' + address)
-              print('Temporary TON receiving address loaded from owner configuration.')
-          else:
-              print('Temporary TON address not configured; receipt monitor will remain fail-closed.')
+          print(address)
           PY
+          )"
+          if [ -n "$address" ]; then
+            echo "TEMP_TON_ADDRESS=$address" >> "$GITHUB_ENV"
+            echo "Temporary TON receiving address loaded from owner configuration."
+          else
+            echo "Temporary TON address not configured; receipt monitor will remain fail-closed."
+          fi
       - name: Monitor temporary TON wallet receipts
         env:
           TONCENTER_API_KEY: ${{ secrets.TONCENTER_API_KEY }}
