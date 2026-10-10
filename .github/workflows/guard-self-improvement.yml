@@ -105,7 +105,7 @@ jobs:
           python scripts/guard_workflow_security.py
           python scripts/guard_agent_contract.py
       - name: Open review PR
-        if: steps.gate.outputs.count == '0' && steps.patch.outputs.skip != 'true'
+        if: steps.gate.outputs.count == '0' && steps.ask.outputs.skip != 'true' && steps.patch.outputs.skip != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
