@@ -1,0 +1,14 @@
+{
+  "astra": {
+    "blockedUntil": "2026-10-11T14:45:31.653278+00:00",
+    "reason": "quota-or-billing error observed; external requests paused for 24h",
+    "lastError": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}",
+    "updatedAt": "2026-10-10T14:45:31.653278+00:00"
+  },
+  "claude": {
+    "blockedUntil": "2026-10-11T14:45:31.653278+00:00",
+    "reason": "quota-or-billing error observed; external requests paused for 24h",
+    "lastError": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CftjBq6TAu1reviyg45ZQ\"}",
+    "updatedAt": "2026-10-10T14:45:31.653278+00:00"
+  }
+}

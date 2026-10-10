@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "Immortal Guard Airdrop Plus",
-  "updatedAt": "2026-10-10T14:38:54.456345+00:00",
+  "updatedAt": "2026-10-10T14:45:28.889525+00:00",
   "count": 1266,
   "liveClaimCandidates": 2,
   "highConfidence": 23,
@@ -1789,41 +1789,6 @@
       ],
       "qualification": "discovery-only",
       "engineScore": 91,
-      "action": "OWNER_REVIEW",
-      "riskGate": "official-domain-required-before-claim",
-      "feeReviewRequired": false,
-      "destination": "TEMP_TON_WALLET",
-      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
-      "ownerApprovalRequired": true,
-      "checks": [
-        "verify the current opportunity on its official domain",
-        "check eligibility, geography, snapshot/claim dates and terms",
-        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
-        "if a signature is required, stop and wait for owner approval"
-      ]
-    },
-    {
-      "id": "d1lavmozcunbnvroyxn4qzjgduvqzmnndeuyetbinfpwullru2xyzjvqb08xzm5sewxzyuf3y1duzkm1djz4mti1d2s0vww3mxnbqnhbogpzywrux2c-oc-5",
-      "title": "Introducing the Intersect Bug Bounty Program: strengthening open source security - Intersect MBO",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTnFjZk13ZG9yTlRNS3VaaVJ3M1BqcnRXSUQ0VkRaZGFDbTNnVHhGMlVPTlpndDBYYVdKOVY1WGdFc24zbVN4cEdyMHZoVzJ6M3FfS3ZyYXRKd1laVmozcUNBNVRoYXN4QzJGdUVQZmNNdEUyeTBiNFpWUllrU2xYZjVqb08xZm5SeWxZYUF3Y1dUZkM1djZ4MTI1d2s0VWw3MXNBQnhBOGpZYWRuX2c?oc=5",
-      "domain": "news.google.com",
-      "phase": "DISCOVERY",
-      "score": 50,
-      "officialDomain": false,
-      "specialists": [
-        "airdrop",
-        "rewards",
-        "eligibility",
-        "risk",
-        "claim-phase"
-      ],
-      "sourceEvidence": [
-        "public-feed",
-        "keyword-match",
-        "google-news-discovery"
-      ],
-      "qualification": "discovery-only",
-      "engineScore": 94,
       "action": "OWNER_REVIEW",
       "riskGate": "official-domain-required-before-claim",
       "feeReviewRequired": false,
@@ -3750,6 +3715,42 @@
       ],
       "qualification": "discovery-only",
       "engineScore": 98,
+      "action": "OWNER_REVIEW",
+      "riskGate": "official-domain-required-before-claim",
+      "feeReviewRequired": false,
+      "destination": "TEMP_TON_WALLET",
+      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
+      "ownerApprovalRequired": true,
+      "checks": [
+        "verify the current opportunity on its official domain",
+        "check eligibility, geography, snapshot/claim dates and terms",
+        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
+        "if a signature is required, stop and wait for owner approval"
+      ]
+    },
+    {
+      "id": "d1lavmozcunbnvroyxn4qzjgduvqzmnndeuyetbinfpwullru2xyzjvqb08xzm5sewxzyuf3y1duzkm1djz4mti1d2s0vww3mxnbqnhbogpzywrux2c-oc-5",
+      "title": "Introducing the Intersect Bug Bounty Program: strengthening open source security - Intersect MBO",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTnFjZk13ZG9yTlRNS3VaaVJ3M1BqcnRXSUQ0VkRaZGFDbTNnVHhGMlVPTlpndDBYYVdKOVY1WGdFc24zbVN4cEdyMHZoVzJ6M3FfS3ZyYXRKd1laVmozcUNBNVRoYXN4QzJGdUVQZmNNdEUyeTBiNFpWUllrU2xYZjVqb08xZm5SeWxZYUF3Y1dUZkM1djZ4MTI1d2s0VWw3MXNBQnhBOGpZYWRuX2c?oc=5",
+      "domain": "news.google.com",
+      "phase": "DISCOVERY",
+      "score": 49,
+      "officialDomain": false,
+      "specialists": [
+        "airdrop",
+        "rewards",
+        "eligibility",
+        "risk",
+        "claim-phase"
+      ],
+      "sourceEvidence": [
+        "google-news-discovery",
+        "keyword-match",
+        "multi-publisher-convergence",
+        "public-feed"
+      ],
+      "qualification": "discovery-only",
+      "engineScore": 100,
       "action": "OWNER_REVIEW",
       "riskGate": "official-domain-required-before-claim",
       "feeReviewRequired": false,
@@ -7889,41 +7890,6 @@
       ]
     },
     {
-      "id": "3houzy4rnlkenjdvnrxrep5ewc2uuvauvdfn29gnlfmnjjizlrkbulksmw0sjrstmtsalflzfrwuxf3euviudf2bzd1ou1rymx3cnbls3lib01ragew-oc-5",
-      "title": "Polygon Labs Commences $85M Grant Program to Draw Builders to Its Ecosystem - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNV9DZVlqNUREWE5GTjlVOFIxOF9ZajAxMWJmMEd2TE16SGNBTzFMUzBacTF2cjl6bzQ4bmhZT055M3Vna3RZVWFmZE5UYkFRM084Tl9DSEJJd1NvTkd1NjdoM3VYU3hOUzY4RnlKenJDVnRXREp5eWc2UUVaUVdFN29GNlFMNjJIZlRkbUlKSmw0SjRsTmtsalFlZFRwUXF3eUVIUDF2bzd1OU1RYmx3cnBLS3lib01RaGEw?oc=5",
-      "domain": "news.google.com",
-      "phase": "DISCOVERY",
-      "score": 45,
-      "officialDomain": false,
-      "specialists": [
-        "airdrop",
-        "rewards",
-        "eligibility",
-        "risk",
-        "claim-phase"
-      ],
-      "sourceEvidence": [
-        "public-feed",
-        "keyword-match",
-        "google-news-discovery"
-      ],
-      "qualification": "discovery-only",
-      "engineScore": 97,
-      "action": "OWNER_REVIEW",
-      "riskGate": "official-domain-required-before-claim",
-      "feeReviewRequired": false,
-      "destination": "TEMP_TON_WALLET",
-      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
-      "ownerApprovalRequired": true,
-      "checks": [
-        "verify the current opportunity on its official domain",
-        "check eligibility, geography, snapshot/claim dates and terms",
-        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
-        "if a signature is required, stop and wait for owner approval"
-      ]
-    },
-    {
       "id": "nnrtnnldddlhwvdkckhkohaywgtwqnjtuhpiazfxlxbibjdyvvhxcvh3t2hnq0pstexiehiwss0zy2ncnhpotjdbazf6egk2dwzqtvhgthfnrdbhdwq-oc-5",
       "title": "Expanding our model safety bug bounty program - Anthropic",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE95bkJoeVQ1NnRTNnlDdDlhWVdkckhKOHAyWGtWQnJTUHpiazFxLXBIbjdYVVhXcVh3T2hNQ0pSTExieHIwSS0zY2NCNHpOTjdBazF6eGk2dWZqTVhGTHFNRDBhdWQ?oc=5",
@@ -7980,6 +7946,41 @@
       ],
       "qualification": "discovery-only",
       "engineScore": 94,
+      "action": "OWNER_REVIEW",
+      "riskGate": "official-domain-required-before-claim",
+      "feeReviewRequired": false,
+      "destination": "TEMP_TON_WALLET",
+      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
+      "ownerApprovalRequired": true,
+      "checks": [
+        "verify the current opportunity on its official domain",
+        "check eligibility, geography, snapshot/claim dates and terms",
+        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
+        "if a signature is required, stop and wait for owner approval"
+      ]
+    },
+    {
+      "id": "lrjlnzjhyv3hfnexqa0neyw5nczl6lwtpzwvlcdjsq0nzq3k0zlp1enj6a3b5czzrtuxszwniyxnsunvenw9mbujrwtkytu51efjjws1yy2prszjgzw-oc-5",
+      "title": "9 top bug bounty programs launched in 2025 - CSO Online",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhNGVtTnoxcHhQTnB3ZVhBM2dtVTdNbjkyWjVlRjlNZjhyV3hFNExQa0NEYW5nczl6LWtpZWVLcDJSQ0NZQ3k0Zlp1enJ6a3B5czZrTUxsZWNiYXNSUnVENW9MbUJRWTkyTU51eFJjWS1YY2pRSzJGZw?oc=5",
+      "domain": "news.google.com",
+      "phase": "DISCOVERY",
+      "score": 45,
+      "officialDomain": false,
+      "specialists": [
+        "airdrop",
+        "rewards",
+        "eligibility",
+        "risk",
+        "claim-phase"
+      ],
+      "sourceEvidence": [
+        "public-feed",
+        "keyword-match",
+        "google-news-discovery"
+      ],
+      "qualification": "discovery-only",
+      "engineScore": 91,
       "action": "OWNER_REVIEW",
       "riskGate": "official-domain-required-before-claim",
       "feeReviewRequired": false,
@@ -8589,6 +8590,41 @@
       ]
     },
     {
+      "id": "3b2jrdfd6ag5bwgy2mm5nndnxdvfrttdhb0diqjhxwdrfavn3cjvfdvjycgzzruvunwzjawzedtj5b3b1rml2d1qtndruc2lhwwmyu05kzw1sddmtzg-oc-5",
+      "title": "South Korea’s FSS Expands Bug Bounty Program to Crypto Exchanges, Insurance Agencies; Participant Count Doubles to 70 - finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Jc0Z3b2JRdFd6aG5BWGY2Mm5NNDNXdVFRTTdhb0dIQjhxWDRfaVN3cjVfdVJycGZzRUVuNWZjaWZEdTJ5b3B1Rml2d1QtNDRUc2lhWWMyU05KZW1sdDMtZg?oc=5",
+      "domain": "news.google.com",
+      "phase": "DISCOVERY",
+      "score": 45,
+      "officialDomain": false,
+      "specialists": [
+        "airdrop",
+        "rewards",
+        "eligibility",
+        "risk",
+        "claim-phase"
+      ],
+      "sourceEvidence": [
+        "public-feed",
+        "keyword-match",
+        "google-news-discovery"
+      ],
+      "qualification": "discovery-only",
+      "engineScore": 91,
+      "action": "OWNER_REVIEW",
+      "riskGate": "official-domain-required-before-claim",
+      "feeReviewRequired": false,
+      "destination": "TEMP_TON_WALLET",
+      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
+      "ownerApprovalRequired": true,
+      "checks": [
+        "verify the current opportunity on its official domain",
+        "check eligibility, geography, snapshot/claim dates and terms",
+        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
+        "if a signature is required, stop and wait for owner approval"
+      ]
+    },
+    {
       "id": "x25hmhhyywn3nkjkznrxzzh3yzyxdge3bghpxzk4swkxevzwtevfq3foc1vub2hfukf6cvhzrzc2zy03cmzmymnxvw9lszbjrvnjbdf0djbpvlbortg-oc-5",
       "title": "10 Essential Bug Bounty Programs of 2020 - Tripwire",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jMHZxYkdmT3J3RTdtZmE0OGZDS2x1WGN3bE45ellPX25hMHhYYWN3NkJkZnRXZzh3YzYxdGE3bGhPXzk4SWkxeVZWTEVFQ3FOc1VUb2hFUkF6cVhzRzc2Zy03cmZmYmNxVW9LSzBJRVNjbDF0djBPVlBORTg?oc=5",
@@ -8904,9 +8940,9 @@
       ]
     },
     {
-      "id": "xh1qtlbrlbknmpoue9tzzlqcvpgovdkwhfzx1qznfvvrkk3qklms2czdc1zc2j0ymdmz1u3r1o0zji1wuiyzgpjnednczu3ew5vdzrecuc1z1vyyujf-oc-5",
-      "title": "Google Shuts Down Bug Bounty Program Due To Bots - 720 the voice",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLU5ybTZCR1lYVktEWVdWUkVjcUdReXg3S0Y5SmFCemtFV2RQWHh4ZjZXekZQUFdCUXBRVVNmSFhLS2hFX2V4QnRPWXh1QTlBRlBKNmpoUE9tZzlqcVpGOVdkWHFzX1QzNFVVRkk3QklmS2czdC1zc2J0YmdMZ1U3R1o0ZjI1WUIyZGpJNEdnczU3eW5VdzREcUc1Z1VYYUJf?oc=5",
+      "id": "pbmjanjh2a2mtwddynhhqmm5nz0uza0xoduowae95aff0oudlse5ganpsrulzek5zdwnjctvkwunplu1csmtqzthucvltnwc5ufrjs3l4z1rqd2ryda-oc-5",
+      "title": "Google Shuts Down Bug Bounty Program Due To Bots - Q104.3",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc1FsYXpRQ1R6Z2VYNUJYTFZEcmpSLWprN2UwbVd0M2ZNdmd0a0l5V1dRUlZsN04yblZFZ1lTdUJPaUVpbmJaNjh2a2MtWDdyNHhQMm5NZ0Uza0xOdUowaE95aFF0OUdlSE5GanpSRUlzek5zdWNJcTVKWUNpLU1CSmtQZThucVlTNWc5UFRjS3l4Z1RQd2RydA?oc=5",
       "domain": "news.google.com",
       "phase": "DISCOVERY",
       "score": 45,
@@ -8977,41 +9013,6 @@
       "id": "1a1kzqnnja1zom2xscglccei1cvdha3lbdlrmauxseet0u1lqyvn6vtravv9xyvhtu0hgutbwzmhmn3mzaullc29mrdl1vkhdbe1jetreq3buzzltsq-oc-5",
       "title": "Google pauses Bug Bounty program due to AI spam - dev.ua",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa1NMNG1JX2huTWxEU3RsVkpBZjRqbmo3Ujh2SE1MbHVVbFdTUmh1a1kzQnNJa1ZOM2xscGlCcEI1cVdha3lBdlRMaUxSeEt0U1lQYVN6VTRaVV9xYVhtU0hGUTBwZmhmN3MzaUlLc29mRDl1VkhDbE1jeTREQ3BuZzltSQ?oc=5",
-      "domain": "news.google.com",
-      "phase": "DISCOVERY",
-      "score": 45,
-      "officialDomain": false,
-      "specialists": [
-        "airdrop",
-        "rewards",
-        "eligibility",
-        "risk",
-        "claim-phase"
-      ],
-      "sourceEvidence": [
-        "public-feed",
-        "keyword-match",
-        "google-news-discovery"
-      ],
-      "qualification": "discovery-only",
-      "engineScore": 91,
-      "action": "OWNER_REVIEW",
-      "riskGate": "official-domain-required-before-claim",
-      "feeReviewRequired": false,
-      "destination": "TEMP_TON_WALLET",
-      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
-      "ownerApprovalRequired": true,
-      "checks": [
-        "verify the current opportunity on its official domain",
-        "check eligibility, geography, snapshot/claim dates and terms",
-        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
-        "if a signature is required, stop and wait for owner approval"
-      ]
-    },
-    {
-      "id": "qrmztak9vufdla3pyehjzzk9coufvrdbtdwdbdkhlvnhkwkj3bdzfujrpmevvrvflwmvvsfc1ymtmnursyxvnu2dblxhkdwztyxdtqu1ztxd6aejxrq-oc-5",
-      "title": "Google temporarily suspends bug bounty program due to a surge in AI-generated bug reports. - GIGAZINE",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUnJhSi1lS0YtYUpEZGZIRERqWW1xVHIxTzA3SDk5X1Q1em5mS0lfaHhGUGRBVjBmT1VqRmZTak9vUFdLa3pyeHJZZk9COUFvRDBtdWdBdkhlVnhKWkJ3bDZfUjRPMEVVRVFlWmVVSFc1YmtmNURSYXVnU2dBLXhKdWZtYXdtQU1ZTXd6aEJxRQ?oc=5",
       "domain": "news.google.com",
       "phase": "DISCOVERY",
       "score": 45,
@@ -10309,42 +10310,6 @@
       ],
       "qualification": "discovery-only",
       "engineScore": 88,
-      "action": "OWNER_REVIEW",
-      "riskGate": "official-domain-required-before-claim",
-      "feeReviewRequired": false,
-      "destination": "TEMP_TON_WALLET",
-      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
-      "ownerApprovalRequired": true,
-      "checks": [
-        "verify the current opportunity on its official domain",
-        "check eligibility, geography, snapshot/claim dates and terms",
-        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
-        "if a signature is required, stop and wait for owner approval"
-      ]
-    },
-    {
-      "id": "fytntuhownndpdvdvalhttgddb041m05dovjualfhqu9nqvhyuu0zrfzzbmdyrdvkvtzhlw1qdnhfbhpbs3pjvhr3vtf1bu03vhztculyoxjqzkzmsq-oc-5",
-      "title": "Aave Labs Proposes Major Bug Bounty Overhaul, Boosting Top Reward to $5 Million - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRl9EdzktVWVLc05EMlZ2bkVqa3NfbEdCS2ZBdGt0QmlQSWFsZjdfYTNTUHowNndpdVdvalhTTGdDb041M05DOVJUalFhQU9NQVhyUU0zRFZZbmdYRDVkVTZHLW1qdnhFbHpBS3pjVHR3VTF1bU03VHZtcUlYOXJqZkZmSQ?oc=5",
-      "domain": "news.google.com",
-      "phase": "DISCOVERY",
-      "score": 44,
-      "officialDomain": false,
-      "specialists": [
-        "airdrop",
-        "rewards",
-        "eligibility",
-        "risk",
-        "claim-phase"
-      ],
-      "sourceEvidence": [
-        "google-news-discovery",
-        "keyword-match",
-        "multi-publisher-convergence",
-        "public-feed"
-      ],
-      "qualification": "discovery-only",
-      "engineScore": 91,
       "action": "OWNER_REVIEW",
       "riskGate": "official-domain-required-before-claim",
       "feeReviewRequired": false,
@@ -21455,41 +21420,6 @@
       ]
     },
     {
-      "id": "klthesnjobefkrxnrtgfgz091tdliqznzbupnbxlmvlbucuixnzhvv0jybhzkrunft2nox2npc3nbeutknzrby21nuzzyzwjjdnitd1zxaee5ce9myw-oc-5",
-      "title": "Senate files again for major crypto bill with stablecoin-rewards compromise, DeFi protections - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2NIYVBwQmlzcnhRWXBFZFVWckJfM1U0Z2pVcWYtd3hGU3B5WEhRR1gtcUNqLTR2TEczamZhLVFVS2ZtZXZfMmFLYmJVdVAtT3djOTFwZTBKS3NLQThpRFlqSkl6NzlLX09LeVhEZzRnMUlKLThESnJObEFKRXNrTGFGZ091TDlIQzNZbUpnbXlmVlBucUIxNzhVV0JybHZkRUNfT2NoX2Npc3NBeUtkNzRBY21NUzZYZWJjdnItd1ZxaEE5cE9MYw?oc=5",
-      "domain": "news.google.com",
-      "phase": "DISCOVERY",
-      "score": 40,
-      "officialDomain": false,
-      "specialists": [
-        "airdrop",
-        "rewards",
-        "eligibility",
-        "risk",
-        "claim-phase"
-      ],
-      "sourceEvidence": [
-        "public-feed",
-        "keyword-match",
-        "google-news-discovery"
-      ],
-      "qualification": "discovery-only",
-      "engineScore": 81,
-      "action": "OWNER_REVIEW",
-      "riskGate": "official-domain-required-before-claim",
-      "feeReviewRequired": false,
-      "destination": "TEMP_TON_WALLET",
-      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
-      "ownerApprovalRequired": true,
-      "checks": [
-        "verify the current opportunity on its official domain",
-        "check eligibility, geography, snapshot/claim dates and terms",
-        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
-        "if a signature is required, stop and wait for owner approval"
-      ]
-    },
-    {
       "id": "gsxoyz1v0slboquz0aulobgdpvg95ne1iwwpynghiahfzehfoumxkqupcutnfathmredkqtznnvbgn1rocvlktmgyoxlgek5qse5rqlo1u1l6duitoa-oc-5",
       "title": "Trade Predictions and Earn a Slice of Bitcoin Rewards - Crypto.com",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oa3hGSXoyZ1V0SlBOQUZ0aUlobGdPVG95NE1iWWpyNGhIaHFzeHFOUmxkQUpCUTNFaThMREdkQTZNNVBGN1RocVlkTmgyOXlGek5QSE5RQlo1U1l6dUItOA?oc=5",
@@ -21791,6 +21721,41 @@
       ],
       "qualification": "discovery-only",
       "engineScore": 81,
+      "action": "OWNER_REVIEW",
+      "riskGate": "official-domain-required-before-claim",
+      "feeReviewRequired": false,
+      "destination": "TEMP_TON_WALLET",
+      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
+      "ownerApprovalRequired": true,
+      "checks": [
+        "verify the current opportunity on its official domain",
+        "check eligibility, geography, snapshot/claim dates and terms",
+        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
+        "if a signature is required, stop and wait for owner approval"
+      ]
+    },
+    {
+      "id": "gfqmmq1smrzzm9idmgtdvewnktzvvzvmwk3ew9jqndhq05nnfhdvwpmeg5iog1wdvpomtrhzwlivgnoahdwvfhunzbkdddntkjbwfplvve5wjjtwxpf-oc-5",
+      "title": "Google Freezes Open Source Bug Bounty Until 2027 Due to AI Spam Flood - Android Headlines",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcmRYcWJ6SGlRNWtTbTRrYXFYX3NFZUpfelB6UnllVW8yb18zQXdVZXRXa282OXdld1p5U244UGFQMmQ1SmRZZm9idmgtdVEwNktZVVZVMWk3eW9JQndhQ05nNFhDVWpmeG5IOG1wdVpoMTRhZWlIVGNOaHdwVFhUNzBkdDdnTkJBWFpLVVE5WjJTWXpf?oc=5",
+      "domain": "news.google.com",
+      "phase": "DISCOVERY",
+      "score": 40,
+      "officialDomain": false,
+      "specialists": [
+        "airdrop",
+        "rewards",
+        "eligibility",
+        "risk",
+        "claim-phase"
+      ],
+      "sourceEvidence": [
+        "public-feed",
+        "keyword-match",
+        "google-news-discovery"
+      ],
+      "qualification": "discovery-only",
+      "engineScore": 84,
       "action": "OWNER_REVIEW",
       "riskGate": "official-domain-required-before-claim",
       "feeReviewRequired": false,
@@ -22540,41 +22505,6 @@
       ]
     },
     {
-      "id": "2nrs0ridfrcynzaoudyukvlmnr5vvk5ohz5cmhdexrxu1n1sunirxjhukj3rvpus3pvy3fec09pevnaxzhdlxlpt3lwsxotdzztqmfsse9nefb3mm1r-oc-5",
-      "title": "Adding DeFi to your 401k: How BlackRock’s staked Ethereum ETF rewires access to ETH rewards - CryptoSlate",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLXdWLWZjbVo3MVF6TmlINXF2X055ZjFXQXcxd0NPa2JVdGkxQi1MVVZKNngya2x5VTJ1UGQxSlhEOC1ob19qX3VvVXZ6N2FPSk1RSjVTLVZzZlk0Q2NrS0RIdFRCYnZaOUdYUkVLMnR5VVk5OHZ5cmhDeXRxU1N1SUNIRXJhUkJ3RVpuS3pVY3FEc09PeVNaXzhDLXlpT3lWSXotdzZtQmFsSE9NeFB3Mm1R?oc=5",
-      "domain": "news.google.com",
-      "phase": "DISCOVERY",
-      "score": 40,
-      "officialDomain": false,
-      "specialists": [
-        "airdrop",
-        "rewards",
-        "eligibility",
-        "risk",
-        "claim-phase"
-      ],
-      "sourceEvidence": [
-        "public-feed",
-        "keyword-match",
-        "google-news-discovery"
-      ],
-      "qualification": "discovery-only",
-      "engineScore": 78,
-      "action": "OWNER_REVIEW",
-      "riskGate": "official-domain-required-before-claim",
-      "feeReviewRequired": false,
-      "destination": "TEMP_TON_WALLET",
-      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
-      "ownerApprovalRequired": true,
-      "checks": [
-        "verify the current opportunity on its official domain",
-        "check eligibility, geography, snapshot/claim dates and terms",
-        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
-        "if a signature is required, stop and wait for owner approval"
-      ]
-    },
-    {
       "id": "te5uzjd1emswyni1dfjucxrwr0mtznfzs21dtenqmkp2btlrmmu4r2w2vje2v3dsu01cqjgxdvv2x1v4vxr2tedyexfptg1hagy4y0pztk40mgnfcuk-oc-5",
       "title": "Best Crypto Cards for Q4 2026: Fees, Rewards & Availability Compared - shattered.io",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uZjd1emswYnI1dFJUcXRwR0MtZnFzS21DTENQMkp2bTlrMmU4R2w2VjE2V3dsU01CQjgxdVV2X1V4VXR2TEdyeXFpTG1HaGY4Y0pZTk40MGNFcUk?oc=5",
@@ -22841,6 +22771,41 @@
       ],
       "qualification": "discovery-only",
       "engineScore": 81,
+      "action": "OWNER_REVIEW",
+      "riskGate": "official-domain-required-before-claim",
+      "feeReviewRequired": false,
+      "destination": "TEMP_TON_WALLET",
+      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
+      "ownerApprovalRequired": true,
+      "checks": [
+        "verify the current opportunity on its official domain",
+        "check eligibility, geography, snapshot/claim dates and terms",
+        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
+        "if a signature is required, stop and wait for owner approval"
+      ]
+    },
+    {
+      "id": "fytntuhownndpdvdvalhttgddb041m05dovjualfhqu9nqvhyuu0zrfzzbmdyrdvkvtzhlw1qdnhfbhpbs3pjvhr3vtf1bu03vhztculyoxjqzkzmsq-oc-5",
+      "title": "Aave Labs Proposes Major Bug Bounty Overhaul, Boosting Top Reward to $5 Million - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRl9EdzktVWVLc05EMlZ2bkVqa3NfbEdCS2ZBdGt0QmlQSWFsZjdfYTNTUHowNndpdVdvalhTTGdDb041M05DOVJUalFhQU9NQVhyUU0zRFZZbmdYRDVkVTZHLW1qdnhFbHpBS3pjVHR3VTF1bU03VHZtcUlYOXJqZkZmSQ?oc=5",
+      "domain": "news.google.com",
+      "phase": "DISCOVERY",
+      "score": 40,
+      "officialDomain": false,
+      "specialists": [
+        "airdrop",
+        "rewards",
+        "eligibility",
+        "risk",
+        "claim-phase"
+      ],
+      "sourceEvidence": [
+        "public-feed",
+        "keyword-match",
+        "google-news-discovery"
+      ],
+      "qualification": "discovery-only",
+      "engineScore": 84,
       "action": "OWNER_REVIEW",
       "riskGate": "official-domain-required-before-claim",
       "feeReviewRequired": false,
@@ -23739,9 +23704,9 @@
       ]
     },
     {
-      "id": "rkruwdrxww1et25dwfrmn3vmanrsn0c4ee5zb3brd2dfbfy2njzbehplv2lorwt1mdvoade0vk9os0lyogjtzul0zzk4mhgtu09bz2ixadbhzxrwu1y-oc-5",
-      "title": "Crypto lost $110 million to hacks in July amid rising bug bounty activity: Immunefi - The Block",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS1FQM3hTN0U4Q3Z4c1FnQW5mNzNDMXY0VjdyczVLSTM2SjVqTnZKRkRuWDRXWW1ET25DWFRMN3VManRSN0c4eE5Zb3Brd2dFbFY2NjZBeHplV2loRWt1MDVoaDE0Vk9oS0lYOGJTZUl0Zzk4MHgtU09BZ2IxaDBHZXRwU1Y?oc=5",
+      "id": "ieklvrkzyddbvynfsql9azhveyv8xq0pnq1rqx0dndms1s3jnltzjne5rs2dostmyyxvju1p0mll6zfi4q1p4emnlelrutmlxqmtpcghsenhon0ytna-oc-5",
+      "title": "HackerOne Makes Identity Verification Mandatory for All Bug Bounty Researchers - Cyber Press",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBfNU9EcjZBQ1hiQk9mX3Myc1MxRXlDUGVyMTlrY3pieklVRkZydDBvYnFsQl9aZHVEYV8xQ0pnQ1RQX0dndms1S3JnLTZJNE5RS2dOSTMyYXVJU1p0Mll6ZFI4Q1p4emNLelRuTmlXQmtpcGhSenhON0YtNNIBe0FVX3lxTFBfNU9EcjZBQ1hiQk9mX3Myc1MxRXlDUGVyMTlrY3pieklVRkZydDBvYnFsQl9aZHVEYV8xQ0pnQ1RQX0dndms1S3JnLTZJNE5RS2dOSTMyYXVJU1p0Mll6ZFI4Q1p4emNLelRuTmlXQmtpcGhSenhON0YtNA?oc=5",
       "domain": "news.google.com",
       "phase": "DISCOVERY",
       "score": 39,
@@ -23775,9 +23740,9 @@
       ]
     },
     {
-      "id": "gfqmmq1smrzzm9idmgtdvewnktzvvzvmwk3ew9jqndhq05nnfhdvwpmeg5iog1wdvpomtrhzwlivgnoahdwvfhunzbkdddntkjbwfplvve5wjjtwxpf-oc-5",
-      "title": "Google Freezes Open Source Bug Bounty Until 2027 Due to AI Spam Flood - Android Headlines",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcmRYcWJ6SGlRNWtTbTRrYXFYX3NFZUpfelB6UnllVW8yb18zQXdVZXRXa282OXdld1p5U244UGFQMmQ1SmRZZm9idmgtdVEwNktZVVZVMWk3eW9JQndhQ05nNFhDVWpmeG5IOG1wdVpoMTRhZWlIVGNOaHdwVFhUNzBkdDdnTkJBWFpLVVE5WjJTWXpf?oc=5",
+      "id": "rkruwdrxww1et25dwfrmn3vmanrsn0c4ee5zb3brd2dfbfy2njzbehplv2lorwt1mdvoade0vk9os0lyogjtzul0zzk4mhgtu09bz2ixadbhzxrwu1y-oc-5",
+      "title": "Crypto lost $110 million to hacks in July amid rising bug bounty activity: Immunefi - The Block",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS1FQM3hTN0U4Q3Z4c1FnQW5mNzNDMXY0VjdyczVLSTM2SjVqTnZKRkRuWDRXWW1ET25DWFRMN3VManRSN0c4eE5Zb3Brd2dFbFY2NjZBeHplV2loRWt1MDVoaDE0Vk9oS0lYOGJTZUl0Zzk4MHgtU09BZ2IxaDBHZXRwU1Y?oc=5",
       "domain": "news.google.com",
       "phase": "DISCOVERY",
       "score": 39,
@@ -23796,7 +23761,7 @@
         "public-feed"
       ],
       "qualification": "discovery-only",
-      "engineScore": 91,
+      "engineScore": 88,
       "action": "OWNER_REVIEW",
       "riskGate": "official-domain-required-before-claim",
       "feeReviewRequired": false,
@@ -26762,9 +26727,9 @@
       ]
     },
     {
-      "id": "uhstwtpr1q3b1lhahu5m2dxv1jom3gxohmxogvgy3z5nfnicutxvuzmzzdjqlrpd1f2wu5xmlpieewtbuhxzwtsbglfovv0bu1lavyxvg50svhvredu-oc-5",
-      "title": "Grant County Sheriff identifies 2 killed in apparent murder-suicide near Cuba City - WMTV 15 NEWS",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPLVV4bWxSd2MtTkdEZmdxS1N5aVJqaTBiMG1EdXZFQUZzT21qNF9waUhUcTRqNXZDWXhCdUFOazJta3NTcnk0ZGZ0NlhjVXdtaW5UN1dmNF9WakhuTjlIUXFaSFFVY3ZqbVJQSDY1eUhSTWtPR1Q3b1lhaHU5M2dxV1JOM3gxOHMxOGVGY3Z5NFNIcUtxVUZMZzdJQlRpd1F2WU5xMlpieEwtbUhXZWtSbGlFOVV0bU1LaVYxVG50SVhVREdu?oc=5",
+      "id": "zbdoc02wm1qne1gsxlkswpwvhriu2rxyvu3z1jksvztltltms10ef9rqmv6m05osfzqsxpbdu0wrxdba2tvuexwblc3otawweytb25vrgo0n2pwchhg-oc-5",
+      "title": "Preview - Grant County co-op [Carson/Elgin-New Leipzig] vs Linton/Hazelton-Moffit-Braddock Football - Sep 11, 2026 - Sports Illustrated",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNT2RCZUp4dEpxdlRxNDRfekpsTTVMaFk3Z00xd2JSTE5KSVphTGE5YUZFeEdES05mQjRRd0RtTW1LdEtKRE1PYVdpWlkzSWM4T1RuV05laW4xbGNkblh5YXJRel9uSUhIdVRJYkRTdi1TbmplVU40RkYxNS1JYzM4TTV1cmdwbGtGZjBqNUpKdHpiRzBDOC02Wm1qNE1GSXlKSWpwVHRIU2RXYVU3Z1JKSVZTLTltMS10eF9RQmV6M05oSFZqSXpBdU0wRXdBa2tVUExwblc3OTAwWEYtb25VRGo0N2pWcHhG?oc=5",
       "domain": "news.google.com",
       "phase": "DISCOVERY",
       "score": 35,
@@ -26797,9 +26762,9 @@
       ]
     },
     {
-      "id": "zbdoc02wm1qne1gsxlkswpwvhriu2rxyvu3z1jksvztltltms10ef9rqmv6m05osfzqsxpbdu0wrxdba2tvuexwblc3otawweytb25vrgo0n2pwchhg-oc-5",
-      "title": "Preview - Grant County co-op [Carson/Elgin-New Leipzig] vs Linton/Hazelton-Moffit-Braddock Football - Sep 11, 2026 - Sports Illustrated",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNT2RCZUp4dEpxdlRxNDRfekpsTTVMaFk3Z00xd2JSTE5KSVphTGE5YUZFeEdES05mQjRRd0RtTW1LdEtKRE1PYVdpWlkzSWM4T1RuV05laW4xbGNkblh5YXJRel9uSUhIdVRJYkRTdi1TbmplVU40RkYxNS1JYzM4TTV1cmdwbGtGZjBqNUpKdHpiRzBDOC02Wm1qNE1GSXlKSWpwVHRIU2RXYVU3Z1JKSVZTLTltMS10eF9RQmV6M05oSFZqSXpBdU0wRXdBa2tVUExwblc3OTAwWEYtb25VRGo0N2pWcHhG?oc=5",
+      "id": "uu1unhjscfyytuxybwj5njvzczd3m1vndljnedzoq1doeghozhnzvtu1vgdxmeppow0tmtbntjrnckrwrzf3bnnny2o3nufcmglha0tnawxwsdhtmve-oc-5",
+      "title": "Grant County Sheriff identifies 2 killed in apparent murder-suicide near Cuba City - WMTV 15 NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ0JESTZPUERXRHI0RGUzdnZqaUotdjhod3U1LWpyeUxzS2lEYUk3UUFfTzJGNWVfQ3M4TUdqNjVtczN0RlJ5ck42eVFDakZXSDVDcUNYaHFQb1FLaUZyMWpkbDFxTm9LaGpGZk9KLUtzd3VLUHRrQ1ZYUzZMZ19wdHV3dnpMN2pVWjR5UlhDaTMzU2I2YjV3ZXRIZTFEeFZDQnIwTTRsUmpOTjl2Q2VOWEhERHFPUm9yMmfSAc4BQVVfeXFMT3ZpT3dWVWRiYkU5Sl9vbjctYWp5bm1fTXlMRU5mX1Z0eUh4alRQUDhGcVlJUXNhbEgtY0tMbDZUX0JuZGVQbHBpbnFUamlrNTU5dnd5U1N3bUMzdXliWWd5REhVTnVwZ3dpSFV4OGdwUk9uM0RZLTNNUU1UNHJscFYyTUxybWJ5NjVZczd3M1VndlJNeDZoQ1dOeGhOZHNZVTU1VGdxMEppOW0tMTBnTjRNckRWRzF3bnNnY2o3NUFCMGlHa0tnaWxwSDhTMVE?oc=5",
       "domain": "news.google.com",
       "phase": "DISCOVERY",
       "score": 35,
@@ -27080,6 +27045,41 @@
       "id": "vwwpiyjkwd3kwb0nosxfvcznmruk1velgbdkty0jrvjdrcg9pwjmyc01ou0hloe95yjm1bljnv1rloepny1j2mmhctxnmr3h3rw5yr1vjvklaver0uq-oc-5",
       "title": "Runaway teen from Grant area found, police say - WOODTV.com",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSER6OXRwYTExMXN2MTZJSURiaVlxM0t6eFJYa3dHZjhCdlpRSVJXdDFFUzNUVUlrOVdIejBkZTRSeFo1Q3NCSTZuT2xUVGlDNTBDanBYQ1RoNVRpVWtDT2VVc3hrc1dpWlMtNUZyNFp2cS1NLVFWVGQ4Um5BTWlIc04xQmJRdUp4ODFEbjdn0gGTAUFVX3lxTFBXNzh0elFHck1TbjFjeF9rZ1ZfS09nQm95cnVyTWV2eDFYR01pRGFGU1VVS1VoS0ZsOGl4SHdVWWpiYjkwd3kwb0NoSXFVczNMRUk1VElGbDktY0JRVjdrcG9PWjMyc01oU0hLOE95YjM1blJnV1RlOEpnY1J2MmhCTXNMR3h3RW5YR1VJVklaVER0UQ?oc=5",
+      "domain": "news.google.com",
+      "phase": "DISCOVERY",
+      "score": 35,
+      "officialDomain": false,
+      "specialists": [
+        "airdrop",
+        "rewards",
+        "eligibility",
+        "risk",
+        "claim-phase"
+      ],
+      "sourceEvidence": [
+        "public-feed",
+        "keyword-match",
+        "google-news-discovery"
+      ],
+      "qualification": "discovery-only",
+      "engineScore": 81,
+      "action": "OWNER_REVIEW",
+      "riskGate": "official-domain-required-before-claim",
+      "feeReviewRequired": false,
+      "destination": "TEMP_TON_WALLET",
+      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
+      "ownerApprovalRequired": true,
+      "checks": [
+        "verify the current opportunity on its official domain",
+        "check eligibility, geography, snapshot/claim dates and terms",
+        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
+        "if a signature is required, stop and wait for owner approval"
+      ]
+    },
+    {
+      "id": "wppz0jqeejlmno2ywfjndzuofdzx0o4rjhntlbotfjkqlbzbjfwbhbvyvfbvfzpmunqvgv1vwryc3prywhoegl0wjfcylc4amdunjjmaflnz0plr0l0-oc-5",
+      "title": "Moody, Lowndes receive 861K DoD grant - Moody Air Force Base (.mil)",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMzdQeUNmVWYzOE0wRVdTbTBQR201ZFZCcGd3YkVBODB4NWR0bzBxX25QOGFQY1ZpYTJvalNtMnhaR2s1TnVaUUVDMWppZ0JQeEJLMno2YWFJNDZUOFdzX0o4RjhnTlBoTFJKQlBZbjFWbHBvYVFBVFZpMUNQVGV1VWRYc3pRYWhOeGl0WjFCYlc4amdUNjJmaFlnZ0plR0l0?oc=5",
       "domain": "news.google.com",
       "phase": "DISCOVERY",
       "score": 35,
@@ -31172,41 +31172,6 @@
       ]
     },
     {
-      "id": "rxayykdkeksxehuzeeznug8wwfznnxrxytlabgz5vmvuetric3hmemvlsdv1ymzqa3nkehbgcuftwhe4bthnlvnankdndf9kbeswcwi2mfhkmljgawc-oc-5",
-      "title": "Google issues complete OSS VRP bug bounty pause over AI spam - Neowin",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN0hwM3NyeHpuRVZXdGkxZVk1cjNQNnJ1TEdaaVRjSk5hZVZZcnRodkZtdjdhTy1uNmxsS3ZSRXAyYkdKeksxeHUzeEZNUG8wWFZnNXRxYTlabGZ5VmVueTRIc3hMemVLSDV1YmZQa3NkeHBGcUFtWHE4bThNLVNaNkdNdF9KbEswcWI2MFhKMlJGaWc?oc=5",
-      "domain": "news.google.com",
-      "phase": "DISCOVERY",
-      "score": 35,
-      "officialDomain": false,
-      "specialists": [
-        "airdrop",
-        "rewards",
-        "eligibility",
-        "risk",
-        "claim-phase"
-      ],
-      "sourceEvidence": [
-        "public-feed",
-        "keyword-match",
-        "google-news-discovery"
-      ],
-      "qualification": "discovery-only",
-      "engineScore": 81,
-      "action": "OWNER_REVIEW",
-      "riskGate": "official-domain-required-before-claim",
-      "feeReviewRequired": false,
-      "destination": "TEMP_TON_WALLET",
-      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
-      "ownerApprovalRequired": true,
-      "checks": [
-        "verify the current opportunity on its official domain",
-        "check eligibility, geography, snapshot/claim dates and terms",
-        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
-        "if a signature is required, stop and wait for owner approval"
-      ]
-    },
-    {
       "id": "tofnzy3ronmm2egrothrhsfhcrtbzmnb1n0ftq29ydknxsvp1ytruali0x2zjnxr3ymvtdvpsvjjusvnnadz0wwfxa19temq1bln3t3r1ddqxc1i4dw-oc-5",
       "title": "Grant Thornton and Diveshack remove half a ton of debris from Qui-Si-Sana - Times of Malta",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbHpsX09hdTR5eUM4TlFlRGtnQ1RSN3RJX0lxUUQzZ3paTDh3RW5kZGtORElkaXdqMnFaQk11dlNGNy1tY0EwSVBtOFNzY3RONmM2eGROTHRhSFhCRTBzMnB1N0FtQ29YdkNxSVp1YTRUalI0X2ZjNXR3YmVtdVpsVjJuSVNNaDZ0WWFxa19TemQ1blN3T3R1dDQxc1I4dw?oc=5",
@@ -32082,41 +32047,6 @@
       ]
     },
     {
-      "id": "ieklvrkzyddbvynfsql9azhveyv8xq0pnq1rqx0dndms1s3jnltzjne5rs2dostmyyxvju1p0mll6zfi4q1p4emnlelrutmlxqmtpcghsenhon0ytna-oc-5",
-      "title": "HackerOne Makes Identity Verification Mandatory for All Bug Bounty Researchers - Cyber Press",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBfNU9EcjZBQ1hiQk9mX3Myc1MxRXlDUGVyMTlrY3pieklVRkZydDBvYnFsQl9aZHVEYV8xQ0pnQ1RQX0dndms1S3JnLTZJNE5RS2dOSTMyYXVJU1p0Mll6ZFI4Q1p4emNLelRuTmlXQmtpcGhSenhON0YtNNIBe0FVX3lxTFBfNU9EcjZBQ1hiQk9mX3Myc1MxRXlDUGVyMTlrY3pieklVRkZydDBvYnFsQl9aZHVEYV8xQ0pnQ1RQX0dndms1S3JnLTZJNE5RS2dOSTMyYXVJU1p0Mll6ZFI4Q1p4emNLelRuTmlXQmtpcGhSenhON0YtNA?oc=5",
-      "domain": "news.google.com",
-      "phase": "DISCOVERY",
-      "score": 35,
-      "officialDomain": false,
-      "specialists": [
-        "airdrop",
-        "rewards",
-        "eligibility",
-        "risk",
-        "claim-phase"
-      ],
-      "sourceEvidence": [
-        "public-feed",
-        "keyword-match",
-        "google-news-discovery"
-      ],
-      "qualification": "discovery-only",
-      "engineScore": 81,
-      "action": "OWNER_REVIEW",
-      "riskGate": "official-domain-required-before-claim",
-      "feeReviewRequired": false,
-      "destination": "TEMP_TON_WALLET",
-      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
-      "ownerApprovalRequired": true,
-      "checks": [
-        "verify the current opportunity on its official domain",
-        "check eligibility, geography, snapshot/claim dates and terms",
-        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
-        "if a signature is required, stop and wait for owner approval"
-      ]
-    },
-    {
       "id": "tytmw5seupluxzjcw1tcjdzber5vnvtcufqew95tl9smxzhyuy4uzrin3pywtrwmuxnsxffm201denfslnlz0jcsgrvq3mzvjj2qmtjwdnuu3byeutq-oc-5",
       "title": "Tucson Fire battles blaze near Grant, Stone - KOLD",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZnhSNzlmU0RiT2NhQnJaTkgzSy0zWUI0ODVuU3U5QnBDNEliWm4wb1BmSTYtMW5seUpLUXZjcW1tcjdZbER5VnVtcUFqeW95Tl9SMXZHYUY4UzRiN3pyWTRWMUxNSXFFM201dENfSlNlZ0JCSGRvQ3MzVjJ2QmtjWDNuU3ByeUtQ?oc=5",
@@ -32225,6 +32155,41 @@
       "id": "fbynwnpdutpzdqztmvptxf1szdxcwkzunnyuk4wegu1bdjwofj3q3lwc25lukjnexzlmwjftjlobxr0snroq2x5qtvob2z1ujjxtesyn19odw0ttmrz-oc-5",
       "title": "3Cross.ai secures $115k Google Grant and kicks off presale on ZkSync - Cryptonews.net",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFByNWNPdUtpZDQzTmVpTXF1SzdXcWkzUnNYUk4weGU1bDJwOFJ3Q3lwc25LUkJNeXZlMWJFTjlObXR0SnROQ2x5QTVOb2Z1UjJxTEsyN19OdW0tTmRZ?oc=5",
+      "domain": "news.google.com",
+      "phase": "DISCOVERY",
+      "score": 35,
+      "officialDomain": false,
+      "specialists": [
+        "airdrop",
+        "rewards",
+        "eligibility",
+        "risk",
+        "claim-phase"
+      ],
+      "sourceEvidence": [
+        "public-feed",
+        "keyword-match",
+        "google-news-discovery"
+      ],
+      "qualification": "discovery-only",
+      "engineScore": 81,
+      "action": "OWNER_REVIEW",
+      "riskGate": "official-domain-required-before-claim",
+      "feeReviewRequired": false,
+      "destination": "TEMP_TON_WALLET",
+      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
+      "ownerApprovalRequired": true,
+      "checks": [
+        "verify the current opportunity on its official domain",
+        "check eligibility, geography, snapshot/claim dates and terms",
+        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
+        "if a signature is required, stop and wait for owner approval"
+      ]
+    },
+    {
+      "id": "nbct3n1ymx6budszmtwvghiehi3smpiwljuakhzsuffv0rlnkzbnzbucldgterqemh2mhfnd2zgtlnrywltdvhrrhjsotfgodfirdffemnfexnqaxnb-oc-5",
+      "title": "GitHub Bug Bounty Cuts Public Payouts in Half, Hides Top Rates in Invite-Only Tier - Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYTB4NDBnRXh6aDRBNTJjbVVhTFUwQzVDSFFoLUpWYTdXNDFRaXpCdHVIZWJaSk9iSVpTaEZKV2FKNVd1LUUwLW5CV3U0MVItblNUUTFPMmVFNEVsLXFRR1BOc3ZNZ0tmTUlDS3BFcnBJdVJVUnBCT3N1Ymx6bUdSZmtWVGhIeHI3SmpIWlJUakhZSUFfV0RlNkZBNzBUcldGTERqemh2MHFNd2ZGTlNrYWltdVhrRHJSOTFGODFIRDFFemNFeXNQaXNB?oc=5",
       "domain": "news.google.com",
       "phase": "DISCOVERY",
       "score": 35,
@@ -33272,6 +33237,41 @@
       ]
     },
     {
+      "id": "ffimhm2ylplme1qcfc5s2oxdur6os11ag9yrtbnvkj4dxnenlrsdtnaagjirgnplw9udhzvzehkefv2wmvfwevnstbyz3dwv3pkvenrtvg0a0pmm3vr-oc-5",
+      "title": "Google Bug Bounty Payouts Reach Record $17 Million in 2025 - Cyber Press",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wUWIwczZiWmUwTWpwVzlLajF1RHo5LXVob3JFME1WQnh1c0Q2VFJ1M1poYmJEY08tb1R0dm9kSGR4VXZaZUVYRU1JMHJnd1ZXekpUQ2tNWDRrSkwzdVHSAV5BVV95cUxPcFFiMHM2YlplME1qcFc5S2oxdUR6OS11aG9yRTBNVkJ4dXNENlRSdTNaaGJiRGNPLW9UdHZvZEhkeFV2WmVFWEVNSTByZ3dWV3pKVENrTVg0a0pMM3VR?oc=5",
+      "domain": "news.google.com",
+      "phase": "DISCOVERY",
+      "score": 35,
+      "officialDomain": false,
+      "specialists": [
+        "airdrop",
+        "rewards",
+        "eligibility",
+        "risk",
+        "claim-phase"
+      ],
+      "sourceEvidence": [
+        "public-feed",
+        "keyword-match",
+        "google-news-discovery"
+      ],
+      "qualification": "discovery-only",
+      "engineScore": 81,
+      "action": "OWNER_REVIEW",
+      "riskGate": "official-domain-required-before-claim",
+      "feeReviewRequired": false,
+      "destination": "TEMP_TON_WALLET",
+      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
+      "ownerApprovalRequired": true,
+      "checks": [
+        "verify the current opportunity on its official domain",
+        "check eligibility, geography, snapshot/claim dates and terms",
+        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
+        "if a signature is required, stop and wait for owner approval"
+      ]
+    },
+    {
       "id": "4yzljrfjmr0ppcksxtk1dvdl3odiwtexgd05tavjssmldedvyq0rbmel0oenjrmdrrktfyvm2z3pkq19jnkrwsll0aeq4yujzyzqyadjrbhytzl9tdw-oc-5",
       "title": "East Wenatchee man employed at Grant PUD dies in Okanogan County avalanche - Source ONE News",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPR1Vzc1IwejNEOTQwOGhsOVh0elNYWk5HZW9adTIzanlrNTVQUjhUd1BnY1F3RWNyVmpyRy1ZUHJQdzlmMG1HNGhic19GSFNFdndfUkVvQUxnQV9yQ1pzcTlYRW9YcHdLUHU1OXFEOTNiZ2Zsb3RxQ0VWVGZhX2NfVHczNGc3ZFFnMFhZaFJIM05rZ3M4emZ6X3FPWUZMWUp5UC0zd0NxajI4YzljRFJmR0pPcksxTk1DVDl3ODIwTExGd05TaVJSSmlDeDVYQ0RBMEl0OENjRmdrRktFYVM2Z3pKQ19JNkRWSll0aEQ4YUJZYzQyaDJrbHYtZl9tdw?oc=5",
@@ -33363,41 +33363,6 @@
       ],
       "qualification": "discovery-only",
       "engineScore": 81,
-      "action": "OWNER_REVIEW",
-      "riskGate": "official-domain-required-before-claim",
-      "feeReviewRequired": false,
-      "destination": "TEMP_TON_WALLET",
-      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
-      "ownerApprovalRequired": true,
-      "checks": [
-        "verify the current opportunity on its official domain",
-        "check eligibility, geography, snapshot/claim dates and terms",
-        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
-        "if a signature is required, stop and wait for owner approval"
-      ]
-    },
-    {
-      "id": "wvdocwpoogdomtuynwp3m2vxngxvczjqremtae5yr3f0qwrpewncrxl2c1vkshnxa3riddi5cw14bwtyq2hacnpfv3vwunq5vwlzt2jzmffattnmblu-oc-5",
-      "title": "Luxembourg Grant Ripple Full EMI License, as Virtuals Protocol Releases Integration for OpenClaw with its Agent Commerce Protocol - Tekedia",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84d252Ymx2R09QeEJxcDg1c1FqUThnWVdOcWpoOGdoMTUyNWp3M2VXNGxVczJqREMtaE5YR3F0QWRPeWNCRXl2c1VkSHNxa3RIdDI5cW14bWtyQ2hacnpfV3VwUnQ5VWlZT2JzMFFaTTNMblU?oc=5",
-      "domain": "news.google.com",
-      "phase": "DISCOVERY",
-      "score": 35,
-      "officialDomain": false,
-      "specialists": [
-        "airdrop",
-        "rewards",
-        "eligibility",
-        "risk",
-        "claim-phase"
-      ],
-      "sourceEvidence": [
-        "public-feed",
-        "keyword-match",
-        "google-news-discovery"
-      ],
-      "qualification": "discovery-only",
-      "engineScore": 84,
       "action": "OWNER_REVIEW",
       "riskGate": "official-domain-required-before-claim",
       "feeReviewRequired": false,
@@ -37230,6 +37195,41 @@
       ]
     },
     {
+      "id": "vudfcg5jogtxcwhhow10s0fkawlxy2dcqlfsee03aertrg5fz2v4x1jlrgh5mjq1wmlyltvwtwfwmktju2r0my16x3vtu3jtchpqwdnyrdnonedkmmc-oc-5",
+      "title": "Water Application Points to Larger Aptos Complex - TPG Online Daily",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZFdfYXZpajVxMUlXQl96TU5ZVWdlY21RWUhmaHRmdG1ZY2xCZlVHRXBuYzhrV3FoRzltdEtBZGlpV2NnQkJRUnhNN2hEU0RuX2dleF9SS0RoeTI0NVppci01cE1hcDJLY1NkdDMtel91bVNyU3B6algzckQzaDRHZDJn0gGCAUFVX3lxTFBkV19hdmlqNXExSVdCX3pNTllVZ2VjbVFZSGZodGZ0bVljbEJmVUdFcG5jOGtXcWhHOW10S0FkaWlXY2dCQlFSeE03aERTRG5fZ2V4X1JLRGh5MjQ1WmlyLTVwTWFwMktjU2R0My16X3VtU3JTcHpqWDNyRDNoNEdkMmc?oc=5",
+      "domain": "news.google.com",
+      "phase": "EARLY_OR_UPCOMING",
+      "score": 20,
+      "officialDomain": false,
+      "specialists": [
+        "airdrop",
+        "rewards",
+        "eligibility",
+        "risk",
+        "claim-phase"
+      ],
+      "sourceEvidence": [
+        "public-feed",
+        "keyword-match",
+        "google-news-discovery"
+      ],
+      "qualification": "discovery-only",
+      "engineScore": 61,
+      "action": "OWNER_REVIEW",
+      "riskGate": "official-domain-required-before-claim",
+      "feeReviewRequired": false,
+      "destination": "TEMP_TON_WALLET",
+      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
+      "ownerApprovalRequired": true,
+      "checks": [
+        "verify the current opportunity on its official domain",
+        "check eligibility, geography, snapshot/claim dates and terms",
+        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
+        "if a signature is required, stop and wait for owner approval"
+      ]
+    },
+    {
       "id": "ddunzvkvvylp2enb3bwd6dkhhq0znmvpeaeliodhpewlvceuyv3h2n2ltlwz6zhv4otbflwjuwhd1dgrlvnffzllym1jtuy1hq0jmndfoytqxvwlzuq-oc-5",
       "title": "TeamPCP and BreachForums Hackers Running $1,000 Contest for Supply Chain Attacks - CyberSecurityNews",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QS3FQVTAtNDJud0dSVmdLaGZpLTU1RHZuVDM2LTQtNFNVY2d4bUpjQlo2Q2pvNFhIU2ZGX2VOeV9RbGlEcHk3bkR0M2tSMXpPRzdHUzFXcnJjZkt1T1phMXNneTkyN2x0TzRteXRSSEstQXM1cV9LaVVGU3rSAYIBQVVfeXFMTWtpVG9QbmVmQk9UU1pTSnZCX2ZOeWNHYVk3UnJxTkJucTdKZmtDdUNZVkVVYlp2enB3bWd6dkhHQ0ZnMVpEaElIODhpeWlVcEUyV3h2N2lTLWZ6ZHV4OTBfLWJUWHd1dGRlVnFfZllYM1JtUy1HQ0JmNDFOYTQxVWlZUQ?oc=5",
@@ -37475,6 +37475,42 @@
       ]
     },
     {
+      "id": "relhtnmnxztdxodetyxlcs0t0twdyufzfvdyywu1qtujkd1rdeluwwgnazwjzue5bt3e0m0dxdxfungdrq0ntn3zqcgj3mjrrtmrkdgcwudlzenfjqq-oc-5",
+      "title": "Mastercard sponsors XRP Ledger hackathon in New York - Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qaU9ONXc3M1c1aVVVSWpmUGVORkNYRFFqcHg3dGxpQ1pRelhtNmNXZTdXODEtYXlCS0t0TWdYUFZfVDYyWU1qTUJKd1RDelUwWGNaZWJzUE5BT3E0M0dxdXFUNGdrQ0NtN3ZqcGJ3MjRRTmRKdGcwUDlZenFjQQ?oc=5",
+      "domain": "news.google.com",
+      "phase": "DISCOVERY",
+      "score": 19,
+      "officialDomain": false,
+      "specialists": [
+        "airdrop",
+        "rewards",
+        "eligibility",
+        "risk",
+        "claim-phase"
+      ],
+      "sourceEvidence": [
+        "google-news-discovery",
+        "keyword-match",
+        "multi-publisher-convergence",
+        "public-feed"
+      ],
+      "qualification": "discovery-only",
+      "engineScore": 71,
+      "action": "OWNER_REVIEW",
+      "riskGate": "official-domain-required-before-claim",
+      "feeReviewRequired": false,
+      "destination": "TEMP_TON_WALLET",
+      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
+      "ownerApprovalRequired": true,
+      "checks": [
+        "verify the current opportunity on its official domain",
+        "check eligibility, geography, snapshot/claim dates and terms",
+        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
+        "if a signature is required, stop and wait for owner approval"
+      ]
+    },
+    {
       "id": "dzm1ewfhyd3jkbzfrelroythzv0hlmtjybfbycwfmvktnt1lymtk4t1rabeo1quq5amxsowu0wwtks3jzbhnjwtlry2vrzehsmwnzvfjkz1royzzjzw-oc-5",
       "title": "Mantle Launches Turing Test Hackathon 2026 backed by Tencent Cloud, Bybit, Byreal and BGA - TradingView",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOMS1HY3Vfc2JmR1g0a2gxOS0ybmE1RzdES3dxTVRLOEpIaExIU2JaT1RLVEJwN0hPTm5hTWd6X21PXzd0NUhyUmp5VFcwY2ZKX0trcGhLMGlwNnNpaV9YQ011ZFlvVzQ4cGNpNmV0b09WOUlHWE5SQ0JJcWhwQ0pqY3BxY2JLc2ptVXdDZm1EWFhyd3JKbzFRelROYThZV0hlMTJYbFBycWFmVktNT1lYMTk4T1RabEo1QUQ5amxsOWU0WWtKS3JZbHNjWTlrY2VRZEhSMWNzVFJkZ1ROYzZjZw?oc=5",
@@ -37605,6 +37641,42 @@
       ],
       "qualification": "discovery-only",
       "engineScore": 71,
+      "action": "OWNER_REVIEW",
+      "riskGate": "official-domain-required-before-claim",
+      "feeReviewRequired": false,
+      "destination": "TEMP_TON_WALLET",
+      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
+      "ownerApprovalRequired": true,
+      "checks": [
+        "verify the current opportunity on its official domain",
+        "check eligibility, geography, snapshot/claim dates and terms",
+        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
+        "if a signature is required, stop and wait for owner approval"
+      ]
+    },
+    {
+      "id": "grvavpjdutwcw9gvhk2ujn3v2ewsvvwce5es3rmaun0nddoahhrwgtiv05pq1e1mljvauxdd2vxskdfdvpuadjsaehdn2nzvhlvy2pzd19dqzk1zkpr-oc-5",
+      "title": "Toyota Taps Astar Network for Web3 Hackathon - CryptoPotato",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBCOFlpMU1GLUJhZHFBdUE2SjhDQ2VvbDZPN0ZoNGRvaVpjdUtwcW9GVHk2UjN3V2EwSVVWcE5ES3RMaUN0NDdOaHhrWGtIV05PQ1E1MlJVaUxDd2VxSkdfdVpUaDJSaEhDN2NzVHlvY2pzd19DQzk1ZkpR?oc=5",
+      "domain": "news.google.com",
+      "phase": "DISCOVERY",
+      "score": 19,
+      "officialDomain": false,
+      "specialists": [
+        "airdrop",
+        "rewards",
+        "eligibility",
+        "risk",
+        "claim-phase"
+      ],
+      "sourceEvidence": [
+        "google-news-discovery",
+        "keyword-match",
+        "multi-publisher-convergence",
+        "public-feed"
+      ],
+      "qualification": "discovery-only",
+      "engineScore": 74,
       "action": "OWNER_REVIEW",
       "riskGate": "official-domain-required-before-claim",
       "feeReviewRequired": false,
@@ -38219,41 +38291,6 @@
       ]
     },
     {
-      "id": "relhtnmnxztdxodetyxlcs0t0twdyufzfvdyywu1qtujkd1rdeluwwgnazwjzue5bt3e0m0dxdxfungdrq0ntn3zqcgj3mjrrtmrkdgcwudlzenfjqq-oc-5",
-      "title": "Mastercard sponsors XRP Ledger hackathon in New York - Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qaU9ONXc3M1c1aVVVSWpmUGVORkNYRFFqcHg3dGxpQ1pRelhtNmNXZTdXODEtYXlCS0t0TWdYUFZfVDYyWU1qTUJKd1RDelUwWGNaZWJzUE5BT3E0M0dxdXFUNGdrQ0NtN3ZqcGJ3MjRRTmRKdGcwUDlZenFjQQ?oc=5",
-      "domain": "news.google.com",
-      "phase": "DISCOVERY",
-      "score": 15,
-      "officialDomain": false,
-      "specialists": [
-        "airdrop",
-        "rewards",
-        "eligibility",
-        "risk",
-        "claim-phase"
-      ],
-      "sourceEvidence": [
-        "public-feed",
-        "keyword-match",
-        "google-news-discovery"
-      ],
-      "qualification": "discovery-only",
-      "engineScore": 64,
-      "action": "OWNER_REVIEW",
-      "riskGate": "official-domain-required-before-claim",
-      "feeReviewRequired": false,
-      "destination": "TEMP_TON_WALLET",
-      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
-      "ownerApprovalRequired": true,
-      "checks": [
-        "verify the current opportunity on its official domain",
-        "check eligibility, geography, snapshot/claim dates and terms",
-        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
-        "if a signature is required, stop and wait for owner approval"
-      ]
-    },
-    {
       "id": "4v2duog5rzvhzr3zwdmwxn3nlbe9rwkjqdkhoze9ju01mzlrsag9ac0jznndfrthvajzismt2snzhvvbsrnd5sxhsmtjewgzhsdrszeitnlr3a1fbaw-oc-5",
       "title": "Solana Finality Upgrade Marks Breakthrough With Alpenglow Testnet - The Cryptonomist",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YYjBsSUxGNE5tQXZZaXZpTFJ4V2dUOG5rZVhzR3ZwdmwxN3NLbE9rWkJqdkhOZE9JU01MZlRsaG9ac0JzNndfRThvajZISmt2SnZhVVBSRnd5SXhSMTJEWGZHSDRSZEItNlR3a1FBaw?oc=5",
@@ -38674,6 +38711,41 @@
       ]
     },
     {
+      "id": "utdjutjwmk9tthe4y245qm5mr2j2nlnvdjdpdzjkmlb0x1rqnnllsknmzznkrxvkzmrpykfvqvo5qxhqx3rgm0mwqzhzbzztzhrnu2tgmw9qms0wm00-oc-5",
+      "title": "Cash-to-DeFi: the Consensus X EasyA 2024 Stellar Hackathon - Stellar.org",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQWFTOG44U2xHaEFsQlZ5RkZtMS1KOHFtNldqb2tvTnR5MEZCYThUc19vbHdmRFZIaUVSbnNRamlld0JaVng2RjVIUTdjUTJwMk9TTHE4Y245Qm5mR2J2NlNvdjdpdzJKMlB0X1RQNnlLSkNMZzNKRXVkZmRpYkFvQVo5QXhQX3RGM0MwQzhZbzZTZHRNU2tGMW9QMS0wM00?oc=5",
+      "domain": "news.google.com",
+      "phase": "DISCOVERY",
+      "score": 15,
+      "officialDomain": false,
+      "specialists": [
+        "airdrop",
+        "rewards",
+        "eligibility",
+        "risk",
+        "claim-phase"
+      ],
+      "sourceEvidence": [
+        "public-feed",
+        "keyword-match",
+        "google-news-discovery"
+      ],
+      "qualification": "discovery-only",
+      "engineScore": 64,
+      "action": "OWNER_REVIEW",
+      "riskGate": "official-domain-required-before-claim",
+      "feeReviewRequired": false,
+      "destination": "TEMP_TON_WALLET",
+      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
+      "ownerApprovalRequired": true,
+      "checks": [
+        "verify the current opportunity on its official domain",
+        "check eligibility, geography, snapshot/claim dates and terms",
+        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
+        "if a signature is required, stop and wait for owner approval"
+      ]
+    },
+    {
       "id": "krmae1an25iq3jeuhjbckvdsuhkr2m4ofpfugvhvjvbs3jcq1npa2f3u21wqjdnytitzgjnbuptmwm0wk1qbmzhd05oz28zd3e1yvnpvfpmenfaoujr-oc-5",
       "title": "Torium Network Testnet v2: A Complete Guide for Users and Developers - Coin Gabbar",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT1dLdWY2ZHM2clVvaERtNHdiZzM4ek1WZ1NmWWZaNUpfTlpkS0VXRzdSYzVEcHZGWFczNEQ1NE84S0pRVzdyYkhEQW1EVFU5dkRMaE1aN25IQ3JEUHJBckVDSUhKR2M4OFpFUGVHVjVBS3JCQ1NPa2F3U21wQjdNYTItZGJnbUptMWM0Wk1QbmZHd05OZ28zd3E1YVNpVFpMenFaOUJR?oc=5",
@@ -38992,41 +39064,6 @@
       "id": "teg5ekc4bvzxslh6a3g5cu1pv3zwue1unfzxsktpae1mbtrrclhfwu9kenpvawflukr5qwv3cjdqm0hwv2jvqun0uti4zwpjnnzwcm9fnwpysjvjsvu-oc-5",
       "title": "First Pi Network Hackathon Winner WorkforcePool Up for Sale, Raises Developer Concerns - BeInCrypto",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yT0lRMmNCU193UFQwcWRIN2tRVlBOODlWWFZ3elZXamFPTEg5ekc4bVZxSlh6a3g5cU1pV3ZWUE1uNFZXSktpaE1mbTRRclhfWU9KenpvaWFLUkR5QWV3cjdqM0hWV2JVQUN0UTI4ZWpJNnZWcm9fNWpYSjVjSVU?oc=5",
-      "domain": "news.google.com",
-      "phase": "DISCOVERY",
-      "score": 15,
-      "officialDomain": false,
-      "specialists": [
-        "airdrop",
-        "rewards",
-        "eligibility",
-        "risk",
-        "claim-phase"
-      ],
-      "sourceEvidence": [
-        "public-feed",
-        "keyword-match",
-        "google-news-discovery"
-      ],
-      "qualification": "discovery-only",
-      "engineScore": 67,
-      "action": "OWNER_REVIEW",
-      "riskGate": "official-domain-required-before-claim",
-      "feeReviewRequired": false,
-      "destination": "TEMP_TON_WALLET",
-      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
-      "ownerApprovalRequired": true,
-      "checks": [
-        "verify the current opportunity on its official domain",
-        "check eligibility, geography, snapshot/claim dates and terms",
-        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
-        "if a signature is required, stop and wait for owner approval"
-      ]
-    },
-    {
-      "id": "grvavpjdutwcw9gvhk2ujn3v2ewsvvwce5es3rmaun0nddoahhrwgtiv05pq1e1mljvauxdd2vxskdfdvpuadjsaehdn2nzvhlvy2pzd19dqzk1zkpr-oc-5",
-      "title": "Toyota Taps Astar Network for Web3 Hackathon - CryptoPotato",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBCOFlpMU1GLUJhZHFBdUE2SjhDQ2VvbDZPN0ZoNGRvaVpjdUtwcW9GVHk2UjN3V2EwSVVWcE5ES3RMaUN0NDdOaHhrWGtIV05PQ1E1MlJVaUxDd2VxSkdfdVpUaDJSaEhDN2NzVHlvY2pzd19DQzk1ZkpR?oc=5",
       "domain": "news.google.com",
       "phase": "DISCOVERY",
       "score": 15,
@@ -43140,41 +43177,6 @@
       ],
       "qualification": "discovery-only",
       "engineScore": 64,
-      "action": "OWNER_REVIEW",
-      "riskGate": "official-domain-required-before-claim",
-      "feeReviewRequired": false,
-      "destination": "TEMP_TON_WALLET",
-      "collectionMode": "PROTOCOL_ADAPTER_ONLY",
-      "ownerApprovalRequired": true,
-      "checks": [
-        "verify the current opportunity on its official domain",
-        "check eligibility, geography, snapshot/claim dates and terms",
-        "never submit seed/private key or bypass CAPTCHA/KYC/Sybil controls",
-        "if a signature is required, stop and wait for owner approval"
-      ]
-    },
-    {
-      "id": "enjcdhadhblb3vju2ftwe1dcjjwx05itddjrvfqdzu3yk5hs2o5lwpedfv4awzsuffwx3a3djdsnnfcr0fsbvzlovrsshoxsglpyk1mclvvvgetwu9i-oc-5",
-      "title": "Hyperbridge-Powered MicroPay wins Hackathon at TOKEN2049, Enabling AI Agents to Transact Across Blockchain - The Defiant",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTDlXZTFfT1kxeU9fdUx3LWtvdmJGc2ZYQU5WQkpxazh6a1pLWjdock9zWGV1OHhzbkNoZFQ4dWNBcG1ab2taZnJBYlpvdW1VX20yQVZzc3JaTmd1M1RZNGNEU3VOX3VodnNxNFkxaENjcDhadHBLb3VJU2FtWE1DcjJWX05ITDdjRVFQdzU3Yk5HS2o5LWpEdFV4aWZSUFFwX3A3djdsNnFCR0FsbVZLOVRSSHoxSGlPYk1mclVVVGEtWU9I?oc=5",
-      "domain": "news.google.com",
-      "phase": "DISCOVERY",
-      "score": 15,
-      "officialDomain": false,
-      "specialists": [
-        "airdrop",
-        "rewards",
-        "eligibility",
-        "risk",
-        "claim-phase"
-      ],
-      "sourceEvidence": [
-        "public-feed",
-        "keyword-match",
-        "google-news-discovery"
-      ],
-      "qualification": "discovery-only",
-      "engineScore": 61,
       "action": "OWNER_REVIEW",
       "riskGate": "official-domain-required-before-claim",
       "feeReviewRequired": false,

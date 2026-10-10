@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T14:38:55.656977+00:00",
+  "updatedAt": "2026-10-10T14:45:30.331553+00:00",
   "engine": "Income Pipeline v1",
-  "count": 1274,
+  "count": 1273,
   "counts": {
     "LOW_SIGNAL": 110,
     "EARN_REVIEW": 585,
-    "OPTIONAL_SPECULATIVE": 579
+    "OPTIONAL_SPECULATIVE": 578
   },
   "priority": [
     {
@@ -301,6 +301,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Thu, 22 Jan 2026 08:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
+      "id": "d1lavmozcunbnvroyxn4qzjgduvqzmnndeuyetbinfpwullru2xyzjvqb08xzm5sewxzyuf3y1duzkm1djz4mti1d2s0vww3mxnbqnhbogpzywrux2c-oc-5",
+      "title": "Introducing the Intersect Bug Bounty Program: strengthening open source security - Intersect MBO",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTnFjZk13ZG9yTlRNS3VaaVJ3M1BqcnRXSUQ0VkRaZGFDbTNnVHhGMlVPTlpndDBYYVdKOVY1WGdFc24zbVN4cEdyMHZoVzJ6M3FfS3ZyYXRKd1laVmozcUNBNVRoYXN4QzJGdUVQZmNNdEUyeTBiNFpWUllrU2xYZjVqb08xZm5SeWxZYUF3Y1dUZkM1djZ4MTI1d2s0VWw3MXNBQnhBOGpZYWRuX2c",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 99.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Wed, 19 Nov 2025 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -953,29 +976,6 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
-      "id": "3houzy4rnlkenjdvnrxrep5ewc2uuvauvdfn29gnlfmnjjizlrkbulksmw0sjrstmtsalflzfrwuxf3euviudf2bzd1ou1rymx3cnbls3lib01ragew-oc-5",
-      "title": "Polygon Labs Commences $85M Grant Program to Draw Builders to Its Ecosystem - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNV9DZVlqNUREWE5GTjlVOFIxOF9ZajAxMWJmMEd2TE16SGNBTzFMUzBacTF2cjl6bzQ4bmhZT055M3Vna3RZVWFmZE5UYkFRM084Tl9DSEJJd1NvTkd1NjdoM3VYU3hOUzY4RnlKenJDVnRXREp5eWc2UUVaUVdFN29GNlFMNjJIZlRkbUlKSmw0SjRsTmtsalFlZFRwUXF3eUVIUDF2bzd1OU1RYmx3cnBLS3lib01RaGEw",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 96.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Thu, 09 Nov 2023 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
       "id": "x3vcuzdiagttuldjzk1im2nureznzvbvck84ujhvte82wvznwez5shjcs2lnmxzsnmdbtnbrmgzqas1dy1ntyuxkrze5t0fpyzzobnbsy2nlc2i4chc-oc-5",
       "title": "Uniswap Foundation announces Unichain Developer Grant Program - Bitget",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZVFFqcENWUUJQOWN0NUtOTl9ldlZYQVgyVU9HRi1oYUZ4WWRweWtNT3RqVGJCRldMdXhyZlhXZFNEelhfU3pmcUhPbEhjbFlPeEtNUGxfUWZjeW50WUHSAWNBVV95cUxQSldiRE1DX3VCUzdIaGttUldJZk1IM2NUREZnZVBVck84UjhVTE82WVZnWEZ5SHJCS2lNMXZSNmdBTnBRMGZQaS1DY1NtYUxkRzE5T0FpYzZObnBsY2NLc2I4cHc",
@@ -1589,29 +1589,6 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Wed, 29 Oct 2025 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
-      "id": "d1lavmozcunbnvroyxn4qzjgduvqzmnndeuyetbinfpwullru2xyzjvqb08xzm5sewxzyuf3y1duzkm1djz4mti1d2s0vww3mxnbqnhbogpzywrux2c-oc-5",
-      "title": "Introducing the Intersect Bug Bounty Program: strengthening open source security - Intersect MBO",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTnFjZk13ZG9yTlRNS3VaaVJ3M1BqcnRXSUQ0VkRaZGFDbTNnVHhGMlVPTlpndDBYYVdKOVY1WGdFc24zbVN4cEdyMHZoVzJ6M3FfS3ZyYXRKd1laVmozcUNBNVRoYXN4QzJGdUVQZmNNdEUyeTBiNFpWUllrU2xYZjVqb08xZm5SeWxZYUF3Y1dUZkM1djZ4MTI1d2s0VWw3MXNBQnhBOGpZYWRuX2c",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 93.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Wed, 19 Nov 2025 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -2394,29 +2371,6 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Fri, 20 May 2022 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
-      "id": "fytntuhownndpdvdvalhttgddb041m05dovjualfhqu9nqvhyuu0zrfzzbmdyrdvkvtzhlw1qdnhfbhpbs3pjvhr3vtf1bu03vhztculyoxjqzkzmsq-oc-5",
-      "title": "Aave Labs Proposes Major Bug Bounty Overhaul, Boosting Top Reward to $5 Million - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRl9EdzktVWVLc05EMlZ2bkVqa3NfbEdCS2ZBdGt0QmlQSWFsZjdfYTNTUHowNndpdVdvalhTTGdDb041M05DOVJUalFhQU9NQVhyUU0zRFZZbmdYRDVkVTZHLW1qdnhFbHpBS3pjVHR3VTF1bU03VHZtcUlYOXJqZkZmSQ",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 5000000.0,
-      "payoutEvidence": "EXPLICIT_REWARD",
-      "netScore": 90.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Fri, 15 May 2026 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -3437,6 +3391,29 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
+      "id": "lrjlnzjhyv3hfnexqa0neyw5nczl6lwtpzwvlcdjsq0nzq3k0zlp1enj6a3b5czzrtuxszwniyxnsunvenw9mbujrwtkytu51efjjws1yy2prszjgzw-oc-5",
+      "title": "9 top bug bounty programs launched in 2025 - CSO Online",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhNGVtTnoxcHhQTnB3ZVhBM2dtVTdNbjkyWjVlRjlNZjhyV3hFNExQa0NEYW5nczl6LWtpZWVLcDJSQ0NZQ3k0Zlp1enJ6a3B5czZrTUxsZWNiYXNSUnVENW9MbUJRWTkyTU51eFJjWS1YY2pRSzJGZw",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 90.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Thu, 06 Nov 2025 08:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
       "id": "skllu3y1unlfdujgwgvsbgxqddh1slbvzlpstk5lyjzcouzhbkoys3l5qmjux1e2dep1b2zemwvjzu5pafhunznnc05srg1nytq1mhznwlrtuzizbnc-oc-5",
       "title": "LG Uplus Partners with HackerOne to Launch Global Bug Bounty Program - BigGo Finance",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oZ05DNFJ1OGtVN3dKWEZIUkhDeUZjdkNESklLU3Y1UnlfdUJGWGVsbGxQdDh1SlBVZlpSTk5lYjZCOUZhbkoyS3l5QmJUX1E2dEp1b2ZEMWVjZU5PaFhUNzNnc05sRG1NYTQ1MHZnWlRtUzIzbnc",
@@ -3713,6 +3690,29 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
+      "id": "3b2jrdfd6ag5bwgy2mm5nndnxdvfrttdhb0diqjhxwdrfavn3cjvfdvjycgzzruvunwzjawzedtj5b3b1rml2d1qtndruc2lhwwmyu05kzw1sddmtzg-oc-5",
+      "title": "South Korea’s FSS Expands Bug Bounty Program to Crypto Exchanges, Insurance Agencies; Participant Count Doubles to 70 - finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Jc0Z3b2JRdFd6aG5BWGY2Mm5NNDNXdVFRTTdhb0dIQjhxWDRfaVN3cjVfdVJycGZzRUVuNWZjaWZEdTJ5b3B1Rml2d1QtNDRUc2lhWWMyU05KZW1sdDMtZg",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 90.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Mon, 18 May 2026 06:05:02 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
       "id": "x25hmhhyywn3nkjkznrxzzh3yzyxdge3bghpxzk4swkxevzwtevfq3foc1vub2hfukf6cvhzrzc2zy03cmzmymnxvw9lszbjrvnjbdf0djbpvlbortg-oc-5",
       "title": "10 Essential Bug Bounty Programs of 2020 - Tripwire",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jMHZxYkdmT3J3RTdtZmE0OGZDS2x1WGN3bE45ellPX25hMHhYYWN3NkJkZnRXZzh3YzYxdGE3bGhPXzk4SWkxeVZWTEVFQ3FOc1VUb2hFUkF6cVhzRzc2Zy03cmZmYmNxVW9LSzBJRVNjbDF0djBPVlBORTg",
@@ -3851,9 +3851,9 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
-      "id": "xh1qtlbrlbknmpoue9tzzlqcvpgovdkwhfzx1qznfvvrkk3qklms2czdc1zc2j0ymdmz1u3r1o0zji1wuiyzgpjnednczu3ew5vdzrecuc1z1vyyujf-oc-5",
-      "title": "Google Shuts Down Bug Bounty Program Due To Bots - 720 the voice",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLU5ybTZCR1lYVktEWVdWUkVjcUdReXg3S0Y5SmFCemtFV2RQWHh4ZjZXekZQUFdCUXBRVVNmSFhLS2hFX2V4QnRPWXh1QTlBRlBKNmpoUE9tZzlqcVpGOVdkWHFzX1QzNFVVRkk3QklmS2czdC1zc2J0YmdMZ1U3R1o0ZjI1WUIyZGpJNEdnczU3eW5VdzREcUc1Z1VYYUJf",
+      "id": "pbmjanjh2a2mtwddynhhqmm5nz0uza0xoduowae95aff0oudlse5ganpsrulzek5zdwnjctvkwunplu1csmtqzthucvltnwc5ufrjs3l4z1rqd2ryda-oc-5",
+      "title": "Google Shuts Down Bug Bounty Program Due To Bots - Q104.3",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc1FsYXpRQ1R6Z2VYNUJYTFZEcmpSLWprN2UwbVd0M2ZNdmd0a0l5V1dRUlZsN04yblZFZ1lTdUJPaUVpbmJaNjh2a2MtWDdyNHhQMm5NZ0Uza0xOdUowaE95aFF0OUdlSE5GanpSRUlzek5zdWNJcTVKWUNpLU1CSmtQZThucVlTNWc5UFRjS3l4Z1RQd2RydA",
       "domain": "news.google.com",
       "stage": "EARN_REVIEW",
       "earningType": "direct_or_application_based",
@@ -3912,29 +3912,6 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Mon, 05 Oct 2026 08:23:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
-      "id": "qrmztak9vufdla3pyehjzzk9coufvrdbtdwdbdkhlvnhkwkj3bdzfujrpmevvrvflwmvvsfc1ymtmnursyxvnu2dblxhkdwztyxdtqu1ztxd6aejxrq-oc-5",
-      "title": "Google temporarily suspends bug bounty program due to a surge in AI-generated bug reports. - GIGAZINE",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUnJhSi1lS0YtYUpEZGZIRERqWW1xVHIxTzA3SDk5X1Q1em5mS0lfaHhGUGRBVjBmT1VqRmZTak9vUFdLa3pyeHJZZk9COUFvRDBtdWdBdkhlVnhKWkJ3bDZfUjRPMEVVRVFlWmVVSFc1YmtmNURSYXVnU2dBLXhKdWZtYXdtQU1ZTXd6aEJxRQ",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 90.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Mon, 05 Oct 2026 02:55:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -4258,29 +4235,6 @@
       "freshness": {
         "published": "Tue, 06 Oct 2026 09:21:00 GMT",
         "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
-      "id": "gfqmmq1smrzzm9idmgtdvewnktzvvzvmwk3ew9jqndhq05nnfhdvwpmeg5iog1wdvpomtrhzwlivgnoahdwvfhunzbkdddntkjbwfplvve5wjjtwxpf-oc-5",
-      "title": "Google Freezes Open Source Bug Bounty Until 2027 Due to AI Spam Flood - Android Headlines",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcmRYcWJ6SGlRNWtTbTRrYXFYX3NFZUpfelB6UnllVW8yb18zQXdVZXRXa282OXdld1p5U244UGFQMmQ1SmRZZm9idmgtdVEwNktZVVZVMWk3eW9JQndhQ05nNFhDVWpmeG5IOG1wdVpoMTRhZWlIVGNOaHdwVFhUNzBkdDdnTkJBWFpLVVE5WjJTWXpf",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 90.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Mon, 05 Oct 2026 21:04:14 GMT",
-        "hasDeadline": true,
         "hasEligibility": true,
         "hasCostSignal": false
       },
@@ -4886,6 +4840,29 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
+      "id": "ieklvrkzyddbvynfsql9azhveyv8xq0pnq1rqx0dndms1s3jnltzjne5rs2dostmyyxvju1p0mll6zfi4q1p4emnlelrutmlxqmtpcghsenhon0ytna-oc-5",
+      "title": "HackerOne Makes Identity Verification Mandatory for All Bug Bounty Researchers - Cyber Press",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBfNU9EcjZBQ1hiQk9mX3Myc1MxRXlDUGVyMTlrY3pieklVRkZydDBvYnFsQl9aZHVEYV8xQ0pnQ1RQX0dndms1S3JnLTZJNE5RS2dOSTMyYXVJU1p0Mll6ZFI4Q1p4emNLelRuTmlXQmtpcGhSenhON0YtNNIBe0FVX3lxTFBfNU9EcjZBQ1hiQk9mX3Myc1MxRXlDUGVyMTlrY3pieklVRkZydDBvYnFsQl9aZHVEYV8xQ0pnQ1RQX0dndms1S3JnLTZJNE5RS2dOSTMyYXVJU1p0Mll6ZFI4Q1p4emNLelRuTmlXQmtpcGhSenhON0YtNA",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 85.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 3,
+      "freshness": {
+        "published": "Sat, 01 Aug 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
       "id": "uf9pbnzdelfvmfe4u3zybg9yuznfamxcewzxytl1qva0ty1oahnfb0d5txl6ulf1xzhzvus5ehnrwuj0rjzsdtfvq3gwtnvhzllvddfjthfyoxhqc3c-oc-5",
       "title": "Web3 Bug Bounty Firm Immunefi Plans ICO, Targets TGE in February 2026 - The Defiant",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVDF5QXBPWHBQUUoyMEI5Ymkyc3pjUHlJd3BINUdncTlub1h3cGI4cVI4SGNrVjNPNmp6TFdGX2NCLTNyNU40Q1ozaVh0UF9pbnZDelFvMFE4U3ZYbG9YUzNfamxCeWZxYTl1QVA0Ty1OaHNFb0d5TXl6UlF1XzhzVUs5eHNRWUJ0RjZSdTFvQ3gwTnVHZllVdDFjTHFyOXhqc3c",
@@ -4947,6 +4924,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Mon, 06 Apr 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
+      "id": "fytntuhownndpdvdvalhttgddb041m05dovjualfhqu9nqvhyuu0zrfzzbmdyrdvkvtzhlw1qdnhfbhpbs3pjvhr3vtf1bu03vhztculyoxjqzkzmsq-oc-5",
+      "title": "Aave Labs Proposes Major Bug Bounty Overhaul, Boosting Top Reward to $5 Million - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRl9EdzktVWVLc05EMlZ2bkVqa3NfbEdCS2ZBdGt0QmlQSWFsZjdfYTNTUHowNndpdVdvalhTTGdDb041M05DOVJUalFhQU9NQVhyUU0zRFZZbmdYRDVkVTZHLW1qdnhFbHpBS3pjVHR3VTF1bU03VHZtcUlYOXJqZkZmSQ",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 5000000.0,
+      "payoutEvidence": "EXPLICIT_REWARD",
+      "netScore": 83.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Fri, 15 May 2026 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -5484,6 +5484,29 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
+      "id": "gfqmmq1smrzzm9idmgtdvewnktzvvzvmwk3ew9jqndhq05nnfhdvwpmeg5iog1wdvpomtrhzwlivgnoahdwvfhunzbkdddntkjbwfplvve5wjjtwxpf-oc-5",
+      "title": "Google Freezes Open Source Bug Bounty Until 2027 Due to AI Spam Flood - Android Headlines",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcmRYcWJ6SGlRNWtTbTRrYXFYX3NFZUpfelB6UnllVW8yb18zQXdVZXRXa282OXdld1p5U244UGFQMmQ1SmRZZm9idmgtdVEwNktZVVZVMWk3eW9JQndhQ05nNFhDVWpmeG5IOG1wdVpoMTRhZWlIVGNOaHdwVFhUNzBkdDdnTkJBWFpLVVE5WjJTWXpf",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 83.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Mon, 05 Oct 2026 21:04:14 GMT",
+        "hasDeadline": true,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
       "id": "ryxduogzzzg5zzjdumlmxnk1joezxt1f5etvhexhnx0xqqxfhbdvyru5qagrzvtbqmdrbc3fqs0k0mnlpddf5ajh1sul3yvbeoxddsxnoz1vfmw5yoa-oc-5",
       "title": "OpenAI Increases Bug Bounty Payout to $100,000 Max to Reward 'High-Impact Security Research' - eWeek",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3RnZwZGhnT0NSMDA0UlFNLVVRYXduOGZZZG5ZZjdUMlMxNk1JOEZXT1F5eTVHeXhnX0xQQXFHbDVYRU5qaGRzVTBqMDRBc3FqS0k0MnlPdDF5ajh1SUl3YVBEOXdDSXNOZ1VfMW5YOA",
@@ -5522,29 +5545,6 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Mon, 05 Oct 2026 14:26:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
-      "id": "wvdocwpoogdomtuynwp3m2vxngxvczjqremtae5yr3f0qwrpewncrxl2c1vkshnxa3riddi5cw14bwtyq2hacnpfv3vwunq5vwlzt2jzmffattnmblu-oc-5",
-      "title": "Luxembourg Grant Ripple Full EMI License, as Virtuals Protocol Releases Integration for OpenClaw with its Agent Commerce Protocol - Tekedia",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84d252Ymx2R09QeEJxcDg1c1FqUThnWVdOcWpoOGdoMTUyNWp3M2VXNGxVczJqREMtaE5YR3F0QWRPeWNCRXl2c1VkSHNxa3RIdDI5cW14bWtyQ2hacnpfV3VwUnQ5VWlZT2JzMFFaTTNMblU",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 83.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Mon, 02 Feb 2026 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -7246,7 +7246,7 @@
       "costSignals": 0,
       "eligibilitySignals": 2,
       "freshness": {
-        "published": "Thu, 01 Oct 2026 07:00:00 GMT",
+        "published": "Thu, 01 Oct 2026 17:57:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -8497,29 +8497,6 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
-      "id": "uhstwtpr1q3b1lhahu5m2dxv1jom3gxohmxogvgy3z5nfnicutxvuzmzzdjqlrpd1f2wu5xmlpieewtbuhxzwtsbglfovv0bu1lavyxvg50svhvredu-oc-5",
-      "title": "Grant County Sheriff identifies 2 killed in apparent murder-suicide near Cuba City - WMTV 15 NEWS",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPLVV4bWxSd2MtTkdEZmdxS1N5aVJqaTBiMG1EdXZFQUZzT21qNF9waUhUcTRqNXZDWXhCdUFOazJta3NTcnk0ZGZ0NlhjVXdtaW5UN1dmNF9WakhuTjlIUXFaSFFVY3ZqbVJQSDY1eUhSTWtPR1Q3b1lhaHU5M2dxV1JOM3gxOHMxOGVGY3Z5NFNIcUtxVUZMZzdJQlRpd1F2WU5xMlpieEwtbUhXZWtSbGlFOVV0bU1LaVYxVG50SVhVREdu",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Tue, 22 Sep 2026 23:31:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
       "id": "zbdoc02wm1qne1gsxlkswpwvhriu2rxyvu3z1jksvztltltms10ef9rqmv6m05osfzqsxpbdu0wrxdba2tvuexwblc3otawweytb25vrgo0n2pwchhg-oc-5",
       "title": "Preview - Grant County co-op [Carson/Elgin-New Leipzig] vs Linton/Hazelton-Moffit-Braddock Football - Sep 11, 2026 - Sports Illustrated",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNT2RCZUp4dEpxdlRxNDRfekpsTTVMaFk3Z00xd2JSTE5KSVphTGE5YUZFeEdES05mQjRRd0RtTW1LdEtKRE1PYVdpWlkzSWM4T1RuV05laW4xbGNkblh5YXJRel9uSUhIdVRJYkRTdi1TbmplVU40RkYxNS1JYzM4TTV1cmdwbGtGZjBqNUpKdHpiRzBDOC02Wm1qNE1GSXlKSWpwVHRIU2RXYVU3Z1JKSVZTLTltMS10eF9RQmV6M05oSFZqSXpBdU0wRXdBa2tVUExwblc3OTAwWEYtb25VRGo0N2pWcHhG",
@@ -8765,6 +8742,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Tue, 18 Aug 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
+      "id": "wppz0jqeejlmno2ywfjndzuofdzx0o4rjhntlbotfjkqlbzbjfwbhbvyvfbvfzpmunqvgv1vwryc3prywhoegl0wjfcylc4amdunjjmaflnz0plr0l0-oc-5",
+      "title": "Moody, Lowndes receive 861K DoD grant - Moody Air Force Base (.mil)",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMzdQeUNmVWYzOE0wRVdTbTBQR201ZFZCcGd3YkVBODB4NWR0bzBxX25QOGFQY1ZpYTJvalNtMnhaR2s1TnVaUUVDMWppZ0JQeEJLMno2YWFJNDZUOFdzX0o4RjhnTlBoTFJKQlBZbjFWbHBvYVFBVFZpMUNQVGV1VWRYc3pRYWhOeGl0WjFCYlc4amdUNjJmaFlnZ0plR0l0",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Tue, 17 Oct 2023 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -10843,29 +10843,6 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
-      "id": "rxayykdkeksxehuzeeznug8wwfznnxrxytlabgz5vmvuetric3hmemvlsdv1ymzqa3nkehbgcuftwhe4bthnlvnankdndf9kbeswcwi2mfhkmljgawc-oc-5",
-      "title": "Google issues complete OSS VRP bug bounty pause over AI spam - Neowin",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN0hwM3NyeHpuRVZXdGkxZVk1cjNQNnJ1TEdaaVRjSk5hZVZZcnRodkZtdjdhTy1uNmxsS3ZSRXAyYkdKeksxeHUzeEZNUG8wWFZnNXRxYTlabGZ5VmVueTRIc3hMemVLSDV1YmZQa3NkeHBGcUFtWHE4bThNLVNaNkdNdF9KbEswcWI2MFhKMlJGaWc",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Sun, 04 Oct 2026 14:30:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
       "id": "tofnzy3ronmm2egrothrhsfhcrtbzmnb1n0ftq29ydknxsvp1ytruali0x2zjnxr3ymvtdvpsvjjusvnnadz0wwfxa19temq1bln3t3r1ddqxc1i4dw-oc-5",
       "title": "Grant Thornton and Diveshack remove half a ton of debris from Qui-Si-Sana - Times of Malta",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbHpsX09hdTR5eUM4TlFlRGtnQ1RSN3RJX0lxUUQzZ3paTDh3RW5kZGtORElkaXdqMnFaQk11dlNGNy1tY0EwSVBtOFNzY3RONmM2eGROTHRhSFhCRTBzMnB1N0FtQ29YdkNxSVp1YTRUalI0X2ZjNXR3YmVtdVpsVjJuSVNNaDZ0WWFxa19TemQ1blN3T3R1dDQxc1I4dw",
@@ -11395,6 +11372,29 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
+      "id": "nbct3n1ymx6budszmtwvghiehi3smpiwljuakhzsuffv0rlnkzbnzbucldgterqemh2mhfnd2zgtlnrywltdvhrrhjsotfgodfirdffemnfexnqaxnb-oc-5",
+      "title": "GitHub Bug Bounty Cuts Public Payouts in Half, Hides Top Rates in Invite-Only Tier - Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYTB4NDBnRXh6aDRBNTJjbVVhTFUwQzVDSFFoLUpWYTdXNDFRaXpCdHVIZWJaSk9iSVpTaEZKV2FKNVd1LUUwLW5CV3U0MVItblNUUTFPMmVFNEVsLXFRR1BOc3ZNZ0tmTUlDS3BFcnBJdVJVUnBCT3N1Ymx6bUdSZmtWVGhIeHI3SmpIWlJUakhZSUFfV0RlNkZBNzBUcldGTERqemh2MHFNd2ZGTlNrYWltdVhrRHJSOTFGODFIRDFFemNFeXNQaXNB",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Mon, 27 Jul 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
       "id": "zlpy0dxuulqy3pkzly1y015v0iwwwstvmu4alpoyvq1lxy1s21vwhfxvtlocu1jvklosngtzunbt2xczxjxdg1la25mmgdqawrutfvjyvdnrfnzbnnr-oc-5",
       "title": "A Sample Grant Proposal on “The rise of Cryptocurrencies like Bitcoin in Global Finance” - fundsforNGOs",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd1hWME9HdjM0TFdMcV9SanQ2THJjVDZIazdnVTZhaVdZMWdJaW1hMUpHNzRLVnJaVjFoQzJwSm9vWnc2VllSeGxvR0xuSVRUTjg3ZXFmRldGOUlxSmpsVzRUQzhwLTJmUkIwTW1fNTAtNGhRSzlPY0dXUUlQY3pKZlY1Y015V0IwWWstVmU4alpOYVQ1LXY1S21vWHFXVTlocU1jVklOSngtZUNBT2xCZXJxdG1la25mMGdqaWRuTFVJYVdnRFNzbnNR",
@@ -11893,6 +11893,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Mon, 06 Jul 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
+      "id": "ffimhm2ylplme1qcfc5s2oxdur6os11ag9yrtbnvkj4dxnenlrsdtnaagjirgnplw9udhzvzehkefv2wmvfwevnstbyz3dwv3pkvenrtvg0a0pmm3vr-oc-5",
+      "title": "Google Bug Bounty Payouts Reach Record $17 Million in 2025 - Cyber Press",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wUWIwczZiWmUwTWpwVzlLajF1RHo5LXVob3JFME1WQnh1c0Q2VFJ1M1poYmJEY08tb1R0dm9kSGR4VXZaZUVYRU1JMHJnd1ZXekpUQ2tNWDRrSkwzdVHSAV5BVV95cUxPcFFiMHM2YlplME1qcFc5S2oxdUR6OS11aG9yRTBNVkJ4dXNENlRSdTNaaGJiRGNPLW9UdHZvZEhkeFV2WmVFWEVNSTByZ3dWV3pKVENrTVg0a0pMM3VR",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Mon, 06 Apr 2026 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -13020,29 +13043,6 @@
       "eligibilitySignals": 3,
       "freshness": {
         "published": "Wed, 12 Aug 2026 11:07:42 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
-      "id": "ieklvrkzyddbvynfsql9azhveyv8xq0pnq1rqx0dndms1s3jnltzjne5rs2dostmyyxvju1p0mll6zfi4q1p4emnlelrutmlxqmtpcghsenhon0ytna-oc-5",
-      "title": "HackerOne Makes Identity Verification Mandatory for All Bug Bounty Researchers - Cyber Press",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBfNU9EcjZBQ1hiQk9mX3Myc1MxRXlDUGVyMTlrY3pieklVRkZydDBvYnFsQl9aZHVEYV8xQ0pnQ1RQX0dndms1S3JnLTZJNE5RS2dOSTMyYXVJU1p0Mll6ZFI4Q1p4emNLelRuTmlXQmtpcGhSenhON0YtNNIBe0FVX3lxTFBfNU9EcjZBQ1hiQk9mX3Myc1MxRXlDUGVyMTlrY3pieklVRkZydDBvYnFsQl9aZHVEYV8xQ0pnQ1RQX0dndms1S3JnLTZJNE5RS2dOSTMyYXVJU1p0Mll6ZFI4Q1p4emNLelRuTmlXQmtpcGhSenhON0YtNA",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 78.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 3,
-      "freshness": {
-        "published": "Sat, 01 Aug 2026 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -20689,29 +20689,6 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "klthesnjobefkrxnrtgfgz091tdliqznzbupnbxlmvlbucuixnzhvv0jybhzkrunft2nox2npc3nbeutknzrby21nuzzyzwjjdnitd1zxaee5ce9myw-oc-5",
-      "title": "Senate files again for major crypto bill with stablecoin-rewards compromise, DeFi protections - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2NIYVBwQmlzcnhRWXBFZFVWckJfM1U0Z2pVcWYtd3hGU3B5WEhRR1gtcUNqLTR2TEczamZhLVFVS2ZtZXZfMmFLYmJVdVAtT3djOTFwZTBKS3NLQThpRFlqSkl6NzlLX09LeVhEZzRnMUlKLThESnJObEFKRXNrTGFGZ091TDlIQzNZbUpnbXlmVlBucUIxNzhVV0JybHZkRUNfT2NoX2Npc3NBeUtkNzRBY21NUzZYZWJjdnItd1ZxaEE5cE9MYw",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Mon, 12 Jan 2026 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
       "id": "gsxoyz1v0slboquz0aulobgdpvg95ne1iwwpynghiahfzehfoumxkqupcutnfathmredkqtznnvbgn1rocvlktmgyoxlgek5qse5rqlo1u1l6duitoa-oc-5",
       "title": "Trade Predictions and Earn a Slice of Bitcoin Rewards - Crypto.com",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oa3hGSXoyZ1V0SlBOQUZ0aUlobGdPVG95NE1iWWpyNGhIaHFzeHFOUmxkQUpCUTNFaThMREdkQTZNNVBGN1RocVlkTmgyOXlGek5QSE5RQlo1U1l6dUItOA",
@@ -22935,29 +22912,6 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Fri, 26 Sep 2025 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
-      "id": "2nrs0ridfrcynzaoudyukvlmnr5vvk5ohz5cmhdexrxu1n1sunirxjhukj3rvpus3pvy3fec09pevnaxzhdlxlpt3lwsxotdzztqmfsse9nefb3mm1r-oc-5",
-      "title": "Adding DeFi to your 401k: How BlackRock’s staked Ethereum ETF rewires access to ETH rewards - CryptoSlate",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLXdWLWZjbVo3MVF6TmlINXF2X055ZjFXQXcxd0NPa2JVdGkxQi1MVVZKNngya2x5VTJ1UGQxSlhEOC1ob19qX3VvVXZ6N2FPSk1RSjVTLVZzZlk0Q2NrS0RIdFRCYnZaOUdYUkVLMnR5VVk5OHZ5cmhDeXRxU1N1SUNIRXJhUkJ3RVpuS3pVY3FEc09PeVNaXzhDLXlpT3lWSXotdzZtQmFsSE9NeFB3Mm1R",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 77.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Fri, 21 Nov 2025 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -25350,6 +25304,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Tue, 06 Oct 2026 04:32:20 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
+      "id": "vudfcg5jogtxcwhhow10s0fkawlxy2dcqlfsee03aertrg5fz2v4x1jlrgh5mjq1wmlyltvwtwfwmktju2r0my16x3vtu3jtchpqwdnyrdnonedkmmc-oc-5",
+      "title": "Water Application Points to Larger Aptos Complex - TPG Online Daily",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZFdfYXZpajVxMUlXQl96TU5ZVWdlY21RWUhmaHRmdG1ZY2xCZlVHRXBuYzhrV3FoRzltdEtBZGlpV2NnQkJRUnhNN2hEU0RuX2dleF9SS0RoeTI0NVppci01cE1hcDJLY1NkdDMtel91bVNyU3B6algzckQzaDRHZDJn0gGCAUFVX3lxTFBkV19hdmlqNXExSVdCX3pNTllVZ2VjbVFZSGZodGZ0bVljbEJmVUdFcG5jOGtXcWhHOW10S0FkaWlXY2dCQlFSeE03aERTRG5fZ2V4X1JLRGh5MjQ1WmlyLTVwTWFwMktjU2R0My16X3VtU3JTcHpqWDNyRDNoNEdkMmc",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 60.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Tue, 01 Sep 2026 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
