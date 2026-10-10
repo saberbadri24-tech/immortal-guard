@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-10T14:45:30.110773+00:00",
+  "updatedAt": "2026-10-10T14:52:05.910067+00:00",
   "engine": "Immortal Guard Opportunity Intelligence",
-  "candidateCount": 1271,
+  "candidateCount": 1269,
   "coverage": [
     "airdrop",
     "quests",
@@ -23,7 +23,7 @@
     "CRITICAL": 53,
     "MEGA": 45,
     "ULTRA": 30,
-    "UNPRICED": 1074
+    "UNPRICED": 1072
   },
   "items": [
     {
@@ -1243,6 +1243,51 @@
       }
     },
     {
+      "id": "fytntuhownndpdvdvalhttgddb041m05dovjualfhqu9nqvhyuu0zrfzzbmdyrdvkvtzhlw1qdnhfbhpbs3pjvhr3vtf1bu03vhztculyoxjqzkzmsq-oc-5",
+      "title": "Aave Labs Proposes Major Bug Bounty Overhaul, Boosting Top Reward to $5 Million - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRl9EdzktVWVLc05EMlZ2bkVqa3NfbEdCS2ZBdGt0QmlQSWFsZjdfYTNTUHowNndpdVdvalhTTGdDb041M05DOVJUalFhQU9NQVhyUU0zRFZZbmdYRDVkVTZHLW1qdnhFbHpBS3pjVHR3VTF1bU03VHZtcUlYOXJqZkZmSQ",
+      "domain": "news.google.com",
+      "categories": [
+        "bounty"
+      ],
+      "rewardUsd": 5000000.0,
+      "rewardBand": "ULTRA",
+      "realizationScore": 48,
+      "intelligenceScore": 48,
+      "baseScore": 91.0,
+      "valueScore": 71.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "ULTRA",
+      "priority": "ULTRA",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "cwp5bk4trwr6yl9ar2o4vjhyvlcwa09hag9kngndohe1bnpfbjfdwfjlmjg0mklnttu4zfzurvlzwelrrunfntn1tlnnnv91zfbmsnr0znbwnfa4mue-oc-5",
       "title": "Hacker Accepts 10% Bounty and Returns Nearly $5M Stolen from ZKsync Airdrop Exploit - CoinMarketCap",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOczJmdTRJNFlfQjBJYnN4NXJIN25XLWVDVUpWSkRVdi16dEZ3dW9OVFVPeWpZai1Bc3FvYjVfdjlLaWZFSlJTdXpzRmNXN1JWQllqcVN2bC1LMnJJVGZ5NlY5NGVwWktCd00tODZSTnMyV0tNWi03V3Y0UkwzcWp5bk4tRWR6Yl9aR2o4VjhyVlcwa09haG9kNGNDOHE1bnpFbjFDWFJLMjg0MklnTTU4ZFZuRVlZWElrRUNfNTN1TlNnNV91ZFBmSnR0ZnBwNFA4MUE",
@@ -1295,51 +1340,6 @@
       "domain": "news.google.com",
       "categories": [
         "grant"
-      ],
-      "rewardUsd": 5000000.0,
-      "rewardBand": "ULTRA",
-      "realizationScore": 48,
-      "intelligenceScore": 48,
-      "baseScore": 84.0,
-      "valueScore": 71.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "ULTRA",
-      "priority": "ULTRA",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "fytntuhownndpdvdvalhttgddb041m05dovjualfhqu9nqvhyuu0zrfzzbmdyrdvkvtzhlw1qdnhfbhpbs3pjvhr3vtf1bu03vhztculyoxjqzkzmsq-oc-5",
-      "title": "Aave Labs Proposes Major Bug Bounty Overhaul, Boosting Top Reward to $5 Million - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRl9EdzktVWVLc05EMlZ2bkVqa3NfbEdCS2ZBdGt0QmlQSWFsZjdfYTNTUHowNndpdVdvalhTTGdDb041M05DOVJUalFhQU9NQVhyUU0zRFZZbmdYRDVkVTZHLW1qdnhFbHpBS3pjVHR3VTF1bU03VHZtcUlYOXJqZkZmSQ",
-      "domain": "news.google.com",
-      "categories": [
-        "bounty"
       ],
       "rewardUsd": 5000000.0,
       "rewardBand": "ULTRA",
@@ -3455,51 +3455,6 @@
       }
     },
     {
-      "id": "t2dbc3ctnw9cltdpsdhvdgfdrgjwyvo2wvrievr4ahr3vxa4thd4q1rfvxvlegtnrhp0q2d6vkvfnnfyzdfxbmz1z2rqevjws2k3rjdjzg1havjywfi-oc-5",
-      "title": "Hold RLUSD in Binance Earn and Margin Accounts to Share $800,000 Rewards in XRP - Binance",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeElRRjRBc1dQSnFXWmlYVFhNeWZRWFhOU3pESWgwS1J4S2NLOHVGUmltdC1qWlp1YnhYT2dBc3ctNW9CLTdPSDhVdGFDRGJwYVo2WVRIeVR4aHR3VXA4THd4Q1RFVXVleGtNRHp0Q2d6VkVfNnFyZDFXbmZ1Z2RQeVJwS2k3RjdJZG1HaVJYWFI",
-      "domain": "news.google.com",
-      "categories": [
-        "general"
-      ],
-      "rewardUsd": 800000.0,
-      "rewardBand": "CRITICAL",
-      "realizationScore": 48,
-      "intelligenceScore": 48,
-      "baseScore": 88.0,
-      "valueScore": 71.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "CRITICAL",
-      "priority": "CRITICAL",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "vogz1swvktlljugljoejonfbccfpmwdvqyjh3bezpu0ywqlbhymmxtdnicvlcctfwrdjuvs1ybg9fagvrsnpwmthiavhxuwt3lwzpnfy0mvyweljusa-oc-5",
       "title": "Marshall Mountain receives $800k matching grant for base area upgrades - KPAX News",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOVQ4Qjg4Ulk0dWpGT0RINVY2WVVBVW1fNENIOXBqTlpzdHNuOHlrS21POGNaOFFsMlJpekRZcGVDLVp4QWIwcHE2LUdmMDBxMXM1NlUwYkNQTXRvOGZ1SWVKTllJUGlJOEJoNFBCcFpmWDVQYjh3bEZPU0YwQlBHYmMxTDNIcVlCcTFwRDJuVS1ybG9faGVrSnpWMThIaVhXUWt3LWZpNFY0MVYwelJuSA",
@@ -3548,6 +3503,51 @@
       "id": "m0tohjdzfzryzzfnwdssezmmflkcwlqzhd6c2dxbnhsdghuwndnvljzrzf1svbobw0wovrrvjbhyjdsb2z2u3lfdfjmaujvqmruahdebku5bhdkwdnb-oc-5",
       "title": "RLUSD Holders Can Earn Weekly XRP as Binance Extends $800K Reward Pool - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQXBEM1B0dXAtRWdqWnR2U2ZFODJtWV9adUNCMUMzb21PdGs2QmVHemZuM1R6RlNuNTd2RUplT2x6QkdSNm0tOHJDZFZRYzZFNWdsSEZmMFlkcWlQZHd6c2dxbnhsdGhUWndnVlJZRzF1SVBobW0wOVRRVjBhYjdsb2Z2U3lfdFJMaUJVQmRuaHdEbkU5bHdKWDNB",
+      "domain": "news.google.com",
+      "categories": [
+        "general"
+      ],
+      "rewardUsd": 800000.0,
+      "rewardBand": "CRITICAL",
+      "realizationScore": 48,
+      "intelligenceScore": 48,
+      "baseScore": 81.0,
+      "valueScore": 71.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "CRITICAL",
+      "priority": "CRITICAL",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "t2dbc3ctnw9cltdpsdhvdgfdrgjwyvo2wvrievr4ahr3vxa4thd4q1rfvxvlegtnrhp0q2d6vkvfnnfyzdfxbmz1z2rqevjws2k3rjdjzg1havjywfi-oc-5",
+      "title": "Hold RLUSD in Binance Earn and Margin Accounts to Share $800,000 Rewards in XRP - Binance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeElRRjRBc1dQSnFXWmlYVFhNeWZRWFhOU3pESWgwS1J4S2NLOHVGUmltdC1qWlp1YnhYT2dBc3ctNW9CLTdPSDhVdGFDRGJwYVo2WVRIeVR4aHR3VXA4THd4Q1RFVXVleGtNRHp0Q2d6VkVfNnFyZDFXbmZ1Z2RQeVJwS2k3RjdJZG1HaVJYWFI",
       "domain": "news.google.com",
       "categories": [
         "general"
@@ -10484,51 +10484,6 @@
       }
     },
     {
-      "id": "d1lavmozcunbnvroyxn4qzjgduvqzmnndeuyetbinfpwullru2xyzjvqb08xzm5sewxzyuf3y1duzkm1djz4mti1d2s0vww3mxnbqnhbogpzywrux2c-oc-5",
-      "title": "Introducing the Intersect Bug Bounty Program: strengthening open source security - Intersect MBO",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTnFjZk13ZG9yTlRNS3VaaVJ3M1BqcnRXSUQ0VkRaZGFDbTNnVHhGMlVPTlpndDBYYVdKOVY1WGdFc24zbVN4cEdyMHZoVzJ6M3FfS3ZyYXRKd1laVmozcUNBNVRoYXN4QzJGdUVQZmNNdEUyeTBiNFpWUllrU2xYZjVqb08xZm5SeWxZYUF3Y1dUZkM1djZ4MTI1d2s0VWw3MXNBQnhBOGpZYWRuX2c",
-      "domain": "news.google.com",
-      "categories": [
-        "bounty"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 100.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "3mtn2wnnbsnjsr1dlx2ywowu1unh4vwxzy0rhd3niq2hlcgvnr1d4zwk3m0dvq0s3ze1aakxqtw40rvhkc1vruhfysgzeaudputf3str0clvzuffhzw-oc-5",
       "title": "LayerZero and Immunefi launch largest crypto bug bounty program with up to $15M in rewards - TechCrunch",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMXhZcEY4ZGRQR3JKN1RTbDc2Wkw3UC1jNlVIeGZTdWpIc3lJQlNPOXJ5czV4X2NhaXFZcHlfQklTRU5OZHFHQWdtVEZacFVUYklRR1hBRnJlRUFLaFFGeHRFSWFDMTczcnZKNFg3MTN2WnNBSnJsR1dlX2YwOWU1Unh4VWxZY0RHd3NiQ2hlcGVNR1d4ZWk3M0dVQ0s3ZE1aakxQTW40RVhKc1VrUHFYSGZEaUdpUTF3STR0clVzUFFHZw",
@@ -12160,6 +12115,51 @@
       "domain": "news.google.com",
       "categories": [
         "grant"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 94.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "d1lavmozcunbnvroyxn4qzjgduvqzmnndeuyetbinfpwullru2xyzjvqb08xzm5sewxzyuf3y1duzkm1djz4mti1d2s0vww3mxnbqnhbogpzywrux2c-oc-5",
+      "title": "Introducing the Intersect Bug Bounty Program: strengthening open source security - Intersect MBO",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTnFjZk13ZG9yTlRNS3VaaVJ3M1BqcnRXSUQ0VkRaZGFDbTNnVHhGMlVPTlpndDBYYVdKOVY1WGdFc24zbVN4cEdyMHZoVzJ6M3FfS3ZyYXRKd1laVmozcUNBNVRoYXN4QzJGdUVQZmNNdEUyeTBiNFpWUllrU2xYZjVqb08xZm5SeWxZYUF3Y1dUZkM1djZ4MTI1d2s0VWw3MXNBQnhBOGpZYWRuX2c",
+      "domain": "news.google.com",
+      "categories": [
+        "bounty"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -15981,51 +15981,6 @@
       }
     },
     {
-      "id": "lrjlnzjhyv3hfnexqa0neyw5nczl6lwtpzwvlcdjsq0nzq3k0zlp1enj6a3b5czzrtuxszwniyxnsunvenw9mbujrwtkytu51efjjws1yy2prszjgzw-oc-5",
-      "title": "9 top bug bounty programs launched in 2025 - CSO Online",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhNGVtTnoxcHhQTnB3ZVhBM2dtVTdNbjkyWjVlRjlNZjhyV3hFNExQa0NEYW5nczl6LWtpZWVLcDJSQ0NZQ3k0Zlp1enJ6a3B5czZrTUxsZWNiYXNSUnVENW9MbUJRWTkyTU51eFJjWS1YY2pRSzJGZw",
-      "domain": "news.google.com",
-      "categories": [
-        "bounty"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 91.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "5edlzrdfvzdvbskjmyks5qko2ueyzwjy2oe0znxr3deixb3rtcufzm2dovfpxnjyxdtbayvfkceu5q1fvyvlituxjthfqwhbay0xqsfnhr0fanutnaa-oc-5",
       "title": "OKX Announces 12% BTC Reward Campaign for OKB Buyers in the EEA - CryptoTicker",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DeHI5eDlZRDFVZDVBSkJMYks5Qko2UEYzWjY2OE0zNXR3dEIxb3RtcUFZM2doVFpXNjYxdTBaYVFkcEU5Q1FvYVlITUxjTHFqWHBaY0xqSFNhR0FaNUtnaA",
@@ -16747,51 +16702,6 @@
       }
     },
     {
-      "id": "3b2jrdfd6ag5bwgy2mm5nndnxdvfrttdhb0diqjhxwdrfavn3cjvfdvjycgzzruvunwzjawzedtj5b3b1rml2d1qtndruc2lhwwmyu05kzw1sddmtzg-oc-5",
-      "title": "South Korea’s FSS Expands Bug Bounty Program to Crypto Exchanges, Insurance Agencies; Participant Count Doubles to 70 - finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Jc0Z3b2JRdFd6aG5BWGY2Mm5NNDNXdVFRTTdhb0dIQjhxWDRfaVN3cjVfdVJycGZzRUVuNWZjaWZEdTJ5b3B1Rml2d1QtNDRUc2lhWWMyU05KZW1sdDMtZg",
-      "domain": "news.google.com",
-      "categories": [
-        "bounty"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 91.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "lvlbw5abjduu2f2v19wu3zyb3zudjjkn1bybhftuzfxste0q0rvvmrcmfzymjg2z0phytnxdknvdtzpa1dyuffaam5yukrdnwljrktra2fhzgnoawtr-oc-5",
       "title": "BWB Airdrop Officially Launches - Bitget",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FOElMVS1RQjNhelVlbW5abjduU2F2V19wU3ZYb3ZUdjJKN1BYbHFtUzFXSTE0Q0RVVmRCMFZyMjg2Z0phYTNxdkNvdTZpa1dYUFFaam5YUkRDNWlJRktra2FhZGNoaWtR",
@@ -17197,9 +17107,9 @@
       }
     },
     {
-      "id": "pbmjanjh2a2mtwddynhhqmm5nz0uza0xoduowae95aff0oudlse5ganpsrulzek5zdwnjctvkwunplu1csmtqzthucvltnwc5ufrjs3l4z1rqd2ryda-oc-5",
-      "title": "Google Shuts Down Bug Bounty Program Due To Bots - Q104.3",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc1FsYXpRQ1R6Z2VYNUJYTFZEcmpSLWprN2UwbVd0M2ZNdmd0a0l5V1dRUlZsN04yblZFZ1lTdUJPaUVpbmJaNjh2a2MtWDdyNHhQMm5NZ0Uza0xOdUowaE95aFF0OUdlSE5GanpSRUlzek5zdWNJcTVKWUNpLU1CSmtQZThucVlTNWc5UFRjS3l4Z1RQd2RydA",
+      "id": "xh1qtlbrlbknmpoue9tzzlqcvpgovdkwhfzx1qznfvvrkk3qklms2czdc1zc2j0ymdmz1u3r1o0zji1wuiyzgpjnednczu3ew5vdzrecuc1z1vyyujf-oc-5",
+      "title": "Google Shuts Down Bug Bounty Program Due To Bots - 720 the voice",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLU5ybTZCR1lYVktEWVdWUkVjcUdReXg3S0Y5SmFCemtFV2RQWHh4ZjZXekZQUFdCUXBRVVNmSFhLS2hFX2V4QnRPWXh1QTlBRlBKNmpoUE9tZzlqcVpGOVdkWHFzX1QzNFVVRkk3QklmS2czdC1zc2J0YmdMZ1U3R1o0ZjI1WUIyZGpJNEdnczU3eW5VdzREcUc1Z1VYYUJf",
       "domain": "news.google.com",
       "categories": [
         "bounty"
@@ -17290,6 +17200,51 @@
       "id": "1a1kzqnnja1zom2xscglccei1cvdha3lbdlrmauxseet0u1lqyvn6vtravv9xyvhtu0hgutbwzmhmn3mzaullc29mrdl1vkhdbe1jetreq3buzzltsq-oc-5",
       "title": "Google pauses Bug Bounty program due to AI spam - dev.ua",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa1NMNG1JX2huTWxEU3RsVkpBZjRqbmo3Ujh2SE1MbHVVbFdTUmh1a1kzQnNJa1ZOM2xscGlCcEI1cVdha3lBdlRMaUxSeEt0U1lQYVN6VTRaVV9xYVhtU0hGUTBwZmhmN3MzaUlLc29mRDl1VkhDbE1jeTREQ3BuZzltSQ",
+      "domain": "news.google.com",
+      "categories": [
+        "bounty"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 91.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "qrmztak9vufdla3pyehjzzk9coufvrdbtdwdbdkhlvnhkwkj3bdzfujrpmevvrvflwmvvsfc1ymtmnursyxvnu2dblxhkdwztyxdtqu1ztxd6aejxrq-oc-5",
+      "title": "Google temporarily suspends bug bounty program due to a surge in AI-generated bug reports. - GIGAZINE",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUnJhSi1lS0YtYUpEZGZIRERqWW1xVHIxTzA3SDk5X1Q1em5mS0lfaHhGUGRBVjBmT1VqRmZTak9vUFdLa3pyeHJZZk9COUFvRDBtdWdBdkhlVnhKWkJ3bDZfUjRPMEVVRVFlWmVVSFc1YmtmNURSYXVnU2dBLXhKdWZtYXdtQU1ZTXd6aEJxRQ",
       "domain": "news.google.com",
       "categories": [
         "bounty"
@@ -18284,6 +18239,51 @@
       "domain": "news.google.com",
       "categories": [
         "general"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 91.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "gfqmmq1smrzzm9idmgtdvewnktzvvzvmwk3ew9jqndhq05nnfhdvwpmeg5iog1wdvpomtrhzwlivgnoahdwvfhunzbkdddntkjbwfplvve5wjjtwxpf-oc-5",
+      "title": "Google Freezes Open Source Bug Bounty Until 2027 Due to AI Spam Flood - Android Headlines",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcmRYcWJ6SGlRNWtTbTRrYXFYX3NFZUpfelB6UnllVW8yb18zQXdVZXRXa282OXdld1p5U244UGFQMmQ1SmRZZm9idmgtdVEwNktZVVZVMWk3eW9JQndhQ05nNFhDVWpmeG5IOG1wdVpoMTRhZWlIVGNOaHdwVFhUNzBkdDdnTkJBWFpLVVE5WjJTWXpf",
+      "domain": "news.google.com",
+      "categories": [
+        "bounty"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -21887,51 +21887,6 @@
       }
     },
     {
-      "id": "gfqmmq1smrzzm9idmgtdvewnktzvvzvmwk3ew9jqndhq05nnfhdvwpmeg5iog1wdvpomtrhzwlivgnoahdwvfhunzbkdddntkjbwfplvve5wjjtwxpf-oc-5",
-      "title": "Google Freezes Open Source Bug Bounty Until 2027 Due to AI Spam Flood - Android Headlines",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcmRYcWJ6SGlRNWtTbTRrYXFYX3NFZUpfelB6UnllVW8yb18zQXdVZXRXa282OXdld1p5U244UGFQMmQ1SmRZZm9idmgtdVEwNktZVVZVMWk3eW9JQndhQ05nNFhDVWpmeG5IOG1wdVpoMTRhZWlIVGNOaHdwVFhUNzBkdDdnTkJBWFpLVVE5WjJTWXpf",
-      "domain": "news.google.com",
-      "categories": [
-        "bounty"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 84.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "ryxduogzzzg5zzjdumlmxnk1joezxt1f5etvhexhnx0xqqxfhbdvyru5qagrzvtbqmdrbc3fqs0k0mnlpddf5ajh1sul3yvbeoxddsxnoz1vfmw5yoa-oc-5",
       "title": "OpenAI Increases Bug Bounty Payout to $100,000 Max to Reward 'High-Impact Security Research' - eWeek",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3RnZwZGhnT0NSMDA0UlFNLVVRYXduOGZZZG5ZZjdUMlMxNk1JOEZXT1F5eTVHeXhnX0xQQXFHbDVYRU5qaGRzVTBqMDRBc3FqS0k0MnlPdDF5ajh1SUl3YVBEOXdDSXNOZ1VfMW5YOA",
@@ -24733,6 +24688,52 @@
       "domain": "news.google.com",
       "categories": [
         "general"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 81.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "voehvdmqtcv9fd0m4zfjxnvzhuhu2qzrvv0pfuk9dtxg0zc0tvhjqzmlwvs1hos1ylu54u3r0t3nhaujnrdrja2timml3cm1paegzs0vxseo2zhprzw-oc-5",
+      "title": "Crawford County Housing Commission receives large housing rehabilitation grant - Crawford County Avalanche",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd0VuWXVtSWxTOXZHZWlydlF5OTJraExzLWwtTzhyRW1DNWhsNjlKVnIwd092NWVBNFhvb0ZkX2ZKeFZlQkJ4VFhTZUNnTExXNUpPN1FlalloeXhydXNTQXZfaGtXM21mOVpjQW8xSHZrc1duY24zb0FVOEhVdmQtcV9Fd0M4ZFJxNVZHUHU2QzRVV0pFUk9DTXg0ZC0tVHJQZmlWVS1HOS1yLU54U3R0T3NhaUJNRDRJa2tIMml3cm1paEgzS0VxSEo2ZHprZw",
+      "domain": "news.google.com",
+      "categories": [
+        "grant",
+        "referral"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -28014,12 +28015,12 @@
       }
     },
     {
-      "id": "stjb1shrix0p5ufnzrjrpdezrs2znqudpbzl6cg03uzflbzhum0lnrudzmjfpy1zvm2g2df9uuuhrm1lwqniyyuzrzwpubtforuhtqvp2v3lvuzvfqq-oc-5",
-      "title": "Charles Grant Clover Obituary Jul 23, 2024 - Holeton-Yuhasz Funeral Home",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fWjlIeXVuWlZSTjB1SHRiX0p5UFNzRjRpdEZrS2ZnQUdpbzl6cG03UzFlbzhuM0lNRUdZMjFpY1ZVM2g2dF9UUUhRM1lwQnIyYUZrZWpubTFORUhtQVp2V3lvUzVFQQ",
+      "id": "zrqufduthlhseztadjwvhzfvm44yzbrzkhtazb1vjqxsnbmoutlzellzfbxs015cu1tqkd6dehcag95belhmvjucexjr2g0tkizetlwqwxeeuzrvkdb-oc-5",
+      "title": "Abundant Mines celebrates one year of protecting client Bitcoin rewards - TheStreet",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQd0FQN093NVpRbGEzRG9jNjRZVGtiaTdGRThBVmxmMFMtQTNULVk0NGxLU0k0M0Q4LWczNkZ2dVVWY0RyNm83TTRwd0wwTFhKNDNSazNKSVl5V3NQbzRQUFdUTHlHSEZtaDJWVHZFVm44YzBRZkhtazB1VjQxSnBmOUtLZElLZFBXS015cU1TQkd6dEhCaG95bElhMVJUcExjR2g0TkIzeTlwQWxEeUZRVkdB",
       "domain": "news.google.com",
       "categories": [
-        "grant"
+        "general"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -28059,12 +28060,12 @@
       }
     },
     {
-      "id": "zrqufduthlhseztadjwvhzfvm44yzbrzkhtazb1vjqxsnbmoutlzellzfbxs015cu1tqkd6dehcag95belhmvjucexjr2g0tkizetlwqwxeeuzrvkdb-oc-5",
-      "title": "Abundant Mines celebrates one year of protecting client Bitcoin rewards - TheStreet",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQd0FQN093NVpRbGEzRG9jNjRZVGtiaTdGRThBVmxmMFMtQTNULVk0NGxLU0k0M0Q4LWczNkZ2dVVWY0RyNm83TTRwd0wwTFhKNDNSazNKSVl5V3NQbzRQUFdUTHlHSEZtaDJWVHZFVm44YzBRZkhtazB1VjQxSnBmOUtLZElLZFBXS015cU1TQkd6dEhCaG95bElhMVJUcExjR2g0TkIzeTlwQWxEeUZRVkdB",
+      "id": "uhstwtpr1q3b1lhahu5m2dxv1jom3gxohmxogvgy3z5nfnicutxvuzmzzdjqlrpd1f2wu5xmlpieewtbuhxzwtsbglfovv0bu1lavyxvg50svhvredu-oc-5",
+      "title": "Grant County Sheriff identifies 2 killed in apparent murder-suicide near Cuba City - WMTV 15 NEWS",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPLVV4bWxSd2MtTkdEZmdxS1N5aVJqaTBiMG1EdXZFQUZzT21qNF9waUhUcTRqNXZDWXhCdUFOazJta3NTcnk0ZGZ0NlhjVXdtaW5UN1dmNF9WakhuTjlIUXFaSFFVY3ZqbVJQSDY1eUhSTWtPR1Q3b1lhaHU5M2dxV1JOM3gxOHMxOGVGY3Z5NFNIcUtxVUZMZzdJQlRpd1F2WU5xMlpieEwtbUhXZWtSbGlFOVV0bU1LaVYxVG50SVhVREdu",
       "domain": "news.google.com",
       "categories": [
-        "general"
+        "grant"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -36434,6 +36435,51 @@
       }
     },
     {
+      "id": "rxayykdkeksxehuzeeznug8wwfznnxrxytlabgz5vmvuetric3hmemvlsdv1ymzqa3nkehbgcuftwhe4bthnlvnankdndf9kbeswcwi2mfhkmljgawc-oc-5",
+      "title": "Google issues complete OSS VRP bug bounty pause over AI spam - Neowin",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN0hwM3NyeHpuRVZXdGkxZVk1cjNQNnJ1TEdaaVRjSk5hZVZZcnRodkZtdjdhTy1uNmxsS3ZSRXAyYkdKeksxeHUzeEZNUG8wWFZnNXRxYTlabGZ5VmVueTRIc3hMemVLSDV1YmZQa3NkeHBGcUFtWHE4bThNLVNaNkdNdF9KbEswcWI2MFhKMlJGaWc",
+      "domain": "news.google.com",
+      "categories": [
+        "bounty"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 81.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "tofnzy3ronmm2egrothrhsfhcrtbzmnb1n0ftq29ydknxsvp1ytruali0x2zjnxr3ymvtdvpsvjjusvnnadz0wwfxa19temq1bln3t3r1ddqxc1i4dw-oc-5",
       "title": "Grant Thornton and Diveshack remove half a ton of debris from Qui-Si-Sana - Times of Malta",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbHpsX09hdTR5eUM4TlFlRGtnQ1RSN3RJX0lxUUQzZ3paTDh3RW5kZGtORElkaXdqMnFaQk11dlNGNy1tY0EwSVBtOFNzY3RONmM2eGROTHRhSFhCRTBzMnB1N0FtQ29YdkNxSVp1YTRUalI0X2ZjNXR3YmVtdVpsVjJuSVNNaDZ0WWFxa19TemQ1blN3T3R1dDQxc1I4dw",
@@ -37205,6 +37251,51 @@
       "domain": "news.google.com",
       "categories": [
         "grant"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 81.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "zwhhuvwnsd2tqv2f3eduxtno5rvnqoe9iem0ystjkslhnamjuqwnku25oenkxq05ud0ncazlzq1z2d2dpazhftgr4yulxtflbmklkrmfvcxeynwywaw-oc-5",
+      "title": "Tomarket Airdrop Launch Date: What Will Be TOMA Price On Listing? - Binance",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCdVhTcTBZWHhUVWNsd2tqV2F3eDUxTno5RVNQOE9Iem0ySTJKSlhnamJUQWNKU25OenkxQ05Ud0NCazlZQ1Z2d2dpazhFTGR4YUlxTFlBMklkRmFvcXEyNWYwaw",
+      "domain": "news.google.com",
+      "categories": [
+        "airdrop"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -38252,51 +38343,6 @@
       "independentSources": 0,
       "deadlineUrgency": 10,
       "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "nbct3n1ymx6budszmtwvghiehi3smpiwljuakhzsuffv0rlnkzbnzbucldgterqemh2mhfnd2zgtlnrywltdvhrrhjsotfgodfirdffemnfexnqaxnb-oc-5",
-      "title": "GitHub Bug Bounty Cuts Public Payouts in Half, Hides Top Rates in Invite-Only Tier - Tech Times",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYTB4NDBnRXh6aDRBNTJjbVVhTFUwQzVDSFFoLUpWYTdXNDFRaXpCdHVIZWJaSk9iSVpTaEZKV2FKNVd1LUUwLW5CV3U0MVItblNUUTFPMmVFNEVsLXFRR1BOc3ZNZ0tmTUlDS3BFcnBJdVJVUnBCT3N1Ymx6bUdSZmtWVGhIeHI3SmpIWlJUakhZSUFfV0RlNkZBNzBUcldGTERqemh2MHFNd2ZGTlNrYWltdVhrRHJSOTFGODFIRDFFemNFeXNQaXNB",
-      "domain": "news.google.com",
-      "categories": [
-        "bounty"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 2,
       "competitionScore": 0,
       "eligibility": {
         "signals": 2,
@@ -40306,51 +40352,6 @@
       }
     },
     {
-      "id": "ffimhm2ylplme1qcfc5s2oxdur6os11ag9yrtbnvkj4dxnenlrsdtnaagjirgnplw9udhzvzehkefv2wmvfwevnstbyz3dwv3pkvenrtvg0a0pmm3vr-oc-5",
-      "title": "Google Bug Bounty Payouts Reach Record $17 Million in 2025 - Cyber Press",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wUWIwczZiWmUwTWpwVzlLajF1RHo5LXVob3JFME1WQnh1c0Q2VFJ1M1poYmJEY08tb1R0dm9kSGR4VXZaZUVYRU1JMHJnd1ZXekpUQ2tNWDRrSkwzdVHSAV5BVV95cUxPcFFiMHM2YlplME1qcFc5S2oxdUR6OS11aG9yRTBNVkJ4dXNENlRSdTNaaGJiRGNPLW9UdHZvZEhkeFV2WmVFWEVNSTByZ3dWV3pKVENrTVg0a0pMM3VR",
-      "domain": "news.google.com",
-      "categories": [
-        "bounty"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "nwm3bjdvutk0edfhetfoterqcgvksk5pujbnswxlnerzzgzwejy5r2p3ohm1vxizcuh3vudwrxvqnddruefsrfrar0p6tuvqbly2cthkadb0m05oa1g-oc-5",
       "title": "Binance Academy Bitcoin Page: Complete Quiz to Earn BTC Rewards This April 2026! - Binance",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcTN4VTdCWjlsUEtZRFN0QnVJUl96Rmtncnl1NE0wN0xoZW1JRTcwVURfOXNNSGVfaHF6NWM3bjdVUTk0eDFheTFoTERqcGVkSk5pUjBnSWxLNERZZGZWejY5R2p3OHM1VXIzcUh3VUdWRXVqNDdRUEFsRFRaR0p6TUVqblY2cThkaDB0M05Oa1g",
@@ -41001,51 +41002,6 @@
       "competitionScore": 0,
       "eligibility": {
         "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "zlhu2fynnc4z2xivwl1dmtpuezonm1rc3pfz05nvl9icfmzqzhdzzvzb1y2bwxfsmffaefcsupncws2r25pudi1m001tv9wwk1mzxlpqnljudl0luhz-oc-5",
-      "title": "What is a crypto airdrop? Free tokens, eligibility, and tax traps - Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT0xIcm1SODM3SEtIOF9CRFFMUjNRaW5TOUZqNl9VblNiZFVvTFI2WWdGNTVXZzlHU2FyNnc4Z2xiVWl1dmtPUEZONm1Rc3pfZ05nVl9icFMzQzhDZzVZb1Y2bWxFSmFFaEFCSUpNcWs2R25PUDI1M001TV9WWk1MZXlPQnljUDl0LUhz",
-      "domain": "news.google.com",
-      "categories": [
-        "airdrop"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 3,
         "requiresManualCheck": true,
         "possibleKyc": false,
         "possibleGeographicRestriction": true,
@@ -54363,51 +54319,6 @@
       }
     },
     {
-      "id": "vudfcg5jogtxcwhhow10s0fkawlxy2dcqlfsee03aertrg5fz2v4x1jlrgh5mjq1wmlyltvwtwfwmktju2r0my16x3vtu3jtchpqwdnyrdnonedkmmc-oc-5",
-      "title": "Water Application Points to Larger Aptos Complex - TPG Online Daily",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZFdfYXZpajVxMUlXQl96TU5ZVWdlY21RWUhmaHRmdG1ZY2xCZlVHRXBuYzhrV3FoRzltdEtBZGlpV2NnQkJRUnhNN2hEU0RuX2dleF9SS0RoeTI0NVppci01cE1hcDJLY1NkdDMtel91bVNyU3B6algzckQzaDRHZDJn0gGCAUFVX3lxTFBkV19hdmlqNXExSVdCX3pNTllVZ2VjbVFZSGZodGZ0bVljbEJmVUdFcG5jOGtXcWhHOW10S0FkaWlXY2dCQlFSeE03aERTRG5fZ2V4X1JLRGh5MjQ1WmlyLTVwTWFwMktjU2R0My16X3VtU3JTcHpqWDNyRDNoNEdkMmc",
-      "domain": "news.google.com",
-      "categories": [
-        "points"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 61.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "c1qcmm3ehpkcvjqbepcqktfemu0shp0c3r3dgxpsdfpdjyxavjqzghgywgxutuxnu5ku21fzkjocey2c1ngdy14svb5eu9wdevezerpbmv2otnyos1b-oc-5",
       "title": "Asentum Unveils Post-Quantum Blockchain Testnet, - GlobeNewswire",
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQbm1leDRFbEpaSDFsOHhfcGpUUGE5Q1MtdEpVWlkwVDE1VE9SU1NVUmdvYjBrQVVKc3VYZ1hXMk5DUWNyU2RLNDJnNTVFV0tNRjN4U0J3QUJ2TExDU1lSWlVfX3F0YWs0SGFfNENURThKTG9SQ25BUlBwTWlHbGRpWTRfeVF0amF0d25qVWMtN3kzTkQyZVN0MmhxRHFRWEpwakZYN2dVaHlOakdIV1RXRlhfcXp1ZTJ2UWtOVGMwMWVYRW1sbC1qcmM3eHpkcVJQbEpCQktfemU0SHp0c3R3dGxpSDFPdjYxaVJqZGhGYWgxUTUxNU5kU21FZkJOcEY2c1NGdy14SVB5eU9wdEVEZERpbmV2OTNyOS1B",
@@ -57074,7 +56985,7 @@
       "rewardBand": "UNPRICED",
       "realizationScore": 30,
       "intelligenceScore": 30,
-      "baseScore": 88.0,
+      "baseScore": 81.0,
       "valueScore": 36.0,
       "verification": "REACHABLE_DOMAIN_ALIGNED",
       "independentSources": 0,

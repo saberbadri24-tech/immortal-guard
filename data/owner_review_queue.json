@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-10T14:52:03.145735+00:00",
+  "count": 1,
+  "items": [
+    {
+      "id": "https-blog-ethereum-org-en-2026-08-05-1ts-grant",
+      "fingerprint": "04c9236d7b3807a4bbf2b5cd",
+      "title": "Announcing a Trillion Dollar Security grant for WEBCAT",
+      "url": "https://blog.ethereum.org/en/2026/08/05/1ts-grant",
+      "officialQualified": true,
+      "specialistsPassed": 6,
+      "specialistsTotal": 6,
+      "status": "READY_FOR_OWNER_REVIEW",
+      "reviews": [
+        {
+          "agent": "OfficialSourceSentinel",
+          "pass": true,
+          "qualifiedByOfficialGate": true,
+          "httpsSource": true,
+          "finding": "official gate + HTTPS source confirmed"
+        },
+        {
+          "agent": "ThreatHunter",
+          "pass": true,
+          "flags": [],
+          "finding": "no listed text indicator; not a security audit"
+        },
+        {
+          "agent": "EligibilityAuditor",
+          "pass": true,
+          "eligibilityVerified": false,
+          "unsafeInstructions": [],
+          "finding": "official gate qualifies source; individual eligibility still needs owner review"
+        },
+        {
+          "agent": "FreshnessKeeper",
+          "pass": true,
+          "ageHours": 1598.87,
+          "finding": "within 90-day review window"
+        },
+        {
+          "agent": "ValueAnalyst",
+          "pass": true,
+          "observedLiquidityUsd": null,
+          "observedVolume24hUsd": null,
+          "publishedRewardUsd": null,
+          "estimatedIncomeUsd": null,
+          "finding": "market signals only; no income estimate or profitability guarantee"
+        },
+        {
+          "agent": "WalletSafetyOfficer",
+          "pass": true,
+          "flags": [],
+          "signing": false,
+          "claiming": false,
+          "transfer": false,
+          "finding": "manual wallet action only; never submit seed phrases or private keys"
+        }
+      ],
+      "action": "OWNER_REVIEW_ONLY",
+      "safety": {
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false
+      }
+    }
+  ],
+  "rule": "Only candidates passing the official-source gate and all six local checks appear here. Owner review is still required.",
+  "safety": {
+    "autoClaim": false,
+    "autoSigning": false,
+    "autoTransfer": false,
+    "secretStorage": false
+  }
+}
