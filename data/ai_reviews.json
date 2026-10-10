@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-10T14:32:21.004293+00:00",
+  "updatedAt": "2026-10-10T14:38:58.881772+00:00",
   "live": false,
   "configured": false,
   "missingProviders": [
@@ -12,10 +12,263 @@
     "claude": 0,
     "gemini": 0
   },
-  "qualifiedInputCount": 0,
-  "count": 0,
-  "items": [],
-  "strategy": "all official-source qualified opportunities; parallel provider review; no fixed candidate ceiling",
+  "qualifiedInputCount": 12,
+  "count": 12,
+  "items": [
+    {
+      "id": "https-blog-ethereum-org-en-2024-02-21-zk-grants-round",
+      "url": "https://blog.ethereum.org/en/2024/02/21/zk-grants-round",
+      "at": "2026-10-10T14:38:56.710596+00:00",
+      "models": {
+        "gemini": {
+          "status": "not-configured",
+          "model": "gemini-3.8-flash"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CftjBq6TAu1reviyg45ZQ\"}"
+        },
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.6-luna",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        }
+      }
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2024-08-14-data-collection-round",
+      "url": "https://blog.ethereum.org/en/2024/08/14/data-collection-round",
+      "at": "2026-10-10T14:38:56.710728+00:00",
+      "models": {
+        "gemini": {
+          "status": "not-configured",
+          "model": "gemini-3.8-flash"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CftjBqCfLcmDSBN6WRAkP\"}"
+        },
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.6-luna",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        }
+      }
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2026-08-05-1ts-grant",
+      "url": "https://blog.ethereum.org/en/2026/08/05/1ts-grant",
+      "at": "2026-10-10T14:38:56.710830+00:00",
+      "models": {
+        "gemini": {
+          "status": "not-configured",
+          "model": "gemini-3.8-flash"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CftjBqDQUoKzfGcf8Fz7M\"}"
+        },
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.6-luna",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        }
+      }
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2024-06-25-zk-grants-round-announce",
+      "url": "https://blog.ethereum.org/en/2024/06/25/zk-grants-round-announce",
+      "at": "2026-10-10T14:38:56.710923+00:00",
+      "models": {
+        "gemini": {
+          "status": "not-configured",
+          "model": "gemini-3.8-flash"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CftjBqEtNWAFtptKntktE\"}"
+        },
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.6-luna",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        }
+      }
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2022-12-15-kzg-ceremony-grants-round",
+      "url": "https://blog.ethereum.org/en/2022/12/15/kzg-ceremony-grants-round",
+      "at": "2026-10-10T14:38:56.711018+00:00",
+      "models": {
+        "gemini": {
+          "status": "not-configured",
+          "model": "gemini-3.8-flash"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CftjBqCuXcjDP4bAmuasr\"}"
+        },
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.6-luna",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        }
+      }
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2025-04-22-destino-devconnect",
+      "url": "https://blog.ethereum.org/en/2025/04/22/destino-devconnect",
+      "at": "2026-10-10T14:38:56.711094+00:00",
+      "models": {
+        "gemini": {
+          "status": "not-configured",
+          "model": "gemini-3.8-flash"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CftjBq8wfUusx1RPjD7CR\"}"
+        },
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.6-luna",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        }
+      }
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2026-02-27-project-odin",
+      "url": "https://blog.ethereum.org/en/2026/02/27/project-odin",
+      "at": "2026-10-10T14:38:56.711182+00:00",
+      "models": {
+        "gemini": {
+          "status": "not-configured",
+          "model": "gemini-3.8-flash"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CftjBqKMKMbKJC7vLgWd6\"}"
+        },
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.6-luna",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        }
+      }
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2024-11-07-introducing-mekong-testnet",
+      "url": "https://blog.ethereum.org/en/2024/11/07/introducing-mekong-testnet",
+      "at": "2026-10-10T14:38:56.711271+00:00",
+      "models": {
+        "gemini": {
+          "status": "not-configured",
+          "model": "gemini-3.8-flash"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CftjBqHcNLHUqR6HCg7mJ\"}"
+        },
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.6-luna",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        }
+      }
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2026-09-17-glamsterdam-testnet-announcement",
+      "url": "https://blog.ethereum.org/en/2026/09/17/glamsterdam-testnet-announcement",
+      "at": "2026-10-10T14:38:56.711396+00:00",
+      "models": {
+        "gemini": {
+          "status": "not-configured",
+          "model": "gemini-3.8-flash"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CftjBq9gnEik3r8tCcouc\"}"
+        },
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.6-luna",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        }
+      }
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2025-09-15-fusaka-audit-content",
+      "url": "https://blog.ethereum.org/en/2025/09/15/fusaka-audit-content",
+      "at": "2026-10-10T14:38:56.711492+00:00",
+      "models": {
+        "gemini": {
+          "status": "not-configured",
+          "model": "gemini-3.8-flash"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CftjBqAgMEA9chgREAMLm\"}"
+        },
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.6-luna",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        }
+      }
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2025-09-01-holesky-shutdown-announcement",
+      "url": "https://blog.ethereum.org/en/2025/09/01/holesky-shutdown-announcement",
+      "at": "2026-10-10T14:38:56.711636+00:00",
+      "models": {
+        "gemini": {
+          "status": "not-configured",
+          "model": "gemini-3.8-flash"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CftjBqBuTWjrTvWbziraA\"}"
+        },
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.6-luna",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        }
+      }
+    },
+    {
+      "id": "https-blog-ethereum-org-en-2025-09-26-fusaka-testnet-announcement",
+      "url": "https://blog.ethereum.org/en/2025/09/26/fusaka-testnet-announcement",
+      "at": "2026-10-10T14:38:56.711728+00:00",
+      "models": {
+        "gemini": {
+          "status": "not-configured",
+          "model": "gemini-3.8-flash"
+        },
+        "claude": {
+          "status": "error",
+          "model": "claude-sonnet-4-6",
+          "error": "HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CftjBq9BeFK6DhRG9zJVX\"}"
+        },
+        "astra": {
+          "status": "error",
+          "model": "gpt-5.6-luna",
+          "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+        }
+      }
+    }
+  ],
+  "strategy": "bounded batch of up to 12 official final destinations; parallel external review; full candidate triage remains in local specialist swarm",
   "safety": {
     "autoClaim": false,
     "autoSigning": false,
