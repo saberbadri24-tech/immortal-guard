@@ -30,13 +30,15 @@ jobs:
       - name: Check for existing improvement PR
         id: gate
         if: steps.keycheck.outputs.available == 'true'
-        env: {GH_TOKEN: ${{ github.token }}}
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           n=$(gh pr list --state open --search "head:anil/guard-self-improve-" --json number --jq 'length')
           echo "count=$n" >> "$GITHUB_OUTPUT"
       - name: Ask Astra for one bounded Guard improvement
         if: steps.gate.outputs.count == '0'
-        env: {OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python - <<'PY'
           import json,os,urllib.request,re
@@ -58,7 +60,8 @@ jobs:
       - name: Generate bounded Guard patch
         id: patch
         if: steps.gate.outputs.count == '0'
-        env: {OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python - <<'PY'
           import json,os,urllib.request,re
@@ -89,7 +92,8 @@ jobs:
           python scripts/guard_agent_contract.py
       - name: Open review PR
         if: steps.gate.outputs.count == '0' && steps.patch.outputs.skip != 'true'
-        env: {GH_TOKEN: ${{ github.token }}}
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           PATHV=$(python -c 'import json;print(json.load(open("/tmp/change.json"))["path"])')
           MSG=$(python -c 'import json;print(json.load(open("/tmp/change.json"))["message"])')
