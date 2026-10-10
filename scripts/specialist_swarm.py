@@ -15,6 +15,7 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT = DATA / "specialist_swarm.json"
+QUEUE = DATA / "owner_review_queue.json"
 RISK_TERMS = (
     "seed phrase", "private key", "connect wallet to claim", "pay gas to receive",
     "guaranteed profit", "double your", "airdrop checker", "wallet validation"
@@ -234,6 +235,16 @@ def main():
         read_json("official_source_gate.json", {})
     )
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    ready_items = [x for x in payload["items"] if x.get("status") == "READY_FOR_OWNER_REVIEW"]
+    queue = {
+        "version": 1,
+        "updatedAt": payload["updatedAt"],
+        "count": len(ready_items),
+        "items": ready_items,
+        "rule": "Only candidates passing the official-source gate and all six local checks appear here. Owner review is still required.",
+        "safety": payload["safety"]
+    }
+    QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"GUARD SPECIALIST SWARM: candidates={payload['candidateCount']} ready={payload['readyForOwnerReview']} blocked={payload['blockedCount']} hold={payload['holdCount']}")
 
 
