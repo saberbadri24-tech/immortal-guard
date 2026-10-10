@@ -13,7 +13,7 @@ permissions:
   contents: write
 concurrency:
   group: opportunity-radar-v5
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   collect:
     runs-on: ubuntu-latest
