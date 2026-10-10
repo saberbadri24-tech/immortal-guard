@@ -122,6 +122,7 @@ jobs:
           CLAUDE_MODEL: claude-sonnet-4-6
         run: |
           timeout 75s python3 scripts/ai_council.py || echo 'External AI review timed out/failed; deterministic local specialist swarm remains active.'
+          if [ ! -f data/provider_circuit_state.json ]; then printf '{}\n' > data/provider_circuit_state.json; fi
       - name: Build Guard health snapshot
         run: python3 scripts/guard_health.py
       - name: Build evidence-gated learning state
