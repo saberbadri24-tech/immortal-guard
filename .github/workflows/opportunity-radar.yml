@@ -58,6 +58,10 @@ jobs:
         run: |
           retry() { local n=0; until "$@"; do n=$((n+1)); [ $n -ge 3 ] && return 1; sleep $((n*5)); done; }
           retry python3 scripts/official_source_gate.py
+      - name: Run deterministic specialist swarm and offline contracts
+        run: |
+          python3 scripts/specialist_swarm.py
+          python3 scripts/test_specialist_swarm.py
       - name: Run independent specialist engine
         run: python3 scripts/opportunity_engine.py
       - name: Build evidence lineage graph
@@ -78,9 +82,30 @@ jobs:
         run: python3 scripts/collection_router.py
       - name: Build claim adapter registry
         run: python3 scripts/claim_adapter_registry.py
-      - name: Monitor temporary TON wallet receipts
+      - name: Load owner-configured temporary TON address
         env:
           TEMP_TON_ADDRESS: ${{ vars.TEMP_TON_ADDRESS }}
+          TON_CONNECT_ADDRESS: ${{ vars.TON_CONNECT_ADDRESS }}
+        run: |
+          python3 - <<'PY' >> "$GITHUB_ENV"
+          import json, os, re
+          pattern = r'(?:EQ|UQ)[A-Za-z0-9_-]{46}|-?[01]:[0-9a-fA-F]{64}'
+          candidates = [os.getenv('TEMP_TON_ADDRESS', ''), os.getenv('TON_CONNECT_ADDRESS', '')]
+          try:
+              cfg = json.load(open('data/temp_wallet.json', encoding='utf-8'))
+              if cfg.get('configured') is True:
+                  candidates.append(str(cfg.get('address') or ''))
+          except Exception:
+              pass
+          address = next((x.strip() for x in candidates if re.fullmatch(pattern, x.strip())), '')
+          if address:
+              print('TEMP_TON_ADDRESS=' + address)
+              print('Temporary TON receiving address loaded from owner configuration.')
+          else:
+              print('Temporary TON address not configured; receipt monitor will remain fail-closed.')
+          PY
+      - name: Monitor temporary TON wallet receipts
+        env:
           TONCENTER_API_KEY: ${{ secrets.TONCENTER_API_KEY }}
         run: python3 scripts/ton_receipt_monitor.py
       - name: Run optional live AI council
@@ -117,12 +142,12 @@ jobs:
           }
           NODE
       - name: Validate data
-        run: python3 -c "import json; files=['data/radar_intel.json','data/radar_memory.json','data/verification_gate.json','data/official_source_gate.json','data/radar_alerts.json','data/opportunities.json','data/history.json','data/engine_reviews.json','data/evidence_graph.json','data/airdrop_plus.json','data/opportunity_intelligence.json','data/income_pipeline.json','data/owner_actions.json','data/collection_queue.json','data/temp_wallet.json','data/claim_adapters.json','data/ton_receipts.json','data/ton_receipt_state.json','data/ai_reviews.json','data/daily_hunt.json','data/owner_approval_ledger.json','data/revenue_ledger.json','data/revenue_targets.json','data/guard_status.json','data/learning_state.json','data/engineering_benchmark.json']; [((print('VALID',p)),json.load(open(p))) for p in files]; print('JSON OK')"
+        run: python3 -c "import json; files=['data/radar_intel.json','data/radar_memory.json','data/verification_gate.json','data/official_source_gate.json','data/radar_alerts.json','data/opportunities.json','data/history.json','data/engine_reviews.json','data/evidence_graph.json','data/airdrop_plus.json','data/opportunity_intelligence.json','data/income_pipeline.json','data/owner_actions.json','data/collection_queue.json','data/temp_wallet.json','data/claim_adapters.json','data/ton_receipts.json','data/ton_receipt_state.json','data/ai_reviews.json','data/daily_hunt.json','data/owner_approval_ledger.json','data/revenue_ledger.json','data/revenue_targets.json','data/guard_status.json','data/learning_state.json','data/engineering_benchmark.json','data/specialist_swarm.json']; [((print('VALID',p)),json.load(open(p))) for p in files]; print('JSON OK')"
       - name: Commit refreshed radar
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/radar_intel.json data/radar_memory.json data/verification_gate.json data/official_source_gate.json data/radar_alerts.json data/opportunities.json data/history.json data/engine_reviews.json data/evidence_graph.json data/airdrop_plus.json data/value_hunt.json data/opportunity_intelligence.json data/income_pipeline.json data/owner_actions.json data/collection_queue.json data/temp_wallet.json data/claim_adapters.json data/ton_receipts.json data/ton_receipt_state.json data/transfer_state.json data/ai_reviews.json data/daily_hunt.json data/owner_approval_ledger.json data/revenue_ledger.json data/revenue_targets.json data/guard_status.json data/learning_state.json data/engineering_benchmark.json
+          git add data/radar_intel.json data/radar_memory.json data/verification_gate.json data/official_source_gate.json data/radar_alerts.json data/opportunities.json data/history.json data/engine_reviews.json data/evidence_graph.json data/airdrop_plus.json data/value_hunt.json data/opportunity_intelligence.json data/income_pipeline.json data/owner_actions.json data/collection_queue.json data/temp_wallet.json data/claim_adapters.json data/ton_receipts.json data/ton_receipt_state.json data/transfer_state.json data/ai_reviews.json data/daily_hunt.json data/owner_approval_ledger.json data/revenue_ledger.json data/revenue_targets.json data/guard_status.json data/learning_state.json data/engineering_benchmark.json data/specialist_swarm.json
           if git diff --cached --quiet; then echo 'No changes'; else
             git commit -m 'chore: refresh immortal guard radar'
             for attempt in 1 2 3; do
