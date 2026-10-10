@@ -20,6 +20,16 @@ jobs:
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+      - name: Keep ANIL X Render regions warm
+        continue-on-error: true
+        run: |
+          for url in "https://anil-x-live.onrender.com/api/health" "https://anil-x-global.onrender.com/api/health"; do
+            if curl --fail --silent --show-error --max-time 20 "$url" >/dev/null; then
+              echo "ANIL X health reachable: $url"
+            else
+              echo "ANIL X health check did not pass: $url"
+            fi
+          done
       - name: Compile-check Guard scripts
         run: python3 -m py_compile scripts/*.py
       - name: Run multisensor token discovery radar
