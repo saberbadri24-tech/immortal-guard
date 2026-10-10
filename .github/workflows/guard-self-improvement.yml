@@ -29,6 +29,9 @@ jobs:
         run: |
           python -m compileall -q scripts
           python scripts/guard_final_contract.py
-          python scripts/guard_workflow_security.py
-          python scripts/guard_agent_contract.py
           python scripts/guard_engineering_benchmark.py
+          python scripts/guard_health.py
+          python scripts/official_source_gate.py
+          python scripts/verification_gate.py
+          python scripts/test_official_source_gate.py
+          python scripts/test_specialist_swarm.py
