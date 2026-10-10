@@ -65,6 +65,9 @@
       const account = await get('/accounts/' + encodeURIComponent(address));
       const jets = await get('/accounts/' + encodeURIComponent(address) + '/jettons');
       const list = Array.isArray(jets.balances) ? jets.balances : [];
+      const friendlyAddress = window.TON_CONNECT_UI && window.TON_CONNECT_UI.toUserFriendlyAddress ? window.TON_CONNECT_UI.toUserFriendlyAddress(address) : address;
+      window.IGWalletSnapshot = { address: address, friendlyAddress: friendlyAddress, balanceNanoTON: String(account.balance || 0), verifiedAt: new Date().toISOString() };
+      if (typeof window.onIGWalletSnapshot === "function") window.onIGWalletSnapshot(window.IGWalletSnapshot);
       const assets = [
         '<div class="card"><div class="chip">TON MAINNET</div><h3>TON</h3><div class="score">' +
         esc(ton(account.balance)) + '</div><p>موجودی زنده</p></div>'
