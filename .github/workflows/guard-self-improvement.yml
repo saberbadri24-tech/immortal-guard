@@ -1,122 +1,35 @@
-name: Immortal Guard Self Improvement Radar
+name: Immortal Guard Independent Engine QA
 on:
   push:
     branches: [main]
     paths:
+      - 'scripts/**'
+      - 'data/ai_reviews.json'
       - '.github/workflows/guard-self-improvement.yml'
   workflow_dispatch:
   schedule:
     - cron: "37 * * * *"
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
 concurrency:
-  group: immortal-guard-self-improvement
+  group: immortal-guard-independent-engine-qa
   cancel-in-progress: true
 jobs:
-  audit:
+  verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     steps:
-      - name: Check whether external AI is configured
-        id: keycheck
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          if [ -n "$OPENAI_API_KEY" ]; then
-            echo "available=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "available=false" >> "$GITHUB_OUTPUT"
-            echo "External AI is not configured; deterministic Guard engines remain active."
-          fi
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
-        with: {fetch-depth: 1}
-      - name: Check for existing improvement PR
-        id: gate
-        if: steps.keycheck.outputs.available == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          n=$(gh pr list --state open --search "head:anil/guard-self-improve-" --json number --jq 'length')
-          echo "count=$n" >> "$GITHUB_OUTPUT"
-      - name: Ask Astra for one bounded Guard improvement
-        id: ask
-        if: steps.gate.outputs.count == '0'
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          python - <<'PY'
-          import json,os,urllib.request,urllib.error,re
-          files=[]
-          for root in ("scripts","data"):
-            if os.path.isdir(root):
-              for dp,_,ns in os.walk(root):
-                for n in ns:
-                  p=os.path.join(dp,n)
-                  if os.path.getsize(p)<=120000: files.append(p)
-          q={"task":"Find exactly ONE safe concrete improvement for Immortal Guard: discovery, verification, evidence, valuation, threat detection, reliability, tests, observability, or reporting.","allowed_roots":["scripts/","data/"],"forbidden":["secrets","credentials","seed phrases","private keys","wallet signing","fund transfer","claim execution","KYC bypass","CAPTCHA bypass","spam","weakening safety"],"files":files[:300]}
-          b=json.dumps({"model":"gpt-5-mini","messages":[{"role":"system","content":"Astra safety-first Guard auditor. JSON only: {path,goal,reason}. Choose one existing safe file or null. Never claim tests passed."},{"role":"user","content":json.dumps(q)}],"temperature":0.1}).encode()
-          r=urllib.request.Request("https://api.openai.com/v1/chat/completions",data=b,headers={"Authorization":"Bearer "+os.environ["OPENAI_API_KEY"],"Content-Type":"application/json"})
-          try:
-            with urllib.request.urlopen(r,timeout=60) as response:
-              t=json.load(response)["choices"][0]["message"]["content"]
-          except urllib.error.HTTPError as e:
-            if e.code in (401,402,429):
-              with open(os.environ["GITHUB_OUTPUT"],"a") as output: output.write("skip=true\n")
-              print("External AI unavailable or quota-limited; safely skipping AI patch. Deterministic Guard checks remain available.")
-              raise SystemExit(0)
-            raise
-          try:x=json.loads(t)
-          except:x=json.loads(re.search(r"\{.*\}",t,re.S).group(0))
-          open("/tmp/plan.json","w").write(json.dumps(x))
-          with open(os.environ["GITHUB_OUTPUT"],"a") as output: output.write("skip=false\n")
-          PY
-      - name: Generate bounded Guard patch
-        id: patch
-        if: steps.gate.outputs.count == '0' && steps.ask.outputs.skip != 'true'
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          python - <<'PY'
-          import json,os,urllib.request,re
-          p=json.load(open("/tmp/plan.json")); path=p.get("path")
-          ok=bool(path and path.startswith(("scripts/","data/")) and ".." not in path and not any(x in path.lower() for x in (".env","secret","credential","private-key","seed")))
-          if not ok:
-            open("/tmp/skip","w").write("1"); raise SystemExit
-          cur=open(path,encoding="utf-8").read()
-          q={"path":path,"goal":p.get("goal"),"reason":p.get("reason"),"current":cur[:190000],"requirements":"Return JSON {content,message}. Complete replacement, minimal scoped change, preserve every safety gate, no secrets/credentials/signing/transfer/claim execution/bypasses."}
-          b=json.dumps({"model":"gpt-5-mini","messages":[{"role":"system","content":"Astra. Make one bounded safety-preserving Guard improvement. JSON only. Never claim tests passed."},{"role":"user","content":json.dumps(q)}],"temperature":0.1}).encode()
-          r=urllib.request.Request("https://api.openai.com/v1/chat/completions",data=b,headers={"Authorization":"Bearer "+os.environ["OPENAI_API_KEY"],"Content-Type":"application/json"})
-          t=json.load(urllib.request.urlopen(r,timeout=120))["choices"][0]["message"]["content"]
-          try:x=json.loads(t)
-          except:x=json.loads(re.search(r"\{.*\}",t,re.S).group(0))
-          c=x.get("content","")
-          if not c or len(c)>200000 or re.search(r"BEGIN (RSA|OPENSSH|EC|PRIVATE) KEY|seed phrase|recovery phrase|private key\s*[:=]",c,re.I): raise SystemExit("rejected")
-          open(path,"w",encoding="utf-8").write(c)
-          open("/tmp/change.json","w").write(json.dumps({"path":path,"message":x.get("message","Immortal Guard self-improvement")}))
-          PY
-          echo "skip=false" >> "$GITHUB_OUTPUT"
-      - name: Guard regression and security gates
-        if: steps.gate.outputs.count == '0' && steps.ask.outputs.skip != 'true' && steps.patch.outputs.skip != 'true'
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38
+        with:
+          python-version: "3.12"
+      - name: Compile and run local engine contracts
         run: |
           python -m compileall -q scripts
           python scripts/guard_final_contract.py
           python scripts/guard_final_preflight.py
           python scripts/guard_workflow_security.py
           python scripts/guard_agent_contract.py
-      - name: Open review PR
-        if: steps.gate.outputs.count == '0' && steps.ask.outputs.skip != 'true' && steps.patch.outputs.skip != 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          PATHV=$(python -c 'import json;print(json.load(open("/tmp/change.json"))["path"])')
-          MSG=$(python -c 'import json;print(json.load(open("/tmp/change.json"))["message"])')
-          branch="anil/guard-self-improve-$(date +%s)"
-          git checkout -b "$branch"
-          git add -- "$PATHV"
-          git diff --cached --quiet && exit 0
-          git config user.name "ANIL X Self Improvement"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "$MSG"
-          git push -u origin "$branch"
-          gh pr create --base main --head "$branch" --title "Guard self-improvement: $MSG" --body "Bounded safety-preserving improvement proposal. Automated Guard gates passed. Owner review is required before merge."
+          python scripts/guard_engineering_benchmark.py
