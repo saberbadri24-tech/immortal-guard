@@ -112,17 +112,17 @@ jobs:
         env:
           TONCENTER_API_KEY: ${{ secrets.TONCENTER_API_KEY }}
         run: python3 scripts/ton_receipt_monitor.py
-      - name: Run optional live AI council
-        continue-on-error: true
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          ASTRA_MODEL: gpt-5.6-luna
-          CLAUDE_MODEL: claude-sonnet-4-6
+      - name: Run first-party independent review engine
         run: |
-          timeout 75s python3 scripts/ai_council.py || echo 'External AI review timed out/failed; deterministic local specialist swarm remains active.'
-          if [ ! -f data/provider_circuit_state.json ]; then printf '{}\n' > data/provider_circuit_state.json; fi
+          python3 scripts/ai_council.py
+          test -s data/ai_reviews.json
+          python3 - <<'PY'
+          import json
+          d=json.load(open('data/ai_reviews.json', encoding='utf-8'))
+          assert d.get('externalModelsEnabled') is False
+          assert d.get('localEngineActive') is True
+          print('Independent Guard engine PASS; external calls:', d.get('successfulCalls', 0))
+          PY
       - name: Build Guard health snapshot
         run: python3 scripts/guard_health.py
       - name: Build evidence-gated learning state
