@@ -1,0 +1,39 @@
+name: Immortal Guard Independent Engine QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'data/**'
+      - '.github/workflows/guard-independent-engine-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile all Guard engines
+        run: python3 -m py_compile scripts/*.py
+      - name: Test source verification and specialist swarm
+        run: |
+          python3 scripts/test_official_source_gate.py
+          python3 scripts/test_specialist_swarm.py
+      - name: Run revenue and accounting contracts
+        run: |
+          python3 scripts/revenue_ledger.py
+          python3 scripts/income_pipeline.py
+          python3 scripts/revenue_magnet.py
+          python3 scripts/value_hunter.py
+          python3 scripts/guard_final_contract.py
+      - name: Run independent engineering benchmark
+        run: python3 scripts/guard_engineering_benchmark.py
+      - name: Verify machine-readable outputs
+        run: |
+          python3 -c "import json; json.load(open('data/guard_status.json'))"
+          python3 -c "import json; json.load(open('data/engineering_benchmark.json'))"
