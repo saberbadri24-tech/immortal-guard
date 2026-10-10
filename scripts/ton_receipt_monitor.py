@@ -44,16 +44,14 @@ def main():
     global ADDRESS
     now = datetime.now(timezone.utc).isoformat()
     # Support the owner's existing temporary-wallet app/config record as well as
-    # Render/GitHub variables. This is address-only; never import wallet secrets.
+    # Render/GitHub variables. Prefer the first valid address; never import secrets.
+    candidates = [ADDRESS, os.getenv('TON_CONNECT_ADDRESS', '').strip()]
+    temp = load(Path('data/temp_wallet.json'), {})
+    if temp.get('configured') is True:
+        candidates.append(str(temp.get('address') or '').strip())
+    ADDRESS = next((x for x in candidates if valid_ton_address(x)), '')
     if not ADDRESS:
-        temp = load(Path('data/temp_wallet.json'), {})
-        if temp.get('configured') is True:
-            ADDRESS = str(temp.get('address') or '').strip()
-    if not ADDRESS:
-        ADDRESS = os.getenv('TON_CONNECT_ADDRESS', '').strip()
-    if ADDRESS and not valid_ton_address(ADDRESS):
-        print('TON receipt monitor: invalid temporary TON address; failing closed')
-        ADDRESS = ''
+        print('TON receipt monitor: no valid temporary TON address; failing closed')
     if not ADDRESS:
         OUT.parent.mkdir(parents=True, exist_ok=True)
         OUT.write_text(json.dumps({
