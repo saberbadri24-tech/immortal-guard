@@ -1,5 +1,9 @@
 name: Immortal Guard Self Improvement Radar
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/guard-self-improvement.yml'
   workflow_dispatch:
   schedule:
     - cron: "37 * * * *"
