@@ -8,6 +8,7 @@ import hashlib
 import json
 import re
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -44,7 +45,7 @@ def fingerprint(item):
 
 
 def official_source_review(item, qualified):
-    url = str(item.get("url") or item.get("officialUrl") or "").strip()
+    url = str(item.get("officialUrl") or item.get("finalUrl") or item.get("url") or "").strip()
     parsed = urlparse(url)
     https = parsed.scheme == "https" and bool(parsed.hostname)
     return {
@@ -84,7 +85,7 @@ def eligibility_review(item, qualified):
 
 
 def freshness_review(item, now):
-    raw = item.get("updatedAt") or item.get("publishedAt") or item.get("poolCreatedAt") or item.get("timestamp")
+    raw = item.get("updatedAt") or item.get("publishedAt") or item.get("published") or item.get("poolCreatedAt") or item.get("timestamp")
     age_hours = None
     if raw:
         try:
@@ -93,14 +94,20 @@ def freshness_review(item, now):
                 dt = dt.replace(tzinfo=timezone.utc)
             age_hours = max(0.0, (now - dt).total_seconds() / 3600)
         except ValueError:
-            pass
-    stale = age_hours is not None and age_hours > 24 * 30
+            try:
+                dt = parsedate_to_datetime(str(raw))
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                age_hours = max(0.0, (now - dt).total_seconds() / 3600)
+            except (TypeError, ValueError, OverflowError):
+                pass
+    stale = age_hours is not None and age_hours > 24 * 90
     return {
         "agent": "FreshnessKeeper",
         "pass": not stale,
         "ageHours": round(age_hours, 2) if age_hours is not None else None,
-        "finding": "older than 30 days; refresh before action" if stale else
-                   "freshness unknown" if age_hours is None else "within 30-day review window"
+        "finding": "older than 90 days; refresh before action" if stale else
+                   "freshness unknown" if age_hours is None else "within 90-day review window"
     }
 
 
@@ -175,11 +182,21 @@ def build_payload(radar, opportunities, gate):
     qualified_ids = {str(x) for x in (gate.get("qualifiedIds") or gate.get("qualified_ids") or [])}
     items = []
     seen = set()
+    gate_rows = {
+        str(x.get("id")): x for x in (gate.get("items") or [])
+        if isinstance(x, dict) and x.get("id") is not None
+    }
     for source in (opportunities.get("items") or opportunities.get("opportunities") or [],
                    radar.get("items") or []):
         for item in source:
             if not isinstance(item, dict):
                 continue
+            item = dict(item)
+            gate_row = gate_rows.get(str(item.get("id") or item.get("opportunityId") or ""), {})
+            if gate_row.get("finalUrl"):
+                item["officialUrl"] = gate_row["finalUrl"]
+            item["officialDomainVerified"] = bool(gate_row.get("officialDomain"))
+            item["finalDomain"] = gate_row.get("finalDomain")
             fp = fingerprint(item)
             if fp in seen:
                 continue
