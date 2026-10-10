@@ -11,14 +11,19 @@ concurrency:
   cancel-in-progress: true
 jobs:
   audit:
-    if: ${{ secrets.OPENAI_API_KEY != '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
     steps:
+      - name: Skip external AI when no provider key is configured
+        if: ${{ env.OPENAI_API_KEY == '' }}
+        run: echo 'External AI is not configured; deterministic Guard engines remain active.'
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with: {fetch-depth: 1}
       - name: Check for existing improvement PR
         id: gate
+        if: ${{ env.OPENAI_API_KEY != '' }}
         env: {GH_TOKEN: ${{ github.token }}}
         run: |
           n=$(gh pr list --state open --search "head:anil/guard-self-improve-" --json number --jq 'length')
