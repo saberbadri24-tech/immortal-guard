@@ -52,8 +52,20 @@ def main():
     data=json.loads(DATA.read_text(encoding='utf-8')) if DATA.exists() else {'items':[]}
     gate=json.loads(GATE.read_text(encoding='utf-8')) if GATE.exists() else {'qualifiedIds':[]}
     items_by_id={str(x.get('id')):x for x in data.get('items',[]) if x.get('status')!='blocked'}
+    gate_rows={str(x.get('id')):x for x in gate.get('items',[]) if x.get('id') is not None}
     qualified=set(str(x) for x in gate.get('qualifiedIds',[]))
-    items=[x for x in items_by_id.values() if str(x.get('id')) in qualified]
+    items=[]
+    for item_id,item in items_by_id.items():
+        if item_id not in qualified:
+            continue
+        review_item=dict(item)
+        gate_row=gate_rows.get(item_id,{})
+        if gate_row.get('finalUrl'):
+            review_item['sourceUrl']=review_item.get('url')
+            review_item['url']=gate_row['finalUrl']
+        review_item['officialDomain']=gate_row.get('finalDomain')
+        review_item['qualification']=gate_row.get('qualification')
+        items.append(review_item)
     items.sort(key=lambda x: float(x.get('score',0) or 0), reverse=True)
     cfg={
         'astra':(os.getenv('OPENAI_API_KEY'),os.getenv('ASTRA_MODEL','gpt-5.6-luna')),
@@ -82,7 +94,7 @@ def main():
         'qualifiedInputCount':len(items),
         'count':len(reviews),
         'items':reviews,
-        'strategy':'all official-source qualified opportunities; parallel provider review; no fixed candidate ceiling',
+        'strategy':'bounded batch of up to 12 official final destinations; parallel external review; full candidate triage remains in local specialist swarm',
         'safety':{'autoClaim':False,'autoSigning':False,'autoTransfer':False,'secretStorage':False,'bypassControls':False}
     },ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f'AI council: qualified={len(items)} reviews={len(reviews)} successful_calls={successes}; missing={missing}')
