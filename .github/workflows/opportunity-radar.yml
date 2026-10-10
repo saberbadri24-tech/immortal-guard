@@ -30,6 +30,16 @@ jobs:
               echo "ANIL X health check did not pass: $url"
             fi
           done
+      - name: Load public ANIL X main TON destination
+        continue-on-error: true
+        run: |
+          address="$(curl --fail --silent --show-error --max-time 20 "https://anil-x-live.onrender.com/api/payment-config" | python3 -c 'import json,sys; d=json.load(sys.stdin); print(d.get("ton",{}).get("address") or "")')"
+          if [[ "$address" =~ ^(EQ|UQ)[A-Za-z0-9_-]{46}$ ]]; then
+            echo "MAIN_TON_ADDRESS=$address" >> "$GITHUB_ENV"
+            echo "Main TON destination loaded for transfer verification."
+          else
+            echo "Main TON destination unavailable; transfer verification remains fail-closed."
+          fi
       - name: Compile-check Guard scripts
         run: python3 -m py_compile scripts/*.py
       - name: Run multisensor token discovery radar
