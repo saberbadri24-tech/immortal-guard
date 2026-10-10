@@ -45,6 +45,15 @@ class OfficialSourceGateTests(unittest.TestCase):
         self.assertFalse(row["reviewable"])
         self.assertEqual(row["qualification"], "DISCOVERY_ONLY")
 
+    def test_testnet_announcement_without_reward_is_not_qualified(self):
+        item = {"id": "testnet-1", "title": "Glamsterdam Testnet Announcement", "url": "https://blog.ethereum.org/en/testnet"}
+        verification = {
+            "finalUrl": "https://blog.ethereum.org/en/testnet",
+            "reachable": True, "finalHttps": True, "publicHost": True, "statusCode": 200,
+            "rewardSignal": False, "eligibilitySignal": False, "expiredSignal": False, "blockedSignal": False
+        }
+        self.assertFalse(MOD.evaluate_item(item, verification)["reviewable"])
+
     def test_expired_or_blocked_item_is_not_qualified(self):
         item = {"id": "blocked-1", "title": "Airdrop rewards", "url": "https://ton.org/rewards"}
         verification = {

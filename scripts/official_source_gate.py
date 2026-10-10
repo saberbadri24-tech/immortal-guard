@@ -19,7 +19,7 @@ OFFICIAL_DOMAINS = {
     "uniswap.org", "aave.com", "coinbase.com", "kraken.com", "binance.com", "okx.com",
     "galxe.com", "app.galxe.com", "layer3.xyz", "zealy.io", "questn.com"
 }
-REWARD = re.compile(r"(airdrop|reward|rewards|bounty|grant|prize|points|incentive|hackathon|testnet|ambassador|retroactive)", re.I)
+REWARD = re.compile(r"(airdrop|reward|rewards|bounty|grant|prize|points|incentive|retroactive|funding|stipend|scholarship|paid|earnings|token distribution|reimbursement)", re.I)
 
 
 def host(url):
