@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T18:45:58.927984+00:00",
-  "score": 100.0,
-  "earnedWeight": 115,
+  "updatedAt": "2026-10-10T22:10:05.428874+00:00",
+  "score": 94.78,
+  "earnedWeight": 109,
   "totalWeight": 115,
   "thresholds": {
     "elite": 90,
@@ -67,7 +67,7 @@
     {
       "name": "ai_council",
       "weight": 6,
-      "pass": true,
+      "pass": false,
       "evidence": "three-provider council with deterministic fallback path"
     },
     {
@@ -103,5 +103,7 @@
   ],
   "interpretation": "Repository engineering capability score only; not a profit forecast and not proof of private competitor superiority.",
   "hardStop": false,
-  "nextGaps": []
+  "nextGaps": [
+    "ai_council"
+  ]
 }
