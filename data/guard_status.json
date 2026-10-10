@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T22:12:23.366900+00:00",
+  "updatedAt": "2026-10-10T22:20:30.474Z",
   "automation": {
     "discovery": true,
     "deduplication": true,
@@ -16,12 +16,12 @@
     "kycBypass": false,
     "captchaBypass": false,
     "sybilBypass": false,
-    "aiCouncil": true,
-    "liveExternalAstra": false,
-    "liveExternalClaude": false,
     "localReviewFallback": true,
     "incomePipeline": true,
-    "onchainTransferVerification": false
+    "onchainTransferVerification": false,
+    "independentEngineActive": true,
+    "externalModelsEnabled": false,
+    "localReviewActive": true
   },
   "counts": {
     "opportunities": 1276,
