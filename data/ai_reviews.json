@@ -1,26 +1,15 @@
 {
-  "version": 3,
-  "updatedAt": "2026-10-10T18:45:58.718283+00:00",
+  "version": 4,
+  "updatedAt": "2026-10-10T22:01:43.022Z",
   "live": false,
-  "configured": false,
-  "missingProviders": [
-    "gemini"
-  ],
+  "configured": true,
+  "externalModelsEnabled": false,
+  "localEngineActive": true,
   "providerStatus": {
-    "astra": "circuit-open",
-    "claude": "circuit-open",
-    "gemini": "not-configured"
+    "independent_engine": "active"
   },
-  "providerCircuitOpen": [
-    "astra",
-    "claude"
-  ],
+  "providerCircuitOpen": [],
   "successfulCalls": 0,
-  "providerSuccess": {
-    "astra": 0,
-    "claude": 0,
-    "gemini": 0
-  },
   "qualifiedInputCount": 8,
   "count": 8,
   "items": [
@@ -28,22 +17,7 @@
       "id": "https-blog-ethereum-org-en-2024-02-21-zk-grants-round",
       "url": "https://blog.ethereum.org/en/2024/02/21/zk-grants-round",
       "at": "2026-10-10T18:45:58.711605+00:00",
-      "models": {
-        "claude": {
-          "status": "circuit-open",
-          "model": "claude-sonnet-4-6",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        },
-        "astra": {
-          "status": "circuit-open",
-          "model": "gpt-5.6-luna",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        },
-        "gemini": {
-          "status": "not-configured",
-          "model": "gemini-3.8-flash"
-        }
-      },
+      "models": {},
       "localFallback": {
         "active": true,
         "status": "HOLD_FOR_EVIDENCE",
@@ -51,28 +25,17 @@
         "agentsTotal": 6,
         "action": "NO_ACTION",
         "officialQualified": true
+      },
+      "independentEngine": {
+        "status": "local_review_only",
+        "note": "External model calls removed; source evidence and owner review remain required."
       }
     },
     {
       "id": "https-blog-ethereum-org-en-2024-08-14-data-collection-round",
       "url": "https://blog.ethereum.org/en/2024/08/14/data-collection-round",
       "at": "2026-10-10T18:45:58.711842+00:00",
-      "models": {
-        "astra": {
-          "status": "circuit-open",
-          "model": "gpt-5.6-luna",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        },
-        "gemini": {
-          "status": "not-configured",
-          "model": "gemini-3.8-flash"
-        },
-        "claude": {
-          "status": "circuit-open",
-          "model": "claude-sonnet-4-6",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        }
-      },
+      "models": {},
       "localFallback": {
         "active": true,
         "status": "HOLD_FOR_EVIDENCE",
@@ -80,28 +43,17 @@
         "agentsTotal": 6,
         "action": "NO_ACTION",
         "officialQualified": true
+      },
+      "independentEngine": {
+        "status": "local_review_only",
+        "note": "External model calls removed; source evidence and owner review remain required."
       }
     },
     {
       "id": "https-blog-ethereum-org-en-2026-08-05-1ts-grant",
       "url": "https://blog.ethereum.org/en/2026/08/05/1ts-grant",
       "at": "2026-10-10T18:45:58.712024+00:00",
-      "models": {
-        "claude": {
-          "status": "circuit-open",
-          "model": "claude-sonnet-4-6",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        },
-        "astra": {
-          "status": "circuit-open",
-          "model": "gpt-5.6-luna",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        },
-        "gemini": {
-          "status": "not-configured",
-          "model": "gemini-3.8-flash"
-        }
-      },
+      "models": {},
       "localFallback": {
         "active": true,
         "status": "READY_FOR_OWNER_REVIEW",
@@ -109,28 +61,17 @@
         "agentsTotal": 6,
         "action": "OWNER_REVIEW_ONLY",
         "officialQualified": true
+      },
+      "independentEngine": {
+        "status": "local_review_only",
+        "note": "External model calls removed; source evidence and owner review remain required."
       }
     },
     {
       "id": "https-blog-ethereum-org-en-2024-06-25-zk-grants-round-announce",
       "url": "https://blog.ethereum.org/en/2024/06/25/zk-grants-round-announce",
       "at": "2026-10-10T18:45:58.712181+00:00",
-      "models": {
-        "gemini": {
-          "status": "not-configured",
-          "model": "gemini-3.8-flash"
-        },
-        "claude": {
-          "status": "circuit-open",
-          "model": "claude-sonnet-4-6",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        },
-        "astra": {
-          "status": "circuit-open",
-          "model": "gpt-5.6-luna",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        }
-      },
+      "models": {},
       "localFallback": {
         "active": true,
         "status": "HOLD_FOR_EVIDENCE",
@@ -138,28 +79,17 @@
         "agentsTotal": 6,
         "action": "NO_ACTION",
         "officialQualified": true
+      },
+      "independentEngine": {
+        "status": "local_review_only",
+        "note": "External model calls removed; source evidence and owner review remain required."
       }
     },
     {
       "id": "https-blog-ethereum-org-en-2022-12-15-kzg-ceremony-grants-round",
       "url": "https://blog.ethereum.org/en/2022/12/15/kzg-ceremony-grants-round",
       "at": "2026-10-10T18:45:58.712348+00:00",
-      "models": {
-        "astra": {
-          "status": "circuit-open",
-          "model": "gpt-5.6-luna",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        },
-        "claude": {
-          "status": "circuit-open",
-          "model": "claude-sonnet-4-6",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        },
-        "gemini": {
-          "status": "not-configured",
-          "model": "gemini-3.8-flash"
-        }
-      },
+      "models": {},
       "localFallback": {
         "active": true,
         "status": "HOLD_FOR_EVIDENCE",
@@ -167,28 +97,17 @@
         "agentsTotal": 6,
         "action": "NO_ACTION",
         "officialQualified": true
+      },
+      "independentEngine": {
+        "status": "local_review_only",
+        "note": "External model calls removed; source evidence and owner review remain required."
       }
     },
     {
       "id": "https-blog-ethereum-org-en-2025-04-22-destino-devconnect",
       "url": "https://blog.ethereum.org/en/2025/04/22/destino-devconnect",
       "at": "2026-10-10T18:45:58.712505+00:00",
-      "models": {
-        "claude": {
-          "status": "circuit-open",
-          "model": "claude-sonnet-4-6",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        },
-        "gemini": {
-          "status": "not-configured",
-          "model": "gemini-3.8-flash"
-        },
-        "astra": {
-          "status": "circuit-open",
-          "model": "gpt-5.6-luna",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        }
-      },
+      "models": {},
       "localFallback": {
         "active": true,
         "status": "HOLD_FOR_EVIDENCE",
@@ -196,28 +115,17 @@
         "agentsTotal": 6,
         "action": "NO_ACTION",
         "officialQualified": true
+      },
+      "independentEngine": {
+        "status": "local_review_only",
+        "note": "External model calls removed; source evidence and owner review remain required."
       }
     },
     {
       "id": "https-blog-ethereum-org-en-2026-02-27-project-odin",
       "url": "https://blog.ethereum.org/en/2026/02/27/project-odin",
       "at": "2026-10-10T18:45:58.712663+00:00",
-      "models": {
-        "astra": {
-          "status": "circuit-open",
-          "model": "gpt-5.6-luna",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        },
-        "claude": {
-          "status": "circuit-open",
-          "model": "claude-sonnet-4-6",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        },
-        "gemini": {
-          "status": "not-configured",
-          "model": "gemini-3.8-flash"
-        }
-      },
+      "models": {},
       "localFallback": {
         "active": true,
         "status": "HOLD_FOR_EVIDENCE",
@@ -225,28 +133,17 @@
         "agentsTotal": 6,
         "action": "NO_ACTION",
         "officialQualified": true
+      },
+      "independentEngine": {
+        "status": "local_review_only",
+        "note": "External model calls removed; source evidence and owner review remain required."
       }
     },
     {
       "id": "https-blog-ethereum-org-en-2025-09-15-fusaka-audit-content",
       "url": "https://blog.ethereum.org/en/2025/09/15/fusaka-audit-content",
       "at": "2026-10-10T18:45:58.712885+00:00",
-      "models": {
-        "gemini": {
-          "status": "not-configured",
-          "model": "gemini-3.8-flash"
-        },
-        "claude": {
-          "status": "circuit-open",
-          "model": "claude-sonnet-4-6",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        },
-        "astra": {
-          "status": "circuit-open",
-          "model": "gpt-5.6-luna",
-          "error": "quota-or-billing error observed; external requests paused for 24h"
-        }
-      },
+      "models": {},
       "localFallback": {
         "active": true,
         "status": "HOLD_FOR_EVIDENCE",
@@ -254,25 +151,17 @@
         "agentsTotal": 6,
         "action": "NO_ACTION",
         "officialQualified": true
+      },
+      "independentEngine": {
+        "status": "local_review_only",
+        "note": "External model calls removed; source evidence and owner review remain required."
       }
     }
   ],
   "localFallback": {
     "active": true,
     "engine": "Immortal Guard deterministic specialist swarm",
-    "agents": [
-      "OfficialSourceSentinel",
-      "ThreatHunter",
-      "EligibilityAuditor",
-      "FreshnessKeeper",
-      "ValueAnalyst",
-      "WalletSafetyOfficer"
-    ],
     "agentCount": 6,
-    "candidateCount": 1374,
-    "readyForOwnerReview": 1,
-    "blockedCount": 1,
-    "holdCount": 1372,
     "noExternalCreditsRequired": true,
     "safety": {
       "autoClaim": false,
@@ -281,7 +170,7 @@
       "secretStorage": false
     }
   },
-  "strategy": "local six-agent specialist swarm always screens all candidates; external AI reviews only a bounded batch and circuit-breaks on quota exhaustion",
+  "strategy": "first-party specialist swarm reviews evidence; no external provider calls or credit dependencies",
   "safety": {
     "autoClaim": false,
     "autoSigning": false,
