@@ -154,7 +154,9 @@ jobs:
             git commit -m 'chore: refresh immortal guard radar'
             for attempt in 1 2 3; do
               git fetch origin main
-              if git rebase origin/main && git push origin HEAD:main; then
+              # Preserve the current main branch on conflicts (especially owner/payment state).
+            # Generated radar output may be retried on the next scheduled run.
+            if git rebase -X ours origin/main && git push origin HEAD:main; then
                 echo "Push succeeded on attempt $attempt"
                 exit 0
               fi
