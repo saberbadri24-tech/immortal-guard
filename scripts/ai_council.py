@@ -22,7 +22,6 @@ def main():
     data = load_json(DATA, {"items": []})
     gate = load_json(GATE, {"qualifiedIds": [], "items": []})
     swarm = load_json(SWARM, {"agents": [], "items": []})
-    previous = load_json(OUT, {"items": []})
     items_by_id = {
         str(x.get("id")): x for x in data.get("items", [])
         if x.get("status") != "blocked" and x.get("id") is not None
@@ -38,13 +37,12 @@ def main():
     qualified = set(str(x) for x in gate.get("qualifiedIds", []))
     candidates = []
     for item_id, item in items_by_id.items():
-        if qualified and item_id not in qualified:
+        if item_id not in qualified:
             continue
         gate_row = gate_rows.get(item_id, {})
         candidates.append((item, gate_row))
     candidates.sort(key=lambda pair: float(pair[0].get("score", 0) or 0), reverse=True)
 
-    previous_rows = {str(x.get("id")): x for x in previous.get("items", []) if x.get("id") is not None}
     rows = []
     for item, gate_row in candidates:
         item_id = str(item.get("id"))
