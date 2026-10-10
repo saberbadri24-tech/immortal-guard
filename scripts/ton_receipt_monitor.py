@@ -8,7 +8,7 @@ incoming on-chain activity and records receipts for the Guard dashboard.
 TEMP_TON_ADDRESS is intentionally an environment variable so no wallet secret
 or private key ever enters the repository.
 """
-import json, os, urllib.parse, urllib.request
+import json, os, re, urllib.parse, urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -37,8 +37,23 @@ def load(p, default):
     try: return json.loads(p.read_text(encoding="utf-8"))
     except Exception: return default
 
+def valid_ton_address(value):
+    return bool(re.fullmatch(r'(?:EQ|UQ)[A-Za-z0-9_-]{46}|-?[01]:[0-9a-fA-F]{64}', str(value or '').strip()))
+
 def main():
+    global ADDRESS
     now = datetime.now(timezone.utc).isoformat()
+    # Support the owner's existing temporary-wallet app/config record as well as
+    # Render/GitHub variables. This is address-only; never import wallet secrets.
+    if not ADDRESS:
+        temp = load(Path('data/temp_wallet.json'), {})
+        if temp.get('configured') is True:
+            ADDRESS = str(temp.get('address') or '').strip()
+    if not ADDRESS:
+        ADDRESS = os.getenv('TON_CONNECT_ADDRESS', '').strip()
+    if ADDRESS and not valid_ton_address(ADDRESS):
+        print('TON receipt monitor: invalid temporary TON address; failing closed')
+        ADDRESS = ''
     if not ADDRESS:
         OUT.parent.mkdir(parents=True, exist_ok=True)
         OUT.write_text(json.dumps({
