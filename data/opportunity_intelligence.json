@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-17T21:39:42.597434+00:00",
+  "updatedAt": "2026-10-17T23:24:20.116357+00:00",
   "engine": "Immortal Guard Opportunity Intelligence",
-  "candidateCount": 1291,
+  "candidateCount": 1298,
   "coverage": [
     "airdrop",
     "quests",
@@ -18,12 +18,12 @@
   ],
   "bands": {
     "MICRO": 6,
-    "STANDARD": 15,
-    "HIGH": 49,
-    "CRITICAL": 43,
-    "MEGA": 46,
-    "ULTRA": 26,
-    "UNPRICED": 1106
+    "STANDARD": 16,
+    "HIGH": 48,
+    "CRITICAL": 44,
+    "MEGA": 47,
+    "ULTRA": 28,
+    "UNPRICED": 1109
   },
   "items": [
     {
@@ -749,6 +749,51 @@
       }
     },
     {
+      "id": "moxrvyknizxvkcjbvoffkm0pbtjrlvfitveffouviwlrbbne3zwllcmvptv9dn1z5mgf4nl82t0h4v1d2szdkrhfwwehbevbnv3faundmcjnvy0hcvq-oc-5",
+      "title": "African Development Fund approves $9 million grant for nature-based flood adaptation to increase community resilience in western Rwanda - African Development Bank Group",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOZTNDZ0FZTW5uV0pDUjBwa21Ya0x2NGgtRmtBVmswQ0RPR2ltN2VVeHFGQ2tBck93cXc1VzlrWnB1cDlsV01PSko1dGxkRkZ3SUpZU195TmZTSGdmOHBFNkN2R0t5dFFLNnpFREVsRXV6R2FqMDNxd3BoRFRmUXIzY01EeDFYQl9qbHZrR0R5LU9FOVBILUNHLXJheFFWdTRvYl8zR3ZjeFRGYVp0ank3WjJXSUR5NkxOdFhMN3ZmOXRVYkNiZXVKcjBVOFFkM0pBTjRlVFItVEFFOUVIWlRBbnE3ZWllcmVPTV9DN1Z5MGF4Nl82T0h4V1d2SzdKRHFwWEhBeVBNV3FaUndmcjNVY0hCVQ",
+      "domain": "news.google.com",
+      "categories": [
+        "grant"
+      ],
+      "rewardUsd": 9000000.0,
+      "rewardBand": "ULTRA",
+      "realizationScore": 48,
+      "intelligenceScore": 48,
+      "baseScore": 81.0,
+      "valueScore": 71.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "ULTRA",
+      "priority": "ULTRA",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "nzjr4ohfyudr1mxnzvmpbyvjqdwn0vzfev0juqm5xotu0zjfoykfbv2m3ve4zrjdseuk0vej0n0vsx2t5ndbcmerodunqrtfvsfjtc3fbru9ts0gzwq-oc-5",
       "title": "State gives $7.8m grant to Navy sub base for waterfront projects - Inside Investigator",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE41aGQzaENnZjR4OHFYUDR1MXNzVmpBYVJqdWN0VzFEV0JuQm5xOTU0ZjFoYkFBV2M3VE4zRjdSeUk0VEJ0N0VsX2t5NDBCMERodUNqRTFvSFJTc3FBRU9tS0gzWQ",
@@ -977,6 +1022,51 @@
       "id": "xrmm2zvcuzgburhykktu01hmfbwedzraxcwttlvqnvrt2nvylvvx0ldujbbvznontfmeepeadzpzwdjv0n2vhdqckntvnpndxjur1vgvec1r1fszhb3-oc-5",
       "title": "Aurora pays $6 mn bug bounty to ethical hacker - Forbes India",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdTFSd3p1SVJycTZvZURVZVc3cEJIOEx2dWEtUkJ2cDFLbHhTb2JMbWZSeEY1LUh5ZnVoTkJTVnhzOHA3MzYtd3dtYjJLb0trVTEtS2F3SFNRY1BsTUZlbDFXZzd6SXRhQ0NGeXpQZDBiSUZLX0tJbGdUdE9XU3VzcnFZeUREcS1sbzd0aGZodmQ2V0RxODBmbWctdEt2MlNLblZRSlFlYmYtQdIBrwFBVV95cUxPM2Y3d0ZENjg0bmU3X08xaXpHQTI5NU9IM00xaW9hOWdoMmxncWxHQWE0cnZXYXExMVRXby03ZkViMVdPMm1WRUF4MUdBWmFnUWF6N19zbElWSXRmM2ZvcUZGbURHYkktU01hMFBWeDZraXcwTTlvQnVRT2NVYlVVX0lDUjBBVzNONTFMeEpEaDZpZWdjV0N2VHdqckNtVnpNdXJuR1VGVEc1R1FsZHB3",
+      "domain": "news.google.com",
+      "categories": [
+        "bounty"
+      ],
+      "rewardUsd": 6000000.0,
+      "rewardBand": "ULTRA",
+      "realizationScore": 48,
+      "intelligenceScore": 48,
+      "baseScore": 81.0,
+      "valueScore": 71.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "ULTRA",
+      "priority": "ULTRA",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "1d1n2vucyx2nteuxjz0dxq0cyq2rmbnvcdtlsedrqcxzfd1rqvtitaknkuepoaupcbdlxyufjm05doefyq3nabhuwmetraknxqxhtww9quzctqy1msq-oc-5",
+      "title": "Young \"bug bounty hunter\" bags $6M pre-seed round for security startup - Tech.eu",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeXo4MWdPVUVSaXNvYVVWbGNEejRBRU84elQxMDlib0EzTFRXZGgycVZ6eWtFa0RFSElFZWJfWFRkQWJXZHU1d1N2VUcyX2NteUxjZ0dxQ0cyQ2RMbnVCdTlseDRQcXZFd1RqVTItakNkUEpOaUpCbDlXYUFJM05DOEFYQ3NabHUwMEtRakNXQXhtWW9qUzctQy1mSQ",
       "domain": "news.google.com",
       "categories": [
         "bounty"
@@ -1477,6 +1567,51 @@
       "id": "udlludqauv3dfvoa3jgbufxn0dub1vscdjxwvnuewhbzfpocnriwjhjyw9gzgffyurrvmhsse1jdmlsxy1zdwfcztlntetvs1lxa2nswvpzalp2dhu0-oc-5",
       "title": "Fluid Proposes Establishing a Foundation Funded by $3M Annual Grant From DAO - The Defiant",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52LUFBNnUzVlRzcUlXOVB0eWU0bWRNZUdLLUdqaUV3dFVoa3JGbUFxN0dub1VScDJXWVNUeWhBZFpocnRIWjhJYW9GZGFfYURRVmhSSE1jdmlsXy1ZdWFCZTlnTEtvS1lxa2NSWVpzalp2dHU0",
+      "domain": "news.google.com",
+      "categories": [
+        "grant"
+      ],
+      "rewardUsd": 3000000.0,
+      "rewardBand": "MEGA",
+      "realizationScore": 48,
+      "intelligenceScore": 48,
+      "baseScore": 94.0,
+      "valueScore": 71.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "MEGA",
+      "priority": "MEGA",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "rdnuwdu9ycnbjy2ttzu9zd1vjegrdsvjdr0tpc0ppx2qyekjuvvrnzjlhtzdfwem5se9zodhmuwpgt1ncqkdmm1v5d28trnnjmnkwrndzwe5ymenrmg-oc-5",
+      "title": "Ethereum’s $3M grassroot grant program suddenly paused as Foundation rethinks priorities - CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSERwUXU5cUNRaTFzaHhJak15WGVaNzVnT1N0dEl3NkpTNW1VX3dJWnJUYTZLelNJU3Fwd3ByMlk1cWwwMl9uWlk3YVlxeVJhTlBDX2tSVXREcVlrdnUwdU9ycnBJY2tTZU9zd1VjeGRDSVJDR0tPc0ppX2QyekJUVVRNZjlhTzdFWEM5SE9zODhmUWpGT1NCQkdMM1V5d28tRnNjMnkwRndZWE5yMENrMg",
       "domain": "news.google.com",
       "categories": [
         "grant"
@@ -4495,6 +4630,51 @@
       }
     },
     {
+      "id": "alrfcgfpcfpgek1euee0uhrby0jjd1fsdu93mnj1cmphdhlitg9tewxeztfasll0n2tamlozt3hlcwr3cgoytezlcw5it3rjn3bxbkxsrkdwak9tnfo-oc-5",
+      "title": "Binance Alpha Trading Competition: Trade Zest Protocol (ZEST) and Share $200K Worth of Rewards (2026-07-22) - Binance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWTFMa0JqQmhKQkt3Ny1JdC1Od2o5T3R5MVk3V2JTNHdVT3BUbklfTUFlMWhwYmJxa1dValRFcGFpcFpGek1EUEE0UHRBY0Jjd1FsdU93MnJ1cmpHdHlITG9teWxEZTFaSll0N2taMlozT3hlcWR3cGoyTEZLcW5IT3RjN3BXbkxsRkdwak9tNFo",
+      "domain": "news.google.com",
+      "categories": [
+        "hackathon"
+      ],
+      "rewardUsd": 200000.0,
+      "rewardBand": "CRITICAL",
+      "realizationScore": 48,
+      "intelligenceScore": 48,
+      "baseScore": 87.0,
+      "valueScore": 71.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 8,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "CRITICAL",
+      "priority": "CRITICAL",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "cwpsckzix2jtlwtjnnloudg5dmhqow9zrmyyehzjrmrfvkf6vjywnkleewzjss1lug9jwldry1lpuc12bkc4mxdrwuttmmfhd0drnvkzbkj3txkxb0k-oc-5",
       "title": "Binance Alpha Trading Competition: Trade Zest Protocol (ZEST) and Share $200K Worth of Rewards (2026-05-26) - Binance",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTnBnUm83b0VZS3RlMXJrVFY3b0poNGxiVnRTY2RkMGktd2VWM19QdEc0VGVYWGkzelQ2cWpsckZiX2JTLWtjNnloUDg5dmhqOW9zRmYyeHZjRmRFVkF6VjYwNklEeWZjSS1LUG9JWldRY1lPUC12bkc4MXdRWUtTMmFHd0dRNVkzbkJ3TXkxb0k",
@@ -4593,6 +4773,51 @@
         "bounty"
       ],
       "rewardUsd": 190000.0,
+      "rewardBand": "CRITICAL",
+      "realizationScore": 48,
+      "intelligenceScore": 48,
+      "baseScore": 81.0,
+      "valueScore": 71.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "CRITICAL",
+      "priority": "CRITICAL",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "zw1qxzztoxh2mue0qwiwtvjwtmf2yuxweghrzhlrr3bfd2vrofh0vwrrmlrkx3rsqme4x3bzchjseufowjfxqwmzvg9trvntathcenz0nzlov3k0b0u-oc-5",
+      "title": "Grant Cardone Is Certain: Bitcoin Will Hit $189,425 In 2026 - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUGdJODBfUFRyRi1GRDRXMXg0ZGxBbDdxek9YOUFLRlllYlFhLUdaS2xWZzZzLUludjEzdk5jMDJpWG1VZlBQVDFRZW1qXzZtOXh2MUE0QWIwTVJwTmF2YUxWeGhrZHlrR3BFd2VROFh0VWRrMlRKX3RsQmE4X3BzcHJseUFoWjFxQWMzVG9tRVNTaThCenZ0NzloV3k0b0U",
+      "domain": "news.google.com",
+      "categories": [
+        "grant"
+      ],
+      "rewardUsd": 189425.0,
       "rewardBand": "CRITICAL",
       "realizationScore": 48,
       "intelligenceScore": 48,
@@ -4900,51 +5125,6 @@
       }
     },
     {
-      "id": "hlqq1f4t2locuxtulnolv9hv3e2stzxu0ffm05crnr1q0nns0ewzwfyx0rrd0drq3yxyw9ovwtya1jpng5knk9qztjvwnhsvnu2v3jxnm1hugfnynj3-oc-5",
-      "title": "Dev Rewards pilot increases to $100K per week as the World ecosystem surpasses 500 Mini Apps - World - The real human network",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUzJQVC1WX0NNTmNJTUo4Mi1wWjhkeUFnczNPb3RZekllSTN0RWVQZDZyX2FMeXBFT2JyakIzLVNCN2ZxV1hlUkU1dHFVZDJWbFlFVjJYdml3VWNqRW92a2ZOT280OFVmVWhReFJIcnRmOHlqQ1F4T2locUxTUlNOLV9HV3E2STZXU0FFM05CRnR1Q0NNS0EwZWFyX0Rrd0dRQ3YxYW9OVWtYa1JPNG5kNk9qZTJvWnhSVnU2V3JxNm1HUGFnYnJ3",
-      "domain": "news.google.com",
-      "categories": [
-        "general"
-      ],
-      "rewardUsd": 100000.0,
-      "rewardBand": "CRITICAL",
-      "realizationScore": 48,
-      "intelligenceScore": 48,
-      "baseScore": 84.0,
-      "valueScore": 71.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "CRITICAL",
-      "priority": "CRITICAL",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "mfxtgdkuenunwxjmhl0ouf4lwnbuhbhdjzzoulduwfxzmzyrg1sdzlwq01zbtjyr0rftetzb28xbfv1qu03zlfun2tmbnr5mzb2oetvcjvnce14mfnf-oc-5",
       "title": "GitHub Pays $100,000 Bounty for Critical RCE Flaw in Git Push Pipeline - CyberSecurityNews",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IbW8wXzA4Q0FXbjZLek9zY05oTFJKWWpwb1M5cDhVOXVIckxUeEViemtmQmROQTZxeGRQZkZxNjZESzNhZmJvX0cwZlBVVXhLYmZUZjg1d0kwQWo1S1Z0REgzZHFmME9PdG5VckFZYlVMb3BZT2xwV1JGNDItc1nSAYQBQVVfeXFMUDcxaktIS2VjS3IzZGI0MWVTUHRLNG50OXQwV0hUT0VwbE8tYmNocmFXTGdKUENUNWxJMHl0OUF4LWNBUHBhdjZzOUlDUWFxZmZyRG1sdzlwQ01zbTJYR0RFTEtzb28xbFV1QU03ZlFUN2tmbnR5MzB2OEtVcjVncE14MFNF",
@@ -5183,51 +5363,6 @@
       "realizationScore": 48,
       "intelligenceScore": 48,
       "baseScore": 77.0,
-      "valueScore": 71.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "HIGH",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "ukjnv29qm3frb3lavfq2ykdrunbbttnpwkj5ck1hvnfun1mtugt2s2lad2t4rvy2el9gyxe3oui5rwpgrjlydk1ktfb4duruytjmsuh3rnpongncnfe-oc-5",
-      "title": "EVE Frontier kicks off Cycle 5 with $20 pass, $80,000 Sui hackathon, and more deep space death - BlockchainGamerBiz",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMURqTnNsVWl0am00Zjg2Vmczb2Q2QUZzeVNEM1JwSVktWXdJVzNEZEo1MVRNZ0p0YVR6Q3lGaVRGSnktSVlzUFNUbmZtWFNMV2hEWmY5clpFWmpYQ3Z3TDNPS3FyNUcyTVZXdlVTMGRNdFBXWEd4b1F3d2lkdkl5TFNGNl9tNzAxQjhTRTVkZzBLQVhfWFZVdXN5S043N2U2TnZwYW5QMTliamFUVDJUMDZBY0s4RS1aVGk4RVRfVjNBSVlj0gHKAUFVX3lxTE1FdGJBYVBlOVU5cjJMYU5heDM2RkVJWTdJQ0YySW9PMmdMRzhLY3NOUUlUYUZxcWc3bFZGckc4Z1VMZ3NXVHd2REVlZVMydlU1emNUVm9aY1JrYW9fRHY1X2lOT3Vvcmp6UnVjZTVsQzlLMFQ3UkJNV29QM3Frb3laVFQ2YkdRUnBBTTNPWkJ5ck1hVnFuN1MtUGt2S2lad2t4RVY2el9GYXE3OUI5RWpGRjlYdk1kTFB4dURUYTJmSUh3RnpoNGNCNFE",
-      "domain": "news.google.com",
-      "categories": [
-        "hackathon"
-      ],
-      "rewardUsd": 80000.0,
-      "rewardBand": "HIGH",
-      "realizationScore": 48,
-      "intelligenceScore": 48,
-      "baseScore": 64.0,
       "valueScore": 71.0,
       "verification": "REACHABLE_DOMAIN_ALIGNED",
       "independentSources": 0,
@@ -6298,7 +6433,7 @@
     },
     {
       "id": "m0ythvtnvnywhvld2eyexzyunzza2s1mdrpb0vdm2fgce9nmmftuwdvakjjutk2bwdxruhmrdmynzatymjwavj6rwrrdhnxelj3bf9lvvdgrv9znmrn-oc-5",
-      "title": "LCRA, Bandera Electric Co-op award $21,048 grant to Utopia Volunteer EMS - LCRA - Energy, Water, Community - LCRA - Lower Colorado River Authority",
+      "title": "LCRA, Bandera Electric Co-op award $21,048 grant to Utopia Volunteer EMS - LCRA - Energy, Water, Community - Lower Colorado River Authority",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYUJDaG1TeUNmSUctYWU0aDcyU3hEUmdjS3A2QWMtUXFGcFNBNjV2Q0xXU2p6R0pzeEsyOW9rblVXdzlTWHNIZi10TVRjMk95OEx0MWJ6aWpjVm0yTHVtNVNYWHVLd2EyeXZYUnZZa2s1MDRPb0VDM2FGcE9NMmFTUWdVakJjUTk2bWdxRUhMRDMyNzAtYmJWaVJ6RWRrdHNXelJ3bF9LVVdGRV9zNmRN",
       "domain": "news.google.com",
       "categories": [
@@ -6703,7 +6838,7 @@
     },
     {
       "id": "uwzsefswgptm2fxujzcnhc0aehoqjzsbkszdkjzaeznrzvowty3me9vefrczw43n3b6r2dqc0vqwwjpn0vnyu9wm05kx24zvmk5otn0tgv6ujvtx1nb-oc-5",
-      "title": "LCRA, Bluebonnet Electric Co-op award $17,710 grant to Blue VFD - LCRA - Energy, Water, Community - LCRA - Lower Colorado River Authority",
+      "title": "LCRA, Bluebonnet Electric Co-op award $17,710 grant to Blue VFD - LCRA - Energy, Water, Community - Lower Colorado River Authority",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaXdHU2pzREVneHR1elo4dXVkajVBY2l0aDJQQk9LdTdXaTBycU5mMTBGQzdsZHQxdkRvQWVvOFB1RHVHeFAwNHgwTVRBQUwzSEFSWGpTM2FxUjZCNHc0aEhoQjZsbkszdkJzaEZnRzVOWTY3ME9veFRCZW43N3B6R2dQc0VqWWJPN0VnYU9wM05KX24zVmk5OTN0TGV6UjVtX1NB",
       "domain": "news.google.com",
       "categories": [
@@ -6748,7 +6883,7 @@
     },
     {
       "id": "xcyqnvxyza1m2xoeec4nknjmnz2edvrymvmy1pdyutvsg1obwjkc0jkz2ruv180czqytwxnq0wzd3ffqxvgqk42ofbnv2fhcexsuzlzdkhhcknwu2f3-oc-5",
-      "title": "LCRA, Bluebonnet Electric Co-op award $17,478 grant to Round Top Family Library for outdoor classroom - Lower Colorado River Authority",
+      "title": "LCRA, Bluebonnet Electric Co-op award $17,478 grant to Round Top Family Library for outdoor classroom - LCRA - Lower Colorado River Authority",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTnpiR1VOSUlvd1YwTDVWRTZrVjg5aWZNSTZuNG43cFZNZERfQ25ZSHdRcEpwQzF5VjA2eG9vSnVpM28yd2dmT24xdk8tcDlQSXMyNVV3bFctS1ZnVFkzZ2tEMU1IQXo5UmF6Q05JbEhxWFZWN0R0UVltV3JnRGRDdXcyQnVXYzA1M2xoeEc4NkNJMnZ2eDVrYmVmY1pDYUtvSG1ObWJkc0JkZ2RUV180czQyTWxnQ0wzd3FFQXVGQk42OFBnV2FhcExSUzlZdkhhckNwU2F3",
       "domain": "news.google.com",
       "categories": [
@@ -8097,6 +8232,51 @@
       }
     },
     {
+      "id": "nm9zvxbfodjxdfbumuzvv1owaetzehrdu21dtzfntkzsmv9lq3jjdtvmtnuzlvlyegntzem5deh2thbxd1rmejf5snltx2zru2xpservnel2dnnnqvo-oc-5",
+      "title": "Speedrunner offers $700 bounty for Simpsons game solution - Polygon.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeS0wRmNDSVhmRExDLUdaRWVxYVAtWG5Gd2d0ajZmSVhGdGxoRlhRSGtzNXN6QUhHaVhrMEZPY1dvcDFaSHRQNm9ZVXBfODJXdFBUMUZVV1owaEtzeHRDU21DTzFnTkZsMV9lQ3JJdTVmTnUzLVlYeGNtZEM5dEh2THBXd1RmejF5SnlTX2ZRU2xpSERVNEl2dnNnQVo",
+      "domain": "news.google.com",
+      "categories": [
+        "bounty"
+      ],
+      "rewardUsd": 700.0,
+      "rewardBand": "STANDARD",
+      "realizationScore": 43,
+      "intelligenceScore": 43,
+      "baseScore": 81.0,
+      "valueScore": 59.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "STANDARD",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "vguxzi1fz3htbjvzehpmvlfotvdpnzjjwfnmcmhmy0xynue1wxbqc0zla0djavk1v3hirfktbzzvyvhaluutq29xmxezvnnubzcym1hkdv9hm3jtawm-oc-5",
       "title": "HackerOne Paid $81 in Bug Bounty With Emergence of Bionic Hackers - CyberSecurityNews",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA5UFJaOVlocExKVGUxZi1FZ3hTbjVzeHpmVlFOTVdPNzJJWFNMcmhmY0xyNUE1WXBQc0Zla0dJaVk1V3hiRFktbzZVYVhaLUUtQ29XMXEzVnNUbzcyM1hKdV9HM3JtaWM",
@@ -9402,6 +9582,52 @@
       }
     },
     {
+      "id": "bbxmzauphq0xnahyyq3lowk43yzg0dhdcz2ptnlvdrthfbmz3awrtd0n0z3i1nexrql94v1htr0f2dgzwc1zda2purlpmdvlmotbseg1yzdruqzr6qq-oc-5",
+      "title": "The era of payment is coming? Full analysis of the new policy of the airdrop platform Galxe! This week’s airdrop financing hot spots and quick overview - Binance",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qTEttRnhBbXMzaUphQ0xnaHYyQ3lOWk43Yzg0dHdCZ2ptNlVDRThFbmZ3aWRtd0N0Z3I1NExrQl94V1hTR0F2dGZwc1ZDa2puRlpMdVlmOTBseG1yZDRUQzR6QQ",
+      "domain": "news.google.com",
+      "categories": [
+        "airdrop",
+        "quests"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 34,
+      "intelligenceScore": 34,
+      "baseScore": 81.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 65,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "xuhlqrwvxwvvqcuzzm25bq1jdskrgehlsnhc5c3dvvhjtsgnbqtj4x1dlejvkmjnjadm3qxltqznnsldkatvgq0rwz19srko1ztflr0nmntzxahbvcw-oc-5",
       "title": "24 hours before Linea's launch: Airdrop, Valuation, and Risk Overview - Binance",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QeHJtT1JXUHlQRWVxWVVQcUZzM25BQ1JDSkRGeHlsNHc5c3dvVHJTSGNBQTJ4X1dLejVkMjNJaDM3QXltQzNnSldkaTVGQ0RwZ19sRko1ZTFlR0NmNTZxaHBVcw",
@@ -9675,52 +9901,6 @@
       "id": "6zuzmn2dxvlrrzmpxrzdyzujzu0dadvlfrellvkrpwvlcrjdts2tynlfvttj6cxlnumzjzwvidf83a2rxbhr5lxpyewtxs1pyx0tcd09yy2h1atbhqq-oc-5",
       "title": "Grass Airdrop Season 2 Claim Deadline and New Contents API in Focus - Coin Gabbar",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQXpuRG5hVFlCTlFmMjJLVHpfOVAyby10cTQwcmRWaEZDdFhtS0xvclU5aG16Qnc4eWVtVWZKX2FZZnJ6ZUZmN2dxVlRRZmpXRzdYZUJZU0dadVlFRElLVkRpWVlCRjdtS2tyNlFVTTJ6cXlNUmZJZWVidF83a2RxbHR5LXpyeWtxS1pYX0tCd09yY2h1aTBHQQ",
-      "domain": "news.google.com",
-      "categories": [
-        "airdrop",
-        "points"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 32,
-      "intelligenceScore": 32,
-      "baseScore": 78.0,
-      "valueScore": 35.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 35,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "g14rgleznazuelabmrsrexmmvvdqktzztjyd0zwzfbdv2doudzdmxpfnhzqtzmzwhbhs01eugdlrmfsrvbpm2ply0nsv2hyx1e5mhdsltnftxk1tg1m-oc-5",
-      "title": "Grass Airdrop Season 2 Claim Deadline Set As Contents API Goes Live - Coin Gabbar",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbDRWR2VHWDRrdV9JYmNvdi05TGpmSVgzNjRvRjk5ckZuazE0Mk45NklNM2xaMlZYY1htV21PNG14RGlEZnAzUElabmRSRExMMVVDQktZZTJYd0ZWZFBDV2dOUDZDMXpFNHZQTzMzWHBhS01EUGdLRmFSRVBpM2pLY0NsV2hYX1E5MHdSLTNfTXk1TG1m",
       "domain": "news.google.com",
       "categories": [
         "airdrop",
@@ -10125,6 +10305,51 @@
       }
     },
     {
+      "id": "skdyrvbmafr6zmptrk9yelkythjjrzvfauhxrtv6yxb1vhhmudnntfqxafn4vzywdentv0fcwmvfn3vpmkhuekt6udzja0zcblf3ofhzadl5b2vkohk-oc-5",
+      "title": "Introducing Fabric Protocol (ROBO) on Binance HODLer Airdrops! Earn ROBO With Retroactive BNB Simple Earn Subscriptions | Binance Announcements - Binance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQc28wRUdRQ3RlaXRQRlo5RmdiUHJuNlZLR01naGdoNWFhTzQwNFZQNjBkTnRCYkxzOHdPSkdYRVBmaFR6ZmpTRk9YelkyTHJJRzVfaUhXRTV6YXB1VHhMUDNnTFQxaFN4VzYwdENtV0FCWmVfN3VpMkhuekt6UDZJa0ZCblF3OFhzaDl5b2VkOHk",
+      "domain": "news.google.com",
+      "categories": [
+        "airdrop"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 100.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "wrunuvwvnotdgtlzfdfandweunrrhrmn2rezgkwzvzqr3rlnuviv3i1uwzhbs1mrlvmuhlps1docldishpqrvv5y3rrwvlldhbgt1ratepymzlcslbb-oc-5",
       "title": "Google Is Pausing a Lucrative Bounty Hunter Program. The Reason Points to a Weakness With Using AI - Inc.com",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa0s0RFVNY1hybUhaWXRoX0RoYXc4UVhXUHhfTjRrNEJpb0l3ODZPU21YOVJ4NV9qSk9DVExIMkxINUZ6aC1jMzZVRFJqcVJiT3Z5dkFuNVpDX2VpTGxtSEQ1amtkOUVqVGM4WUFqeWF5SjdBQ1B1eDNNSFRhSnRMRWRuNUVWVnotdGtlZFdfandweUNRRHRMN2REZGkwZVZqR3RLNUViV3I1UWZhbS1mRlVmUHlpS1dOcldiSHpqRVV5Y3RrWVlldHBGT1RaTEpyMzlCSlBB",
@@ -10132,6 +10357,51 @@
       "categories": [
         "points",
         "bounty"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 100.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "mwznnuvlyldzzk83d1r3wtjctgfyum1os2lbwxhua3rpmxzqsfdpsfflu2rtczljtujdzxo1v2wyt29hounhmhn6ofboz2vkr3juswjhdvawv2pfuwm-oc-5",
+      "title": "Ethereum Foundation Launches New Grant Program Structure - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRGVlZFFCRWZHYzdPMktmSDdRYldJejdmc3hZa2k5NXlFRTdiOEEtaGNnM1N1QUVZakZWbnphS21scGhEaHd2ejhEMWZNNUVlYldZZk83d1R3WTJCTGFyUm1OS2lBWXhUa3RPMXZQSFdpSFFlU2RTczlJTUJDZXo1V2wyT29HOUNhMHN6OFBOZ2VkR3JUSWJhdVAwV2pfUWM",
+      "domain": "news.google.com",
+      "categories": [
+        "grant"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -10397,18 +10667,18 @@
       }
     },
     {
-      "id": "5nzfcn2gtrvblr1lyaew0tmjydtzkn0duvnhjr2rkb0xsm25ceujtae1ktw9iunrtnlznwgj6y0d5dhpnstdha1zjuthinzfqekhvazlnskvlvvzfrq-oc-5",
-      "title": "Kadena Launches $100M Grant Program for Web3 Builders - Coinspeaker",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUR2NaYVdhY1J0QUZfUDlZM1plM1pTZE92NTJzcjlzdmE0NXBzc2NIT0Frc2l4VkVZZkwwaURSOXBzY2k3X0tYYWI1dU1IcUdNMHhTZE9nLWhEcEJQbDhDNmplall3M2FYa2hLU0t6RmtKdlNSdEFJ0gF8QVVfeXFMUE5ud2JpTm5wVUMwZ1RrSllyVGtmNFZ6VHdaT0c4SHd5NzFCN2gtRVBlR1lyaEw0TmJYdTZkN0duVnhJR2RKb0xsM25CeUJTaE1kTW9IUnRtNlZNWGJ6Y0d5dHpnSTdHa1ZJUThiNzFqekhvazlNSkVlVVZfRQ",
+      "id": "cltheehr6skp3oghjshponkp0mxqtymtivzbws25kvge3nkvfu2tmcfrsre8znexor0ftnwzfuetpzwplrxnnttvmtxl0sfdvuedlajiyv1zism1qdw-oc-5",
+      "title": "Nextcloud ends bug bounty program due to too many low-quality reports - Techzine Global",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdjRUUWJPVlY0TkNTamhSWGVPdTR2Z0lvcV82WVZNSm1pQ3BINlk3aF9XR2NHTWZWWGpVWWlFdzBBbHE0c0JfNzZjTzZOb3pETGZNNmVLNDVFODVBSDRpS3RCLThEeHR6Skp3OGhJSHpONkp0MXQtYmtiVzBWS25kVGE3NkVFU2tmcFRSRE8zNExOR0FTNWZFUEtPZWpLRXNnTTVMTXl0SFdVUEdLajIyV1ZISm1qdw",
       "domain": "news.google.com",
       "categories": [
-        "grant"
+        "bounty"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
       "realizationScore": 31,
       "intelligenceScore": 31,
-      "baseScore": 100.0,
+      "baseScore": 98.0,
       "valueScore": 36.0,
       "verification": "REACHABLE_DOMAIN_ALIGNED",
       "independentSources": 0,
@@ -10442,12 +10712,12 @@
       }
     },
     {
-      "id": "cltheehr6skp3oghjshponkp0mxqtymtivzbws25kvge3nkvfu2tmcfrsre8znexor0ftnwzfuetpzwplrxnnttvmtxl0sfdvuedlajiyv1zism1qdw-oc-5",
-      "title": "Nextcloud ends bug bounty program due to too many low-quality reports - Techzine Global",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdjRUUWJPVlY0TkNTamhSWGVPdTR2Z0lvcV82WVZNSm1pQ3BINlk3aF9XR2NHTWZWWGpVWWlFdzBBbHE0c0JfNzZjTzZOb3pETGZNNmVLNDVFODVBSDRpS3RCLThEeHR6Skp3OGhJSHpONkp0MXQtYmtiVzBWS25kVGE3NkVFU2tmcFRSRE8zNExOR0FTNWZFUEtPZWpLRXNnTTVMTXl0SFdVUEdLajIyV1ZISm1qdw",
+      "id": "uhpnfrun2l4ctg5vzf1mliyd3vpzm5hugs3wxaxvehsn0dkwevhre00aljndv9au0hhmgvsz3k1uvfhuhvmvgzunjfvxzjhdmrzahvnefrusgdiyxj3-oc-5",
+      "title": "BNB Chain Launches Airdrop Alliance Program for Exclusive Community Rewards and Airdrop Insights - Binance",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4xRWlubUhPNFRuN2l4cTg5VzF1MlIyd3VPZm5hUGs3WXAxVEhsN0dKWEVHRE00alJndV9aU0hhMGVSZ3k1UVFHUHVmVGZuNjFVXzJhdmRZaHVNeFRUSGdiYXJ3",
       "domain": "news.google.com",
       "categories": [
-        "bounty"
+        "airdrop"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -10982,99 +11252,9 @@
       }
     },
     {
-      "id": "mnxt2njsw9rzwi4n2tlz0rsy29bwu0tcm9mtnpjx1otegytclppnejpzmpjb0jksu1rzvhmzktbyu9ptzleyv9jnvm5bm5puee4u2nby2ruvzzpuwpr-oc-5",
-      "title": "Google Pauses Open-source Bug Bounty Program Over Invalid AI Reports - Dataconomy",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbTJQXzlxdVQxRjZRdmRFSndlaEZZdUN0ektCNGg5cmRIaW1QTWFoU1J1MUxqVUMzTXd4MVJIdXhzdFFWVi1ydi1ieGE4ek5LMmNxT2NjSW9RZWI4N2tLZ0RSY29BWU0tcm9MTnpjX1oteGYtclpPNEJPZmpJb0JkSU1RZVhmZktBYU9PTzlEYV9JNVM5bm5pUEE4U2NBY2RuVzZpUWpR",
-      "domain": "news.google.com",
-      "categories": [
-        "bounty"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 98.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "q1yxwlv0mxlbq2wxsdz5detvlukzswi3x19wd0rovjjfq2riohjjsdrgejdwse02zvbjzvdfdzldr0mtbtnrtghlvwr4x3zndmvsz2vpag1vohpbd28-oc-5",
       "title": "Google Just Hit Pause on Its Open-Source Bug Bounty Program —Explosive Surge in Submissions Has Left the - Benzinga",
       "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNQy1NODVoSHdjUzZkRWFrMlhDRFQ3dFgtQ05NLW1OczdnaGo2OUo3cGNKbl9ESkJ1dFNlUEtmYlRmc0ZwMXFxV3NoRXlWeEFudzFaMFJ3ZzdlVlZlbVFvNDdEcmNaYW9IT1Vnd2xXWTN0akFMMFB5Q0g0ZDlOOUNpdEZRWU9TbE8xbTJrbWZSZVA4TWhDYWtUalZDYkZjSm9HTmJVVmpGSkJjRXBjeFRJQzlZZENXUlQxMlNoMENCQ1YxWlV0MXlBQ2wxSDZ5dEtVLUkzSWI3X19Wd0ROVjJfQ2RiOHJjSDRGejdWSE02ZVBjZVdFdzlDR0MtbTNrTGhLVWR4X3ZndmVSZ2VpaG1VOHpBd28",
-      "domain": "news.google.com",
-      "categories": [
-        "bounty"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 98.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "pblbxtgvrtxzdv3llanppzzduskfrlvk0ueh3bm85t0jsslrfcxlvnzlvnk16rfdbzy1nq09dru5zvnzqwuvrunhrbgvxcdzztfhovdnvuxhlugl1dw-oc-5",
-      "title": "Google Pauses Open-Source Bug Bounty Program After Flood of Invalid AI-Generated Reports - CyberSecurityNews",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUk4zdGxPbDBTenkyR005cmJFQW8xUVZTR1F0YnJKZFY3bHE0OFpSRDFFMTBGQUZ4azh2VjV2VXk2V2lmZk9Fa0ZONXJSZUxSckZtTVdZQVhlZHZkX2FJbTlVbkJseEdqcWJBanYzaV9GYVBBT2VNeEl4bUhSMFdHedIBhgFBVV95cUxPVTBZcmhfRWwxTTM4ZHZ0bUVScnVReW0tNmt1aWloSl85WlF1eVVLQ3BPblBxTGVRTXZDV3lLanpPZzdUSkFRLVk0UEh3bm85T0JSSlRFcXlVNzlvNk16RFdBZy1nQ09DRU5ZVnZQWUVrUnhrbGVXcDZZTFhOVDNvUXhlUGl1dw",
       "domain": "news.google.com",
       "categories": [
         "bounty"
@@ -11253,7 +11433,7 @@
     },
     {
       "id": "5vws4mw44tvbibzfrdm5cvf9pczfsotnhr2dxsfuzwlf0mkfwzgi4zuxpz21xyuvku0y4czjuwxvmshflyug4dunwazbpnfnxqkj0v0hls1zqrjzazw-oc-5",
-      "title": "Retro9000, a $40M Grant Program, Rewards Developers Driving Avalanche Transactions - www.avalanche.com",
+      "title": "Retro9000, a $40M Grant Program, Rewards Developers Driving Avalanche Transactions - avalanche.com",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOWdvV1FTblMtRFR5N0JGb3lPVUFsRWhBTTYwSFJJTTlSM3d6QnRreHcyalBNMUx2RWVVTXk3cnFKay11d3FZQ1FINXBybk9KWVZJeEQ5VWs4MW44TVBibzFrdm5CVF9pczFSOTNhR2dxSFUzWlF0MkFwZGI4ZUxpZ21XYUVkU0Y4czJuWXVMSHFLYUg4dUNwazBpNFNXQkJ0V0hLS1ZqRjZaZw",
       "domain": "news.google.com",
       "categories": [
@@ -11840,12 +12020,12 @@
       }
     },
     {
-      "id": "rkruwdrxww1et25dwfrmn3vmanrsn0c4ee5zb3brd2dfbfy2njzbehplv2lorwt1mdvoade0vk9os0lyogjtzul0zzk4mhgtu09bz2ixadbhzxrwu1y-oc-5",
-      "title": "Crypto lost $110 million to hacks in July amid rising bug bounty activity: Immunefi - The Block",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS1FQM3hTN0U4Q3Z4c1FnQW5mNzNDMXY0VjdyczVLSTM2SjVqTnZKRkRuWDRXWW1ET25DWFRMN3VManRSN0c4eE5Zb3Brd2dFbFY2NjZBeHplV2loRWt1MDVoaDE0Vk9oS0lYOGJTZUl0Zzk4MHgtU09BZ2IxaDBHZXRwU1Y",
+      "id": "zlhu2fynnc4z2xivwl1dmtpuezonm1rc3pfz05nvl9icfmzqzhdzzvzb1y2bwxfsmffaefcsupncws2r25pudi1m001tv9wwk1mzxlpqnljudl0luhz-oc-5",
+      "title": "What is a crypto airdrop? Free tokens, eligibility, and tax traps - Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT0xIcm1SODM3SEtIOF9CRFFMUjNRaW5TOUZqNl9VblNiZFVvTFI2WWdGNTVXZzlHU2FyNnc4Z2xiVWl1dmtPUEZONm1Rc3pfZ05nVl9icFMzQzhDZzVZb1Y2bWxFSmFFaEFCSUpNcWs2R25PUDI1M001TV9WWk1MZXlPQnljUDl0LUhz",
       "domain": "news.google.com",
       "categories": [
-        "bounty"
+        "airdrop"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -11859,7 +12039,7 @@
       "frictionScore": 0,
       "competitionScore": 0,
       "eligibility": {
-        "signals": 2,
+        "signals": 3,
         "requiresManualCheck": true,
         "possibleKyc": false,
         "possibleGeographicRestriction": true,
@@ -12561,51 +12741,6 @@
       }
     },
     {
-      "id": "skdyrvbmafr6zmptrk9yelkythjjrzvfauhxrtv6yxb1vhhmudnntfqxafn4vzywdentv0fcwmvfn3vpmkhuekt6udzja0zcblf3ofhzadl5b2vkohk-oc-5",
-      "title": "Introducing Fabric Protocol (ROBO) on Binance HODLer Airdrops! Earn ROBO With Retroactive BNB Simple Earn Subscriptions | Binance Announcements - Binance",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQc28wRUdRQ3RlaXRQRlo5RmdiUHJuNlZLR01naGdoNWFhTzQwNFZQNjBkTnRCYkxzOHdPSkdYRVBmaFR6ZmpTRk9YelkyTHJJRzVfaUhXRTV6YXB1VHhMUDNnTFQxaFN4VzYwdENtV0FCWmVfN3VpMkhuekt6UDZJa0ZCblF3OFhzaDl5b2VkOHk",
-      "domain": "news.google.com",
-      "categories": [
-        "airdrop"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 94.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "t1bnmgwyu0dyvepuunbmeehmdmpmntd0mgxgalbzovdon3vtt0tutnbjaktvulbqzmc1clzxrdftofkxmevcdkl2btd5vg14nlfzuvrtu3l6v1jtamu-oc-5",
       "title": "The Sloan Foundation Awards GW a Grant to Encourage Open-Source Software - GW Today",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVWtMM1VLS2N0ME1URk9wdnBLYnNpN0Z1TEgxLVZrYlVPS1RIUE10OWpoTTZOUWtFMGhJT1BnMGwyU0dYVEpUUnBmeEhMdmpMNTd0MGxGalBzOVdON3VTT0tUTnBjaktvUlBqZmc1clZXRDFTOFkxMEVCdkl2bTd5VG14NlFZUVRtU3l6V1JTamU",
@@ -12702,51 +12837,6 @@
       "domain": "news.google.com",
       "categories": [
         "general"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 94.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "mwznnuvlyldzzk83d1r3wtjctgfyum1os2lbwxhua3rpmxzqsfdpsfflu2rtczljtujdzxo1v2wyt29hounhmhn6ofboz2vkr3juswjhdvawv2pfuwm-oc-5",
-      "title": "Ethereum Foundation Launches New Grant Program Structure - CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRGVlZFFCRWZHYzdPMktmSDdRYldJejdmc3hZa2k5NXlFRTdiOEEtaGNnM1N1QUVZakZWbnphS21scGhEaHd2ejhEMWZNNUVlYldZZk83d1R3WTJCTGFyUm1OS2lBWXhUa3RPMXZQSFdpSFFlU2RTczlJTUJDZXo1V2wyT29HOUNhMHN6OFBOZ2VkR3JUSWJhdVAwV2pfUWM",
-      "domain": "news.google.com",
-      "categories": [
-        "grant"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -13371,6 +13461,52 @@
       }
     },
     {
+      "id": "fz3l0ofrdnljlcgtjew4tvmfonc1arfjkcwzvakzmd1btbnm2cgxyagpkrex0mjris1ixqs1venfuewxqa3plzg5xv1pwdmrordjjmunxsnbrwmhibw-oc-5",
+      "title": "Crypto derivatives exchange BitMEX restarts open source developer grant program - CryptoNinjas",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRjZpSkhQMDFXYjFxUWhXWXY3S2RESmUtNmh0aDI1VkplUEJJUGM0VHdhdm92bTVHWjhMVW9tdGFKSG4xcVhaRkZhbzEyOVdTTGFYdHhyR3VYNTZPYXlfZ3l0OFRDNlJlcGtjeW4tVmFONC1aRFJkcWZVakZMd1BtbnM2cGxYaGpKREx0MjRiS1IxQS1VenFueWxQa3plZG5XV1pWdmRORDJJMUNXSnBRWmhIbw",
+      "domain": "news.google.com",
+      "categories": [
+        "grant",
+        "developer"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 94.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "yxywm0xfbljuqle2vy1ptjrdd28wvuzvohliujvcwk8zvmk4b0m5q2hft0deakprri1pbmrlbknhnwe5zk8zd1vtmepku05zmko5nkh6surqu2ppmue-oc-5",
       "title": "Fellaz Announces Grant Funding From the Arbitrum Foundation - Newswire",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQnRha0Z1UzQxSWMzR3pOcmJLLS0yMHhRZ3JrVnBlM2NraDlkSlAzMGFucnNiVjh5NnNCTlNZOWtIcXM3T0tzYzkxYXYwM0xFblJuQlE2Vy1PTjRDd28wVUZVOHliUjVCWk8zVmk4b0M5Q2hfT0dEakpRRi1PbmRlbkNhNWE5Zk8zd1VTMEpKU05ZMko5Nkh6SURQU2ppMUE",
@@ -13479,6 +13615,51 @@
       "deadlineUrgency": 10,
       "frictionScore": 0,
       "competitionScore": 8,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "5nzfcn2gtrvblr1lyaew0tmjydtzkn0duvnhjr2rkb0xsm25ceujtae1ktw9iunrtnlznwgj6y0d5dhpnstdha1zjuthinzfqekhvazlnskvlvvzfrq-oc-5",
+      "title": "Kadena Launches $100M Grant Program for Web3 Builders - Coinspeaker",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUR2NaYVdhY1J0QUZfUDlZM1plM1pTZE92NTJzcjlzdmE0NXBzc2NIT0Frc2l4VkVZZkwwaURSOXBzY2k3X0tYYWI1dU1IcUdNMHhTZE9nLWhEcEJQbDhDNmplall3M2FYa2hLU0t6RmtKdlNSdEFJ0gF8QVVfeXFMUE5ud2JpTm5wVUMwZ1RrSllyVGtmNFZ6VHdaT0c4SHd5NzFCN2gtRVBlR1lyaEw0TmJYdTZkN0duVnhJR2RKb0xsM25CeUJTaE1kTW9IUnRtNlZNWGJ6Y0d5dHpnSTdHa1ZJUThiNzFqekhvazlNSkVlVVZfRQ",
+      "domain": "news.google.com",
+      "categories": [
+        "grant"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 94.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
       "eligibility": {
         "signals": 2,
         "requiresManualCheck": true,
@@ -13962,51 +14143,6 @@
       "domain": "news.google.com",
       "categories": [
         "bounty"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 91.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "uhpnfrun2l4ctg5vzf1mliyd3vpzm5hugs3wxaxvehsn0dkwevhre00aljndv9au0hhmgvsz3k1uvfhuhvmvgzunjfvxzjhdmrzahvnefrusgdiyxj3-oc-5",
-      "title": "BNB Chain Launches Airdrop Alliance Program for Exclusive Community Rewards and Airdrop Insights - Binance",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4xRWlubUhPNFRuN2l4cTg5VzF1MlIyd3VPZm5hUGs3WXAxVEhsN0dKWEVHRE00alJndV9aU0hhMGVSZ3k1UVFHUHVmVGZuNjFVXzJhdmRZaHVNeFRUSGdiYXJ3",
-      "domain": "news.google.com",
-      "categories": [
-        "airdrop"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -14676,6 +14812,51 @@
       }
     },
     {
+      "id": "xte4zu0ixdjrdoghwqmoyedvwuzbuwxpvelrxrnuwmzexa1dlcjdqzzfidmdyvhzpzlpwnlllethjcurcmznlrmfftg80qmjpc0p1vznxsmzyqxd0qq-oc-5",
+      "title": "State Grant Programs Now Open for Applications: Oct. 13 Update - Pennsylvania House Democratic Caucus",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zU0IxdjRDOGhwQmoyeDVWUzBUWXpvelRXRnUwMzExa1dLcjdQZzFIdmdyVHZPZlpwNllleThjcURCMzNlRmFfTG80QmJPc0p1VzNxSmZYQXd0QQ",
+      "domain": "news.google.com",
+      "categories": [
+        "grant"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 91.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "vfamui3agj0me8tvvptbm93aeprzgd3qzdrvhpqnerjm3r0mhnktuoxs3dxrdlin3jpv0zkznl2tv8yegjornn0rfpoc0njujbvwuzmtdhyyxvumhvi-oc-5",
       "title": "Revolutionary MMT Buyback Program Transforms Token Economics with Massive Rewards - CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5oaFFYczlBUkdvYzQ2ZWgxQm5PbURBdVFaMUI3aGJ0ME8tVVptbm93aEpRZGd3QzdRVHpQNERJM3R0MHNKTUoxS3dXRDlIN3JPV0ZKZnl2TV8yeGJoRnN0RFpOc0NJUjBVWUZmTDhyYXVuMHVi",
@@ -14769,6 +14950,51 @@
       "id": "3ckrjdexerkz4aeu4vvhtufb0we5vofjacel4zmjqu3dmceriwnl4zfdknkzudxm3m2l5r2rwzxvnni1xuehyx2ktrktym2fqr0znunznmglytkfrzw-oc-5",
       "title": "AI slop overwhelms Google’s OSS bug bounty programme - Computer Weekly",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOGQ5VFVMR0I3Yzd0aHVWTTlBS0JndzdUTHR2TzV2MGpaQ2dLN2xDVlllVDlzU0hUR0htSGFjVUJnSTNJVm1Kel93ckRJdExERkZ4aEU4VVhtUFB0WE5VOFJacEl4ZmJQU3dmcERiWnl4ZFdKNkZudXM3M2l5R2RWZXVnNi1xUEhYX2ktRktyM2FQR0ZnUnZnMGlYTkFRZw",
+      "domain": "news.google.com",
+      "categories": [
+        "bounty"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 91.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "lxrwt2pzn2ppmxvot3nfbhhstgtwqufruxq1z0trtgk5ukrszffncleyzvjnczhhsdnht0twq3ayzfnxehnkvezit2vrnw1azk9boxdwwellofzhu0e-oc-5",
+      "title": "Google Pauses Open-Source Bug Bounty Program Amid AI Slop - BankInfoSecurity",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTEp5Z3lYaG1TU0o3UVlZQ01pb0FLRC1sSUxXbUNwOHVJLUJfOVp2c1NITUV4UWdDZkpORnBhSG9sRzlmSVl6clVNLXRwT2pZN2pPMXVOT3NfbHhSTGtwQUFrUXQ1Z0trTGk5UkRSZFFNclEyZVJNczhhSDNhT0tWQ3AyZFNxeHNkVEZIT2VrNW1aZk9BOXdWWElLOFZHU0E",
       "domain": "news.google.com",
       "categories": [
         "bounty"
@@ -15492,6 +15718,51 @@
       "domain": "news.google.com",
       "categories": [
         "grant"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 91.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "mpzzhdzmxnssf8zdhjxedrqbdqwukfemfb2rmjivjaxt3lybfa4c2zvd0kwyxfyoglfsm05b1bat19indfja2voy0hcu3dpqw1vc3pvdfhsn09ly01j-oc-5",
+      "title": "Coinbase Announces Bitcoin Rewards Credit Card, Offering up to 4% BTC Back on Everything - Bitcoin Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUjNyV2lwT1RERDByUzFKd0ZFQU9WSzFVb3VkRTZXSlpleGZWcHBHektRWFZPUTAwYktXbE1pR1pSMFd5ak1EZ2JaVlBiMFhyTUNublhoZXBwbmtvQV9UX1FPT3VRNmpzZHdZMXNsSF8zdHJxeDRqbDQwUkFEMFB2RmJIVjAxT3lybFA4c2Zvd0kwYXFyOGlFSm05b1BaT19iNDFja2VoY0hCU3dPQW1Vc3pvdFhSN09LY01j",
+      "domain": "news.google.com",
+      "categories": [
+        "general"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -16296,6 +16567,51 @@
       }
     },
     {
+      "id": "ulfzdgfnt0ezr2ncntytcwvnbddrmdh0v3jeuurxbgr3n2uxu0dudno4awdtm2exvzy0bfhvszv2ckktmhdvtkvkv0pfseprbhnfbfu5ukjtcxuyqkk-oc-5",
+      "title": "HackerOne’s 2020 Top 10 public bug bounty programs - ZDNET",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNVUzZURSd3g1TUp4OFF3U1JGUGczdkJQbUlSZXNLckxRMWdkWVF1Zlp6UlFzdGFNT0EzR2NCNTYtcWVNbDdrMDh0V3JEUURxbGR3N2UxU0dUdno4aWdtM2ExVzY0bFhVSzV2ckktMHdVTkVkV0pfSEpRbHNfbFU5UkJTcXUyQkk",
+      "domain": "news.google.com",
+      "categories": [
+        "bounty"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 91.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "bmtnrlbyr0jicfzjodcymetlvuzfzggzzdromi1qqwhxofdzakk3wdvzcwu3sgc2u1d0zkmxazjvmzjbeuzsujjhyknmcmjoltflzm5uvv9kq2hvrja-oc-5",
       "title": "Court Declares Unlawful Federal Grant Terminations Based on Changes to “Program Goals or Agency Priorities” - Dorsey & Whitney LLP",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZWg1b1daZnFHS1pDZ2V2SUdoUm5mMk56TVgtYnlxVkZoUEJDcDgtNUh0dkdzRXh1RGE1MU8xYzJMc2VNdm1XN2toaHQwUDNrb1pUT3FGMmZQdkR0Q1phbmtNRlByR0JicFZJODcyMEtlVUZFZGgzZDROMi1qQWhxOFdzakk3WDVZcWU3SGc2U1d0ZkMxazJvMzJBeUZSUjJhYkNMcmJoLTFlZm5uVV9KQ2hvRjA",
@@ -16882,9 +17198,9 @@
       }
     },
     {
-      "id": "swjguly1r1i3rdbtcu9jblzkwhvxctdkrvywotvlquyzzmxgcwozu2h5cnbirkfld0vgaelqlwxnevljrnzzdmvpx25pm0xtzeuxwheyzjnhalvfc0u-oc-5",
-      "title": "Google Shuts Down Bug Bounty Program Due To Bots - KFI AM 640",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd01fbEJzQkxobFpvdW1CMHM3NmpWWEpNWU9GX1JPeHhXRmNtRnp4THlVVHZGa29nYUpWeldFUExvOEpROUhfSWJGUlY1R1I3RDBtcU9jblZKWHVxcTdkRVYwOTVlQUYzZmxGcWozU2h5cnBiRkFLd0VGaElqLWxNeVlJRnZZdmVPX25PM0xTZEUxWHEyZjNhalVfc0U",
+      "id": "ymv6vzdhdwhnngvsuzvtrlfxtng1cfjtwvzlzzmytznyyxbpnwncn2zfddnadxjtyjnqbuhfbvayx2vomfdsn2tuzwfmvnfuakhhrdd4mf9xy25ivee-oc-5",
+      "title": "Google Shuts Down Bug Bounty Program Due To Bots - WBZ NewsRadio 1030",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOHlXb3lJRVR3SkQzb3BOczBDXzZqVUstVXFZVldNcEs4dHJHcnVOeWZYbnlzS2g2emdsUmNTYjhGdEtkY0xaWlhTMEVKYmV6VzdhdWhNNGVSUzVtRlFxTng1cFJTWVZLZzMyTzNyYXBPNWNCN2ZFdDNadXJTYjNQbUhFbVAyX2VOMFdSN2tUZWFMVnFUakhhRDd4MF9XY25iVEE",
       "domain": "news.google.com",
       "categories": [
         "bounty"
@@ -16930,6 +17246,96 @@
       "id": "b1zfajlzsmrha1nxtlnbt2lemgpnmwx3zxpnwdhvtfb2yuzunxdhzvvydi1hofd4skvfsfrxadracw1oouvpbk01a1ntq3lgckdhz0syahlhy0xzmms-oc-5",
       "title": "Google Shuts Down Bug Bounty Program Due To Bots - newsradio 1040 who",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRDJiZFJZaDJSTTNmTURwaDE5UW01MzNQM2pxdmo0OE0xQVlldVFMQnVtVUJHQzRkXzdJMGs3c1JETG1lN3lkb1ZfajlzSmRha1NxTlNBT2lEMGpnMWx3ZXpnWDhvTFB2YUZuNXdHZVVYdi1HOFd4SkVFSFRxaDRacW1oOUVPbk01a1NTQ3lGckdhZ0syaHlHY0xzMms",
+      "domain": "news.google.com",
+      "categories": [
+        "bounty"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 91.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "mnxt2njsw9rzwi4n2tlz0rsy29bwu0tcm9mtnpjx1otegytclppnejpzmpjb0jksu1rzvhmzktbyu9ptzleyv9jnvm5bm5puee4u2nby2ruvzzpuwpr-oc-5",
+      "title": "Google Pauses Open-source Bug Bounty Program Over Invalid AI Reports - Dataconomy",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbTJQXzlxdVQxRjZRdmRFSndlaEZZdUN0ektCNGg5cmRIaW1QTWFoU1J1MUxqVUMzTXd4MVJIdXhzdFFWVi1ydi1ieGE4ek5LMmNxT2NjSW9RZWI4N2tLZ0RSY29BWU0tcm9MTnpjX1oteGYtclpPNEJPZmpJb0JkSU1RZVhmZktBYU9PTzlEYV9JNVM5bm5pUEE4U2NBY2RuVzZpUWpR",
+      "domain": "news.google.com",
+      "categories": [
+        "bounty"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 91.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "1a1kzqnnja1zom2xscglccei1cvdha3lbdlrmauxseet0u1lqyvn6vtravv9xyvhtu0hgutbwzmhmn3mzaullc29mrdl1vkhdbe1jetreq3buzzltsq-oc-5",
+      "title": "Google pauses Bug Bounty program due to AI spam - dev.ua",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa1NMNG1JX2huTWxEU3RsVkpBZjRqbmo3Ujh2SE1MbHVVbFdTUmh1a1kzQnNJa1ZOM2xscGlCcEI1cVdha3lBdlRMaUxSeEt0U1lQYVN6VTRaVV9xYVhtU0hGUTBwZmhmN3MzaUlLc29mRDl1VkhDbE1jeTREQ3BuZzltSQ",
       "domain": "news.google.com",
       "categories": [
         "bounty"
@@ -17020,6 +17426,51 @@
       "id": "qrmztak9vufdla3pyehjzzk9coufvrdbtdwdbdkhlvnhkwkj3bdzfujrpmevvrvflwmvvsfc1ymtmnursyxvnu2dblxhkdwztyxdtqu1ztxd6aejxrq-oc-5",
       "title": "Google temporarily suspends bug bounty program due to a surge in AI-generated bug reports. - GIGAZINE",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUnJhSi1lS0YtYUpEZGZIRERqWW1xVHIxTzA3SDk5X1Q1em5mS0lfaHhGUGRBVjBmT1VqRmZTak9vUFdLa3pyeHJZZk9COUFvRDBtdWdBdkhlVnhKWkJ3bDZfUjRPMEVVRVFlWmVVSFc1YmtmNURSYXVnU2dBLXhKdWZtYXdtQU1ZTXd6aEJxRQ",
+      "domain": "news.google.com",
+      "categories": [
+        "bounty"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 91.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "pblbxtgvrtxzdv3llanppzzduskfrlvk0ueh3bm85t0jsslrfcxlvnzlvnk16rfdbzy1nq09dru5zvnzqwuvrunhrbgvxcdzztfhovdnvuxhlugl1dw-oc-5",
+      "title": "Google Pauses Open-Source Bug Bounty Program After Flood of Invalid AI-Generated Reports - CyberSecurityNews",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUk4zdGxPbDBTenkyR005cmJFQW8xUVZTR1F0YnJKZFY3bHE0OFpSRDFFMTBGQUZ4azh2VjV2VXk2V2lmZk9Fa0ZONXJSZUxSckZtTVdZQVhlZHZkX2FJbTlVbkJseEdqcWJBanYzaV9GYVBBT2VNeEl4bUhSMFdHedIBhgFBVV95cUxPVTBZcmhfRWwxTTM4ZHZ0bUVScnVReW0tNmt1aWloSl85WlF1eVVLQ3BPblBxTGVRTXZDV3lLanpPZzdUSkFRLVk0UEh3bm85T0JSSlRFcXlVNzlvNk16RFdBZy1nQ09DRU5ZVnZQWUVrUnhrbGVXcDZZTFhOVDNvUXhlUGl1dw",
       "domain": "news.google.com",
       "categories": [
         "bounty"
@@ -17377,6 +17828,51 @@
       }
     },
     {
+      "id": "frsbkntvvm2uefwt2zxrko5wgtvovllttczqks4u1qztwi1q3zlafhnvmvev1pqb3lkcmdoxzexnnhhsjhom0tidvq5mkl2y1q2czh5blhctkpedtbr-oc-5",
+      "title": "Intel Appears To End Its Bug Bounty Program - Phoronix",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwNEhaOTZWT3hacGhmSFRSbkNTVVM2UEFwT2ZXRko5WGtVOVlLTTczQks4U1QzTWI1Q3ZLaFhNVmVEV1pqb3lkcmdOXzExNnhHSjhOM0tIdVQ5Mkl2Y1Q2czh5blhCTkpEdTBr",
+      "domain": "news.google.com",
+      "categories": [
+        "bounty"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 91.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "yu1md2l6mtvybuy5axj4vlrnvhbosw5iwwj5cfvsrwhjz05ndl9nnw1jn3gtdhq3s3fqykrgbwd5b2phdhgtu1bynm5jzvfvz3bfudjybeliemj4cke-oc-5",
       "title": "Other Barks & Bites for Friday, November 15: Sweden Becomes First Country to File for Trademark; Open-Source Company Launches Patent Troll Bounty Program; and District Court Dismisses Patent Infringement Lawsuit Against Amazon - IPWatchdog.com",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWmFEdlVFWWtfUVJLQ1BXZWdiWjlCTk1fTkhOTV9DbmxuTEc3Uzg2Skt1SUdkN29iQzlueXItR2hVVDVTSXR0UDNiSmpucEQ4ZnpJZGJaQWs0bmhGY1pHNzlxZzFvM1hrNEU5V1V6MkVkN2N0bFpicmx0R1NpOUNJblhQM0FWWXdkYU1md2l6MTVybUY5aXJ4VlRNVHBOSW5iWWJ5cFVSRWhjZ05Ndl9NNW1jN3gtdHQ3S3FQYkRGbWd5b2pHdHgtU1ByNm5JZVFvZ3BfUDJYbEliemJ4ckE",
@@ -17602,12 +18098,12 @@
       }
     },
     {
-      "id": "lxrwt2pzn2ppmxvot3nfbhhstgtwqufruxq1z0trtgk5ukrszffncleyzvjnczhhsdnht0twq3ayzfnxehnkvezit2vrnw1azk9boxdwwellofzhu0e-oc-5",
-      "title": "Google Pauses Open-Source Bug Bounty Program Amid AI Slop - BankInfoSecurity",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTEp5Z3lYaG1TU0o3UVlZQ01pb0FLRC1sSUxXbUNwOHVJLUJfOVp2c1NITUV4UWdDZkpORnBhSG9sRzlmSVl6clVNLXRwT2pZN2pPMXVOT3NfbHhSTGtwQUFrUXQ1Z0trTGk5UkRSZFFNclEyZVJNczhhSDNhT0tWQ3AyZFNxeHNkVEZIT2VrNW1aZk9BOXdWWElLOFZHU0E",
+      "id": "isudludzerfn4thgznw02dgfbvuzev1zxsmf5sfjrtzqwdi1navnavmtvb0lvnlc2wv9vzfo3v3vwvvm1cxphze94bhbwakdjqvayegoxd1vmt0n3dw-oc-5",
+      "title": "Estonian startup gets a social impact grant from Chainlink Community Grants Program - ArcticStartup - ArcticStartup",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE55dDZQN3ZGeFp0bFVPNGVWSXd3VURISUdLUDZERFN4THgzNW02dGFBVUZEV1ZXSmF5SFJRTzQwdi1naVNaVmtVb0lVNlc2WV9VZFo3V3VWVVM1cXphZE94bHBWakdjQVAyeGoxd1VMT0N3d9IBckFVX3lxTE55dDZQN3ZGeFp0bFVPNGVWSXd3VURISUdLUDZERFN4THgzNW02dGFBVUZEV1ZXSmF5SFJRTzQwdi1naVNaVmtVb0lVNlc2WV9VZFo3V3VWVVM1cXphZE94bHBWakdjQVAyeGoxd1VMT0N3dw",
       "domain": "news.google.com",
       "categories": [
-        "bounty"
+        "grant"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -19089,6 +19585,51 @@
       }
     },
     {
+      "id": "rkruwdrxww1et25dwfrmn3vmanrsn0c4ee5zb3brd2dfbfy2njzbehplv2lorwt1mdvoade0vk9os0lyogjtzul0zzk4mhgtu09bz2ixadbhzxrwu1y-oc-5",
+      "title": "Crypto lost $110 million to hacks in July amid rising bug bounty activity: Immunefi - The Block",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS1FQM3hTN0U4Q3Z4c1FnQW5mNzNDMXY0VjdyczVLSTM2SjVqTnZKRkRuWDRXWW1ET25DWFRMN3VManRSN0c4eE5Zb3Brd2dFbFY2NjZBeHplV2loRWt1MDVoaDE0Vk9oS0lYOGJTZUl0Zzk4MHgtU09BZ2IxaDBHZXRwU1Y",
+      "domain": "news.google.com",
+      "categories": [
+        "bounty"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 88.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "vlniuhfqsezzyu5hu0zvz2npdvhwthracnhiaxjgrwfbdm1zunjsmhbuandzukqyz001qjh5tuzesnqteum3s2ftofpzb1zfbenkvuc0cxdaug5tytg-oc-5",
       "title": "MetaMask Launches Points Rewards for On-Chain Activity - CryptoTicker",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPV3U2bW4tS19TSkRsckw5Z2UwdHpETTFrS1l5b2owUHc3c2w4dW00VlNIUHFqSEZZYU5hU0ZvZ2NpdVhwTHRacnhIaXJGRWFBdm1ZUnJsMHBuandzUkQyZ001Qjh5TUZESnQteUM3S2FTOFpZb1ZfbENkVUc0cXdaUG5tYTg",
@@ -19199,51 +19740,6 @@
       "competitionScore": 0,
       "eligibility": {
         "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "zlhu2fynnc4z2xivwl1dmtpuezonm1rc3pfz05nvl9icfmzqzhdzzvzb1y2bwxfsmffaefcsupncws2r25pudi1m001tv9wwk1mzxlpqnljudl0luhz-oc-5",
-      "title": "What is a crypto airdrop? Free tokens, eligibility, and tax traps - Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT0xIcm1SODM3SEtIOF9CRFFMUjNRaW5TOUZqNl9VblNiZFVvTFI2WWdGNTVXZzlHU2FyNnc4Z2xiVWl1dmtPUEZONm1Rc3pfZ05nVl9icFMzQzhDZzVZb1Y2bWxFSmFFaEFCSUpNcWs2R25PUDI1M001TV9WWk1MZXlPQnljUDl0LUhz",
-      "domain": "news.google.com",
-      "categories": [
-        "airdrop"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 88.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 3,
         "requiresManualCheck": true,
         "possibleKyc": false,
         "possibleGeographicRestriction": true,
@@ -19677,6 +20173,51 @@
       }
     },
     {
+      "id": "wsum1advzc2tkvgdzwvpgntu5t0lbm3lsekf3thvmc0tlz2ktuezlszlgwhrvnflrsgxuvktfqvjezta3cde1sjvdodhztupovefwoecyywzjr2hstq-oc-5",
+      "title": "Backpack Exchange Unveils Essential BP Airdrop Claim Checker for Eager Crypto Community - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51R3lJdHZlVFZXUHdrRDl0dEtJYWZIU1JjOUZZTDZwSUM1aDVZc2tkVGdZWVpGNTU5T0lBM3lsekF3THVmc0tLZ2ktUEZLSzlGWHRvNFlRSGxUVktFQVJEZTA3cDE1SjVDODhZTUpoVEFWOEcyYWZjR2hsTQ",
+      "domain": "news.google.com",
+      "categories": [
+        "airdrop"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 85.0,
+      "valueScore": 35.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "ldau0nsau9bvv95cuxpwulzuhbvtellmzn2tux2men1sgver3bpew1fof8xyutyqw82tvpymmlqdtr2czduymhlaufjsenza1bqc0rjctdpdupxwlnj-oc-5",
       "title": "What Is Linea? Complete Guide to the Airdrop and Claim Process - Ventureburn",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ZSXNQcFVMSUszM3ZNTHYwQ3VIZURHcGl5bV84XzFhS1hBbzZNWnIyaWp1NHZzN1RiaGVpQWNIQ3NrUFBzRGNxN091SldaU0nSAU9BVV95cUxPWUlzUHBVTElLMzN2TUx2MEN1SGVER3BpeW1fOF8xYUtYQW82TVpyMmlqdTR2czdUYmhlaUFjSENza1BQc0RjcTdPdUpXWlNJ",
@@ -19956,51 +20497,6 @@
         "airdrop",
         "quests",
         "testnet"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 84.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "0tgxwumgwwxzumvlnu0zbs0tctwn0cgk5yv9omtzvri1tzwtsww11cllunhhbvxeznmfhwwvouwpmsmk2cujhatrzzva5envqq2ztb2nfyjrevzlrtq-oc-5",
-      "title": "Y Combinator and Coinbase Venture Backed Cypher Protocol Unlocks On-Chain Payments and Rewards to the Mainstream - The Block",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUXNKWkNteUdObEpKSGlFeVd6TFpQdTF4ZWlCQTNRNFhfSTBSQmNBdUxqdmFfX2M4MF84RXdSYzJQZ1dyMGZhcUhzeTM3TGxXTlBsd2FUejNOQm1ZbWIzTGZ0UF9WMllqSXVCam1SMy1IcG5JWHpfOWI3ZHRVWm1HYmNkTVNIT2RIRGJDTkQ3ZHNjTEVoc1VLRUk0TGxWUmgwWXZuMVlnU0ZBS0tCTWN0cGk5YV9oMTZVRi1tZWtsWW11cllUNHhBVXEzNmFhWWVOUWpMSmk2cUJHaTRZZVA5enVqQ2ZTb2NfYjREVzlRTQ",
-      "domain": "news.google.com",
-      "categories": [
-        "general"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -20671,6 +21167,51 @@
       }
     },
     {
+      "id": "kc2uwzhcehuuhi5wetsqtzmmmjjmg1utdltrvjjrklmemzrownvrtbqaw5rdtboni1fel9yoetpdufxevf3qxvtmzbnotngemjvbw5pymf3c1pbwlfk-oc-5",
+      "title": "Plume Relaunches Nest Protocol to Tie Real-World Yields to Onchain Rewards - Chainwire",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUVpTWlQzX3M0SXIwSTA4TUE1LVktLVRSeE00RHg2eWhBSGtFVEJxVlhCR29FMDlGOVF2LU1zWkhoQzRFNVZpdnA5QTBaT2RJaHd0cXVTbkc2UWZhcEhuUHI5WEtSQTZMMmJjMG1UTDltRVJjRklMemZrOWNvRTBQaW5rdTBONi1fel9yOEtPdUFXeVF3QXVTMzBnOTNGemJvbW5pYmF3c1pBWlFK",
+      "domain": "news.google.com",
+      "categories": [
+        "general"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 84.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "gsjjrtwvpwffomng0zvplt25rdnnqcjdilxbmlv9uog9mc3k5qkhjqzjwmhhwagk3y1ezegpdbelazghaqmpuam5iogd4d2rhnek3ufjmwwvrzlnmqq-oc-5",
       "title": "Telegram mini-app developers can now use Stars to get TON rewards or ad discounts - The Block",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLWNoZkxuTWVXLTN5SkZFblQxU1NsTjNoOHZzZG9BUFZqNy1ETHFMQVdYWXhwcmlDM0dFekh2NlBhcnVpR1l2QVdpak50SURLUW9GM0x5RVBkeVNSME9zSVJEWV8zRk9uTEFOVG8xNVJvNVM0eFFyZUNGSjJRTWVpWFFoMng0ZVpLT25rdnNQcjdILXBmLV9uOG9mc3k5QkhJQzJWMHhwaGk3Y1EzeGpDbElaZGhaQmpuam5iOGd4d2RHNEk3UFJmWWVRZlNmQQ",
@@ -20764,6 +21305,51 @@
       "id": "u3rhqklreuzvrgpxde1htfbhcfm5mfktq3hyvklnv1zals1xsxvtr1zlbgo3v1cya0zjyxpvnkrqc1jqz2eyv3lfuzbonkzouvnay3zmvzlptvuxrg4-oc-5",
       "title": "Virtuals Protocol Gains 3.4% on Rewards Push - CoinMarketCap",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9waXR2dWtBWmZSYW9lRjNlNEI5U3RHQklreUZVRGpxdE1hTFBhcFM5MFktQ3hyVklnV1ZaLS1XSXVTR1ZLbGo3V1cya0ZJYXpvNkRQc1JQZ2EyV3lFUzBONkZOUVNaY3ZMVzlpTVUxRG4",
+      "domain": "news.google.com",
+      "categories": [
+        "general"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 84.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "jzezktklfwllktmf4d3ror2xodlbsq0f5ytrnrmxfcentn0n3bnbfdxzycwdlzw5mzwvydxlmvtdsegdquvyynmjnsfvmqvq3tzjjcxazz0w5t082qq-oc-5",
+      "title": "Blue Protocol: Star Resonance SEA Available Now With Pre-Registration Rewards In-Game - GamerBraves",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX050cEEzR1VIdExDUVFLeXluQ2tTTDNCeXl3ekpNenFNRHVMSVdHMkZhQ0hYRE82SnFOdjNoalpKSE5ibWF4b0E0TGpMLXp5TEU5WW1LVDk3OXBoNjVjZEZkTklFWllkTmF4d3RoR2xOdlBSQ0F5YTRNRmxfcENtN0N3bnBFdXZycWdlZW5mZWVYdXlMVTdSeGdqUVYyNmJNSFVMQVQ3TzJjcXAzZ0w5T082QQ",
       "domain": "news.google.com",
       "categories": [
         "general"
@@ -21573,6 +22159,51 @@
       }
     },
     {
+      "id": "wvdocwpoogdomtuynwp3m2vxngxvczjqremtae5yr3f0qwrpewncrxl2c1vkshnxa3riddi5cw14bwtyq2hacnpfv3vwunq5vwlzt2jzmffattnmblu-oc-5",
+      "title": "Luxembourg Grant Ripple Full EMI License, as Virtuals Protocol Releases Integration for OpenClaw with its Agent Commerce Protocol - Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84d252Ymx2R09QeEJxcDg1c1FqUThnWVdOcWpoOGdoMTUyNWp3M2VXNGxVczJqREMtaE5YR3F0QWRPeWNCRXl2c1VkSHNxa3RIdDI5cW14bWtyQ2hacnpfV3VwUnQ5VWlZT2JzMFFaTTNMblU",
+      "domain": "news.google.com",
+      "categories": [
+        "grant"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 84.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "ky2elm2txr2b1jcz1bqls1js1rmmhoxt2v3sdlpzdfwtejjlxruzjbidwlodmndrxq4mxrhegluvhq3sktxoe1fx1vsbgfsuhdnq3r6mkp5rxbdc0dx-oc-5",
       "title": "Tezverse Is Live: Games, AI, DeFi, and On-Chain Rewards Come Together in One Growing Ecosystem - 24-7PressRelease.com",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNjUxaUZOay1VTUhaeHd4SVlneEtCaU9NWlMtekZydlNRQ0d5WUFTa1ZPZXdDY21oeW8xY01jYUFjRzVHUUx3M0JEWVVoS1Z3VXo0aWhjTUpMMVNkLTJlRTlSaUVvcXZPa1hQbkp1M0tkWWUzQ0xoenZIdTVZbXZ0SmE3RG9oakY2elM2TXR2b1JCZ1BqLS1JS1RMMHoxT2V3SDlpZDFwTEJjLXRUZjBidWlodmNDRXQ4MXRheGluVHQ3SktXOE1FX1VSbGFsUHdNQ3R6Mkp5RXBDc0dX",
@@ -21753,51 +22384,6 @@
       }
     },
     {
-      "id": "rajvpmxvot2h6uuzfs1diqk1tefnhazlhq05mc1bgmvbvvi1jdde0dhnsalb5zjloamjusu1eakytrtbandjoz3rpymzwu3bqmm0ya2nmuzfuoedzbq-oc-5",
-      "title": "ZKsync sunsets ‘Ignite’ token rewards for DeFi ecosystem, cites market conditions and focus on Elastic Network - The Block",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQaS1UZlR5X3dyZEM0RmlzSzNHOW5yMm9pNWhIQmFiWVJhNTZVbWhEM24yMTdBVG96eGQzcTBkbGZYeWpocTRLdWRId2tFNEg5TWpOUlFIN21vUWh3c1FuRVJYc05aelVTTUpXYVI1blhRdkp4WVdaY09nbjNxWFNyTVdqcW9TTzNSTzVKTWxZMjBvcGY2WnFxN1hjTXlBSGk3MG1rajVpMXVOT2h6UUZFS1diQk1TeFNHazlhQ05mc1BGMVBvVi1jdDE0dHNsalB5ZjloamJUSU1EakYtRTBaNDJOZ3RPYmZwU3BQMm0ya2NMUzFUOEdzbQ",
-      "domain": "news.google.com",
-      "categories": [
-        "general"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 84.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "fewxwcfl2aepcrlbzu1q3eui4wlfrmwziqutjq1u4r3ncoxpiai1bewrrmgdrbjv6vv85vjkzqze5t3lzvejhmw8zd1vuathxbersykttcjvmsmnkma-oc-5",
       "title": "TONs of Dungeons 101: Developer of Top Game on Solana Launches Own TG Game With $CHEF Airdrop - BitPinas",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JRW9HOG1McmFUNk9lN3FxZmtfeWxwcFl2aEpCRlBZU1Q3eUI4WlFRMWZiQUtJQ1U4R3NCOXpIai1BeWRrMGdrbjV6VV85VjkzQzE5T3lZVEJHMW8zd1VUaThxbERSYkttcjVmSmNkMA",
@@ -21850,6 +22436,51 @@
       "domain": "news.google.com",
       "categories": [
         "bounty"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 84.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "yw5jtw8wuunuthq2qupecuvgenytm1howlluazy0tktpdm1jtve3ntbsnxvgngfpbnjra040nfj2c1kyy3n2ae9on21gyunwmtfxdffhtzfntnnkwwy-oc-5",
+      "title": "ElevateFi Launches Next-Generation Decentralized Staking and Rewards Network on Polygon, Targeting Sustainable Wealth Creation - TechBullion",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNLVNmamZ0ZDdUWUxYaXJDTEhkaXp4Q2RDLVpVQ3FxSlpLV2lsdEZKMWZMLXozUUktMHpuN19TVDRkbFdoNm1lRnZmNHN2QmxmQlFTS0s5cU9MRG1EN2EzZWhYeUtkZm5hbmFiUHJlSExmaERoMl9sZVUxdnVScWxtalQ1MEdBUDliMGpFMmFGYW5JTW8wUUNUTHQ2QUpEcUVGenYtM1hOWllUazY0TktPdm1JTVE3NTBSNXVGNGFpbnJra040NFJ2c1kyY3N2aE9ON21GYUNwMTFxdFFHTzFnTnNKWWY",
+      "domain": "news.google.com",
+      "categories": [
+        "general"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -22837,51 +23468,6 @@
       "id": "x3lxte53vdrmujnsvmy5tlkyodd3rmw3benhdwhiv1hyau1snxc0a2pvvljvmmlnmlpuoudga21jvgfabvboxzn2uunjvjfyewxlyungwm1gymrnwla-oc-5",
       "title": "Fold secures $150M credit facility to expand Bitcoin rewards credit card business - Cryptonews.net",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53VDRmUjNSVmY5TlkyODd3Rmw3bENhdWhIV1hYaU1sNXc0a2pVVlJvMmlNMlpuOUdGa21JVGFabVBoXzN2UUNjVjFyeWxLYUNGWm1GYmRNWlA",
-      "domain": "news.google.com",
-      "categories": [
-        "general"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "ivefvx3lxte5os0hzrtluaerknhn4bdhctufjlxdzngm3v2cyeuhaadvfm3m0sy10sgvqmks3alp4vunktwizt0r5zulwy0uxcxlfynbirlpmanjtyq-oc-5",
-      "title": "CORRECTION: Fold Rolls Out New Bitcoin Rewards Credit Card - Taiwan News",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oS0hzRTluaERKNHN4bDhCTUFJLXdzNGM3V2cyeUhaaDVfM3M0Sy10SGVQMks3alp4VUNkTWIzT0R5ZUlWY0UxcXlFYnBiRlpManJTYQ",
       "domain": "news.google.com",
       "categories": [
         "general"
@@ -23962,6 +24548,51 @@
       }
     },
     {
+      "id": "wdzvebklywuroq1dvmvholxrnb051m3y5amjjac1fvkfawdr3ak9uanztb1zev2wyn3psazdfmmdsmfrfck93s0ppsgtmmny3mzvvcjvxcmm5muzzlq-oc-5",
+      "title": "Rocky Rabbit ($RBTC) Airdrop: Eligibility, Tokenomics and More to Know - KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN0tCZTRqQ2dOTkhiQ3NNZDZsZW52dldIUldHdEtzZWVIZWlqTlBveUMtaWZYLXpyczQ5LVlYTTJBSGhkWXRGM21WdXRyZmZwdzVEbklyWURoQ1dvMVhOLXRNb051M3Y5amJJaC1fVkFaWDR3ak9uanZtb1ZEV2wyN3psazdfMmdSMFRfck93S0ppSGtMMnY3MzVVcjVXcmM5MUZzLQ",
+      "domain": "news.google.com",
+      "categories": [
+        "airdrop"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 81.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 3,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "sthtudrzcti0sgfrcfl3bhhwq2tqdxvkzddsvmg5xzr5bja5ahpjvjbaberda19vnxnjls1jzvlbawwwr2hudwh6zkpqvkfzohi5wmpbx2k2t25kqke-oc-5",
       "title": "Herman Ray Grant Obituary - Lubbock Avalanche-Journal",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YSThTUDRzcTI0SGFRcFl3bHhwQ2tqdXVkZDdSVmg5XzR5bjA5aHpjVjBabERDa19vNXNjLS1JZVlBaWwwR2hudWh6ZkpQVkFzOHI5WmpBX2k2T25kQkE",
@@ -24508,96 +25139,6 @@
       "domain": "news.google.com",
       "categories": [
         "airdrop"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "tahfymznjy2kxcm1uwunixznstw82wkj0zjnuselud093rwi0nxo4teo5edjscex5ludqrmptwvdqt1zeqmtsemdlbc1rrjzrm0rsvhv5whbssxdxuw-oc-5",
-      "title": "Kalshi Moves to End Volume Rewards as CFTC Scrutinizes Prediction Markets Incentives - DeFi Rate",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaGZsdmc3Tk5aU3kwQ1RGMkdPNEp5X1A5SzBTRVV2VGM0a2hBZS00UEhLdlBzWFQtaHFYMzNJY2kxcm1uWUNiXzNsTW82WkJ0ZjNuSElud093RWI0NXo4TEo5eDJScEx5LUdqRmpTWVdqT1ZEQmtSemdLbC1rRjZrM0RSVHV5WHBsSXdXUw",
-      "domain": "news.google.com",
-      "categories": [
-        "general"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "eug92al9jylpfvkzfevljrmvwsvbuzezvs21cnwldeha4r0psa2flegnwq09oald6s1lpenzaalbxx0vnnwq5yvz5ynyxn0liwlj2vljlblzzvvzyuq-oc-5",
-      "title": "Stablecoin cards win users on FX savings, not rewards: Wirex CEO - Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBjM3h3V0ZlOXdVY3lROXhUYlZZVkhMRHJZVFFoVFZ5eEtEUG92al9JYlpfVkZfeVlJRmVwSVBUZEZvS21CNWlDeHA4R0pSa2FleGNWQ09oald6S1lpenZaalBxX0VnNWQ5YVZ5YnYxN0lIWlJ2VlJlblZZVVZYUQ",
-      "domain": "news.google.com",
-      "categories": [
-        "general"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -26530,6 +27071,51 @@
       }
     },
     {
+      "id": "epsndvoc1jua2hjwlo2ageyafbnuvfcatrmwxg5nulvrdfwbxhdsmdjrwpywuwxbzk2udblumznaetzwtcwsnhimfvpq3b3skv1zjrduws3nklxrkmw-oc-5",
+      "title": "Jupiter Airdrop: What You Need to Know About the Solana JUP Token Launch - Decrypt",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVzA1ZHRqUVludVJpTkdoUEFPNThhdWZEN0pOaEZQYlpVZ1FNUmp5V3B0Mlp5ellWb01BVGFJZEpSNDVOc1JUa2hjWlo2aGEyaFBnUVFCaTRmWXg5NUlVRDFWbXhDSmdjRWpYWUwxbzk2UDBLUmZNaEtZWTcwSnhiMFVPQ3B3SkV1ZjRDUWs3NklxRkMw",
+      "domain": "news.google.com",
+      "categories": [
+        "airdrop"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 81.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "wtibha3wxpoukeyewjybemxmvy5zhyxcvrommlktxldrfpdrjg3wle4teloqjd2czj4c1n5eg9ktmgzynu1y1roeehvshk0nxnytnnsz0tmlxrpuvdl-oc-5",
       "title": "INJ Flash Rewards Campaign: Get 15% p.a. - Crypto.com",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LZTRrQ2FhczFUSWtIbHA3WXpOUkEyeWJYbEMxMVY5ZHYxcVROMmlkTXlDRFpDRjg3WlE4TElOQjd2czJ4c1N5eG9kTmgzYnU1Y1RoeEhVSHk0NXNYTnNSZ0tmLXRPUVdl",
@@ -26671,51 +27257,6 @@
       "domain": "news.google.com",
       "categories": [
         "bounty"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "os16u0hxwgmybmhzmzlxs3e5wtn2vgkwek9tsvfdrunqy1bztkryekrklvzlmfpnlvhtec1xbxhmoenhzjdomznta0nlr0s5ynd6mvjqshrqrmjkcke-oc-5",
-      "title": "UW researcher lands grant to bring chip-based beam-steering LIDAR to market with new startup - GeekWire",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS2ROUTB2a1JuTlZBX0FveXQtSzZCWHB2el9QeW5ra0huMnltZ0dpSDZEa1VzWkJoUXA3RGh3SUk2WlZENVVxLUtRZVZGVjZBSEx2M3g4SW5JZ3UxS282aWYxTVFZblB0M2NCOS16U0hxWGMybmhzMzlxS3E5WTN2VGkwek9TSVFDRUNQY1BZTkRYekRKLVZlMFpnLVhteC1XbXhmOENHZjdoMzNTa0NLR0s5Ynd6MVJQSHRqRmJkckE",
-      "domain": "news.google.com",
-      "categories": [
-        "grant"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -30266,51 +30807,6 @@
       }
     },
     {
-      "id": "rmpvx0vcdhftvdrrnhu1stryc1psck0yvhfnteqtqk00t3hkednzt0zormtdd0ntajfqujrpa29jcnrwngfstlb5renvemdingnfbjvxn2tjd0dvm18-oc-5",
-      "title": "Humidifi WET Token Listing, Airdrop and Price Risks - Coin Gabbar",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ2V3T1pHckpIR0VhSE9KclhWdy1JVDJyMlJodHNvWGVWX1VxVWdFWVY0S3A5SHgzNDB6OUU4Uk9IcUR0NVF0aENuemVFdEdXOXdnT0pyeUdSblhObk40RmpVX0VCdHFtVDRRNHU1STRyc1psck0yVHFnTEQtQk00T3hKeDNzT0ZORmtDd0NTajFQUjRPa29JcnRWNGFSTlB5RENVemdiNGNFbjVxN2tjd0dVM18",
-      "domain": "news.google.com",
-      "categories": [
-        "airdrop"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "ukpqrlc5ekhzynvus2hnbefld2h3dmpztxn6bexpyxjqau5oqudqv1pfm1cxmmzedufnyuo3ulo4dmnydc1ns1rftdi1bvriz2lds2pnaddoq0rqwfm-oc-5",
       "title": "Bicyclist killed in crash near Grant, Swan - KOLD",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1oYmVuQXMzdUhyZVFMQnlEWWVHX3J3QTQxQVFxTHhxUkpQRlc5ekhZYnVuS2hnbEFLd2h3dmpzTXN6bExpYXJQaU5OQUdQV1pFM1cxMmZEdUFnYUo3Ulo4dmNYdC1NS1RfTDI1bVRIZ2lDS2pnaDdOQ0RqWFM",
@@ -30806,6 +31302,51 @@
       }
     },
     {
+      "id": "wl5r0v6b0rfclbkamk2n2fqlvywsjlicwxftzk4b1i2rkm4zfkxywtnrw5pm1piwjzaudh4ynvulthuqxhorhbjdjbts0npy2m4c3ljynnwulrzxzzm-oc-5",
+      "title": "Woman hit by truck on I-10 near Grant Road, recovering - KVOA",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbDFIcDBWZGJFUEI4YVZJREctMmZ4U3JNUXVoTkxEcU5obFB6b2lRLXYxcXdyNEdGZ2FvcTZ6c3ppcWF4M3UySjZnbkl5d01Mc19FU3UyQ0FwTVhaSzFvTl9BbVdva3VYNVNUbENkcklZMlVrZklSZXUtRWl5R0V6b0RfclBkamk2N2FqLVYwSjlIcWxFTzk4b1I2RkM4ZFkxYWtNRW5pM1pIWjZaUDh4YnVuLThuQXhORHBjdjBtS0NPY2M4c3ljYnNWUlRZXzZM",
+      "domain": "news.google.com",
+      "categories": [
+        "grant"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 81.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "frcowfmmupoy25da3u0stn2d2lvyxnsdzrabtljc2pqcxz4uhhmwhjnb04ynxpushjlbviymeniei1huddzwuvzcfq0c0xrqjhmshvbt0tytkfbym9n-oc-5",
       "title": "Stablecoin rewards issue remains unresolved after White House meeting - Ledger Insights",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONlhmWmNaaFU5OEZPUWlOclBBY2FQQlRsUUwzay0wTE1CVFhtaENFeU1zT0xyMjc4dzZRdHgwaVNJLVhld2U0TU9TRW53WFRCOWFmMUpOY25Da3U0STN2d2lvYXNsdzRabTlJc2pqcXZ4UHhMWHJnb04yNXpuSHJlbVIyMENiei1hUDdzWUVzcFQ0c0xrQjhMSHVBT0tyTkFBYm9n",
@@ -31034,51 +31575,6 @@
       "id": "dejnhwe5wewvfaw1ubxlvzl9jv2z6n3zoruzvuedfqvbtnwpqrwxaywqteufiexq3dtl6yxfwtgpmv1d2mmzfqjjhmlvbbmnpaudhlxlpbvp4ve1tqq-oc-5",
       "title": "Report: Avalanche Grant Nashville Predators Permission to Speak With Chris MacFarland - Colorado Hockey Now",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX1JkRUNBZVgyUXlobmpvMjliNEZEZ3RxcWhHQS1ORWRmSE9ZeVZGalBzQksxdzVsSDdtaUZBOTFweDJJUXJDOEtJUllqb2xDQjAyaE5wMUxCbnZYbXRoOG5DejNhWE5weWVFaW1UbXlvZl9JV2Z6N3ZORUZVUEdFQVBtNWpqRWxaYWQteUFieXQ3dTl6YXFwTGpmV1d2MmZfQjJhMlVBbmNPaUdHLXlPbVp4VE1TQQ",
-      "domain": "news.google.com",
-      "categories": [
-        "grant"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "tlpmejyuhhlrly5rknvzxfpnmxnee05evdkmdz0yktnrwhpedkzuwxxaknjr2rkegdrn2d6tnrcbutcwf9nqnrzsgz1tvdlmkhgmfnlv0nhawhjbtnx-oc-5",
-      "title": "David Grant USAF Medical Center celebrates volunteer’s 101st birthday and 59 years of serv - Travis Air Force Base (.mil)",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUkgzbFhCQnFVV3NBUzE3Mkh2ZUNHaDVQLVU3ZG5RWWVWT3hPc0lWTkVvcl9xTmo2M0xtNmY5UTZQZHdWQ3UtUC1sTW0xenlIanBnRzhvdUtOTlBaRWN3aGwzOXJhS1pnQ2VyTGgxaUNrOEdPV0VZcFFKWTlPMEJyUHhlRlY5RkNVZXFpNmxNeE05eVdkMDZ0YktNRWhpeDkzUWxXakNJR2RkeGdrN2d6TnRCbUtCWF9NQnRzSGZ1TVdlMkhGMFNLV0NhaWhjbTNX",
       "domain": "news.google.com",
       "categories": [
         "grant"
@@ -32878,6 +33374,51 @@
       }
     },
     {
+      "id": "zuepnse5yn3rwnhrgenffvk9crfrzq09llxfeouponerudw9txzj1uxk3emu4dexubhl3ufnlew8yblrpwm5wvxvkexpfownpndjgz0rsdmy0qllquq-oc-5",
+      "title": "BPMG Secures ChainGPT Grant to Advance AI & Web3 Social Platform Innovation - Games Press",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV29YdnY1T2lvcG5vWldDMl94UjRkbGI4Y3NsMTd1ZzVqTjk2Zk5wQTB1bTk1eDR0MjBjVkZlbnh3UGQwWEZleTlzUEpNSE5yN3RWNHRGenFfVk9CRFRzQ09lLXFEOUpoNERudW9tXzJ1UXk3emU4dExubHl3UFNleW8yblRpWm5WVXVKeXpfOWNPNDJGZ0RsdmY0QllqUQ",
+      "domain": "news.google.com",
+      "categories": [
+        "grant"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 81.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "wndvblbhsmjeyxjlouu0dg5cuwd3atzfvvmwbunsahbba09mwudamwdqsuzlskk0dzi4auuwu0zqewdiuus4svnwdxhfd0fvwtrsr0tpd2ywd2zzvuq-oc-5",
       "title": "You Invite, You Choose! Invite Friends & Pick Your Rewards From BNB, SOL, USDC, SPCXB and NVDAB - Binance",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRWtwUUJIVlRKQktHcTFydDZ6dnhRVE5JOEpNb1JxVVFPOVd6Y2plY2kxTE1YYzJzT200WndvblBHSmJEYXJLOUU0dG5CUWd3aTZfVVMwbUNSaHBBa09mWUdaMWdQSUZLSkk0dzI4aUUwU0ZQeWdiUUs4SVNWdXhFd0FvWTRSR0tPd2Ywd2ZzVUQ",
@@ -33913,6 +34454,51 @@
       }
     },
     {
+      "id": "xmwc1m5mzq3x29ayxd6bfh5n2wtyxewafppu0djmxdws0nlrgdmejk2dudseu1ysurhvtzibkplrc1zcwjfamexbnvzmkzhwxpkwfhhqk1qn2k3svnb-oc-5",
+      "title": "Coinbase to Launch Bitcoin Rewards Card With Amex, While Eyeing U.S. Futures Expansion - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNGs5Ql9EcVZoNnIwRV9XSTVmOURiaWNoQlNXYXVzZndWam43RUxzQ2dOWi1Dams4b0k4WGJkWHZiemRFWDlKenl5XzVLemhUSmlJR1NOYm5zWXRSd0hINFZ1dWR1bnY2WGlaejd0M1NYLXMwc1M5MzQ3X29aYXd6bFh5N2wtYXEwaFpPU0dJMXdwS0NLRGdMejk2dUdSeU1ySURhVTZIbkpLRC1ZcWJFamExbnVzMkZHWXpKWFhHQk1QN2k3SVNB",
+      "domain": "news.google.com",
+      "categories": [
+        "general"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 81.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "iv3zvqvfsnxowstnoy1czznjznxg1tnbiedq5v3dcwfrnte5ivkfidw5paxpyrgjidmmtuuuta1exwgnnn2npbwnhtw9zbl9xmfq4q1g1ylpsqs1ymw-oc-5",
       "title": "Coinbase launches credit card with bitcoin rewards - Finextra Research",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeWFEUmY4WDBpOGlQVHFybXdZTTdISUdhcGhUcUcybzlFOFpHd0pqSnNWdkIwQmxycVlZVHl4M2o4WnliV3ZvQVFsNXowSTNoY1czZnJzNXg1TnBIeDQ5V3dCWFRnTE5iVkFidW5PaXpYRGJidmMtUUUta1ExWGNnN2NPbWNhTW9zbl9XMFQ4Q1g1YlpsQS1yMw",
@@ -34817,6 +35403,51 @@
       "id": "vbkptthrtelnvcu0tel9zbdzir2uxa2rkzufjvdzpbgjwzlbmt1hbrjjnz0dht0n6cfzsakv4ueplmutubur6me1lczllsnhvr1z1ruzzbkj3ru1ecg-oc-5",
       "title": "Accelerate Your DeFi Yield Rewards By 10% p.a. - Crypto.com",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vVHBVbkpTTHRTelNVcU0tel9ZbDZIR2Uxa2RkZUFJVDZPbGJWZlBMT1hBRjJnZ0dHT0N6cFZsakV4UEpLMUtubUR6ME1LczllSnhvR1Z1RUZZbkJ3RU1Ecg",
+      "domain": "news.google.com",
+      "categories": [
+        "general"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 81.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "ivefvx3lxte15bvdhbghsbnvxexjsewzsz1c5uvc5ogwybthhng1sdtrqrdrvn205bjfkrdyyx2lmaxe2tmzza2xqaelbulvvwhfmrm9jnvpnxzbnsa-oc-5",
+      "title": "What is OKX Earn and How to Earn Passive Crypto Rewards - OKX",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE15bVdhbGhsbnVxeXJSeWZSZ1c5UVc5OGwybThHNG1SdTRQRDRVN205bjFkRDYyX2lMaXE2TmZza2xqaElBUlVvWHFmRm9JNVpnXzBNSA",
       "domain": "news.google.com",
       "categories": [
         "general"
@@ -36256,51 +36887,6 @@
       }
     },
     {
-      "id": "rxayykdkeksxehuzeeznug8wwfznnxrxytlabgz5vmvuetric3hmemvlsdv1ymzqa3nkehbgcuftwhe4bthnlvnankdndf9kbeswcwi2mfhkmljgawc-oc-5",
-      "title": "Google issues complete OSS VRP bug bounty pause over AI spam - Neowin",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN0hwM3NyeHpuRVZXdGkxZVk1cjNQNnJ1TEdaaVRjSk5hZVZZcnRodkZtdjdhTy1uNmxsS3ZSRXAyYkdKeksxeHUzeEZNUG8wWFZnNXRxYTlabGZ5VmVueTRIc3hMemVLSDV1YmZQa3NkeHBGcUFtWHE4bThNLVNaNkdNdF9KbEswcWI2MFhKMlJGaWc",
-      "domain": "news.google.com",
-      "categories": [
-        "bounty"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "tofnzy3ronmm2egrothrhsfhcrtbzmnb1n0ftq29ydknxsvp1ytruali0x2zjnxr3ymvtdvpsvjjusvnnadz0wwfxa19temq1bln3t3r1ddqxc1i4dw-oc-5",
       "title": "Grant Thornton and Diveshack remove half a ton of debris from Qui-Si-Sana - Times of Malta",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbHpsX09hdTR5eUM4TlFlRGtnQ1RSN3RJX0lxUUQzZ3paTDh3RW5kZGtORElkaXdqMnFaQk11dlNGNy1tY0EwSVBtOFNzY3RONmM2eGROTHRhSFhCRTBzMnB1N0FtQ29YdkNxSVp1YTRUalI0X2ZjNXR3YmVtdVpsVjJuSVNNaDZ0WWFxa19TemQ1blN3T3R1dDQxc1I4dw",
@@ -37606,6 +38192,51 @@
       }
     },
     {
+      "id": "u5dwe11smwxwulnt2dubgrftjfzu3vxd1v6v1dlze0ttdhkb1dkutddeni4szb2zjq3rgp3ynd4n3jsotl2ttjiodzxs2s3os00tzbcce5hmketvhhf-oc-5",
+      "title": "Falling assessment values push B.C. Home Owner Grant threshold down for first time in years - Daily Hive",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12ZXFwMzAwTEF3bHpqRklLNld1amVMcU5DWE11SmwxWUlNT2dUbGRfTjFZU3VXd1V6V1dLZE0tTDhKb1dkUTdDenI4SzB2ZjQ3RGp3Ynd4N3JsOTl2TTJIODZXS2s3OS00TzBCcE5HMkEtVHhF",
+      "domain": "news.google.com",
+      "categories": [
+        "grant"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 81.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "bnjnsuvlumnsnxriy1jbttjueepdrurnbg50egfwr2vneeh4bhrnbnresu9ttdfqou80mkpvwwzsweywtm81uvbhdwe5outsc090qjl6szveyktiru8-oc-5",
       "title": "ONDO Surges 4.6% on Ondo Summit Rewards Campaign - CoinMarketCap",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBMmUyWjltVzZ1TWhVOVg0ZzhmbnJNSUVlUmNSNXRIY1JBTTJueEpDRURnbG50eGFwR2VneEh4bHRNbnRESU9tTDFqOU80MkpVWWZSWEYwTm81UVBHdWE5OUtsc090Qjl6SzVEYktIRU8",
@@ -38017,51 +38648,6 @@
       "domain": "news.google.com",
       "categories": [
         "grant"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "wkxvv3hos2nxzvfkc3npzk02vljxttjptemwbwx5qzb1bnf1dvlzalnpvk1izflbwedqtwp1dghtejb4zxi2u3vybhfotxdrzuhuykr1sjqxzhzfu1k-oc-5",
-      "title": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions - Binance",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQmM0bExNSUU5bEJ0bmFpcl83QmtqY2hjdFphZ0pNS3NsR29mVlNJaHNhMncyY09tUXZWWkxvV3hoS2NXZVFKc3NPZk02VlJXTTJpTEMwbWx5QzB1bnF1dVlZalNPVk1IZFlBWEdqTWp1dGhTejB4ZXI2U3VybHFoTXdRZUhUYkR1SjQxZHZfU1k",
-      "domain": "news.google.com",
-      "categories": [
-        "airdrop"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -38642,51 +39228,6 @@
       }
     },
     {
-      "id": "uxrbnlpjz3v2sy12atf4cmlhwglwnkpiaudrexvrx3ziulezcmficgxnnwziutjmvxm3b1fsbjr0svhzuxhmwvdfc2hicmtsvf9hsxzrywhxdjn0cum-oc-5",
-      "title": "Solana Governance Vote: Validators Could Face Lower Rewards as SOL Tokenomics Come Under Review - Binance",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5UcElDVFFCUXRBNlpJZ3V2Sy12aTF4cmlHWGlwNkpIaUdreXVRX3ZiUlEzcmFIcGxNNWZIUTJmVXM3b1FsbjR0SVhzUXhmWVdfc2hIcmtSVF9hSXZrYWhXdjN0cUM",
-      "domain": "news.google.com",
-      "categories": [
-        "general"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "4zmzszfrut0j3v3nryvbfbmxmrwria1nfanhkywdnlunov1vlbw5xuu44mu1kakz1andobmhqavrttgrbwm42ohrmexrvuvb6z01ybwzwc2npb0tfwq-oc-5",
       "title": "LG Uplus launches global bug bounty with HackerOne - 디지털투데이",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcndGajF0c1lwal9FVmJwaVpCcUctWURKUURSeE1mdHc4YUtkajVHaXd4WGttZWQtMEJfSzNZOC1IMDdGWlo4ZmZsZFRUT0J3V3NRYVBFbmxMRWRia1NfanhKYWdnLUNoV1VLbW5XUU44MU1KakZ1andObmhqaVRtTGRBWm42OHRMeXRvUVB6Z01ybWZwc2Npb0tfWQ",
@@ -39092,51 +39633,6 @@
       }
     },
     {
-      "id": "av09etzetztvflu9xqjrhc2jfvjlpzkztdtfxowvpwjktr2tmtflkbjr0ludqn1htczfxltdncw1mx2nxcxvfq2dxmlzev1hybelhyndcqvytvzhfva-oc-5",
-      "title": "Grayscale plans regular cash payouts from ETH, SOL staking rewards - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNkFsUy1vYVRsR0JMOVl3MzA3dWxBQndJNmh0T2E1SzBDVjg1VWJZd3o4dzJlSi1XbTlVVlQ5SzdFVU5GaGVFaFMzWnJiLTFCVEV2VzUyZ0lHTXVpQ0xyTHpXWThMOFh4VUIxelZQWTZCdG9aV09ETzEtZTVFLU9xQjRHc2JFVjlPZkZtdTFxOWVPWjktR2tmTFlKbjR0LUdQN1htczFXLTdNcW1mX2NxcXVFQ2dxMlZEV1hybElHYndCQVYtVzhFVA",
-      "domain": "news.google.com",
-      "categories": [
-        "general"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "e81rk1nrgxhthffrjjywgviv3nrchl0sfbaatb4cwdtei1eckc1emhqzvjpqu5vczdvnm5zzxrmru9xn2lmczhsd3fluefdrxnzv1nudwfrbf9cdkx4-oc-5",
       "title": "Buddy J. Grant Obituary Jan 20, 2025 - dayfunerals.com",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE81Rk1nRGxhTHFfRjJYWGViV3NrcHl0SFBaaTB4cWdtei1Eckc1emhqZVJpQU5vczdVNm5ZZXRMRU9xN2lMczhSd3FlUEFDRXNZV1NudWFRbF9Cdkx4",
@@ -39185,6 +39681,51 @@
       "id": "ovldglxi2vhm2nehirtd2z290u2jwemf6d2pjm2hetwludwhtrlmtttd3cvhpthnzyva4wvbzrdrtrla3zffwoxhynhe4d2zsrf9rmulrqm01efkxzw-oc-5",
       "title": "Contract extension makes Texas Tech basketball's Grant McCasland among nation's highest-paid coaches - Lubbock Avalanche-Journal",
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOczdzTWFFdE9wYk96T2xUS0Jyd3FWbXVwMnRqdVM4c2xJQlEzVEVzVkVmLUhFaHRhcWNfX2x4US1wRXRvMENyN1VhdDE5LV9GdWNxUDVhTzlFYXRUczNCVW5yM2xTLTVoN3dXbmY1T2xfZkJaYnpMTHFndTFKSGpoWFJTbEtLcWl3NmhDYzR1ZXBSMWV6dm9qVW1vWldzbFF0MDhNSTVfQnBQTjZibzdqXzBkd0xoVldGLXI2VHM2NEhIRTd2Z290U2JWemF6d2pJM2hETWludWhTRlMtTTd3cVhPTHNzYVA4WVBzRDRtRlA3ZFFWOXhYNHE4d2ZSRF9rMUlRQm01eFkxZw",
+      "domain": "news.google.com",
+      "categories": [
+        "grant"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 81.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "m5lvgninfqzujcwn1vvd3r3owzfa3n4nwh0r0rnq3vludvfcmdwqtnxadzcekvcbnc4szlpmte5sl9uaxhsdddywnqtzzn1wetxdhf4ug1anghsqmff-oc-5",
+      "title": "Request for Applications: Basic Sciences Research Grant (Egypt) - fundsforNGOs - Grants and Resources for Sustainability",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVVNNWFdpLUZCSlQtYzlDdDhidDkwbU8zeERjUUVLOFVPbS13MDFXaWdFZ0VfOU9sb3R3VlZNSEgxWW1Td0x5ZEZtUmpkU2ZXVTc5WE04Q0UwZGcyRjFhSG5oSTY1cjllRlItaXF3RmpNSDhLRHZkZ0dZM0tuLUw3dnM0RnQ3c3NFa01KZi1DS3pHbHVZZmRacDlhT1htWEo5M240T1lKWEFXanZlLVRQYTB5Y9IBuAFBVV95cUxPR0Yxbjdpc3dheFJKX3AzUFhpa05VeTA4bVEtX1hHd0Zxb2lWYlJITjd4TDlYcUNXU3dsQ1hBYmJObk1EWVZIWEhocmNISkRTaEUwV1lnUXl5cmtnTTNEckFKWm5lVGNINFQzUjcwN1Vvd3R3OWZFa3N4NWh0R0RNQ3VlUDVFcmdWQTNxaDZCekVCbnc4SzlPMTE5Sl9UaXhsdDdYWnQtZzN1WEtXdHF4UG1aNGhsQmFF",
       "domain": "news.google.com",
       "categories": [
         "grant"
@@ -40622,51 +41163,6 @@
       }
     },
     {
-      "id": "rckxwwgruvjezog9on0zyvdfxnkzxdf9pumrlzvytsefjqxbrnm1tnwm5m2fxexlwmmhnswronnfus3e1q3pcwgzacxvbq3ftt1jseu5oyxb6y3u0ba-oc-5",
-      "title": "A basic income support grant can address extreme poverty and inequality in South Africa - economic model shows how - The Conversation",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNHNJUmVSSG5TdXhXZGM3VzRZd09aZUhpaFVpUTFiTXprMVNjMzhkdGROVWxaMm81YlZ0Uld6dUFYbHRGaXBRd0lHdEQyWmYxQXIycjFBajhVb1JkNUduSVJ3aWR6ZGtNZGtPTGNTeDFScWgwOXlDS0J3b2NSdmtYNnNKZU8wd2hOQ0xRckxwWGRuVjEzOG9oN0ZYVDFXNkZxdF9pUmRLZVYtSEFJQXBRNm1tNWM5M2FXeXlWMmhnSWRoNnFUS3E1Q3pCWGZacXVBQ3FTT1JseU5oYXB6Y3U0bA",
-      "domain": "news.google.com",
-      "categories": [
-        "grant"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "n2xwnxzfdk5ptut2cdlgnljlv2ztv2vizwxhautvaxjqqvh6z1dlbvboegrtbnfvmep5uwf0uflwlvzzmkw1reffy18xavowuc1uzurjbghtndnhowy-oc-5",
       "title": "Introducing Brevis (BREV) on Binance HODLer Airdrops! Earn BREV With Retroactive BNB Simple Earn Subscriptions - Binance",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVXR3Mzl2UWMzS2xyWnpfZzVKdV9NWXJITk5EZDNKYUFWckhFUUdNd2NtRFFMRllnLXZkN2xWNXZFdk5pTUt2cDlGNlJlV2ZTV2VIZWxHaUtvaXJQQVh6Z1dlbVBoeGRTbnFvMEp5UWF0UFlWLVZZMkw1REFfY18xaVowUC1UZURJbGhTNDNHOWY",
@@ -41208,51 +41704,6 @@
       }
     },
     {
-      "id": "5ytzwwddgu2lbuw83wtbmvy1fsmzfwljrogpnu0hrb1zwujzzvtlgmexqr0vuuxzjv3u3we15v2p4ohrruglqynv3bnduvznuvhmwr1htehityxj6sw-oc-5",
-      "title": "What is a crypto airdrop? Free tokens, eligibility, and tax traps - WEEX",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdDgyWXdWNEtnUEJCZWlKdm9tNGQtdTdQdy1WNmNkTDRPZEdVc096QW9IeExEWkZQRnFWSzFfdmZwSW1qMDRQTXZOMC1ia1pkLW4wS1JtRDFseEw1dEFBbV9XU3N2NDU5YTZwWDdGU2lBUW83WTBmVy1FSmZfWlJrOGpnU0hRb1ZwUjZZVTlGMExQR0VuUXZJV3U3WE15V2p4OHRRUGlqYnV3bndUVzNuVHMwR1hteHItYXJ6Sw",
-      "domain": "news.google.com",
-      "categories": [
-        "airdrop"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 3,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "x3lxte9su080azvxvm8xwhdfowrxb2ltcvfyuuf5rgdzcxvzunb3au42zda4slhfrg1uwgizstk5tdf6dluzb01kmklwx2q2tu9hmmtorwhgu2hhqnm-oc-5",
       "title": "StarkNet ($STRK) Airdrop Guide : How to Qualify ? - Binance",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SU080azVxVm8xWHdFOWRxb2lTcVFyUUF5RGdzcXVZUnB3aU42ZDA4SlhFRG1uWGIzSTk5TDF6dlUzb01KMklwX2Q2TU9HMmtoRWhGU2hHQnM",
@@ -41343,51 +41794,6 @@
       }
     },
     {
-      "id": "sxjusfjjv2nxltrbathttk1xadzoeed3skplckt6zu5ynvpdakzecthjutrntfvawno5u3mtbwvoqjlpmzvfyzzhthgyyjhvsdjwsvuta0xvowrqzeu-oc-5",
-      "title": "zkSync Guide and Possible Airdrop Strategy - BitPinas",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUFVlSzRPb29BMGZqcWw1U0lqeDF6WFZsNXhXbDlUdGhveEJjc2tyN0JkSXJuSFJJV2NXLTRBaThtTk1XaDZOeEd3Skplckt6ZU5yNVpDakZEcThjUTRnTFVaWno5U3MtbWVoQjlPMzVfYzZhTHgyYjhvSDJWSVUta0xVOWRqZEU",
-      "domain": "news.google.com",
-      "categories": [
-        "airdrop"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "bhlvnenkuvhnt2rfd1npowtfmdztrdblq3z6wvbawedlv0m2m0vjbujkoghrzwxcmm1in2zpzg5hmwpysvrwb2znalnibexxsmfqqtzvt0nla2tzqja-oc-5",
       "title": "Vandenbrink awarded NASA grant to advance space-based food systems - Louisiana Tech University",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb0o0SHhJS0Vqa2dWTzRIS0l1b2dGejJwSTlQaVZYZ20yYTJoQ24zOXFUOG5HQjNwTmk1RHl2UFFNZGs1NUtncWp2bHlvNENkUVhnT2RFd1NpOWtfMDZTRDBlQ3Z6WVBaWEdlV0M2M0VjbUJkOGhrZWxCMm1IN2ZPZG5hMWpySVRwb2ZNalNibExxSmFQQTZVT0NLa2tzQjA",
@@ -41436,51 +41842,6 @@
       "id": "tczqtdjcxlfdhn6ufz3b1ixqk93y1pmb0l3x2lmwtvftkjprzfzmwh2blbsnlp2be5fqzvsedl6z2tsz0m3b282d01qymlucejtm1fzavdqvzlotjfn-oc-5",
       "title": "Bolt’s New App Combines DeFi, TradFi, and Rewards - Finovate",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15NnM2MzBBVVBqcjgzWGYxeVNGTXZ4QkF4WTczQTdJcXlFdHN6UFZ3b1IxQk93Y1pmb0l3X2lMWTVfTkJPRzFZMWh2blBSNlp2bE5FQzVSeDl6Z2tsZ0M3b282d01QYmlUcEJtM1FzaVdQVzloTjFN",
-      "domain": "news.google.com",
-      "categories": [
-        "general"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 81.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "k9lbzljb3borvrbdmtovdf3zmtiyudtog1vwxpzu3k0awz6bunhr2y4ugdimuf3qmhomvgwnkfrcfe3wlnqng85dno1x1lkvv9xa3k4yl9lemzpb2pr-oc-5",
-      "title": "Fold Holdings, Inc. (FLD) Launches Bitcoin Rewards Credit Card with Stripe and Visa - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPT0kwSG51UzlTWk9qUmtVQjJRWUJQRW5vVW50cWhQS1piRktYZk9Lbzljb3BoRVRBdmtoVDF3ZmtiYUdtOG1vWXpzU3k0aWZ6bUNhR2Y4UGdIMUF3QmhoMVgwNkFrcFE3WlNQNG85dno1X1lKVV9xa3k4Yl9LemZPb2pR",
       "domain": "news.google.com",
       "categories": [
         "general"
@@ -42160,6 +42521,51 @@
       "categories": [
         "airdrop",
         "points"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 81.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "wsgcyqknxc0jlv0lhnvfswvpunha1d29za1pbqlvnavhlzmtpt1i0cnz6dxvsb2fxs2xzrfhplvzfv3lqdxrsm0xmzi0yevfgsfo0ckfnyxhlnm5lba-oc-5",
+      "title": "£1m robot deal for Dundee firm; grant for Celestia - Daily Business",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWklZQ3ZSZ1JhbWhoYmtNWU9id2VTZ2lyVEpsUmlEMTFOZld2c2pkUUhhWWZFMEtscVVJalJhbDdWSFloU01lNS1DbElJbXFwSGcyQkNxc0JlV0lHNVFsWVpUNHA1d29Za1pBQlVNaVhLZmtPT1I0cnZ6dXVsb2FxS2xZRFhpLVZFV3lQdXRsM0xMZi0yeVFGSFo0ckFnYXhLNm5LbA",
+      "domain": "news.google.com",
+      "categories": [
+        "grant"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -43525,6 +43931,51 @@
       "competitionScore": 0,
       "eligibility": {
         "signals": 3,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "3qljmq1fwrjrpntgwowrzq1vhvjjvumo5mzlocgv4lvlzamjmtu1schpibxdlylfjd3ywn2cwwm1ka19xd0xevgxjb19yzzjbdw5teuf3cwv1rklqmg-oc-5",
+      "title": "Grant Thornton joins the LACChain global alliance - Grant Thornton España",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM21SZXVlUF9wSTdrMDhkVmZmRS1qN0FYdGFGSlktNktvOURLTEpSSXp6bWREU1RUSzRZZGJGTFM5TFlRNlI0UG1IZHoycXZ3QlJMQ1FWRjRPNTgwOWRZQ1VhVjJVUmo5MzlocGV4LVlzamJMTU1ScHpibXdLYlFjd3YwN2cwWm1ka19xd0xEVGxJb19YZzJBdW5teUF3cWV1RklQMg",
+      "domain": "news.google.com",
+      "categories": [
+        "grant"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 81.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
         "requiresManualCheck": true,
         "possibleKyc": false,
         "possibleGeographicRestriction": true,
@@ -45126,51 +45577,6 @@
       }
     },
     {
-      "id": "0lynfnhaddur1lybfljrxhjvw1gy1hqng9jvtzvn2tazxdlu1h6qwj3mer0wmvbnwltdjbrttzgrdvptnlhourlwlfzcenuakriskcxntdvow81tevn-oc-5",
-      "title": "Announcing the Coinbase Summer 2022 Community Ambassador Program - Coinbase",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOUlwYms0RjFRcWxqSWsxbnRsZ3VPeTNJVDE3eWpqOG5sbnNOWjdKYlBNQWlJNWV4WktBQk1NdF9hUlNVQ0lYNFNHaDdUR1lybFlJRXhJVW1GY1hqNG9jVTZVN2taZXdLU1h6QWJ3MER0WmVBNWlTdjBRTTZGRDVPTnlHOURLWlFZcENUakRiSkcxNTdVOW81TEVn",
-      "domain": "news.google.com",
-      "categories": [
-        "general"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 78.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "u5hadjytzk0vwd5anlvoxnnagfjsjmtrvvhcw9zdupemjlptjjhukuzr0rodmg2mdhiyujlcmpic1lfmthoww4zd3vmsthruxg3ovdmbezzlxpxumy1-oc-5",
       "title": "KITE Ai Airdrop💎Checker Live, Claim Token Fast! - paragraph.com",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQmk4R1dpeXJlVDdoR2VHMVRzUHloWjhKd3pMSzhkQXlZOV83VmJRLVdPNU5HaDJyTzk0VWd5anlvOXNNaGFJSjMtRVVHcW9ZdUpEMjlPTjJHUkUzR0ROdmg2MDhIYUJlcmpic1lFMThoWW4zd3VmSThRUXg3OVdMbEZZLXpxUmY1",
@@ -45487,51 +45893,6 @@
       }
     },
     {
-      "id": "0rnshlfdxpswgt3zwr6dhp0exfwxzlyr1k2ckj4slfhnlptdmjlzuo5nurrywhkd3ozcehosfjkmlitqk5zdkvlzjr5v09mes1vempxbff2s295rujy-oc-5",
-      "title": "Tria Airdrop Claim Reality: Why 90% Users Declared “NOT Eligible”? - Coin Gabbar",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbzFXMkdiejZPODlDRUJhR1ZxeVdORERmNEttVlBSanBfODUwczRVYVJXSGpQdjFRblNVcXBFel90WUlQU2V1RHI2SVo0VjNOZkZlaVJrb0RNSHlFdXpsWGt3ZWR6dHp0eXFwXzlYR1k2ckJ4SlFhNlptdmJlZUo5NURRYWhkd3ozcEhoSFJkMlItQk5zdkVlZjR5V09MeS1VempXbFF2S295RUJy",
-      "domain": "news.google.com",
-      "categories": [
-        "airdrop"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 78.0,
-      "valueScore": 35.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 3,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "wtnwx3vju0nxyw56mw5fetbvwtjnqvdiqk5tvs05yknurwdkehvtqtzlnlrqbdbgrjdovllodmcxdjc3b25pvg93yllwlvbps25ynhhtym9val9ya3c-oc-5",
       "title": "Bug bounty startup HackerOne suffers breach after analyst mistake - SiliconANGLE",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUFZiNlpPc29pU3dYM3FzcUxoTTZ1cE9YZ1pKRDEwYWJKbWpQYUsxdFNmSmhuWDdPaUdzcUtuV19DZGJ6U2dLM2Qzc1dOWTNwX3VjU0NXYW56MW5feTBvWTJnQVdiQk5tVS05YkNURWdkeHVtQTZlNlRqbDBGRjdOVllodmcxdjc3b25PVG93YllWLVBpS25yNHhtYm9val9Ya3c",
@@ -45732,6 +46093,51 @@
       "competitionScore": 0,
       "eligibility": {
         "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "mme40awhymtn4q21at2hydvv2d1ljadcym3rqdjrxx21dbmvbeti2tfd4ugzxednzbxy3skvbwuvlec16ajrtzhd0cuhvehfcv2dytwdzog1yegg3bw-oc-5",
+      "title": "Jito Airdrop: Eligibility, Claim Process, and Important Details - Binance",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1hYklMME40aWhyMTN4Q21aT2hydVV2d1ljaDcyM3RqdjRXX21DbmVBeTI2TFd4UGZXeDNZbXY3SkVBWUVleC16ajRTZHd0cUhVeHFCV2dYTWdzOG1YeGg3bw",
+      "domain": "news.google.com",
+      "categories": [
+        "airdrop"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 78.0,
+      "valueScore": 35.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 3,
         "requiresManualCheck": true,
         "possibleKyc": false,
         "possibleGeographicRestriction": true,
@@ -46389,51 +46795,6 @@
       }
     },
     {
-      "id": "amjiqmz3wwdmyw11a3u3wkrhzvnpuutxxzbyuus2mg1ws2o1cdg0b3vntwprakjlx09xwnljzmx4t2o2u0rtc2lxt0hgbwlfqwdquffmu0rjsvzjafk-oc-5",
-      "title": "2 Billion SNS Token Airdrop: Claim Process, Eligibility, and Trading Strategies for May 2025 - blockchain.news",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbnUwZ0QyUmtaRUdSSk54aXE3TEo1VlAxM2xvLUhRQ0Q4NHJwWnY3QkVMcmdKTU02VThramdsejVQd2tmVG9SQVJHajZRRVFjZmRaazhHMVl1MGgxNmo4R1FRejVha3g3OVUwamJiQmZ3WWdmYW11a3U3WkRHZVNpUUtxXzBYUUs2MG1WS2o1cDg0b3VnTWprakJLX09XWnlJZmx4T2o2U0RTc2lxT0hGbWlFQWdqUFFmU0RJSVZJaFk",
-      "domain": "news.google.com",
-      "categories": [
-        "airdrop"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 78.0,
-      "valueScore": 35.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 3,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "avjwdl9rnk9yndlvcwfpc0pdzzj6dkpyqnlqzgntatfrv1bxwnrque1aulbcrwzpbkh3wtnxa0n2vuw3s1psslbcdwrnqwfxohhfbtnnbnr6rwjyvws-oc-5",
       "title": "10 signs an airdrop is a scam — and how to stay safe - TradingView",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbHdJcmp2eVZyeWYzbUNabXR1TVN4bEExM2pOLVFxYXZtMnRnbnJ4UVBJQ09qR0FIUEx6WWdfZE9JazgyNzgxc3dSMURMVGw3SUZBbFZCOWNYa01IbE9jaVJwdl9rNk9yNDlVcWFPc0pDZzJ6dkpyQnlQZGNtaTFrV1BxWnRQUE1aUlBCRWZpbkh3WTNXa0N2VUw3S1psSlBCdWRNQWFXOHhFbTNNbnR6RWJyVWs",
@@ -46576,51 +46937,6 @@
       "domain": "news.google.com",
       "categories": [
         "general"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 78.0,
-      "valueScore": 35.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "wsum1advzc2tkvgdzwvpgntu5t0lbm3lsekf3thvmc0tlz2ktuezlszlgwhrvnflrsgxuvktfqvjezta3cde1sjvdodhztupovefwoecyywzjr2hstq-oc-5",
-      "title": "Backpack Exchange Unveils Essential BP Airdrop Claim Checker for Eager Crypto Community - CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51R3lJdHZlVFZXUHdrRDl0dEtJYWZIU1JjOUZZTDZwSUM1aDVZc2tkVGdZWVpGNTU5T0lBM3lsekF3THVmc0tLZ2ktUEZLSzlGWHRvNFlRSGxUVktFQVJEZTA3cDE1SjVDODhZTUpoVEFWOEcyYWZjR2hsTQ",
-      "domain": "news.google.com",
-      "categories": [
-        "airdrop"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -46930,9 +47246,9 @@
       }
     },
     {
-      "id": "budmn1bidf9gt2rrz0kxti13d251sexgrk50nll5a3a5cjbhzkjuetnuaxfmsgz5a25lmju0qvprvkq3uhl5x0dswug3rtlyqkljcez6r25wymftutq-oc-5",
-      "title": "Plasma captures $4bn DeFi deposits in first day with XPL token rewards - dlnews.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMXB0bEdveWlvRHhXRHJ1d1NSY1pwRVRocmNwdFR0ZlkyRDlhaU1YZE56N01LRzBfUE5yWDltdWJVRTMwa25xbUdMN1BIdF9GT2RrZ0kxTi13d251SExGRk50Nll5a3A5cjBHZkJueTNuaXFmSGZ5a25LMjU0QVprVkQ3UHl5X0dsWUg3RTlYQkljcEZ6R25wYmFtUTQ",
+      "id": "vlimw9izfrxz1biuml5mtzmx0fqu0rjus1qdldzqjiwehq2yknzvu1howtnalzrrzkzujk3se11czles2dxm1vum1g2ec0ty1dxctzurnnyzvfzrvdb-oc-5",
+      "title": "Maple’s SYRUP Stakers Vote to End Staking Rewards, Launch DAO Treasury - The Defiant",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOODFvSjU3eWlqblFQVldaUkgwMXo0THZ5MXJhdFd3Rm9IWDNPMVdYR05PaXVnR0VNc1NwUzI4TXlZcXNqd0RmR3B6cmFPM05ibVliMW9IZFRXZ1BIUml5MTZMX0FqU0RJUS1QdldZQjIweHQ2YkNzVU1HOWtNalZRRzkzUjk3SE11czlES2dXM1VUM1g2eC0tY1dXcTZURnNyZVFzRVdB",
       "domain": "news.google.com",
       "categories": [
         "general"
@@ -47033,51 +47349,6 @@
       "intelligenceScore": 31,
       "baseScore": 78.0,
       "valueScore": 35.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "2nlau5py284mtdhdvr5ums0rlbiu3c5qvvuuzk2r0h2sezfahdqyuv3dgzqsndgzgtnc1vpofd2z19pczrjog9sx3p0s0y3z0nprmhbus1abnpmqtln-oc-5",
-      "title": "Coral Protocol Announces World’s Largest AI Hackathon at RAISE Summit in Paris - The Defiant",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbGtQSHVXT2o0SzlkSERYT255OGM3T3hzX2lmajhCb3Nmd09ydDBqRkZVSjJPV1JZWHpIdnEtMXRiaFFLaXVPUjlpN2FOWUtNTXdlLTZhdWIwclRrR3V4VG5WSGY1a2NlaU5PY284MTdhdVR5Ums0RlBiU3c5QVVUUzk2R0h2SEZFaHdQYUV3dGZQSndGZGtnc1VpOFd2Z19PczRjOG9sX3p0S0Y3Z0NpRmhBUS1abnpmQTlN",
-      "domain": "news.google.com",
-      "categories": [
-        "hackathon"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 77.0,
-      "valueScore": 36.0,
       "verification": "REACHABLE_DOMAIN_ALIGNED",
       "independentSources": 0,
       "deadlineUrgency": 10,
@@ -47785,51 +48056,6 @@
       }
     },
     {
-      "id": "wu8wbwyzqwxrbuxfcffzddg3dzznr1r3quo0tk51snjvv1lqwwktuwxyn1pjqw5mzvhwvjztawdmm2rdu1v4eu5wagllag96dwxvntvvew9pqlrftve-oc-5",
-      "title": "BTQ Technologies Announces First Deployment of BIP 360 on Bitcoin Quantum Testnet v0.3.0 - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYmN4c0hQZkRXU3l5bHdhUTgxVXExZ2lWa3kzT2JVRXhCM1dBQjRoMWFsNlZERjFodGpIWmUyX0JhVGZYOTg4RTZuY3RPZlRRYUxTdkZTdU5TdkMtZ2k2MWdZTktrQ0YyVWtTdF85MzFGX1cxcnFROHAxMmNvSEVZeTFjSWpnb2l6WU8wbWYzQWxrbUxFcFFzdDg3dzZnR1R3QUo0Tk51SnJvV1lQWWktUWxYN1pJQW5mZVhwVjZTaWdMM2RDU1V4eU5waGlLaG96dWxvNTVVeW9pQlRfTVE",
-      "domain": "news.google.com",
-      "categories": [
-        "testnet"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 71.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "ngzrb1rhb0nkwxfkawpnadzfq2loodzubdctn05mulzhu3vpsezilui4meiyv29rmehglun5wkhpawljxzladghubmozzgj4dmnudjfun1pfx0fja0y-oc-5",
       "title": "Binance P2P Launches Merchant Ambassador Program - Binance",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSFV5M3V3T1ZKOGFPdXVjb2VYRHJOMVJiVGZtbklKR0FfMkZ1RjJXSnptTGJ0NlhsbktnNGZrb1Rhb0NkWXFKaWpNaDZfQ2loODZUbDctN05mUlZhU3VpSEZiLUI4MEIyV29RMEhGLUN5WkhpaWljXzladGhUbmozZGJ4dmNudjFUN1pFX0Fja0Y",
@@ -48196,6 +48422,51 @@
       "domain": "news.google.com",
       "categories": [
         "testnet"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 71.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "0lynfnhaddur1lybfljrxhjvw1gy1hqng9jvtzvn2tazxdlu1h6qwj3mer0wmvbnwltdjbrttzgrdvptnlhourlwlfzcenuakriskcxntdvow81tevn-oc-5",
+      "title": "Announcing the Coinbase Summer 2022 Community Ambassador Program - Coinbase",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOUlwYms0RjFRcWxqSWsxbnRsZ3VPeTNJVDE3eWpqOG5sbnNOWjdKYlBNQWlJNWV4WktBQk1NdF9hUlNVQ0lYNFNHaDdUR1lybFlJRXhJVW1GY1hqNG9jVTZVN2taZXdLU1h6QWJ3MER0WmVBNWlTdjBRTTZGRDVPTnlHOURLWlFZcENUakRiSkcxNTdVOW81TEVn",
+      "domain": "news.google.com",
+      "categories": [
+        "general"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -48688,51 +48959,6 @@
       "id": "fbnmxk1vvvyvhrduwv4wnrdovixcmxpc1bbthznckxxzgfjthm1adz5zzzjc29kze1rcgpovv9av3zns0fqthncnwwwy1nnvdvzx3drthz2und1vxlw-oc-5",
       "title": "StonMaster - The Ultimate TON DeFi Hub | STON.fi Hackathon Demo - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBNMXk1VVVYVHRDUWV4WnRDOVIxcmxpc1BBTHZNckxXZGFjTHM1aDZ5ZzZjc29KZE1rcGpOVV9aV3ZNS0FQTHNCNWwwY1NNVDVZX3dRTHZ2Und1VXlW",
-      "domain": "news.google.com",
-      "categories": [
-        "hackathon"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 71.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "oq2festznm0mzdjrpcmlrynznuw9xq1fibvzlc3vid3dwwvr4ytkyx29ys0dqm0fyvtznqnc0emi3wjz5qlbwtkzxrwjxedbdn3barm9vqjrtzvhyzq-oc-5",
-      "title": "Announcing the Chainlink Chromion Hackathon Winners - Chainlink",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdV9YWERGdHNwbGNMTlFVQ2lPX0hSSVRiN19SZXBVcWFFcVhOQ2FESTZnM0MzdjRPcmlRYnZNUW9xQ1FIbVZlc3VId3dWWVR4YTkyX29yS0dqM0FYVTZNQnc0emI3WjZ5QlBWTkZxRWJxeDBDN3BaRm9vQjRTZVhYZQ",
       "domain": "news.google.com",
       "categories": [
         "hackathon"
@@ -49317,51 +49543,6 @@
       }
     },
     {
-      "id": "krssvkybnmyzdnhdmxys2mwam5swgdbzljdshbwwtvwszvmohllyxgxagdvqwtwbjqztu5lthlmues1tgw3sdh5qzbxrndjemhtlwhwalb3anlzzfrb-oc-5",
-      "title": "Coral Protocol and Solana Host Internet of Agents Hackathon to Power the Agentic Economy - The Defiant",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTGozRG5wZWRjQ2hpYkZOd0ZGbWNFOFM1QkcxRjJma0dxdXU3Vk1PcW5hTmJMSUFXZXhhR2ZGa3RCU3ZPNXlKUTVObUhXaWoxMXRvZjJDNENWaHE3UFdiLWNteEk4NGQwUTd2Z1JCb2xuejMzVkRsSVkybnMyZDNHdmxYS2Mwam5sWGdBZlJDSHBwWTVWSzVMOHlLYXgxaGdvQWtwbjQzTU5lTHlMUEs1TGw3SDh5QzBxRndjemhTLWhwalB3anlzZFRB",
-      "domain": "news.google.com",
-      "categories": [
-        "hackathon"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 67.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "wlr4d2r1x2f5nuvnvmhlenvwdfrquwg0edd2dw5rzfhtulvhuhnltgh1blduswzktmvtn01anfdbykv5lxu3evprnzgza21keg1kze5uagjkt18wbek-oc-5",
       "title": "Injective Protocol to Extend Hackathon Submission - TradingView",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSFZnTFIxYksyX0hvbUF0QTZFTEQ4NzBMWVRxaXZidzEwWktQR0VBek51ZGpIb0g5cEQxQXVLWnJkaG1wcFVCQUlTLVpfeDlzZTJ0SlJUWlR4d2R1X2F5NUVnVmhLenVWdFRQUWg0eDd2dW5RZFhTUlVhUHNLTGh1blduSWZKTmVTN01aNFdBYkV5LXU3eVprNzgza21KeG1kZE5uaGJkT18wbEk",
@@ -49770,6 +49951,51 @@
       "id": "avjqdxg5qtjwqjiweg1rykm0eujnm2rcb1flewytzwvmvmxiq25ln0phq0huzhjksfdmdwzxamtus0jlqupbowhsmdbtduc0dxl3te01vfnknkj4cle-oc-5",
       "title": "The Pi Hackathon 2025: What It Means for the Controversial Cryptocurrency - sify.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT2lmMWx2aEhnT2wzWG90cFlpMFlYSFhyOURHWFRyN3NVdFB5UC1MSnZhQ0h3NWhkTTFNOHozbWxvbjhlQnhjOTBlSGFsZ1hja1VBbDVGVjlFaVJqdXg5QTJWQjIweG1RYkM0eUJNM2RCb1FLeWYtZWVMVmxIQ25lN0phQ0hUZHJkSFdMdWZxamtuS0JlQUpBOWhSMDBtdUc0dXl3TE01VFNkNkJ4clE",
+      "domain": "news.google.com",
+      "categories": [
+        "hackathon"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 64.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "dm0sjzwtm1iwkzvaefzmjhzntjwmgrtemhqrkmyslu2dhg5rdqzdjnuylfneg9pdfjgzmnkdkxubew3t0i1rxd6mwtwzzdtx0jrzgh4tzazrjrtmvvn-oc-5",
+      "title": "Uniswap Labs Company Hackathon - Uniswap",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uR0RoODM0SjZwTm1iWkZVaEFzMjhZNTJWMGRtemhqRkMySlU2dHg5RDQzdjNUYlFneG9pdFJGZmNkdkxUbEw3T0I1RXd6MWtwZzdtX0JrZGh4TzAzRjRtMVVn",
       "domain": "news.google.com",
       "categories": [
         "hackathon"
@@ -51344,9 +51570,9 @@
       }
     },
     {
-      "id": "05isgdfv2f6m2fnckrveurmahm1x2p2ehdjxzntufpkuwhvsnvktmpmqkxyak5ix2i3emw1rvgyczlfvmtpvedwtgpvwfdsv1vhmkxpzerou3bjdur3-oc-5",
-      "title": "Honey-based beverage grabs grand prize at food hackathon - Cornell Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcWJtc2tFbmdudzhXeU5aeTJ3bWhNd3lld0toMkl3NFUyRDhxUGp4eTRSTU9LYUl5M0stRE9DT0dXUEJXR05iSGdfV2F6M2FNckRVeURmaHM1X2p2eHdJXzNTUFpkUWhvSnVKTmpmQkxyak5iX2I3emw1RVgyczlfVmtpVEdwTGpvWFdsV1VHMkxpZEROU3BJdUR3",
+      "id": "3shfuewxitjjrafnnn3i0wu9yuzfwtl9rvjvdznbwn19icjnqqmz0zfa2ds1wckkzzfjpagnwoec2t0tyr2i4b281beyydzzmrtjmdtc2wgpxnmnnuq-oc-5",
+      "title": "EasyA x Polkadot Hackathon Winners accepted to YCombinator to secure Web3 - CryptoSlate",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYUlJY3B0SFpiNlliTE40UXJ0VEdBN0stOVl3Y0dfcV8yRW5kNTc2Q3gzZUtjQ2hRbHNDX2R6bVZXaFJMR3BjTDF4cmlqelRHS2hSZkc3ZjFPUnk0Z0g3SHFUeWxiTjJraFNnN3I0WU9YUzFwTl9RVjVDZnBWN19icjNqQmZ0ZFA2dS1WckkzZFJpaGNwOEc2T0tYR2I4b281bEYydzZMRTJmdTc2WGpXNmNNUQ",
       "domain": "news.google.com",
       "categories": [
         "hackathon"
@@ -51749,6 +51975,51 @@
       }
     },
     {
+      "id": "jncaghnlwfdtgfmvvfbmvpxbwi3cuetr0tyluvfugpxedzrulrtwhvcagvnwnnwumpttetsz214ulrfzzrtzudinm11udvuy0virmjlevhqm19xuwfv-oc-5",
+      "title": "Monolythium introduces public testnet after full protocol reset - Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQVhQUnlxSlpFMXVsblc4WFh6SlZkaTlFUzQxX1IyTk9aNHMwUVc5cWxxREwtdjNCaGhNLWFDTGFmVVFBMVpxbWI3cUEtR0tYLUVFUGpXeDZRUlRTWHVCaGVnWnNWUmptTEtsZ214UlRfZzRTZUdINm11UDVuY0VIRmJLeVhqM19xUWFv",
+      "domain": "news.google.com",
+      "categories": [
+        "testnet"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 64.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "uhvsb0fmvunnbmrzb2lrvtcxdkdnmdmta0razvhacm02ng9rum1hnfrkcnr0ogtvaxzaetr4ntltlw4tnzewvvdcedzzv1rosxnwzhphbxq4skvcree-oc-5",
       "title": "Introducing the Chainlink Block Magic Hackathon: Become an Onchain Wizard - Chainlink",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFSWNvVkMyejFfUzNtOFZWTFRpbFhTRTllUHVSb0FMVUNNbmRzb2lrVTcxdkdnMDMta0RaZVhacm02NG9RUm1hNFRKcnR0OGtvaXZaeTR4NTlTLW4tNzEwVVdCeDZZV1ROSXNWZHpHbXQ4SkVCREE",
@@ -52019,6 +52290,51 @@
       }
     },
     {
+      "id": "3dmwexwquzwnxhglwotym1lnlbttdb6a0lfexziqxjxddbmtg5wtm9yqv9ltgfzz19tswncuw1plvy0tkfvwdnsx0m2tvjlslrfdwhktk9stufmu1rr-oc-5",
+      "title": "Meet the Hackathon Winner: Packworks on the Future of Phygital Retail and Building With Bright Data - HackerNoon",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcG8wTFF4Z3NzMk1NaDNuWmxOMUpnWmVsNUlEeXpTTEJLc2R6LTN3Vm56Q244b2pHdmRwNmFfamVYSFBnRWRwZHp2djZ3VFZPS3hhSG1pd0JvbWp2WWc0X3hHMlBwb2RSU3dMWExWQUZwNXhGLWotYm1lNlBtTDB6a0lFeXZIQXJXdDBMTG5wTm9YQV9LTGFZZ19tSWNCUW1pLVY0TkFvWDNSX0M2TVJLSlRFdWhkTk9STUFMU1RR",
+      "domain": "news.google.com",
+      "categories": [
+        "hackathon"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 64.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "2eflkvwotohfimnzkvmlqahflbte5oezvz25dt08zqvjgtwfgmxbtb1nxbuhjr3vzyxrtvwqwugppulutu2n0zdrlbfe4mnlhvvblnhp4bnc5uxfhoa-oc-5",
       "title": "Solana and Colosseum Launch First AI Agent Hackathon - genfinity.io",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYVgzdmtDMzdQNzNrVXNPX01yUEtadWdmMm1vQVZKeWxmOG9qYjF2eFlKVWotOHFIMnZKVmlqaHFLbTE5OEZvZ25DT08zQVJGTWFGMXBtb1NXbUhjR3VzYXRtVWQwUGppUlUtU2N0ZDRLbFE4MnlhVVBLNHp4bnc5UXFhOA",
@@ -52160,6 +52476,51 @@
       "domain": "news.google.com",
       "categories": [
         "testnet"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 64.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "oq2festznm0mzdjrpcmlrynznuw9xq1fibvzlc3vid3dwwvr4ytkyx29ys0dqm0fyvtznqnc0emi3wjz5qlbwtkzxrwjxedbdn3barm9vqjrtzvhyzq-oc-5",
+      "title": "Announcing the Chainlink Chromion Hackathon Winners - Chainlink",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdV9YWERGdHNwbGNMTlFVQ2lPX0hSSVRiN19SZXBVcWFFcVhOQ2FESTZnM0MzdjRPcmlRYnZNUW9xQ1FIbVZlc3VId3dWWVR4YTkyX29yS0dqM0FYVTZNQnc0emI3WjZ5QlBWTkZxRWJxeDBDN3BaRm9vQjRTZVhYZQ",
+      "domain": "news.google.com",
+      "categories": [
+        "hackathon"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -53957,7 +54318,7 @@
     },
     {
       "id": "ny1zox3hpnmfmmtf3tnrfdnzlm0xybzfyzjltbwfnnvjavlo0oeddwwnjunbtymljcuzrsg9mmuteznu0zwczzgloc1j3dfrnc3dhdwp1dg1tlv80uq-oc-5",
-      "title": "Ethereum’s Biggest Upgrade Is Coming: Glamsterdam Testnet Goes Live - Coinpedia Fintech News",
+      "title": "Ethereum’s Biggest Upgrade Is Coming: Glamsterdam Testnet Goes Live - Coinpedia",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS1JWSFd6Q3NQc003MDJiYkx6aGxDczRHbzUySWxDcEJoMUZaWVFGZWVhVEdGSTF2cHU4d3hnOEowTEpZcFlxZjI4QWFvd2VIaENJYldVVEFWV2NuLXlQOUhuNUI5dFNqOUowNWhLLThYbmJySG1VMlpSMDJkZE9JVG9VekQwVVluMmNnTDBxVkVVNVEzajBJWNIBngFBVV95cUxQbVFoYm1EZmJyR0h2VWdqRlBESEtaRWlpd2VLSS1mYVRuOUt6Y3Z2T1d0OHBvUFVRdEgtNk1mQ2Z4SUVLeFRRNk9nY1ZoX3hPNmFMMTF3TnRfdnZlM0xYbzFyZjlTbWFnNVJaVlo0OEdDWWNjUnBtYmljcUZrSG9mMUtEZnU0ZWczZGloc1J3dFRnc3dHdWp1dG1TLV80UQ",
       "domain": "news.google.com",
       "categories": [
@@ -54767,6 +55128,51 @@
       }
     },
     {
+      "id": "0njmgxkrg1sywndctnutvjemnrouvzta1loowv5b25omxi3zmnqntbpt1i0slplbnbxuktkblnvrklzwlfrd0q3eepprvznafr2q1z6uvowvvlstk9b-oc-5",
+      "title": "Tezos launches Quantumnet post-quantum testnet - ForkLog",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8tNkIzOFY1YVY3Mmoya0ExUFFoakgtOVJMYjlXS0NJMGxkRG1SYWNDcTNUTVJEMnRoUVZta1lOOWV5b25OMXI3ZmNqNTBPT1I0SlplbnBxUktkblNvRklZWlFrd0Q3eEppRVZNaFR2Q1Z6UVowVVlSTk9B",
+      "domain": "news.google.com",
+      "categories": [
+        "testnet"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 61.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
       "id": "2uvzyexziaw1yqw5dx0rydwk0ogzqr1pioex0os1st2ruu0zomkxvt3azqkdbsxfev1lndlhmemtox21hynhtou5pcf9kudrwvezztfrqmgl3bxjndw-oc-5",
       "title": "Kakarot Labs Launches Testnet for ZK-EVM, Enhancing EVM-Compatibility on Starknet - Bybit",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBhMEZKQVNCSGtFc0xWRGxPQXh2bjZyS1RYOEJnYlF2UVZyeXZiaW1yQW5DX0RydWk0OGZQR1pIOEx0OS1ST2RUU0ZoMkxvT3AzQkdBSXFEV1lndlhmemtoX21HYnhtOU5pcF9KUDRwVEZzTFRQMGl3bXJNdw",
@@ -54875,51 +55281,6 @@
       "deadlineUrgency": 10,
       "frictionScore": 0,
       "competitionScore": 6,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "1jqmw15owu0c0myylfjrgtzsmfjlujiwfftnxlpn2rjqvrbry02stfamk5xyzzswgjpsfbyouhpmtfzugqtoc03tk5pcvk5ym1kb05wvdnprndeunhf-oc-5",
-      "title": "BTQ Deploys First Working BIP 360 Implementation On Bitcoin Quantum Testnet - Bitcoin Magazine",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfOV9LWlBrWlFzNVh1M3hIaGRobl9od1JQMW15OWU0c0MyYlFJRGtzSmFjLUJIWFFtNXlpN2RJQVRBRy02STFaMk5xYzZsWGJPSFBYOUhPMTFzUGQtOC03Tk5pcVk5Ym1kb05wVDNPRndEUnhf",
-      "domain": "news.google.com",
-      "categories": [
-        "testnet"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 61.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
       "eligibility": {
         "signals": 2,
         "requiresManualCheck": true,
@@ -55307,51 +55668,6 @@
       }
     },
     {
-      "id": "g0wlvk0sfzqn2f4nnjurzlwutvxamjguwuwbnbfdwlwmu14m2n1cwtirvpvbvpomkliaxzivje2umg2x1rpzfhpti1hvfdhaetrs2eybkxly01fauto-oc-5",
-      "title": "Postquant Labs Launches Quantum-Classical Blockchain Testnet - Quantum Zeitgeist",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTWdjc1FlS0VIRV9uM2FhdGxmUnZ2SzlKYTE3YnloY2VqS1NlOUZ1QmVhRnJNUEM1Z1l1c21heG0wLVk0SFZqN2F4NnJURzlWUTVXamJGUWUwbnBfdWlwMU14M2N1cWtiRVpvbVpoMklIaXZIVjE2Umg2X1RpZFhPTi1HVFdHaEtrS2EybkxLY01faUto",
-      "domain": "news.google.com",
-      "categories": [
-        "testnet"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 61.0,
-      "valueScore": 36.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "nzmbu5sstqynl9ftzh4bmfwsvhoowlfrunqnzzymvrrumtysmzlbzyyegxlchv2awluof9nawrbv3rxr0dxdgxetxhisxrntuz3qvnibdyyb3plrf93-oc-5",
       "title": "DOGE price: Dogecoin gets Ethereum-style testnet for trading, lending and stablecoins - CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ0RSWWZ3S29BRzhIWm5aMVlLLVJoeHYySk5rRjNDOGhKbVhmcHdxZi1NNklIdFhEVnFhSmQycUdMaURZY2tpM0IyYi11VE1qOEpHR2x2UHdQYkZRUFpqSGpsQXpWd0lxdnZmbU5SSTQyNl9FTzh4bmFwSVhOOWlfRUNqNzZyMVRrUmtYSmZlbzYyeGxlcHV2aWluOF9NaWRBV3RXR0dxdGxETXhISXRnTUZ3QVNIbDYyb3pLRF93",
@@ -55400,6 +55716,51 @@
       "id": "4s1hqtvrkqwg4ofztss1hmjjux3qwsmrhsknfte5ouuxxnmlua1d2bdvxuujry3loc01ltujsohb5n29ydfnhzmswehrvzlq4zlpocdl5ovk3mdv4uq-oc-5",
       "title": "DogeOS Launches Public Testnet With EVM Smart Contracts for Dogecoin - CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNODgwOFA5RFhyYXFyWjh6UjUydFpUS0oyWkZUcWFRdy1SREt5MUdoU1JSS2ZMTnQwVG00NEpKN3RqY3JGRjZLRUI2VGtIeWwzNURjd3M4S1hQTVRKQWg4OFZtSS1hMjJuX3QwSmRHSkNfTE5oUUxXNmlua1d2bDVXUUJrY3lOc01lTUJSOHB5N29ydFNHZmsweHRVZlQ4ZlpOcDl5OVk3MDV4UQ",
+      "domain": "news.google.com",
+      "categories": [
+        "testnet"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 61.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "quh5rgq4a1bzz2m0cfvmr04xafbpvzczsup1r0s2akrfn25hadb1s3hlcfbqunc5eus0u2hjwmjurxk1oc10mf96elvqatrgsc1jwtyts0hktkvwt0o-oc-5",
+      "title": "Dogecoin Price: Can DOGE Hit $1 as DogeOS Testnet Goes Live? - Cryptonews",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ZdGY1cUhkemRBUzg0alVoUmdQLWs3eUhoekFqSFZwQUh5RGQ4a1BZZ2M0cFVMR04xaFBPVzczSUp1R0s2akRfN25haDB1S3hlcFBqUnc5eUs0U2hjWmJuRXk1OC10MF96elVqaTRGSC1jWTYtS0hKTkVWT0o",
       "domain": "news.google.com",
       "categories": [
         "testnet"
@@ -55808,6 +56169,51 @@
       "domain": "news.google.com",
       "categories": [
         "testnet"
+      ],
+      "rewardUsd": 0,
+      "rewardBand": "UNPRICED",
+      "realizationScore": 31,
+      "intelligenceScore": 31,
+      "baseScore": 61.0,
+      "valueScore": 36.0,
+      "verification": "REACHABLE_DOMAIN_ALIGNED",
+      "independentSources": 0,
+      "deadlineUrgency": 10,
+      "frictionScore": 0,
+      "competitionScore": 0,
+      "eligibility": {
+        "signals": 2,
+        "requiresManualCheck": true,
+        "possibleKyc": false,
+        "possibleGeographicRestriction": true,
+        "possibleAgeRestriction": false
+      },
+      "eligibilityClarity": 20,
+      "securityGate": {
+        "passed": true,
+        "urlChecked": true,
+        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
+        "drainerPhishingScreen": true
+      },
+      "priorityBand": "UNPRICED",
+      "priority": "VERIFIED",
+      "nextAction": "OWNER_REVIEW",
+      "safety": {
+        "ownerApprovalRequired": true,
+        "autoClaim": false,
+        "autoSigning": false,
+        "autoTransfer": false,
+        "secretStorage": false,
+        "bypassControls": false
+      }
+    },
+    {
+      "id": "rw1jlwdsby1svw1gsvrwuuzmnlf6ujiya2dmejgtx0jsvmflb0zvbuzqb0r4ttllm0xpwmfntfhgmknruw5acelmwhdzy1c2dtdou2xgd3nvbzi1nxc-oc-5",
+      "title": "Key Points: Craig Wright Trial Update - BitPinas",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBKN1RnSDVqWWs4cXpWZWJUaDdtblRpdmxURW1JLWdsby1SVW1GSVRwUUZmNlF6UjIya2dmejgtX0JSVmFlb0ZvbUZqb0R4TTlLM0xPWmFnTFhGMkNRUW5acElMWHdZY1c2dTdoU2xGd3NVbzI1NXc",
+      "domain": "news.google.com",
+      "categories": [
+        "points"
       ],
       "rewardUsd": 0,
       "rewardBand": "UNPRICED",
@@ -57468,51 +57874,6 @@
       }
     },
     {
-      "id": "krzjfzw0zejdqstvzbxjqbgnsm3nkdfdjugqwwtkyuepdstnolwzux0m5sfjqythmmc1sawp3q1lnlvotwtnxavkzrvfftlvvqlhzc1zwzwtxdmvovg-oc-5",
-      "title": "Hackathon «Build with Gemma» : Middlesex University Mauritius mobilise 75 étudiants autour de l’IA - DefiMedia",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSTkyc0p5cWJvYjNCTjAyYUF2SE1ZRXNhLUtTNFlMcGVzTjFXdEJDZGRINS1pTjdNTDdpS1hTU3RHZFBLY1pLY2xfajJIRGd2V0l0N1I3dGNBbVFKRzJFZW0zejdQSTVzbXJQbGNSM3NKdFdJUGQwWTkyUEpDSTNOLWZuX0M5SFJQYThMMC1saWp3Q1lnLVotWTNxaVkzRVFfTlVvQlhZc1ZWZWtxdmVOVg",
-      "domain": "news.google.com",
-      "categories": [
-        "hackathon"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 31,
-      "intelligenceScore": 31,
-      "baseScore": 61.0,
-      "valueScore": 35.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 0,
-      "competitionScore": 0,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
       "id": "c1dynutszzc4ogxpu0k2d2vjagm0mvrrqujzrnhztuhqexvotfp1turmb1bwrnpxzmpwq0vyvgvfotmyuxr4ukk0tm1vwnzuvhdvzgnndgvuv0qxs0s-oc-5",
       "title": "DogeOS opens public testnet with DOGE fees and EVM smart contracts - Crypto News",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50UXRpZ3lHVkZjQkpoeHdORlYwc1dyNUtsZzc4OGxPU0k2d2VjaGM0MVRrQUJZRnhzTUhqeXVOTFp1TURMb1BwRnpXZmpwQ0VyVGVFOTMyUXR4Ukk0Tm1VWnZuVHdVZGNNdGVUV0QxS0s",
@@ -57981,51 +58342,6 @@
       "deadlineUrgency": 10,
       "frictionScore": 5,
       "competitionScore": 8,
-      "eligibility": {
-        "signals": 2,
-        "requiresManualCheck": true,
-        "possibleKyc": false,
-        "possibleGeographicRestriction": true,
-        "possibleAgeRestriction": false
-      },
-      "eligibilityClarity": 20,
-      "securityGate": {
-        "passed": true,
-        "urlChecked": true,
-        "contractAudit": "REQUIRED_WHEN_CONTRACT_EXISTS",
-        "drainerPhishingScreen": true
-      },
-      "priorityBand": "UNPRICED",
-      "priority": "VERIFIED",
-      "nextAction": "OWNER_REVIEW",
-      "safety": {
-        "ownerApprovalRequired": true,
-        "autoClaim": false,
-        "autoSigning": false,
-        "autoTransfer": false,
-        "secretStorage": false,
-        "bypassControls": false
-      }
-    },
-    {
-      "id": "es-cbmiuefvx3lxte5pbexlsnhtrgvtylr2q2jcmktcvlbeahpxmgxpnjnwnnjds2xnae5rctndqvnntdq0dedomtd3rmh0zulys3z3ven0wfpwtnpy-oc-5",
-      "title": "Deposit & Trade Cluster Protocol to Earn Airdrop Rewards | MEXC - MEXC",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5PbExlSnhtRGVTYlR2Q2JCMktCVlBEaHpXMGxPNjNWNnJDS2xNaE5RcTNDQVNnTDQ0dEdOMTd3Rmh0ZUlYS3Z3VEN0WFpWTnpy",
-      "domain": "news.google.com",
-      "categories": [
-        "airdrop"
-      ],
-      "rewardUsd": 0,
-      "rewardBand": "UNPRICED",
-      "realizationScore": 30,
-      "intelligenceScore": 30,
-      "baseScore": 79.0,
-      "valueScore": 33.0,
-      "verification": "REACHABLE_DOMAIN_ALIGNED",
-      "independentSources": 0,
-      "deadlineUrgency": 10,
-      "frictionScore": 5,
-      "competitionScore": 0,
       "eligibility": {
         "signals": 2,
         "requiresManualCheck": true,
