@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T06:34:54.989460+00:00",
-  "nodeCount": 1208,
-  "edgeCount": 1231,
+  "updatedAt": "2026-10-23T12:00:37.390128+00:00",
+  "nodeCount": 1209,
+  "edgeCount": 1232,
   "nodes": [
     {
       "id": "claim:049000e9c26dd87b",
@@ -13,6 +13,11 @@
       "id": "source:news.google.com",
       "type": "source",
       "label": "news.google.com"
+    },
+    {
+      "id": "claim:2751e68f2dac27cc",
+      "type": "claim",
+      "label": "Avalanche kicks off C-Chain round of $40M Retro9000 grant program - thestreet.com"
     },
     {
       "id": "claim:5ad66bee85099158",
@@ -65,19 +70,9 @@
       "label": "Ethereum Protocol Attackathon is Live"
     },
     {
-      "id": "claim:2751e68f2dac27cc",
-      "type": "claim",
-      "label": "Avalanche kicks off C-Chain round of $40M Retro9000 grant program - thestreet.com"
-    },
-    {
       "id": "claim:2cab48a8a9892a23",
       "type": "claim",
       "label": "Expanding the Chainlink Bug Bounty Program to Immunefi - Chainlink"
-    },
-    {
-      "id": "claim:0fd83221bec78f21",
-      "type": "claim",
-      "label": "microsoft-bounty-program-updates-faster-bounty-review-faster-payments-and-higher-rewards - Microsoft"
     },
     {
       "id": "claim:814eabdb0967fffb",
@@ -110,9 +105,9 @@
       "label": "Aptos looks to lure artists with $20 million grant program - The Block"
     },
     {
-      "id": "claim:ea88dd9c5a0ecd4d",
+      "id": "claim:6bab9871cc004f6a",
       "type": "claim",
-      "label": "HackerOne’s Largest Bug Bounty Program Boasts 300 Hackers, $2M In Rewards - Cybercrime Magazine"
+      "label": "Google Has Shut Down Part of its Open Source Bounty Program - It's FOSS"
     },
     {
       "id": "claim:608ef72d564d9e7c",
@@ -140,14 +135,24 @@
       "label": "The 'Internet Bug Bounty Program' has stopped accepting new submissions due to the increased number of bugs discovered by AI. - GIGAZINE"
     },
     {
-      "id": "claim:82d51ecaedd3199a",
+      "id": "claim:63944ceefd67c528",
       "type": "claim",
-      "label": "Immunefi: Alchemix restarts the v3 Bug Bounty Program with a maximum reward of $300,000 - Bitget"
+      "label": "Google Pauses Open-Source Bug Bounty Program Amid AI Slop - BankInfoSecurity"
+    },
+    {
+      "id": "claim:824bfc38a1d050df",
+      "type": "claim",
+      "label": "Google halts open-source bug bounty program over AI spam - TechGig"
     },
     {
       "id": "claim:47c74264bf09be5a",
       "type": "claim",
       "label": "Ethereum Foundation Launches New Grant Program Structure - CoinMarketCap"
+    },
+    {
+      "id": "claim:0fd83221bec78f21",
+      "type": "claim",
+      "label": "microsoft-bounty-program-updates-faster-bounty-review-faster-payments-and-higher-rewards - Microsoft"
     },
     {
       "id": "claim:67ebf3a23c8195b9",
@@ -160,9 +165,19 @@
       "label": "Curl ending bug bounty program after flood of AI slop reports - BleepingComputer"
     },
     {
-      "id": "claim:285bf0076eb3ec69",
+      "id": "claim:0cc451eb784b33ef",
       "type": "claim",
-      "label": "Expanding our model safety bug bounty program - Anthropic"
+      "label": "Ronin offers $10M grant program for Web3 developer growth - TradingView"
+    },
+    {
+      "id": "claim:81471447cc4493ef",
+      "type": "claim",
+      "label": "Maelstrom Announces Its Fourth Bitcoin Developer Grant Recipient - Bitcoin Magazine"
+    },
+    {
+      "id": "claim:1b8d3d2548f7a5d1",
+      "type": "claim",
+      "label": "LG Uplus Partners with HackerOne to Launch Global Bug Bounty Program - finance.biggo.com"
     },
     {
       "id": "claim:ffa016569c7c3922",
@@ -170,9 +185,34 @@
       "label": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions - TechCrunch"
     },
     {
-      "id": "claim:a2c5f81796fa12d0",
+      "id": "claim:bd4e6670149f330e",
       "type": "claim",
-      "label": "10 Essential Bug Bounty Programs of 2020 - Tripwire"
+      "label": "Google Freezes Bug Bounty Program Due to AI Spam Surge - The Tech Buzz"
+    },
+    {
+      "id": "claim:c9fb541b33a2f571",
+      "type": "claim",
+      "label": "Google pauses open-source bug bounty program after rise in AI spam submissions - The Times of India"
+    },
+    {
+      "id": "claim:988387f2ca5e094a",
+      "type": "claim",
+      "label": "Google pauses open source bug bounty program du... - Pluang"
+    },
+    {
+      "id": "claim:ec65021190be72c1",
+      "type": "claim",
+      "label": "Google suspends open-source bug bounty program as AI slop overwhelms maintainers - news.lavx.hu"
+    },
+    {
+      "id": "claim:568227e09c86f884",
+      "type": "claim",
+      "label": "HackerOne Requires ID Verification for Bug Bounty Program Submissions - CyberSecurityNews"
+    },
+    {
+      "id": "claim:07c4685607aed17f",
+      "type": "claim",
+      "label": "Google's Open-Source Bug Bounty Program Has A Big AI Problem - BGR"
     },
     {
       "id": "claim:d402d3d0959f7fbc",
@@ -185,9 +225,9 @@
       "label": "X1 EcoChain Launches $5M Grant Program and $100K Galxe Starboard for Global Builders and Community - CaptainAltcoin"
     },
     {
-      "id": "claim:3adad6e075bacaee",
+      "id": "claim:f9359ae63a8b31ba",
       "type": "claim",
-      "label": "Google’s Bug Bounty Program Hits Record $17 Million in 2025 Payouts - GBHackers News"
+      "label": "Google Pauses Open-source Bug Bounty Program Over Invalid AI Reports - Dataconomy"
     },
     {
       "id": "claim:6adb2ab02e0e167d",
@@ -195,19 +235,44 @@
       "label": "Google halts open-source bug bounty program amid AI spam surge - BleepingComputer"
     },
     {
-      "id": "claim:58ba671fcbe2f4cd",
+      "id": "claim:e973eebc9b08d18b",
       "type": "claim",
-      "label": "Microsoft improves its bug bounty program with \"In Scope by Default\" - Techzine Global"
+      "label": "Google Pauses Open-Source Bug Bounty Program After Flood of Invalid AI-Generated Reports - CyberSecurityNews"
     },
     {
-      "id": "claim:3fb5cef3a6e1c372",
+      "id": "claim:6daa29dd1b415b68",
       "type": "claim",
-      "label": "Announcing a Trillion Dollar Security grant for WEBCAT - ethereum.org"
+      "label": "Google Suspends Open Source Bug Bounty Program Due to Surge in AI-Generated Reports - صحيفة مال"
+    },
+    {
+      "id": "claim:30fddcd5a3769e68",
+      "type": "claim",
+      "label": "Google has suspended its vulnerability reward program following a spate of invalid reports generated by AI - Mezha"
+    },
+    {
+      "id": "claim:b0f3a550d0dbcfda",
+      "type": "claim",
+      "label": "​Google Pauses Open Source Bug Bounty Program Over Flood of AI Generated Reports - The420.in"
+    },
+    {
+      "id": "claim:1b11033b23ec91df",
+      "type": "claim",
+      "label": "Intel Appears To End Its Bug Bounty Program - Phoronix"
+    },
+    {
+      "id": "claim:0bcf9517bd3677ce",
+      "type": "claim",
+      "label": "Hold RLUSD in Any Binance Accounts to Share 600,000 XRP Rewards - Binance"
     },
     {
       "id": "claim:0c396bfac4415b71",
       "type": "claim",
       "label": "HackerOne takes an axe to its bug bounty rewards - The Register"
+    },
+    {
+      "id": "claim:3423856923603825",
+      "type": "claim",
+      "label": "9 Best Bug Bounty Platforms to Join In 2026 - CloudSEK"
     },
     {
       "id": "claim:f2496876038faa3b",
@@ -225,14 +290,14 @@
       "label": "Anthropic Launches $5M Grant Program for AI Well-Being Research - TUN - The University Network"
     },
     {
-      "id": "claim:43c34b9710c924d5",
-      "type": "claim",
-      "label": "Introducing the OpenAI Safety Bug Bounty program - OpenAI"
-    },
-    {
       "id": "claim:ef93d5cdf09cd87d",
       "type": "claim",
       "label": "Kansas commerce secretary laments taxpayer cost of repeat audits of economic grant program - Kansas Reflector"
+    },
+    {
+      "id": "claim:46e8e241f16be424",
+      "type": "claim",
+      "label": "Next chapter: Restructuring GitHub’s bug bounty program - The GitHub Blog"
     },
     {
       "id": "claim:0452c45ec7af3833",
@@ -240,19 +305,29 @@
       "label": "Nextcloud ends bug bounty program due to too many low-quality reports - Techzine Global"
     },
     {
+      "id": "claim:130ac01f81e90755",
+      "type": "claim",
+      "label": "OCC's GENIUS Act Rules Put Existing Stablecoin Rewards Programs at Risk - CoinCodex"
+    },
+    {
+      "id": "claim:754b4bd82324f7eb",
+      "type": "claim",
+      "label": "Retro9000, a $40M Grant Program, Rewards Developers Driving Avalanche Transactions - avalanche.com"
+    },
+    {
       "id": "claim:fa1a2dd26befd932",
       "type": "claim",
       "label": "Curl shutters bug bounty program to stop AI slop - The Register"
     },
     {
-      "id": "claim:09872f0c2e95387f",
-      "type": "claim",
-      "label": "Brazil's Nubank to introduce cryptocurrency as part of rewards program - Reuters"
-    },
-    {
       "id": "claim:d9ff33be811b3333",
       "type": "claim",
       "label": "Introducing the Intersect Bug Bounty Program: strengthening open source security - Intersect MBO"
+    },
+    {
+      "id": "claim:0c1d7902a1052da6",
+      "type": "claim",
+      "label": "Maelstrom Unveils $250K Bitcoin Grant Program for Bitcoin Developers - The Crypto Times"
     },
     {
       "id": "claim:60310f9ff50282e2",
@@ -265,19 +340,24 @@
       "label": "Grant to address IU Northwest students’ basic needs, building foundation for academic excellence - News at IU"
     },
     {
-      "id": "claim:bd1a973103a48481",
+      "id": "claim:d14c9a853e6ae7ec",
       "type": "claim",
-      "label": "Charting the future of our bug bounty program - Engineering at Meta"
+      "label": "WEMIX Fortifies Network Security with Upgraded CertiK Hunt Bug Bounty Program - Yellow.com"
     },
     {
-      "id": "claim:7190bf5503fa66d3",
+      "id": "claim:aee4c019cf23e7b4",
       "type": "claim",
-      "label": "Expanding Our Bug Bounty Program to Address Scraping - Facebook"
+      "label": "WEMIX Fortifies Network Security with Upgraded CertiK Hunt Bug Bounty Program - PR Newswire"
     },
     {
       "id": "claim:91b395ebc4a0b4e4",
       "type": "claim",
       "label": "Fireblocks Deepens Collaboration With the TON Foundation: Introducing Support for Jettons and $200k Grant Program - Fireblocks"
+    },
+    {
+      "id": "claim:701d10ba50429843",
+      "type": "claim",
+      "label": "Fintech Firm Brex Launches Crypto Rewards Program for Business Clients - Yahoo Finance"
     },
     {
       "id": "claim:3008be9d66be328a",
@@ -300,29 +380,19 @@
       "label": "Wilmette’s new grant program will help cover ‘green’ home projects - therecordnorthshore.org"
     },
     {
+      "id": "claim:ea88dd9c5a0ecd4d",
+      "type": "claim",
+      "label": "HackerOne’s Largest Bug Bounty Program Boasts 300 Hackers, $2M In Rewards - Cybercrime Magazine"
+    },
+    {
       "id": "claim:658f908da299b264",
       "type": "claim",
       "label": "Hyatt Launches Public Bug Bounty Program on HackerOne - BleepingComputer"
     },
     {
-      "id": "claim:7c97fecc4df733bf",
-      "type": "claim",
-      "label": "Google Offers Up to $20,000 in New AI Bug Bounty Program - SecurityWeek"
-    },
-    {
       "id": "claim:4034338aa6117245",
       "type": "claim",
       "label": "inDrive Launches Bug Bounty Program Through HackerOne - citybiz"
-    },
-    {
-      "id": "claim:6bab9871cc004f6a",
-      "type": "claim",
-      "label": "Google Has Shut Down Part of its Open Source Bounty Program - It's FOSS"
-    },
-    {
-      "id": "claim:e449c85714f6f911",
-      "type": "claim",
-      "label": "Vulnerability Reward Program: 2017 Year in Review - blog.google"
     },
     {
       "id": "claim:c2a5a4106393adda",
@@ -370,11 +440,6 @@
       "label": "President Preckwinkle Announces $25 Million in Grant Awards for Community-Based Programming to Address Gun Violence - Cook County (.gov)"
     },
     {
-      "id": "claim:07a46dd8020a6b1c",
-      "type": "claim",
-      "label": "CoinDCX has announced India’s largest recovery bounty in the crypto sector, offering up to 25% of recovered funds as a reward to individuals who provide actionable information lead"
-    },
-    {
       "id": "claim:03c41a99d0bddb97",
       "type": "claim",
       "label": "NAPECA Grant Program: C$1.3 Million for Community-based Circular Economy Strategies to Improve Local Well-being and the Environment - Commission for Environmental Cooperation"
@@ -393,6 +458,11 @@
       "id": "claim:44441a212df9ccdc",
       "type": "claim",
       "label": "Solana Foundation Offers $400k Bounty for Critical Code Discovery - Blockchain News"
+    },
+    {
+      "id": "claim:86fbf9294a8bdce2",
+      "type": "claim",
+      "label": "Tegro Web3 Marketplace Announces $1-Million Grant For Game Developers, Proposes FTs As Core Element Of Economy Design - ABP Live English"
     },
     {
       "id": "claim:703575dea9c8f361",
@@ -440,11 +510,6 @@
       "label": "The Sloan Foundation Awards GW a Grant to Encourage Open-Source Software - GW Today"
     },
     {
-      "id": "claim:30b6aed67c3bd1d3",
-      "type": "claim",
-      "label": "Samsung Launches Bug Bounty Program — Offering up to $200,000 in Rewards - The Hacker News"
-    },
-    {
       "id": "claim:6e7f8301f900d733",
       "type": "claim",
       "label": "ARPA Network launches bug bounty program on Immunefi - Bitget"
@@ -455,24 +520,14 @@
       "label": "Vertica Database to Reward Open Source Developers via New Program - HPCwire"
     },
     {
-      "id": "claim:f8071260253691a8",
+      "id": "claim:7dce9ff55af60cd2",
       "type": "claim",
-      "label": "Japan's SBI Shinsei Bank plans crypto rewards program for depositors this fall: Nikkei - The Block"
+      "label": "xStocks Rewards Program Launch: Strategic xPoints Initiative Signals Major Tokenized Stock Evolution - CryptoRank"
     },
     {
-      "id": "claim:8884c052fc1b6353",
+      "id": "claim:7fbfa17ba0f83d63",
       "type": "claim",
-      "label": "How to get better results from bug bounty programs without wasting money - Help Net Security"
-    },
-    {
-      "id": "claim:63944ceefd67c528",
-      "type": "claim",
-      "label": "Google Pauses Open-Source Bug Bounty Program Amid AI Slop - BankInfoSecurity"
-    },
-    {
-      "id": "claim:824bfc38a1d050df",
-      "type": "claim",
-      "label": "Google halts open-source bug bounty program over AI spam - TechGig"
+      "label": "Google Halts Bug Bounty Program Due to AI Spam Surge - ForkLog"
     },
     {
       "id": "claim:9fdcbd382928de57",
@@ -485,9 +540,9 @@
       "label": "AT&T Launches Public Bug Bounty Program on HackerOne - BleepingComputer"
     },
     {
-      "id": "claim:38bd9e9d8d0ed4f8",
+      "id": "claim:a3031de46eb595ca",
       "type": "claim",
-      "label": "Microsoft Bounty Program year in review: $17 million in rewards - Microsoft"
+      "label": "Google Updates Android Bug Bounty Program With $1.5 Million Offer - Forbes"
     },
     {
       "id": "claim:583d3eebe4ad9277",
@@ -505,24 +560,24 @@
       "label": "Apply Now: Australia Day Community Events Grant Program - fundsforNGOs - Grants and Resources for Sustainability"
     },
     {
-      "id": "claim:1b0087e89a45e893",
-      "type": "claim",
-      "label": "Announcing the public launch of Cloudflare's bug bounty program - Cloudflare Blog"
-    },
-    {
       "id": "claim:b1e4dbe93fa6d7a6",
       "type": "claim",
       "label": "Sony PlayStation Bug Bounty Program Launches In Collaboration With HackerOne - HotHardware"
     },
     {
-      "id": "claim:93a63a0a1b84b74a",
+      "id": "claim:512f2d2975d875da",
       "type": "claim",
-      "label": "Google bug bounty program paid a record $12 million last year - The Record from Recorded Future News"
+      "label": "Crypto.com selects Bread Financial® to launch new crypto-based rewards credit card program in the U.S. - Bread Financial Newsroom"
     },
     {
       "id": "claim:d7ebc5ea0a075f64",
       "type": "claim",
       "label": "Nextcloud has pulled the plug on its bug bounty program due to “AI slop” - Cybernews"
+    },
+    {
+      "id": "claim:cf091a2b71cecb97",
+      "type": "claim",
+      "label": "OCC Finalizes First GENIUS Act Rule, Leaving Stablecoin Rewards Programs Unprotected - Hokanews"
     },
     {
       "id": "claim:83bf76b8c9ff2440",
@@ -540,11 +595,6 @@
       "label": "LayerZero launches record-breaking $15M crypto bug bounty program - BleepingComputer"
     },
     {
-      "id": "claim:0cc451eb784b33ef",
-      "type": "claim",
-      "label": "Ronin offers $10M grant program for Web3 developer growth - TradingView"
-    },
-    {
       "id": "claim:60a47ec376aee71a",
       "type": "claim",
       "label": "Chainlink Grant Program and Ecosystem Growth Explained - Coin Gabbar"
@@ -553,11 +603,6 @@
       "id": "claim:1b9d5531d40bba56",
       "type": "claim",
       "label": "Bitcoin City? Tennessee officials tease new crypto-focused workforce development grant - The Tennessean"
-    },
-    {
-      "id": "claim:81471447cc4493ef",
-      "type": "claim",
-      "label": "Maelstrom Announces Its Fourth Bitcoin Developer Grant Recipient - Bitcoin Magazine"
     },
     {
       "id": "claim:8f77a212aab6df79",
@@ -575,14 +620,24 @@
       "label": "Microsoft bounty program now includes any flaw impacting its services - BleepingComputer"
     },
     {
-      "id": "claim:813964235de46d66",
+      "id": "claim:fd892d742f596fd4",
       "type": "claim",
-      "label": "Polygon Labs Commences $85M Grant Program to Draw Builders to Its Ecosystem - CoinDesk"
+      "label": "We're Investing in Bitcoin’s Long-Term Security Through Grant to 2140 Foundation - OKX"
     },
     {
       "id": "claim:0bb2ccbb9620ec25",
       "type": "claim",
       "label": "AI is so good at finding software bugs that it's breaking bug bounty programs - Cybernews"
+    },
+    {
+      "id": "claim:b5964313bf6cecd0",
+      "type": "claim",
+      "label": "Texas Tech announces nearly $30M USDA grant for Davis College - Lubbock Avalanche-Journal"
+    },
+    {
+      "id": "claim:285bf0076eb3ec69",
+      "type": "claim",
+      "label": "Expanding our model safety bug bounty program - Anthropic"
     },
     {
       "id": "claim:d7d0c778418dd03c",
@@ -635,14 +690,14 @@
       "label": "A Trust-Based Approach to Grant Reporting - Women's Foundation of Minnesota"
     },
     {
-      "id": "claim:1b8d3d2548f7a5d1",
+      "id": "claim:4cb5a64f838d599d",
       "type": "claim",
-      "label": "LG Uplus Partners with HackerOne to Launch Global Bug Bounty Program - finance.biggo.com"
+      "label": "Intel kills its bug bounty program that paid up to $100,000 for flagging security vulnerabilities - TweakTown"
     },
     {
-      "id": "claim:af05fc54f706e720",
+      "id": "claim:a509de64d7fcfac1",
       "type": "claim",
-      "label": "1 Million XRP Reward: Binance Announces Four More Weeks of RLUSD Airdrop - U.Today"
+      "label": "Intel suspends its $100k bug bounty program - Notebookcheck"
     },
     {
       "id": "claim:ca3c619ec2b0bfa6",
@@ -660,39 +715,19 @@
       "label": "Google Halts Bug Bounty Program Over AI Spam Surge - The Tech Buzz"
     },
     {
-      "id": "claim:bd4e6670149f330e",
-      "type": "claim",
-      "label": "Google Freezes Bug Bounty Program Due to AI Spam Surge - The Tech Buzz"
-    },
-    {
-      "id": "claim:c9fb541b33a2f571",
-      "type": "claim",
-      "label": "Google pauses open-source bug bounty program after rise in AI spam submissions - The Times of India"
-    },
-    {
-      "id": "claim:988387f2ca5e094a",
-      "type": "claim",
-      "label": "Google pauses open source bug bounty program du... - Pluang"
-    },
-    {
       "id": "claim:e76f4b7104f629f5",
       "type": "claim",
       "label": "Sei Bug Bounty Program: Strengthening Security with Immunefi - Binance"
     },
     {
-      "id": "claim:ae4a6fc44f559381",
-      "type": "claim",
-      "label": "WazirX crypto exchange hack and its bounty programme: what it means to India’s crypto investors? - The Hindu"
-    },
-    {
-      "id": "claim:60384c7df4ba52db",
-      "type": "claim",
-      "label": "Bitget to Resume BTC, ETH, and XRP Withdrawals, With 10% Bounty Program | News - CryptoRank"
-    },
-    {
       "id": "claim:50a556a68a3412e4",
       "type": "claim",
       "label": "Bitget to Resume BTC, ETH, and XRP Withdrawals, With 10% Bounty Program - TradingView"
+    },
+    {
+      "id": "claim:b6cf24cd66cba14d",
+      "type": "claim",
+      "label": "Intel Scraps Paid Bug Bounty Program That Offered Up to $100,000, Shifts to Reward-Free Disclosure - BigGo Finance"
     },
     {
       "id": "claim:1dbe479e4eb4789f",
@@ -718,21 +753,6 @@
       "id": "claim:3223fb16af3bedda",
       "type": "claim",
       "label": "Grant County officials confirm no active shooter near the Modrite Fire - KXLY.com"
-    },
-    {
-      "id": "claim:ec65021190be72c1",
-      "type": "claim",
-      "label": "Google suspends open-source bug bounty program as AI slop overwhelms maintainers - news.lavx.hu"
-    },
-    {
-      "id": "claim:568227e09c86f884",
-      "type": "claim",
-      "label": "HackerOne Requires ID Verification for Bug Bounty Program Submissions - CyberSecurityNews"
-    },
-    {
-      "id": "claim:0807ddf75a91159b",
-      "type": "claim",
-      "label": "Vulnerability Rewards Program: 2016 Year in Review - blog.google"
     },
     {
       "id": "claim:307d217cf37146eb",
@@ -765,6 +785,11 @@
       "label": "Agoda opens public bug bounty programme on HackerOne - Tech Edition"
     },
     {
+      "id": "claim:853009323dbed9ec",
+      "type": "claim",
+      "label": "Intel Ends Paid Bug Bounty Program, Replaces It With a No-Reward Vulnerability Program - eTeknix"
+    },
+    {
       "id": "claim:b49f4094c029056c",
       "type": "claim",
       "label": "Is There a Fomo Airdrop? Token Status and Referral Program - UseTheBitcoin"
@@ -773,6 +798,16 @@
       "id": "claim:58b9a9fc18d72709",
       "type": "claim",
       "label": "Lee Chan-jin: “Will verify Woori and NongHyup’s defenses against hacking; preparing to bring the Bug Bounty Program up to KISA’s level” - 파이낸셜뉴스"
+    },
+    {
+      "id": "claim:0676cb4ba5b57076",
+      "type": "claim",
+      "label": "FSS chief vows to expand financial sector bug bounty program beyond KISA standards - 헤럴드경제"
+    },
+    {
+      "id": "claim:7362728b5dfb9183",
+      "type": "claim",
+      "label": "CALL FOR APPLICATIONS [DEADLINE: JUNE 1 2025] | Fedrok AG Announces $20,000 Blockchain Grant to All African Developers Looking to Build for Chad and Niger - BitKE"
     },
     {
       "id": "claim:e7ee328c8e5de787",
@@ -785,9 +820,19 @@
       "label": "Airdrop of 50 Million BWB: Official Launch of Bitget Wallet's Ecosystem Token! - Bitget"
     },
     {
+      "id": "claim:a2c5f81796fa12d0",
+      "type": "claim",
+      "label": "10 Essential Bug Bounty Programs of 2020 - Tripwire"
+    },
+    {
       "id": "claim:b4a6b981013342de",
       "type": "claim",
       "label": "Uniswap Foundation announces Unichain Developer Grant Program - Bitget"
+    },
+    {
+      "id": "claim:44611533c1d12be5",
+      "type": "claim",
+      "label": "Spiral Boosts Summer of Bitcoin Coding Program with New Grant - Bitbo"
     },
     {
       "id": "claim:563a501941713cea",
@@ -795,19 +840,14 @@
       "label": "Bug-Bounty Programs Shift Focus to Most Critical Flaws - Dark Reading"
     },
     {
-      "id": "claim:07c4685607aed17f",
+      "id": "claim:2f7905d20831bf83",
       "type": "claim",
-      "label": "Google's Open-Source Bug Bounty Program Has A Big AI Problem - BGR"
+      "label": "Making blockchain real for customer loyalty rewards programs - Deloitte"
     },
     {
-      "id": "claim:3a8a7fedcdfad8ff",
+      "id": "claim:3fb8119b19dbd180",
       "type": "claim",
-      "label": "Google Paid Out $12 Million via Bug Bounty Programs in 2024 - SecurityWeek"
-    },
-    {
-      "id": "claim:80fe6306546d8533",
-      "type": "claim",
-      "label": "Microsoft raises rewards for Copilot AI bug bounty program - BleepingComputer"
+      "label": "Peacock Biology Explains the Crisis That Broke Google’s Bug Bounty Program - Inc.com"
     },
     {
       "id": "claim:024fa5caaf475cd8",
@@ -830,19 +870,44 @@
       "label": "DETROIT PISTONS PARTNER WITH UPTOP TO LAUNCH NEW PISTONS REWARDS PROGRAM - NBA.com"
     },
     {
-      "id": "claim:3edad7cfd1240735",
+      "id": "claim:3adad6e075bacaee",
       "type": "claim",
-      "label": "microsoft-bug-bounty-program-year-in-review-13-8m-in-rewards - Microsoft"
+      "label": "Google’s Bug Bounty Program Hits Record $17 Million in 2025 Payouts - GBHackers News"
     },
     {
-      "id": "claim:17630217e323fb90",
+      "id": "claim:25cc906680060195",
       "type": "claim",
-      "label": "Google’s Bug Bounty Program Hits All-Time High With $17 Million in 2025 Payouts - CyberSecurityNews"
+      "label": "Google suspends open‑source bug bounty programme over AI‑generated invalid submissions until 2027 - Digital Watch Observatory"
     },
     {
-      "id": "claim:f9359ae63a8b31ba",
+      "id": "claim:3aef427d7382c440",
       "type": "claim",
-      "label": "Google Pauses Open-source Bug Bounty Program Over Invalid AI Reports - Dataconomy"
+      "label": "Google Shuts Down Bug Bounty Program Due To Bots - 1150 WIMA"
+    },
+    {
+      "id": "claim:496ec7087237d4c6",
+      "type": "claim",
+      "label": "Google Shuts Down Bug Bounty Program Due To Bots - newsradio 1040 who"
+    },
+    {
+      "id": "claim:65f027bc20e22cbb",
+      "type": "claim",
+      "label": "Google pauses Bug Bounty program due to AI spam - dev.ua"
+    },
+    {
+      "id": "claim:357601d308bd9d74",
+      "type": "claim",
+      "label": "Google pauses its open-source bug bounty program after a flood of AI slop reports - TweakTown"
+    },
+    {
+      "id": "claim:63249172ac70b38b",
+      "type": "claim",
+      "label": "Google Is Pausing a Lucrative Bounty Hunter Program. The Reason Points to a Weakness With Using AI - Inc.com"
+    },
+    {
+      "id": "claim:06b0b46846cb82d3",
+      "type": "claim",
+      "label": "Google temporarily suspends bug bounty program due to a surge in AI-generated bug reports. - GIGAZINE"
     },
     {
       "id": "claim:6aa66e54bf028638",
@@ -858,36 +923,6 @@
       "id": "claim:a7efaf777eb442f2",
       "type": "claim",
       "label": "Google pauses open source bug bounty program amid AI submission surge - SC Media"
-    },
-    {
-      "id": "claim:6daa29dd1b415b68",
-      "type": "claim",
-      "label": "Google Suspends Open Source Bug Bounty Program Due to Surge in AI-Generated Reports - صحيفة مال"
-    },
-    {
-      "id": "claim:e973eebc9b08d18b",
-      "type": "claim",
-      "label": "Google Pauses Open-Source Bug Bounty Program After Flood of Invalid AI-Generated Reports - CyberSecurityNews"
-    },
-    {
-      "id": "claim:30fddcd5a3769e68",
-      "type": "claim",
-      "label": "Google has suspended its vulnerability reward program following a spate of invalid reports generated by AI - Mezha"
-    },
-    {
-      "id": "claim:b0f3a550d0dbcfda",
-      "type": "claim",
-      "label": "​Google Pauses Open Source Bug Bounty Program Over Flood of AI Generated Reports - The420.in"
-    },
-    {
-      "id": "claim:5f571d330fbd2d45",
-      "type": "claim",
-      "label": "microsoft-bounty-program-year-in-review-16-6m-in-rewards - Microsoft"
-    },
-    {
-      "id": "claim:d625fc72743e7dc8",
-      "type": "claim",
-      "label": "Microsoft Bounty Program year in review More than $20 million awarded in our biggest year yet - Microsoft"
     },
     {
       "id": "claim:4b8535491b056cbe",
@@ -910,9 +945,24 @@
       "label": "Fluence Joins TON Grant Program - Cryptonews.net"
     },
     {
+      "id": "claim:77e38d589032f2ed",
+      "type": "claim",
+      "label": "GitHub revamps bug bounty program and emphasizes quality - Techzine Global"
+    },
+    {
+      "id": "claim:1174de41335ec005",
+      "type": "claim",
+      "label": "GitHub to implement two-tier bug bounty program amid AI-generated report surge - SC Media"
+    },
+    {
       "id": "claim:645e98270229f415",
       "type": "claim",
       "label": "Unwrapping Nord Security’s bug bounty program - NordVPN"
+    },
+    {
+      "id": "claim:b0f69885813863c9",
+      "type": "claim",
+      "label": "Pepe Unchained Presale Raises $14M, Announces Developer Grant – Best ICO to Invest in? - CryptoRank"
     },
     {
       "id": "claim:b383650de03698dc",
@@ -923,16 +973,6 @@
       "id": "claim:0847c13336e69f4b",
       "type": "claim",
       "label": "Foundation behind restaking protocol EigenLayer plans bigger rewards for active users - Yahoo Finance UK"
-    },
-    {
-      "id": "claim:1b11033b23ec91df",
-      "type": "claim",
-      "label": "Intel Appears To End Its Bug Bounty Program - Phoronix"
-    },
-    {
-      "id": "claim:f2341a335390cdd2",
-      "type": "claim",
-      "label": "Google Cloud launches new Vulnerability Rewards Program - Google Cloud"
     },
     {
       "id": "claim:c67ff414c8c6030a",
@@ -950,24 +990,14 @@
       "label": "TECNO Partnership with HackerOne Expands Bug Bounty Program - - MSSP Alert"
     },
     {
-      "id": "claim:ccb327a630ad9ebc",
+      "id": "claim:58ba671fcbe2f4cd",
       "type": "claim",
-      "label": "Apple Announces $2 Million Bug Bounty Reward for the Most Dangerous Exploits - WIRED"
-    },
-    {
-      "id": "claim:c13b88c9c89bdb66",
-      "type": "claim",
-      "label": "Vulnerability Reward Program: 2024 in Review - blog.google"
+      "label": "Microsoft improves its bug bounty program with \"In Scope by Default\" - Techzine Global"
     },
     {
       "id": "claim:69413f67ae3cf68f",
       "type": "claim",
       "label": "Estonian startup gets a social impact grant from Chainlink Community Grants Program - ArcticStartup - ArcticStartup"
-    },
-    {
-      "id": "claim:4a23cdcb8d5d8d4c",
-      "type": "claim",
-      "label": "Apple's finally launched a bug bounty program – with rewards up to £152,000 - WIRED"
     },
     {
       "id": "claim:5eb7a30d7718b28b",
@@ -1050,19 +1080,29 @@
       "label": "Uniswap Labs Plans OUSD Rewards Hook for Liquidity Providers - The Defiant"
     },
     {
-      "id": "claim:8167de9d0a1bc3bc",
-      "type": "claim",
-      "label": "$10M Bitcoin Bounty? Grant Cardone Offers 10 BTC to Sell $80M Jet After Massive Call - Yahoo Finance"
-    },
-    {
       "id": "claim:5bcb7135f432b8ac",
       "type": "claim",
       "label": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier - The Hacker News"
     },
     {
+      "id": "claim:feb2d3da13f3afbe",
+      "type": "claim",
+      "label": "Best Crypto to Invest In? Apeing's Live Presale, Staking Rewards and Community Features Explained - openPR.com"
+    },
+    {
       "id": "claim:3fd5c734dc0a7f4d",
       "type": "claim",
       "label": "Immunefi to absorb Code4rena bug bounty customers after shutdown decision - The Block"
+    },
+    {
+      "id": "claim:c5c0bf781b883c47",
+      "type": "claim",
+      "label": "Crypto rewards eye renters who want to save for a down payment - HousingWire"
+    },
+    {
+      "id": "claim:eefd51dc7d20fc00",
+      "type": "claim",
+      "label": "Swisstronik Bug Bounty 1.0 launches with rewards of up to $31,000 per bug! - AMBCrypto"
     },
     {
       "id": "claim:608a495d08ba4f6f",
@@ -1075,14 +1115,64 @@
       "label": "Microsoft Awards Record $20 Million to 562 Researchers in Biggest Bug Bounty Year - CyberSecurityNews"
     },
     {
+      "id": "claim:3fb5cef3a6e1c372",
+      "type": "claim",
+      "label": "Announcing a Trillion Dollar Security grant for WEBCAT - ethereum.org"
+    },
+    {
+      "id": "claim:7c5e8e35550d86e1",
+      "type": "claim",
+      "label": "Introducing USD.AI (CHIP) on Binance HODLer Airdrops! Earn CHIP With Retroactive BNB Simple Earn Subscriptions - Binance"
+    },
+    {
       "id": "claim:866863746e3c266e",
       "type": "claim",
       "label": "WEFUZZ, a fully decentralized, crowdsourced security audit and bug bounty solution - Coinbase"
     },
     {
+      "id": "claim:ee3287fa31dc6735",
+      "type": "claim",
+      "label": "AI drives surge in ‘bug bounty’ reports, but ‘slop’ is rising too - TradingView"
+    },
+    {
       "id": "claim:b6f7e99f68e0e0d6",
       "type": "claim",
       "label": "MON Airdrop: Monad Opens Airdrop Portal Ahead of Token Launch - CoinDesk"
+    },
+    {
+      "id": "claim:a94e788aee6b13d8",
+      "type": "claim",
+      "label": "ZachXBT Criticizes Ripple’s $250,000 Bounty for the XRP Ledger Bug. Here Is What Ethereum, Solana and Others Pay for the Same Kind of Find. - 24/7 Wall St."
+    },
+    {
+      "id": "claim:7240411dc3128af0",
+      "type": "claim",
+      "label": "Treasury advances blockchain proof of concept for grant payments - FedScoop"
+    },
+    {
+      "id": "claim:899dded45f5977a0",
+      "type": "claim",
+      "label": "Google Pauses Open Source Bug Bounty Rewards Amid Flood of Invalid Automated Reports - news.lavx.hu"
+    },
+    {
+      "id": "claim:776b6dbebf604565",
+      "type": "claim",
+      "label": "Why Google is suspending part of its open source bug bounty - ActuIA"
+    },
+    {
+      "id": "claim:cc1f2c27c1e46384",
+      "type": "claim",
+      "label": "Next-generation protocol design for blockchain rewards with web-tool - Nature"
+    },
+    {
+      "id": "claim:6781091d5b7020d3",
+      "type": "claim",
+      "label": "What is Airdrop Crypto and How is it Different from Bounty - INDODAX"
+    },
+    {
+      "id": "claim:b0a0fbe1d7706d90",
+      "type": "claim",
+      "label": "Binance: RLUSD Rewards Campaign Returns with XRP Prizes - Blockchain News"
     },
     {
       "id": "claim:c029a992932b98dd",
@@ -1103,11 +1193,6 @@
       "id": "claim:ab7bcd88f2601824",
       "type": "claim",
       "label": "The bug-bounty court bringing order to DeFi - Tech.eu"
-    },
-    {
-      "id": "claim:f8638254ab15e89e",
-      "type": "claim",
-      "label": "Best Crypto Rewards Cards In Canada For 2026 - Forbes"
     },
     {
       "id": "claim:de626b5f81f5dd6d",
@@ -1135,9 +1220,9 @@
       "label": "BugHunter – Bug Bounty Toolkit Powered by Claude and Free AI Providers - CyberSecurityNews"
     },
     {
-      "id": "claim:efed03ddd04e43f9",
+      "id": "claim:fee2704ac04dd5df",
       "type": "claim",
-      "label": "Explore the Sonychain ecosystem: a list of 60+ early projects and airdrop opportunities - Binance"
+      "label": "HackerOne Makes Identity Verification Mandatory for All Bug Bounty Researchers - Cyber Press"
     },
     {
       "id": "claim:075b1cdcc2154c59",
@@ -1145,14 +1230,14 @@
       "label": "Solana developer proposes $3bn cut to blockchain’s staking rewards - dlnews.com"
     },
     {
-      "id": "claim:4e85f2ffaf28016d",
-      "type": "claim",
-      "label": "Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote - CoinDesk"
-    },
-    {
       "id": "claim:9fb5a0f4fe378e10",
       "type": "claim",
       "label": "Crypto lost $110 million to hacks in July amid rising bug bounty activity: Immunefi - The Block"
+    },
+    {
+      "id": "claim:f15434cf036097e8",
+      "type": "claim",
+      "label": "Do you need a bitcoin credit card? What you can gain (and lose) by earning bitcoin rewards on spending - Yahoo Finance"
     },
     {
       "id": "claim:c285defba7d77e46",
@@ -1160,9 +1245,39 @@
       "label": "What Is Linea? Complete Guide to the Airdrop and Claim Process - Ventureburn"
     },
     {
+      "id": "claim:b7e66c5c97ae9522",
+      "type": "claim",
+      "label": "Google Freezes Open Source Bug Bounty Until 2027 Due to AI Spam Flood - Android Headlines"
+    },
+    {
+      "id": "claim:30031a7c4aea14e1",
+      "type": "claim",
+      "label": "Google Pauses Open Source Bug Bounty After Flood of AI-Generated Reports - Technology Org"
+    },
+    {
       "id": "claim:93f89d5aa311e1cf",
       "type": "claim",
       "label": "Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports - SecurityWeek"
+    },
+    {
+      "id": "claim:8ce1d600ba5bf31b",
+      "type": "claim",
+      "label": "Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports - Infosecurity Magazine"
+    },
+    {
+      "id": "claim:88bbf46d90b2baec",
+      "type": "claim",
+      "label": "Google Tightens Open-Source Bug Bounty Rules After Surge in AI-Generated Vulnerability Reports - GBHackers News"
+    },
+    {
+      "id": "claim:c582457c1f709ef9",
+      "type": "claim",
+      "label": "Google Tightens Open-Source Bug Bounty Rules After Surge in AI-Generated Vulnerability Reports - Cyber Press"
+    },
+    {
+      "id": "claim:3f5f7200882b4008",
+      "type": "claim",
+      "label": "Google pauses its open-source bug bounty after a flood of fake AI reports - Martin Cid Magazine"
     },
     {
       "id": "claim:e935f1f89ced0f91",
@@ -1178,11 +1293,6 @@
       "id": "claim:f2bdaa7f24d4ac2a",
       "type": "claim",
       "label": "Top 10 Best Bug Bounty Platforms in 2026 [Ranked & Scored] - CyberSecurityNews"
-    },
-    {
-      "id": "claim:3423856923603825",
-      "type": "claim",
-      "label": "9 Best Bug Bounty Platforms to Join In 2026 - CloudSEK"
     },
     {
       "id": "claim:b61524dbfa50575a",
@@ -1205,19 +1315,9 @@
       "label": "Lighter Airdrop Becomes Crypto’s 10th Largest - ForkLog"
     },
     {
-      "id": "claim:2c4ed3afd69b25a3",
-      "type": "claim",
-      "label": "Top 10 Crypto Airdrops of 2025: Maximizing Rewards - ZebPay"
-    },
-    {
       "id": "claim:380c691e44b90711",
       "type": "claim",
       "label": "Pre-commercial thinning to occur near Beech Creek in Grant County - Elkhorn Media Group"
-    },
-    {
-      "id": "claim:d19b1000ae11eb6b",
-      "type": "claim",
-      "label": "Cryptocurrency staking rewards are income in year received - The Tax Adviser"
     },
     {
       "id": "claim:b6ce68f286255f18",
@@ -1240,11 +1340,6 @@
       "label": "Open-source security group pulls out of U.S. grant, citing DEI restrictions - CyberScoop"
     },
     {
-      "id": "claim:065736c84eb27d7f",
-      "type": "claim",
-      "label": "Crypto Airdrop Guide: How to Claim Free Tokens Safely - OKX"
-    },
-    {
       "id": "claim:51afc62891834fad",
       "type": "claim",
       "label": "Nexchain’s Upcoming Testnet 2.0, Airdrop, and AI Risk Scoring Strengthen Its Status Among 2025’s Best Crypto Presales - Analytics Insight"
@@ -1253,6 +1348,11 @@
       "id": "claim:dfb9ff3e6e8caf2e",
       "type": "claim",
       "label": "'Crypto Unicorns' Reveals Airdrop Rewards Amid Move to Ethereum Layer-3 Xai - Decrypt"
+    },
+    {
+      "id": "claim:7a57c88e4432769a",
+      "type": "claim",
+      "label": "Coinbase changes security rewards, blames AI - TheStreet"
     },
     {
       "id": "claim:01e991a2e85949ac",
@@ -1300,6 +1400,11 @@
       "label": "PARAM Airdrop? Crypto Points Campaign Confirmed - BitPinas"
     },
     {
+      "id": "claim:89983e7b50df5721",
+      "type": "claim",
+      "label": "Planned Parenthood-Lubbock receives Title X grant - Lubbock Avalanche-Journal"
+    },
+    {
       "id": "claim:5e2f0aa1480447ab",
       "type": "claim",
       "label": "Franklin Solana Trust to liquidate staking rewards for monthly cash distributions - TradingView"
@@ -1313,6 +1418,11 @@
       "id": "claim:6141f26ddff7a026",
       "type": "claim",
       "label": "Video shows 'bounty hunters’ firing into RV near Sandel Park amid safety, drug concerns - KOMO"
+    },
+    {
+      "id": "claim:4fec5248b9c64478",
+      "type": "claim",
+      "label": "The evidence doesn't support the banks' case against stablecoin rewards - CoinDesk"
     },
     {
       "id": "claim:1715479e38ecc352",
@@ -1330,9 +1440,9 @@
       "label": "Wildfire at Bruno Gulch Campground near Grant now 100% contained - Denver7"
     },
     {
-      "id": "claim:76d4ac5365a8939a",
+      "id": "claim:8f832b4a1e971af7",
       "type": "claim",
-      "label": "Open airdrop! Binance incubation, Swan Chain simple tasks, participate and earn $SWAN token airdrop - Binance"
+      "label": "Best Crypto Rewards Cards Of 2026 - Forbes"
     },
     {
       "id": "claim:898c8f6865ec7a89",
@@ -1350,9 +1460,9 @@
       "label": "Hold RLUSD in Any Binance Accounts to Share $800,000 Rewards in XRP - Binance"
     },
     {
-      "id": "claim:5873ab0cca747471",
+      "id": "claim:8167de9d0a1bc3bc",
       "type": "claim",
-      "label": "Tax Court Upholds Income Tax on Cryptocurrency Rewards - Legis1"
+      "label": "$10M Bitcoin Bounty? Grant Cardone Offers 10 BTC to Sell $80M Jet After Massive Call - Yahoo Finance"
     },
     {
       "id": "claim:4c37f598ce3264ef",
@@ -1380,6 +1490,11 @@
       "label": "Coinbase and American Express Launch Premium Bitcoin Rewards Card with 4% Crypto Back - https://genfinity.io/"
     },
     {
+      "id": "claim:c8a347b6cfabff6d",
+      "type": "claim",
+      "label": "GitHub issues $100,000 bounty for critical RCE vulnerability disclosed by @sagitz_ - RuntimeWire"
+    },
+    {
       "id": "claim:07b6210e2e594435",
       "type": "claim",
       "label": "Grayscale Solana Trust Amendment Would Add Quarterly Staking Reward Payouts - TradingView"
@@ -1400,14 +1515,19 @@
       "label": "Op-Ed: Latest OneOhio grant strengthen local recovery work - The Clermont Sun"
     },
     {
-      "id": "claim:6d15a7099488e6b3",
+      "id": "claim:8832c63075fc1413",
       "type": "claim",
-      "label": "Crypto Firms Can Keep Paying Stablecoin Rewards as OCC Finalizes GENIUS Act Rule - Yahoo Finance"
+      "label": "Crypto Firms Can Keep Paying Stablecoin Rewards as OCC Finalizes GENIUS Act Rule - marketscreener.com"
     },
     {
-      "id": "claim:02a16d018c60d7b5",
+      "id": "claim:6742f15eb729e4c6",
       "type": "claim",
-      "label": "Department of War Awards Tucson Unified School District a $41 Million Grant for Frank Borm - U.S. Department of War (.gov)"
+      "label": "OCC Stablecoin Rule Spares Third-Party Rewards, Banks Object - FinanceFeeds"
+    },
+    {
+      "id": "claim:03475288bfa79356",
+      "type": "claim",
+      "label": "ABA Challenges OCC Stablecoin Rules Over GENIUS Act Rewards Loophole Concerns - Coin Edition"
     },
     {
       "id": "claim:c8ef8e7ef93dad59",
@@ -1415,14 +1535,14 @@
       "label": "Crypto exchanges can keep paying interest-like rewards, federal regulators say - Fast Company"
     },
     {
-      "id": "claim:b6cb40d1ac8f7ee5",
-      "type": "claim",
-      "label": "Ongoing Crypto Airdrops 2026: Claim Free Token Rewards Today - Coin Gabbar"
-    },
-    {
       "id": "claim:c2e0f269c1f466eb",
       "type": "claim",
       "label": "Cryptocurrency companies can keep paying interest-like rewards, say federal bank regulators - Bozeman Daily Chronicle"
+    },
+    {
+      "id": "claim:db5a1cf1e813621f",
+      "type": "claim",
+      "label": "OCC to enforce GENIUS “as enacted” as stablecoin rewards face case-by-case review - Cryptopolitan"
     },
     {
       "id": "claim:1ff34dcbb20c0f45",
@@ -1435,19 +1555,39 @@
       "label": "Grant savings of R13bn will be used in fight against gender-based violence - Business Day"
     },
     {
+      "id": "claim:06482270c3a11079",
+      "type": "claim",
+      "label": "OCC Finalizes First GENIUS Act Stablecoin Rule, Drops Rewards Presumption - The Crypto Times"
+    },
+    {
       "id": "claim:03184a7907de5daa",
       "type": "claim",
       "label": "OCC's final rule to start fresh in weighing stablecoin rewards against GENIUS Act ban - CoinDesk"
     },
     {
-      "id": "claim:feb2d3da13f3afbe",
-      "type": "claim",
-      "label": "Best Crypto to Invest In? Apeing's Live Presale, Staking Rewards and Community Features Explained - openPR.com"
-    },
-    {
       "id": "claim:6351c44182f21667",
       "type": "claim",
       "label": "Crypto Update: Strive Adds 4,045 Bitcoin as Pepeto Stakers Eye Listing Rewards and 100x Potential - TechBullion"
+    },
+    {
+      "id": "claim:0ae995588d491613",
+      "type": "claim",
+      "label": "Microsoft Changes Bug Bounty Rules, Requires Detailed Proof of Concept for Higher Rewards - Cyber Press"
+    },
+    {
+      "id": "claim:96bf79251c7eb4b9",
+      "type": "claim",
+      "label": "Microsoft Introduces New Bug Bounty Rules That Could Affect Security Researchers’ Rewards - GBHackers News"
+    },
+    {
+      "id": "claim:5241db00dde9ce74",
+      "type": "claim",
+      "label": "OCC: Finalizes GENIUS Act Rules, Drops Stablecoin Rewards Ban - Blockchain News"
+    },
+    {
+      "id": "claim:a73b448fcfc1e065",
+      "type": "claim",
+      "label": "Ether stakers earn 2.63% as record 43.8 million ETH crowds rewards - Cryptopolitan"
     },
     {
       "id": "claim:5362c22a6118ed91",
@@ -1530,6 +1670,11 @@
       "label": "Stony Brook professor awarded $589K NSF grant to develop open-source energy materials platform - Long Island Business News"
     },
     {
+      "id": "claim:40667318a4aff949",
+      "type": "claim",
+      "label": "Herman Ray Grant Obituary - Lubbock Avalanche-Journal"
+    },
+    {
       "id": "claim:2981f2a1fd10c27a",
       "type": "claim",
       "label": "LayerZero Labs Launches $15M Bug Bounty; Largest in the World - PR Newswire"
@@ -1555,6 +1700,11 @@
       "label": "How to Qualify for the Potential zkSync Airdrop - CoinGecko"
     },
     {
+      "id": "claim:b322fd14876c58fc",
+      "type": "claim",
+      "label": "CrowdStrike Links AI-Generated PhantomRaven Malware to Bug Bounty Hunter - Hackread"
+    },
+    {
       "id": "claim:8fc0cacbb6bca8ae",
       "type": "claim",
       "label": "‘Gimmicks and hoodwinking’: India on Pakistan raising Masood Azhar bounty - Scroll.in"
@@ -1563,16 +1713,6 @@
       "id": "claim:b352facd7b725888",
       "type": "claim",
       "label": "NEAR Protocol Achieves Historic Milestone: Price Surges 7.6% Amid Massive Airdrop - TradingView"
-    },
-    {
-      "id": "claim:c36c4a1657859694",
-      "type": "claim",
-      "label": "Banks vow to continue stablecoin rewards fight after Clarity Act setback - TheBanker.com"
-    },
-    {
-      "id": "claim:1dfdabaf622c4e1f",
-      "type": "claim",
-      "label": "Grant Nelson Williams Obituary - Lubbock Avalanche-Journal"
     },
     {
       "id": "claim:13ff4359f03aaf98",
@@ -1588,6 +1728,11 @@
       "id": "claim:1751678ea4270b56",
       "type": "claim",
       "label": "ZBD Gen Z gamer study: spending habits, creators, bitcoin rewards - GamesBeat"
+    },
+    {
+      "id": "claim:b8be17a8c82fbf0f",
+      "type": "claim",
+      "label": "OpenAI raises Bio Bounty reward to $50,000 for frontier model jailbreaks - EdTech Innovation Hub"
     },
     {
       "id": "claim:b22a9c7c38409711",
@@ -1610,6 +1755,11 @@
       "label": "Delysium Co-Founder’s Stunning $1.7M RAVE Token Deposit to Bitget Highlights Volatile Airdrop Win... - Binance"
     },
     {
+      "id": "claim:dbbb35b2f95e1afa",
+      "type": "claim",
+      "label": "Bug bounty reckoning: AI slop forces enterprise strategy shift - TechTarget"
+    },
+    {
       "id": "claim:65760cfb00031277",
       "type": "claim",
       "label": "Google quadruples Chrome bug bounty base pay, offers up to $20,000 for sandbox escapes - Help Net Security"
@@ -1623,11 +1773,6 @@
       "id": "claim:0dcbf4c3370066fe",
       "type": "claim",
       "label": "CLARITY Act News: Updated Senate Stablecoin Bill Tackles DeFi and Rewards in New Draft - Tokenist"
-    },
-    {
-      "id": "claim:c5c0bf781b883c47",
-      "type": "claim",
-      "label": "Crypto rewards eye renters who want to save for a down payment - HousingWire"
     },
     {
       "id": "claim:94b47c78c6955bc6",
@@ -1680,6 +1825,11 @@
       "label": "LINEA Airdrop Launches for Historical BNB Holders - CoinMarketCap"
     },
     {
+      "id": "claim:63fb6b5c54a99b6e",
+      "type": "claim",
+      "label": "Trump's Truth Social To Let Users Earn Crypto Rewards for Platform Engagement - Yahoo Finance"
+    },
+    {
       "id": "claim:5d8903013cdcb91e",
       "type": "claim",
       "label": "Etherfi Season 2 airdrop application is open, how to get extra rewards? - Bitget"
@@ -1725,19 +1875,9 @@
       "label": "DeGods Ditch Polygon, Moving y00ts to Ethereum and Returning $3 Million Grant - Decrypt"
     },
     {
-      "id": "claim:eefd51dc7d20fc00",
-      "type": "claim",
-      "label": "Swisstronik Bug Bounty 1.0 launches with rewards of up to $31,000 per bug! - AMBCrypto"
-    },
-    {
       "id": "claim:1ac0b96696dd91ed",
       "type": "claim",
       "label": "Y Combinator and Coinbase Venture Backed Cypher Protocol Unlocks On-Chain Payments and Rewards to the Mainstream - The Block"
-    },
-    {
-      "id": "claim:f86a698765c0cf8d",
-      "type": "claim",
-      "label": "Blog: Risk - TED talk on risk by Grant Statham - Utah Avalanche Center"
     },
     {
       "id": "claim:064effff00993a59",
@@ -1750,9 +1890,9 @@
       "label": "APT Flash Rewards Campaign: Get 9% p.a. - Crypto.com"
     },
     {
-      "id": "claim:5d46ebfa32d09be5",
+      "id": "claim:58171ad2c498dad4",
       "type": "claim",
-      "label": "SIU invalidates R14m grant from National Lotteries Commission due to fraud - IOL"
+      "label": "What is crypto staking? A beginner's guide to earning rewards on your crypto. - Yahoo Finance"
     },
     {
       "id": "claim:8a90f7091fbcfd57",
@@ -1790,14 +1930,14 @@
       "label": "Audius Is Giving Away $3 Million in Crypto Rewards to Artists and Fans - EDM.com"
     },
     {
+      "id": "claim:5f615c93cf75aead",
+      "type": "claim",
+      "label": "Apple Limits Bug Bounty Submissions After a Barrage of AI Entries - PCMag"
+    },
+    {
       "id": "claim:8e19d3f45d8462dd",
       "type": "claim",
       "label": "Grand Forks Air Force Base Given $250,000 Grant From North Dakota Department of Commerce - knoxradio.com"
-    },
-    {
-      "id": "claim:adf7e73b1f052d7a",
-      "type": "claim",
-      "label": "Ethereum Proposal Would Burn Staking Rewards to Zero if Half of ETH Is Staked - Yahoo Finance"
     },
     {
       "id": "claim:c1e40df5ee71dff3",
@@ -1808,11 +1948,6 @@
       "id": "claim:656de06e9904f57d",
       "type": "claim",
       "label": "Star Wars' most underrated bounty hunter returns but deserves so much more to do - Polygon.com"
-    },
-    {
-      "id": "claim:5b88120936247f9e",
-      "type": "claim",
-      "label": "UK Start-Up CurveBlock Secures Major Grant from Kadena to Revolutionise Real Estate Investment Through Blockchain - FF News"
     },
     {
       "id": "claim:72c28f953a2814d1",
@@ -1970,6 +2105,16 @@
       "label": "S Flash Rewards Campaign: Get 6% p.a. - Crypto.com"
     },
     {
+      "id": "claim:a011fcefadcba19b",
+      "type": "claim",
+      "label": "Monad Opens Airdrop Claims for 230K Wallets Today - CoinMarketCap"
+    },
+    {
+      "id": "claim:fde591e743ebae11",
+      "type": "claim",
+      "label": "GitHub Cuts Public Bug Bounties, Gates Top Rewards - WinBuzzer"
+    },
+    {
       "id": "claim:02d4ced62c86c8b1",
       "type": "claim",
       "label": "State opens grant applications to support school anti-distraction policies - Source New Mexico"
@@ -1978,11 +2123,6 @@
       "id": "claim:78d94cbdce781cef",
       "type": "claim",
       "label": "Nodepay Airdrop Guide: Everything You Need to Know - CoinMarketCap"
-    },
-    {
-      "id": "claim:7c5e8e35550d86e1",
-      "type": "claim",
-      "label": "Introducing USD.AI (CHIP) on Binance HODLer Airdrops! Earn CHIP With Retroactive BNB Simple Earn Subscriptions - Binance"
     },
     {
       "id": "claim:ddd1268d3d176be6",
@@ -1998,6 +2138,11 @@
       "id": "claim:0be6d811c026de06",
       "type": "claim",
       "label": "Heatbit Maxi Turns Home Heating Into Bitcoin Mining Rewards - Forbes"
+    },
+    {
+      "id": "claim:1d97653efb52f4c5",
+      "type": "claim",
+      "label": "Gemini partners with Mastercard to launch crypto rewards card - Payments Dive"
     },
     {
       "id": "claim:72d82f9945ed0e30",
@@ -2125,11 +2270,6 @@
       "label": "Mladen Popović awarded ERC Advanced Grant to trace the origins of the Dead Sea Scrolls - Rijksuniversiteit Groningen"
     },
     {
-      "id": "claim:239fc7699a863d93",
-      "type": "claim",
-      "label": "Grant Cardone Says He's 'Buying Bitcoin Like Crazy' And Shares His Fair Value Estimation - Yahoo Finance"
-    },
-    {
       "id": "claim:0901dfa76df3bd2d",
       "type": "claim",
       "label": "Abundant Mines celebrates one year of protecting client Bitcoin rewards - TheStreet"
@@ -2145,24 +2285,9 @@
       "label": "Grant County Sheriff identifies 2 killed in apparent murder-suicide near Cuba City - WMTV 15 NEWS"
     },
     {
-      "id": "claim:2a2f2b6e611a601c",
-      "type": "claim",
-      "label": "Grant Cardone offers 10 Bitcoin bounty on finding a buyer for his private jet - Yahoo Finance"
-    },
-    {
       "id": "claim:aca282a7aa06b0fa",
       "type": "claim",
       "label": "Grant Cardone offers 10 Bitcoin bounty on finding a buyer for his private jet - TheStreet"
-    },
-    {
-      "id": "claim:423a7286071873e5",
-      "type": "claim",
-      "label": "Testnet Airdrops 2026: 5 Crypto Projects and Their Reward Potential - Coin Gabbar"
-    },
-    {
-      "id": "claim:09648b3533628981",
-      "type": "claim",
-      "label": "How to Participate in Potential Abstract Airdrop:Everything You Need to Know - CoinMarketCap"
     },
     {
       "id": "claim:7678803b10c63c2d",
@@ -2195,14 +2320,19 @@
       "label": "WalletConnect Airdrop: Eligibility Rules, Claim Process, and User Reactions - Binance"
     },
     {
-      "id": "claim:ee3287fa31dc6735",
+      "id": "claim:057df473ae5e17e9",
       "type": "claim",
-      "label": "AI drives surge in ‘bug bounty’ reports, but ‘slop’ is rising too - TradingView"
+      "label": "Bybit Renews RLUSD Hold & Earn Phase 4 with 1.3 Million XRP Rewards and Zero Fee - CaptainAltcoin"
     },
     {
       "id": "claim:8e65761b86baa39b",
       "type": "claim",
       "label": "What Is Nullmask (MASK)? Solana Token, Privacy Utility, ZEC Rewards and How to Buy - Gizmo Times"
+    },
+    {
+      "id": "claim:adc6ab046bf3d3db",
+      "type": "claim",
+      "label": "Ben Allen Receives Maelstrom Bitcoin Developer Grant To Advance Payjoin Tech - Bitcoin Magazine"
     },
     {
       "id": "claim:eb6a0a5417d85028",
@@ -2238,6 +2368,11 @@
       "id": "claim:c4f60f64035a92c3",
       "type": "claim",
       "label": "Introducing Bubblemaps (BMT) on Binance HODLer Airdrops! Earn BMT With Retroactive BNB Simple Earn Subscriptions - Binance"
+    },
+    {
+      "id": "claim:b0a2aab177bc3c20",
+      "type": "claim",
+      "label": "Gemini Credit Card Review: Earn Crypto Rewards - NerdWallet"
     },
     {
       "id": "claim:2897286bfa65dae6",
@@ -2325,24 +2460,19 @@
       "label": "Coinbase Launches Bitcoin Rewards Card With Cardless - Upgraded Points"
     },
     {
+      "id": "claim:cc4b045d6d9b14ad",
+      "type": "claim",
+      "label": "XBOW Earns Google’s First $250,000 Chrome Bug Bounty Of 2026 - SMBtech"
+    },
+    {
+      "id": "claim:5c4d3e740af15944",
+      "type": "claim",
+      "label": "Google Partially Reverses Chrome Bug Bounty Cuts - SecurityWeek"
+    },
+    {
       "id": "claim:ee0375fb5e94c3fd",
       "type": "claim",
       "label": "Square’s Bitcoin rewards could give cardholders 3% back in Bitcoin on purchases - Cryptonews.net"
-    },
-    {
-      "id": "claim:1a8a62aeffe189b3",
-      "type": "claim",
-      "label": "Square Credit Card to offer 3% Bitcoin rewards on purchases, expanding crypto use in business spending. - Pluang"
-    },
-    {
-      "id": "claim:6c302cf78c5cd5c1",
-      "type": "claim",
-      "label": "Grass Airdrop 2026: Final Claim Deadline Set As Contents API Goes Live - Coin Gabbar"
-    },
-    {
-      "id": "claim:a94e788aee6b13d8",
-      "type": "claim",
-      "label": "ZachXBT Criticizes Ripple’s $250,000 Bounty for the XRP Ledger Bug. Here Is What Ethereum, Solana and Others Pay for the Same Kind of Find. - 24/7 Wall St."
     },
     {
       "id": "claim:c8daf7df00bb5c37",
@@ -2350,9 +2480,19 @@
       "label": "Football Recap: Damien Grant Does It Again Near the Goal Line + How To Watch - MaxPreps"
     },
     {
+      "id": "claim:6c302cf78c5cd5c1",
+      "type": "claim",
+      "label": "Grass Airdrop 2026: Final Claim Deadline Set As Contents API Goes Live - Coin Gabbar"
+    },
+    {
       "id": "claim:3748a2c6ef1cfbfd",
       "type": "claim",
       "label": "Africa Kickstart Your Crypto Journey Campaign | Share $4600 in Rewards - Binance"
+    },
+    {
+      "id": "claim:a91aedfac5231857",
+      "type": "claim",
+      "label": "Gemini Credit Card review: Earn crypto rewards by making eligible purchases - Yahoo Finance"
     },
     {
       "id": "claim:f947055cf9ff317e",
@@ -2385,11 +2525,6 @@
       "label": "Incentiv Unveils Testnet Results, Future Plans, Community Rewards - CryptoPotato"
     },
     {
-      "id": "claim:ff3baaa3e82e4738",
-      "type": "claim",
-      "label": "The big one is coming. Take a quick look at the zkSync airdrop rules and distribution details - Binance"
-    },
-    {
       "id": "claim:e20e83c98d1b4849",
       "type": "claim",
       "label": "Fold Launches Revolutionary Bitcoin Rewards Visa Credit Card - FF News"
@@ -2398,6 +2533,11 @@
       "id": "claim:b0cab975a56fb56c",
       "type": "claim",
       "label": "Hyperliquid (HYPE) 2025 Airdrop - KuCoin"
+    },
+    {
+      "id": "claim:b1c20e5c2c435661",
+      "type": "claim",
+      "label": "Could AI tools put bug bounty hunters out of work? - IT Brew"
     },
     {
       "id": "claim:442c097f7e70b3d0",
@@ -2423,11 +2563,6 @@
       "id": "claim:3cd9a8eb667a43ba",
       "type": "claim",
       "label": "LAB Token Claim Goes Live On Friday as Early Users Prepare for Rewards - Coin Gabbar"
-    },
-    {
-      "id": "claim:7240411dc3128af0",
-      "type": "claim",
-      "label": "Treasury advances blockchain proof of concept for grant payments - FedScoop"
     },
     {
       "id": "claim:a84237884e548fb4",
@@ -2485,11 +2620,6 @@
       "label": "ECS Research Team Receives Grant to Advance the Ethereum Blockchain Ecosystem - Syracuse University Today"
     },
     {
-      "id": "claim:899dded45f5977a0",
-      "type": "claim",
-      "label": "Google Pauses Open Source Bug Bounty Rewards Amid Flood of Invalid Automated Reports - news.lavx.hu"
-    },
-    {
       "id": "claim:cc0f55e66d3f8c8d",
       "type": "claim",
       "label": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports - The Hacker News"
@@ -2505,19 +2635,9 @@
       "label": "Prescribed Burning in Grant Grove Scheduled to Begin October 13 - National Park Service (.gov)"
     },
     {
-      "id": "claim:776b6dbebf604565",
-      "type": "claim",
-      "label": "Why Google is suspending part of its open source bug bounty - ActuIA"
-    },
-    {
       "id": "claim:a01ece6c7c5ede9e",
       "type": "claim",
       "label": "XRP Ledger's 18 Trillion XRP Bug and the $250K Bounty Dispute - Altcoin Buzz"
-    },
-    {
-      "id": "claim:f0596b0755961389",
-      "type": "claim",
-      "label": "Quantum Blockchain Technologies Plc - Grant of US Patent for ASIC Ultra Boost - Yahoo Finance UK"
     },
     {
       "id": "claim:ac9d2e2aba122199",
@@ -2550,9 +2670,19 @@
       "label": "Midnight Airdrop Live: Claim $NIGHT Token Glacier Drop + Timeline - Coin Gabbar"
     },
     {
+      "id": "claim:93e2ef84db937a26",
+      "type": "claim",
+      "label": "Paul Stastny “absolutely” willing to grant the Avs a discount - The Denver Post"
+    },
+    {
       "id": "claim:5c6a115698ba3a74",
       "type": "claim",
       "label": "LCRA, Bluebonnet Electric Co-op award $25,000 grant for new cultural center - LCRA - Energy, Water, Community - LCRA - Lower Colorado River Authority"
+    },
+    {
+      "id": "claim:b3c5ed7f922f23f2",
+      "type": "claim",
+      "label": "Apple Limits Bug Bounty Submissions After Flood of AI Slop - MacRumors"
     },
     {
       "id": "claim:84268b13c6f1636d",
@@ -2585,14 +2715,14 @@
       "label": "STX Flash Rewards Campaign: Get 12% p.a. - Crypto.com"
     },
     {
+      "id": "claim:d0ffb53485d47a31",
+      "type": "claim",
+      "label": "Report: Avalanche Grant Nashville Predators Permission to Speak With Chris MacFarland - Yahoo Sports"
+    },
+    {
       "id": "claim:09af93944f867069",
       "type": "claim",
       "label": "Avalanche grant permission to Predators to meet with Chris MacFarland - Mile High Sticking"
-    },
-    {
-      "id": "claim:5e007cefe748827e",
-      "type": "claim",
-      "label": "Report: Avalanche Grant Nashville Predators Permission to Speak With Chris MacFarland - Colorado Hockey Now"
     },
     {
       "id": "claim:c8326f7db4464bd0",
@@ -2613,6 +2743,11 @@
       "id": "claim:ed8a56614cb0a415",
       "type": "claim",
       "label": "ZIL Flash Rewards Campaign: Get 14% p.a. - Crypto.com"
+    },
+    {
+      "id": "claim:a995f9927a4b191d",
+      "type": "claim",
+      "label": "WEEX Launches Triple Incentives Campaign: Deposit Boost, Sign-Up Coupons, and Trading Rewards - Cryptonews"
     },
     {
       "id": "claim:e002e9bdf4a065d1",
@@ -2645,6 +2780,11 @@
       "label": "CoinDCX boosts its Crypto awareness campaign launches Happy Day Rewards - Adgully"
     },
     {
+      "id": "claim:1730245185812578",
+      "type": "claim",
+      "label": "Binance Alpha Launches Second Wave of Lorenzo Protocol (BANK) Airdrop Rewards - Binance"
+    },
+    {
       "id": "claim:500fdb91f4d63d56",
       "type": "claim",
       "label": "Lolli Acquires Slice to Expand Bitcoin Rewards Across Browsing and Shopping - Bitcoin Magazine"
@@ -2670,11 +2810,6 @@
       "label": "LCRA, Bluebonnet Electric Co-op award $15,868 grant to Dime Box Heritage Society - LCRA - Lower Colorado River Authority"
     },
     {
-      "id": "claim:ce69d62f601d81d9",
-      "type": "claim",
-      "label": "LCRA, Bluebonnet Electric Co-op award $41,278 grant to Paige Community Club - LCRA - Energy, Water, Community - LCRA - Lower Colorado River Authority"
-    },
-    {
       "id": "claim:f88605e935cc885f",
       "type": "claim",
       "label": "Access Bank Womenpreneur Pitch-A-ton Africa 2023 for women entrepreneurs (5 million Naira financial grant & a mini MBA from International Finance Corporation) - Opportunities For A"
@@ -2695,26 +2830,6 @@
       "label": "Holders Want Grass Airdrop Season 2 Clarity: Will July 7 Truly Answer? - Coin Gabbar"
     },
     {
-      "id": "claim:15e7c5339496b4c2",
-      "type": "claim",
-      "label": "Crypto Airdrops 2026: Verified Airdrop List & Live Tracker - Coin Gabbar"
-    },
-    {
-      "id": "claim:57f45cb473021da9",
-      "type": "claim",
-      "label": "US Places $10 Million Bounty on North Korean Hacker Groups - Bitdefender"
-    },
-    {
-      "id": "claim:ba24685907541896",
-      "type": "claim",
-      "label": "Apple Security Bounty. Upgraded. - Apple Security Research"
-    },
-    {
-      "id": "claim:cc1f2c27c1e46384",
-      "type": "claim",
-      "label": "Next-generation protocol design for blockchain rewards with web-tool - Nature"
-    },
-    {
       "id": "claim:89078768feedf7bb",
       "type": "claim",
       "label": "Shiba Inu Unveils Exclusive Event with Special Rewards for Holders - The Crypto Basic"
@@ -2728,11 +2843,6 @@
       "id": "claim:13918e5380d7a7ae",
       "type": "claim",
       "label": "Final Paving Planned for Grant Rd Phase 3 & 4 - City of Tucson (.gov)"
-    },
-    {
-      "id": "claim:02997ea2e480ff00",
-      "type": "claim",
-      "label": "Ethereum Staking Rewards Steal Limelight From Bitcoin ETFs - Yahoo Finance"
     },
     {
       "id": "claim:58c4160a2f8153af",
@@ -2750,14 +2860,14 @@
       "label": "Metaplanet Launches Bitcoin Rewards Card for Shareholders — 1.6% BTC Back on Spending - CCN.com"
     },
     {
+      "id": "claim:90cd75eaed2d71d9",
+      "type": "claim",
+      "label": "Ranking Member Maxine Waters Presses Kansas City Fed for Answers on Decision to Grant Crypto Firm Kraken Access to Federal Reserve Services - House Financial Services Committee Dem"
+    },
+    {
       "id": "claim:42a8463b3a7a6fa3",
       "type": "claim",
       "label": "The Bait to Crypto? Credit Cards Entice Users With Bitcoin Rewards - WSJ"
-    },
-    {
-      "id": "claim:b7cabd12571f7c58",
-      "type": "claim",
-      "label": "Grant Cardone plans to tokenize his firm's $5 billion real estate portfolio - CoinDesk"
     },
     {
       "id": "claim:4a6144e3d4e453ee",
@@ -2785,9 +2895,19 @@
       "label": "Amid pushback, Centre tells states not to grant new mining leases in Aravallis - Scroll.in"
     },
     {
+      "id": "claim:b2dd3de081192849",
+      "type": "claim",
+      "label": "XRP News: Binance Drops $800K XRP Rewards for RLUSD Holders - Coinpedia"
+    },
+    {
       "id": "claim:7962615243eeb406",
       "type": "claim",
       "label": "Binance launches $800K XRP rewards for RLUSD ho... - Pluang"
+    },
+    {
+      "id": "claim:faccecd7ee0726ef",
+      "type": "claim",
+      "label": "Grant Thornton survey: CFO profit optimism reaches record high despite economic uncertainty - Business Wire"
     },
     {
       "id": "claim:8624dcd327a92a38",
@@ -2800,11 +2920,6 @@
       "label": "Grant blasts lightning ton as Scorchers hammer Swans - The Courier Mail"
     },
     {
-      "id": "claim:6781091d5b7020d3",
-      "type": "claim",
-      "label": "What is Airdrop Crypto and How is it Different from Bounty - INDODAX"
-    },
-    {
       "id": "claim:db1287bc5bbaea09",
       "type": "claim",
       "label": "What is Layer3xyz? What other airdrop project tasks are worthy of participation in the recent Layer3 platform? - Binance"
@@ -2815,9 +2930,19 @@
       "label": "Grant Delpit doing a ton for top-ranked defense … and still wants to do more - BrownsZone with Scott Petrak -"
     },
     {
+      "id": "claim:d84754026aa2ad4f",
+      "type": "claim",
+      "label": "Upgrade Bitcoin Rewards Card Review: Cryptocurrency With Limitations - NerdWallet"
+    },
+    {
       "id": "claim:d3943d2c666835c9",
       "type": "claim",
       "label": "Taiko TKO Token Will Be Launched With 5% Allocation for Airdrop - Binance"
+    },
+    {
+      "id": "claim:b7c54e9957b9eb26",
+      "type": "claim",
+      "label": "GitHub slashes public bug bounty payouts as AI report flood buries its security team - The Register"
     },
     {
       "id": "claim:a1c04c97b912666e",
@@ -2855,11 +2980,6 @@
       "label": "Toobit’s Halloween Horror Hunt Event Comes Back With 500,000 USDT in Rewards - CryptoPotato"
     },
     {
-      "id": "claim:3fb2f27a63ca1f0d",
-      "type": "claim",
-      "label": "OCC Says Crypto Platforms Can Keep Offering Yield-Like Rewards - Yahoo Finance"
-    },
-    {
       "id": "claim:7857ff84354fcae8",
       "type": "claim",
       "label": "Federal grant of $41.1M will build new base K-8 school in Tucson - KVOA"
@@ -2868,6 +2988,11 @@
       "id": "claim:4fecf93752e16092",
       "type": "claim",
       "label": "Bitcoin Watch Revolution: GoMining’s $30K Luxury Timepiece Generates Mining Rewards - Bitget"
+    },
+    {
+      "id": "claim:c9b524a68b4e44ed",
+      "type": "claim",
+      "label": "Is AI decimating the bug bounty industry? - IT Brew"
     },
     {
       "id": "claim:cc4b9cbdc2f26475",
@@ -2920,11 +3045,6 @@
       "label": "Coinbase CEO says banks are fighting stablecoin rewards with 'boogeyman' issues - CNBC"
     },
     {
-      "id": "claim:e3e49eb203d8b0d4",
-      "type": "claim",
-      "label": "Google told researcher 'Nice catch!' Then denied bug bounty for flaw it still hasn't fixed - The Register"
-    },
-    {
       "id": "claim:a49fcbb910862f1b",
       "type": "claim",
       "label": "Zoomex Launches World Cup Prediction Market Campaign with Crypto Rewards - Chainwire"
@@ -2940,6 +3060,11 @@
       "label": "Blue Protocol: Star Resonance SEA Available Now With Pre-Registration Rewards In-Game - GamerBraves"
     },
     {
+      "id": "claim:4b2c87839818b00b",
+      "type": "claim",
+      "label": "Hacker Used AI Stealer for Bug Bounty Rewards - ForkLog"
+    },
+    {
       "id": "claim:3db277be4a4f4171",
       "type": "claim",
       "label": "Copperwood Mine foes sue to block $50M grant for project near Lake Superior - Michigan Public"
@@ -2948,6 +3073,11 @@
       "id": "claim:5c9c23ff1bd45e07",
       "type": "claim",
       "label": "Remittix Presale: 81.82% Sold, Can Community Rewards Boost RTX Launch? - Coin Gabbar"
+    },
+    {
+      "id": "claim:52b5a9f8bec3f57f",
+      "type": "claim",
+      "label": "Dfuse rebrands, secures $73.5 million CAD grant to develop blockchain infrastructure project - BetaKit"
     },
     {
       "id": "claim:96a5ccd4471c4d7e",
@@ -3025,19 +3155,19 @@
       "label": "LCRA, Hamilton County Electric Co-op award $50,000 grant to Shive VFD - LCRA - Energy, Water, Community - LCRA - Lower Colorado River Authority"
     },
     {
+      "id": "claim:656212e25d8579d1",
+      "type": "claim",
+      "label": "Texas homebuilder to launch crypto rewards after SEC green light - Reuters"
+    },
+    {
       "id": "claim:16e0027beac1490b",
       "type": "claim",
       "label": "Latest Crypto Airdrops Offering USDT, Tokens, and Loot Rewards - Coin Gabbar"
     },
     {
-      "id": "claim:5c6d83a2126762bc",
+      "id": "claim:48e57317c96de049",
       "type": "claim",
-      "label": "Facebook, Under Scrutiny, Pays Out Largest Bug Bounty Yet - WIRED"
-    },
-    {
-      "id": "claim:fa690cd278a78f70",
-      "type": "claim",
-      "label": "What Happens to Bitcoin When the Block Rewards Run Out? - 24/7 Wall St."
+      "label": "U.S. Targets Cryptocurrency Exchange, Offering Rewards Totaling Up to $6 Million - U.S. Department of State (.gov)"
     },
     {
       "id": "claim:c1c919df245848ae",
@@ -3058,11 +3188,6 @@
       "id": "claim:36ff8cf6d98d4673",
       "type": "claim",
       "label": "KuCoin Launches Crypto Cup With Up to 1,400,000 USDT Reward Pool During Global Football Season - KuCoin"
-    },
-    {
-      "id": "claim:1c1d982f059d2afc",
-      "type": "claim",
-      "label": "Google increases bug bounty rewards five times, up to $151K - BleepingComputer"
     },
     {
       "id": "claim:c05a05485b02c5a2",
@@ -3180,11 +3305,6 @@
       "label": "LCRA, Bluebonnet Electric Co-op award $27,690 grant for helicopter landing pad - LCRA - Energy, Water, Community - LCRA - Lower Colorado River Authority"
     },
     {
-      "id": "claim:47d63e5f449f1a19",
-      "type": "claim",
-      "label": "Xai Reveals Vanguard: Genesis Campaign With New Ethereum Games and Rewards - Decrypt"
-    },
-    {
       "id": "claim:e2170ba19ac5cc10",
       "type": "claim",
       "label": "Extension to the USD1 Airdrop Campaign (2026-08-07) - Binance"
@@ -3230,16 +3350,6 @@
       "label": "Bluebonnet Electric Co-op award $25,000 grant for new brush truck - LCRA - Energy, Water, Community - LCRA - Lower Colorado River Authority"
     },
     {
-      "id": "claim:847075315da8e8a1",
-      "type": "claim",
-      "label": "Crypto Staker’s Control of Rewards Triggers Tax, Court Rules - news.bloombergtax.com"
-    },
-    {
-      "id": "claim:5e4f28d039a07a20",
-      "type": "claim",
-      "label": "Taxation of Cryptocurrency Staking Rewards under Section 61 - Current Federal Tax Developments"
-    },
-    {
       "id": "claim:68c9dabe8206475b",
       "type": "claim",
       "label": "Accelerate Your DeFi Yield Rewards By 10% p.a. - Crypto.com"
@@ -3275,11 +3385,6 @@
       "label": "Mode Network Launches Airdrop Campaign on Ethereum Layer 2 - BitPinas"
     },
     {
-      "id": "claim:f42adcf14963e162",
-      "type": "claim",
-      "label": "LCRA, Bandera Electric Co-op award $8,760 grant to Pipe Creek VFD - LCRA - Energy, Water, Community - LCRA - Lower Colorado River Authority"
-    },
-    {
       "id": "claim:af76e67dc856e457",
       "type": "claim",
       "label": "2026 Q2 Outlook: What Are the 10 Most Noteworthy Airdrop Projects? - KuCoin"
@@ -3290,9 +3395,9 @@
       "label": "$10,000 grant will help close Spokane County’s ‘Argonne Gap’ on Centennial Trail - KREM"
     },
     {
-      "id": "claim:42e6df8bf44248e4",
+      "id": "claim:f8638254ab15e89e",
       "type": "claim",
-      "label": "MetaMask exits Ethereum validators after attacker diverts staking rewards - CoinDesk"
+      "label": "Best Crypto Rewards Cards In Canada For 2026 - Forbes"
     },
     {
       "id": "claim:1e6f927a8a710a48",
@@ -3330,16 +3435,6 @@
       "label": "Grant strong: Springboro community rallies around Grant Bross - WKEF"
     },
     {
-      "id": "claim:2c2cf329c966361f",
-      "type": "claim",
-      "label": "Grant Cardone Says Commercial Real Estate Faces Historic Crash - Sees Bitcoin As A 'Complementary Asset' - Yahoo Finance"
-    },
-    {
-      "id": "claim:8501e1ea8631ad41",
-      "type": "claim",
-      "label": "Best Crypto SignUp Bonuses for 2026 | Free Exchange Rewards - NFT Plazas"
-    },
-    {
       "id": "claim:b86da4eb91026303",
       "type": "claim",
       "label": "How To Become A Crypto Bounty Hunter in 2026 - Crypto Adventure"
@@ -3350,14 +3445,14 @@
       "label": "How to Earn Airdrop LIGHT Points: Unlock Rewards with These Proven Strategies - OKX"
     },
     {
-      "id": "claim:2a2bde2752f7e43e",
-      "type": "claim",
-      "label": "Pathway to Staying Eligible for ZKSYNC Airdrop - Tekedia"
-    },
-    {
       "id": "claim:82db936acaae266b",
       "type": "claim",
       "label": "Base Airdrop Guide 2026: How to Claim Base Tokens? - KuCoin"
+    },
+    {
+      "id": "claim:c8251cc15ee72c8b",
+      "type": "claim",
+      "label": "What Anthropic Pays for a Jailbreak: Inside Its Model Safety Bug Bounty - CASRAI"
     },
     {
       "id": "claim:c1b5ffd63d174dfe",
@@ -3368,11 +3463,6 @@
       "id": "claim:cf8a0bc4031fdadf",
       "type": "claim",
       "label": "The largest airdrop in crypto history: How GRASS checks eligibility - Binance"
-    },
-    {
-      "id": "claim:09393f7340c855f0",
-      "type": "claim",
-      "label": "How to get VIP travel lounge access and crypto rewards on your prepaid card - The Sun"
     },
     {
       "id": "claim:49a260752191440f",
@@ -3445,19 +3535,9 @@
       "label": "Ethereum and Solana Weigh Cutting Validator Rewards as Inflation Debate Intensifies - BigGo Finance"
     },
     {
-      "id": "claim:9cbe7da6ecb58e05",
-      "type": "claim",
-      "label": "10 signs an airdrop is a scam — and how to stay safe - TradingView"
-    },
-    {
       "id": "claim:8250a03994e53d32",
       "type": "claim",
       "label": "Join Fallout 76’s P.R.O.T.E.C.T. Protocol for rewards! - Bethesda.net"
-    },
-    {
-      "id": "claim:661d331e4e3a9b7e",
-      "type": "claim",
-      "label": "Alvin Grant Obituary (1930 - 2013) - LUBBOCK, TX - Lubbock Avalanche-Journal - Legacy | Obituary"
     },
     {
       "id": "claim:d6d28595a25eebe7",
@@ -3468,6 +3548,11 @@
       "id": "claim:cd4632553bba8d58",
       "type": "claim",
       "label": "Block Launches $1M Bitcoin Faucet — Here’s How to Claim Rewards Starting April 6 - CCN.com"
+    },
+    {
+      "id": "claim:70f69439e99f52c6",
+      "type": "claim",
+      "label": "Google issues complete OSS VRP bug bounty pause over AI spam - Neowin"
     },
     {
       "id": "claim:fb14d0e6969de15e",
@@ -3493,16 +3578,6 @@
       "id": "claim:f4f1cb953fbd0331",
       "type": "claim",
       "label": "Farmington Food Co-op awarded $15,000 grant to expand bulk foods and sustainable shopping options - Bangor Daily News"
-    },
-    {
-      "id": "claim:42ce1cd98c270ca2",
-      "type": "claim",
-      "label": "Best Crypto Cards for Q4 2026: Fees, Rewards & Availability Compared - shattered.io"
-    },
-    {
-      "id": "claim:e1b94ac8bcfac086",
-      "type": "claim",
-      "label": "Grant Cardone: Real Estate \"Armageddon\" Is Here – Why BITCOIN Is The Hedge - Bitcoin Magazine"
     },
     {
       "id": "claim:2afc0b6371ceface",
@@ -3545,9 +3620,9 @@
       "label": "HackerOne, a Bug Bounty platform established in the U.S. in 2012, has 2.4 million white hackers arou.. - 매일경제"
     },
     {
-      "id": "claim:dcf22eadda188814",
+      "id": "claim:d929e088b1643dff",
       "type": "claim",
-      "label": "Rhode Island pilot recycled 80 short tons of fibreglass from old boats using a $105,000 NOAA grant, turni - The Times of India"
+      "label": "Intel reportedly ends bug bounty rewards for security researchers - VideoCardz.com"
     },
     {
       "id": "claim:76256474a335e898",
@@ -3590,11 +3665,6 @@
       "label": "BlockFi Rewards Card Review: Card Is ‘Paused,’ Can’t Be Used - NerdWallet"
     },
     {
-      "id": "claim:b5fb2c7c9ba747c3",
-      "type": "claim",
-      "label": "Life AI Testnet Rewards and Early Access Explained - Coin Gabbar"
-    },
-    {
       "id": "claim:cb1ff4931ca16548",
       "type": "claim",
       "label": "Solana treasury earns $2.5M in staking rewards but had to sell equity to raise $12M in cash for operations - CryptoSlate"
@@ -3630,9 +3700,19 @@
       "label": "Grass Airdrop Season 2 Claim Deadline and New Contents API in Focus - Coin Gabbar"
     },
     {
+      "id": "claim:8e19924a3fbe04c6",
+      "type": "claim",
+      "label": "Monopoly GO Bugs Bounty Event Guide: Rewards, Milestones & Best Scoring Tips - MMOEXP"
+    },
+    {
       "id": "claim:ac524c46512d3f2d",
       "type": "claim",
       "label": "Two young adults killed in car crash near George in Grant County, driver in custody - KREM"
+    },
+    {
+      "id": "claim:efed03ddd04e43f9",
+      "type": "claim",
+      "label": "Explore the Sonychain ecosystem: a list of 60+ early projects and airdrop opportunities - Binance"
     },
     {
       "id": "claim:101b30a11aaa8a15",
@@ -3660,11 +3740,6 @@
       "label": "Tron launches $2M DeFi rewards campaign amid st... - Pluang"
     },
     {
-      "id": "claim:cb4a0f786094e07f",
-      "type": "claim",
-      "label": "SBI and Visa Launch Card That Rewards BTC, ETH, XRP - The Crypto Times"
-    },
-    {
       "id": "claim:a4ee8f2f73600272",
       "type": "claim",
       "label": "Virtuals Protocol (VIRTUAL) Surges 3.4% on $1M Rewards Campaign - CoinMarketCap"
@@ -3688,11 +3763,6 @@
       "id": "claim:ce62f6ec2fcdb5d6",
       "type": "claim",
       "label": "HackerOne Mandates ID Verification Before Bug Bounty Report Submissions - GBHackers News"
-    },
-    {
-      "id": "claim:fee2704ac04dd5df",
-      "type": "claim",
-      "label": "HackerOne Makes Identity Verification Mandatory for All Bug Bounty Researchers - Cyber Press"
     },
     {
       "id": "claim:4cf5cf13a704a6ff",
@@ -3725,11 +3795,6 @@
       "label": "Nordic Beings Landed at Holloman Air Force Base - Grant Cameron - DEBRIEFED ep. 79 - YouTube"
     },
     {
-      "id": "claim:f12b5e519dc2bc25",
-      "type": "claim",
-      "label": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions - Binance"
-    },
-    {
       "id": "claim:86404d861957fa94",
       "type": "claim",
       "label": "Lighter Launches LIT Token With 25% Supply Distributed via Airdrop - Yahoo Finance"
@@ -3745,11 +3810,6 @@
       "label": "Downtown Selma gets entryway makeover near Edmund Pettus Bridge with $5K grant - WSFA"
     },
     {
-      "id": "claim:a97d93a40940cf9a",
-      "type": "claim",
-      "label": "Best Crypto Card 2026: Top Picks, Fees, Rewards & Complete Comparison - Bleap"
-    },
-    {
       "id": "claim:b7a506fd8ff5689e",
       "type": "claim",
       "label": "Fake Bitget Airdrop Campaign Targets SHIB Holders with Phishing Email - Bitget"
@@ -3763,11 +3823,6 @@
       "id": "claim:8c0c4a1b4347f444",
       "type": "claim",
       "label": "Margex Unveils $2.7M Bitcoin Airdrop Campaign With \"Never Sell — But Trade\" Initiative - TradingView"
-    },
-    {
-      "id": "claim:b54863fce69be260",
-      "type": "claim",
-      "label": "Staking Fundamentals: Earning Rewards by Securing a Network - Morgan Stanley"
     },
     {
       "id": "claim:73f83c370d049345",
@@ -3800,9 +3855,9 @@
       "label": "Access Bank Womenpreneur Pitch-A-ton Africa 2022 for women entrepreneurs across Africa (Naira 5 million financial grant & a mini MBA from International Finance Corporation) - Oppor"
     },
     {
-      "id": "claim:6186eaac4f4f0b29",
+      "id": "claim:163784920f88e4f2",
       "type": "claim",
-      "label": "FUNDING | Nigerian Crypto Startup, ClapMi, Secures $20,000 Lisk Grant to Scale LiveStreaming with Rewards - BitKE"
+      "label": "How Twin Peaks is supporting local teachers with grant money - Beaumont Enterprise"
     },
     {
       "id": "claim:c098866998ab9478",
@@ -3885,11 +3940,6 @@
       "label": "Binance Arcium ARX Airdrop Listing Today: Price and Token Claims - Coin Gabbar"
     },
     {
-      "id": "claim:a0c3f40b70576103",
-      "type": "claim",
-      "label": "Cosmos ecosystem welcomes new elites, and the pledge airdrop feast begins! Explore the RWA Layer 1 blockchain at 0 cost, the MantraChain airdrop feast is coming, and the prospects "
-    },
-    {
       "id": "claim:a5e4eb317bbd1e22",
       "type": "claim",
       "label": "TON Flash Rewards Campaign: Get 8% p.a. - Crypto.com"
@@ -3900,24 +3950,14 @@
       "label": "EGLD Flash Rewards Campaign: Get 10% p.a. - Crypto.com"
     },
     {
-      "id": "claim:a4b18768efeb5f89",
-      "type": "claim",
-      "label": "Grayscale to Distribute Staking Rewards as Cash from Ethereum and Solana ETFs - CryptoRank"
-    },
-    {
       "id": "claim:4a89e841d76fe520",
       "type": "claim",
       "label": "Buddy J. Grant Obituary Jan 20, 2025 - dayfunerals.com"
     },
     {
-      "id": "claim:bc79d716e0744b85",
+      "id": "claim:fca0c47ccddaea6a",
       "type": "claim",
-      "label": "Spokane Colleges receives a near $1.9 million grant to support student parents - krem.com"
-    },
-    {
-      "id": "claim:8bb8f334d4699b55",
-      "type": "claim",
-      "label": "WA State A.G. Finds New Year’s Eve Inmate Death At Grant County Jail “Accidental” - NewsRadio 560 KPQ"
+      "label": "Spokane Colleges receives a near $1.9 million grant to support student parents - KREM"
     },
     {
       "id": "claim:36f0142f615643df",
@@ -3940,9 +3980,19 @@
       "label": "IoTeX: Protocol makes its first on-chain voter-reward distribution - 20 Oct 2026 - TradingView"
     },
     {
-      "id": "claim:2909e8a8db5e55d1",
+      "id": "claim:810f8af6226fc2de",
       "type": "claim",
-      "label": "Hackers find Air Force vulnerability for biggest government bug bounty reward yet - FedScoop"
+      "label": "Contract extension makes Texas Tech basketball's Grant McCasland among nation's highest-paid coaches - Lubbock Avalanche-Journal"
+    },
+    {
+      "id": "claim:5ba7565b08e97046",
+      "type": "claim",
+      "label": "Early Investors Pour $2M into BTC Bull Token Presale – Great Way to Earn Bitcoin Rewards? - CryptoRank"
+    },
+    {
+      "id": "claim:4fd11cf5d4b1e179",
+      "type": "claim",
+      "label": "Binance Rolls Out 1M XRP Reward Pool for RLUSD Holders, Here’s How to Qualify - TradingView"
     },
     {
       "id": "claim:ac611bec9324b3f8",
@@ -3958,11 +4008,6 @@
       "id": "claim:ce8217205a879182",
       "type": "claim",
       "label": "One fighting for life following crash near Grant, Rosemont - KOLD"
-    },
-    {
-      "id": "claim:0added8204f84a51",
-      "type": "claim",
-      "label": "DGrid Airdrop Claim Window Is Open: Steps to Claim Your $DGAI - Coin Gabbar"
     },
     {
       "id": "claim:e378707bdca28fce",
@@ -3985,19 +4030,34 @@
       "label": "First Shipment Of 720 Metric Tons Of Rice To Liberia As Part Of 3,600 MT Grant - Global News Network Liberia"
     },
     {
+      "id": "claim:4a956f0573daeb0b",
+      "type": "claim",
+      "label": "AMD denies researcher $10,000 bug bounty reward — despite spotting critical-severity issue - TechRadar"
+    },
+    {
+      "id": "claim:bc475f06bf2a4c56",
+      "type": "claim",
+      "label": "The 4 Best Credit Cards That Earn Crypto Rewards [2026] - Upgraded Points"
+    },
+    {
       "id": "claim:9706e1c2bb5ec512",
       "type": "claim",
       "label": "The Colorado Avalanche grant Jackie’s Wish with Make-A-Wish Colorado - Mile High Sports"
     },
     {
+      "id": "claim:8ee518d1b166095e",
+      "type": "claim",
+      "label": "GitHub Pays $100,000 Bounty for Critical RCE Flaw in Git Push Pipeline - CyberSecurityNews"
+    },
+    {
+      "id": "claim:5821642f3bbce2b7",
+      "type": "claim",
+      "label": "GitHub Pays $100,000 Bounty for Critical RCE Flaw Triggered by a Single Git Push - Cyber Press"
+    },
+    {
       "id": "claim:688df67797691964",
       "type": "claim",
       "label": "Zest Protocol launches 3 BTC rewards to boost l... - Pluang"
-    },
-    {
-      "id": "claim:a26381d357a6ba35",
-      "type": "claim",
-      "label": "Crypto rewards cards are everywhere. Here’s what consumers should know before signing up - Caledonian Record"
     },
     {
       "id": "claim:d523160ccedc6d58",
@@ -4013,6 +4073,11 @@
       "id": "claim:a963945c17537628",
       "type": "claim",
       "label": "Grant Holcomb Obituary - Santa Cruz, CA (1955-2017) - Santa Cruz Sentinel"
+    },
+    {
+      "id": "claim:77f031a5b5042f2b",
+      "type": "claim",
+      "label": "OpenAI Doubles Bounty Reward To $50,000 In Safety Push - NDTV"
     },
     {
       "id": "claim:6a879d35987ab6e3",
@@ -4050,6 +4115,11 @@
       "label": "Trade Predictions and Earn a Slice of Bitcoin Rewards - Crypto.com"
     },
     {
+      "id": "claim:85fb52374a5cf198",
+      "type": "claim",
+      "label": "Arc Astra Network Presale Ending This Week: Airdrop Live - Coin Gabbar"
+    },
+    {
       "id": "claim:bad119c90f8fbe25",
       "type": "claim",
       "label": "Monad Unveils Tokenomics Ahead of Nov. 24 MON Token Airdrop - CoinDesk"
@@ -4058,6 +4128,11 @@
       "id": "claim:a9c5ba1d22257f4a",
       "type": "claim",
       "label": "Sonic Blockchain Airdrop and Ecosystem Guide - BitPinas"
+    },
+    {
+      "id": "claim:59b7c8285ad5845a",
+      "type": "claim",
+      "label": "Giants’ Grant McCray has the speed, but getting on base is a work in progress - San Francisco Chronicle"
     },
     {
       "id": "claim:91b051b5732dfcb8",
@@ -4078,11 +4153,6 @@
       "id": "claim:5f92b5426298c325",
       "type": "claim",
       "label": "Crypto Bounty Hunting Is Becoming a High-Tech Way Out of Poverty - CoinDesk"
-    },
-    {
-      "id": "claim:f15434cf036097e8",
-      "type": "claim",
-      "label": "Do you need a bitcoin credit card? What you can gain (and lose) by earning bitcoin rewards on spending - Yahoo Finance"
     },
     {
       "id": "claim:8d49df7492e9320b",
@@ -4155,44 +4225,14 @@
       "label": "Binance Academy Bitcoin Page: Complete Quiz to Earn BTC Rewards This April 2026! - Binance"
     },
     {
-      "id": "claim:b7e66c5c97ae9522",
-      "type": "claim",
-      "label": "Google Freezes Open Source Bug Bounty Until 2027 Due to AI Spam Flood - Android Headlines"
-    },
-    {
-      "id": "claim:30031a7c4aea14e1",
-      "type": "claim",
-      "label": "Google Pauses Open Source Bug Bounty After Flood of AI-Generated Reports - Technology Org"
-    },
-    {
       "id": "claim:ccc34fd5974716c3",
       "type": "claim",
       "label": "AI slop submissions force Google to freeze its open-source bug bounty - Help Net Security"
     },
     {
-      "id": "claim:8ce1d600ba5bf31b",
-      "type": "claim",
-      "label": "Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports - Infosecurity Magazine"
-    },
-    {
       "id": "claim:0367414c771c2b52",
       "type": "claim",
       "label": "‘This pause is due to a significant rise in automated submissions, the vast majority of which are not valid’: Google pauses open source bug bounty scheme over AI slop submissions -"
-    },
-    {
-      "id": "claim:3f5f7200882b4008",
-      "type": "claim",
-      "label": "Google pauses its open-source bug bounty after a flood of fake AI reports - Martin Cid Magazine"
-    },
-    {
-      "id": "claim:c582457c1f709ef9",
-      "type": "claim",
-      "label": "Google Tightens Open-Source Bug Bounty Rules After Surge in AI-Generated Vulnerability Reports - Cyber Press"
-    },
-    {
-      "id": "claim:88bbf46d90b2baec",
-      "type": "claim",
-      "label": "Google Tightens Open-Source Bug Bounty Rules After Surge in AI-Generated Vulnerability Reports - GBHackers News"
     },
     {
       "id": "claim:2065d79f490c4a7b",
@@ -4203,6 +4243,11 @@
       "id": "claim:a09ab2a77761746d",
       "type": "claim",
       "label": "Bitcoin Rewards Cannabis Vape Sparks Addiction Fears Among Health Experts - Cryptonews.net"
+    },
+    {
+      "id": "claim:48c2c88a6fb5026d",
+      "type": "claim",
+      "label": "East Wenatchee man employed at Grant PUD dies in Okanogan County avalanche - Source ONE News"
     },
     {
       "id": "claim:a6c5b7f128d676a8",
@@ -4218,6 +4263,11 @@
       "id": "claim:22b070acd3db8bbd",
       "type": "claim",
       "label": "2026 Grant Township Primary Election Results - ClickOnDetroit | WDIV Local 4"
+    },
+    {
+      "id": "claim:0211cdc2169c31aa",
+      "type": "claim",
+      "label": "MEN'S COLLEGE BASKETBALL: Grant McCasland introduction, April 3 - Lubbock Avalanche-Journal"
     },
     {
       "id": "claim:bdc5cfbf95e70587",
@@ -4300,11 +4350,6 @@
       "label": "Aster Airdrop Unleashes Crucial Convergence Stage with 64M Token Distribution on February 2 - Bitget"
     },
     {
-      "id": "claim:2c1df3a9cd3011ac",
-      "type": "claim",
-      "label": "zkSync Guide and Possible Airdrop Strategy - BitPinas"
-    },
-    {
       "id": "claim:786f27c554d65566",
       "type": "claim",
       "label": "State gives $7.8m grant to Navy sub base for waterfront projects - Inside Investigator"
@@ -4315,6 +4360,11 @@
       "label": "Vandenbrink awarded NASA grant to advance space-based food systems - Louisiana Tech University"
     },
     {
+      "id": "claim:0c21d40094223eff",
+      "type": "claim",
+      "label": "A Data Engineering Framework for Ethereum Beacon Chain Rewards: From Data Collection to Decentralization Metrics - Nature"
+    },
+    {
       "id": "claim:ca9b11c14db028a7",
       "type": "claim",
       "label": "Three’s a crowd: Popular bug bounty companies are growing at an insane rate - CyberScoop"
@@ -4323,6 +4373,11 @@
       "id": "claim:01505fd15c2412c1",
       "type": "claim",
       "label": "Avalanche Food Group Distributes $68,000 to Teachers Following Successful 2026 Teacher Grant Campaign - RestaurantNews.com"
+    },
+    {
+      "id": "claim:8bf1c1d83c96973e",
+      "type": "claim",
+      "label": "Bounty hunter arrested, accused of extorting victim - WBRZ"
     },
     {
       "id": "claim:8ef2a49be823bc0a",
@@ -4380,6 +4435,11 @@
       "label": "Polymarket Will Launch Token and Airdrop After U.S. Relaunch, CMO Says - CoinDesk"
     },
     {
+      "id": "claim:4cbde8d41733cfe5",
+      "type": "claim",
+      "label": "Greenhouse Gas Protocol receives USD $9.25 million grant from the Bezos Earth Fund - The World Business Council for Sustainable Development (WBCSD)"
+    },
+    {
       "id": "claim:47ab0ed7040da070",
       "type": "claim",
       "label": "Green grant cancellations were ‘based solely’ on states’ political affiliation, Trump administration says in court - The Hill"
@@ -4395,6 +4455,11 @@
       "label": "Court Filing Says DOE Targeted Clean Energy Grant Cuts Based on States’ 2024 Election Results - Quiver Quantitative"
     },
     {
+      "id": "claim:9592fdee86b2ce7f",
+      "type": "claim",
+      "label": "Level 3 evacuations ordered as wildfire grows near Beverly in Grant County - KOMO"
+    },
+    {
       "id": "claim:c941f413ffac546b",
       "type": "claim",
       "label": "EasyA Wants to Attract More Than Just ‘Bounty Hunters’ to Its Hackathons - CoinDesk"
@@ -4405,6 +4470,26 @@
       "label": "Pre-Registration Campaign With Rewards Opens For Upcoming Blockchain-Based Dekaron G - MMORPG.com"
     },
     {
+      "id": "claim:02a16d018c60d7b5",
+      "type": "claim",
+      "label": "Department of War Awards Tucson Unified School District a $41 Million Grant for Frank Borm - U.S. Department of War (.gov)"
+    },
+    {
+      "id": "claim:821c3d8e0d030294",
+      "type": "claim",
+      "label": "The IRS Just Cleared the Way for Crypto Funds to Earn Staking Rewards. Here’s What It Means for Your Taxes (Rev. Proc. 2026-20) - AOL.com"
+    },
+    {
+      "id": "claim:a5046a7a4bea3bb1",
+      "type": "claim",
+      "label": "The IRS Just Cleared the Way for Crypto Funds to Earn Staking Rewards. Here's What It Means for Your Taxes (Rev. Proc. 2026-20) - 24/7 Wall St."
+    },
+    {
+      "id": "claim:06eb9e28b7ce2ac1",
+      "type": "claim",
+      "label": "Gate.io launches Gate Card rewards system with up to 8% crypto cashback - Traders Union"
+    },
+    {
       "id": "claim:212b0535da109ae4",
       "type": "claim",
       "label": "Electrical Engineering and Computer Science Professor Yuzhe Tang Receives Grant to Protect Ethereum Security - Syracuse University Today"
@@ -4413,11 +4498,6 @@
       "id": "claim:b2f8952d743b7bdd",
       "type": "claim",
       "label": "Jharkhand: Maoist leader carrying Rs 1 crore reward among 15 killed in gunfight with security forces - Scroll.in"
-    },
-    {
-      "id": "claim:c5205c7ec63dabd2",
-      "type": "claim",
-      "label": "Bitcoin rewards aren't worth the risk right now as a key Wall Street metric turns negative - Yahoo Finance Singapore"
     },
     {
       "id": "claim:288e39a08568e8a1",
@@ -4465,9 +4545,9 @@
       "label": "Meta Earth Network 2.0: Pioneering Web3 Innovation with Rewards and Global Events - The Defiant"
     },
     {
-      "id": "claim:8b8fe4c1bb9db5c9",
+      "id": "claim:a5c47b532b093fd1",
       "type": "claim",
-      "label": "Cambodia to grant Japan visitation rights to China-linked naval base - Reuters"
+      "label": "Google thanks researcher for finding major flaw but doesn’t fix it and pays no reward - Cybernews"
     },
     {
       "id": "claim:c5d9dc8b3e98fd0d",
@@ -4525,6 +4605,11 @@
       "label": "Can an LLC Business Get Grant Money? 5 Grants LLCs Can Apply for Now - GrantWatch"
     },
     {
+      "id": "claim:e54fcbf7b4e5415e",
+      "type": "claim",
+      "label": "Megatel Homes will launch crypto rewards for renters and buyers - HousingWire"
+    },
+    {
       "id": "claim:7f7731cde73023d0",
       "type": "claim",
       "label": "‘DK Rap’ composer Grant Kirkhope partnered with Substantial to make a weirdly good version of the song - Polygon.com"
@@ -4540,6 +4625,11 @@
       "label": "LCRA, Bluebonnet Electric Co-op award $25,000 grant to Martindale Fire & Rescue - LCRA - Energy, Water, Community - LCRA - Lower Colorado River Authority"
     },
     {
+      "id": "claim:2b12a2e1af5bb0b6",
+      "type": "claim",
+      "label": "ZKsync sunsets ‘Ignite’ token rewards for DeFi ecosystem, cites market conditions and focus on Elastic Network - The Block"
+    },
+    {
       "id": "claim:6b913db6746e34c8",
       "type": "claim",
       "label": "Josh de Leeuw Receives NSF Grant to Create “An Open-Source Ecosystem for Behavioral Experiments” - Vassar College"
@@ -4553,11 +4643,6 @@
       "id": "claim:1533b37b318d6f02",
       "type": "claim",
       "label": "TONs of Dungeons 101: Developer of Top Game on Solana Launches Own TG Game With $CHEF Airdrop - BitPinas"
-    },
-    {
-      "id": "claim:f3daecd386369128",
-      "type": "claim",
-      "label": "Google Paid Out $17 Million in Bug Bounty Rewards in 2025 - SecurityWeek"
     },
     {
       "id": "claim:0a21fb1bf6304603",
@@ -4585,14 +4670,14 @@
       "label": "GSA partners with HackerOne for first federal civilian bug bounty - FedScoop"
     },
     {
+      "id": "claim:42ab88ca60b43045",
+      "type": "claim",
+      "label": "Researcher Uses AI to Uncover Google Vulnerabilities, Earns $500,000 Bug Bounty - Cyber Press"
+    },
+    {
       "id": "claim:f9e2f5ff0cf041c6",
       "type": "claim",
       "label": "Extension to the USD1 Airdrop Campaign (2026-06-12) - Binance"
-    },
-    {
-      "id": "claim:3d7842a396e15a1a",
-      "type": "claim",
-      "label": "Ethereum Staking Demand Soars As Investors Chase Rewards - Yahoo Finance"
     },
     {
       "id": "claim:dcfc09c7fee8b72a",
@@ -4628,11 +4713,6 @@
       "id": "claim:80a4bd48b573c367",
       "type": "claim",
       "label": "Grant Thornton joins the LACChain global alliance - Grant Thornton España"
-    },
-    {
-      "id": "claim:7ec2bbff1a1d5970",
-      "type": "claim",
-      "label": "Apple doubles its biggest bug bounty reward to $2 million - Engadget"
     },
     {
       "id": "claim:bc3198048038436c",
@@ -4685,34 +4765,19 @@
       "label": "Monad Airdrop Guide: the Easiest Way to Unlock your Rewards - NFTevening"
     },
     {
+      "id": "claim:6e7d7d6d7c92f69c",
+      "type": "claim",
+      "label": "Grant Statham to Receive Summit of Excellence - Gripped Climbing Magazine"
+    },
+    {
       "id": "claim:985b5b695a57a2e6",
       "type": "claim",
       "label": "Scammers Hijack Aptos Network Twitter to Promote Fake APT Airdrop - Binance"
     },
     {
-      "id": "claim:f668f598c17a1c2f",
-      "type": "claim",
-      "label": "Latest provincial grant 'good news' amid 'avalanche of issues' businesses face: Markle - BarrieToday.com"
-    },
-    {
-      "id": "claim:e575addd170062ae",
-      "type": "claim",
-      "label": "ETH news: Ethereum staking token weETH splits from restaking as rewards debate heats up - CoinDesk"
-    },
-    {
-      "id": "claim:b153d3fb06804cc4",
-      "type": "claim",
-      "label": "Dairyland Power Co-op grant looks to create more jobs - WXOW"
-    },
-    {
       "id": "claim:8d05672b462a8921",
       "type": "claim",
       "label": "Best Web3 Airdrops 2026: Rewards, Tasks and Dates - Coin Gabbar"
-    },
-    {
-      "id": "claim:7183cf41d0372ff2",
-      "type": "claim",
-      "label": "Grant Cardone Bitcoin Strategy and Jet Sale Debate - Coin Gabbar"
     },
     {
       "id": "claim:41e2d8bd97b6a2c8",
@@ -4765,6 +4830,11 @@
       "label": "India Exclusive: Celebrate 9 Years of Binance, with $1M in Tether Gold Rewards - Binance"
     },
     {
+      "id": "claim:cd7d8c0f08f90877",
+      "type": "claim",
+      "label": "Xbox vs PlayStation vs Steam vs Riot: $100K Bounty Gap [2026] - https://tech-insider.org/"
+    },
+    {
       "id": "claim:0458ba94de464298",
       "type": "claim",
       "label": "Jito (JTO) Is a Solana MEV Infrastructure Token Gaining Traction Through Liquid Staking and Validator Rewards - OneBullEx"
@@ -4775,9 +4845,19 @@
       "label": "What time are the Bounty Hunter power hours in Fortnite Chapter 7 Season 4? - Polygon.com"
     },
     {
+      "id": "claim:d5b495abe7dc1914",
+      "type": "claim",
+      "label": "Lubbock business news includes Optimum grant, openings, closings - Lubbock Avalanche-Journal"
+    },
+    {
       "id": "claim:4be332b8d26ee72a",
       "type": "claim",
       "label": "LCRA, Bluebonnet Electric Co-op award $24,400 grant to Bastrop County First Responders - LCRA - Lower Colorado River Authority"
+    },
+    {
+      "id": "claim:bcf0970828d6dcc5",
+      "type": "claim",
+      "label": "Grant McCasland's new Texas Tech basketball contract runs through 2029-30, worth $24.9 million - Lubbock Avalanche-Journal"
     },
     {
       "id": "claim:46f708f10f0b10b8",
@@ -4795,9 +4875,14 @@
       "label": "Announcing the Platåberget Testnet"
     },
     {
-      "id": "claim:285dbe9e77fa6c69",
+      "id": "claim:687dadb3cb6d20e6",
       "type": "claim",
-      "label": "OKX Hackathon Trading Launches $20,000 Developer Challenge - The Cryptonomist"
+      "label": "Introducing the CDP Ambassador Program - Coinbase"
+    },
+    {
+      "id": "claim:c30ed61493c73594",
+      "type": "claim",
+      "label": "MEXC Launches Africa-Focused Global Ambassador Program to Empower Web3 Trailblazers - Techeconomy"
     },
     {
       "id": "claim:c2e708a75bc55ba3",
@@ -4815,19 +4900,9 @@
       "label": "Enjin Launches “Envoy” Brand Ambassador Program - Crypto News"
     },
     {
-      "id": "claim:687dadb3cb6d20e6",
-      "type": "claim",
-      "label": "Introducing the CDP Ambassador Program - Coinbase"
-    },
-    {
       "id": "claim:c9364cd11c964688",
       "type": "claim",
       "label": "Ether.Camp Announces $50,000 Contest to Build the Next Killer Blockchain-Based Application - Newswire.com"
-    },
-    {
-      "id": "claim:1d31627cafc60221",
-      "type": "claim",
-      "label": "Solana Announces STOCKLANA Hackathon Update with $120K - Coinfomania"
     },
     {
       "id": "claim:3b9593f8fbdd0a19",
@@ -4868,11 +4943,6 @@
       "id": "claim:c17e3901774e2460",
       "type": "claim",
       "label": "[Kenya] Block announces winners in TBD Hackathon at Africa Bitcoin Conference - Africa Business Communities"
-    },
-    {
-      "id": "claim:c30ed61493c73594",
-      "type": "claim",
-      "label": "MEXC Launches Africa-Focused Global Ambassador Program to Empower Web3 Trailblazers - Techeconomy"
     },
     {
       "id": "claim:f4ca75dd68d634e8",
@@ -4955,16 +5025,6 @@
       "label": "MEXC Launches Africa-Focused Global Ambassador Programme to Empower Web3 Trailblazers - Techpoint Africa"
     },
     {
-      "id": "claim:bf295543ea49141c",
-      "type": "claim",
-      "label": "The Crypto Company's \"Frame\" Testnet Goes Live in Private Beta: Post-Quantum Layer 1 Blockchain Surpasses 7 Million Test Transactions Signed With NIST's ML-DSA-87 - TradingView"
-    },
-    {
-      "id": "claim:67dcb95db90ad5b5",
-      "type": "claim",
-      "label": "Mantle Launches Turing Test Hackathon 2026 backed by Tencent Cloud, Bybit, Byreal and BGA - TradingView"
-    },
-    {
       "id": "claim:8e926a0fb621549f",
       "type": "claim",
       "label": "Walrus Protocol Unveils Riveting Content Contest on Sui Network to Champion Verifiable Data - CryptoRank"
@@ -4973,11 +5033,6 @@
       "id": "claim:9f62776f77db52d2",
       "type": "claim",
       "label": "Agents in Action Hackathon: Meet the Winners Powering the Future of Autonomous Payments - Coinbase"
-    },
-    {
-      "id": "claim:d6f309aad3479713",
-      "type": "claim",
-      "label": "Toyota Taps Astar Network for Web3 Hackathon - CryptoPotato"
     },
     {
       "id": "claim:4fdebb3b5dee0abe",
@@ -4990,9 +5045,9 @@
       "label": "Ethereum Is About to Get Way Faster: Glamsterdam Hits Testnet Oct 26 With 200 Million Gas - CCN.com"
     },
     {
-      "id": "claim:ffb56ec0502540d3",
+      "id": "claim:285dbe9e77fa6c69",
       "type": "claim",
-      "label": "Injective Protocol to Extend Hackathon Submission - TradingView"
+      "label": "OKX Hackathon Trading Launches $20,000 Developer Challenge - The Cryptonomist"
     },
     {
       "id": "claim:facc15691a14a875",
@@ -5020,11 +5075,6 @@
       "label": "Ethereum Glamsterdam upgrade enters final phase ahead of October testnet - Cryptonews.net"
     },
     {
-      "id": "claim:b4ad50749f2fe4f0",
-      "type": "claim",
-      "label": "StonMaster - The Ultimate TON DeFi Hub | STON.fi Hackathon Demo - YouTube"
-    },
-    {
       "id": "claim:911004d0351c66ef",
       "type": "claim",
       "label": "OpenAI Says AI Model Spent Testnet ETH From Wallet It Didn't Own - CoinMarketCap"
@@ -5043,6 +5093,11 @@
       "id": "claim:6873079bc97d9030",
       "type": "claim",
       "label": "OpenAI Says Research Model Raided Developer Wallet on Ethereum Testnet - CryptoPotato"
+    },
+    {
+      "id": "claim:bf295543ea49141c",
+      "type": "claim",
+      "label": "The Crypto Company's \"Frame\" Testnet Goes Live in Private Beta: Post-Quantum Layer 1 Blockchain Surpasses 7 Million Test Transactions Signed With NIST's ML-DSA-87 - TradingView"
     },
     {
       "id": "claim:39bba425f3ad91a8",
@@ -5105,11 +5160,6 @@
       "label": "Hackathon: Tech & Media Solutions to Reduce STIs - NAM - National Academy of Medicine"
     },
     {
-      "id": "claim:02f8060c9f758e6f",
-      "type": "claim",
-      "label": "Mastercard sponsors XRP Ledger hackathon in New York - Crypto News"
-    },
-    {
       "id": "claim:f0317d95644117e4",
       "type": "claim",
       "label": "Solana moves Alpenglow into testnet as SOL nears January highs - CryptoSlate"
@@ -5160,6 +5210,16 @@
       "label": "Litecoin’s LitVM hits 140M testnet transactions – Can it spark LTC’s DeFi growth? - AMBCrypto"
     },
     {
+      "id": "claim:67dcb95db90ad5b5",
+      "type": "claim",
+      "label": "Mantle Launches Turing Test Hackathon 2026 backed by Tencent Cloud, Bybit, Byreal and BGA - TradingView"
+    },
+    {
+      "id": "claim:83fa7e3d3de921dc",
+      "type": "claim",
+      "label": "Pi Network News: Testnet Stablecoin Goes Live, Mainnet Still Awaits - Coin Gabbar"
+    },
+    {
       "id": "claim:42fb5d180187c1ca",
       "type": "claim",
       "label": "Pump Fun Launches Pump Ventures Fund with $3M Hackathon: Solana Season Coming Back? - Yahoo Finance"
@@ -5185,14 +5245,9 @@
       "label": "Uniswap Labs Company Hackathon - Uniswap"
     },
     {
-      "id": "claim:691f7bfea0ad27a8",
+      "id": "claim:70d29581a23c18a4",
       "type": "claim",
-      "label": "Torium Network Testnet v2: A Complete Guide for Users and Developers - Coin Gabbar"
-    },
-    {
-      "id": "claim:726715ff9af078a8",
-      "type": "claim",
-      "label": "Ault Capital Group Unveils Ault Blockchain Public Testnet - The Block"
+      "label": "Robinhood Launches Public Testnet for Its Ethereum L2 Chain - BeInCrypto"
     },
     {
       "id": "claim:d01d8598e77ae52f",
@@ -5203,11 +5258,6 @@
       "id": "claim:601cfd13d0ae400a",
       "type": "claim",
       "label": "University of Nicosia hosts XRPL Hackathon in 2024 - Knews, Kathimerini"
-    },
-    {
-      "id": "claim:30c83e31fbf58178",
-      "type": "claim",
-      "label": "Stripe-Backed Tempo Blockchain Launches Public Testnet - CoinLaw"
     },
     {
       "id": "claim:79cd5f935367afa0",
@@ -5230,14 +5280,14 @@
       "label": "A comprehensive review of testnet faucets: How to quickly receive test coins? - Binance"
     },
     {
-      "id": "claim:5c8db2b6a3c07d63",
-      "type": "claim",
-      "label": "Student drone to find snow avalanche victims wins hackathon - Wojsko-Polskie.pl"
-    },
-    {
       "id": "claim:c75d1711a15cdcc2",
       "type": "claim",
       "label": "Binance Wallet × Predict.fun: Exclusive Basketball Predict Points Campaign - Binance"
+    },
+    {
+      "id": "claim:d6f309aad3479713",
+      "type": "claim",
+      "label": "Toyota Taps Astar Network for Web3 Hackathon - CryptoPotato"
     },
     {
       "id": "claim:63d0d5d0267d7682",
@@ -5245,24 +5295,9 @@
       "label": "Tezos Makes Ushuaia Features Available on Testnet - TradingView"
     },
     {
-      "id": "claim:ec39d96f25dcf444",
-      "type": "claim",
-      "label": "Circle Launches Arc Public Testnet - Circle"
-    },
-    {
-      "id": "claim:63a47f4d3746138c",
-      "type": "claim",
-      "label": "Circle Launches Arc Testnet With Major Institutions - The Crypto Times"
-    },
-    {
       "id": "claim:a8ca68187fe7d8b2",
       "type": "claim",
       "label": "Over ₱580,000 for grabs in Polkadot’s Byaheng Pilipinas, the country's first blockchain bootcamp and hackathon series - adobo Magazine"
-    },
-    {
-      "id": "claim:66efdad81f22b5f2",
-      "type": "claim",
-      "label": "Sony Rolls Out Testnet for It’s Soneium Blockchain - Binance"
     },
     {
       "id": "claim:27022b8d21a5066d",
@@ -5278,11 +5313,6 @@
       "id": "claim:0c0e71d800585e7e",
       "type": "claim",
       "label": "Gyndore Public Testnet Is Live: What It Is and How to Participate - Gizmo Times"
-    },
-    {
-      "id": "claim:7a5ddb69a320beca",
-      "type": "claim",
-      "label": "Venom Launches Public Testnet for Its Blockchain Ecosystem, Unveils New Decentralized Applications - ZyCrypto"
     },
     {
       "id": "claim:e6424c333cda409a",
@@ -5303,11 +5333,6 @@
       "id": "claim:e0965eeba2e9ca7f",
       "type": "claim",
       "label": "Bitget and Google Developer Group Collaborate on a Second Hackathon to Fuel Youth Innovation - Bitget"
-    },
-    {
-      "id": "claim:6e3cdb157b8e0cda",
-      "type": "claim",
-      "label": "India’s AI hackathon seeks to build local, open-source tech - Scroll.in"
     },
     {
       "id": "claim:aee53be69a52da9e",
@@ -5350,11 +5375,6 @@
       "label": "Arcade Presentation Video for Aptos Code Collision Hackathon - YouTube"
     },
     {
-      "id": "claim:6c5bfb5ed02b4f7b",
-      "type": "claim",
-      "label": "Sui’s Hashi to Enable Native Bitcoin as Collateral, Global Testnet Launch Nears - CryptoRank"
-    },
-    {
       "id": "claim:acb0a63602255704",
       "type": "claim",
       "label": "NMKR Cardano Hackathon: Solving data protection challenges with zero-knowledge proofs - Midnight Network"
@@ -5363,11 +5383,6 @@
       "id": "claim:babbe33be8e37306",
       "type": "claim",
       "label": "Pentagon Contest Develops AI Tools to Find and Patch Dangerous IT Flaws - Air & Space Forces Magazine"
-    },
-    {
-      "id": "claim:526550b8660ffd61",
-      "type": "claim",
-      "label": "Lido Launches 0x02 CSM Testnet for Ethereum Validators - Cryptonews.net"
     },
     {
       "id": "claim:6b1a8db9bddbc4f9",
@@ -5405,19 +5420,14 @@
       "label": "Here’s How AUB’s Hackathon Involved Lebanese Youth In Tackling Hyperinflation - The961"
     },
     {
+      "id": "claim:ffb56ec0502540d3",
+      "type": "claim",
+      "label": "Injective Protocol to Extend Hackathon Submission - TradingView"
+    },
+    {
       "id": "claim:280a98e784d3b187",
       "type": "claim",
       "label": "Water Application Points to Larger Aptos Complex - TPG Online Daily"
-    },
-    {
-      "id": "claim:97100ea1596130c0",
-      "type": "claim",
-      "label": "InterValue’s TestNet 2.0 release: implementation of HashNet - GlobeNewswire"
-    },
-    {
-      "id": "claim:822ef6af498c193e",
-      "type": "claim",
-      "label": "Cardano Begins Alonzo Testnet in First Step Towards Smart Contracts - thestreet.com"
     },
     {
       "id": "claim:184677eb21dcc1ec",
@@ -5438,16 +5448,6 @@
       "id": "claim:7e53e33653df0219",
       "type": "claim",
       "label": "Tezos launches Quantumnet post-quantum testnet - ForkLog"
-    },
-    {
-      "id": "claim:d11be9e9b3e29c9d",
-      "type": "claim",
-      "label": "1win Invites Creators to Join Its Global Ambassador Network - CCN.com"
-    },
-    {
-      "id": "claim:78a19391f21840f9",
-      "type": "claim",
-      "label": "BNB Chain sets Jenner hardfork for testnet on October 28 - Crypto Briefing"
     },
     {
       "id": "claim:fa64040c976208b0",
@@ -5473,11 +5473,6 @@
       "id": "claim:b50ac8ba5d00854b",
       "type": "claim",
       "label": "GenLayer launches Asimov testnet for AI agents - VentureBeat"
-    },
-    {
-      "id": "claim:108fad0ed4252ede",
-      "type": "claim",
-      "label": "Robinhood's Layer 2 testnet sees four million transactions in first week, CEO Vlad Tenev says - The Block"
     },
     {
       "id": "claim:2c45030df6dc5627",
@@ -5553,11 +5548,6 @@
       "id": "claim:a40ac79f69e5a7d0",
       "type": "claim",
       "label": "Polkadot launches Byaheng Pilipinas, a blockchain boot camp and hackathon series - Manila Bulletin"
-    },
-    {
-      "id": "claim:e6651f8b5c14d797",
-      "type": "claim",
-      "label": "Hackathon «Build with Gemma» : Middlesex University Mauritius mobilise 75 étudiants autour de l’IA - Defimedia"
     },
     {
       "id": "claim:df23970b257efc7b",
@@ -5640,6 +5630,11 @@
       "label": "OpenAI Model Derived Crypto Wallet Keys and Spent Testnet Funds Without Permission - KuCoin"
     },
     {
+      "id": "claim:e1cdda521ec1a740",
+      "type": "claim",
+      "label": "chainlink convergence hackathon - YouTube"
+    },
+    {
       "id": "claim:9088dcb850f165aa",
       "type": "claim",
       "label": "Zcash activates NU7 on testnet ahead of November mainnet target - LCX Exchange"
@@ -5670,11 +5665,6 @@
       "label": "Institutions Back Sui’s Hashi to Bridge Bitcoin DeFi as Testnet Launch Approaches - CryptoRank"
     },
     {
-      "id": "claim:963f37742f6ebf78",
-      "type": "claim",
-      "label": "HTX Genesis Hackathon Concludes as Exchange Looks to AI for $HTX Token Boost - CryptoRank"
-    },
-    {
       "id": "claim:cd62f96412826822",
       "type": "claim",
       "label": "1 Bitcoin, 100 Builders: Highlights from MARA’s First Hackathon - mara.com"
@@ -5690,9 +5680,9 @@
       "label": "OpenAI Research Model Used Sepolia Wallet Without Authorization, Omitted Testnet Ether Spending - NewsCord"
     },
     {
-      "id": "claim:2b126cfac90cc26f",
+      "id": "claim:e348e029ad99ab8b",
       "type": "claim",
-      "label": "Arc Testnet Upgrade Confirmed, Deadline Set: Is Mainnet Launch Next? - Coin Gabbar"
+      "label": "Key Points: Craig Wright Trial Update - BitPinas"
     },
     {
       "id": "claim:6bc0665721976935",
@@ -5725,11 +5715,6 @@
       "label": "Hyperliquid Launches Permissionless HIP-4 Deployments on Testnet - CryptoRank"
     },
     {
-      "id": "claim:108f5afdfdf543c2",
-      "type": "claim",
-      "label": "Saison's \"Permanent Immortal Points\" Now Convertible to Crypto via Coincheck - finance.biggo.com"
-    },
-    {
       "id": "claim:0ad301a077d22fd4",
       "type": "claim",
       "label": "R3E Network deploys multi-L2 elastic network prototype to Neo N3 TestNet - Cryptonews.net"
@@ -5748,11 +5733,6 @@
       "id": "claim:16289ec5d04684bc",
       "type": "claim",
       "label": "'Hashed Protocol Camp' Libere… 2nd place at Indonesia's Infinity Hackathon - bloomingbit"
-    },
-    {
-      "id": "claim:8bccab3d4f593c82",
-      "type": "claim",
-      "label": "NEAR Hackathon Launches with Judging Panel from a16z - Coinfomania"
     },
     {
       "id": "claim:7f407c75520b8196",
@@ -5800,11 +5780,6 @@
       "label": "Enhancing community death notification in Uganda using a hackathon based approach to integrate mortality surveillance into the electronic Community Health Information System (eCHIS"
     },
     {
-      "id": "claim:2d1132ee472955a6",
-      "type": "claim",
-      "label": "Binance Reveals Hackathon Winners, Sparking Community - Cryptonews.net"
-    },
-    {
       "id": "claim:736d95b1fb47d988",
       "type": "claim",
       "label": "Arthur Hayes Thinks FLOP Could Outgrow Bitcoin. Its Testnet Is Weeks Away - BeInCrypto"
@@ -5823,11 +5798,6 @@
       "id": "claim:32c0f7724178ae03",
       "type": "claim",
       "label": "Stellar Philippines and Rise In Conclude ‘Build the Future of Finance’ Hackathon in Manila - BitPinas"
-    },
-    {
-      "id": "claim:355c0e8164e9f29b",
-      "type": "claim",
-      "label": "Stablecoin Blockchain Tempo Goes Live on Public Testnet with Multiple Partners - NFTgators"
     },
     {
       "id": "claim:e5ffb62257fe379f",
@@ -5935,19 +5905,49 @@
       "label": "Africa Blockchain Institute (ABI) Campus Blockchain Hackathon 2021 (Fully Funded to Kigali, Rwanda) - Opportunities For Africans"
     },
     {
+      "id": "claim:76161a07ed595998",
+      "type": "claim",
+      "label": "Ethereum Delays Glamsterdam Hoodi Testnet Upgrade Over EIP-8037 Gas Risk - Altcoin Buzz"
+    },
+    {
+      "id": "claim:a29f0aa62d87f438",
+      "type": "claim",
+      "label": "Ethereum Postpones Glamsterdam Testnet Activation on Hoodi Over EIP-8037 Concerns - CryptoDnes.bg"
+    },
+    {
+      "id": "claim:554a8ef1a884c2f5",
+      "type": "claim",
+      "label": "EIP-8037 Sparks Gas Fee Concerns; Ethereum Delays Testnet Upgrade - Moomoo"
+    },
+    {
+      "id": "claim:a794e9b57d40abb9",
+      "type": "claim",
+      "label": "Why Has Ethereum Delayed the Glamsterdam Testnet Upgrade? - Kalkine Media"
+    },
+    {
       "id": "claim:03eb92a42a259583",
       "type": "claim",
       "label": "Ethereum Delays Glamsterdam Hard Fork on Hoodi Testnet Over Security Concerns - bloomingbit"
     },
     {
+      "id": "claim:43a1f264e150f4e7",
+      "type": "claim",
+      "label": "Dijkstra testnet opens October 22, 2026: What it means for the Cardano price - AD HOC NEWS"
+    },
+    {
+      "id": "claim:60f367b744236cf7",
+      "type": "claim",
+      "label": "Ethereum delays Glamsterdam Hoodi testnet launch over security risks - TradingView"
+    },
+    {
+      "id": "claim:6e58f421e825f28f",
+      "type": "claim",
+      "label": "Ethereum Developers Postpone Glamsterdam Upgrade on Hoodi Testnet - CoinMarketCap"
+    },
+    {
       "id": "claim:248730720710c0b3",
       "type": "claim",
       "label": "Ethereum Glamsterdam Testnet Faces Builder Abuse Concerns - CryptoRank"
-    },
-    {
-      "id": "claim:06c9bee9857b6525",
-      "type": "claim",
-      "label": "Introducing Subscription Smart Contract Capability on Testnet - Pi Network"
     },
     {
       "id": "claim:f0bb411161a28644",
@@ -5983,6 +5983,11 @@
       "id": "claim:2bf3922efab4f5b0",
       "type": "claim",
       "label": "Breaking: Sam Altman's OpenAI Reveals Its AI Agent Stole Funds From Ethereum Testnet Wallet - CoinGape"
+    },
+    {
+      "id": "claim:1d0b10d4e7aea518",
+      "type": "claim",
+      "label": "Building apps quickly on Ethereum - Chainlink Spring 2023 Hackathon - YouTube"
     },
     {
       "id": "claim:962e67b02e0643c9",
@@ -6052,108 +6057,103 @@
       "relation": "reports"
     },
     {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:5ad66bee85099158",
-      "relation": "reports"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:5ad66bee85099158",
-      "relation": "independent_support"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:7e0a5d067d464904",
-      "relation": "reports"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:7e0a5d067d464904",
-      "relation": "independent_support"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:7f3c9e50f14da4f6",
-      "relation": "reports"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:7f3c9e50f14da4f6",
-      "relation": "independent_support"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:d765a89891935738",
-      "relation": "reports"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:d765a89891935738",
-      "relation": "independent_support"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:73f9e48f42a4d6cb",
-      "relation": "reports"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:73f9e48f42a4d6cb",
-      "relation": "independent_support"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:67bb81fd1a8a5db4",
-      "relation": "reports"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:67bb81fd1a8a5db4",
-      "relation": "independent_support"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:0b71354eec6629eb",
-      "relation": "reports"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:0b71354eec6629eb",
-      "relation": "independent_support"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:1f0e8e88da052932",
-      "relation": "reports"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:1f0e8e88da052932",
-      "relation": "independent_support"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:c630dd4aa48820dd",
-      "relation": "reports"
-    },
-    {
-      "from": "source:blog.ethereum.org",
-      "to": "claim:c630dd4aa48820dd",
-      "relation": "independent_support"
-    },
-    {
       "from": "source:news.google.com",
       "to": "claim:2751e68f2dac27cc",
       "relation": "reports"
     },
     {
-      "from": "source:news.google.com",
-      "to": "claim:2cab48a8a9892a23",
+      "from": "source:blog.ethereum.org",
+      "to": "claim:5ad66bee85099158",
       "relation": "reports"
     },
     {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:5ad66bee85099158",
+      "relation": "independent_support"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:7e0a5d067d464904",
+      "relation": "reports"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:7e0a5d067d464904",
+      "relation": "independent_support"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:7f3c9e50f14da4f6",
+      "relation": "reports"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:7f3c9e50f14da4f6",
+      "relation": "independent_support"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:d765a89891935738",
+      "relation": "reports"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:d765a89891935738",
+      "relation": "independent_support"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:73f9e48f42a4d6cb",
+      "relation": "reports"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:73f9e48f42a4d6cb",
+      "relation": "independent_support"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:67bb81fd1a8a5db4",
+      "relation": "reports"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:67bb81fd1a8a5db4",
+      "relation": "independent_support"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:0b71354eec6629eb",
+      "relation": "reports"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:0b71354eec6629eb",
+      "relation": "independent_support"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:1f0e8e88da052932",
+      "relation": "reports"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:1f0e8e88da052932",
+      "relation": "independent_support"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:c630dd4aa48820dd",
+      "relation": "reports"
+    },
+    {
+      "from": "source:blog.ethereum.org",
+      "to": "claim:c630dd4aa48820dd",
+      "relation": "independent_support"
+    },
+    {
       "from": "source:news.google.com",
-      "to": "claim:0fd83221bec78f21",
+      "to": "claim:2cab48a8a9892a23",
       "relation": "reports"
     },
     {
@@ -6198,7 +6198,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:ea88dd9c5a0ecd4d",
+      "to": "claim:6bab9871cc004f6a",
       "relation": "reports"
     },
     {
@@ -6228,12 +6228,22 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:82d51ecaedd3199a",
+      "to": "claim:63944ceefd67c528",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:824bfc38a1d050df",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:47c74264bf09be5a",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:0fd83221bec78f21",
       "relation": "reports"
     },
     {
@@ -6248,7 +6258,17 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:285bf0076eb3ec69",
+      "to": "claim:0cc451eb784b33ef",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:81471447cc4493ef",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:1b8d3d2548f7a5d1",
       "relation": "reports"
     },
     {
@@ -6258,7 +6278,32 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:a2c5f81796fa12d0",
+      "to": "claim:bd4e6670149f330e",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:c9fb541b33a2f571",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:988387f2ca5e094a",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:ec65021190be72c1",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:568227e09c86f884",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:07c4685607aed17f",
       "relation": "reports"
     },
     {
@@ -6273,7 +6318,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:3adad6e075bacaee",
+      "to": "claim:f9359ae63a8b31ba",
       "relation": "reports"
     },
     {
@@ -6283,17 +6328,42 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:58ba671fcbe2f4cd",
+      "to": "claim:e973eebc9b08d18b",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:3fb5cef3a6e1c372",
+      "to": "claim:6daa29dd1b415b68",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:30fddcd5a3769e68",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:b0f3a550d0dbcfda",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:1b11033b23ec91df",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:0bcf9517bd3677ce",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:0c396bfac4415b71",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:3423856923603825",
       "relation": "reports"
     },
     {
@@ -6313,12 +6383,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:43c34b9710c924d5",
+      "to": "claim:ef93d5cdf09cd87d",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:ef93d5cdf09cd87d",
+      "to": "claim:46e8e241f16be424",
       "relation": "reports"
     },
     {
@@ -6328,17 +6398,27 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:130ac01f81e90755",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:754b4bd82324f7eb",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:fa1a2dd26befd932",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:09872f0c2e95387f",
+      "to": "claim:d9ff33be811b3333",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:d9ff33be811b3333",
+      "to": "claim:0c1d7902a1052da6",
       "relation": "reports"
     },
     {
@@ -6353,17 +6433,22 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:bd1a973103a48481",
+      "to": "claim:d14c9a853e6ae7ec",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:7190bf5503fa66d3",
+      "to": "claim:aee4c019cf23e7b4",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:91b395ebc4a0b4e4",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:701d10ba50429843",
       "relation": "reports"
     },
     {
@@ -6388,27 +6473,17 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:ea88dd9c5a0ecd4d",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:658f908da299b264",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:7c97fecc4df733bf",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:4034338aa6117245",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:6bab9871cc004f6a",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:e449c85714f6f911",
       "relation": "reports"
     },
     {
@@ -6458,11 +6533,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:07a46dd8020a6b1c",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:03c41a99d0bddb97",
       "relation": "reports"
     },
@@ -6479,6 +6549,11 @@
     {
       "from": "source:news.google.com",
       "to": "claim:44441a212df9ccdc",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:86fbf9294a8bdce2",
       "relation": "reports"
     },
     {
@@ -6528,11 +6603,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:30b6aed67c3bd1d3",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:6e7f8301f900d733",
       "relation": "reports"
     },
@@ -6543,22 +6613,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:f8071260253691a8",
+      "to": "claim:7dce9ff55af60cd2",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:8884c052fc1b6353",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:63944ceefd67c528",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:824bfc38a1d050df",
+      "to": "claim:7fbfa17ba0f83d63",
       "relation": "reports"
     },
     {
@@ -6573,7 +6633,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:38bd9e9d8d0ed4f8",
+      "to": "claim:a3031de46eb595ca",
       "relation": "reports"
     },
     {
@@ -6593,22 +6653,22 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:1b0087e89a45e893",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:b1e4dbe93fa6d7a6",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:93a63a0a1b84b74a",
+      "to": "claim:512f2d2975d875da",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:d7ebc5ea0a075f64",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:cf091a2b71cecb97",
       "relation": "reports"
     },
     {
@@ -6628,22 +6688,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:0cc451eb784b33ef",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:60a47ec376aee71a",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:1b9d5531d40bba56",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:81471447cc4493ef",
       "relation": "reports"
     },
     {
@@ -6663,12 +6713,22 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:813964235de46d66",
+      "to": "claim:fd892d742f596fd4",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:0bb2ccbb9620ec25",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:b5964313bf6cecd0",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:285bf0076eb3ec69",
       "relation": "reports"
     },
     {
@@ -6723,12 +6783,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:1b8d3d2548f7a5d1",
+      "to": "claim:4cb5a64f838d599d",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:af05fc54f706e720",
+      "to": "claim:a509de64d7fcfac1",
       "relation": "reports"
     },
     {
@@ -6748,37 +6808,17 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:bd4e6670149f330e",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:c9fb541b33a2f571",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:988387f2ca5e094a",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:e76f4b7104f629f5",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:ae4a6fc44f559381",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:60384c7df4ba52db",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:50a556a68a3412e4",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:b6cf24cd66cba14d",
       "relation": "reports"
     },
     {
@@ -6804,21 +6844,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:3223fb16af3bedda",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:ec65021190be72c1",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:568227e09c86f884",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:0807ddf75a91159b",
       "relation": "reports"
     },
     {
@@ -6853,12 +6878,27 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:853009323dbed9ec",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:b49f4094c029056c",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:58b9a9fc18d72709",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:0676cb4ba5b57076",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:7362728b5dfb9183",
       "relation": "reports"
     },
     {
@@ -6873,7 +6913,17 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:a2c5f81796fa12d0",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:b4a6b981013342de",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:44611533c1d12be5",
       "relation": "reports"
     },
     {
@@ -6883,17 +6933,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:07c4685607aed17f",
+      "to": "claim:2f7905d20831bf83",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:3a8a7fedcdfad8ff",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:80fe6306546d8533",
+      "to": "claim:3fb8119b19dbd180",
       "relation": "reports"
     },
     {
@@ -6918,17 +6963,42 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:3edad7cfd1240735",
+      "to": "claim:3adad6e075bacaee",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:17630217e323fb90",
+      "to": "claim:25cc906680060195",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:f9359ae63a8b31ba",
+      "to": "claim:3aef427d7382c440",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:496ec7087237d4c6",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:65f027bc20e22cbb",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:357601d308bd9d74",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:63249172ac70b38b",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:06b0b46846cb82d3",
       "relation": "reports"
     },
     {
@@ -6944,36 +7014,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:a7efaf777eb442f2",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:6daa29dd1b415b68",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:e973eebc9b08d18b",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:30fddcd5a3769e68",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:b0f3a550d0dbcfda",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:5f571d330fbd2d45",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:d625fc72743e7dc8",
       "relation": "reports"
     },
     {
@@ -6998,7 +7038,22 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:77e38d589032f2ed",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:1174de41335ec005",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:645e98270229f415",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:b0f69885813863c9",
       "relation": "reports"
     },
     {
@@ -7009,16 +7064,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:0847c13336e69f4b",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:1b11033b23ec91df",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:f2341a335390cdd2",
       "relation": "reports"
     },
     {
@@ -7038,22 +7083,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:ccb327a630ad9ebc",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:c13b88c9c89bdb66",
+      "to": "claim:58ba671fcbe2f4cd",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:69413f67ae3cf68f",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:4a23cdcb8d5d8d4c",
       "relation": "reports"
     },
     {
@@ -7193,17 +7228,27 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:8167de9d0a1bc3bc",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:5bcb7135f432b8ac",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:feb2d3da13f3afbe",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:3fd5c734dc0a7f4d",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:c5c0bf781b883c47",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:eefd51dc7d20fc00",
       "relation": "reports"
     },
     {
@@ -7218,12 +7263,62 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:3fb5cef3a6e1c372",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:7c5e8e35550d86e1",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:866863746e3c266e",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:ee3287fa31dc6735",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:b6f7e99f68e0e0d6",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:a94e788aee6b13d8",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:7240411dc3128af0",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:899dded45f5977a0",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:776b6dbebf604565",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:cc1f2c27c1e46384",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:6781091d5b7020d3",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:b0a0fbe1d7706d90",
       "relation": "reports"
     },
     {
@@ -7244,11 +7339,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:ab7bcd88f2601824",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:f8638254ab15e89e",
       "relation": "reports"
     },
     {
@@ -7278,7 +7368,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:efed03ddd04e43f9",
+      "to": "claim:fee2704ac04dd5df",
       "relation": "reports"
     },
     {
@@ -7288,12 +7378,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:4e85f2ffaf28016d",
+      "to": "claim:9fb5a0f4fe378e10",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:9fb5a0f4fe378e10",
+      "to": "claim:f15434cf036097e8",
       "relation": "reports"
     },
     {
@@ -7303,7 +7393,37 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:b7e66c5c97ae9522",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:30031a7c4aea14e1",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:93f89d5aa311e1cf",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:8ce1d600ba5bf31b",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:88bbf46d90b2baec",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:c582457c1f709ef9",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:3f5f7200882b4008",
       "relation": "reports"
     },
     {
@@ -7319,11 +7439,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:f2bdaa7f24d4ac2a",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:3423856923603825",
       "relation": "reports"
     },
     {
@@ -7348,17 +7463,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:2c4ed3afd69b25a3",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:380c691e44b90711",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:d19b1000ae11eb6b",
       "relation": "reports"
     },
     {
@@ -7383,17 +7488,17 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:065736c84eb27d7f",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:51afc62891834fad",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:dfb9ff3e6e8caf2e",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:7a57c88e4432769a",
       "relation": "reports"
     },
     {
@@ -7443,6 +7548,11 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:89983e7b50df5721",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:5e2f0aa1480447ab",
       "relation": "reports"
     },
@@ -7454,6 +7564,11 @@
     {
       "from": "source:news.google.com",
       "to": "claim:6141f26ddff7a026",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:4fec5248b9c64478",
       "relation": "reports"
     },
     {
@@ -7473,7 +7588,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:76d4ac5365a8939a",
+      "to": "claim:8f832b4a1e971af7",
       "relation": "reports"
     },
     {
@@ -7493,7 +7608,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:5873ab0cca747471",
+      "to": "claim:8167de9d0a1bc3bc",
       "relation": "reports"
     },
     {
@@ -7523,6 +7638,11 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:c8a347b6cfabff6d",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:07b6210e2e594435",
       "relation": "reports"
     },
@@ -7543,12 +7663,17 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:6d15a7099488e6b3",
+      "to": "claim:8832c63075fc1413",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:02a16d018c60d7b5",
+      "to": "claim:6742f15eb729e4c6",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:03475288bfa79356",
       "relation": "reports"
     },
     {
@@ -7558,12 +7683,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:b6cb40d1ac8f7ee5",
+      "to": "claim:c2e0f269c1f466eb",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:c2e0f269c1f466eb",
+      "to": "claim:db5a1cf1e813621f",
       "relation": "reports"
     },
     {
@@ -7578,17 +7703,37 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:06482270c3a11079",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:03184a7907de5daa",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:feb2d3da13f3afbe",
+      "to": "claim:6351c44182f21667",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:6351c44182f21667",
+      "to": "claim:0ae995588d491613",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:96bf79251c7eb4b9",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:5241db00dde9ce74",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:a73b448fcfc1e065",
       "relation": "reports"
     },
     {
@@ -7673,6 +7818,11 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:40667318a4aff949",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:2981f2a1fd10c27a",
       "relation": "reports"
     },
@@ -7698,22 +7848,17 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:b322fd14876c58fc",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:8fc0cacbb6bca8ae",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:b352facd7b725888",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:c36c4a1657859694",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:1dfdabaf622c4e1f",
       "relation": "reports"
     },
     {
@@ -7729,6 +7874,11 @@
     {
       "from": "source:news.google.com",
       "to": "claim:1751678ea4270b56",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:b8be17a8c82fbf0f",
       "relation": "reports"
     },
     {
@@ -7753,6 +7903,11 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:dbbb35b2f95e1afa",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:65760cfb00031277",
       "relation": "reports"
     },
@@ -7764,11 +7919,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:0dcbf4c3370066fe",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:c5c0bf781b883c47",
       "relation": "reports"
     },
     {
@@ -7823,6 +7973,11 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:63fb6b5c54a99b6e",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:5d8903013cdcb91e",
       "relation": "reports"
     },
@@ -7868,17 +8023,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:eefd51dc7d20fc00",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:1ac0b96696dd91ed",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:f86a698765c0cf8d",
       "relation": "reports"
     },
     {
@@ -7893,7 +8038,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:5d46ebfa32d09be5",
+      "to": "claim:58171ad2c498dad4",
       "relation": "reports"
     },
     {
@@ -7933,12 +8078,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:8e19d3f45d8462dd",
+      "to": "claim:5f615c93cf75aead",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:adf7e73b1f052d7a",
+      "to": "claim:8e19d3f45d8462dd",
       "relation": "reports"
     },
     {
@@ -7949,11 +8094,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:656de06e9904f57d",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:5b88120936247f9e",
       "relation": "reports"
     },
     {
@@ -8113,17 +8253,22 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:a011fcefadcba19b",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:fde591e743ebae11",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:02d4ced62c86c8b1",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:78d94cbdce781cef",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:7c5e8e35550d86e1",
       "relation": "reports"
     },
     {
@@ -8139,6 +8284,11 @@
     {
       "from": "source:news.google.com",
       "to": "claim:0be6d811c026de06",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:1d97653efb52f4c5",
       "relation": "reports"
     },
     {
@@ -8268,11 +8418,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:239fc7699a863d93",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:0901dfa76df3bd2d",
       "relation": "reports"
     },
@@ -8288,22 +8433,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:2a2f2b6e611a601c",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:aca282a7aa06b0fa",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:423a7286071873e5",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:09648b3533628981",
       "relation": "reports"
     },
     {
@@ -8338,12 +8468,17 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:ee3287fa31dc6735",
+      "to": "claim:057df473ae5e17e9",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:8e65761b86baa39b",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:adc6ab046bf3d3db",
       "relation": "reports"
     },
     {
@@ -8379,6 +8514,11 @@
     {
       "from": "source:news.google.com",
       "to": "claim:c4f60f64035a92c3",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:b0a2aab177bc3c20",
       "relation": "reports"
     },
     {
@@ -8468,22 +8608,17 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:cc4b045d6d9b14ad",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:5c4d3e740af15944",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:ee0375fb5e94c3fd",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:1a8a62aeffe189b3",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:6c302cf78c5cd5c1",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:a94e788aee6b13d8",
       "relation": "reports"
     },
     {
@@ -8493,7 +8628,17 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:6c302cf78c5cd5c1",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:3748a2c6ef1cfbfd",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:a91aedfac5231857",
       "relation": "reports"
     },
     {
@@ -8528,17 +8673,17 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:ff3baaa3e82e4738",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:e20e83c98d1b4849",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:b0cab975a56fb56c",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:b1c20e5c2c435661",
       "relation": "reports"
     },
     {
@@ -8564,11 +8709,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:3cd9a8eb667a43ba",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:7240411dc3128af0",
       "relation": "reports"
     },
     {
@@ -8628,11 +8768,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:899dded45f5977a0",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:cc0f55e66d3f8c8d",
       "relation": "reports"
     },
@@ -8648,17 +8783,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:776b6dbebf604565",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:a01ece6c7c5ede9e",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:f0596b0755961389",
       "relation": "reports"
     },
     {
@@ -8693,7 +8818,17 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:93e2ef84db937a26",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:5c6a115698ba3a74",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:b3c5ed7f922f23f2",
       "relation": "reports"
     },
     {
@@ -8728,12 +8863,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:09af93944f867069",
+      "to": "claim:d0ffb53485d47a31",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:5e007cefe748827e",
+      "to": "claim:09af93944f867069",
       "relation": "reports"
     },
     {
@@ -8754,6 +8889,11 @@
     {
       "from": "source:news.google.com",
       "to": "claim:ed8a56614cb0a415",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:a995f9927a4b191d",
       "relation": "reports"
     },
     {
@@ -8788,6 +8928,11 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:1730245185812578",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:500fdb91f4d63d56",
       "relation": "reports"
     },
@@ -8813,11 +8958,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:ce69d62f601d81d9",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:f88605e935cc885f",
       "relation": "reports"
     },
@@ -8838,26 +8978,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:15e7c5339496b4c2",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:57f45cb473021da9",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:ba24685907541896",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:cc1f2c27c1e46384",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:89078768feedf7bb",
       "relation": "reports"
     },
@@ -8869,11 +8989,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:13918e5380d7a7ae",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:02997ea2e480ff00",
       "relation": "reports"
     },
     {
@@ -8893,12 +9008,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:42a8463b3a7a6fa3",
+      "to": "claim:90cd75eaed2d71d9",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:b7cabd12571f7c58",
+      "to": "claim:42a8463b3a7a6fa3",
       "relation": "reports"
     },
     {
@@ -8928,7 +9043,17 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:b2dd3de081192849",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:7962615243eeb406",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:faccecd7ee0726ef",
       "relation": "reports"
     },
     {
@@ -8943,11 +9068,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:6781091d5b7020d3",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:db1287bc5bbaea09",
       "relation": "reports"
     },
@@ -8958,7 +9078,17 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:d84754026aa2ad4f",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:d3943d2c666835c9",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:b7c54e9957b9eb26",
       "relation": "reports"
     },
     {
@@ -8998,17 +9128,17 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:3fb2f27a63ca1f0d",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:7857ff84354fcae8",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:4fecf93752e16092",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:c9b524a68b4e44ed",
       "relation": "reports"
     },
     {
@@ -9063,11 +9193,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:e3e49eb203d8b0d4",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:a49fcbb910862f1b",
       "relation": "reports"
     },
@@ -9083,12 +9208,22 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:4b2c87839818b00b",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:3db277be4a4f4171",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:5c9c23ff1bd45e07",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:52b5a9f8bec3f57f",
       "relation": "reports"
     },
     {
@@ -9168,17 +9303,17 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:656212e25d8579d1",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:16e0027beac1490b",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:5c6d83a2126762bc",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:fa690cd278a78f70",
+      "to": "claim:48e57317c96de049",
       "relation": "reports"
     },
     {
@@ -9199,11 +9334,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:36ff8cf6d98d4673",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:1c1d982f059d2afc",
       "relation": "reports"
     },
     {
@@ -9323,11 +9453,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:47d63e5f449f1a19",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:e2170ba19ac5cc10",
       "relation": "reports"
     },
@@ -9373,16 +9498,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:847075315da8e8a1",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:5e4f28d039a07a20",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:68c9dabe8206475b",
       "relation": "reports"
     },
@@ -9418,11 +9533,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:f42adcf14963e162",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:af76e67dc856e457",
       "relation": "reports"
     },
@@ -9433,7 +9543,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:42e6df8bf44248e4",
+      "to": "claim:f8638254ab15e89e",
       "relation": "reports"
     },
     {
@@ -9473,16 +9583,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:2c2cf329c966361f",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:8501e1ea8631ad41",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:b86da4eb91026303",
       "relation": "reports"
     },
@@ -9493,12 +9593,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:2a2bde2752f7e43e",
+      "to": "claim:82db936acaae266b",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:82db936acaae266b",
+      "to": "claim:c8251cc15ee72c8b",
       "relation": "reports"
     },
     {
@@ -9509,11 +9609,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:cf8a0bc4031fdadf",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:09393f7340c855f0",
       "relation": "reports"
     },
     {
@@ -9588,17 +9683,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:9cbe7da6ecb58e05",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:8250a03994e53d32",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:661d331e4e3a9b7e",
       "relation": "reports"
     },
     {
@@ -9609,6 +9694,11 @@
     {
       "from": "source:news.google.com",
       "to": "claim:cd4632553bba8d58",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:70f69439e99f52c6",
       "relation": "reports"
     },
     {
@@ -9634,16 +9724,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:f4f1cb953fbd0331",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:42ce1cd98c270ca2",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:e1b94ac8bcfac086",
       "relation": "reports"
     },
     {
@@ -9688,7 +9768,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:dcf22eadda188814",
+      "to": "claim:d929e088b1643dff",
       "relation": "reports"
     },
     {
@@ -9733,11 +9813,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:b5fb2c7c9ba747c3",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:cb1ff4931ca16548",
       "relation": "reports"
     },
@@ -9773,7 +9848,17 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:8e19924a3fbe04c6",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:ac524c46512d3f2d",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:efed03ddd04e43f9",
       "relation": "reports"
     },
     {
@@ -9803,11 +9888,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:cb4a0f786094e07f",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:a4ee8f2f73600272",
       "relation": "reports"
     },
@@ -9829,11 +9909,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:ce62f6ec2fcdb5d6",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:fee2704ac04dd5df",
       "relation": "reports"
     },
     {
@@ -9868,11 +9943,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:f12b5e519dc2bc25",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:86404d861957fa94",
       "relation": "reports"
     },
@@ -9888,11 +9958,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:a97d93a40940cf9a",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:b7a506fd8ff5689e",
       "relation": "reports"
     },
@@ -9904,11 +9969,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:8c0c4a1b4347f444",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:b54863fce69be260",
       "relation": "reports"
     },
     {
@@ -9943,7 +10003,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:6186eaac4f4f0b29",
+      "to": "claim:163784920f88e4f2",
       "relation": "reports"
     },
     {
@@ -10028,11 +10088,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:a0c3f40b70576103",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:a5e4eb317bbd1e22",
       "relation": "reports"
     },
@@ -10043,22 +10098,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:a4b18768efeb5f89",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:4a89e841d76fe520",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:bc79d716e0744b85",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:8bb8f334d4699b55",
+      "to": "claim:fca0c47ccddaea6a",
       "relation": "reports"
     },
     {
@@ -10083,7 +10128,17 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:2909e8a8db5e55d1",
+      "to": "claim:810f8af6226fc2de",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:5ba7565b08e97046",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:4fd11cf5d4b1e179",
       "relation": "reports"
     },
     {
@@ -10099,11 +10154,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:ce8217205a879182",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:0added8204f84a51",
       "relation": "reports"
     },
     {
@@ -10128,17 +10178,32 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:4a956f0573daeb0b",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:bc475f06bf2a4c56",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:9706e1c2bb5ec512",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:688df67797691964",
+      "to": "claim:8ee518d1b166095e",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:a26381d357a6ba35",
+      "to": "claim:5821642f3bbce2b7",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:688df67797691964",
       "relation": "reports"
     },
     {
@@ -10154,6 +10219,11 @@
     {
       "from": "source:news.google.com",
       "to": "claim:a963945c17537628",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:77f031a5b5042f2b",
       "relation": "reports"
     },
     {
@@ -10193,12 +10263,22 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:85fb52374a5cf198",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:bad119c90f8fbe25",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:a9c5ba1d22257f4a",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:59b7c8285ad5845a",
       "relation": "reports"
     },
     {
@@ -10219,11 +10299,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:5f92b5426298c325",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:f15434cf036097e8",
       "relation": "reports"
     },
     {
@@ -10298,42 +10373,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:b7e66c5c97ae9522",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:30031a7c4aea14e1",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:ccc34fd5974716c3",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:8ce1d600ba5bf31b",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:0367414c771c2b52",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:3f5f7200882b4008",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:c582457c1f709ef9",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:88bbf46d90b2baec",
       "relation": "reports"
     },
     {
@@ -10344,6 +10389,11 @@
     {
       "from": "source:news.google.com",
       "to": "claim:a09ab2a77761746d",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:48c2c88a6fb5026d",
       "relation": "reports"
     },
     {
@@ -10359,6 +10409,11 @@
     {
       "from": "source:news.google.com",
       "to": "claim:22b070acd3db8bbd",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:0211cdc2169c31aa",
       "relation": "reports"
     },
     {
@@ -10443,11 +10498,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:2c1df3a9cd3011ac",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:786f27c554d65566",
       "relation": "reports"
     },
@@ -10458,12 +10508,22 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:0c21d40094223eff",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:ca9b11c14db028a7",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:01505fd15c2412c1",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:8bf1c1d83c96973e",
       "relation": "reports"
     },
     {
@@ -10523,6 +10583,11 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:4cbde8d41733cfe5",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:47ab0ed7040da070",
       "relation": "reports"
     },
@@ -10538,6 +10603,11 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:9592fdee86b2ce7f",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:c941f413ffac546b",
       "relation": "reports"
     },
@@ -10548,17 +10618,32 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:02a16d018c60d7b5",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:821c3d8e0d030294",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:a5046a7a4bea3bb1",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:06eb9e28b7ce2ac1",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:212b0535da109ae4",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:b2f8952d743b7bdd",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:c5205c7ec63dabd2",
       "relation": "reports"
     },
     {
@@ -10608,7 +10693,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:8b8fe4c1bb9db5c9",
+      "to": "claim:a5c47b532b093fd1",
       "relation": "reports"
     },
     {
@@ -10668,6 +10753,11 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:e54fcbf7b4e5415e",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:7f7731cde73023d0",
       "relation": "reports"
     },
@@ -10683,6 +10773,11 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:2b12a2e1af5bb0b6",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:6b913db6746e34c8",
       "relation": "reports"
     },
@@ -10694,11 +10789,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:1533b37b318d6f02",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:f3daecd386369128",
       "relation": "reports"
     },
     {
@@ -10728,12 +10818,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:f9e2f5ff0cf041c6",
+      "to": "claim:42ab88ca60b43045",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:3d7842a396e15a1a",
+      "to": "claim:f9e2f5ff0cf041c6",
       "relation": "reports"
     },
     {
@@ -10769,11 +10859,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:80a4bd48b573c367",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:7ec2bbff1a1d5970",
       "relation": "reports"
     },
     {
@@ -10828,32 +10913,17 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:6e7d7d6d7c92f69c",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:985b5b695a57a2e6",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:f668f598c17a1c2f",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:e575addd170062ae",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:b153d3fb06804cc4",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:8d05672b462a8921",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:7183cf41d0372ff2",
       "relation": "reports"
     },
     {
@@ -10908,6 +10978,11 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:cd7d8c0f08f90877",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:0458ba94de464298",
       "relation": "reports"
     },
@@ -10918,7 +10993,17 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:d5b495abe7dc1914",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:4be332b8d26ee72a",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:bcf0970828d6dcc5",
       "relation": "reports"
     },
     {
@@ -10953,7 +11038,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:285dbe9e77fa6c69",
+      "to": "claim:687dadb3cb6d20e6",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:c30ed61493c73594",
       "relation": "reports"
     },
     {
@@ -10973,17 +11063,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:687dadb3cb6d20e6",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:c9364cd11c964688",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:1d31627cafc60221",
       "relation": "reports"
     },
     {
@@ -11024,11 +11104,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:c17e3901774e2460",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:c30ed61493c73594",
       "relation": "reports"
     },
     {
@@ -11113,27 +11188,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:bf295543ea49141c",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:67dcb95db90ad5b5",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:8e926a0fb621549f",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:9f62776f77db52d2",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:d6f309aad3479713",
       "relation": "reports"
     },
     {
@@ -11148,7 +11208,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:ffb56ec0502540d3",
+      "to": "claim:285dbe9e77fa6c69",
       "relation": "reports"
     },
     {
@@ -11178,11 +11238,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:b4ad50749f2fe4f0",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:911004d0351c66ef",
       "relation": "reports"
     },
@@ -11199,6 +11254,11 @@
     {
       "from": "source:news.google.com",
       "to": "claim:6873079bc97d9030",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:bf295543ea49141c",
       "relation": "reports"
     },
     {
@@ -11263,11 +11323,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:02f8060c9f758e6f",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:f0317d95644117e4",
       "relation": "reports"
     },
@@ -11318,6 +11373,16 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:67dcb95db90ad5b5",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:83fa7e3d3de921dc",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:42fb5d180187c1ca",
       "relation": "reports"
     },
@@ -11343,12 +11408,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:691f7bfea0ad27a8",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:726715ff9af078a8",
+      "to": "claim:70d29581a23c18a4",
       "relation": "reports"
     },
     {
@@ -11359,11 +11419,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:601cfd13d0ae400a",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:30c83e31fbf58178",
       "relation": "reports"
     },
     {
@@ -11388,12 +11443,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:5c8db2b6a3c07d63",
+      "to": "claim:c75d1711a15cdcc2",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:c75d1711a15cdcc2",
+      "to": "claim:d6f309aad3479713",
       "relation": "reports"
     },
     {
@@ -11403,22 +11458,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:ec39d96f25dcf444",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:63a47f4d3746138c",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:a8ca68187fe7d8b2",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:66efdad81f22b5f2",
       "relation": "reports"
     },
     {
@@ -11434,11 +11474,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:0c0e71d800585e7e",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:7a5ddb69a320beca",
       "relation": "reports"
     },
     {
@@ -11459,11 +11494,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:e0965eeba2e9ca7f",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:6e3cdb157b8e0cda",
       "relation": "reports"
     },
     {
@@ -11508,22 +11538,12 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:6c5bfb5ed02b4f7b",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:acb0a63602255704",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
       "to": "claim:babbe33be8e37306",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:526550b8660ffd61",
       "relation": "reports"
     },
     {
@@ -11563,17 +11583,12 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:ffb56ec0502540d3",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:280a98e784d3b187",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:97100ea1596130c0",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:822ef6af498c193e",
       "relation": "reports"
     },
     {
@@ -11594,16 +11609,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:7e53e33653df0219",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:d11be9e9b3e29c9d",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:78a19391f21840f9",
       "relation": "reports"
     },
     {
@@ -11629,11 +11634,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:b50ac8ba5d00854b",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:108fad0ed4252ede",
       "relation": "reports"
     },
     {
@@ -11709,11 +11709,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:a40ac79f69e5a7d0",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:e6651f8b5c14d797",
       "relation": "reports"
     },
     {
@@ -11798,6 +11793,11 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:e1cdda521ec1a740",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:9088dcb850f165aa",
       "relation": "reports"
     },
@@ -11828,11 +11828,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:963f37742f6ebf78",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:cd62f96412826822",
       "relation": "reports"
     },
@@ -11848,7 +11843,7 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:2b126cfac90cc26f",
+      "to": "claim:e348e029ad99ab8b",
       "relation": "reports"
     },
     {
@@ -11883,11 +11878,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:108f5afdfdf543c2",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:0ad301a077d22fd4",
       "relation": "reports"
     },
@@ -11904,11 +11894,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:16289ec5d04684bc",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:8bccab3d4f593c82",
       "relation": "reports"
     },
     {
@@ -11958,11 +11943,6 @@
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:2d1132ee472955a6",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
       "to": "claim:736d95b1fb47d988",
       "relation": "reports"
     },
@@ -11979,11 +11959,6 @@
     {
       "from": "source:news.google.com",
       "to": "claim:32c0f7724178ae03",
-      "relation": "reports"
-    },
-    {
-      "from": "source:news.google.com",
-      "to": "claim:355c0e8164e9f29b",
       "relation": "reports"
     },
     {
@@ -12093,17 +12068,47 @@
     },
     {
       "from": "source:news.google.com",
+      "to": "claim:76161a07ed595998",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:a29f0aa62d87f438",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:554a8ef1a884c2f5",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:a794e9b57d40abb9",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
       "to": "claim:03eb92a42a259583",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:248730720710c0b3",
+      "to": "claim:43a1f264e150f4e7",
       "relation": "reports"
     },
     {
       "from": "source:news.google.com",
-      "to": "claim:06c9bee9857b6525",
+      "to": "claim:60f367b744236cf7",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:6e58f421e825f28f",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:248730720710c0b3",
       "relation": "reports"
     },
     {
@@ -12139,6 +12144,11 @@
     {
       "from": "source:news.google.com",
       "to": "claim:2bf3922efab4f5b0",
+      "relation": "reports"
+    },
+    {
+      "from": "source:news.google.com",
+      "to": "claim:1d0b10d4e7aea518",
       "relation": "reports"
     },
     {
