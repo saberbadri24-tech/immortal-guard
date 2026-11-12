@@ -83,9 +83,11 @@ def main():
         has_any(radar,["HISTORY_OUT","update_memory","firstSeen","lastSeen"]) and
         (DATA/"radar_memory.json").exists(),
         "persistent temporal memory exists and is bounded"))
+    swarm=read(SCRIPTS/"specialist_swarm.py")
     benchmark.append(capability("ai_council",6,
-        has_any(council,["openai_review","claude_review","gemini_review","ThreadPoolExecutor"]),
-        "three-provider council with deterministic fallback path"))
+        has_any(council,["localEngineActive","noExternalCreditsRequired","Independent Immortal Guard review pipeline"]) and
+        has_any(swarm,["def review(","specialistsPassed","HOLD_FOR_EVIDENCE","ThreatHunter"]),
+        "first-party deterministic specialist council; external model calls are optional and not required"))
     benchmark.append(capability("settlement_truth",8,
         has_any(ledger,["PAID + VERIFIED + EVIDENCE = EARNED","actualCollectedUsd"]) and
         has_any(income,["actualIncomeRule","verifiedSettlementCount"]),
