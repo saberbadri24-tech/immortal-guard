@@ -1,12 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T21:30:58.258926+00:00",
+  "updatedAt": "2026-11-14T01:37:53.944155+00:00",
   "engine": "Income Pipeline v1",
   "count": 605,
   "counts": {
     "LOW_SIGNAL": 68,
-    "EARN_REVIEW": 290,
-    "OPTIONAL_SPECULATIVE": 247
+    "EARN_REVIEW": 288,
+    "OPTIONAL_SPECULATIVE": 248,
+    "BLOCKED": 1
   },
   "priority": [
     {
@@ -347,6 +348,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Thu, 22 Jan 2026 08:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
+      "id": "ankpenk9kyzrxyk14shfmsglxq1fun05wyjbywupcqxp1ntrirm5zeju0ngrvnzi1n3y2dhp4mljnc0zkwnvpvgdenlh0thh5njrrunf4vnrxbfk5ma-oc-5",
+      "title": "Tether Awards Another $100,000 Grant to BTCPay Server Foundation, Reaffirming Its Commitment to Free and Open Source Software Development - Tether.io",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUGhsck5YMmliNVhzdnQ0OGtKb0wxRWRHTXBxTVVZM3E5NUl3V1B1dmhIYVVTd1BteDJRN05IckhyRWhlQVZOM0dPS3kwaFprQmMxWFVVSTk2X1NGRWgwZlpBT21uaUtpV0Fnb0FSZ1JHVl9LdVk2VVFZZHk1MUtYeFZnMzd2SzhkdktfazVUVGtMQnU4dWpSeTNaNkpENk9kYzRXYk14SHFMSGlXQ1FUN05wYjByWUpCQXp1NTRiRm5zejU0NGRVNzI1N3Y2dHp4MlJnc0ZkWnVPVGdENlh0THh5NjRrUnF4VnRxbFk5MA",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 100000.0,
+      "payoutEvidence": "EXPLICIT_REWARD",
+      "netScore": 96.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Thu, 08 May 2025 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -1183,6 +1207,29 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
+      "id": "ym5lyxl2n0vzrm03zek1uelnbtzuqu1fs0zaberlnuxlyw1lsjzzcuzrmtdnltl5bmxfennxdwnqnepprgvot0dysjgzsdhrcwfpctznuk41af9letg-oc-5",
+      "title": "Dr. Albert Pol awarded with a Human Frontier Science Program research grant - Hospital Clínic Barcelona",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPa1Iya3N1eW9KcUFCbHMteGp1a2F4N2FvMnJPa3dxLWlWdXZnakNBcWMtVUlwN2xvSW1KSmowWkpwVi1OMmpoM3ozMzhkclNxck9jbmx4WFhnWGxVaWdyYm5lYXl2N0VzRm03ZEk1UElnbTZuQU1fS0ZabERLNUxlYW1LSjZzcUZrMTdnLTl5bmxfenNxdWNqNEppRGVOT0dySjgzSDhRcWFPcTZNUk41aF9leTg",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 90.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Wed, 22 Apr 2015 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
       "id": "0s1p4zmdfmzhobkzkwedormw5udfnr0nurxu4qjrgclbonxhpq0nklxj3zgpwmlfboglvs3luywvicu5haw9zqlvmehfrbtluqkflbknka1fls05noa-oc-5",
       "title": "Curl shutters bug bounty program to stop AI slop - The Register",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQU1dTVDAxVHV6eHk4WDBkN3JiWFRBUEpFa0hrUXRCN1BqWnhPQTBPcHVscFFyZ290SzZGSTRXRjFSbGtKWmtuSGVBNFBQWUdlanl0S1p4ZmdfMzhObkZkWEdoRmw5UDFnR0NURXU4QjRGclBoNXhPQ0NkLXJ3ZGpwMlFBOGlvS3lUYWVIcU5haW9zQlVmeHFRbTluQkFlbkNKa1FlS05nOA",
@@ -1198,6 +1245,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Wed, 21 Jan 2026 08:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
+      "id": "es2t1ynzyadg2bkpxoexrnfbawlpxzvpjz1vnrxdjavlpmw11rhdosunrbljet204exrmrzb0ltbudvztnkwxqlywa3g5oglpsgfzzjdptg5sc0vjdw-oc-5",
+      "title": "BTC Relay included in Ethereum Bounty Program - ethereum.org",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9kMkN2XzIzNE1wdFZ3TmRKT1JVdldNZVR3bElsc2wybFNES2t1YnZyaDg2bkpxOExRNFBaWlpxZVpjZ1VnRXdJaVlpMW11RHdOSUNRblJET204eXRMRzB0LTBudVZtNkwxQlYwa3g5OGlpSGFzZjdpTG5Sc0VJdw",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 90.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Wed, 17 Feb 2016 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -1807,29 +1877,6 @@
       "id": "nkdlumv5zzaxmgfjudrruzzvu1cycjixbhl2rnrox3b6tmppymdkbf9zvkxutdztau9tyvdtu0tzavnrvjqzm3l2vkz4wwxlc1z4nkfllxoym01kvve-oc-5",
       "title": "Google halts open-source bug bounty program amid AI spam surge - BleepingComputer",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObXNuRGM5SjNSczAxOEhpd0dUcjhsaXpVLUZwSENKelRCZmtWU1lyQ3loMGRKN1hQbHFUU2swVXY2SlJVam50Vmx2b0FpQTdVWi1QNTcta2pZb2NFRl9iNXk2M3Y3ZFJHdER1NGlnRHZGX1JwbUQzbDBEdXpyLTNpVG8xQ2hHLW5KQ3JiR2ZoMVYtWHU0Yi1ESVN0NlYtZlYxQzlNb2xlWUpEYkNN0gGyAUFVX3lxTE5TTk1HZUJnemZQNGhGSmJSNmR5X3kyU2E1a2pzb2dvd2poSUNVZVdMSjRZOGp1RXl5OU1FNmk3X0pGYXUxTllLNWI3aGYyWDZZdlZ3WWdNVDlkSTlPNkdLUmV5ZzAxMGFJUDRrUzZVU1cycjIxbHl2RnROX3B6TmppYmdkbF9ZVkxuTDZTaU9TYVdTU0tzaVNRVjQzM3l2VkZ4WWxlc1Z4NkFLLXoyM01kVVE",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 90.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Mon, 05 Oct 2026 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
-      "id": "cttr5vmjebtztdlbwwf9drnfyvfvhznj0chfsaezoew8woxuynhdjnmvtbtzfnzrwwxbidje4oevlsxbav08xqxjxzxpqedh6ui1pu09qnjruwlb4ma-oc-5",
-      "title": "Google Pauses Open-Source Bug Bounty Program After AI Reports Overwhelm Reviewers - Mezha.net",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ma2JSaUdXTUY1WkxxTzRLWXJCTTR5VmJEbTZTdlBwWF9DRnFYVFVhZnJ0cHFSaEZOeW8wOXUyNHdjNmVTbTZFNzRwWXBIdjE4OEVlSXBaV08xQXJXZXpQeDh6Ui1pU09qNjRUWlB4MA",
       "domain": "news.google.com",
       "stage": "EARN_REVIEW",
       "earningType": "direct_or_application_based",
@@ -3161,6 +3208,29 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
+      "id": "znzc3g3dk9vohvkq05wvkx6akx3tkphzzjzafrudy1pmugtuxpjsvhmvg9swf9doe5hztj6blkyukgwwvvmbunhsg5rqjc3ajhyzlyttktyzfljus05-oc-5",
+      "title": "LCRA, Bluebonnet Electric Co-op award $25,000 grant for lighting upgrades at Burton Park - LCRA - Lower Colorado River Authority",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONFRKdjJ6V0s2SXZpMHRpbU85OVh3NDVINW5Yejl2Mmh4UnlfREtqR21xcTNWY0QyZEhBQ2xDR2tNVjhucEVHcmVkU1pHSlU2SkJIWDZOZTBrNmFFNG9KX0RsclJVcVFYSXJDMkY5RzNzc3g3dk9vOHVkQ05wVkx6akx3TkpHZzJzaFRUdy1pMUgtUXpjSVhMVG9SWF9DOE5HZTJ6blkyUkgwWVVMbUNhSG5RQjc3ajhYZlYtTktYZFlJUS05",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 25000.0,
+      "payoutEvidence": "EXPLICIT_REWARD",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Mon, 01 Jun 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
       "id": "wwtqbvzsnxj2ze1nwndwz0p6n3brb2tjemvtd1k1zm9tq1z5rfe5cvrcrxlznnjjohb5egtjzmnvewdkyvdzzxc4uvpfck1bwwktu3o0t0vnyjjwztq-oc-5",
       "title": "$15K in Grant Money Available - Texas Co-op Power",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPRUNtTGdfaGRfWWtqbVZsNXJ2ZE1NWndWZ0p6N3Brb2tjemVtd1k1Zm9TQ1Z5RFE5cVRCRXlzNnJJOHB5eGtJZmNveWdkYVdZZXc4UVpfck1BWWktU3o0T0VNYjJwZTQ",
@@ -4127,29 +4197,6 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
-      "id": "uu1unhjscfyytuxybwj5njvzczd3m1vndljnedzoq1doeghozhnzvtu1vgdxmeppow0tmtbntjrnckrwrzf3bnnny2o3nufcmglha0tnawxwsdhtmve-oc-5",
-      "title": "Grant County Sheriff identifies 2 killed in apparent murder-suicide near Cuba City - WMTV 15 NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ0JESTZPUERXRHI0RGUzdnZqaUotdjhod3U1LWpyeUxzS2lEYUk3UUFfTzJGNWVfQ3M4TUdqNjVtczN0RlJ5ck42eVFDakZXSDVDcUNYaHFQb1FLaUZyMWpkbDFxTm9LaGpGZk9KLUtzd3VLUHRrQ1ZYUzZMZ19wdHV3dnpMN2pVWjR5UlhDaTMzU2I2YjV3ZXRIZTFEeFZDQnIwTTRsUmpOTjl2Q2VOWEhERHFPUm9yMmfSAc4BQVVfeXFMT3ZpT3dWVWRiYkU5Sl9vbjctYWp5bm1fTXlMRU5mX1Z0eUh4alRQUDhGcVlJUXNhbEgtY0tMbDZUX0JuZGVQbHBpbnFUamlrNTU5dnd5U1N3bUMzdXliWWd5REhVTnVwZ3dpSFV4OGdwUk9uM0RZLTNNUU1UNHJscFYyTUxybWJ5NjVZczd3M1VndlJNeDZoQ1dOeGhOZHNZVTU1VGdxMEppOW0tMTBnTjRNckRWRzF3bnNnY2o3NUFCMGlHa0tnaWxwSDhTMVE",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Tue, 22 Sep 2026 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
       "id": "g5rdlvmu1lty1l6vzn3tuthnejfymjialqtbkxia0kyrek5rmxjcmftr3pjcmpszv85ltfwvzjqbf9nnhntnwu3d3atcjvlq2g5c1lgs0duvhvhcffn-oc-5",
       "title": "Grant Park Insider's Guide | Things to Do, Visitor Tips & More - Discover Atlanta",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54SG5lZ0s1LS1seE9kZWhMMG5rdlVmU1ltY1l6VzN3TUthNEJfYmJialQtbkxia0kyREk5RmxJcmFTR3pjcmpsZV85LTFwVzJQbF9nNHNTNWU3d3AtcjVlQ2g5c1lGS0dUVHVhcFFn",
@@ -4165,29 +4212,6 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Tue, 17 Sep 2024 18:37:55 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
-      "id": "iskdhqknwdnk5rmprutrzbflpng5ozxf5zmo0awrhv2t1ylvrcmhfyxl0ohywbvrlotzmohz3mfl2mzvyblg4uffhngnvmlpcuwhhadfuufv1ewo4zg-oc-5",
-      "title": "Local grant supports avalanche safety training for ski patrollers across the West - Bozeman Daily Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOS2s1S2liSzNScmxhejdha05LUDdSQmE2Z0x0WDJoRURDMzFTMEpxekY4eDFyWWJwVXdpZ2wtczZwMlR5Q09ZTkRYRnBPN2o1N0NCNDgzZHJMay1oQmVYQUVZV2hvbnVnZ1AtWHBHbjA2cC1VZl9KLVI2OXdybklZaW5QWUxac1pSWG5hVFpodWVCdjFWU2doeGJwdGFCTTdSaEVRenl1MC1VbWxMT2RISkdhQkNWdnk5RmprUTRZbFlPNG5OZXF5Zmo0aWRHV2t1YlVRcmhfYXl0OHYwbVRLOTZMOHZ3MFl2MzVYblg4UFFhNGNVMlpCUWhhaDFUUFV1eWo4Zg",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Tue, 14 Jan 2025 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -4403,6 +4427,29 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
+      "id": "n3zwltzyzuhtm3lore9gslzqrzbstwg1azetq0h4s05fzvlkneuznna1rm1jq3zrretyrlbodevnanbndw5oukrzofp2ckhusxdjs0ftqlh6q0f1t3c-oc-5",
+      "title": "Grant Crawford Obituary Mar 27, 2025 - Hartquist Funeral & Cremation Services",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SOG1YOXdrbHctZkNlN3ZwLTZyZUhtM3lORE9GSlZQRzBSTWg1azEtQ0h4S05fZVlKNEUzNnA1Rm1JQ3ZrREtyRlBOdEVNanBndW5OUkRZOFp2ckhUSXdJS0FTQlh6Q0F1T3c",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Thu, 27 Mar 2025 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
       "id": "yng1otuu3njhhwwrbzjhxlwxdamk5wxnheen3yty4uvpenuhortzobej6c1vetlrqvtnmnth3ddr0y0rybzjun3lruwxgmmxoutnpwutsdmvgd0txdw-oc-5",
       "title": "A Dispatch from the First Focus Grant Bootcamp at ETH Zurich - ETH Zürich",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5qaDdNLW9ya3ExYUZ1UzAtQUhrMFZYWmJxRkZaUWJYNG1OTUU3NjhHWWRBZjhxLWxDamk5WXNHeEN3YTY4UVpENUhoRTZobEJ6c1VETlRqVTNMNTh3dDR0Y0RYbzJUN3lrUWxGMmxOUTNpWUtsdmVGd0tXdw",
@@ -4472,6 +4519,29 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
+      "id": "nqxelzrlxjxlxvavu54v050rjvumkowrnrfrfnqndrutg14nefzay1jq25magnfrhfnvldxwuffzeo2r0tiqloyunfzamfcwuktdvljohl3sevbqi1r-oc-5",
+      "title": "Binance: RLUSD Rewards Campaign Returns with XRP Prizes - Blockchain News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORUlLV20xQ19qWUhTazViSi0zWW9kVHNvTWRtcm1aSHJXbWliOF9IWW1TV194ZnQxelZRLXJXLXVaVU54V050RjVuMkowRnRFRFNQNDRuTG14NEFzay1jQ25maGNFRHFNVldXWUFfZEo2R0tIQloyUnFZamFCWUktdVljOHl3SEVBQi1R",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
       "id": "wwldnd3fntxbxaer3admwa0fiyl9cyl9lctnrb1nmavqwcwnmywtmekjxc2lvudvqck5lcut3lud0ns1ivujbt1gxowm2bjvqovpdlwzhnxhvt0pycg-oc-5",
       "title": "Make-A-Wish Colorado teams with the Avalanche to grant Jack’s wish - Mile High Sports",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcllqM084QUZnSzBCSjdGZ0ZVZzZFUzhrbTNicDBHQUZ0cnZCSUpHSXNWUVRCWlk2UlJvZjZsdkNSS1pwWldnd3FnTXBXaER3aDMwa0FiYl9CYl9lcTNRb1NmaVQwcWNMYWtMekJxc2lvUDVQck5lcUt3LUd0NS1iVUJBT1gxOWM2bjVQOVpDLWZHNXhVT0pYcg",
@@ -4487,6 +4557,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Thu, 21 Mar 2024 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
+      "id": "jfalxyyexdrwvv1bwjtzuven09yqtjyzevsymrosedtdnc0ltkyvhj5ags4b01tnjyzevjat2xhcgvfn1o4quhlav9snu9mqvzkb1dpwnrzeevome1r-oc-5",
+      "title": "Desjardins grant helps Sudbury alternative school buy laser cutter - Sudbury News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeV9QVlkzUVlKZGNuSU1IeW1kY0FPMTNlSDcxcFRDeklJZ2o4UFBqTEFTUGQ4X1o0S3lmQV94UTZxRUozZ3EwMmJoRlIxM0JKZHh1QWxrRC0tYjFaLXYyeXdRWVV1bWJTZUVEN09yQTJYZEVsYmRoSEdTdnc0LTkyVHJ5aGs4b01TNjYzeVJaT2xhcGVFN1o4QUhlaV9sNU9MQVZkb1dPWnRzeEVOME1R",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Thu, 19 Feb 2026 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -4602,29 +4695,6 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Thu, 12 Nov 2026 21:05:22 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
-      "id": "bmvretnnnudbylu5ynl3cnnrrvvqn2pilwfqcjmzamlide9aanrpsnbfb1b1ymfuq2ltrnplskiymtbssklmv0xregfjlv9eovc1tm9vano4nu5nrnc-oc-5",
-      "title": "PM Calls for Grant-Based Climate Financing, Urges Global Support for Vulnerable Countries - Daily Independent",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYzhxTzdtZ0p2SEFaRGdWM21WMUxINF9WdFdMYUFOOW5rU1J4eURZZ2F1RFZXdGpUcnIybjM5S0doLXdRMFVqdUFqdkdJOWpzTldUZ05zNzBtU2RTdUdLTGtVenhyV2xyd0s3Zms3SWJoNFFVZzFIa0toWHhybmVReTNnNUdBYlU5Ynl3cnNrRVVQN2piLWFqcjMzamlidE9aanRPSnBFb1B1YmFuQ2ltRnpLSkIyMTBsSklMV0xReGFJLV9EOVc1Tm9vano4NU5NRnc",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Thu, 12 Nov 2026 20:44:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -5277,6 +5347,29 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
+      "id": "x2plymhkneftwvu2atnfu1rlrkltx21qrxpsmfjitlvgzzjqnnrpevvvzjnsnzzbbwppyujrvmixdvrlnnfowlffnjm2ztk3wmfeekxnudhznfc5afu-oc-5",
+      "title": "One Piece: Bounty Rush redeem codes (November 2026) - Pocket Gamer",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBreV9XWnpmdGtMX2pLYmhKNEFTWVU2aTNfU1RlRklTX21QRXpsMFJiTlVGZzJQNnRpeVVvZjNSNzZBbWppYUJrVmIxdVRlNnFOWlFfNjM2ZTk3WmFEekxNUDhzNFc5aFU",
+      "domain": "news.google.com",
+      "stage": "EARN_REVIEW",
+      "earningType": "direct_or_application_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Sat, 07 Nov 2026 02:15:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
+    },
+    {
       "id": "wqm1tn1vjq0xqy3ytoev0t0nhnklebuk2qw00zjq3dkf0rc04zfbkslpht2ntbzvxzc0xbfi4dzews1fkelfmzkrooevvvuvkseszovrnseljogllrq-oc-5",
       "title": "Grant Hardin, Arkansas escapee known as \"Devil in the Ozarks,\" recaptured near prison after 2-week manhunt - CBS News",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNjRQUVJCRnplUFNzQ0Qzd19oNUJWLUhzTWRuRTlmX19URl92REUtNlJvX3UydlZUWnYwQm1TN1VjQ0xQY3YtOEV0T0NHNklEbUk2QW00ZjQ3dkF0RC04ZFBKSlphT2NtbzVXZC0xbFI4dzEwS1FkelFMZkROOEVVVUVkSEszOVRnSElJOGllRQ",
@@ -5522,29 +5615,6 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Mon, 14 Jul 2025 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
-      "id": "stjb1shrix0p5ufnzrjrpdezrs2znqudpbzl6cg03uzflbzhum0lnrudzmjfpy1zvm2g2df9uuuhrm1lwqniyyuzrzwpubtforuhtqvp2v3lvuzvfqq-oc-5",
-      "title": "Charles Grant Clover Obituary Jul 23, 2024 - Holeton-Yuhasz Funeral Home",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fWjlIeXVuWlZSTjB1SHRiX0p5UFNzRjRpdEZrS2ZnQUdpbzl6cG03UzFlbzhuM0lNRUdZMjFpY1ZVM2g2dF9UUUhRM1lwQnIyYUZrZWpubTFORUhtQVp2V3lvUzVFQQ",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Mon, 13 Oct 2025 19:38:10 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -6082,29 +6152,6 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
-      "id": "uvj5vlz6sjd1og92vhjcbegyuuc5audxwtcyzkldcdnfx2nwenborktxtuvfs3rrzjhub29bu05bt3d2oufswextzgxsnmqxmfjlwm45ei02thddchc-oc-5",
-      "title": "SASSA faces growing demand as grant beneficiaries near 20 million - eNCA",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcXJ2WGx4eTBhWmo1WDQ2ZG5lLWZMRXlnX3o0SWVmNnV4Qnk2T2FiSGJfNzJZQzVpVnJwalA1eHBJc2VMR2NqQzJQUjRyaVdvbG0wY3ZqUVJ5VlZ6Sjd1OG92VHJCbEgyUUc5aUdXWTcyZklDcDNFX2NWenBORktxTUVFS3RRZjhub29BU05BT3d2OUFSWExTZGxsNmQxMFJLWm45ei02THdDcHc",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Fri, 14 Aug 2026 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
       "id": "ys1aewvrowxmum5mmgjcdurfrs12a29asku2wvd4sg1xr1ljaedpmwnamdr2m1voc0dxquv6bk9mnwxnwgthve80edqzmjrnyjhjdwhttmhir3b4ehc-oc-5",
       "title": "India's 2.5 Lakh Startup Base Creates Growth Opportunities for Emerging Fund Managers: Grant Thornton-IVCA Report - Indian Startup Times",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZ1lSaXdQRlRLLVg5TVFBblZkRkhNSHhNcWlQMzhVN3NUY0NlN2hucFNYT0JjQW5HYjZMRktoNHVRT1RXUWkwOHYxaUtSLTJkd1FENUs2SmhlbjlkUEVMa0otR3FMdnQ4S2NZT1M0MnB6OXhZeDgzcGZDOHo5dExEb2tkcFFqZ3BSYi1uSkNSY01aYS1aeWVrOWxmUm5mMGJCdURFRS12a29aSkU2WVd4SG1xR1ljaEdpMWNaMDR2M1Voc0dXQUV6bk9MNWxNWGtHVE80eDQzMjRnYjhjdWhTTmhiR3B4eHc",
@@ -6143,29 +6190,6 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Fri, 13 Nov 2026 01:58:07 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
-      "id": "vluafprzjdcrlriwllqczfndgftm2lpa2txtmrud2xwzwtdmzlxm0dhrnfzzkpndhv1m24wnnbmutl4skfcmextdgc2telwsmhuyxlqrtbfvtvuzmvr-oc-5",
-      "title": "Grant Holmes’ spring gem for Braves provides cautious optimism that he was right - House That Hank Built",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM1FWV0pwU1piVERWR1V1emZueEFDNmdBOExkTkVNejdXbUd6enV2T0JXYUpqcW5zYmhBMXRhSUNCR3h2SkJhX0NnazBUSEhfWFgyMmoyYkkwYVluaFpRZjdCRlRIWllqczFndGFtM2lPa2tXTmRud2xWZWtDMzlXM0dHRnFZZkpNdHV1M24wNnBMUTl4SkFCMExtdGc2TElwSmhuYXlqRTBFVTVUZmVr",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Fri, 13 Mar 2026 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -6381,29 +6405,6 @@
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
     },
     {
-      "id": "dvmqtbwchhxxzrzsnlay21xt2vsterjwljatnnnnndtslzvwljtq19yd1vcb3bsdwfasfl2s09vqxhxd1n1nzbicfvyvlptefbvcekwavjjq2zsakrx-oc-5",
-      "title": "Lisk Airdrop Payments Set To Begin: Check Your Eligibility - CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaUdVVW1LZThWLXc2T2xmTGo1OUJFWGlzQ1UwVDUwbGRKVk51Sk8zQkRkaVNlWnJRSmVVaDVZczVDWE1YbS10Q1VXTDVmQTBwcHhXXzRZSnlaY21xT2VSTERJWlJaTnNnNndTSlZvWlJTQ19yd1VCb3BSdWFaSFl2S09vQXhXd1N1NzBIcFVyVlpTeFBvcEkwaVJjQ2ZsakRX",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 78.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 3,
-      "freshness": {
-        "published": "Wed, 19 Mar 2025 15:50:54 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
       "id": "vx3lxte53u1ddamxzdke2nge0qvjuzddluzvpzxnxsm9wahvmqlvlylngq08zwlazvuf0u1pmzmjref9pb2fsbnlrskkycvd1vkzmewlmoup2twppzw-oc-5",
       "title": "HackerOne pays $20,000 bug bounty after 'sloppy' breach - BBC",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE53U1dDamxZdkE2NGE0QVJUZDdLUzVpZXNXSm9WaHVMQlVLYlNGQ08zWlAzVUF0U1pMZmJreF9Pb2FSbnlRSkkycVd1VkZmeWlMOUp2TWppZw",
@@ -6465,29 +6466,6 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Tue, 25 Nov 2025 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
-      "id": "yaepzwwhwzve5mwvmzhhzbvlhvufxwui3t2zjtnjootdwnnhva19lbnjvzunrumxuujzubhhxnup1udzbbxu2mwlpcwljcgpprm5fytlusl9tvzu0vg-oc-5",
-      "title": "Copperwood Mine foes sue to block $50M grant for project near Lake Superior - Bridge Michigan",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY19WOS16WmZzQVlSdGI1Zjc2ejdFRmN4M3RfMkloWVRUYWRwOWNnMlNfNHh0eGNWbWtHUW1kNGE0UXVmZjFEMFRxV21SYkRodkNfN3dpTnFrNS0yaEpZWWhWZVE5MWVmZHhZbVlhVUFxWUI3T2ZjTnJOOTdWNnhva19lbnJvZUNRUmxUUjZubHhxNUp1UDZBbXU2MWlPcWlJcGppRm5FYTluSl9TVzU0Vg",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 77.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Tue, 15 Sep 2026 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -6560,29 +6538,6 @@
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": true
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
-    },
-    {
-      "id": "3fwq3mxzknladhotk5fls0yckfeewrnexu3vwruwmhjvtjjutnhmzrntnvzogfmzvzvz2tjwvqzuel3ekx2eerrt0hqdnnlykwtznvdu2rnr2nzrgrr-oc-5",
-      "title": "Chainlink Announces Winners of $550K Hackathon Prize Pool - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMWE2ak8zVXZOVUE5ZVRyMlZ2V2l5amZudmpjSm5xOFAzNC1hYzBrVlpFM0k0X09ESUN3TUhCTFg1eUxpSEZhUXJtTkRWMjlxTTNIMVNVbTJhamJrT3FWQ3MxZkNLaDhOTk5fLS0yckFEeWRNeXU3VWRuWmhjVTJjUTNhMzRNTnVZOGFMZVZVZ2tJWVQzUEl3ekx2eERrT0hqdnNlYkwtZnVDU2RNR2NZRGRR",
-      "domain": "news.google.com",
-      "stage": "EARN_REVIEW",
-      "earningType": "direct_or_application_based",
-      "explicitRewardUsd": 550000.0,
-      "payoutEvidence": "EXPLICIT_REWARD",
-      "netScore": 73.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Thu, 16 Dec 2021 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
       },
       "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
       "nextAction": "OPEN_OFFICIAL_SOURCE_AND_COMPLETE_OWNER_ACTION"
@@ -6881,29 +6836,6 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Wed, 11 Aug 2021 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
-      "id": "fbpby1wcunnm3zftnr4qlptuufnwwlfy0vubjhsben1mxzrdhiwugr4rnruevzpu2fiulflx1ffcwncwuzqtzvfc2hnvzrivgozaws5mvrtzjjhttbr-oc-5",
-      "title": "Xash Launches PAXG Rewards for PYUSD DeFi Activity on Solana - The Crypto Times",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYmpLODRrNTZ0LUgwYk1VUFdYNVM1VEpfbXZRalBBNWJiV3c2azhodGZ1eFc0MzlveG53dkFFYzVWcEN0REcyNkV2dFBpby1wcUNnM3ZfTnR4QlpTUUFnWWlfY0VUbjhsbEN1MXZrdHIwUGR4RnRueVZpU2FIUlFLX1FFcWNCWUZqTzVfc2hnVzRIVGozaWs5MVRtZjJHTTBr",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 93.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Thu, 12 Nov 2026 14:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -7372,6 +7304,29 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
+      "id": "elbpthhxtzbluwvczxrswhnstelrsmlfngc5aliwvtnrmmlnculywtnqanh4xzz4n0tcrnrzvv8ytvv5uuxjavp2rzjubw1ux2hqvwxaughnanzozfe-oc-5",
+      "title": "Arthur Hayes Sets November 24 Date for FLOP Testnet and Airdrop - Crypto Economy",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVzRCbjhVV0ZjdnNWaUJnY3F6LXpzcHE4ZTc2UkVoSXpQczQzX2M4b1VKSzNCZmFjc3hLUC02ZUpBelBpTHhxTzBlUWVCZXRsWHNsTElrSmlFNGc5alIwVTNRMmlNcUlYWTNqanh4XzZ4N0tCRnRzVV8yTVV5UUxjaVp2RzJUbW1uX2hqVWxaUGhNanZoZFE",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 90.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Fri, 13 Nov 2026 22:36:11 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
       "id": "vbu9jvtd1rdc2mmhqt29rnmnyzdjgwvzscs1sautgbnjnazvseuw5b3lmr1ronfvqq3phr3p2wlr6t2fwrvnmlutit2tutmqtc2hhrfpgb0xxterydw-oc-5",
       "title": "Arthur Hayes Confirms FLOP Airdrop and Testnet Date: November 24 - The Crypto Times",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPREJWdWJ3LXM5OG52dzZBSnhlVHlpdXpiR0Q3OElFYU56WFpveHFUS2doaUxEdmZOaGhGUDM0d21xSGxDbVdyd1BNVlozeEdVbU9JVTd1RDc2MmhqT29rNmNYZDJGWVZscS1saUtGbnJNazVseUw5b3lmR1RoNFVqQ3phR3p2WlR6T2FwRVNMLUtIT2tuTmQtc2hhRFpGb0xXTERYdw",
@@ -7433,6 +7388,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Wed, 24 Jun 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
+      "id": "mdvbfzm10a3hmtvbumnj4nxvzx1p0qmnjbhrtzi1xzgjbqujlsklalu5fv19jcwu3rgtpevm1zkdiwtfnawxwsmnvwfvvu0rlrmpwekfwmhmyu0g5dw-oc-5",
+      "title": "BIRD Airdrop Guide: Everything You Need to Know - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPd1hiMXRPVkZXZGtNbXAyLU1aZzdsVElTOVE1OEhHVnVVSEJWNXhESmpWMGprdUVoOUJYcUtMdVBfZm10a3hMTVBuMnJ4NXVzX1p0QmNjbHRTZi1XZGJBQUJlSklaLU5fV19JcWU3RGtpeVM1ZkdiWTFNaWxWSmNVWFVvU0RLRmpwekFwMHMyU0g5dw",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 87.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Wed, 19 Feb 2025 10:00:27 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -7556,75 +7534,6 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "djbswxtsdlvcvlcdg43y3o4clnfnxfxvhq5mutwwtn4zehsx2nquc1owndnexffskjnawvdrmpla3dtdgjxzezfoha4am9swxlbnuq4rfjomvzqd0k5-oc-5",
-      "title": "Xash Launches Gold Rewards for Stablecoin Activity on Solana, Targeting DeFi's User Retention Problem - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVkxmRkFqbWZmbmZTLTVweFRISTlmNVdacGY1UVRLYVBSLWtFU3lCbjhxRlh2UkpBSDM2U09teXJNd3VKMDdldU9MNUVDMGQzUTQtdmJjSEIwM2hFUnMtTVNKX1NZc21MVXlzQmVSRjlDeUtRZ2I3X09wRDJBSWxtSDlvcVlCdG43Y3o4clNfNXFxVHQ5MUtWWTN4ZEhsX2NqUC1OWndNeXFfSkJNaWVDRmpla3dTdGJXZEZfOHA4am9SWXlBNUQ4RFJOMVZqd0k5",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 87.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Thu, 12 Nov 2026 18:30:08 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
-      "id": "gyym0vloupjugg4bzzkukc5z2pxuevyrthwbehlclrzwvf5yjfengnwumdjvwc3vxdfzk5navhonec3svlralzfr0pxegnnbk42b0nzmxvnmzrtcjlw-oc-5",
-      "title": "Xash Launches on Solana, Offering Tokenized Gold Rewards for Stablecoin Use - CryptoDaily",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQekFqYlNPcGZmbHZfblJNbHlGbEg1Ri1mVXdmYWh4Ri1QRDlTVUFIYWllN0s3Q09abUkzdU5GRzE5UEtFZWtYeXZOTmh2eHBGMHp1ODhNeGYyM0VLOUpJUGg4bzZKUkc5Z2pxUEVYRThwbEhLclRZWVF5YjFENGNWUmdjVWc3VXdfZk5naVhoNEc3SVlralZFR0pXeGNnbk42b0NZMXVNMzRtcjlw",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 87.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Thu, 12 Nov 2026 14:17:38 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
-      "id": "rnrpblzecvfzmwjnq19hlw15mvddbtnmb1k5r2hkd0prmepheg1ieurtngpmzkx6qtjyy25hwkf1bgz5lvzznhlkq1qtwfkwdjhntznoohv0mu5eq1k-oc-5",
-      "title": "Xash Brings Gold Rewards to Solana Stablecoin Users - DailyCoin",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CNlBBdUZ4VUpyX0tvbUE3cVNlbU1LUWZBdG1YQTVCampXRnRPblZEcVFZMWJNQ19HLW15MVdDbTNMb1k5R2hkd0pRMEpheG1ieURTNGpmZkx6QTJYY25hWkF1bGZ5LVZzNHlkQ1QtWFkwdjhNTzNoOHV0MU5EQ1k",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 87.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Thu, 12 Nov 2026 14:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
       "id": "xte54mjlhwg80oddydnvkdmfidhjnyvfuvhp6qvz1rffhturkwmg2qldxsuizx1pxovpbsvdywgxvvfmwdtbpv3g5udbkmzfxu1hhqjj6efj6mwt1uq-oc-5",
       "title": "Best Airdrop campaigns and how to be involved! - Binance",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54MjlHWG80ODdYdnVkdmFidHJnYVFuVHp6QVZ1RFFhTURKWmg2QldXSUIzX1pxOVpBSVdyWGxVVFMwdTBPV3g5UDBkMzFXU1hhQjJ6eFJ6MWt1UQ",
@@ -7671,9 +7580,9 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "tlpsdmxdldftu5vdee5nvnpzwexu1rva01zq2flrtd0mxdjeevudk81cfllvwl2bglob1dwekswdkrmvnjrngxtwlfjb1c5eehqyks0cfhuq0hqv09r-oc-5",
-      "title": "Staking 101: Secure the Blockchain, Earn Rewards - Grayscale",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWWNaRG02Qm91MG9FZWVKZW5ZbDBwXzZLY1RjMkYzdkhJV0R0Ym1pM2JXVnRCQ3VEVTlpSDMxdldfTU5VdEE5NVNPZWExU1RVa01zQ2FLRTd0MXdjeEVudk81cFlLVWl2bGlOb1dWekswdkRMVnJRNGxTWlFJb1c5eEhqYks0cFhuQ0hQV09R",
+      "id": "dzrtln2v3zbu0fuvkzzyvrnsmdznjuxdvqxbfrmawvkm2tnqmnyv182bvhcu09qvenzbkgteuzrzi1autbaz3litws2nznfbwfpstzvekrpamfoduxz-oc-5",
+      "title": "Introducing Chainlink Rewards Season 1 - Chainlink",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55eDZrTlN2V3ZBU0FUVkZZYVRNSmdzNjUxdVQxbFRmaWVKM2tNQmNyV182bVhCU09qVENzbkgteUZrZi1aUTBaZ3liTWs2NzNFbWFPSTZVekRPamFodUxZ",
       "domain": "news.google.com",
       "stage": "OPTIONAL_SPECULATIVE",
       "earningType": "speculative_or_token_based",
@@ -7685,7 +7594,30 @@
       "costSignals": 0,
       "eligibilitySignals": 2,
       "freshness": {
-        "published": "Mon, 08 Dec 2025 08:00:00 GMT",
+        "published": "Mon, 03 Nov 2025 08:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
+      "id": "3szvettd5ymlly3jdwljtsmvomu56avplzjrkcfvfv1fnzdc4mzvpamvimenwsuhlztkyq1n1cjytu0dine55sjhrvlvqwjjic3bqdg82tk1ubufrzw-oc-5",
+      "title": "infiniFi Token Launch Nears: When Will $INFI Airdrop Reach Wallets? - Coin Gabbar",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdHN2TldBTWxGU3M0dm90ZHNaLU1PckRyX3A3NmpIejk2SzRsYUZleEZjNUZOX2dtYXhYQmx3SzVETTd5YmllY3JDWlJtSmVoMU56aVpLZjRkcFVfV1FNZDc4MzVPamVIMENwSUhLZTkyQ1N1cjYtU0diNE55SjhRVlVQWjJIc3BqdG82Tk1ubUFRZw",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 87.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Fri, 13 Nov 2026 12:20:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -8292,29 +8224,6 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "mdvbfzm10a3hmtvbumnj4nxvzx1p0qmnjbhrtzi1xzgjbqujlsklalu5fv19jcwu3rgtpevm1zkdiwtfnawxwsmnvwfvvu0rlrmpwekfwmhmyu0g5dw-oc-5",
-      "title": "BIRD Airdrop Guide: Everything You Need to Know - CoinMarketCap",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPd1hiMXRPVkZXZGtNbXAyLU1aZzdsVElTOVE1OEhHVnVVSEJWNXhESmpWMGprdUVoOUJYcUtMdVBfZm10a3hMTVBuMnJ4NXVzX1p0QmNjbHRTZi1XZGJBQUJlSklaLU5fV19JcWU3RGtpeVM1ZkdiWTFNaWxWSmNVWFVvU0RLRmpwekFwMHMyU0g5dw",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Wed, 19 Feb 2025 10:00:27 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
       "id": "xohe3qvcwcutowedqeuyxbmj0wvnjcmdizwrxmdfxtehqb05vd3yxauo4dhbpcdbfzelitwxjsujctdltm0p4ewz1akjgmenvsw55qi1rynvrv3otuq-oc-5",
       "title": "Bitcoin Rewards App Fold Volatile in Wall Street Debut - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYUhld0k3OGwyWGN6LW9FRHVaSDFCd3pXN3VmSWprRk95ci1xc0t2NjJxOHE3QVcwcUtoWEdqeUYxbmJ0WVNjcmdiZWRXMDFXTEhQb05vd3YxaUo4dHBPcDBfZElITWxJSUJCTDlTM0p4eWZ1akJGMENvSW55Qi1RYnVrV3otUQ",
@@ -8407,6 +8316,29 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
+      "id": "e5aak9yvfjzum0yv253vvlpckrduu1wzwpvcdv2ulp6we5wzk4xvjlyclbpnw9rc215ohlfnwdmqnzkqzvqz0g1yjvycuhormr2bwplbzjpofhbytjr-oc-5",
+      "title": "Guide to MetaMask Rewards and Potential MetaMask Airdrop - CoinGecko",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aak9YVFJzUm0yV253VVlPckRDUU1wZWpVcDV2Ulp6WE5wZk4xVjlyclBpNW9rc215OHlfNWdMQnZkQzVQZ0g1YjVYcUhoRmR2bWplbzJPOFhBYTJr",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Wed, 12 Nov 2025 08:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
       "id": "2uxvxwnz4awlooup1akrptu1yzdk0b3zluwyxswjlqmtizhnqq0d1avh6vmdzdkj5melfrelxowe1cnjculliegxmvmlmqjhxyvhfsm5bwvn2rzvcdw-oc-5",
       "title": "Layer3 raises $15 million Series A ahead of token launch and airdrop - The Block",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaG5ObGRxdkJWWWFRM1NRXzAzc09za0hTOE1qZmpUX3J4ZHFBSm9uMVBqRDFaQm5tNmVEd1Y2UXVxWnZ4aWloOUp1akRPTU1YZDk0b3ZlUWYxSWJlQmtIZHNQQ0d1aVh6VmdZdkJ5MElfRElxOWE1cnJCUllieGxmVmlmQjhXYVhFSm5BWVN2RzVCdw",
@@ -8476,29 +8408,6 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "vmtedjz0cdl6vkx0wlq5vtredwlcx2xpm3nrb3zytk5nbuewzy1qchrdvfixsfv1yvlmrfbjutdpvzfdagh4c2plrxvqdhpis2rsuvllrnjlrhpxzhc-oc-5",
-      "title": "Revolut Pay Uber integration boosts rewards and benefits - The Cryptonomist",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91bEdib2NLdHJpSWFxSzdxa0x0TUxvQS13VmtEdjZ0cDl6Vkx0WlQ5VTREdWlCX2xpM3NRb3ZYTk5nbUEwZy1QcHRDVFIxSFV1YVlmRFBJUTdpVzFDaGh4c2pLRXVqdHpiS2RsUVllRnJLRHpXZHc",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Wed, 11 Nov 2026 10:15:19 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
       "id": "xtgjzx01vuljdym1kz2j5awlvcza4yy0xqkthtwlquhbstxpjbzu3mfqxqmpkmelqedm1adfpy0q1vzvmti1fz190alrvsw1pylnxzk41m1jozwzseg-oc-5",
       "title": "Trump's Truth Social To Let Users Earn Crypto Rewards for Platform Engagement - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOU01aZUlHdG9OZmZVcWhuRzVfUG0wdHRLaXFpUmRDbjFmTDlxTGJzX01VUlJDYm1KZ2J5aWlvczA4Yy0xQkthTWlQUHBSTXpjbzU3MFQxQmpkMElQeDM1aDFpY0Q1VzVmTi1fZ190alRVSW1PYlNxZk41M1JoZWZSeg",
@@ -8560,6 +8469,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
+      "id": "v3bjmw1tmwr4qtvmzum3ytzpam1nnnvostcxcg1pwdu1ntbgn051z25lbfjhqy05bndhv1nwujv2evfpbgq5y2nwqw82wwzyywfyztjwulhoofv2eg0-oc-5",
+      "title": "What is crypto staking? A beginner's guide to earning rewards on your crypto. - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONG1tbzdJcGp0SkNtWl9DVkQ2WHMzYVladVN2N2VET3F3c1pYeVhfeW1WcjA1T3A3ZHhuRk9mb2RBY3ZIYjF2THMtajFHT2JnV3pySkMzdFpqbS1qci1DS3dRaHFIdHhMZHBLRDQwM1B2SzI4X0pjcm1BWTZ0QkZreHBqZmNFRTVIdVplZGdDV3BjMW1TMWR4QTVMZUM3YTZpam1nNnVoSTcxcG1pWDU1NTBGN051Z25lbFJHQy05bndHV1NwUjV2eVFpbGQ5Y2NwQW82WWZyYWFyZTJWUlhOOFV2eG0",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Wed, 08 Apr 2026 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -8675,29 +8607,6 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Tue, 31 Mar 2026 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
-      "id": "v1rsou9zynnoulbivurhthh6yznwrnzfvfzmegfitvvtzve5x2lrdni5ejnsavfmeu5pqndlzey2clltchy3y0i3nhewb2lwdezqaxrmzkdbmg11y1m-oc-5",
-      "title": "Grass Airdrop Season 2 Update: July 7 Call, Wallet and Payout Timeline - Coin Gabbar",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY192d2s4bDZnMzMwdktTM1Mzb29PTDhNZlExNVdTdnA0dDNKNVJlNTdwV3JoX3F6YkNRVnU4UkNYM1g3ckZVLU85Sk90RkhwajBfZEE3VGZNMTBKZGRSV1RSOU9ZYnNoUlBiVURhTHh6YzNWRnZfVFZMeGFITVVTZVE5X2lrdnI5ejNsaVFmeU5PQndlZEY2cllTcHY3Y0I3NHEwb2lwdEZqaXRMZkdBMG11Y1M",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Tue, 30 Jun 2026 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -8890,6 +8799,29 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
+      "id": "5zwd5wguybfrbs3vxdw9msdd6ym5rdmdtudfgtwzrtg52rdy5b1bruc01uy1ly1ruwjvbdmftwgtkslzprdjacfzvvepom2lurxg4zi1zdg5watbmaa-oc-5",
+      "title": "Morgan Stanley (MS) Launches 0.14% Ethereum And Solana ETFs With 95% Staking Rewards - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbzV5RFhHR1NWWV90MGI5dUVmRGRETXlSMFpPMmxiUFgwRVhFRDF0QTEyVUxPQVVNb1BGVTBGdHRxSi15ZWd5WGUybFRBS3VxdW9mSDd6Ym5rdmdTUDFGTWZRTG52RDY5b1BRUC01Uy1LY1RuWjVBdmFTWGtKSlZPRDJacFZVVEpoM2lURXg4Zi1ZdG5waTBmaA",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Tue, 23 Jun 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
       "id": "1riuvm3wwr5svpkchlnvgnlrgi0a1brq3dzdnl0aljhzxbjsurgx0xede4xvzdorghxejc0u1b5ri1lc29xee9er1fpdda5nthxau40m2juve42rmpn-oc-5",
       "title": "TIA Flash Rewards Campaign: Get 15% p.a. - Crypto.com",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVUlNOTlNYN1M4Q1RiUVM3WWR5SVpkcHlnVGNlRGI0a1BRQ3dzdnl0alJHZXBJSURGX0xEdE4xVzdoRGhXejc0U1B5Ri1lc29XeE9ER1FpdDA5NThxaU40M2JUVE42Rmpn",
@@ -8951,6 +8883,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Tue, 19 May 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
+      "id": "zau0zdwnly3pnnwpmbwnfwe5sqnotyk41nnlvdlbyzfg5enhuvl9kx0rvdgf5bv8xrxp0whh4dtbhshmxq0dxwvuzmvjjyxvwek1wqkjszvbpz1vezw-oc-5",
+      "title": "Canary Capital Launches Canary Marinade Solana ETF (SOLC), Giving Investors Simple Access to Solana and Staking Rewards Potential - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQSlBYT1BKZWdEaFpGMnNLcTBUVnYtbzZlUVBzenVVblFNMUwtV3JXX05hUmhTZDdwYUVWZTVQS0tpQjFvem1LREdWZS05VjlVX1lueGV1YUdzM1NTZmR6VmZpWnh3YzRmamQzcVc2akczeFJZaFBtdlJZNm1mNWswMWhkdUpOc3JGVkctT2RIei1rYjVja29TWVdxVDJzVlpfbkZablJQTzBNQ2V3QmhfMkp5TDM1QXhfV0YzaU0zdWNlY3pNNWpmbWNfWE5sQnotYk41NnlvdlBYZFg5enhuVl9KX0RvdGF5bV8xRXp0WHh4dTBHSHMxQ0dXWVUzMVJjYXVwek1WQkJSZVBPZ1VEZw",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Tue, 18 Nov 2025 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -9043,6 +8998,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Tue, 16 Dec 2025 08:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
+      "id": "qzgj6r1lks2jjnnjjsuxtehzcsulysnjuwmfrrjm1tks5blrft0n6q0htexn1u0dhywt5bkj2wtr1mti5z3dmbu9rdgvubwpqu0fmsnf2akpxs3rhug-oc-5",
+      "title": "X Empire Airdrop Set for October 24: All About $X Airdrop Criteria Ahead of the Listing Date - CoinDCX",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1TMllRcW9VRU5PbnRTRGhqYXJaVXdaSER5cEFqZGJ6R1lkS2JjNnJjSUxteHZCSUlYSnJuWmFrRjM1Tks5blRfT0N6Q0hteXN1U0dhYWt5bkJ2WTR1MTI5Z3dMbU9rdGVubWpQU0FMSnF2akpxS3RHUg",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Tue, 15 Oct 2024 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -9350,29 +9328,6 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "ky3akhwrvv2bmxlrklyr2fadl9stvfkndfiehdnyzfuqkvsck5gmznrwwmwexziceh5adfday1czmjlmmi1yuq1m1jlmxvzmmhartzowtzwoddprvzw-oc-5",
-      "title": "STX Flash Rewards Campaign: Get 12% p.a. - Crypto.com",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IMWw0V085Q0NTMkY3akhWRVV2bmxLRklyR2Fadl9sTVFKNDFIeHdNYzFUQkVsck5GMzNRWWMweXZIcEh5aDFDay1CZmJLMmI1YUQ1M1JLMXVZMmhaRTZOWTZWODdpRVZW",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Tue, 02 Jun 2026 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
       "id": "d1hcdes1azq2ynhvr1ppbgz0xznuqlz0mjn5vkzrqlq0rw9rognhdgixyi00thlzyjrkvlv3y0ctcuoymxvoyndptutvc3hyeknyvg04r1fss3jhwf8-oc-5",
       "title": "A New Visa Credit Card Offers Bitcoin Rewards Instead of Miles or Cash - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZElRZzlCQkpBcXJkZF9FSFZMRUZsU01oWnRpQ1BKSzFZS0E4WkUyZ2NYd2JQSEtVX3c3alJ0MVBNYVZQOG9qd05BZWFhWm1ha05uNk1xVlZOU1d3ZUJqd1hCdEs1azQ2YnhvR1pPbGZ0XzNuQlZ0MjN5VkZRQlQ0RW9rOGNhdGIxYi00THlzYjRKVlV3Y0ctcUoyMXVOYndpTUtvc3hyekNyVG04R1FsS3JhWF8",
@@ -9580,9 +9535,9 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "ivefvx3lxtfbnmeu4b3rncwtpbuduvk5lukltqmfjbkvlt2zmmfz4b21tednmwfvnrudrnv9ob1pzbgxodnytm1hwddvnahm3ohzesnbvqlzpm0dqaw-oc-5",
-      "title": "Xash Brings Tokenized Gold Rewards to Solana as DeFi Platforms Seek Longer-Term Stablecoin Activity - Cryptonews.net",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnMEU4b3RncWtPbUdUVk5lUklTQmFJbkVLT2ZmMFZ4b21teDNMWFVNRUdrNV9Ob1pZbGxOdnYtM1hWdDVnaHM3OHZESnBvQlZpM0dQaw",
+      "id": "au8tn0n2ejm4wudfv0ztsc1wugjytexyz1i0u1jju0den2kxv1pfqwk5ce41btdxnkzvngjkszb3a3zkqnp0ru00avdllwluc0p2tu9teg9kr1riaeo-oc-5",
+      "title": "Xash Launches Gold Rewards for Stablecoin Activity on Solana, Targeting DeFi's User Retention Problem - The Defiant",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUExjZGx4NEhoSkhmcEhieWtXM241NEhXQ0EtTUstTElFRUh4OThUZGVIZWxQUUZTYlplM1FsQ3l2azQtZ2EzZ09QRFZZMnRDOEFIY0pEMDc2Wm1LbnhlWjBXOE5YbjVjdW5QRWwxYTBIS0tGa0pVMjM5SGI1YWxmaW03aU8tN0N2ejM4WUdfV0ZtSC1WUGJYTExyZ1I0U1JjU0dEN2kxV1pFQWk5cE41bTdXNkZVNGJkSzB3a3ZKQnp0RU00aVdlLWlUc0p2TU9TeG9kR1RIaEo",
       "domain": "news.google.com",
       "stage": "OPTIONAL_SPECULATIVE",
       "earningType": "speculative_or_token_based",
@@ -9594,7 +9549,30 @@
       "costSignals": 0,
       "eligibilitySignals": 2,
       "freshness": {
-        "published": "Thu, 12 Nov 2026 16:35:19 GMT",
+        "published": "Thu, 12 Nov 2026 19:31:47 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
+      "id": "djbswxtsdlvcvlcdg43y3o4clnfnxfxvhq5mutwwtn4zehsx2nquc1owndnexffskjnawvdrmpla3dtdgjxzezfoha4am9swxlbnuq4rfjomvzqd0k5-oc-5",
+      "title": "Xash Launches Gold Rewards for Stablecoin Activity on Solana, Targeting DeFi's User Retention Problem - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVkxmRkFqbWZmbmZTLTVweFRISTlmNVdacGY1UVRLYVBSLWtFU3lCbjhxRlh2UkpBSDM2U09teXJNd3VKMDdldU9MNUVDMGQzUTQtdmJjSEIwM2hFUnMtTVNKX1NZc21MVXlzQmVSRjlDeUtRZ2I3X09wRDJBSWxtSDlvcVlCdG43Y3o4clNfNXFxVHQ5MUtWWTN4ZEhsX2NqUC1OWndNeXFfSkJNaWVDRmpla3dTdGJXZEZfOHA4am9SWXlBNUQ4RFJOMVZqd0k5",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Thu, 12 Nov 2026 18:30:08 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -9626,29 +9604,6 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "4x3rweddlyznayvbtc3dtu2p4ymjerdnzundtvhphzvrzc2phukdyyxj5vtzwqva3c0vysddmt1dlrnrlunywsktdcmd5ulnimfpfymnswggwyw9oqq-oc-5",
-      "title": "Xash launches gold rewards for Solana stablecoin users, betting on usage over holding - Cryptopolitan",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMzdKVW1GZzdYYldhWEZtd1VkUElVUlZmT3dndTJLRmxMTVlRNS1aR2htVnlxNU82TU9nUHFqUDczWldYRXc2TXBOTjhIS1IwUFdFclVVTDZGbEVlUWxpWi14X3RWeDdlYzNaYVBTc3dtU2p4YmJERDNzUndtVHphZVRzc2phUkdYYXJ5VTZWQVA3c0VYSDdMT1dLRnRLUnYwSktDcmd5UlNiMFpfYmNsWGgwYW9oQQ",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Thu, 12 Nov 2026 15:07:16 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
       "id": "wyjvux3jyag8tz2dmbu5udfzbmjdccdbzvurhvzzjd2vaohliaxnrykr3ehvcmdfimfffufnrd2nxnk16tu5fn1fbd3cyykzpwufyuw9vtmtptf81bw-oc-5",
       "title": "Xash Brings Tokenized Gold Rewards to Solana as DeFi Platforms Seek Longer-Term Stablecoin Activity - BlockchainReporter",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcENseXo0VzFpZXpGLWtqNXF3SDEtMjBNUmpNUmdpMmMzakxzdFFsQlNHZzRsQ3p0VjZlZ2pKd2ZkY0w1VEFCdVY3LTFxQUhvSDhUVHVkakZSekpXNzVUZW9NSENlNzQ1cTVXZ1BqeVo0eWJlM2swYjVUX3JYaG8tZ2dmbU5udFZBMjdCcDBZVURhVzZJd2VaOHlIaXNRYkR3eHVCMDFiMFFfUFNrd2NXNk16TU5FN1FBd3cyYkZpWUFyUW9VTmtpTF81bw",
@@ -9664,6 +9619,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Thu, 12 Nov 2026 14:17:48 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
+      "id": "fbpby1wcunnm3zftnr4qlptuufnwwlfy0vubjhsben1mxzrdhiwugr4rnruevzpu2fiulflx1ffcwncwuzqtzvfc2hnvzrivgozaws5mvrtzjjhttbr-oc-5",
+      "title": "Xash Launches PAXG Rewards for PYUSD DeFi Activity on Solana - The Crypto Times",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYmpLODRrNTZ0LUgwYk1VUFdYNVM1VEpfbXZRalBBNWJiV3c2azhodGZ1eFc0MzlveG53dkFFYzVWcEN0REcyNkV2dFBpby1wcUNnM3ZfTnR4QlpTUUFnWWlfY0VUbjhsbEN1MXZrdHIwUGR4RnRueVZpU2FIUlFLX1FFcWNCWUZqTzVfc2hnVzRIVGozaWs5MVRtZjJHTTBr",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Thu, 12 Nov 2026 14:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -9810,9 +9788,9 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "tdwn1bgfkzedjcvdfnk8zs0rywtryczhnmvjvnzhsr19ideztdewxqzdouhlqdu9jwmz0wmj6rwzfcnnrsunwd053r18ysnjrx21qajqyb0kwr2vwma-oc-5",
-      "title": "MetaMask exits Ethereum validators after attacker diverts staking rewards - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRWJna0VPYzgtRHlEU0hBSlFZMkhDS2N6SHBuenR5NE9ia2VrcUhJZ0JMejNJcHNfYzJHT05zT0VXQk10YUs5cXJiVlNENWt4TV82aUJzWkNIamU2WXZQN2pYbndnRkZab3JzUFdrdXpMV2lVS2gtdWN1bGFKZEdjcVdFNk8zS0RyWTRYczhnMVJVNzhsR19IdEZtdEwxQzdOUHlQdU9jWmZ0WmJ6RWZFcnNRSUNWd053R18ySnJrX21QajQyb0kwR2VwMA",
+      "id": "6ekdja0fpqmlnneftohqzbdi5z1g3rdittxzwbjjzdudvr0xibhphnkjav2w4uktnvjdjtgdrrvl5rdvhqtroaff1zkrsv0pvds1weve0owfxzkddtq-oc-5",
+      "title": "Grass Airdrop Potential: What Traders Need to Know - Binance",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ueTVCUDN6ekdja0FPQmlNNEFtOHQzbDI5Z1g3RDItTXZWbjJzdUdvR0xibHphNkJaV2w4UktnVjdjTGdrRVl5RDVhQTROaFF1ZkRsV0pvdS1weVE0OWFXZkdDTQ",
       "domain": "news.google.com",
       "stage": "OPTIONAL_SPECULATIVE",
       "earningType": "speculative_or_token_based",
@@ -9824,7 +9802,7 @@
       "costSignals": 0,
       "eligibilitySignals": 2,
       "freshness": {
-        "published": "Thu, 01 Oct 2026 07:00:00 GMT",
+        "published": "Sun, 29 Sep 2024 15:04:01 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -9948,6 +9926,29 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
+      "id": "wkxvv3hos2nxzvfkc3npzk02vljxttjptemwbwx5qzb1bnf1dvlzalnpvk1izflbwedqtwp1dghtejb4zxi2u3vybhfotxdrzuhuykr1sjqxzhzfu1k-oc-5",
+      "title": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions - Binance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQmM0bExNSUU5bEJ0bmFpcl83QmtqY2hjdFphZ0pNS3NsR29mVlNJaHNhMncyY09tUXZWWkxvV3hoS2NXZVFKc3NPZk02VlJXTTJpTEMwbWx5QzB1bnF1dVlZalNPVk1IZFlBWEdqTWp1dGhTejB4ZXI2U3VybHFoTXdRZUhUYkR1SjQxZHZfU1k",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Mon, 29 Jun 2026 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
       "id": "1rezujirkhxyxnfmhj1aehctjzxzlbtvhzluujhcmm5cgxmcdjkt05yzelesndnzeh2dznjwhptvmtvogh0clzeywi0uly4qxfoz0c4wtfhegn4x0rz-oc-5",
       "title": "Grubhub Offers Bitcoin Rewards for Food Deliveries - CoinMarketCap",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOLXlfZHVtVV9oUVVCTThCTjE4QThTaGJTVG8wbmtYWHprU0p2VGJIXzR0cjl2eTVvY1FPOGw5TGIyV1REZUJIRkhXYXNFMHJ1aEhCTjZxZlBTVHZLUUJhcmM5cGxmcDJKT05YZElESndNZEh2dzNJWHptVmtvOGh0clZEYWI0UlY4QXFOZ0c4WTFHeGN4X0Rz",
@@ -9963,6 +9964,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Mon, 25 Sep 2023 21:52:44 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
+      "id": "pz1fnvhbhbnfjmjbslxl2q0hzq2tfog43r3jpbdjwsgxwuwdwtddncffyum9fsfhsrfexwuhgathfofe5wvlzzej1zni0owxidwlgszhtofbrwxjudw-oc-5",
+      "title": "Fuse Crypto receives SEC no-action relief letter over its green energy rewards token - The Block",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVU9hdFM4X2ljTHczWjM0NUUyTl81cEVpUkRYcm96UlFKczZYa2Q3aG4wLVctaHVjMjJwOUFQR0dlRkg0azdFZW5qaFctWGZnOFc3NklXb05ZamFKU2RUc3lrM0dMcWFwa3FuZE1YZ1FjeGFFLXE0amRrblhGU1FBTlRsNWVPZ1FnVHBHbnFjMjBsLXl2Q0hZQ2tFOG43R3JpbDJwSGxwUWdWTDdNcFFYUm9fSFhSRFExWUhGaThFOFE5WVlzZEJ1ZnI0OWxIdWlGSzhTOFBRWXJUdw",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Mon, 24 Nov 2025 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -10032,6 +10056,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Mon, 20 Oct 2025 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
+      "id": "gpieexiqunkyknrq3n4s2jjrzf5d25pbxhxr2ltu043ntj4tlnisuztzmxkz0w1lu5pmtr3unbpefi0dznpoeh3yjbdr0dkdwzuytdqagzla3hfzgnb-oc-5",
+      "title": "Coinbase and Amex launch the Bitcoin Rewards Card - Altcoin Buzz",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPek5wWFhyR1RxSFV6TXBMR0lZN1ZjNlpGTkV1cjZqZ2ZSVHZRTGpIeExiQUNkYkNrQ3N4S2JJRzF5d25pbXhXR2ltU043NTJ4TlNiSUZtZmxKZ0w1LU5PMTR3UnBPeFI0dzNPOEh3YjBDR0dKdWZuYTdQaGZLa3hfZGNB",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Mon, 16 Jun 2025 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -10155,6 +10202,29 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
+      "id": "tlpsdmxdldftu5vdee5nvnpzwexu1rva01zq2flrtd0mxdjeevudk81cfllvwl2bglob1dwekswdkrmvnjrngxtwlfjb1c5eehqyks0cfhuq0hqv09r-oc-5",
+      "title": "Staking 101: Secure the Blockchain, Earn Rewards - Grayscale",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWWNaRG02Qm91MG9FZWVKZW5ZbDBwXzZLY1RjMkYzdkhJV0R0Ym1pM2JXVnRCQ3VEVTlpSDMxdldfTU5VdEE5NVNPZWExU1RVa01zQ2FLRTd0MXdjeEVudk81cFlLVWl2bGlOb1dWekswdkRMVnJRNGxTWlFJb1c5eEhqYks0cFhuQ0hQV09R",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Mon, 08 Dec 2025 08:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
       "id": "tvmjvqzbwwfdfnhyzqxyttexvnhdrbugtqjhyvxhqzkpddgldmtdydhhfrth6b2rlqvz0zmpwmezluzdycvdcuklyqvbfzlg2s1dxuzvebtvxv0pcqq-oc-5",
       "title": "How Linea Became the Go-To Layer-2 for SWIFT — and Its Token MetaMask’s $30M Rewards Pick - CCN.com",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMDBaZWkzMVAwS0YwYzVBajhnMjRZRml5dW1rNEpaOHdEdWVyaXBQQkFCM3htcndTUk5INDVtVmJvQzBWWFdFNHYzQXYtTExVNHdrbUgtQjhyVXhQZkpDdGlDMTdYdHhFRTh6b2RlQVZ0ZmpwMEZLUzdycVdCUklyQVBfZlg2S1dxUzVEbTVXV0pCQQ",
@@ -10178,9 +10248,9 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "dzrtln2v3zbu0fuvkzzyvrnsmdznjuxdvqxbfrmawvkm2tnqmnyv182bvhcu09qvenzbkgteuzrzi1autbaz3litws2nznfbwfpstzvekrpamfoduxz-oc-5",
-      "title": "Introducing Chainlink Rewards Season 1 - Chainlink",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55eDZrTlN2V3ZBU0FUVkZZYVRNSmdzNjUxdVQxbFRmaWVKM2tNQmNyV182bVhCU09qVENzbkgteUZrZi1aUTBaZ3liTWs2NzNFbWFPSTZVekRPamFodUxZ",
+      "id": "b1hrnl9jahhtqnr4slf0a0txrxnzs2dtdgytcjhey0h5ofbvulzos183al9lbu5itndlbwpoexcwavqxb19ccfi1mddieviyyuzbsmdwctuwcnfouja-oc-5",
+      "title": "Introducing Chainlink Rewards: Season Genesis - Chainlink",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMRVpWNlBNeFpib1hRNl9jaHhTQnR4SlF0a0txRXNzS2dtdGYtcjhEY0h5OFBVUlZOS183al9LbU5ITndLbWpOeXcwaVQxb19CcFI1MDdieVIyYUZBSmdwcTUwcnFoUjA",
       "domain": "news.google.com",
       "stage": "OPTIONAL_SPECULATIVE",
       "earningType": "speculative_or_token_based",
@@ -10192,7 +10262,7 @@
       "costSignals": 0,
       "eligibilitySignals": 2,
       "freshness": {
-        "published": "Mon, 03 Nov 2025 08:00:00 GMT",
+        "published": "Mon, 05 May 2025 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -10362,6 +10432,29 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
+      "id": "articles-cbmis0fvx3lxte0wse1lzw52z1e5dxdodvhidvk5owtmsewybwzpsvezodbitzgxec1mwwtxcedycv9lnvd5vwphcy10cwrtvzvzy0pyna-oc-5",
+      "title": "LP Rewards Are Live Through Uniswap Web App - Uniswap",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wSE1lZW52Z1E5dXdodVhidVk5OWtmSEwybWZpSVEzODBITzgxeC1mWWtXcEdYcV9LNVd5VWpHcy10cWRTVzVzY0pYNA",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 80.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Fri, 25 Apr 2025 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
       "id": "kls1rcgxxvlbxc3rrmk80vmdnewu4s1a0ylvalw9mbhrls3jrqjrfawy2eensltfhlxlsvmjkd1jpzhjfvzzjoelpmtl0ndhtvuzesu5tzlzuedbzqq-oc-5",
       "title": "Taiko, a $22 million project, releases its latest Galxe airdrop mission tutorial guide! - Binance",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SLTdtcmUtYlZKLS1RcGxxVlBxc3RrMk80VmdneWU4S1A0YlVaLW9MbHRlS3JRQjRFaWY2eENsLTFHLXlSVmJKd1JPZHJFVzZJOElpMTl0NDhTVUZESU5TZlZUeDBZQQ",
@@ -10500,29 +10593,6 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "3szvettd5ymlly3jdwljtsmvomu56avplzjrkcfvfv1fnzdc4mzvpamvimenwsuhlztkyq1n1cjytu0dine55sjhrvlvqwjjic3bqdg82tk1ubufrzw-oc-5",
-      "title": "infiniFi Token Launch Nears: When Will $INFI Airdrop Reach Wallets? - Coin Gabbar",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdHN2TldBTWxGU3M0dm90ZHNaLU1PckRyX3A3NmpIejk2SzRsYUZleEZjNUZOX2dtYXhYQmx3SzVETTd5YmllY3JDWlJtSmVoMU56aVpLZjRkcFVfV1FNZDc4MzVPamVIMENwSUhLZTkyQ1N1cjYtU0diNE55SjhRVlVQWjJIc3BqdG82Tk1ubUFRZw",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Fri, 13 Nov 2026 12:20:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
       "id": "vromklxaxnrcknbd19bszdsm2jmr2x4n1pwbkhnrwfjqws1dveyrxlhyxhccxnhd0rltg1uulzseenpqur1ynpkvletcfnwq3numepvwdjkzjb6mxfr-oc-5",
       "title": "Coinbase and AmEx Launch Bitcoin Rewards Credit Card for U.S. Subscribers - FinTech Weekly",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMmpWMVRybjBSRmZxemhVb0R1ZTRxT1FpQTRVMEZNRmc0ZXdnd184RTgwdjlxTVRoMklxaXNRckNBd19BSzdSM2JMR2x4N1pwbkhnRWFJQWs1dVEyRXlHYXhCcXNHd0RLTG1UUlZseENPQUR1YnpkVlEtcFNWQ3NUMEpVWDJKZjB6MXFr",
@@ -10538,29 +10608,6 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Fri, 13 Jun 2025 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
-      "id": "alu5zk9xmzz3rghnnna2nhduxzl2wm85rze5vc1buk9pquzmq3z5d01xshnunfzheucznm9rq1dlwdruow9ytmxuvlrwtukzm2djzxu5nw1uewk1oue-oc-5",
-      "title": "Apple AirDrop leaks user data like a sieve. Chinese authorities say they’re scooping it up. - Ars Technica",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObzlzbENHQ001d2VvWXhNX3gtbzQ5UFdWZDVkZmF2UHlOMXFSUFd3M19IamNZSW1JZG1ZdTloVFUtcmlUT2ZDZGVSOWhxcFZ6RWVRYU1BZGU4SV8wMjZ5ZFliNlhWdExkMm1hdEhlalU5Zk9xMzZ3RGhnNnA2NHduXzl2Wm85RzE5VC1BUk9pQUZmQ3Z5d01xSHNuNFZHeUczNm9rQ1dlWDRUOW9yTmxuVlRWTUkzM2dJZXU5NW1ueWk1OUE",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 80.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Fri, 12 Jan 2024 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -10592,9 +10639,9 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "kewvtk1ehvaa1f3terjyuxoy1joemrccnfrce10u0zlu3dueu9johjxzkroduh0t0llodg1rdvwdvjzu19ebxdluhjfwjnxvwdzsg9ecc1xwhp0cnhj-oc-5",
-      "title": "Kamino Tokens Rewards: How to Maximize Your DeFi Earnings on Solana - OKX",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mNXRzZEFWZzVNclNZVzZua2VITmFUeVdnWkEwVTk1eHVaa1F3TERJYUxoY1JoemRCcnFrcE10U0ZlU3dueU9jOHJXZkRodUh0T0llODg1RDVWdVJZU19EbXdLUHJFWjNxVWdzSG9EcC1xWHp0cnhJ",
+      "id": "pv25mnudjmvdsujlhbjfeu0zsdhhmek5cohnjbnhtt1r2azm5tmiwzmpbuv9evtrynwjpamvzznk4ulvmae1wrg1itk9fz0xgndjxwwjvt0nwqumwoa-oc-5",
+      "title": "X Empire Airdrop Listing Date, $X Airdrop Criteria - Binance",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9YT0xsN1NpV25MNUdjMVdSUjlhbjFEU0ZSdHhMek5COHNJbnhTT1R2azM5TmIwZmpBUV9EVTRyNWJPamVzZnk4UlVMaE1WRG1ITk9fZ0xGNDJxWWJVT0NwQUMwOA",
       "domain": "news.google.com",
       "stage": "OPTIONAL_SPECULATIVE",
       "earningType": "speculative_or_token_based",
@@ -10606,7 +10653,7 @@
       "costSignals": 0,
       "eligibilitySignals": 2,
       "freshness": {
-        "published": "Fri, 07 Nov 2025 08:00:00 GMT",
+        "published": "Fri, 04 Oct 2024 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -10661,9 +10708,9 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "1nzdrqmddn1v4tjjzcwrpcfvjm3z2otnzrdy3am9fzjz2vkzfujd3t2k5u29vsxjjwxpic0ddedjjovnob28zm2kymgi4luvgag01owwwaw9mvuvtvq-oc-5",
-      "title": "How to Check ROBO Token Airdrop Eligibility Ahead of Coinbase Listing? - Coin Gabbar",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZWxfWDZXSTBaWENhcWtmSDNQS2JEcGlwaWF1cWV0QnZYZnlMSEZZY0oyelpha1lxUkNYaVFIY2hObG1HbnotdWwzaURDcE9FeTdyLS1iQ216VEU1TTB1NzdrQmdDN1V4TjJZcWRpcFVJM3Z2OTNZRDY3am9fZjZ2VkZfUjd3T2k5U29vSXJjWXpic0dDeDJJOVNOb28zM2kyMGI4LUVGaG01OWwwaW9mVUVTVQ",
+      "id": "utmhamgpmluh5nmluc21xdhz6vlnzt2vtblbiowvcq25sae9vndcyz0vwy0k1n0ndz2txvklpvgnyadduwnvhsf9aavu1vvazuxfqbwt0wjfwsedacg-oc-5",
+      "title": "Sonic SVM Airdrop Guide: Key Dates, Eligibility Criteria, and All the Information You Need - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbDFDMGZsUlJUTjBOMkpwREpOMXVGMTB1LXAxTE5aR1Fnb0hSZUd4WG1qQk1DeWoxaU14Qmt3SjhFaERXZDlIRmJIZXRYa0llQXZ2bnB5Y2RLUW9pcmQ0RjhMeGxiV1IyRDFBZE5vODQ5aU1UTmhaMGpmLUh5Nmluc21xdHZ6VlNzT2VtblBiOWVCQ25SaE9VNDcyZ0VWY0k1N0NDZ2txVklPVGNYaDdUWnVhSF9aaVU1VVAzUXFqbWt0WjFwSEdacg",
       "domain": "news.google.com",
       "stage": "OPTIONAL_SPECULATIVE",
       "earningType": "speculative_or_token_based",
@@ -10675,53 +10722,7 @@
       "costSignals": 0,
       "eligibilitySignals": 3,
       "freshness": {
-        "published": "Sat, 21 Feb 2026 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
-      "id": "x3lxte5vntbqvkv4m2ezzxc4djy3wdlduhj6rtdqsup3d083nvrrnvm5ymzfsgneexfoss1vvlr6ewfss3hwwws3tu9pwjbsrwtscljdnmstylhtnk8-oc-5",
-      "title": "Positioning Yourself for Retroactive Airdrops: Maximizing Eligibility for Lucrative Rewards (Part 1) - Binance",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5vNTBqVkV4M2EzZXc4djY3WDlDUHJ6RTdQSUp3d083NVRRNVM5YmZfSGNEeXFoSS1VVlR6eWFsS3hwWWs3TU9PWjBsRWtSclJDNmstYlhTNk8",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 78.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 3,
-      "freshness": {
-        "published": "Mon, 05 Jun 2023 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
-      "id": "tdnqcehpwu13yw1pavpzbgt3mjnyoevewujezevtcunqtvlfamzsb2tsm3zmem5rdzlushrldu1dwehxztvncfrty21urjbtqjfktmtbulmtnvqxbhy-oc-5",
-      "title": "Perle Labs Airdrop: How to Register, Check Eligibility, Earn Rewards - Coin Gabbar",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWUh3bWtRMmNmZktETkVYTGZuMnJYMlUxVXA3TG9hZUpSRWc2dGlGVUphaE5LOHhweG9PWHk2MU4xRUZLT3dVRF9ZYl9DUm9scVQydnkwQ2p0UThldHByTDNQcEhpWU13YW1PaVpZbGt3MjNYOEVEWUJEZEVtcUNQTVlfamZsb2tSM3ZMem5RdzlUSHRLdU1DWEhxZTVNcFRtY21uRjBtQjFkTmtBUlMtNVQxbHY",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 78.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 3,
-      "freshness": {
-        "published": "Fri, 20 Mar 2026 07:00:00 GMT",
+        "published": "Wed, 15 Jan 2025 17:49:24 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -10753,6 +10754,29 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
+      "id": "u9ctffkbg9idlrknuhuunjjwdytuuh5ywpfvwlhumktss1xzlhyymnmqwnrtmh6m1nhzfjqbvhln0z5rmrrunh6qvlrsmq0owfnqwlkbedhswfqemh3-oc-5",
+      "title": "How to Claim the Grass Airdrop: A Comprehensive Guide - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUWg5TDB2R2dRZU1WWmR2N0hLU3VsN2doN1AyZDhyMjZoajgxaGQ2cUtPVVZ2S2hkZ0did2NLZElpTVRBWU9CTFFkbG9idlRkNUhUUnJjWDYtUUh5YWpFVWlHUmktSS1XZlhYYmNMQWNrTmh6M1NhZFJqbVhLN0Z5RmRRUnh6QVlRSmQ0OWFNQWlkbEdhSWFqemh3",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 77.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Wed, 20 Nov 2024 12:59:51 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
       "id": "qcknddw5zlxhmzmlicklsdex1zeljrgfstwtxtdbzc3cxsgk3vehfz2rlr0vxenhec3o3ngiyrvo2vws5rjzsquxwvl9olvvpsvzjqmfpbnnibglzyw-oc-5",
       "title": "Billionaire Binance founder 'CZ' jumps back into crypto with $16 million investment in token airdrop service Sign - Fortune",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeTIweHZiMmxkV2NJbFVMZ1ozS3FKazBCYW1hUl9NYjdrWkpyYkhoSHF1OUxrNXpzRTRMVXVja19xb3g1NEhISnRnRHNtT09sVElvMjB4anpDWk5ueWU2b3B2Wk8zRG1GLWNYZUVCR29jd3BCMkd0TmFiQzMyQ21JMVhqOVdpeDBSaWkxcUdQckNDdW5zLXhmZmlIcklsdEx1ZEljRGFSTWtXTDBzc3cxSGk3VEhfZ2RLR0VXenhEc3o3NGIyRVo2VWs5RjZSQUxwVl9OLVVpSVZjQmFpbnNibGlZYw",
@@ -10768,6 +10792,52 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Tue, 28 Jan 2025 08:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
+      "id": "nxr0uu82tkfjs1hccvrqtwqyrk55wwtjnuq2ouvrn0ppaujvzjyxvghfoxzmvuz4yku0b0zws3jvvxfob2npcufmq3q5z3h3u0psqjbkdmliunlmdfk-oc-5",
+      "title": "Pudgy Penguins Airdrop Guide: How to Claim PENGU token? - CryptoTicker.io",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rLUltWW5RRmdmWk5CVEdqNl9XMWhsLUR6Ym9DMzVyTXhBNXR0UU82TkFJS1hCcVRQTWQyRk55WWtjNUQ2OUVRN0ppaUJvZjYxVGhFOXZmVUZ4YkU0b0ZwS3JVVXFob2NpcUFMQ3Q5Z3h3U0psQjBkdmlIUnlMdFk",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 77.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Tue, 17 Dec 2024 08:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
+      "id": "fbqu2xetgzlsmpob1vou2lfznytmk1leuzwedhnx3bjnur1bkxvnurlywp1vfc3t1b5smqzzlq4x2szdwvmd0t4b3rlmwr0stzzredwehyxq3c2ehpn-oc-5",
+      "title": "How to claim w airdrop - wormhole.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBqU2xETGZlSmpob1VOU2lFZnYtMk1LeUZWeDhNX3BJNUR1bkxVNURlYWp1VFc3T1B5SmQzZlQ4X2szdWVMd0t4b3RlMWR0STZZREdweHYxQ3c2eHpn",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 77.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Tue, 02 Apr 2024 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -10799,9 +10869,9 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "i1zsnfznkdva1dnctjretu3azhvckvobhneov9nznrhmvfjog9gm01mtmzwakxqlvhrq0fzr3a5xzjsu0zzy1nhefffr2d0vdrewmhtrtzvnnj1odjn-oc-5",
-      "title": "Grass Airdrop Season 2 Claim Date: Final 6 Days Before Rewards Go Live - Coin Gabbar",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT3EyMzF1TkpZRUF5NjNtZUNSZWQyT3B4bmJ5ejhiLUN0Z3ZlR1JKUjhnOEtpSTdvd01BcjJCT1hJQUpmenFBM1FUakhmUlVucHgwNjZfQTZsN001Ri1zSnFZNkdva1dncTJReTU3azhvckVObHNEOV9nZnRhMVFjOG9GM01MTmZwakxqLVhrQ0FZR3A5XzJsU0ZzY1NHeFFfR2d0VDREWmhtRTZvNnJ1ODJn",
+      "id": "xrxyw1htjrhtfrstxatnhk4bdnju1fnq1otel9kmfpfvnu5t1lhb01ybeswlu5ote1hohgwtlbru21wruzwlwx5c1rievbjz2tncfzyuwfxuhjuyutz-oc-5",
+      "title": "TRUMP Airdrop Guide: How to Participate and Claim Your Token - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSWdnWGlTdW92SzliNGNzRUtfOXZLQWh2djJGTU5Xd3FSQUhEZ0dLMThGYzBxM0M4R1ZVRUIxajRMWEN2Q3ZKQ19YRVFLYXRxYW1HTjRHTFRSTXAtNHk4bDNjU1FnQ1otel9kMFpfVnU5T1lhb01ybEswLU5OTE1hOHgwTlBrU21WRUZWLWx5c1RieVBjZ2tNcFZyUWFxUHJuYUtZ",
       "domain": "news.google.com",
       "stage": "OPTIONAL_SPECULATIVE",
       "earningType": "speculative_or_token_based",
@@ -10813,7 +10883,7 @@
       "costSignals": 0,
       "eligibilitySignals": 2,
       "freshness": {
-        "published": "Thu, 16 Jul 2026 07:00:00 GMT",
+        "published": "Thu, 20 Feb 2025 23:04:20 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -10837,6 +10907,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Mon, 20 Oct 2025 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
+      "id": "smkytghluglor2vkq2nfz3hydjd0cutdytbcbwnxbvhlyxo5mgjzvdryeuqtmf9wv2hjos1rtlfvbdhmnddoamg3shf1zhpqmxmwv1vja2p1eghzdke-oc-5",
+      "title": "How to Claim Elixir (ELX) Token Airdrop: Step-by-Step Guide - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQnNDY0gyWHRJMk81QzVUT18ydENxMGdMZG9wTXBEV3dMWFA2eWlOVGdQNG11LXZ4S245d0I5cWwwcmN4dHRtUVZlSmkyTGhlUGloR2VkQ2NfZ3hYdjd0cUtDYTBCbWNxbVhlYXo5MGJZVDRYeUQtMF9WV2hjOS1RTlFVbDhmNDdOamg3SHF1ZHpQMXMwV1Vja2p1eGhzdkE",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 77.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Mon, 10 Mar 2025 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -10914,75 +11007,6 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
-      "id": "0tmekr4zkrrsg9ws2p4m0vmr01jd3pyotn3ret5zthfdc1kr0fnzjhsclewwni1ttk0u05jzmlgsdnyek02wdjmsthmci1yczlwnhvmtljpa0p5wkr5-oc-5",
-      "title": "DGrid Airdrop Claim Is Live: Eligibility, Steps, Is Listing Next? - Coin Gabbar",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTnNhX0E4cjBMUTFFQmVMdHdoR0djSVEwUUtDSWN5dU1pNWx4RDEwREYwdUZwVVFUOXY1SG1Db0VDWFBKeUdGQ0NIV0tMekR4ZkRrSG9WS2p4M0VMR01jd3pYOTN3REt5ZThFdC1KR0FNZjhSclEwWnI1TTk0U05JZmlGSDNyek02WDJmSThMci1yczlWNHVMTlJPa0p5WkR5",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 75.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 3,
-      "freshness": {
-        "published": "Wed, 19 Aug 2026 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
-      "id": "0rnshlfdxpswgt3zwr6dhp0exfwxzlyr1k2ckj4slfhnlptdmjlzuo5nurrywhkd3ozcehosfjkmlitqk5zdkvlzjr5v09mes1vempxbff2s295rujy-oc-5",
-      "title": "Tria Airdrop Claim Reality: Why 90% Users Declared “NOT Eligible”? - Coin Gabbar",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbzFXMkdiejZPODlDRUJhR1ZxeVdORERmNEttVlBSanBfODUwczRVYVJXSGpQdjFRblNVcXBFel90WUlQU2V1RHI2SVo0VjNOZkZlaVJrb0RNSHlFdXpsWGt3ZWR6dHp0eXFwXzlYR1k2ckJ4SlFhNlptdmJlZUo5NURRYWhkd3ozcEhoSFJkMlItQk5zdkVlZjR5V09MeS1VempXbFF2S295RUJy",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 75.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 3,
-      "freshness": {
-        "published": "Wed, 04 Feb 2026 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
-      "id": "1rhhvczdezhnjauvcsgthqnhnaxn6tleyv3czwvr6q01jdvdlm0vwd2xkcflru05jy2ryqjzkm2txrfnpz1z6ewjzrlvlr0p3s1vus2ywa25hdzuycw-oc-5",
-      "title": "WalletConnect Airdrop: Eligibility Rules, Claim Process, and User Reactions - Binance",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ReGlzbkZ1RHhvczdEZHNJaUVCSGthQnhNaXN6TlEyV3czWVR6Q01JdVdLM0VWd2xKcFlrU05JY2RYQjZkM2tXRFNpZ1Z6eWJZRlVlR0p3S1VuS2Ywa25HdzUycw",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 75.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 3,
-      "freshness": {
-        "published": "Tue, 21 Jan 2025 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
       "id": "3rbvfbitvrlz3o3ahh4wmeywwmtcnm3oephzfdirw1vlxfdemdzstncrlncc3ruwnc4d0psnlziqufvc3rncuhuznmtzhv1bkfamfjgy3lfbu1hzhrx-oc-5",
       "title": "How To Claim GOATS Airdrop? All About GOATS Airdrop Eligibility Criteria - CoinDCX",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9RZjJQajFaQkpHOEpyVHA4MTVXWDN6U3RBVFBiTVRLZ3o3aHh4WmEyWWMtcnM3OEphZFdiRW1VLXFDemdZSTNCRlNCc3RUWnc4d0psNlZiQUFVc3RncUhUZnMtZHV1bkFaMFJGY3lfbU1HZHRX",
@@ -10998,75 +11022,6 @@
       "eligibilitySignals": 3,
       "freshness": {
         "published": "Thu, 28 Nov 2024 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
-      "id": "wkjrnvj6yketnvnhowpmytqyefqyd0ytm2w4znr5vtznoedtewjun0pfa3nybwjlv0jmmdgytlphtgzhd0vtx1dfyjbxvw4wvnvpckrnn0tjq3fgbfe-oc-5",
-      "title": "How To Claim Arbitrum (ARB) Token Airdrop – Eligibility, Date & Process - CoinGape",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOUJzd19mSUVjRnc5QThxdFdRTzMwaDFfRm9KLWh5RjdSbDgyaFNheWpKWkJrNVJ6YkEtNVNHOWpmYTQyeFQyd0YtM2w4ZnR5VTZnOEdTeWJuN0pfa3NYbWJLV0JMMDgyTlpHTGZhd0VtX1dfYjBxVW4wVnVpckRnN0tjQ3FGbFE",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 75.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 3,
-      "freshness": {
-        "published": "Thu, 16 Mar 2023 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
-      "id": "wvk00mm5jazvlvlm4lvhebgjnagxtqkzzbexbuvdywnpmq2dlywzrsnl0nxpjlxbfuwd3qld5nmfqnmnutelhajreafnwx3ewohvxutlrutraadq5wg-oc-5",
-      "title": "DuckChain Airdrop Season 1 - Eligibility, Tokenomics, and How to Claim Your $DUCK Tokens - KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY1ExR2dFZzF3dDV0dHVjUEhSNVU2akpNQ2Q5R1pUeTNyQW9fUHI4cDFncmZFUjFHb0x0eXBCdVhMVWVKYWh3OVlZSDIxV1MtV1JuUlg1eXpkaEZobTdsbmdNa1FncGVwVk00Mm5JazVlVlM4LVhEbGJNaGxtQkZzbExBUVdYWnpmQ2dLYWZRSnl0NXpjLXBfUWd3Qld5NmFQNmNUTElHajREaFNWX3EwOHVxUTlRUTRaaDQ5Wg",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 75.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 3,
-      "freshness": {
-        "published": "Sun, 12 Jan 2025 08:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": false
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
-      "id": "bcxnxtehtrwzavwdmt0xsmnbfbkvpx1pvuzh3ek5ivklkmwstodhtyvpos3lem2rfctiyt0frm3hgstnweurvbfhuulp3cmnnlw54mkvivmc4mmrrea-oc-5",
-      "title": "DGrid Airdrop Claim Window Is Open: Steps to Claim Your $DGAI - Coin Gabbar",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSGtReTVoUEJuQ1J6NkJfMHFPa1dQSkh4RG10YUdJWUtKY2dBcXNxTEhTRWZaVWdmT0xsMnBFbkVpX1pVUzh3ek5IVklkMWstODhTYVpOS3lEM2RFcTIyT0FRM3hGSTNweURvbFhuUlp3cmNNLW54MkViVmc4MmRreA",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 74.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 0,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Mon, 17 Aug 2026 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
@@ -11159,29 +11114,6 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Fri, 22 Aug 2025 07:00:00 GMT",
-        "hasDeadline": false,
-        "hasEligibility": true,
-        "hasCostSignal": true
-      },
-      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
-      "nextAction": "NO_FINANCIAL_ACTION"
-    },
-    {
-      "id": "r1n6ahn6rmdgvvrkvxrgnfbtb1fxdzvynmvrttdlymf3bjl0ymlbrhvwnek2d014vgytbuledc00uljwc0jzwgrkrtfnslfztwtjzdzyclvanxhob1g-oc-5",
-      "title": "Solana Staking Rewards Guide: Rates, Risks & How To Stake - OKX",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9YeGFwQ3dsR1N6aHN6RmdGVVRkVXRGNFBTb1FxdzVyNmVRTTdlYmF3bjl0YmlBRHVwNEk2d014VGYtbUlEdC00UlJwc0JzWGRkRTFNSlFZTWtjZDZYclVaNXhOb1g",
-      "domain": "news.google.com",
-      "stage": "OPTIONAL_SPECULATIVE",
-      "earningType": "speculative_or_token_based",
-      "explicitRewardUsd": 0,
-      "payoutEvidence": "UNSPECIFIED",
-      "netScore": 72.33,
-      "trustScore": 10.0,
-      "independentSources": 0,
-      "costSignals": 1,
-      "eligibilitySignals": 2,
-      "freshness": {
-        "published": "Fri, 07 Nov 2025 08:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": true
@@ -11788,6 +11720,29 @@
       "nextAction": "NO_FINANCIAL_ACTION"
     },
     {
+      "id": "nw9udwfotkhym3pqyv80rha2bgjvswlxzff3afjru3vjelqwzkjpytbnuedytu1tmkrzcjnxywrteeq3mfpznxqys1vzvvpfvffzxznrynz1bfrbtve-oc-5",
+      "title": "Circle Opens Arc Testnet With BlackRock, Visa, AWS Among Its Participants - Decrypt",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qdzJKSmphQUU1azVZYi1vY1FVNW9udWFOTkhYM3pQYV80RHA2bGJVSWlxZFF3aFJRU3VjelQwZkJpYTBNUEdyTU1TMkRZcjNxYWRteEQ3MFpZNXQyS1VzVVpfVFFzXzNRYnZ1bFRBTVE",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "unknown",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 60.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Tue, 28 Oct 2025 07:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
       "id": "fnjnwjtcxb3redcnwldufq4bnnumwzrd2xtqzl2u3dxwnjkmc05zxbey21rd0zoymrkv1j4qne0n1dqukdymflnyuzycju0q2nfejzxeffpav95bghj-oc-5",
       "title": "Circle’s Arc Blockchain Testnet Goes Live: Over 100 Partners Including Mastercard, Coinbase on Board - CryptoRank",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYTNvWVlBZ2d6RnVrYVBVSS1SbXoyVTV6cGVESHY5WWZrZDVKU1R6czh5dlA1dC1IcllaZlFPOGJFb3FKNlA2dVhPTDkzaHdWTWkyVlFsMjNoWDBOZDBaRlBkNzRBdmRwUkF5RURTaHpsV2s1ajJtc3ZyVFNJNWJTcXB3REdCNWlDUFQ4bnNUMWZRd2xTQzl2U3dxWnJkMC05ZXBEY21Rd0ZoYmRKV1J4QnE0N1dqUkdYMFlNYUZycjU0Q2NfejZxeFFpaV95bGhJ",
@@ -12240,6 +12195,29 @@
       "eligibilitySignals": 2,
       "freshness": {
         "published": "Fri, 12 Jan 2024 08:00:00 GMT",
+        "hasDeadline": false,
+        "hasEligibility": true,
+        "hasCostSignal": false
+      },
+      "incomeRule": "Only funds actually observed on-chain or in a verified payment settlement count as income.",
+      "nextAction": "NO_FINANCIAL_ACTION"
+    },
+    {
+      "id": "es-cbmiuefvx3lxte9nqnfhrjhqxzbzy0i4vk03ti1xrwzvn0feags2q0g1mtjnzervvjrxmdzymzzrzdhtatq5rfj2re9qy0fpu3fcnlpoovbusgl1-oc-5",
+      "title": "Mezo: get mats points for Bitcoin staking - Incrypted",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nQnFhRjhqXzBZY0I4Vk03Ti1XRWZvN0FEaGs2Q0g1MTJnZERvVjRXMDZYMzZRZDhTaTQ5RFJ2RE9qY0FpU3FCNlpoOVBuSGl1",
+      "domain": "news.google.com",
+      "stage": "OPTIONAL_SPECULATIVE",
+      "earningType": "speculative_or_token_based",
+      "explicitRewardUsd": 0,
+      "payoutEvidence": "UNSPECIFIED",
+      "netScore": 60.33,
+      "trustScore": 10.0,
+      "independentSources": 0,
+      "costSignals": 0,
+      "eligibilitySignals": 2,
+      "freshness": {
+        "published": "Fri, 09 Aug 2024 07:00:00 GMT",
         "hasDeadline": false,
         "hasEligibility": true,
         "hasCostSignal": false
